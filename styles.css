@@ -119,8 +119,8 @@ body { padding-bottom: env(safe-area-inset-bottom); }
 }
 
 /* Catalog */
-.search-wrap { margin-bottom: 0.85rem; }
-#search {
+.search-wrap { margin-bottom: 0.55rem; }
+#search, #url-input {
   width: 100%;
   border: 1px solid var(--border);
   background: var(--bg-soft);
@@ -131,11 +131,75 @@ body { padding-bottom: env(safe-area-inset-bottom); }
   font-size: 0.95rem;
   outline: none;
 }
-#search:focus { border-color: var(--peach); }
+#search:focus, #url-input:focus { border-color: var(--peach); }
+.url-bar {
+  display: flex;
+  gap: 0.45rem;
+  margin-bottom: 0.75rem;
+}
+.url-bar #url-input { flex: 1; }
+.url-go {
+  border: none;
+  background: var(--text);
+  color: var(--bg);
+  font: inherit;
+  font-weight: 650;
+  font-size: 0.88rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+html.dark .url-go { background: var(--peach); color: #1a1208; }
 .catalog-meta {
   font-size: 0.8rem;
   color: var(--text-mute);
   margin: 0 0 0.75rem;
+}
+.kw-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.55rem;
+}
+.kw-chip {
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.kw-chip:hover {
+  background: var(--peach-soft);
+  border-color: color-mix(in srgb, var(--peach) 50%, var(--border));
+  color: var(--text);
+}
+.badge-local {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #9a5b1a;
+  background: var(--peach-soft);
+  padding: 0.08rem 0.4rem;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+html.dark .badge-local { color: #f0c48a; }
+.muted { color: var(--text-mute); font-size: 0.85rem; }
+code {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.45rem 0.6rem;
+  background: var(--bg-soft);
+  border-radius: 8px;
+  font-size: 0.78rem;
+  text-align: left;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 .video-card {
   display: block;
@@ -168,15 +232,6 @@ body { padding-bottom: env(safe-area-inset-bottom); }
   font-size: 0.78rem;
   color: var(--text-mute);
 }
-.badge-insights {
-  color: #9a5b1a;
-  background: var(--peach-soft);
-  padding: 0.1rem 0.45rem;
-  border-radius: 999px;
-  font-weight: 600;
-}
-html.dark .badge-insights { color: #f0c48a; }
-
 /* Detail */
 .player-wrap {
   position: relative;
