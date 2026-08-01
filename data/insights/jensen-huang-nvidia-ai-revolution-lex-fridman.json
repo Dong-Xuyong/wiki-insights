@@ -1,0 +1,95 @@
+{
+  "slug": "jensen-huang-nvidia-ai-revolution-lex-fridman",
+  "sections": [
+    {
+      "title": "Jensen Huang",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about extreme co-design exists because distributed AI workloads hit Amdahl's Law?",
+          "a": "**you must shard pipeline,** data, and model, making networking/CPU/memory/power all bottlenecks."
+        },
+        {
+          "e": "🔑",
+          "q": "Why does this matter: Company org charts should mirror the product you build, not generic hamburger charts; Jensen has 60+ direct re?",
+          "a": "**Company org charts should mirror the product** you build, not generic hamburger charts; Jensen has 60+ direct reports, almost all engineers."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Install base defines architecture**?",
+          "a": "**x86 survived despite elegance criticism;** CUDA on every GeForce built developer reach before cloud existed."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about four scaling laws loop?",
+          "a": "**agentic systems generate data → back to pre-training** → post-training → test-time → deploy; synthetic data is normal (most human teaching is synthetic too)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about inference/thinking is harder than pre-training/memorization?",
+          "a": "**test-time scaling is intensely** compute-heavy; agentic scaling multiplies AI like hiring employees."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about aI model architectures change ~every 6 months; hardware ~every 3 years?",
+          "a": "**NVIDIA does internal research** + listens to every AI lab + keeps CUDA flexible."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about digital workers need file systems, research, and tools?",
+          "a": "**OpenClaw schematic was at** GTC two years before launch; agents use microwaves, not finger-lasers."
+        },
+        {
+          "e": "🏆",
+          "q": "Why does this matter: Token cost drops ~10×/year via perf/watt co-design; NVIDIA scaled compute ~1M× in 10 years vs Moore's Law ~100?",
+          "a": "**Token cost drops ~10×/year via perf/watt** co-design; NVIDIA scaled compute ~1M× in 10 years vs Moore's Law ~100×."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about supply chain?",
+          "a": "**200 suppliers, 1.3M components per Vera Rubin** rack; Jensen informs upstream/downstream CEOs like employees — no contract with TSMC after decades."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about power grid runs ~60% of peak 99% of the time?",
+          "a": "**data centers should gracefully** degrade during rare peak demand instead of requiring six-nines."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about elon's Colossus lesson?",
+          "a": "**question necessity, method, timeline;** be present at point of action; personal urgency propagates."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about nVIDIA moat #1?",
+          "a": "**CUDA install base + developer trust; moat #2**: horizontal ecosystem integration across every industry/cloud."
+        }
+      ]
+    }
+  ]
+}

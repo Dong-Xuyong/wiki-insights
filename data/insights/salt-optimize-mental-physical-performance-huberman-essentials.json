@@ -1,0 +1,65 @@
+{
+  "slug": "salt-optimize-mental-physical-performance-huberman-essentials",
+  "sections": [
+    {
+      "title": "Brain sodium sensing",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "How does the brain know when you need salt or water?",
+          "a": "The **OVLT** sits behind a weak blood-brain barrier fence and senses bloodstream **osmolarity** and blood pressure, then drives thirst, **vasopressin**, and kidney retention or excretion."
+        },
+        {
+          "e": "💧",
+          "q": "What's the difference between osmotic and hypovolemic thirst?",
+          "a": "**Osmotic thirst**: high salt → drink water while vasopressin **restricts urine**. **Hypovolemic thirst**: low blood volume/pressure → seek **water plus salt**. Both gate fluid balance, not just \"feeling thirsty.\""
+        }
+      ]
+    },
+    {
+      "title": "How much salt for you",
+      "items": [
+        {
+          "e": "🩺",
+          "q": "Is there one right daily sodium target?",
+          "a": "No — **context decides**. Population data links ~**2.3 g sodium/day** with lower CV risk; risk rises above ~**4–5 g**. Hypertensive people must be cautious; **know your blood pressure first**."
+        },
+        {
+          "e": "📉",
+          "q": "When might higher salt intake help instead of hurt?",
+          "a": "Low BP, dizziness on standing, **POTS**, orthostatic hypotension, or idiopathic orthostatic tachycardia may benefit from about **6–10 g salt/day** (**2,400–4,000 mg sodium**) per the ASH guidance cited."
+        }
+      ]
+    },
+    {
+      "title": "Performance hydration",
+      "items": [
+        {
+          "e": "🏃",
+          "q": "How much fluid during exercise or hard cognitive work?",
+          "a": "Use the **Galpin equation**: body weight (lb) ÷ **30** = ounces of fluid every **15 minutes**. Most people under-hydrate **and** under-electrolyte; sweat loss of **1–5 lb/hour** hits mental and physical capacity."
+        },
+        {
+          "e": "🧂",
+          "q": "Why do low-carb diets and stress change salt needs?",
+          "a": "Low-carb increases excretion of **water, sodium, and potassium** — replenish deliberately. Stress links via **aldosterone/glucocorticoids** to salt craving; **too little sodium impairs the stress response**."
+        }
+      ]
+    },
+    {
+      "title": "Taste traps and safety",
+      "items": [
+        {
+          "e": "🍬",
+          "q": "Why do salty-sweet processed foods make you overeat?",
+          "a": "Parallel salty/sweet pathways in mouth and gut normally self-limit; the **salty-sweet combo masks satiety**. Dial salt on an **unprocessed food background** so true appetite can speak; more salt may cut sugar cravings."
+        },
+        {
+          "e": "⚠️",
+          "q": "Can drinking too much water be dangerous?",
+          "a": "Yes — **hyponatremia**: over-water dilutes sodium → brain dysfunction, and can be **fatal**. Sodium is also essential for **neuronal action potentials** — brain function depends on it."
+        }
+      ]
+    }
+  ]
+}

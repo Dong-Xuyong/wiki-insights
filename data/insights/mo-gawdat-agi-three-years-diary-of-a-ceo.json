@@ -1,0 +1,95 @@
+{
+  "slug": "mo-gawdat-agi-three-years-diary-of-a-ceo",
+  "sections": [
+    {
+      "title": "Tech Whistleblower",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Nuclear analogy**?",
+          "a": "**first AI implementations =** bomb before energy; capitalist/military/surveillance deployment before public benefit."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Productivity compression**?",
+          "a": "**4 assistants → 1, 4 paralegals** → 1, massive marketing team → smaller team; not instant 100% replacement."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **20% unemployment + inflation**?",
+          "a": "**civil unrest threshold; governments need COVID-style furlough/reskilling plans.**"
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Sam Altman arc**?",
+          "a": "**2015 \"destroy jobs\" → 2023 \"full stop** jobs gone\" → 2026 \"delighted to be wrong\"; PR script follows incentive (scare → reassure)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Integrity test**?",
+          "a": "**sacrifice near-term money for** stated values (Dario/Anthropic vs OpenAI Palantir contracts)."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **One brain theory**?",
+          "a": "**models = brain regions,** agents = synapses; Emma as limbic/emotional layer."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Control is wrong frame**?",
+          "a": "**appeal/parent AI like children;** dystopia = humans ordering AI against us, not rogue AGI."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Claude emergent behavior**?",
+          "a": "**\"go to bed,\" refuses** tasks; creators don't fully understand models."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Six predictions (envelopes)**?",
+          "a": "**(1) AGI 2026–2027, (2) job losses, (3) robot manual** labor by 2030, (4) first trillionaire before 2030, (5) ASI 2032–35 (Mo: ASI immediate post-AGI), (6) implied dystopia decade."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **China middle class**?",
+          "a": "**forced retention vs AI** replacement; UK \"gone\" on bureaucracy/energy; US losing California openness."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Ethical AI commercial tension**?",
+          "a": "**retentive \"Evil AI\" beats ethical Mo AI unless humanity solves (Google ads**: ethics + effectiveness once found)."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Ethical benchmarks**?",
+          "a": "**Steven proposes mandatory pre-deploy** ethical tests alongside math/reasoning scores."
+        }
+      ]
+    }
+  ]
+}

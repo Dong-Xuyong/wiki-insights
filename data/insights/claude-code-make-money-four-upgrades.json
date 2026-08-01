@@ -1,0 +1,90 @@
+{
+  "slug": "claude-code-make-money-four-upgrades",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Productive ≠ profitable**?",
+          "a": "**Claude is tuned for** agreement and completion feelings, not business outcomes."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **AI sycophancy is measured**?",
+          "a": "**\"Elephant\" study**: models fail to push back on framing ~88% of the time (humans ~60%); personalization/memory makes it worse."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Council beats single-perspective advice**?",
+          "a": "**side-by-side demo**: plain Claude gave generic \"rework it\" feedback; roast council gave scored personas, CAC/LTV analysis, and a concrete 48-hour test."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Verification is a habit, not one button**?",
+          "a": "**define \"done\" per domain; build** loop (create → verify → fix → repeat); then adversarial stress testing."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **First shot ~65%, verification gets ~90%**?",
+          "a": "**same benchmark Cole Medin** cites; less human rework on review."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Context rot starts early**?",
+          "a": "**longer conversations make Claude** dumber even on simple tasks; more context is not better."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Session handoff > compact**?",
+          "a": "**Nate finds /compact slow; custom handoff** skill preserves state across /clear and enables cross-tool transfer (e.g. to Codex)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Parallel sub-agents for independent work**?",
+          "a": "**each gets a clean context window; synthesize after.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **/goal separates worker from judge**?",
+          "a": "**addresses the same sycophancy** problem at completion time; objective done-criteria work best."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Role shift: builder → reviewer**?",
+          "a": "**with all four upgrades,** human becomes problem-solver, decision-maker, and judge."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Skills available free** in ai automation society Skool community (roast, session handoff).?",
+          "a": "**Skills available free** in ai automation society Skool community (roast, session handoff)."
+        }
+      ]
+    }
+  ]
+}

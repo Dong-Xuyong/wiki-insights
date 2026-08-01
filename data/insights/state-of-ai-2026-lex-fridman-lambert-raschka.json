@@ -1,0 +1,95 @@
+{
+  "slug": "state-of-ai-2026-lex-fridman-lambert-raschka",
+  "sections": [
+    {
+      "title": "State of AI in 2026",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **No winner-take-all on technology access**?",
+          "a": "researchers rotate; ideas aren't proprietary long-term; **budget and hardware** differentiate."
+        },
+        {
+          "e": "🔑",
+          "q": "Why does this matter: **DeepSeek R1 (Jan 2025)** kicked off Chinese open-weight explosion; DeepSeek losing \"crown\" to Kimi, MiniMax,?",
+          "a": "**DeepSeek R1 (Jan 2025)** kicked off Chinese open-weight explosion; DeepSeek losing \"crown\" to Kimi, MiniMax, Z.ai — but still slightly ahead; **leapfrogging** continues."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Why does this matter: Chinese labs release open weights **for influence** (US enterprises won't pay Chinese API subscriptions) and *?",
+          "a": "Chinese labs release open weights **for influence** (US enterprises won't pay Chinese API subscriptions) and **global distribution**; likely continues several years before consolidation."
+        },
+        {
+          "e": "🎯",
+          "q": "Why does this matter: **Anthropic** bets hard on code (Claude Code) + least-chaotic culture; **Google** has TPU margin + data-center?",
+          "a": "**Anthropic** bets hard on code (Claude Code) + least-chaotic culture; **Google** has TPU margin + data-center history + Gemini momentum; **OpenAI** chaotic but lands paradigm shifts (o1, Sora, Deep Research); **ChatGPT router** (GPT-5) saves GPU costs."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about users **use models until they break**, then switch?",
+          "a": "muscle memory, memory features, work/personal boundary → **multiple subscriptions**."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about panel split?",
+          "a": "Sebastian uses **Codeium in VS Code** (control freak sweet spot); Nathan uses **Claude Code** for \"programming with English\" + extended thinking; Lex uses **half Cursor / half Claude Code**."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Claude Code is better utilization of Opus 4.5** than same model in Cursor/VS Code side-by-side.?",
+          "a": "**Claude Code is better utilization of Opus 4.5** than same model in Cursor/VS Code side-by-side."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Industrialization of software** meme?",
+          "a": "agents went from \"slop\" to passable websites in hours; direction + **understanding vs thinking** matter more than reading diffs."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Computer use demos (2025) still suck**?",
+          "a": "**Operator, Claude computer use;** harder than backend API tool integration; specification/interface is the blocker."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about open model explosion?",
+          "a": "**OLMo, gpt-oss-120b, Nemotron 3, Mistral, Qwen, dozens of Chinese MoEs** — list was \"way smaller in 2024.\"."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **gpt-oss-120b** standout?",
+          "a": "first strong **open-weight tool-use** model; ecosystem not fully ready (trust, containerization)."
+        },
+        {
+          "e": "🛡️",
+          "q": "Why does this matter: Closed models **deeply integrate specific tools**; open models must be general orchestrators — harder but driv?",
+          "a": "Closed models **deeply integrate specific tools**; open models must be general orchestrators — harder but drives innovation (recursive LM idea)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "vibe-coding-with-minimax-m3-bridgemind",
+  "sections": [
+    {
+      "title": "Vibe Coding With MiniMax M3",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Multimodal**?",
+          "a": "text, image, video inputs; **1M token** context (M2.7: 205K)."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about pricing: 50% launch discount makes input ~same as M2.7 ($0.26/M in, $1.20/M out)?",
+          "a": "but **100% price increase** when discount ends vs M2.7 list."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Free in OpenCode Zen** at video time; OpenRouter path for paid tests.?",
+          "a": "**Free in OpenCode Zen** at video time; OpenRouter path for paid tests."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about m2.7→M3 jumps?",
+          "a": "**+15 pts Terminal Bench 2.1; only +0.6 SWE-Bench Verified, +2.8 SWE-Bench Pro** — not a massive leap on coding benchmarks."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **FPS game (Arena Ops)**?",
+          "a": "**player glitches into floor (unplayable);** weird gun graphics; Chinese-model pattern of physics bugs; follow-up needed."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Remotion Vibecademy video**?",
+          "a": "**134K tokens → mostly blank screen; text** cut off; required second prompt to render anything; still subpar vs Opus 4.8 one-shot."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **BridgeVoice production features**?",
+          "a": "auto-hide widget setting: toggling off doesn't restore pill (state bug); sound-effect task **broke push-to-talk** entirely despite not touching PTT logic."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Video modality**?",
+          "a": "recorded 5–10s demo of FPS glitch; OpenCode read tool only supports images/PDFs — **could not ingest video** in coding workflow (likely OpenCode limitation, not model)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Way off frontier**?",
+          "a": "**competes on cost tier with** Kimi K2.6 / GLM 5.1, not Opus 4.8 / GPT 5.5."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about won't use in personal workflow or Hermes agents?",
+          "a": "**GPT plan unlimited usage beats cheap broken output.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **attention to detail vibe coding** failure?",
+          "a": "**missing \"widget should reappear** when toggled off\"; breaking unrelated PTT on sound-effect task."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **jagged intelligence**?",
+          "a": "**decent BS/hallucination vs catastrophic** refactoring + UI + production regressions."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "pavel-durov-telegram-freedom-lex-fridman",
+  "sections": [
+    {
+      "title": "Pavel Durov",
+      "items": [
+        {
+          "e": "💡",
+          "q": "Why does this matter: Freedom without abundance is visible early (Soviet vs Italy at age 4); without freedom you can't contribute to?",
+          "a": "**Freedom without abundance is visible early** (Soviet vs Italy at age 4); without freedom you can't contribute to abundance."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about clarity of mind requires abstaining from addictive substances?",
+          "a": "**clouded mind follows mainstream authority.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about 40 engineers + automation beats thousands of manual ops; too many employees coordinate instead of build?",
+          "a": "**40 engineers + automation beats** thousands of manual ops; too many employees coordinate instead of build."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about distributed encrypted cloud + split keys > trusting any single employee or government?",
+          "a": "**Distributed encrypted cloud +** split keys > trusting any single employee or government."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about never shared private messages with anyone; system designed so backdoors are impossible without rebuilding?",
+          "a": "**Never shared private messages** with anyone; system designed so backdoors are impossible without rebuilding."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about french arrest unprecedented for a tech CEO at this scale?",
+          "a": "**accused of crimes users allegedly committed.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "Why does this matter: French intelligence asked to censor Romania conservative channels while Durov couldn't leave France — refused ?",
+          "a": "**French intelligence asked to censor** Romania conservative channels while Durov couldn't leave France — refused and disclosed."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about public sector 58% of French GDP?",
+          "a": "**entrepreneurs squeezed by tax** investigations that destroy companies over years."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about math + competition in education builds founders; removing competition pushes kids to video games?",
+          "a": "**Math + competition in** education builds founders; removing competition pushes kids to video games."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about vK: build login module first (Nikolai's advice); strip features to scale; PHP→C++ custom engines for speed?",
+          "a": "**VK**: build login module first (Nikolai's advice); strip features to scale; PHP→C++ custom engines for speed."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about telegram did most messenger features first (auto-delete timer 7yr ahead, stickers 3yr 8mo, E2E 1yr 3mo)?",
+          "a": "**Telegram did most messenger features** first (auto-delete timer 7yr ahead, stickers 3yr 8mo, E2E 1yr 3mo)."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about open source since 2013 + reproducible builds on iOS/Android?",
+          "a": "**only popular messenger with both.**"
+        }
+      ]
+    }
+  ]
+}

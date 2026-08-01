@@ -1,0 +1,80 @@
+{
+  "slug": "build-strength-muscle-endurance-andy-galpin",
+  "sections": [
+    {
+      "title": "Concepts over methods",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is Galpin's core training thesis?",
+          "a": "**Concepts are few, methods are many.** Exercise choice does not determine adaptation — **modifiable variables** (sets, reps, intensity, rest, frequency) do. Train the outcome you want; fat loss is a byproduct."
+        },
+        {
+          "e": "9️⃣",
+          "q": "What are the nine trainable adaptations?",
+          "a": "**Skill, speed, power, strength, hypertrophy, muscular endurance, anaerobic power, VO2 max, and long-duration endurance.** Pushing one hard can sacrifice another."
+        }
+      ]
+    },
+    {
+      "title": "Strength, power, and hypertrophy",
+      "items": [
+        {
+          "e": "💪",
+          "q": "What is the 3×5 strength/power template?",
+          "a": "**3–5 exercises × 3–5 reps × 3–5 sets × 3–5 min rest × 3–5 days/week** at **85%+ 1RM** for strength. Power uses the same structure at **40–70%** with velocity emphasis. Scales from ~**20 min/week** minimal to full five-day programs."
+        },
+        {
+          "e": "📈",
+          "q": "What drives hypertrophy vs strength?",
+          "a": "**Strength: intensity drives** (min ~**2×/week** per muscle). **Hypertrophy: volume drives** — **5–30 reps** per set to near failure; all ranges work if close to failure. More soreness ≠ more growth."
+        },
+        {
+          "e": "🎯",
+          "q": "How should your mental focus differ by goal?",
+          "a": "**Mind-muscle intentionality**: move the weight as a system for **strength**; challenge the **target muscle** for hypertrophy. Programming is \"idiot-proof\"; execution is hard."
+        }
+      ]
+    },
+    {
+      "title": "Weekly endurance kit",
+      "items": [
+        {
+          "e": "❤️",
+          "q": "What endurance work should sit in a typical week?",
+          "a": "**150–180 min zone 2** (conversational; does not block hypertrophy), **once/week VO2-max touch** (4–8 bouts of ~**90 sec** near max HR; every other week minimum), plus **2–6 min hard repeats** at ~**80% HR**."
+        },
+        {
+          "e": "🚲",
+          "q": "Why start endurance on bike/row/sled instead of running?",
+          "a": "Start **concentric-dominant** modalities to avoid **eccentric soreness** from jumping into running. Zone 2 may even help hypertrophy via blood flow; HIIT complements, it doesn't replace."
+        },
+        {
+          "e": "🫁",
+          "q": "What does \"point of physiological failure\" tell you?",
+          "a": "Where you quit — **legs vs lungs** — reveals what to train next. Same VO2 max can mask different limiters. After hard intervals, do **3+ min exhale-emphasis breathing** to down-regulate."
+        }
+      ]
+    },
+    {
+      "title": "Hydration, recovery, supplements",
+      "items": [
+        {
+          "e": "💧",
+          "q": "What is the Galpin hydration equation?",
+          "a": "**Body weight (lb) ÷ 30 = oz fluid per 15 min** of exercise/cognition. In heat or long sessions, add about **~1 g sodium per liter** of sweat."
+        },
+        {
+          "e": "🧊",
+          "q": "When does cold help vs hurt adaptation?",
+          "a": "Cold **blunts hypertrophy** if overused during growth blocks — use **pre-training** or **4+ hours away**. Morning cold can improve HRV; post-lift **sauna** may plausibly aid hypertrophy."
+        },
+        {
+          "e": "💊",
+          "q": "Which supplement does Galpin call the \"Michael Jordan\"?",
+          "a": "**Creatine monohydrate** — strong safety profile, benefits beyond muscle, **~5 g/day** for most. Also discussed: sodium bicarbonate and beta-alanine."
+        }
+      ]
+    }
+  ]
+}

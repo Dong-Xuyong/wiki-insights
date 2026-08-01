@@ -1,0 +1,75 @@
+{
+  "slug": "fat-loss-gain-muscle-nutrition-alan-aragon-huberman",
+  "sections": [
+    {
+      "title": "Protein hierarchy",
+      "items": [
+        {
+          "e": "🎂",
+          "q": "What matters more — daily protein or workout timing?",
+          "a": "**Total daily protein is the cake**; timing relative to training is a **very thin layer of icing**. Aim roughly **0.7–1 g/lb/day** (~1.66 g/kg when optimized); if you're still burping your pre-workout meal, don't sprint to a shaker."
+        },
+        {
+          "e": "⏱️",
+          "q": "How long is the real anabolic window?",
+          "a": "A single lift elevates muscle protein synthesis for **24–72 hours**, not 30–60 minutes. Pre- vs post-workout protein — and even **±3 hours of nutrient neglect** — show no meaningful difference when daily protein is dialed in."
+        },
+        {
+          "e": "💪",
+          "q": "Is the \"30 g protein max per meal\" rule real?",
+          "a": "That rule confuses digestion with MPS. After high-volume training, **40 g beats 20 g**; a practical per-meal ceiling is about **0.2–0.25 g/lb** (~0.4–0.6 g/kg). Dinner-heavy stacking is fine for most people."
+        }
+      ]
+    },
+    {
+      "title": "Fat loss myths and recomposition",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "Does fasted training burn more fat overall?",
+          "a": "Fasted work burns **more body fat during the bout**, but with equated daily nutrition, **24-hour fat oxidation evens out**. Aragon/Schoenfeld's RCT found **no body-comp difference** fed vs fasted — preference rules."
+        },
+        {
+          "e": "⚖️",
+          "q": "Can you gain muscle and lose fat at the same time?",
+          "a": "Yes — **body recomposition is real** across at least ~12 studies. Common thread: **1–1.5 g/lb protein** plus resistance training; often without a caloric deficit. Antonio overfeeding: stack **50–100 g protein/day** on habitual intake → thermic effect, little or no fat gain."
+        }
+      ]
+    },
+    {
+      "title": "Food quality debates",
+      "items": [
+        {
+          "e": "🌱",
+          "q": "Do plant proteins match animal for muscle?",
+          "a": "Animal proteins win **gram-for-gram on leucine density**; soy is competitive. **Pea + mycoprotein (Quorn)** can match whey when leucine/EAA are equated in head-to-head trials."
+        },
+        {
+          "e": "🛢️",
+          "q": "Are seed oils as bad as social media claims?",
+          "a": "Vilification is overblown. In meta-analysis, **canola often beats olive oil for lowering LDL**; context (hyper-palatable UPFs) matters more than oil type alone. Added sugar cap ~**50 g/day** (WHO)."
+        },
+        {
+          "e": "🥤",
+          "q": "Do diet sodas sabotage fat loss?",
+          "a": "Controlled trials show diet sodas are a **net positive for weight loss** vs water for dieters. **Saccharin** is the outlier for gut/glucose harm signals — not a blanket indictment of all artificial sweeteners."
+        }
+      ]
+    },
+    {
+      "title": "Supplements and training efficiency",
+      "items": [
+        {
+          "e": "💊",
+          "q": "Which supplements does Aragon actually stack?",
+          "a": "Practical stack: **vitamin D3**, fish oil ~**1 g EPA/DHA**, magnesium citrate, **creatine monohydrate 5 g**, vitamin C. **Collagen ~15 g/day** for connective tissue/skin — not for MPS (poor leucine)."
+        },
+        {
+          "e": "🏋️",
+          "q": "How should time-crunched lifters train?",
+          "a": "Aragon favors **4–5× resistance training**, short rests, **cluster sets and supersets**, with minimal dedicated cardio. Women's dieters can align a **diet-break week** with the menstrual week to reduce craving fights."
+        }
+      ]
+    }
+  ]
+}

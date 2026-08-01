@@ -1,0 +1,80 @@
+{
+  "slug": "hes-always-wrong-ai-safety-mythos-theprimeagen",
+  "sections": [
+    {
+      "title": "He's always wrong",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Project Glass Wing replay**?",
+          "a": "**Mythos released broadly → pulled** back after government pressure → now critical-infrastructure-only again; same record spinning."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **GPT 5.6 also gated**?",
+          "a": "**OpenAI limited preview to** \"trusted partners\" at US government request; frontier labs uniformly slowed."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Harness vs raw model**?",
+          "a": "**much of coding-agent gains are harness/tooling, not weights** alone; GLM 5.2 without harness still beats harnessed Opus 4.8 and GPT 5.5 on IDOR security benchmark."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **IDOR = HackerOne #4**?",
+          "a": "**insecure direct object reference (pass arbitrary** user ID → leak data) is a top real-world vuln class Sam Gre benchmarked."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Open-weight threat economics**?",
+          "a": "**Hugging Face download + cloud** GPU rental (~$73/hr) makes offensive capability affordable; scams can exceed hourly cost."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Mixture-of-agents beats Mythos**?",
+          "a": "**Hermes (GPT 5.5 + Opus** 4.8) and Microsoft multi-agent approaches score higher on same security benchmarks."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Safety argument inverted**?",
+          "a": "**gating makes world *less* safe**: offensive teams get in anyway (insider leaks, equally capable open models); defenders lag."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Federation > gatekeeping**?",
+          "a": "**if models truly help secure software,** everyone should patch in lockstep; selective access lets funded attackers exploit lagging maintainers."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Dario's real goal (per Primeagen)**?",
+          "a": "**monitor/control inputs → control outputs; regulation** dream realized but doesn't stop open-weight scaling Dario warned about in 2023 clips."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Michael Arnaldi policy**?",
+          "a": "**free usage for core** infrastructure maintainers; unrestricted strongest models; restriction guarantees offensive advantage."
+        }
+      ]
+    }
+  ]
+}

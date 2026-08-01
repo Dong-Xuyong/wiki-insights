@@ -1,0 +1,65 @@
+{
+  "slug": "adhd-improve-focus-huberman-essentials",
+  "sections": [
+    {
+      "title": "ADHD biology in brief",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What is ADHD beyond \"can't pay attention\"?",
+          "a": "Poor **sustained attention** + high **impulsivity** + **time-perception/working-memory** deficits. ~**1 in 10 children** have ADHD; ~half resolve with treatment. Paradox: **hyperfocus** is possible when dopamine is high enough from enjoyment/curiosity."
+        },
+        {
+          "e": "🎼",
+          "q": "How do brain networks fail in ADHD?",
+          "a": "Healthy brains: default-mode and task networks are **anti-correlated** (seesaw). In ADHD/sleep deprivation they become **correlated**. **Dopamine acts as conductor** keeping them out of phase; the **2015 low-dopamine hypothesis** links excess unrelated neural firing to self-medication with sugar, caffeine, nicotine, cocaine."
+        }
+      ]
+    },
+    {
+      "title": "Behavioral focus tools",
+      "items": [
+        {
+          "e": "👁️",
+          "q": "What is an attentional blink and how do you reduce it?",
+          "a": "Over-focusing (finding Waldo → brief celebration) makes you **miss the next target**. One session of **17 minutes** conscious **panoramic (open) gaze** training **significantly reduced** attentional blinks in a **near-permanent** way."
+        },
+        {
+          "e": "⏱️",
+          "q": "How are blinking, dopamine, and lateness connected?",
+          "a": "**Blink rate is dopamine-controlled**; blinking bins time perception and resets post-blink. Low dopamine links to ADHD lateness unless deadline stakes spike dopamine. **Fixation training** (near→far stations, blink control, brief movement warm-up) improved elementary-school focus."
+        }
+      ]
+    },
+    {
+      "title": "Phones, meds, and taper logic",
+      "items": [
+        {
+          "e": "📱",
+          "q": "Can phones induce ADHD-like attention problems?",
+          "a": "Yes — rapid in-phone **context switching** induces **subclinical ADHD**. Huberman cites limits: adolescents **≤60 min/day**, adults **≤2 hr/day**."
+        },
+        {
+          "e": "💊",
+          "q": "How do common ADHD stimulants work, and what's the long game?",
+          "a": "Ritalin (methylphenidate), Adderall (**amphetamine + dextroamphetamine**), and modafinil raise **dopamine + norepinephrine**. Early Rx (plasticity peak age **3–12**) can teach what focus feels like; combine with behavioral training and **taper toward behavior-only** when possible. Risks: addiction, cardiovascular, sexual side effects."
+        }
+      ]
+    },
+    {
+      "title": "Supplements with evidence thresholds",
+      "items": [
+        {
+          "e": "🐟",
+          "q": "Which supplement doses does Huberman flag for attention?",
+          "a": "**DHA >300 mg/day** threshold for attention (~10 studies); **phosphatidylserine 200 mg/day × 2 months** reduced pediatric ADHD symptoms (synergy with omega-3s). Also mentioned: **Alpha-GPC 300–600 mg**; **L-tyrosine 100–1200 mg** (highly variable — caution with mood/psychiatric disorders)."
+        },
+        {
+          "e": "🎯",
+          "q": "Why does focus matter for life outcomes?",
+          "a": "*\"Most of the things that we get recognized for in life… are always proportional to the amount of **focus** that we can bring.\"* Attention = perception; impulse control = **limiting what you perceive**."
+        }
+      ]
+    }
+  ]
+}

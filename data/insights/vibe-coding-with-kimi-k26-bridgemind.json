@@ -1,0 +1,95 @@
+{
+  "slug": "vibe-coding-with-kimi-k26-bridgemind",
+  "sections": [
+    {
+      "title": "Vibe Coding With Kimi K2.6",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about public benchmark posts drive massive impressions; labs optimize for SWE Bench Pro / Verified scores.?",
+          "a": "**Public benchmark posts drive massive** impressions; labs optimize for SWE Bench Pro / Verified scores."
+        },
+        {
+          "e": "🔑",
+          "q": "Why does this matter: Anthropic accused of same pattern with Opus 4.7; creator argues benchmarks are increasingly untrustworthy for ?",
+          "a": "**Anthropic accused of same pattern with** Opus 4.7; creator argues benchmarks are increasingly untrustworthy for vibe coding decisions."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Output quality > leaderboard rank**?",
+          "a": "**random UI bugs in** production matter more than aggregate scores."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **1.1T parameters**, 595 GB total on Hugging Face?",
+          "a": "**not runnable on consumer** hardware (creator's DGX Spark insufficient)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **262K context**; pricing ~$0.95/M input, $4/M output via Moonshot API or **Open Router**.?",
+          "a": "**262K context**; pricing ~$0.95/M input, $4/M output via Moonshot API or **Open Router**."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about open-weight but best accessed via API for most builders.?",
+          "a": "**Open-weight but best accessed** via API for most builders."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "Why does this matter: Creates named subagents with role descriptions (asset generator \"Shannon\", game engine dev \"Woo\", gameplay dev?",
+          "a": "**Creates named subagents with role** descriptions (asset generator \"Shannon\", game engine dev \"Woo\", gameplay dev)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about subagents collaborate on a TypeScript zombies game (~30–60 min)?",
+          "a": "**generates hyper-realistic gun/floor textures live on stream.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about swarm mode builds **complete applications** even when prompted for a single HTML file.?",
+          "a": "Swarm mode builds **complete applications** even when prompted for a single HTML file."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about game output poor?",
+          "a": "**zombie count mismatch (shows 3** remaining but many on screen), decorative ceiling beams, overall \"not good.\"."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about single K2.6 agent: 14 min for incomplete Next.js 16 landing page?",
+          "a": "**pricing/ecosystem pages unfinished; \"AI** slop\" vs Claude Opus 4.7 side-by-side polish."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Agent Swarm** (8 OpenCode instances)?",
+          "a": "**backgrounds, site structure, polish, deploy tracks** — added light/dark mode (broken globally), pricing page with random rising white block bug, page reload failures."
+        }
+      ]
+    }
+  ]
+}

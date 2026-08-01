@@ -1,0 +1,95 @@
+{
+  "slug": "from-zero-to-head-of-ai-in-1-year",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Non-technical background is not a blocker**?",
+          "a": "**15 years in email HTML/CSS,** not \"real\" development; Claude Code \"looks technical but is absolutely non-technical.\"."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Start from your domain**?",
+          "a": "**don't learn AI in the** abstract; ask how AI makes you faster at work you already do."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Learning path: Zapier → Make → n8n → Claude Code**?",
+          "a": "**n8n + ChatGPT side-by-side for** node-by-node builds; AIS course pivoted from n8n into Claude Code."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Show yourself beats perfect**?",
+          "a": "**Hormozi mantra; terrified first talk (90+** people) on n8n for non-technical users became LinkedIn proof and interview leverage."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Build in public with zero followers**?",
+          "a": "**two YouTube channels (English +** Spanish), consistent LinkedIn; views/subscribers don't matter — links and your face do."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **\"What have you built?\" is the hiring filter**?",
+          "a": "**HR's email question; video** demos separated her from ChatGPT-written cover letters."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Selective applications**?",
+          "a": "**~10 targeted roles, not** spray-and-pray; research the company and propose specific ideas in interviews."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Head of AI = strategy + builds + hiring**?",
+          "a": "**not a pure executive** seat; stay hands-on because the space changes daily."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Two-week strategic trial**?",
+          "a": "**CEO trial focused on hotel vertical**: map opportunities, prioritize quick wins, propose what not to automate."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Adoption framing**?",
+          "a": "**\"I'm not replacing anyone\"; remove** boring repetitive work, not whole jobs; culture shift, not a quarterly workshop."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **4 a.m. learning block**?",
+          "a": "**structured daily practice before family/day job interruptions.**"
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Outsource thinking, not understanding**?",
+          "a": "**use AI for paths** and research; human owns trade-offs and final decisions."
+        }
+      ]
+    }
+  ]
+}

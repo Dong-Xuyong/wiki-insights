@@ -1,0 +1,70 @@
+{
+  "slug": "greatest-guitarists-history-future-music-rick-beato",
+  "sections": [
+    {
+      "title": "Ear, tone, and craft",
+      "items": [
+        {
+          "e": "👂",
+          "q": "Why does Beato prioritize relative pitch over perfect pitch?",
+          "a": "He treats **ear training as learnable** — kids can pick up **relative pitch** fast (his son Dylan via the \"Hey Joe\" pentatonic pattern in minutes). **Beato Ear Training** teaches interval recognition, not innate perfect pitch, because working musicians need to hear relationships in real time."
+        },
+        {
+          "e": "🎸",
+          "q": "What makes a guitarist's sound instantly recognizable?",
+          "a": "**Guitar tone identity** is the test: great players are known by **one-note vibrato** alone. Solos work like speech — Hendrix, Gilmour, Knopfler use melodic flow, space, and silence (Miles Davis parallel). **Speed is not greatness.**"
+        }
+      ]
+    },
+    {
+      "title": "AI, authenticity, and pop credits",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "How good is AI music in Beato's experience?",
+          "a": "On Suno/Udio, roughly **130 prompts → ~3 good songs**. Great songwriters benefit because they **recognize quality**; lyrics still lack edge. Beato finds AI generation **\"boring, boring, boring\"** and says kids spot reverb artifacts instantly — so he uses AI mainly for demo videos."
+        },
+        {
+          "e": "✨",
+          "q": "Why does he think authenticity will become more valuable?",
+          "a": "AI excels at **overproduction**, so civilization will crave **raw talent**, long-form conversation, and real B.B. King over AI B.B. King. **\"We humans want authenticity.\"** Cleanup ML (iZotope RX-style) is fine; macro generation as original art is not."
+        },
+        {
+          "e": "📝",
+          "q": "What's wrong with modern pop songwriting credits?",
+          "a": "Hits often list **10–11 writers**, with **interpolations** recycling older songs (e.g. \"Anxiety\" tracing to Gotye → Luiz Bonfá 1967). Beato contrasts factory credits with **Taylor Swift / Billie Eilish / Bruno Mars** as counterexamples of real musicianship."
+        }
+      ]
+    },
+    {
+      "title": "YouTube, Spotify, and distribution",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "How did Beato survive Content ID warfare?",
+          "a": "Early YouTube music clips meant **instant blocks** or **demonetization** (even a 20-second clip could send all revenue to the label). After a Rick Rubin episode, his lawyer fought **~4,000 claims and won all**. Labels shifted from blocking to monetizing after moments like Fleetwood Mac's TikTok \"Dreams\" surge."
+        },
+        {
+          "e": "🎧",
+          "q": "What tradeoff does Spotify create for listening culture?",
+          "a": "Streaming is a **faucet of access** plus algorithm discovery, but it **commoditizes albums**, weakens the listening ritual, and **underpays artists**. Beato still keeps **2005 iTunes WAV rips** for interview prep because listeners notice quality vs remastered streams."
+        }
+      ]
+    },
+    {
+      "title": "Mastery before fame",
+      "items": [
+        {
+          "e": "🏆",
+          "q": "What does Beato's career say about chasing fame early?",
+          "a": "His channel took off at **55+** after decades of classical bass, jazz guitar master's work, college teaching, publishing, and producing — **music mastery before fame**. Signature advice: **\"Somebody's gotta be successful, so why can't it be you?\"** plus never waste a friendship."
+        },
+        {
+          "e": "🔊",
+          "q": "How does he think about gear as craft?",
+          "a": "He keeps **~100 real amps**, each doing **one thing really well** — if it doesn't, it goes. Pro Tools/Logic/Ableton plus Neural DSP/Kemper/Helix for travel, and a signature Gibson Les Paul Special, all in service of tone craft rather than collector clutter."
+        }
+      ]
+    }
+  ]
+}

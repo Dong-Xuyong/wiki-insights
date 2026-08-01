@@ -1,0 +1,65 @@
+{
+  "slug": "six-best-claude-code-skills-nate-herk",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Skills vs plugins**?",
+          "a": "**skill = markdown SOP package; plugin** = wrapper that can bundle multiple skills + hooks + MCP servers."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Six types clients pay for**?",
+          "a": "**time saved, money saved,** mistakes removed; simple and repeatable across industries."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Stacked workflow**?",
+          "a": "**Superpowers (process) + GSD** (clean context) + ultra review (confirmed bugs before merge)."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Context rot is the mid-session wall**?",
+          "a": "**GSD sub-agents and Context** Mode attack different halves (task isolation vs tool-output garbage)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Context Mode + Claude Mem split**?",
+          "a": "**current session hygiene vs cross-session startup tax elimination.**"
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Skill Creator compresses the skill authoring learning curve**?",
+          "a": "**natural-language + SOP ingest beats manual SKILL.md editing.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Don't install all six day one**?",
+          "a": "**learn one, demo to** a business owner, compound from there."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Free resource guide** in ai automation society Skool community.?",
+          "a": "**Free resource guide** in ai automation society Skool community."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "skills-v1-1-wayfinder-research-implement-matt-pocock",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Names matter for agent workflows**?",
+          "a": "**\"spec\" and \"tickets\" are renamed because precise** naming (\"good friction\") shapes what the LLM and user let leak into each document."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Wayfinder = planning sharded across sessions**?",
+          "a": "**each decision scoped to one agent session; blocking** sub-issue graph on GitHub replaces in-session handoff anxiety; Matt uses it \"for literally everything,\" even planning his course."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Ticket types classify the work**?",
+          "a": "**research (AFK background agent), grilling (human-in-the-loop),** prototype (cheap concrete artifact), task (boring human config/provisioning that can't be automated)."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Implement earns its place by being trivial**?",
+          "a": "**mostly leans on agent priors** and harness; exists because everyone kept asking \"what's the flow?\"."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Fowler smells as prior-invocation**?",
+          "a": "**old, well-cited vocabulary is already deep in the model; one** sentence per smell makes the reviewer echo the term back (\"found message chains, removing them\"); \"outrageously useful\" for ~10 lines."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Coding standards live outside AGENTS.md**?",
+          "a": "**pushed to the reviewer** where they're most useful, not into every implementer session."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Refactoring is review's job, not TDD's**?",
+          "a": "**red-green only, one slice at** a time; putting refactoring in code review avoids overloading implementation."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Grilling fixes**?",
+          "a": "**tell the model *why* multiple questions are bewildering; add \"do not** enact until I confirm shared understanding\" gate; distinguish facts (explore the codebase yourself) from decisions (must be made by the user) to stop self-grilling."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Prototype before spec for anything front-end**?",
+          "a": "**\"raise the fidelity of the** discussion by making a cheap, rough, concrete artifact to react to\"."
+        }
+      ]
+    }
+  ]
+}

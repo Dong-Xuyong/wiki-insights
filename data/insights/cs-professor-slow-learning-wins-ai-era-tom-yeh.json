@@ -1,0 +1,70 @@
+{
+  "slug": "cs-professor-slow-learning-wins-ai-era-tom-yeh",
+  "sections": [
+    {
+      "title": "Learning at human pace",
+      "items": [
+        {
+          "e": "✍️",
+          "q": "What is AI by Hand trying to restore?",
+          "a": "**Learning by hand at human pace** — write/draw every step of transformer math until the black box clicks. Struggle made visible is the point of the global initiative."
+        },
+        {
+          "e": "黒板",
+          "q": "What happened when Yeh taught intro C++ on a blackboard?",
+          "a": "Three effects: he could only write at **human speed**, students could only follow at human speed, and **hand-copied notes** kept phones off Instagram — focus improved."
+        },
+        {
+          "e": "📜",
+          "q": "Why doesn't having an answer mean you know it?",
+          "a": "Degrees, certificates, and AI outputs are **proof artifacts**. Ownership — and how much you value knowledge — is **proportional to time spent acquiring it**."
+        }
+      ]
+    },
+    {
+      "title": "Foundations over trendy tools",
+      "items": [
+        {
+          "e": "🏛️",
+          "q": "What does the Gyeongbokgung palace metaphor teach?",
+          "a": "Burned in the **1500s** except the rock foundation; rebuilt in the **1800s** on the same base. **Foundations survive** while surface tools burn away."
+        },
+        {
+          "e": "🧮",
+          "q": "Which skills stay evergreen across AI hype cycles?",
+          "a": "**Matrix multiplication** recurs from Jurassic Park CGI through big data, ML, AI, and likely quantum. Transformers will still matter when today's hot model (DeepSeek hype, etc.) is forgotten."
+        }
+      ]
+    },
+    {
+      "title": "Meta-skills & identity",
+      "items": [
+        {
+          "e": "🎹",
+          "q": "Is skipping piano practice worse than skipping one AI tool?",
+          "a": "Yes — skip one AI product, fine; skip piano/soccer practice and you erode **who you are**. The **process** of acquiring hard skills becomes identity and transfers (Yeh caught up on deep learning using breakdown-by-hand)."
+        },
+        {
+          "e": "💪",
+          "q": "What actually differentiates learners in the AI era?",
+          "a": "Not memorizing transformer equations forever — proving **willingness** to take on hard learning challenges."
+        }
+      ]
+    },
+    {
+      "title": "Cheating, hiring & agency",
+      "items": [
+        {
+          "e": "🕵️",
+          "q": "Why didn't ChatGPT killing Chegg fix academic cheating?",
+          "a": "Chegg/AI are **symptoms**. The root is an **incentive system** that doesn't reward real learning investment."
+        },
+        {
+          "e": "🤝",
+          "q": "Who should you hire if tools keep changing?",
+          "a": "Hire for **work ethic, problem-solving, and teamwork** — those people adopt AI automatically. **\"AI cannot change people — only you can change AI.\""
+        }
+      ]
+    }
+  ]
+}

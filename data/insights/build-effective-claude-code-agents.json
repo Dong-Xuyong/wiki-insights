@@ -1,0 +1,95 @@
+{
+  "slug": "build-effective-claude-code-agents",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Director, not slot machine**?",
+          "a": "**sandwich delegation between heavy planning** and verification; never \"go rip\" without a spec and success criteria."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Verification lifts first-pass quality**?",
+          "a": "**without checks ~65–70%; with** self-validation harnesses ~92% on first pass."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Dumb zone ~250K tokens (Opus 4.8)**?",
+          "a": "**compact or hand off** before quality drops; Sonnet 4.6 degrades earlier (~100–125K)."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Attention is scarce**?",
+          "a": "**skills load on demand; avoid** front-loading MCP tool schemas; needle-in-haystack problem worsens in dumb zone."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Harness = LLM + tools + context wrapper**?",
+          "a": "**Claude Code is the base** harness; your AI layer (CLAUDE.md, skills, hooks, MCP/CLI) sits on top."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **CLI + skill beats MCP for token efficiency**?",
+          "a": "**Cole's pattern for CRM,** GitHub, and his Arkon orchestrator."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Sub-agents for research, not orchestration**?",
+          "a": "**poor handoffs between sub-agents;** prefer deterministic multi-session workflows (Ralph loop, Arkon)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Custom planning skill over plan mode**?",
+          "a": "**Cole prefers his own** planning skill for question flow and section control."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Hooks for security and memory**?",
+          "a": "**pre-tool checks block dangerous commands;** session-end hooks write daily logs and promote to memory.md (\"Claude dreaming\")."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Every bug → permanent upgrade**?",
+          "a": "**update CLAUDE.md, skills, or planning** docs so failures don't repeat; almost welcome bugs as training data."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Assume the agent will do everything it can access**?",
+          "a": "**Nate's team accidentally emailed entire** list with wrong discount code; prompts cannot substitute scoped permissions."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Intent engineering**?",
+          "a": "**give Claude the *why*** during planning; shapes the how (Anthropic 4.8 docs align)."
+        }
+      ]
+    }
+  ]
+}

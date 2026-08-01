@@ -1,0 +1,80 @@
+{
+  "slug": "claude-24-7-trader-routines",
+  "sections": [
+    {
+      "title": "I Turned Claude Into a 24/7 Trader",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Opus 4.7 + routines = 24/7 agent**?",
+          "a": "**full agentic loop on a** schedule; cheaper than equivalent API-only cron orchestration at Nate's usage level."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Genetic financial analysis ≠ day trading**?",
+          "a": "**benchmark rewards fundamentals/thesis writing;** maps to long-term or swing strategies, not candlestick timing."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Five weekday crons**?",
+          "a": "**pre-market (research, draft ideas), market open (execute** + 10% trailing stops), midday (cut −7% losers, tighten winners), close (EOD summary), Friday weekly review."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Start paper, phase up**?",
+          "a": "**like teaching a kid to ride a** bike; guardrails before autonomy (max % per position, daily loss cap, no options, position limits)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Env var names must match exactly**?",
+          "a": "**cloud environment keys (e.g. ALPACA_API_SECRET) must** appear letter-for-letter in prompts; agent defaulted to .env and failed until fixed."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Never commit secrets**?",
+          "a": "rotate keys found in migrated OpenClaw templates; store Alpaca, Perplexity, ClickUp keys in Claude Desktop **cloud environment** settings only."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Files = personality + discipline**?",
+          "a": "**not just memory; orchestrate which** files each routine reads (strategy, trade log, CLAUDE.md ~156 lines for Bull)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Watch every run early**?",
+          "a": "**read conversation history, tweak prompts** and context files; agent suggests skill updates in daily insights."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Context reset before routine design**?",
+          "a": "**/clear with pasted session** summary after migration to avoid rot before planning crons."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Perplexity over native web search**?",
+          "a": "**preferred research API; keys** from env vars at runtime."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "vibe-coding-with-loops-bridgemind",
+  "sections": [
+    {
+      "title": "Vibe Coding With Loops",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Prompt = one answer; loop = recursive goal** until objective stop condition met?",
+          "a": "**removes human from the daily re-prompt cycle.**"
+        },
+        {
+          "e": "🔑",
+          "q": "Why does this matter: **Best loop candidates:** production error triage (Sentry/CloudWatch), analytics-driven conversion work (PostH?",
+          "a": "**Best loop candidates:** production error triage (Sentry/CloudWatch), analytics-driven conversion work (PostHog), SEO maintenance (Semrush) — all have **verifiable external state** as stop signal."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Integrations are the moat**?",
+          "a": "**loops need real production data sources** and deploy paths; MCP + manual prompting replicates but doesn't automate the daily ritual."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Parallel loops**?",
+          "a": "**multiple independent stop conditions** can run simultaneously (7 in demo)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Iteration caps**?",
+          "a": "**optional max iterations (10** shown) as safety rail alongside stop condition."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Shipped outcomes without hand-holding**?",
+          "a": "**Sentry loop → v3.4** release; SEO loop → PR with Semrush-backed changes."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Claude Code /goal acknowledged**?",
+          "a": "**same family as goal command;** BridgeMind argues integrated product beats raw harness goals for ops loops."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "openclaw-creator-why-80-percent-apps-disappear",
+  "sections": [
+    {
+      "title": "OpenClaw Creator",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Local-first > cloud assistants**?",
+          "a": "**Full machine access is the** unlock; ChatGPT can't control your bed temperature or search your whole disk."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Surprise via filesystem**?",
+          "a": "**Agent found year-old Sunday audio** logs user forgot; narrative of last year without explicit setup."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Bot-to-bot + human rental**?",
+          "a": "**Restaurant bots negotiate; legacy venues** may need a hired human to call or stand in line."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Specialist swarm future**?",
+          "a": "**Separate bots for work, personal life, relationships** — society specializes, so should agents."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **80% app displacement**?",
+          "a": "**Data-management apps (MyFitnessPal, generic** reminders) replaced by agents that track, infer, and nudge naturally."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Sensor apps survive**?",
+          "a": "**Hardware-integrated apps (Tesla, oven,** sonar bed) outlast pure CRUD wrappers."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Model moat is temporary**?",
+          "a": "**Users adapt to each new** model within a month; open source catches up on a ~1-year lag."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Memory silos vs OpenClaw**?",
+          "a": "**Big chat vendors trap** memories; OpenClaw stores user-owned markdown on disk."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Public Discord as marketing**?",
+          "a": "**Couldn't explain on Twitter;** live demo + prompt-injection theater drove understanding."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **soul.md personality layer**?",
+          "a": "**Core values + human-AI interaction** norms; Marty infused install templates; private soul file never cracked."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **No MCP by design**?",
+          "a": "**Mac Porter CLI wrapper for** on-demand MCP use without restart; \"classical MCP crap\" scales poorly."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Contrarian git workflow**?",
+          "a": "**Multiple full repo checkouts** on main, not worktrees; minimize cognitive overhead."
+        }
+      ]
+    }
+  ]
+}

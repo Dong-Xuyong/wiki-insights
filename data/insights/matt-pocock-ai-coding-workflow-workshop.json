@@ -1,0 +1,90 @@
+{
+  "slug": "matt-pocock-ai-coding-workflow-workshop",
+  "sections": [
+    {
+      "title": "Full Walkthrough",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Smart zone ~100K**?",
+          "a": "**1M context windows mostly add** more dumb zone; retrieval OK, coding not; status line essential (aihero.dev article)."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Session anatomy**?",
+          "a": "**system prompt (keep tiny) →** explore → implement → test; clearing beats compacting for predictable resets."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Grill Me live**?",
+          "a": "**sub-agent explore burns ~94K in isolation; parent** stays lean; 22–100+ alignment questions; shared design concept (Brooks, *Design of Design*) beats reading plans."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Don't read the PRD**?",
+          "a": "**after grilling you're testing** summarization only; Matt skips review intentionally."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Vertical slices**?",
+          "a": "**AI codes horizontally (DB → API → UI);** tracer bullets give feedback before phase 3; first slice must span schema + service + minimal UI."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Ralph AFK loop**?",
+          "a": "**once.sh cats all issue markdown** + last 5 commits; permission accept-edits; human exits loop at implementation."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **TDD anti-cheat**?",
+          "a": "**failing test first; separate review context** = smart zone reviewer; feedback loops are the ceiling on AI output quality."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Deep modules**?",
+          "a": "**Ousterhout *Philosophy of Software Design*; shallow modules** = untestable graph; design interfaces, delegate implementation (gray boxes) to retain codebase mental model."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Sand Castle parallel**?",
+          "a": "**Sonnet implementer + Opus reviewer;** worktrees in Docker; planner picks parallelizable issues from blocking graph."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Doc rot**?",
+          "a": "**closed PRDs mislead agents when** code diverges; prefer closing GitHub issues over keeping stale markdown."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Frontend prototypes**?",
+          "a": "**throwaway routes for 3 clickable UI** options; feed winner into grilling; Playwright/browser MCP not mature enough for taste QA."
+        }
+      ]
+    }
+  ]
+}

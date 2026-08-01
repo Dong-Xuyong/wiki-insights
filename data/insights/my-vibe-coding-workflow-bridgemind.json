@@ -1,0 +1,95 @@
+{
+  "slug": "my-vibe-coding-workflow-bridgemind",
+  "sections": [
+    {
+      "title": "My Vibe Coding Workflow (Step by Step Workflow)",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about power-user stack (~12–16 hr/day)?",
+          "a": "**$200/mo Claude**, OpenAI (GPT-5.5 via Codex), Cursor, Perplexity (research) — budget-flexible; not all required."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about minimum vibe-coding trio?",
+          "a": "**agentic IDE** + **voice-to-text** + **screenshot annotation** for context."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about monorepo-style parent folder with **separate project directories** (API, UI, MCP)?",
+          "a": "**@-reference directories in prompts** so agents list and load the right files."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Multiple workspaces** in BridgeSpace?",
+          "a": "**e.g. BridgeMind + Vibe Academy** — with mixed agent fleets (4 Claude + 4 Codex)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about cross-project references accelerate greenfield builds?",
+          "a": "**\"reference Vibe Academy API for Drizzle ORM pattern.\".**"
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Level 1** (button color, copy)?",
+          "a": "**one agent, no plan, voice prompt.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Level 5–6** (NestJS + Drizzle + Cognito + Discord auth)?",
+          "a": "**plan mode, single strong** model (GPT-5.5 Extra High Fast for backend)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Level 10** (full AWS VPC/ECR/ECS/RDS)?",
+          "a": "plan mode + **five sub-agents**, Claude Code Extra High, AWS CLI profile on machine."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **UI design**?",
+          "a": "Claude Opus 4.8; **backend**: GPT-5.5 Extra High; model routing by task type."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about run **3+ agents in parallel** on non-overlapping scopes (API vs UI vs tests)?",
+          "a": "**\"if you only work** on one task, you're not a good vibe coder.\"."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about track which agent owns which directory; merge conflicts rare when scopes differ.?",
+          "a": "**Track which agent owns** which directory; merge conflicts rare when scopes differ."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Deep dive agents** (3 launched) for landing-page review?",
+          "a": "**~5–10 min autonomous research before implementation.**"
+        }
+      ]
+    }
+  ]
+}

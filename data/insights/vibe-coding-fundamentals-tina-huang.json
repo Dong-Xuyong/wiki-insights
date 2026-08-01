@@ -1,0 +1,95 @@
+{
+  "slug": "vibe-coding-fundamentals-tina-huang",
+  "sections": [
+    {
+      "title": "Vibe Coding Fundamentals In 33 minutes",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Thinking**?",
+          "a": "**Most vibe coders under-specify;** use a PRD with four thinking levels before building."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Frameworks**?",
+          "a": "**Point AI at existing libraries;** ask AI to recommend frameworks if unsure; still learn frontend/backend structure."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Checkpoints**?",
+          "a": "**Git + GitHub; commit often;** can instruct agents in natural language (\"commit and push to main\")."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Debugging**?",
+          "a": "**Copy-paste errors; be patient** through fix cycles; file-structure literacy helps when AI loops."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Context**?",
+          "a": "**PRD detail, mockups, screenshots,** full error text beat vague \"this doesn't work\"."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about chatGPT prompt shown on screen?",
+          "a": "**help make PRD for** MVP with example PRD link (Google Doc in description)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about four questions?",
+          "a": "**what is the app, how do** I use it, patterns behind it, how to make it most useful."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about refine scope?",
+          "a": "**drop \"nice to haves\";** add measurable features (e.g. SEO score out of 100)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about convert PRD → build prompt + image mockup before handing to Replit/Windsurf?",
+          "a": "**Convert PRD → build** prompt + image mockup before handing to Replit/Windsurf."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Replit**?",
+          "a": "**paste prompt + inspo image → fast build; ask** assistant to explain file structure while building; dev URL QR for mobile test; one change at a time when iterating."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Windsurf/Cursor**?",
+          "a": "**local env setup slower; accept terminal commands carefully** on local machine; initiate git for version control in natural language; often closer to mockup on first pass."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **MVP first**?",
+          "a": "**Lavish multi-feature specs cause** errors and hair-pulling; ship core function then add."
+        }
+      ]
+    }
+  ]
+}

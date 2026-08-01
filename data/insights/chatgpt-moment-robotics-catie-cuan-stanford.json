@@ -1,0 +1,95 @@
+{
+  "slug": "chatgpt-moment-robotics-catie-cuan-stanford",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Intelligence ≠ interaction**?",
+          "a": "**robotics hype centers capability;** the hard problem is unpredictable humans in shared spaces."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Billions-of-robots timeline**?",
+          "a": "**iPhone hit 1B in ~13** years; robotics workforce + capital suggests similar density in lifetimes."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **VLI model**?",
+          "a": "**first model class measuring robot** action success via human affect response, not just task metrics."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Hospital opacity lesson**?",
+          "a": "**life-support machines that beep** without explanation traumatize vulnerable patients; legibility is safety + dignity."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Google music mode**?",
+          "a": "**mapping joint motion → musical** samples turned \"fine\" office robots into crying-at-desk awe experiences; shipped fleet-wide."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Rodney Brooks humanoid trap**?",
+          "a": "**human-likeness raises expectations via mirror neurons;** 77-year-old ESL dad may not want a humanoid even if it works."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Beyond dirty/dull/dangerous**?",
+          "a": "**Paro seal companions, autism** social robots show non-humanoid beneficial roles already exist."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **2017 transcendent dance**?",
+          "a": "**first choreography with a robot** felt like Homo technae continuum from stone tools to modern machines."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Humans > robots expressively**?",
+          "a": "**years of robotics work** increased respect for human diversity of motion, timing, social acuity."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Mark Skylar Scott 25-year heart**?",
+          "a": "**worthy crafts take a** lifetime; robotics needs problems worth that dedication."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **CS 334 why-question**?",
+          "a": "**when building is easy/infinite, the scarce resource is *why* you build** — values + time allocation."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Time unscalable**?",
+          "a": "**only resource equal for** everyone; cannot buy back; building choices = spending precious time."
+        }
+      ]
+    }
+  ]
+}

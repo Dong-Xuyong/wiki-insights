@@ -1,0 +1,90 @@
+{
+  "slug": "save-millions-claude-tokens-prompt-caching",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Caching is automatic** in Claude Code and Claude?",
+          "a": "**no setup required; understanding it protects subscription limits.**"
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Cache create vs cache read**?",
+          "a": "**create is one-time write cost;** read is 10× cheaper reuse (system prompt, tools, CLAUDE.md, prior turns)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Three layers**?",
+          "a": "**system (instructions, tools, output style),** project (CLAUDE.md, memory, rules), conversation (messages/replies that grow each turn)."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Prefix matching**?",
+          "a": "**cache keys on content prefix;** model switch = new prefix = zero cache hits on identical history."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **TTL by context**?",
+          "a": "Claude Code on subscription: **1 hour** idle; API default: **5 minutes** (extendable to 1 hour at extra cost); sub-agents: **5 minutes** on any plan; extra-usage (post weekly limit) drops to 5 minutes on subscription too."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Community TTL panic was unfounded**?",
+          "a": "**Anthropic did not silently change subscription TTL from** 1 hour to 5 minutes; confusion came from API vs Code vs sub-agent docs being mixed."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Anthropic monitors cache hit rate**?",
+          "a": "**Thariq Shihipar (Anthropic)**: they run alerts and declare SEVs if Claude Code cache hit rates drop too low."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Model switch breaks cache**?",
+          "a": "including **Opus plan mode** (Opus in plan, Sonnet in execution): each plan toggle is a model switch and fresh cache; still saves limits long-run but resets cache each toggle."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Edit CLAUDE.md mid-session is safe**?",
+          "a": "**changes don't apply until** session restart, so cache stays intact."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Session handoff at ~205K tokens**?",
+          "a": "**Nate demo**: summarize → /copy → /clear → paste; faster than /compact (which also breaks cache)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Token dashboard**?",
+          "a": "**local GitHub repo reads past Claude Code** session files; device-specific; setup by giving repo link to Claude Code for localhost install."
+        }
+      ]
+    }
+  ]
+}

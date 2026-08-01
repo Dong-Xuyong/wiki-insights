@@ -1,0 +1,80 @@
+{
+  "slug": "fable-5-karpathy-llm-wiki-cheating-nate-herk",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **5-minute bootstrap**?",
+          "a": "**Obsidian vault → open in VS Code →** paste Karpathy gist + screenshot → \"You are now my LLM wiki agent\" → schema + first ingest."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Multiple vaults inside one AIOS**?",
+          "a": "**topic-separated wikis (YouTube vs meetings)** each with own rules; Herk2 routes agents to the right vault."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **wiki flat vs structured folders**?",
+          "a": "**YouTube wiki uses concepts/entities/sources/tools subfolders; meeting** wiki stays flat until patterns emerge; flat = easier agent search at small scale."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **raw/ immutable → wiki/ LLM-owned**?",
+          "a": "**one source may spawn** 5–50 pages; index + log let agents navigate incrementally."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Obsidian = human IDE only**?",
+          "a": "**agents read the same** markdown; graph view optional for browsing backlinks."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **Fable for ambitious synthesis, Opus/Sonnet fine for ingest**?",
+          "a": "**Fable overkill for setup;** better for post-data creative outputs (HTML maps, branded dashboards)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Fable subscription note**?",
+          "a": "**limited window until July 7 2026 then** usage credits; Thor tweet says Anthropic plans to restore as subscription benefit (no date)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Tool-agnostic markdown**?",
+          "a": "**connect hermes agent, Codex,** or any agent; wiki is just files + routing rules."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Batch vs guided ingest**?",
+          "a": "**batch works but review** folder structure; update AGENTS.md rules if organization feels wrong."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Free course**?",
+          "a": "**full Build Your Own** AIOS course in ai automation society Skool (link in description)."
+        }
+      ]
+    }
+  ]
+}

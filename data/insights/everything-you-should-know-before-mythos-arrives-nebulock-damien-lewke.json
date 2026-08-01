@@ -1,0 +1,95 @@
+{
+  "slug": "everything-you-should-know-before-mythos-arrives-nebulock-damien-lewke",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about **Mythos ≠ existential doom**?",
+          "a": "**democratizes offensive capability but** mirrors long-predicted trends; post-Mythos horizon matters more."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about **Talent gap → subscription**?",
+          "a": "script kiddies can perform operations once reserved for elite groups; **elite security judgment** still beats elite AI engineering long-term."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about **Threat actor cardinality explosion**?",
+          "a": "**few sophisticated groups →** potentially anyone with GPU + conviction."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about **Kill chain cost curve**?",
+          "a": "**recon ~$0, phishing cheap, exploitation/persistence** falling; lateral movement + objectives still human-expensive (human+agent closing gap)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about **Attackers blend in**?",
+          "a": "**vs ~10 years ago obvious** bad behavior; compromised Damien looks like Damien until behavioral sequence analysis."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about **One patient person**?",
+          "a": "**full kill chain no longer requires a team.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about **Best-of-breed paradox**?",
+          "a": "**1,200-person SOC + premium** tools still breached; integration/context gap not tool quality gap."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about **Defenders historically reactive**?",
+          "a": "**DOD/CrowdStrike/Palo Alto/Arctic Wolf each solved one** puzzle piece; attackers stayed ahead because defenders responded to alerts not predicted paths."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **Google Workspace → lateral cloud**?",
+          "a": "**remote access to workspace** → Drive → endpoint → lateral movement with normal-looking activity."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **Growth-stage targets**?",
+          "a": "**not just governments; earlier-stage companies in headlines.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about **Nebulock origin**?",
+          "a": "**$25M Series A (FirstMark);** contextual platform across existing security stack."
+        },
+        {
+          "e": "🛡️",
+          "q": "What should you remember about **Founder conviction test**?",
+          "a": "**would pursue problem for $0; fall** in love with problem not solution; show up daily (1,000 mi/year running parallel)."
+        }
+      ]
+    }
+  ]
+}

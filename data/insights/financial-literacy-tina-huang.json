@@ -1,0 +1,75 @@
+{
+  "slug": "financial-literacy-tina-huang",
+  "sections": [
+    {
+      "title": "Budget, save, emergency first",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What is the 50/30/20 rule actually for?",
+          "a": "It's a **starting audit, not a rigid law**: **50% needs, 30% wants, 20% savings**. If needs are 59% of a $3,000 paycheck, trim utilities and grocery unit pricing, then reallocate to savings."
+        },
+        {
+          "e": "🛟",
+          "q": "What should be your first savings priority?",
+          "a": "Build an **emergency fund of 3–6 months of monthly needs** before other goals. Use **separate savings accounts per goal** and compare fees, access, and interest."
+        }
+      ]
+    },
+    {
+      "title": "Credit and debt",
+      "items": [
+        {
+          "e": "💳",
+          "q": "What actually drives a US credit score?",
+          "a": "Scores run **300–850** (700+ decent, 800+ excellent). Weights: **payment history 35%**, utilization **30%**, history length 15%, mix 10%, new inquiries 10%. Income does **not** affect score — **low utilization** wins ($100 on a $10,000 limit = 1%)."
+        },
+        {
+          "e": "⚖️",
+          "q": "When is debt \"good\" vs \"bad\"?",
+          "a": "In Khan framing, **good debt invests in the future** (education, business, researched home); **bad debt weakens stability** (payday loans at **300–800% APR**, credit-card float, non-wealth purchases). Pay the full card balance inside the grace period."
+        }
+      ]
+    },
+    {
+      "title": "Investing and compound time",
+      "items": [
+        {
+          "e": "📈",
+          "q": "Why does starting early beat saving more later?",
+          "a": "The Miguel vs Jasmine parable: **$25/mo from day one** beats **$50/mo starting 10 years later** ($168K vs $147K over 40 years). Compound interest favors **time in market** over amount later."
+        },
+        {
+          "e": "🏗️",
+          "q": "In what order should you build a financial plan?",
+          "a": "Five-step priority: **budget → emergency fund → SMART goals → diversify investments → review**. Don't invest on a shaky foundation — **save for short-term liquidity**, invest for medium/long-term risk. Grab **401(k) employer match** as free money."
+        }
+      ]
+    },
+    {
+      "title": "Rent vs buy and real costs",
+      "items": [
+        {
+          "e": "🏠",
+          "q": "Does buying a house always beat renting?",
+          "a": "Not by default. Worked example: **$400K house**, $100K down, 6% mortgage → ~**$18K/yr** effective buy cost vs **$16K effective rent** when $100K is invested at 2%. Run the math; psychology and assumptions still matter."
+        },
+        {
+          "e": "🌡️",
+          "q": "Why is parking cash in a low-rate savings account risky?",
+          "a": "**Inflation erodes cash**: 2% savings with 3% inflation means you're still **losing ~1%/year** in real terms. Banking type and account choice (credit union, online, CDs) change the rate you earn."
+        }
+      ]
+    },
+    {
+      "title": "Literacy mindset",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is financial literacy really?",
+          "a": "Knowing **what you don't know** so you can look it up. This video is a cliff-notes of Khan Academy's ~**30-hour free course** — foundational literacy before any wealth playbook."
+        }
+      ]
+    }
+  ]
+}

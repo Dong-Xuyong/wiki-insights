@@ -1,0 +1,90 @@
+{
+  "slug": "vibe-coding-with-grok-build-bridgemind",
+  "sections": [
+    {
+      "title": "Vibe Coding With Grok Build",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about grok Build is typical agent CLI (skills, plugins, hooks, MCP, plan/always-approve modes)?",
+          "a": "**nothing special beyond xAI model access.**"
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about fast Grok 4.3 inference doesn't translate to fast agent sessions?",
+          "a": "**24 min for Remotion** plan despite fast model reputation."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about 512K context window shown in session; creator expected 1M+ for Grok 4.3?",
+          "a": "**512K context window shown** in session; creator expected 1M+ for Grok 4.3."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about grok Build crashes under extreme sub-agent load; Claude Code stable at same prompts?",
+          "a": "**Grok Build crashes under** extreme sub-agent load; Claude Code stable at same prompts."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about requested sub-agent counts often ignored?",
+          "a": "**both Grok and Claude** partition work into fewer domain agents."
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about uI shows sub-agent count in corner; task checklist with completion checkmarks?",
+          "a": "**UI shows sub-agent count** in corner; task checklist with completion checkmarks."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about 8%/2-week on $300/mo after partial session with failed/limit sub-agent launches?",
+          "a": "**8%/2-week on $300/mo after** partial session with failed/limit sub-agent launches."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about same pattern as **glm coding plan rate limits**?",
+          "a": "cheap/heavy subscription unusable for multi-agent **vibe coding**."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about grok 4.3 strong on hallucination/intelligence benchmarks for its size but weak on UI/Remotion/design?",
+          "a": "**Grok 4.3 strong on** hallucination/intelligence benchmarks for its size but weak on UI/Remotion/design."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about **jagged intelligence** + **attention to detail vibe coding**?",
+          "a": "**debug plans OK, shipping-quality UI/video not.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about creator apologizes for laughing at bad UI but stands by verdict: \"GPT-4 type stuff\"?",
+          "a": "**Creator apologizes for laughing at bad UI but stands by verdict**: \"GPT-4 type stuff\"."
+        }
+      ]
+    }
+  ]
+}

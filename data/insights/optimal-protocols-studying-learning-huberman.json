@@ -1,0 +1,45 @@
+{
+  "slug": "optimal-protocols-studying-learning-huberman",
+  "sections": [
+    {
+      "title": "Episode status",
+      "items": [
+        {
+          "e": "📌",
+          "q": "Is the full Optimal Protocols for Studying & Learning episode in the wiki yet?",
+          "a": "No — this page is still a **stub**. The full Huberman Lab episode has **not yet been ingested**; show notes live on hubermanlab.com under that episode title."
+        },
+        {
+          "e": "🔗",
+          "q": "What related learning pages should you read instead?",
+          "a": "Pair with **[[understand-improve-memory-science-based-tools-huberman-essentials]]** (encoding/consolidation) and **[[how-to-focus-change-brain-huberman-essentials]]** (neuroplasticity + focus bouts) until the full episode is filed."
+        }
+      ]
+    },
+    {
+      "title": "Clip already ingested",
+      "items": [
+        {
+          "e": "🎬",
+          "q": "Which clip stands in for the full episode right now?",
+          "a": "**[[top-study-habits-improve-learning-huberman-clip]]** — ~**14 min**, **1.6M views** — pulls the survey-backed study habits and learning mechanics from the full episode."
+        },
+        {
+          "e": "🧠",
+          "q": "What themes does that clip cover?",
+          "a": "Top habits from a **medical student survey**, plus **watch/do/teach**, **entrainment**, **aspiration**, **effort**, and the **testing effect**."
+        }
+      ]
+    },
+    {
+      "title": "What to expect from the full episode",
+      "items": [
+        {
+          "e": "📚",
+          "q": "What is this episode supposed to deliver once fully ingested?",
+          "a": "A Huberman Lab masterclass on **optimal protocols for studying and learning** — protocols grounded in the same survey + neuroscience themes already previewed in the clip."
+        }
+      ]
+    }
+  ]
+}

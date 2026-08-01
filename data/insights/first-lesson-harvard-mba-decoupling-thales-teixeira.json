@@ -1,0 +1,65 @@
+{
+  "slug": "first-lesson-harvard-mba-decoupling-thales-teixeira",
+  "sections": [
+    {
+      "title": "Disruption is engineered",
+      "items": [
+        {
+          "e": "🛠️",
+          "q": "What is the first-day Harvard MBA lesson on disruption?",
+          "a": "High-growth digital disruption can be **engineered and designed**, not left to founder intuition. The repeatable pattern appears across Facebook, Airbnb, Uber, and hundreds of startups Teixeira advised."
+        },
+        {
+          "e": "🔗",
+          "q": "What is a customer value chain?",
+          "a": "Every activity customers must perform to **acquire, use, and dispose** of a product — e.g. research banks → branch visit → paperwork → checkbook. Map the chain **before** product thinking."
+        }
+      ]
+    },
+    {
+      "title": "Decoupling the weak link",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "How do startups actually steal from incumbents?",
+          "a": "They don't steal whole customers. They find the **weak link** — the activity customers hate doing with established players — and **decouple** (steal) that single step. Uber stole taxi **rider–driver matchmaking**, not \"being a taxi company.\""
+        },
+        {
+          "e": "삼각",
+          "q": "What are the three decoupling modes?",
+          "a": "Activities are **value-creating, value-capturing, or value-eroding**. Examples: **Twitch** (watch, don't play), **Steam** (stream, skip the store), Fortnite freemium (play free, pay later). VCs prefer **value-creating decouplers**."
+        }
+      ]
+    },
+    {
+      "title": "Five-step recipe and expansion",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What is the PillPack five-step decoupling recipe?",
+          "a": "**Map chain → classify activities → find weak link → steal it → preempt incumbent response**. PillPack stole **pill organization for the elderly** via subscription sachets — then Amazon acquired it for **$1B+**."
+        },
+        {
+          "e": "🧱",
+          "q": "Why won't pharmacies just copy PillPack?",
+          "a": "Incumbent responses are often **predictable**: pharmacies won't copy because it conflicts with their **foot-traffic business model**. After a foothold, **coupling** expands to adjacent activities (Uber rides → food → packages)."
+        }
+      ]
+    },
+    {
+      "title": "Profit caveat and AI filter",
+      "items": [
+        {
+          "e": "⚠️",
+          "q": "Does decoupling guarantee a profitable business?",
+          "a": "**No.** Providing value to customers does not automatically mean you can **capture value**. You still must build, scale, learn economics, and pivot."
+        },
+        {
+          "e": "🤖",
+          "q": "Where should you apply AI for disruption?",
+          "a": "Watch for rising **money, time, or effort** costs — the three unhappiness drivers. AI is general-purpose like the internet; apply it only where customers **overpay on unhappy activities**, or you create little customer value."
+        }
+      ]
+    }
+  ]
+}

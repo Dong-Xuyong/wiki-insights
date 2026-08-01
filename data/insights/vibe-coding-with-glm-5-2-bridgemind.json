@@ -1,0 +1,95 @@
+{
+  "slug": "vibe-coding-with-glm-5-2-bridgemind",
+  "sections": [
+    {
+      "title": "Vibe Coding With GLM 5.2",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about gLM 5.2 dropped same day as Fable 5/Mythos 5 US access suspension?",
+          "a": "**ZAI treated ban as marketing moment.**"
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about coding-plan-only access; not in ZAI chatbot or public API at test time.?",
+          "a": "**Coding-plan-only access; not in** ZAI chatbot or public API at test time."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about open-source positioning praised; model quality for production vibe coding rejected.?",
+          "a": "**Open-source positioning praised; model** quality for production vibe coding rejected."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about running 5–9 subagents triggers immediate rate limits on $65/mo plan.?",
+          "a": "**Running 5–9 subagents triggers** immediate rate limits on $65/mo plan."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about zAI lacks server capacity for concurrent agent fleets?",
+          "a": "**conflicts with sub agents and teams parallel workflow.**"
+        },
+        {
+          "e": "🧠",
+          "q": "What should you remember about 71%/5hr quota burn in ~1 hour on cheap model undermines value vs Opus limits (expensive but usable).?",
+          "a": "**71%/5hr quota burn in ~1** hour on cheap model undermines value vs Opus limits (expensive but usable)."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 4",
+      "items": [
+        {
+          "e": "💰",
+          "q": "What should you remember about chinese open models pattern?",
+          "a": "strong on isolated HTML demos, weak on **end-to-end game logic** (escape triggers, movement controls, lighting)."
+        },
+        {
+          "e": "🏆",
+          "q": "What should you remember about creator contrasts with pre-ban Fable 5 one-shot perfection on same horror-house prompt.?",
+          "a": "**Creator contrasts with pre-ban** Fable 5 one-shot perfection on same horror-house prompt."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 5",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What should you remember about **jagged intelligence** manifest?",
+          "a": "**#1 reasoning + broken** Minecraft movement in same session."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should you remember about trust bar for production?",
+          "a": "**\"If you can't navigate a** voxel map, I won't trust you with subscribers on the line.\"."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 6",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What should you remember about bridgeBench HTML visual tests ≠ production codebase reliability.?",
+          "a": "**BridgeBench HTML visual tests ≠ production codebase reliability.**"
+        },
+        {
+          "e": "🛡️",
+          "q": "Why does this matter: Reasoning/BS/refactoring scores suggest good **Hermes-style background agents**; interactive greenfield still ?",
+          "a": "Reasoning/BS/refactoring scores suggest good **Hermes-style background agents**; interactive greenfield still needs frontier models."
+        }
+      ]
+    }
+  ]
+}
