@@ -2,92 +2,67 @@
   "slug": "sugar-processed-foods-impact-health-robert-lustig",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Why calories-in/calories-out isn't enough",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **cico model critique**?",
-          "a": "**Two behaviors (gluttony + sloth) imply personal fault; ignores that 250** cal of almonds ≠ 250 cal of HFCS soda metabolically. Protein, fat, and carb calories are not interchangeable; fiber changes the equation."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **perfact nutrition framework**?",
-          "a": "**Protect liver / feed gut /** support brain. Ultra-processed sugar products fail all three → metabolic poison, not food."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **fructose metabolic toxicity**?",
-          "a": "**~10% intestinal de novo lipogenesis; fructose \"wants to** be fat.\" Uric acid from fructose metabolism inhibits mitochondria. Liquid sugar (soda, juice) delivers dose without satiety fiber."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Insulin: growth vs burn**?",
-          "a": "**Insulin promotes cell growth/storage; chronically high insulin** → insulin resistance, blocks leptin at hypothalamus/nucleus accumbens → \"never full\" despite adequate fat stores."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **sugar addiction brain circuits**?",
-          "a": "**Non-fruit fructose downregulates dopamine receptors like** nicotine/cocaine; alters craving/satisfaction circuits. Cross-links pleasure pain balance and highly palatable food reset."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **leaky gut fructose inflammation**?",
-          "a": "**Fructose increases intestinal permeability → liver** inflammation → systemic inflammation (CRP). Gut microbiome support: fiber, fermented foods, fasting windows."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **nova food classification**?",
-          "a": "**NOVA groups 1–2 = real/minimally processed; 3–4** = ultra-processed pseudo foods engineered for overconsumption. Lustig advocates banning class 3–4 from public schools."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **personal responsibility public health**?",
-          "a": "**Every major public-health debacle started as \"personal health** issue\" until society responded (tobacco, syphilis, TB). Sugar industry funded CHD research deflection (1960s JAMA analysis)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **food industry price elasticity**?",
-          "a": "**Sugar is price-inelastic (~−0.7 to** −0.8); small price cuts spike consumption disproportionately — industry knows and exploits."
-        },
         {
           "e": "⚖️",
-          "q": "What should you remember about **Trans fats vs omega-3s**?",
-          "a": "**Trans fats accumulate (no desaturase to break** trans bond); omega-3s stay intact for brain/heart. Meat/eggs/fish: quality and processing matter more than category bans."
+          "q": "What's wrong with the simple CICO explanation of obesity?",
+          "a": "It blames **gluttony + sloth** as personal fault and treats calories as interchangeable. Lustig: **250 cal of almonds ≠ 250 cal of HFCS soda** — protein, fat, carb type, and **fiber** rewrite the energy-balance equation."
+        },
+        {
+          "e": "✅",
+          "q": "What is the PerFACT nutrition test for \"real food\"?",
+          "a": "Food is healthy only if it **(1) protects the liver, (2) feeds the gut, (3) supports the brain**. If it does **none of the three**, it's **\"poison — because it's not food\"** (pseudo food)."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Fructose, insulin, and the brain",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Stress → cortisol → inflammation → sugar craving**?",
-          "a": "**Chronic cortisol is pro-inflammatory;** acute cortisol is anti-inflammatory. Stress eating reinforces the loop."
+          "e": "🍬",
+          "q": "Why is fructose uniquely toxic compared with glucose?",
+          "a": "**\"Fructose wants to be fat\"** — ~**10%** intestinal de novo lipogenesis; uric acid inhibits mitochondria; liquid sugar delivers dose without satiety fiber. Glucose fuels muscle/insulin; fructose hits **liver/intestine** and downregulates **dopamine receptors** like nicotine/cocaine."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **artificial sweetener liver risk**?",
-          "a": "**Non-caloric sweeteners may impair neural/metabolic sensitivity to** sugar (Cell Metabolism sucralose+carb study cited); diet soda drinkers can still show liver fat deposition."
+          "e": "🔒",
+          "q": "How does chronic insulin keep you \"never full\"?",
+          "a": "Insulin promotes **growth/storage**; chronically high insulin → insulin resistance and **blocks leptin** at hypothalamus/nucleus accumbens — so fat stores don't register as satiety."
+        },
+        {
+          "e": "🦠",
+          "q": "How does fructose drive systemic inflammation?",
+          "a": "It increases **intestinal permeability (leaky gut)** → liver inflammation → systemic inflammation (CRP). Counter with **fiber, fermented foods, and fasting windows**."
+        }
+      ]
+    },
+    {
+      "title": "Industry playbook and NOVA",
+      "items": [
+        {
+          "e": "🚬",
+          "q": "How does the food industry echo tobacco's public-health playbook?",
+          "a": "**Personal responsibility** framing (\"your fault, diet and exercise, any calorie fits\") while engineering ultra-palatable products. Sugar is **price-inelastic (~−0.7 to −0.8)** — small price cuts spike consumption. Lustig: every public-health debacle started as a \"personal issue\" until society responded."
+        },
+        {
+          "e": "🏷️",
+          "q": "Which NOVA classes should you avoid?",
+          "a": "**NOVA 1–2** = real/minimally processed; **3–4** = ultra-processed pseudo foods engineered for overconsumption. Lustig advocates **banning class 3–4 from public schools**."
+        }
+      ]
+    },
+    {
+      "title": "Practical tools and caution flags",
+      "items": [
+        {
+          "e": "🧃",
+          "q": "What concrete food rules does Lustig push?",
+          "a": "**No liquid sugar**; fruit OK, **fruit juice not**; prefer brown rice; load **omega-3s**; read labels for hidden sugars; reduce **stress/cortisol-driven** sugar craving loops."
+        },
+        {
+          "e": "⚠️",
+          "q": "Are diet soda and Ozempic free passes?",
+          "a": "**Artificial sweeteners** may still impair metabolic sensitivity (diet soda drinkers can show liver fat). **GLP-1 agonists** (semaglutide/Wegovy) work for weight loss but treat **symptom not cause** — muscle loss, GI effects, unknown long-term, and pharma incentives for chronic maintenance."
         }
       ]
     }

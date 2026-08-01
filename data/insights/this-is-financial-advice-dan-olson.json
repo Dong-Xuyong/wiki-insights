@@ -2,92 +2,72 @@
   "slug": "this-is-financial-advice-dan-olson",
   "sections": [
     {
-      "title": "This is Financial Advice",
+      "title": "After the squeeze",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Two realities**?",
-          "a": "**Apes' GameStop is a cosmic battle** for generational wealth; yours is a struggling mall retailer that got a temporary lifeline."
+          "e": "📖",
+          "q": "What is Dan Olson's real subject after GameStop?",
+          "a": "Not \"little guy beat Wall Street\" as the whole story. January 2021 is the **prologue**. The enduring phenomenon is a **post-squeeze cult** — meme-stock ape culture built on gambling addiction, soap-opera drama, and conspiracy lore."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **January was complicated**?",
-          "a": "**SEC report**: short squeeze elements + massive retail FOMO; Melvin lost big (Citadel bailout); bag holders were mostly retail, not Citadel."
+          "e": "🪞",
+          "q": "Why can't Apes and outsiders agree on what \"GameStop\" means?",
+          "a": "**Two realities**: Apes see a cosmic fight for generational wealth; outsiders see a struggling mall retailer that got a temporary lifeline. You're **not talking about the same thing**."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "January vs the myth",
       "items": [
         {
           "e": "📊",
-          "q": "What should you remember about **Post-squeeze coping**?",
-          "a": "**Recast January as \"the sneeze\";** MOASS becomes the real event; infinite risk/reward rhetoric masks negative EV."
+          "q": "What does the SEC picture of the January peak look like?",
+          "a": "Some **short covering** was in the mix, but **retail buyers overwhelmingly drove** the peak near **$500**. Melvin lost big (Citadel bailout); many bag holders were retail, not Citadel."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Conspiracy injection timeline**?",
-          "a": "Naked shorts, DRS, DTCC, Ken Griffin letters mattered little in January but exploded Feb–Mar as **why it didn't keep squeezing**."
+          "e": "🌪️",
+          "q": "How did holders rewrite January after the music stopped?",
+          "a": "They recast January as **\"the sneeze\"** and invented **MOASS** — the mother of all short squeezes — as the real event. Holders stuck near **$420** needed an even bigger squeeze to get whole."
+        },
+        {
+          "e": "🕵️",
+          "q": "When did naked-short and DRS lore explode?",
+          "a": "Naked shorts, DRS/ComputerShare, DTCC, and Ken Griffin letters mattered little in January, then exploded **Feb–Mar** as explanations for **why it didn't keep squeezing**."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Cargo-cult research",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **DRS as religion**?",
-          "a": "**Direct registration reframed as proof of** float ownership; ComputerShare \"heat lamp burger\" posts as low-effort lore that still spreads."
+          "e": "🧪",
+          "q": "What makes Ape \"due diligence\" a cargo cult?",
+          "a": "It's **research theater that never updates priors** — volume without falsifiability. Mods, shills, and paid opposition become permanent narrative furniture instead of testable claims."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Robinhood mundane read**?",
-          "a": "**Limited margin / collateral** mechanics vs Apes' \"targeted disruption\" narrative; still catalyzed persecution complex."
+          "e": "🎰",
+          "q": "How is ape culture worse than ordinary gambling?",
+          "a": "It has gambling's **addictive highs + soap-opera energy**, but Apes convince each other blackjack has a secret **\"hit 31, win the tray\"** rule — **addiction mechanics without real odds** of winning."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Prophets, brokers, winners",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Keith Gill paradox**?",
-          "a": "**Inventor of meme stocks to** some, meaningless mascot to the documentary's causal story; silence interpreted conspiratorially."
+          "e": "🐱",
+          "q": "What is the Keith Gill paradox in the documentary?",
+          "a": "Roaring Kitty / DFV is mythologized as **prophet** while remaining **causally smaller than legend**. His silence gets read conspiratorially; Ryan Cohen tweets become Rorschach signals."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Gambling + soap opera**?",
-          "a": "**Daily price drama + community belonging;** hide losses from spouses; \"wife-changing money\" meme (dividend fantasy on one share)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Due diligence theater**?",
-          "a": "**Research volume without falsifiability;** mods, shills, paid opposition as permanent narrative furniture."
+          "e": "🛑",
+          "q": "Was Robinhood's buy-button halt a targeted hit on Apes?",
+          "a": "Dan's mundane read: **limited margin / collateral mechanics**, not a conspiracy masterstroke — though it still catalyzed a **persecution complex** that fueled the lore."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Regulatory nightmare**?",
-          "a": "**Enough collective inertia to move prices** + enough delusion to misread basic mechanics = no easy policy response."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Winners irony**?",
-          "a": "**Retail heroes narrative vs hedge** funds farming predictable irrationality (WSB recruiting, dilution \"tasty dip\" plays)."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Title punchline**?",
-          "a": "**Ironic \"financial advice\" from** a movement that redefines finance into a quasi-religious siege."
+          "e": "🏦",
+          "q": "Who adapted after the mania?",
+          "a": "**Melvin closed in 2022**; **Citadel recruited from WSB**; Hudson Bay and others farmed **predictable dip-buying**. The retail-hero narrative coexists with hedge funds monetizing irrationality."
         }
       ]
     }

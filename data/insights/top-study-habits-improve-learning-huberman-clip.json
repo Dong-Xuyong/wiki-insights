@@ -2,72 +2,62 @@
   "slug": "top-study-habits-improve-learning-huberman-clip",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "What top medical students actually do",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Correlation, not causation**?",
-          "a": "**Huberman explicitly warns**: top students may study 3–4 hr/day *because* they're good, not vice versa; habits still replicate across contexts."
+          "e": "📚",
+          "q": "Which study habits separate top performers in the ~700-student survey?",
+          "a": "The top **5–6** habits drive most of the gap: **scheduled** calendar blocks, **eliminate distractions** (phone off, Wi-Fi off if possible), **study alone**, **3–4 hours/day** in **2–3 sessions**, and **≥5 days/week** consistency."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Alone + phone-off**?",
-          "a": "**distraction elimination and solo** study dominate the survey signal."
+          "e": "⚠️",
+          "q": "Is this proven cause-and-effect?",
+          "a": "No — Huberman flags **correlation only**. Top students may study 3–4 hours because they're already strong; the habits are still the most repeatable patterns across contexts."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Teach to lock in mastery",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Split sessions**?",
-          "a": "**2–3 blocks beats one 4-hour slog.**"
+          "e": "🧑‍🏫",
+          "q": "Why should you teach peers even in a competitive course?",
+          "a": "Top performers **learn alone**, then **teach peers** in the same course — they do \"exceedingly well\" despite fears of giving away advantage. Teaching is a **mastery test**, not a freebie."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Teach despite competition**?",
-          "a": "**peer teaching tests mastery;** \"freebie\" fear for classmates isn't the point."
+          "e": "🔬",
+          "q": "What is \"watch one, do one, teach one\"?",
+          "a": "A lab tradition (surgeries, western blots, etc.): **observe → perform → teach**. Use it in **safe contexts** to move from proficiency toward mastery and virtuosity."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Attention budget and entrainment",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Adenosine attention budget**?",
-          "a": "**sleep renews focus capacity; schedule demanding work accordingly.**"
+          "e": "🔋",
+          "q": "Why does focus feel limited by afternoon?",
+          "a": "Focus is a **limited but renewable resource**. **Adenosine** builds while awake and degrades attention; **sleep clears it**. Schedule demanding study when you know you'll need that budget."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **3-day entrainment**?",
-          "a": "**regular study times train** nervous system; allow transition period."
+          "e": "⏰",
+          "q": "How long until a study schedule starts to \"stick\"?",
+          "a": "About **3 days** of studying at regular times (**1–2 blocks/day**) entrains brain/body like sleep-wake cycles. Pulling attention back to the page is a **learnable skill**, not automatic."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Motivation, effort, and testing",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Aspirational bookends**?",
-          "a": "**nuts-and-bolts daily actions +** long-horizon \"why\" for boring material."
+          "e": "🌟",
+          "q": "What motivation style do top students report?",
+          "a": "**Aspirational learning** — a broad, long-term vision of how success transforms self and family — pulls them through fatigue when material isn't exciting. When you **love** the topic, aspiration matters less."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Effort ≠ misery**?",
-          "a": "**challenging ≠ painful if** structured well (full episode promise)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Testing = learning tool**?",
-          "a": "**pop quiz in clip** is itself the pedagogical point."
+          "e": "💪",
+          "q": "Does easy reviewing work better than hard study?",
+          "a": "No. Peer-reviewed consensus: study that **feels challenging** is most effective. Flow/osmosis myths fail; **effort is the cornerstone**. Quizzes aren't just grades — **retrieval practice** builds retention and offsets forgetting."
         }
       ]
     }

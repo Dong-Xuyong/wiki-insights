@@ -2,72 +2,62 @@
   "slug": "where-did-all-the-minimalists-go-matt-davella",
   "sections": [
     {
-      "title": "Where did all the minimalists go?",
+      "title": "The wave that left the headlines",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Cultural movements ≠ systemic reform**?",
-          "a": "**minimalism inspired millions to declutter** and find purpose; inequality, captured state, and monopoly power need structural fixes."
+          "e": "📉",
+          "q": "Where did the 2010s minimalism boom go?",
+          "a": "Matt D'Avella's *Minimalism* streamed **100M+** times and Marie Kondo hit the mainstream — then the cultural headline faded. Ten years on, **consumerism post-COVID** intensified via one-click buying, TikTok/Instagram FOMO, Stanley cups, Labubu, and billionaire weddings."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Inequality is an under-discussed consumption driver**?",
-          "a": "**more equal societies (Japan, much of** Europe) show less status consumption and debt; US is extreme on both axes."
+          "e": "📰",
+          "q": "Why did minimalism leave the conversation?",
+          "a": "Two reasons: **novelty wore off** (practice continues quietly), and a **polycrisis** — authoritarianism, AI, climate, social media — makes 'too much Amazon' feel secondary as a top worry."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Personal tool, not systemic fix",
+      "items": [
+        {
+          "e": "🔨",
+          "q": "What does Joshua Fields Millburn say minimalism actually is?",
+          "a": "Not a religion or ideology — a **hammer**: useful personal utility with tangible returns (less cleaning, less mental clutter), not a wrecking ball for institutions. Juliet Schor: a **cultural movement** will never be enough to transform society."
+        },
+        {
+          "e": "⚖️",
+          "q": "How do voluntary and forced minimalism differ?",
+          "a": "**Choosing less** while able to afford more is not the same as being **forced into scarcity**. Both respond to unfair outcomes; neither is the root problem of inequality and corporate power."
+        }
+      ]
+    },
+    {
+      "title": "Inequality drives consumption",
       "items": [
         {
           "e": "📊",
-          "q": "What should you remember about **Post-COVID consumerism spike**?",
-          "a": "**isolation + social-media addiction + fractured social** circles → \"injection\" of spending; Levi Hildebrand: ~10× in a decade, exponential after COVID."
+          "q": "What does Juliet Schor argue is the under-discussed driver of spending?",
+          "a": "**Inequality drives consumption**: more equal societies (Japan, much of Europe) show less status spending and debt; the **US is extreme** on both. Robert Frank's **expenditure cascades** ripple from trillionaire excess down to middle-class stretch and lower-income debt for basics."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Two reasons minimalism faded from headlines**?",
-          "a": "**(1) viral moment novelty expired** (practice continues quietly), (2) polycrisis crowds out overconsumption as top worry."
+          "e": "🛒",
+          "q": "How does distress turn into more buying?",
+          "a": "Levi Hildebrand describes a **convenience-culture apathy loop**: when systems feel broken, habitual comfort purchases (Stanley, Starbucks) soothe distress without fixing causes. He cites roughly a **10×** spending spike in a decade, exponential after COVID."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "What actually scales beyond decluttering",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Voluntary vs compelled minimalism**?",
-          "a": "**choosing less while able to afford more** ≠ being forced into scarcity; both are reactions to unfair outcomes, not the root problem."
+          "e": "🏛️",
+          "q": "What two-track policy path does Schor outline?",
+          "a": "Pair **redistribution** (millionaire/billionaire taxes) with fairer **pre-tax market outcomes** — CEO pay limits, unions, antitrust, community power — echoing the post-WWII **great compression** of inequality."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Hammer not religion**?",
-          "a": "**minimalism creates tangible returns** (less cleaning, mental clutter) vs abstract sustainability pitches (bamboo toothbrush)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Apathy purchases**?",
-          "a": "**when systems feel broken,** habitual comfort spending (Stanley, Starbucks) soothes distress without fixing causes."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Policy two-track**?",
-          "a": "**progressive taxation/redistribution *plus* fairer** pre-tax market outcomes (unions, community power, break up monopolies)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Historical optimism**?",
-          "a": "**Schor**: crises often precede new structures (Great Depression → New Deal); enough pain eventually triggers \"enough's enough\"."
+          "e": "🌱",
+          "q": "Is there historical reason for optimism?",
+          "a": "Schor notes crises often precede new structures (**Great Depression → New Deal**). Consumerism is often a **symptom** of other systems going wrong — enough pain eventually triggers 'enough's enough.'"
         }
       ]
     }

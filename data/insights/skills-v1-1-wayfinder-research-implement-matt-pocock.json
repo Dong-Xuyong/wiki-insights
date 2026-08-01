@@ -2,72 +2,62 @@
   "slug": "skills-v1-1-wayfinder-research-implement-matt-pocock",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "v1.1 vocabulary and full SDLC",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Names matter for agent workflows**?",
-          "a": "**\"spec\" and \"tickets\" are renamed because precise** naming (\"good friction\") shapes what the LLM and user let leak into each document."
+          "e": "🏷️",
+          "q": "Why rename to-PRD → to-spec and to-issues → to-tickets?",
+          "a": "What it produced was never a true PRD — a **spec** is the broader destination doc. **Tickets** (not GitHub/Linear \"issues\") are the journey to enact it. Precise naming is **\"good friction\"** that shapes what leaks into each document. Re-run `npx skills add mattpocock/skills` and prune stale skills."
         },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Wayfinder = planning sharded across sessions**?",
-          "a": "**each decision scoped to one agent session; blocking** sub-issue graph on GitHub replaces in-session handoff anxiety; Matt uses it \"for literally everything,\" even planning his course."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Ticket types classify the work**?",
-          "a": "**research (AFK background agent), grilling (human-in-the-loop),** prototype (cheap concrete artifact), task (boring human config/provisioning that can't be automated)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Implement earns its place by being trivial**?",
-          "a": "**mostly leans on agent priors** and harness; exists because everyone kept asking \"what's the flow?\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Fowler smells as prior-invocation**?",
-          "a": "**old, well-cited vocabulary is already deep in the model; one** sentence per smell makes the reviewer echo the term back (\"found message chains, removing them\"); \"outrageously useful\" for ~10 lines."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Coding standards live outside AGENTS.md**?",
-          "a": "**pushed to the reviewer** where they're most useful, not into every implementer session."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Refactoring is review's job, not TDD's**?",
-          "a": "**red-green only, one slice at** a time; putting refactoring in code review avoids overloading implementation."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Grilling fixes**?",
-          "a": "**tell the model *why* multiple questions are bewildering; add \"do not** enact until I confirm shared understanding\" gate; distinguish facts (explore the codebase yourself) from decisions (must be made by the user) to stop self-grilling."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
         {
           "e": "🔄",
-          "q": "What should you remember about **Prototype before spec for anything front-end**?",
-          "a": "**\"raise the fidelity of the** discussion by making a cheap, rough, concrete artifact to react to\"."
+          "q": "What full lifecycle does v1.1 complete?",
+          "a": "**Grill → spec → tickets → `/implement` → code review.** Implement stays deliberately tiny: **TDD at pre-agreed seams**, typecheck regularly, full suite once at end, then review + commit. Repo: ~**160K stars**, ~**7M downloads**."
+        }
+      ]
+    },
+    {
+      "title": "Wayfinder for foggy ideas",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "When should you use Wayfinder instead of one giant grill session?",
+          "a": "When a loose idea is **\"too big for one agent session and wrapped in fog.\"** It charts a GitHub issue map with **blocking sub-issues**, each scoped to one session — close a session, open the next ticket; feed the completed map to **to-spec**."
+        },
+        {
+          "e": "🎫",
+          "q": "What ticket types does Wayfinder use?",
+          "a": "**Research** (AFK background agent), **grilling** (human-in-the-loop), **prototype** (cheap concrete artifact), and **task** (boring human config that can't be automated). Matt uses it \"for literally everything.\""
+        }
+      ]
+    },
+    {
+      "title": "Code review and Fowler smells",
+      "items": [
+        {
+          "e": "👃",
+          "q": "Why are ~10 lines of Martin Fowler smells \"outrageously useful\"?",
+          "a": "*Refactoring* vocabulary is **deep in agent priors** — mysterious name, feature envy, data clumps, primitive obsession, message chains, middle man. One sentence per smell makes the reviewer **name and fix** them."
+        },
+        {
+          "e": "📐",
+          "q": "Where should coding standards live?",
+          "a": "In a repo **`coding-standards.md`**, **outside AGENTS.md**, pushed to the reviewer. Review runs **two parallel sub-agents**: standards conformance + **spec fidelity**. Refactoring is **review's job**, not TDD's (red-green only, one slice at a time)."
+        }
+      ]
+    },
+    {
+      "title": "Grilling fixes and prototypes",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "What grilling bugs did v1.1 fix?",
+          "a": "Explain **why one question at a time**; add a **confirmation gate** before implementation; distinguish **facts** (explore the codebase yourself) from **decisions** (user must choose) — especially stops **Fable** from grilling itself."
+        },
+        {
+          "e": "🧪",
+          "q": "When should you prototype before writing a spec?",
+          "a": "Especially for **front-end**: raise discussion fidelity with a **cheap, rough, concrete artifact** to react to — via `/prototype` and `/research` against primary sources."
         }
       ]
     }

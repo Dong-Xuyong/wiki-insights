@@ -2,77 +2,67 @@
   "slug": "claude-24-7-trader-routines",
   "sections": [
     {
-      "title": "I Turned Claude Into a 24/7 Trader",
+      "title": "Claude as the trading bot",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Opus 4.7 + routines = 24/7 agent**?",
-          "a": "**full agentic loop on a** schedule; cheaper than equivalent API-only cron orchestration at Nate's usage level."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Genetic financial analysis ≠ day trading**?",
-          "a": "**benchmark rewards fundamentals/thesis writing;** maps to long-term or swing strategies, not candlestick timing."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Five weekday crons**?",
-          "a": "**pre-market (research, draft ideas), market open (execute** + 10% trailing stops), midday (cut −7% losers, tighten winners), close (EOD summary), Friday weekly review."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Start paper, phase up**?",
-          "a": "**like teaching a kid to ride a** bike; guardrails before autonomy (max % per position, daily loss cap, no options, position limits)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Env var names must match exactly**?",
-          "a": "**cloud environment keys (e.g. ALPACA_API_SECRET) must** appear letter-for-letter in prompts; agent defaulted to .env and failed until fixed."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Never commit secrets**?",
-          "a": "rotate keys found in migrated OpenClaw templates; store Alpaca, Perplexity, ClickUp keys in Claude Desktop **cloud environment** settings only."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Files = personality + discipline**?",
-          "a": "**not just memory; orchestrate which** files each routine reads (strategy, trade log, CLAUDE.md ~156 lines for Bull)."
+          "e": "📈",
+          "q": "What did Nate migrate Bull onto, and why?",
+          "a": "From OpenClaw to **Claude Code remote routines** on **Opus 4.7**. Claude *is* the bot — researches markets, trades via **Alpaca**, journals to markdown, and sends ClickUp recaps with **no always-on Python process**."
         },
         {
           "e": "🏆",
-          "q": "What should you remember about **Watch every run early**?",
-          "a": "**read conversation history, tweak prompts** and context files; agent suggests skill updates in daily insights."
+          "q": "What results did the prior OpenClaw run show?",
+          "a": "**$10K** live Alpaca capital, about **~8% ahead of the S&P** in **30 days**. Strategy goal: **beat the S&P** with fundamentals/thesis writing, not day-trading candlesticks."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Stateless memory pattern",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Context reset before routine design**?",
-          "a": "**/clear with pasted session** summary after migration to avoid rot before planning crons."
+          "e": "📁",
+          "q": "How does a stateless routine stay disciplined?",
+          "a": "Each run wakes with ~**200K token budget** and almost no memory. Discipline lives in **files**: read memory first → execute → write back → **commit to `main`** so the next run inherits state. Files are personality + discipline, not just logs."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Perplexity over native web search**?",
-          "a": "**preferred research API; keys** from env vars at runtime."
+          "e": "☁️",
+          "q": "What must be true for cloud persistence to work?",
+          "a": "Remote routines clone the repo, work, then destroy the instance. Persistence needs an explicit **git push** with **allow unrestricted branch pushes** enabled."
+        }
+      ]
+    },
+    {
+      "title": "Five weekday routines",
+      "items": [
+        {
+          "e": "🗓️",
+          "q": "What are the five weekday cron jobs?",
+          "a": "**Pre-market** (research, draft ideas), **market open** (execute + **10% trailing stops**), **midday** (cut **−7%** losers, tighten winners), **close** (EOD summary), and **Friday weekly review**."
+        },
+        {
+          "e": "🛡️",
+          "q": "What guardrails come before live autonomy?",
+          "a": "Start **paper**, then phase up like teaching a kid to ride a bike: **max % per position**, daily loss cap, **no options**, position limits — guardrails before autonomy."
+        }
+      ]
+    },
+    {
+      "title": "Keys, research, and ops",
+      "items": [
+        {
+          "e": "🔐",
+          "q": "Where do API secrets belong for cloud routines?",
+          "a": "Never commit secrets. Store Alpaca, Perplexity, and ClickUp keys in Claude Desktop **cloud environment** settings. Env var names in prompts must match **letter-for-letter** or the agent thinks they don't exist."
+        },
+        {
+          "e": "🔎",
+          "q": "Which research API does Bull prefer?",
+          "a": "**Perplexity** over native web search, with keys loaded from env vars at runtime. Alpaca endpoints are preferred over MCP."
+        },
+        {
+          "e": "👀",
+          "q": "How should you operate the bot in the early days?",
+          "a": "**Watch every run** — read conversation history, tweak prompts and context files (`CLAUDE.md` ~**156 lines** for Bull). Use `/clear` with a pasted session summary after migration to avoid context rot before designing crons."
         }
       ]
     }

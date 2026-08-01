@@ -2,87 +2,72 @@
   "slug": "using-deliberate-cold-exposure-health-performance-huberman",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "How cold, which modality",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Deliberate + mindset**?",
-          "a": "**Ali Crum**: chosen stress ≠ imposed stress; placebo distinct from mindset effects."
+          "e": "🥶",
+          "q": "How cold should deliberate cold exposure feel?",
+          "a": "No universal °F — place yourself where it is **uncomfortably cold but safely stayable**. Difficulty rises at night vs afternoon because temperature is **circadian-modulated** (core lowest ~2 h before wake)."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Uncomfortably cold rule**?",
-          "a": "**want out but can stay** safely; harder at night than afternoon due to circadian temp."
+          "e": "🛁",
+          "q": "Which cold modality works best?",
+          "a": "Rank: **neck-deep immersion** (hands/feet submerged) > cold shower > cold air. Water transfers heat ~**4× faster** than air."
+        },
+        {
+          "e": "🏊",
+          "q": "Should you stay still in the water?",
+          "a": "No — **move to break the thermal layer**. Stillness makes you warmer and **cheats part of the stimulus**."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **11 min/week floor**?",
-          "a": "**consistency anchor for metabolism;** increase temp challenge when easy (colder, longer, or more frequent)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Walls > time-only**?",
-          "a": "**counting epinephrine surges scales** mental toughness without endlessly lowering temperature."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
+      "title": "Mood, grit & dopamine",
       "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about **Movement in cold**?",
-          "a": "**breaks thermal layer; still** body = easier/cheating the stimulus."
+          "q": "What does cold do to catecholamines?",
+          "a": "Cold spikes **epinephrine/norepinephrine** via skin receptors → locus coeruleus + adrenals. Sramek et al.: **57°F / 14°C × 1 hr** → ~**530% NE**, ~**250% dopamine** sustained **2+ hr** post-exit, **no cortisol spike** (eustress)."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Dopamine without cortisol crash**?",
-          "a": "**long elevated baseline mood/focus** vs drug-like peaks (Anna Lembke patient used cold for sobriety)."
+          "e": "🧱",
+          "q": "How do you train mental resilience in the cold?",
+          "a": "Count adrenaline **\"walls\"** instead of fixed time, or do cognitive tasks in cold (boxing-chess analogy). Chosen stress (Ali Crum) ≠ imposed stress."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Metabolism & Søberg principle",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Søberg principle**?",
-          "a": "**finish cold + shiver for metabolic/beige-fat benefit.**"
+          "e": "⏱️",
+          "q": "What weekly cold dose supports brown-fat thermogenesis?",
+          "a": "Søberg winter-swimmer work: **≥11 min/week total** across **2–4 sessions**. When it gets easy, raise challenge via colder, longer, or more frequent exposure."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Glabrous cooling ≠ ice packs on torso**?",
-          "a": "**palms, soles, upper cheeks extract** core heat efficiently; armpit/groin packs less efficient and can trigger warming reflex."
+          "e": "❄️",
+          "q": "What is the Søberg principle?",
+          "a": "**End on cold** and induce **shiver** (during or immediately after) to drive white→beige/brown fat conversion. Caffeine pre-cold may amplify striatal **D2/D3** availability."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Training timing & palmar cooling",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Palmar cooling = volume tool**?",
-          "a": "**doubles/triples total work over** session, not necessarily first-set max."
+          "e": "🏋️",
+          "q": "When should you avoid deep cold after lifting?",
+          "a": "Avoid neck-deep immersion **≤4 hr post hypertrophy/strength** (mTOR blunting). OK after endurance/skill; meta-analysis (52 studies) finds post-HIIT immersion ↓ soreness, ↑ power, ↓ CK — **shorter/colder often better**."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Testosterone**?",
-          "a": "**no direct groin-ice study; plausible** via dopamine→LH pathway; full immersion sufficient; groin-specific contact may risk tissue damage."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
+          "e": "🖐️",
+          "q": "How does palmar cooling boost performance?",
+          "a": "Cool **palms, soles, upper face** (glabrous AVAs) — not so cold as to vasoconstrict. Between-set palm cooling: pull-up volume **+144% over 6 weeks**, bench 1RM **+22% over 10 weeks**; ↓ DOMS. Cool glabrous surfaces for hyperthermia — **not torso towels** (can raise core further)."
+        },
         {
-          "e": "🚀",
-          "q": "What should you remember about **Timing**?",
-          "a": "**early day cold amplifies** alertness; late evening may impair sleep via thermogenesis."
+          "e": "🌙",
+          "q": "Does evening cold hurt sleep?",
+          "a": "Evening cold can **raise core temp** and disrupt sleep. Prefer **morning/midday** when you want alertness."
         }
       ]
     }

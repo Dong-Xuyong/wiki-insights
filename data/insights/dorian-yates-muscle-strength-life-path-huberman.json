@@ -2,77 +2,62 @@
   "slug": "dorian-yates-muscle-strength-life-path-huberman",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Minimum effective dose",
       "items": [
+        {
+          "e": "⏱️",
+          "q": "How little training does Yates say a non-competitive person needs?",
+          "a": "**45 minutes twice a week** — **8–10 exercises**, whole body — plus good diet can transform health for the average **40–60 year old** if intensity is real. Time as an excuse is \"not relevant.\""
+        },
+        {
+          "e": "🔥",
+          "q": "What is the Blood and Guts training loop?",
+          "a": "**Stimulate → recover → adapt**: overload to **real muscular failure** (warm-ups + **1–2 working sets**; optional drop set), then recover before returning. Transient **pump ≠ growth**; **progressive overload** drives adaptation. Periodize hard **5–6 weeks**, then submaximal **2 weeks** (or 1 week fully off)."
+        }
+      ]
+    },
+    {
+      "title": "Volume, cardio, and lab myths",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What happened when Yates added more volume?",
+          "a": "Adding a **4th day** or extra sets **stalled progress 3–4 weeks**; cutting back resumed growth in his documented logs. Natural trainees often need **less total stimulus and more rest** than enhanced champions."
+        },
+        {
+          "e": "🚴",
+          "q": "How does Yates get cardio done without long steady sessions?",
+          "a": "**Air-bike sprints**: **3×20 seconds** all-out plus recovery ≈ **6 minutes total** — matching ~**45 min** steady-state in studies he cites. Keep cardio separate from weights. Lab \"hit each muscle every **72 h**\" timelines failed his and Huberman's real-world trials versus **once-per-week** body-part frequency."
+        }
+      ]
+    },
+    {
+      "title": "Natural path and identity",
+      "items": [
+        {
+          "e": "🏋️",
+          "q": "What was Yates's natural-before-anabolics arc?",
+          "a": "He went **180→210 lb in ~18 months natural**, used gear only when entering the IFBB, and warns casual users about the **steroid merry-go-round** — temporary gains, hard exit. Advice: **get as far as you can naturally** first; he and Huberman both later reference ~**125 mg/week TRT** around age 45."
+        },
+        {
+          "e": "🧭",
+          "q": "What hit after retiring as six-time Mr. Olympia at 35?",
+          "a": "An **athlete identity crisis** — \"who am I?\" — then purpose shifted to coaching and inspiration. Aging work: Pilates/yoga restored posture (**+1\" height** via alignment); he deliberately dropped **250→230 lb** on TRT for blood pressure/health; now **upper/lower 1×/week** maintenance."
+        }
+      ]
+    },
+    {
+      "title": "Women, tone, and mindset",
+      "items": [
+        {
+          "e": "👩",
+          "q": "Do women need different resistance-training rules?",
+          "a": "**Same overload and recovery rules.** \"Toned\" just means **build muscle and lose body fat** — you won't \"bulk by accident\" without genetics + drugs. After 40, expect ~**1%/year sarcopenia** without training."
+        },
         {
           "e": "💡",
-          "q": "What should you remember about **Minimum effective dose**?",
-          "a": "**45 min × 2/week enough for** average 40–60 yr old if intensity + diet are right; time excuse \"not relevant.\"."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **More volume failed experiment**?",
-          "a": "**Adding 4th day / extra** sets stalled progress 3–4 weeks; cut back → growth resumed (documented logs)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **One set to failure era**?",
-          "a": "**~1991–92 Mentzer advice added** another growth level; hybrid between pure HIT and conventional BB."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Steroid recovery gap**?",
-          "a": "**Champions recover faster; natural** trainees need less total stimulus and more rest between sessions."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Diabetes reversal case**?",
-          "a": "**Client**: 3×/week 45 min + low-carb month → out of diabetic/pre-diabetic range, fatty liver enzymes normalized."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **TRT at 45**?",
-          "a": "**Huberman and Yates both** ~125 mg/week; get as far naturally first."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Top-five gate**?",
-          "a": "**1990 Night of Champions**: top 5 or quit competing and steroids."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Flexibility over rigidity**?",
-          "a": "**Mentzer too extreme (train every** 10–12 days, cigarettes); Yates kept training for love of movement post-career."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Anger as fuel**?",
-          "a": "**Father died 13; channeled** hardship; thick skin from punk/Oi background but quiet demeanor."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Women & muscle**?",
-          "a": "**~1%/yr sarcopenia after 40;** won't \"bulk by accident\" without genetics + drugs."
+          "q": "What diabetes case does Yates cite for minimum dose + diet?",
+          "a": "A client on **3×/week × 45 min** plus a **low-carb month** left diabetic/pre-diabetic range with fatty-liver enzymes normalized — illustrating intensity + diet over marathon gym time."
         }
       ]
     }

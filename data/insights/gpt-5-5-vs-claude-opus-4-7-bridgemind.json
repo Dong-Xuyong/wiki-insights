@@ -2,92 +2,62 @@
   "slug": "gpt-5-5-vs-claude-opus-4-7-bridgemind",
   "sections": [
     {
-      "title": "GPT 5.5 VS Claude Opus 4.7",
+      "title": "Hype vs real leaps",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about sWE Bench Pro?",
-          "a": "5.4 **57.7%** → 5.5 **58.6%** (+0.9%); Opus 4.7 **64.3%** leads."
+          "e": "📉",
+          "q": "Are GPT 5.5 and Opus 4.7 monumental upgrades?",
+          "a": "After **90+ hours** of vibe coding, BridgeMind's thesis: **neither is a monumental leap** — hype exceeded results. SWE Bench Pro: 5.4 **57.7% → 5.5 58.6%** (+0.9%); Opus 4.7 still leads at **64.3%**."
         },
-        {
-          "e": "🔑",
-          "q": "What should you remember about bridgeBench overall?",
-          "a": "**4.6 and 4.7 adjacent;** 5.4 and 5.5 adjacent with slight regression."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about creator compares unfavorably to historical leaps?",
-          "a": "**GPT-4o, o1, Opus 4.5.**"
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about new Ultra tier couldn't access Bridge Voice?",
-          "a": "**pro-only guard in Stripe service.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Opus 4.7:** three speculative causes; #1 = \"check environment variables\" (wrong, gaslit creator).?",
-          "a": "**Opus 4.7:** three speculative causes; #1 = \"check environment variables\" (wrong, gaslit creator)."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **GPT 5.5:** identified hasActiveProSubscription guard in Stripe service immediately.?",
-          "a": "**GPT 5.5:** identified hasActiveProSubscription guard in Stripe service immediately."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
         {
           "e": "💰",
-          "q": "What should you remember about gPT 5.5 **#11 Design Arena**; Opus 4.6/4.7 top tier.?",
-          "a": "GPT 5.5 **#11 Design Arena**; Opus 4.6/4.7 top tier."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about lM Arena \"code\" benchmark is effectively a **UI benchmark** (single HTML/React files)?",
-          "a": "**GPT 5.5 ranks #9, confirming design weakness.**"
+          "q": "What real product proof backs the comparison?",
+          "a": "BridgeSpace 3 launch week did **$15K**, built primarily with **Opus 4.7**. Creator ARR reported at **$144K** — real workflow over bench headlines."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Backend vs frontend split",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about opus 4.7 + frontend design plugin: unique components, animations, section backgrounds?",
-          "a": "**used for full BridgeMind site redesign.**"
+          "e": "🐛",
+          "q": "Who wins on hard backend debugging?",
+          "a": "**GPT 5.5** immediately found a Stripe **`hasActiveProSubscription` guard** bug Opus missed. Opus 4.7 offered three speculative causes and gaslit toward **environment variables**."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about gPT Image 2 ~200 ELO above competitors on Elo Arena.?",
-          "a": "**GPT Image 2 ~200** ELO above competitors on Elo Arena."
+          "e": "🎨",
+          "q": "Who wins on UI and design?",
+          "a": "**Opus 4.7 dominates frontend** (Design Arena top tier, BridgeMind site redesign). GPT 5.5 ranks about **#11 on Design Arena** and often produces generic **\"AI slop\"** layouts."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Price, speed, and limits",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about codex can prompt-generate website infographics in-place (BridgeMind + Bridge Voice pages).?",
-          "a": "**Codex can prompt-generate website** infographics in-place (BridgeMind + Bridge Voice pages)."
+          "e": "💸",
+          "q": "Is GPT 5.5 cheaper or more expensive than Opus?",
+          "a": "API price **doubled** vs 5.4 ($5/$30 per M vs $2.50/$15) and is higher per-token than Opus ($5/$25), yet GPT was **~30% cheaper** in total benchmark run ($3,357 vs $4,800) via token efficiency. Claude Max often hits 5-hour limits in ~**2 hours** daily."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about 100% API price hike 5.4→5.5; usage limits now visible on ChatGPT Pro.?",
-          "a": "**100% API price hike** 5.4→5.5; usage limits now visible on ChatGPT Pro."
+          "e": "⚡",
+          "q": "Which model is actually faster in practice?",
+          "a": "Open Router throughput: GPT 5.5 **37 tok/s** vs Opus **46.5 tok/s**. Trivial package.json lookup: Codex **2+ minutes** vs Claude Code **~10 seconds**. Artificial Analysis speed claims are questioned."
+        }
+      ]
+    },
+    {
+      "title": "BridgeBench and routing",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "How do they score on BridgeBench categories?",
+          "a": "Hallucination: Opus **#5** vs GPT **#13**. GPT 5.5 **regressed reasoning** (39.7 vs 40.6 for 5.4). Opus 4.7 regressed **security** (81.6→76) and **UI** (81.1→78.4) vs 4.6."
+        },
+        {
+          "e": "🔀",
+          "q": "How should you route models by budget?",
+          "a": "**$200/mo:** Opus 4.7 primary (design, less hallucination, faster). **$20/mo:** GPT 5.5 for rate-limit economics. Ideal: **both** — Opus for UI/reasoning, GPT 5.5 for backend/debug when Opus fails."
         }
       ]
     }

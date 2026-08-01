@@ -2,77 +2,62 @@
   "slug": "marketing-team-one-ai-agent-n8n",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "One agent, six marketing tools",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **One agent, six workflow tools**?",
-          "a": "**orchestrator stays thin; complexity** lives in specialized sub-workflows linked via \"Call n8n workflow\" nodes."
+          "e": "🤖",
+          "q": "How can one n8n agent act like a full marketing team?",
+          "a": "A thin **orchestrator agent** exposes **six tools**, each a separate n8n sub-workflow: create image, edit image, search image database, blog post, LinkedIn post, and faceless video — controlled via **Telegram** (voice or text)."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Telegram as UI**?",
-          "a": "**voice transcribed to text; both** paths normalize to JSON.text so the agent sees one input shape."
+          "e": "🔗",
+          "q": "What pattern links the main agent to those sub-workflows?",
+          "a": "The **workflow-as-tool** pattern: sub-workflows start with \"When executed by another workflow\" and defined inputs; the main agent uses **Call n8n workflow** so the model fills parameters like image title, prompt, and chat ID."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Telegram UI & simple prompts",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Simple system prompt wins**?",
-          "a": "**list each tool and when to use** it; handle synonyms (\"make\" = edit); avoid duplicate delivery for blog/LinkedIn (sub-workflow sends content)."
+          "e": "💬",
+          "q": "How do voice and text reach the agent the same way?",
+          "a": "Voice is transcribed to text; both paths normalize to **`JSON.text`** so the agent sees one input shape. Results return to Telegram and log to **Google Sheets** + **Google Drive**."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Google Sheets as image database**?",
-          "a": "**columns**: title, type, request, ID (Drive file ID), link, post; search workflow retrieves by title for edits or recall."
+          "e": "📝",
+          "q": "What belongs in the system prompt?",
+          "a": "Keep it simple: list each tool and when to use it; handle synonyms (**\"make\" = edit**); avoid duplicate delivery for blog/LinkedIn because the sub-workflow already sends content."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Images, blogs & the video pipeline",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Structured outputs everywhere**?",
-          "a": "**image search agent returns name/ID/link/status;** blog flow outputs title + prompt for downstream image gen."
+          "e": "🖼️",
+          "q": "How do create vs edit image flows stay consistent?",
+          "a": "Sheets act as an **image database** (title, type, request, Drive ID, link, post). Edit needs the prior image binary — search returns the Drive ID, then edit downloads it. Image gen uses OpenAI GPT image (~**$0.19**/image)."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Edit vs create images**?",
-          "a": "**OpenAI edit endpoint requires the prior** image binary; search workflow passes back Drive ID before edit workflow downloads it."
+          "e": "🎬",
+          "q": "What stack builds the ~20-second faceless video?",
+          "a": "**Flux** (PI API) → **Runway** image-to-video → **ElevenLabs** SFX → **Creatomate** render. Prefer **polling** over fixed 90s waits; ballpark ~**$1**/video (Runway ~$0.25 per 5-sec clip)."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Timeouts, cost & setup",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **HTTP gotcha**?",
-          "a": "**replace double quotes in** image prompts before HTTP requests or generation fails."
+          "e": "⏳",
+          "q": "What breaks when video generation runs too long?",
+          "a": "The **main agent times out** waiting on the subflow. Workaround: **subflow-timeout-callback** — the video sub-workflow sends the final clip to Telegram directly (agent errors, but you still get the video)."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Video pipeline**?",
-          "a": "**4-part story → split out → Flux images →** wait/poll → Runway 5-sec clips → ElevenLabs 5-sec SFX → Creatomate stitch; prefer polling over fixed 90s waits."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Cost ballpark**?",
-          "a": "**n8n cloud ~$27/mo; ~$0.19/image (OpenAI); Flux ~$0.015/image; Runway** ~$0.25/5-sec clip (~$1/video); Creatomate ~1 credit/render; ElevenLabs starter $5/mo; GPT-4.1 mini for reasoning via Open Router."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Setup**?",
-          "a": "**import 7 JSON workflows, link tool references by** name, copy Google Sheet template, paste Creatomate API curl, plug API keys (OpenAI, Open Router, Google, Telegram)."
+          "e": "💵",
+          "q": "What's the rough monthly cost stack?",
+          "a": "n8n cloud ~**$27**/mo; OpenAI images ~**$0.19** each; Flux ~**$0.015**/image; ElevenLabs starter **$5**/mo; GPT-4.1 mini via Open Router for reasoning. Free **7 JSON workflows** + Sheet log + Creatomate script via AI Automation Society Skool."
         }
       ]
     }

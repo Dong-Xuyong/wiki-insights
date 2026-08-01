@@ -2,42 +2,52 @@
   "slug": "youre-making-these-communication-mistakes",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Answer the question first",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Status checks ≠ context dumps**?",
-          "a": "**leaders asking \"are we on track?\"** want one sentence, not every wireframe delay; over-detail reads as unclear, not thorough."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Rough draft vs final version**?",
-          "a": "**verbalizing your thinking is fine in brainstorming;** in decision moments it costs credibility (\"show your work\" training backfires in leadership comms)."
+          "e": "❓",
+          "q": "What goes wrong when a leader asks 'are we on track?' and you dump project context?",
+          "a": "Status checks want **one sentence**, not every wireframe delay. Over-detail reads as **unclear and hard to follow**, not thorough. Fix with **ACQ**: Answer → Context → Question."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Decision, not decision tree",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Flexibility ≠ neutrality**?",
-          "a": "**agreeable \"I don't mind\" feels** safe but signals lack of decisiveness; people stop asking for your opinion."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Match before you lead**?",
-          "a": "**rapport requires mirroring first; only** then gradually shift volume, warmth, and melody to guide the room."
+          "e": "🌳",
+          "q": "When does thinking out loud hurt your credibility?",
+          "a": "Externalizing the full **decision tree** is fine in brainstorming; in decision moments leaders want the **final version**, not the rough draft. Pause, take a thinker pose, then deliver the **decision** via ACQ."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Take a position without being difficult",
+      "items": [
+        {
+          "e": "📍",
+          "q": "Why does 'I'm easy / whatever works' make you forgettable?",
+          "a": "**Neutrality ≠ flexibility** — it signals a **lack of decisiveness**. People stop asking for your opinion and you become irrelevant. Fix with **PRO**: Position → Reason → Open."
+        }
+      ]
+    },
+    {
+      "title": "Lead the room's energy",
       "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about **Voice dials are learnable**?",
-          "a": "**rate (passion vs weight), volume** (confidence vs lean-in), melody (engagement); most people play the same five keys."
+          "q": "Is mirroring the room enough in high-stakes meetings?",
+          "a": "Rapport needs **match first**, but only mirroring never guides. Practice **energy leadership**: read → match/mirror → gradually **shift** volume, warmth, and melody so you lead the room."
+        }
+      ]
+    },
+    {
+      "title": "Play the full voice instrument",
+      "items": [
+        {
+          "e": "🎤",
+          "q": "Which voice habits silently flatten your influence?",
+          "a": "Same **rate, volume, and melody** every time means you play maybe five keys. Treat voice as an **88-key instrument**: rate for passion vs weight, volume for confidence vs lean-in, melody for engagement — dials anyone can learn."
         }
       ]
     }

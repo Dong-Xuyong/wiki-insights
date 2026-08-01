@@ -2,57 +2,67 @@
   "slug": "tools-managing-stress-anxiety-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Stress ≠ purely negative**?",
-          "a": "**acute epinephrine sharpens cognition,** narrows focus, primes immune defense; chronic elevation drives heart disease."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Sympathetic chain**?",
-          "a": "**neck-to-navel neurons → acetylcholine →** epinephrine/adrenaline; beta receptors activate muscles/heart, suppress digestion/reproduction → agitation designed for movement."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Inhale vs exhale = heart rate lever**?",
-          "a": "**inhale > exhale speeds heart (stress);** exhale > inhale slows heart via sinoatrial node ↔ brainstem parasympathetic loop."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Physiological sigh mechanism**?",
-          "a": "**double inhale reinflates collapsed alveoli; long** exhale clears CO₂ (agitation driver); works in real time, not a separate meditation practice."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
+      "title": "Three time scales of stress",
       "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about **Vacation sickness pattern**?",
-          "a": "**sustained adrenaline crash after chronic stress** → immune crash; don't let acute stress become chronic (sleep is the canary)."
+          "q": "Is short-term stress always bad?",
+          "a": "No. Stress is a **generic mobilization system**. **Acute epinephrine** sharpens cognition, narrows focus, and **primes immune defense**; chronic elevation drives heart disease."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Panoramic gaze during peak output**?",
-          "a": "**stress dilates pupils → tunnel vision;** deliberately broadening gaze calms mind while body stays at 80–90% max (sports/military pattern)."
+          "e": "📅",
+          "q": "How do short, medium, and long stress differ?",
+          "a": "**Short-term** is often beneficial; **medium-term** (weeks) is for raising your stress threshold; **long-term/chronic** is harmful. When you **can't sleep well**, you've crossed from acute into chronic."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Fastest real-time calm",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Social connection as neuromodulation**?",
-          "a": "**recognizing trusted people releases serotonin →** immune/repair benefits; delight and play count; digital connection is a weak proxy."
+          "e": "😮‍💨",
+          "q": "What is the physiological sigh and how fast does it work?",
+          "a": "**Double inhale + long exhale**, **1–3 reps**. It reinflates collapsed alveoli, clears **CO₂** (an agitation driver), and can drop heart rate in ~**20–30 seconds** — the fastest self-directed calm Huberman knows."
+        },
+        {
+          "e": "❤️",
+          "q": "How do inhale and exhale length control heart rate?",
+          "a": "**Inhale > exhale** speeds the heart (stress); **exhale > inhale** slows it via the sinoatrial node ↔ brainstem **parasympathetic** loop."
+        }
+      ]
+    },
+    {
+      "title": "Use acute stress, raise the threshold",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "Can deliberate adrenaline help your immune system?",
+          "a": "Acute stress mobilizes **killer cells**. A **25-cycle** Wim Hof/Tummo-style hyperventilation protocol blunted E. coli endotoxin symptoms in a PNAS study — **never near water**; get physician clearance."
+        },
+        {
+          "e": "👁️",
+          "q": "How do you keep a calm mind while the body is amped?",
+          "a": "Train **mind calm / body activated** (cold, sprint, high HR) and use **panoramic gaze**: stress tunnels vision; deliberately widening the visual field releases a brainstem alertness circuit while the body stays at **80–90%** max."
+        },
+        {
+          "e": "🤒",
+          "q": "Why do people get sick on vacation?",
+          "a": "A **sustained adrenaline crash** after chronic stress can cause an **immune crash**. Don't let acute stress become chronic — **sleep is the canary**."
+        }
+      ]
+    },
+    {
+      "title": "Long-term buffers and supplements",
+      "items": [
+        {
+          "e": "🤝",
+          "q": "What social habits reduce long-term stress?",
+          "a": "**Genuine social connection**, play, and delight release **serotonin** with immune/repair benefits. Recognizing trusted people matters; **digital connection is a weak proxy**."
+        },
+        {
+          "e": "🍵",
+          "q": "Which supplements does Huberman mention when behavior isn't enough?",
+          "a": "**L-theanine 100–200 mg** and **ashwagandha** for acute stress periods only. **Avoid melatonin** supplementation — typical **1–3 mg** is supraphysiological with reproductive-axis concerns."
         }
       ]
     }

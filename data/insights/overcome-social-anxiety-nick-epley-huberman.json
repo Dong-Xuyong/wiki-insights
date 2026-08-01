@@ -2,72 +2,67 @@
   "slug": "overcome-social-anxiety-nick-epley-huberman",
   "sections": [
     {
-      "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+      "title": "Your social fears are usually wrong",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Mind reading is error-prone**?",
-          "a": "**mind reading social errors**: egocentrism, stereotyping, correspondence bias each add accuracy and error."
+          "e": "😰",
+          "q": "Why does social anxiety stick even when people are kind?",
+          "a": "We hold **misplaced beliefs about rejection** and systematically **misread other minds** via egocentrism, stereotyping, and correspondence bias. Fear of rejection is usually **wildly wrong**."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Voice > text for mind perception**?",
-          "a": "**MBA elevator pitches and partisan** pitches rated more intelligent/hirable/thoughtful when heard; people wrongly prefer writing."
+          "e": "📉",
+          "q": "How wrong are our predictions about outreach?",
+          "a": "People show **pessimistic social expectations** — they underestimate interest in conversation, **compliance with requests** (Flynn & Bohns), and positivity of responses."
+        },
+        {
+          "e": "💯",
+          "q": "What did Jia Jiang's 100 Days of Rejection show?",
+          "a": "He was accepted on **51/106** outlandish asks; only ~**7** were negative. Takeaway Epley paraphrases: **\"Other people are way kinder than I expect.\"**"
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Real exposure, not simulation",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Isolation is metabolically costly**?",
-          "a": "**loneliness spikes cortisol, harms cardiovascular/immune** function (John Cacioppo); connection feels good because evolution demanded it."
+          "e": "🚶",
+          "q": "What actually fixes social anxiety?",
+          "a": "**Real-world exposure**, not pretend speeches. Hofmann's point: exposure works because it **changes beliefs about what other people are like** — not because it dulls anxiety circuits."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Responsiveness = conversation pleasure**?",
-          "a": "**back-and-forth synchrony confirms thoughts have** impact; explains social media outrage commenting and live music reciprocity."
+          "e": "✉️",
+          "q": "How should you frame outreach so it feels safer?",
+          "a": "Treat connection as an **invitation, not a demand**. Start small (office hello walk); if **3 unanswered pings**, stop sticky persistence."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Why connection is metabolically expensive to skip",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Manners as habits**?",
-          "a": "**\"How's your day?\" at checkout is a** stepping stone, not fluff; erosion of hello norms + phones reduce low-stakes entry points."
+          "e": "💔",
+          "q": "How costly is social isolation for well-being?",
+          "a": "Gallup/Kahneman-Deaton: isolation hurts well-being ~**7× more** than a **$60K** income swing. Going from **zero → some contact** is the big leap; texting maintains bonds but **doesn't build them**."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Exposure changes beliefs, not anxiety circuits**?",
-          "a": "**simulate/pretend speeches fail; real** asks for help/cigarettes/conversation update models of others as kinder."
+          "e": "🛞",
+          "q": "What is the \"leaky tire\" model of happiness?",
+          "a": "Well-being is less about peak moments and more like a **leaky tire** — string **small moments of connection** (compliments, fist bumps, checkout hellos) across the day."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Voice, extroversion & daily practice",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Extroversion as habit, not destiny**?",
-          "a": "**\"porcupines\" who keep quills** out live worse lives; exercise analogy for social reps."
+          "e": "🎙️",
+          "q": "Why is hearing a voice better than reading text?",
+          "a": "**Voice conveys the presence of a mind** — pitches sound more intelligent, rational, and hirable when heard. People wrongly prefer writing; voice also reduces partisan dehumanization."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Role > genes for love**?",
-          "a": "**adopted children become \"ours\" instantly; looking-glass self** — we learn who we are through others."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Model for kids**?",
-          "a": "**happiness walk habit (150-yd office** hello route); classroom rules for social media; kids watch small routine moments."
+          "e": "🎭",
+          "q": "Can introverts benefit from acting extroverted?",
+          "a": "Yes — extroversion correlates **r≈.5** with positive affect; **acting extroverted** lifts mood even for introverts (Fleeson, Lyubomirsky). Treat social reps like exercise, not destiny."
         }
       ]
     }

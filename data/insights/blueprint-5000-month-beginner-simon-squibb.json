@@ -2,92 +2,67 @@
   "slug": "blueprint-5000-month-beginner-simon-squibb",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Concept before product",
       "items": [
         {
           "e": "💡",
-          "q": "What should you remember about concept beats idea?",
-          "a": "**trademark + handles +** purpose before market entry prevents costly rebrand/legal fights."
+          "q": "What's the difference between an idea and a concept?",
+          "a": "\"An idea can be a bit flaky… a **concept is an actual physical thing**.\" Lock **name, trademark, purpose/why**, and all handles/URLs before going public. Squibb iterated \"What's Your Dream\" → **Give Without Take** after market feedback."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about start premium (premium first pricing): Apple/Tesla model?",
-          "a": "**high-end first, discount later;** hard to go up-market from cheap."
+          "e": "💎",
+          "q": "Should beginners start cheap or premium?",
+          "a": "**Premium-first pricing** (Apple/Tesla model): start high-end, discount later — hard to go up-market from cheap. Festival shoppers said £50–55 until quality + mission + try-on made **£85** acceptable; display (wooden hangers vs piled hoodies) changes perceived value."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Supply, ship, and prove demand",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about minimum viable batch?",
-          "a": "**200 units → sell** → 400 → 800; don't over-order before product-market fit."
+          "e": "📦",
+          "q": "How do you source inventory with little capital?",
+          "a": "List exact specs; ask everywhere (LinkedIn, coffee shop); negotiate. If broke, ask suppliers to **finance inventory or take equity**. Budget anchor: ~**$4,000 for 200 units**; then 200 → 400 → 800 — don't over-order before product-market fit."
         },
-        {
-          "e": "🎯",
-          "q": "What should you remember about negative feedback from non-fans > praise from core community?",
-          "a": "**first hoodie failed outside fanbase as \"corporate merch\".**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about value communication unlocks price?",
-          "a": "**festival shoppers said £50–55** until quality + mission + try-on → £85 accepted."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about display affects perceived value?",
-          "a": "**piled hoodies = secondhand** shop; wooden hangers + clean layout = premium."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about influencers often free for mission-aligned startups; commission on sales scales alignment?",
-          "a": "**Influencers often free for** mission-aligned startups; commission on sales scales alignment."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about don't pay Zuckerberg for ads when you could pay your community affiliates?",
-          "a": "**Don't pay Zuckerberg for** ads when you could pay your community affiliates."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about airbnb launched website **8 times** before it worked?",
-          "a": "**launch is iterative, not one-shot.**"
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about even multi-millionaires shouldn't build warehouses before demand?",
-          "a": "**same lean infra advice at every scale.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
         {
           "e": "🚀",
-          "q": "What should you remember about full restaurants go bust because they never calculated true COGS including electricity at home?",
-          "a": "**Full restaurants go bust** because they never calculated true COGS including electricity at home."
+          "q": "When is a product \"ready\" to launch?",
+          "a": "Ship at **80%**, not 100%. \"Ship something that's 80% good is better than never shipping it at all.\" Airbnb launched its website **8 times** before it worked — launch is iterative, not one-shot."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about fluid agency?",
-          "a": "**6 years reinvesting all profit before taking money out** — why it scaled."
+          "e": "🏗️",
+          "q": "When should you build warehouses and logistics?",
+          "a": "**Demand before infrastructure**: Royal Mail + personal notes + 3-day supplier reorder beat trucks/warehouses until scale is proven. Even multi-millionaires shouldn't build warehouses before demand."
+        }
+      ]
+    },
+    {
+      "title": "Marketing without ad wars",
+      "items": [
+        {
+          "e": "📣",
+          "q": "Why avoid paid ads early?",
+          "a": "Early paid ads are a **bidding war**. Prefer content, mission-aligned influencers (often free / revenue-share), and **strategic partnerships** — \"1 + 1 = 11\" by tapping partner databases that already hold your demographic (e.g. Tide banking)."
+        },
+        {
+          "e": "🤝",
+          "q": "Why are influencers and affiliates underpriced?",
+          "a": "\"Influencer marketing is the **most underpriced attention** in the market today.\" Founders will \"give the money to Mark Zuckerberg\" but won't give profit to their **community affiliates** — reverse that."
+        }
+      ]
+    },
+    {
+      "title": "Sales systems and money discipline",
+      "items": [
+        {
+          "e": "📞",
+          "q": "How is a sales system different from marketing?",
+          "a": "After launch: upsell existing buyers, surveys, referral codes, outbound to founders. Pipeline math example: **30 brands → 6 meetings → 1 sponsor**. Negative feedback from **non-fans** beats praise from your core community."
+        },
+        {
+          "e": "💰",
+          "q": "What financial rules keep a beginner alive?",
+          "a": "Know **COGS and margin** on the wall; never sell below cost; manage cash-flow delay (make → ship → get paid); services take **50% deposit**. Reinvest all profit for years — \"Every time you take money off the table, you're **harming the value** of your business a year from now.\""
         }
       ]
     }

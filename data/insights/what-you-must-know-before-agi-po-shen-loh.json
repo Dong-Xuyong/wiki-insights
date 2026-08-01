@@ -2,92 +2,77 @@
   "slug": "what-you-must-know-before-agi-po-shen-loh",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Why creativity alone is not enough",
       "items": [
+        {
+          "e": "🧮",
+          "q": "What shocked Po-Shen Loh about AI and the Math Olympiad?",
+          "a": "Google's AI solved **4 of 6** International Math Olympiad problems — questions coaches verify as globally original. Loh says **AI creativity may surpass ours too**; hoping humans still exist is not a skill strategy."
+        },
+        {
+          "e": "🧩",
+          "q": "What skill does he actually hire and coach for?",
+          "a": "**Synthesis on novel problems**: wait until body language shows a student has **never seen** the problem, give hints, and measure how fast they **synthesize** a solution. That edge matters more than raw creativity claims."
+        }
+      ]
+    },
+    {
+      "title": "School writing and teacher thinking",
+      "items": [
+        {
+          "e": "✍️",
+          "q": "Why is using AI for school writing homework so damaging?",
+          "a": "It is like **driving your car one mile for exercise** — zero mental fitness. School writing is **learning**, not job output. Adults can use AI at work; students who outsource language become **dependent thinkers** who cannot evaluate what others hand them."
+        },
+        {
+          "e": "📝",
+          "q": "How should pedagogy shift in an LLM world?",
+          "a": "Learn to **grade homework**, not just do it. School tests reward listening plus practice; the world needs large-scale training in **creative thinking on novel problems** and verification of AI outputs."
+        }
+      ]
+    },
+    {
+      "title": "From competition to delight",
+      "items": [
+        {
+          "e": "😔",
+          "q": "What did coaching the US IMO team teach him about competition?",
+          "a": "Brilliant, capable people were still **depressed** when life meant proving you are better than others. He replaces outdoing with **make others happy** — addictive at scale from 5 → 500 → 1,000 people."
+        },
+        {
+          "e": "🤝",
+          "q": "What becomes a survival skill once humans are not the top species?",
+          "a": "**Delight others to survive AGI**: you must team up; the only way others partner with you is authentic motivation to **create value in them**. Bad partners get excluded and lose opportunity."
+        }
+      ]
+    },
+    {
+      "title": "Taste, truth, and media diet",
+      "items": [
+        {
+          "e": "🎭",
+          "q": "How does efficient AI use steal more than productivity?",
+          "a": "It can erase **personal taste** (fashion, ideas) and, without reasoning ability, leave you open to **agenda-driven narratives**. 2+2=4 is settled; the point of life has no single answer."
+        },
+        {
+          "e": "🌐",
+          "q": "Why should you not trust one AI provider for the full story?",
+          "a": "Claude, OpenAI, Gemini, DeepSeek are roughly **5 curated worldviews** vs **7.5 billion**. Loh reads CNN + Fox and tunes opposing feeds daily so AI's complete-sounding answers do not hide one-sided framing."
+        }
+      ]
+    },
+    {
+      "title": "Curiosity and fun to think",
+      "items": [
+        {
+          "e": "📵",
+          "q": "What surprised him in rural high-poverty classrooms?",
+          "a": "Fourth graders **without phones or internet** yelled math ideas respectfully and invented their own games — **digital absence** unlocked authentic curiosity and untapped science/tech potential."
+        },
         {
           "e": "💡",
-          "q": "What should you remember about **IMO AI shock**?",
-          "a": "**4/6 original olympiad problems** solved by Google AI; more than Loh can do."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Creativity alone insufficient**?",
-          "a": "**AI may surpass human** creativity; synthesis on novelty is the human edge."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Interview = synthesis test**?",
-          "a": "**wait for \"never seen** this\" signal, give hints, measure synthesis speed."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Writing homework = exercise**?",
-          "a": "**AI school writing = zero** mental fitness; language skills critical because LLM power is language."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Grade don't do**?",
-          "a": "**think like teacher; evaluate** AI outputs; school trained execution, world needs verification."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Test prep steals invention**?",
-          "a": "**cram every strange question** → no surprise → no inventing."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Competition → depression**?",
-          "a": "**brilliant students depressed; life** as outdoing others never satisfies."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Make others happy**?",
-          "a": "**addictive at scale; correlates** with traditional success; philosophy before tactics."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Delight others to survive AGI**?",
-          "a": "**team-up imperative; value-creator vibe or excluded from opportunity.**"
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Simulate the world**?",
-          "a": "**empathy + AI research** to build internal models; entrepreneur superpower."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **AI steals taste/truth**?",
-          "a": "**personal expression lost; agenda** deception if you can't think critically."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **5 AI providers ≠ 7.5B viewpoints**?",
-          "a": "**seek diverse media; AI** sounds complete but may be one-sided."
+          "q": "What philosophy does he want kids to keep as AI makes thinking optional?",
+          "a": "**It's fun to think** — life's fun is your own contribution and twist, not AI-efficient outsourcing. iPad entertainment erodes concentration; synthesis skill matters most when university itself may look different by the time kids enroll."
         }
       ]
     }

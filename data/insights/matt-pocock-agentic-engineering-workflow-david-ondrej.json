@@ -2,77 +2,62 @@
   "slug": "matt-pocock-agentic-engineering-workflow-david-ondrej",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Strategic vs tactical programming",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Strategic vs tactical**?",
-          "a": "**John Ousterhout framing; delegate** tactical to AI fleet, keep roadmap/product/architecture human-owned."
+          "e": "♟️",
+          "q": "What did AI \"eat,\" and what must humans still own?",
+          "a": "AI ate **tactical programming**; humans must win at **strategic programming** — architecture, scoping, interfaces, tests, codebase design. Your domain skills are the **ceiling** on what AI can do; seniors get ~**10×**, juniors a small boost."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Teach skill live demo**?",
-          "a": "**vibe coder mission → Git lesson one** with quizzes; stateful workspace (mission.md, learning record, HTML); install via npx skills add mattpocock/skills."
+          "e": "🔧",
+          "q": "Why obsess over the harness instead of the model?",
+          "a": "Matt sees it as **50/50 model vs harness**. Optimize the codebase for **token spend** so cheaper models succeed — good **AX** (agent experience) overlaps good DX."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Skills: Grill Me, teach, procedures",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Grill Me**?",
-          "a": "**~4 sentences; interview until shared** understanding before implementation; list 10 consequential decisions and ask until 98% clarity."
+          "e": "🔥",
+          "q": "What is Grill Me, and how does it replace plan mode?",
+          "a": "An **adversarial interview** (~4 sentences of skill): list ~10 consequential decisions and ask until **~98% shared understanding** before implementation — shared design concept beats plan-mode docs."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Skill context leak**?",
-          "a": "**every ability skill description leaks** into context; 100 skills = 100 descriptions; prefer user-only procedures."
+          "e": "📚",
+          "q": "Why prefer procedure skills over ability skills?",
+          "a": "Every **ability skill** description leaks into context (100 skills = 100 descriptions). Prefer **user-invoked procedures** with `disable-model-invocation` to avoid description bloat."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "AFK setup: Sand Castle & queues",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Knowledge / skills / wisdom**?",
-          "a": "**skills repo bundles first** two; wisdom needs real context (can't fully proceduralize Anthropic-level judgment)."
+          "e": "🏰",
+          "q": "How does Matt run most work away from the keyboard?",
+          "a": "Claude Code + Opus 4.8 medium locally, plus **Sand Castle** (Docker/Podman/Vercel sandboxes) and **GitHub Actions** — PR review agent, label-triggered implement (explore/implement/review on issues)."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Sand Castle**?",
-          "a": "**sandboxed parallel Claude Code;** GitHub Actions for explore/implement/review labels on issues."
+          "e": "📋",
+          "q": "Queues or infinite Ralph loops?",
+          "a": "Matt thinks in **queues, not loops** — an AFK task queue (GitHub issues + labels) matches real teams better than infinite while-loops. Review the **system that produces code**, not just the code."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Reset advice & business reality",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Model skepticism**?",
-          "a": "**Fable computer-use impressive but** human still validates; daily security cron beats one-shot frontier finds."
+          "e": "🧹",
+          "q": "What should you do if skills and MCP have bloated your setup?",
+          "a": "**Delete every skill, plugin, MCP, and CLAUDE.md** → observe the bare agent → layer **procedure skills** back intentionally; then set up AFK agents."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **DX vs AX**?",
-          "a": "**agent experience overlaps good developer** experience; seniors improve codebase for agents; juniors bring harness fluency."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Business unchanged**?",
-          "a": "talk to customers, build prototypes; AI helps implementation not idea generation; ask AI what to **remove**."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Context bloat reset**?",
-          "a": "**blank slate test before accumulating skills/MCP again.**"
+          "e": "💼",
+          "q": "Does AI change what a business should do day to day?",
+          "a": "No — still talk to customers and build prototypes. AI helps **implementation**, not idea generation; ask AI what to **remove**. Security bugs → build a **cron harness**, don't rely on frontier model serendipity."
         }
       ]
     }

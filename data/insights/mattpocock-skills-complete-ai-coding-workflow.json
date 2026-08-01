@@ -2,87 +2,62 @@
   "slug": "mattpocock-skills-complete-ai-coding-workflow",
   "sections": [
     {
-      "title": "mattpocock/skills",
+      "title": "Install & setup",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Main flow sequence**?",
-          "a": "**grill-with-docs → (prototype via handoff if a question needs a runnable** answer) → either /implement directly or to-spec → to-tickets → per-ticket implement with /clear between → code review vs spec + standards."
+          "e": "📦",
+          "q": "How do you install mattpocock/skills, and how big is the repo?",
+          "a": "Run `npx skills@latest add mattpocock/skills` (Vercel skills.sh; Node required). At recording: **162K GitHub stars**, **7.5M downloads**, **38 skills** — works with Cursor, Codex, Claude Code. Prefer **project-scope** for teams, **symlink** copy mode."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Spec vs tickets**?",
-          "a": "**spec = what the end state looks** like (destination); tickets = how you get there (journey); each ticket = one smart-zone session."
+          "e": "⚙️",
+          "q": "What does `setup-mattpocock-skills` configure?",
+          "a": "Three things: **issue tracker** (local markdown, GitHub, Jira, Linear, Beads — just tell the agent which), **triage labels**, and **domain docs** (context.md + ADRs). Links land in CLAUDE.md pointing at `docs/agents/`."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Main flow: grill → spec → tickets → implement",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Smart zone ~140K**?",
-          "a": "**Matt's current working number for Opus 4.8 medium;** above it \"attention degradation... weird hallucinations\"; plan token budget per session (\"we've got 100K of budget here\")."
+          "e": "🔥",
+          "q": "What sequence should you run for every piece of work?",
+          "a": "Start with **grill-with-docs** (adversarial interview; demo asked 6 questions, typically ~**20**). If it fits one window → `/implement`. If multi-session → **`to-spec`** (destination) → **`to-tickets`** (journey) → implement per ticket with `/clear` between."
         },
         {
-          "e": "🎯",
-          "q": "Why does this matter: **One unbroken context window** for the whole main flow when work is small enough; skip spec/tickets entirely ?",
-          "a": "**One unbroken context window** for the whole main flow when work is small enough; skip spec/tickets entirely for single-session work."
+          "e": "🗺️",
+          "q": "What's the difference between the spec and the tickets?",
+          "a": "The **spec is the destination** (end state); **tickets are the journey** (how you get there). Each ticket is sized to **one context window / one smart zone** — e.g. one detailed spec with **11** sub-tickets, each a single session."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Context economics",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **User-invoked skills are context-cheap**?",
-          "a": "**38 skills = 660** tokens; short precise descriptions; most skills don't leak into /context."
+          "e": "🧮",
+          "q": "How expensive are 38 installed skills in the context window?",
+          "a": "Because most are **user-invoked**, all 38 cost only **660 tokens** of description leak — short precise descriptions, most don't show up in `/context`."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Issue tracker agnostic**?",
-          "a": "**works with Jira/Linear/Beads/GitHub/local markdown out of** the box; just tell setup which one; answers the #1 recurring user question."
+          "e": "📉",
+          "q": "Where does Opus 4.8 medium get \"significantly dumber\"?",
+          "a": "Matt budgets the **smart zone** ending around **~140K tokens** — above that, attention degradation and weird hallucinations. Plan token budget per session (e.g. \"we've got 100K of budget here\")."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Verification & onboarding",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Team vs solo scope**?",
-          "a": "**project-level skills so everyone shares** the same skill set and evolves it together; global fine for solo."
+          "e": "👀",
+          "q": "How does the implement skill review code without rubber-stamping?",
+          "a": "After type check + build, it loads **code review in sub-agents** on two axes: (1) work vs original **spec**, (2) repo **coding standards** (falls back to Fowler-style smells). Fresh context matters — agents are bad at improving code they just wrote."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Review in sub-agents, not main agent**?",
-          "a": "**\"agents are often really** bad at editing code or improving code they've just written\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Grilling can start vague**?",
-          "a": "**the skill does the heavy lifting; answer** questions until \"we've walked the whole tree\"; done in auto mode, not plan mode."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Harness-agnostic**?",
-          "a": "**Matt uses Claude Code + Opus** 4.8 medium + Whisper Flow dictation, but skills run across harnesses, models, effort levels."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **ask-matt as onboarding**?",
-          "a": "**creator-as-skill; ask \"how do I** get started?\" and get the main flow prescribed with follow-ups."
+          "e": "🙋",
+          "q": "What if you're new and don't know where to start?",
+          "a": "Use **ask-matt** — \"me as a skill,\" an onboarding oracle that knows the repo and prescribes the main flow with follow-ups. Grilling can start **vague**; answer until you've walked the whole tree, in auto mode not plan mode."
         }
       ]
     }

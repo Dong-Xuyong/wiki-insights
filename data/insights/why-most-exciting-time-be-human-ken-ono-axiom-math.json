@@ -2,92 +2,57 @@
   "slug": "why-most-exciting-time-be-human-ken-ono-axiom-math",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "The wrong race against AI",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Frontier Math shock**?",
-          "a": "**Epoch AI hired mathematicians globally to benchmark** LLMs; Ono couldn't easily write questions models failed; months of early access before public caught up."
+          "e": "🏁",
+          "q": "What devastated Ken Ono while building Frontier Math benchmarks?",
+          "a": "Working with Epoch AI, he hired mathematicians worldwide to stump LLMs — and for the first time **struggled to write questions ChatGPT would fail**. Racing AI on facts is like **Usain Bolt vs a motorcycle**; society still values Olympics despite machine physical superiority."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Wrong race**?",
-          "a": "**\"Stay ahead of AI\" on** knowledge = motorcycle vs Bolt; Olympics still matter despite machine physical superiority."
+          "e": "📚",
+          "q": "How should we think about LLMs instead of 'stay ahead'?",
+          "a": "Treat them as the **greatest librarians** ever: if it was written, posted, or published by afternoon, they've likely seen it. You would not want your librarian as **neurosurgeon** or air-traffic controller — **human judgment** still owns high-stakes inference."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Librarian, not surgeon**?",
-          "a": "**LLMs excel at retrieval;** human judgment essential for high-stakes inference (medicine, aviation, novel science)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Knowledge vs intelligence split**?",
-          "a": "**facts cheap; creating concepts,** cross-field pattern transfer, and \"targets of opportunity\" = genius."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Niche commitment intelligence**?",
-          "a": "**daily expert grind in** one field is a form of genius schools under-recognize."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Ramanujan as hope**?",
-          "a": "**father's hero was a dropout mystic, not** Harvard perfect student; letter from Janaki Ammal (Ramanujan's widow) rekindled Ono's path after high-school dropout."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
+      "title": "Knowledge cheap, verification expensive",
       "items": [
         {
           "e": "💰",
-          "q": "What should you remember about **Spirit of Ramanujan**?",
-          "a": "**fellowship program finding undiscovered** talent (e.g. Karina Hong); many Ramanujans likely exist without privilege."
+          "q": "What became cheaper — and what became scarcer — in the LLM era?",
+          "a": "**Knowledge is now cheap** (~$80K/year university book learning vs self-paced LLM). **Verification**, judgment, and knowing the **next question** in a field became more expensive and more valuable."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **$80K/year vs LLM**?",
-          "a": "**academic book knowledge replicable via** LLM at own pace; missing piece = human mentors deriving right/next questions."
+          "e": "🧠",
+          "q": "What counts as deep intelligence if fact regurgitation is not it?",
+          "a": "**Creating new concepts**, generating ideas, stringing concepts deeply, recognizing **cross-disciplinary patterns**, and committing to a niche over years — not speed and perfection on tests."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Ramanujan and undiscovered genius",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **AI as tutor, not replacement**?",
-          "a": "**LLM won't laugh at** \"dumb\" questions; precision learning + adjacent-field exploration without shame."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Checkbox education critique**?",
-          "a": "**test scores, GPA, right college** pipeline stress students from middle school; participate but recognize the system."
+          "e": "🔭",
+          "q": "Why does Srinivasa Ramanujan matter to Ono's education philosophy?",
+          "a": "Ramanujan was a **two-time college dropout** and mystic autodidact whose notebooks held genius conventional credentials miss. Ono's **Spirit of Ramanujan** program hunts undiscovered talent — other Ramanujans may walk Earth without privilege."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Wonder vs checkboxes and debt",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Wonder preservation**?",
-          "a": "**infant block-play = gravity** experiments; bottle kindergarten energy before reputation anxiety kills curiosity."
+          "e": "🧱",
+          "q": "What should schools preserve that checkbox systems kill?",
+          "a": "**Wonder-driven learning**: infant block-play is gravity science; bottle **kindergarten confidence** before reputation anxiety kills curiosity. Participating in GPA pipelines is fine — motivating solely because they are **checkboxes** is messed up."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **Student debt purgatory**?",
-          "a": "**$350K+ debt discovering you** hate your profession; identity owned by loans not passion."
+          "e": "🎓",
+          "q": "How does student debt trap identity after the wrong career?",
+          "a": "Roughly **$150K college + $200K professional school** ($350K+) can leave you stuck paying bills in a profession you hate. Question: **who owns your identity** — you, or the loans?"
         }
       ]
     }

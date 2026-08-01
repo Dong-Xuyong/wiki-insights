@@ -2,62 +2,57 @@
   "slug": "improve-task-switching-productivity-brain-fog-huberman-ama11",
   "sections": [
     {
-      "title": "AMA #11",
+      "title": "Why switching feels so hard",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Task switching ≠ cognitive flexibility**?",
-          "a": "**flexibility is broader; switching requires** flexibility but adds the start/stop cost of changing operational mode."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Unfair self-expectation**?",
-          "a": "**immediate deep focus on boring/new material is biologically** unrealistic; texting a awaited message is instant because salience is high, not because attention is broken."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Push-pull neural circuits**?",
-          "a": "**switching = ramp some** networks up, dim others down; takes minutes, not milliseconds."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Arbitrary transition labels work**?",
-          "a": "**top-down designation (\"this is transition\")** improves next-task performance even at 15 s; count 10→1 or 1→10."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Phone between tasks is task C**?",
-          "a": "**new context, images, and** ideas intrude; worst common transition mistake."
-        },
         {
           "e": "🧠",
-          "q": "What should you remember about **Limit environmental grab-attention**?",
-          "a": "**walk past World Cup crowd** on lab monitors without joining; scruff yourself toward task B."
+          "q": "Is task switching the same as cognitive flexibility?",
+          "a": "No — **cognitive flexibility** is broader. Task switching adds the start/stop cost of changing **operational mode**: the prefrontal cortex must **engage new circuits and disengage old ones**. You cannot flip instantly."
+        },
+        {
+          "e": "⏱️",
+          "q": "Why can't you drop into deep focus the second a new task starts?",
+          "a": "Expect a **5–10 minute warm-up** on any non-trivial task. Instant focus on a awaited text is high **salience**, not proof your attention is broken — immediate deep focus on boring/new material is biologically unrealistic."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Transition gaps that work",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Three critical tasks/day**?",
-          "a": "**write 1–3 (never more) cognitively** demanding goals; everything else is automaticity; exercise/social life not on the list."
+          "e": "🌉",
+          "q": "How short can a useful transition between tasks be?",
+          "a": "Even **15 seconds** labeled \"transition\" improves engagement on task B — count **10→1** or **1→10**. Gap duration scales with prior depth: light email → seconds–**2 min**; deep grant writing → up to **5–10 min** if available."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Visual time-domain drill**?",
-          "a": "**eyes closed (interoception) → hand surface → ~10 ft → ~50 ft** → horizon → close eyes return; ~5–15 s per station; trains the same near/far time-slicing shift required when changing tasks; Huberman does daily ~2 min."
+          "e": "📵",
+          "q": "What is the worst common transition mistake?",
+          "a": "Checking your **phone between tasks** — photos and video create a high-stimulus **hidden third task**. \"Please don't introduce yet more tasks. Switching from one task to another is hard enough already.\""
+        }
+      ]
+    },
+    {
+      "title": "Daily focus architecture",
+      "items": [
+        {
+          "e": "3️⃣",
+          "q": "How many cognitively heavy goals should you set per day?",
+          "a": "Use the Berkeley professor method: write **1–3 critical tasks** — never more. Everything else runs on automaticity; **exercise and social life stay off the list** of cognitively demanding goals."
+        },
+        {
+          "e": "👁️",
+          "q": "What ~2-minute drill trains the brain to shift time domains?",
+          "a": "**Space-time bridging**: eyes closed (interoception) → hand surface → ~**10 ft** → ~**50 ft** → horizon → close eyes return; **~5–15 s** per station. Huberman does it daily ~**2 min** to train the near/far shifts task switching needs."
+        }
+      ]
+    },
+    {
+      "title": "What's (not) in this clip",
+      "items": [
+        {
+          "e": "🌫️",
+          "q": "Does this public AMA cover the brain-fog protocols in the title?",
+          "a": "The free YouTube cut focuses almost entirely on **task-switching tools** plus a Premium pitch. **Brain-fog protocols** are promised in the full Premium AMA but are **not in the available public transcript**."
         }
       ]
     }

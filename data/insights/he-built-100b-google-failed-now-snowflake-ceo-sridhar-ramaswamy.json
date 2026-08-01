@@ -2,72 +2,62 @@
   "slug": "he-built-100b-google-failed-now-snowflake-ceo-sridhar-ramaswamy",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Google ads and the $100B forcing function",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Work on what makes time stand still**?",
-          "a": "**Ramaswamy was okay at research but** never passionate; software creation + business impact at Google ads was the fit."
+          "e": "📈",
+          "q": "How did an \"absurd\" $100B plan actually help Google ads?",
+          "a": "Eric Schmidt's **2007–8 planning exercise** set an audacious **$100B** revenue target that forced ~**5% quarterly query-monetization improvements** that compounded. Ramaswamy helped scale search ads toward that number as SVP."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Every job has its own excellence bar**?",
-          "a": "first-time public CEO had to learn analyst relations; find people who know the role and get feedback (**job definition of excellence**)."
+          "e": "📱",
+          "q": "What was the mobile monetization crisis inside Google?",
+          "a": "When **desktop query growth flatlined**, mobile search monetized at a **fraction of desktop**. Closing that gap took a **five-year grind** — smooth from the outside, turbulent inside. That **mobile monetization crisis** was existential, not a side project."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Neeva's 10× lesson",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Reluctant leader, hands-on craft**?",
-          "a": "**pride in knowing product details;** software engineering as craft; great products + competitive pricing = defensibility."
+          "e": "🚀",
+          "q": "Why did privacy-first Neeva fail against Google?",
+          "a": "Neeva was only **incrementally better**, not **10×** — and Google **buys distribution everywhere**. Against an incumbent moat, the **10× product–distribution bar** is fatal if you only ship ~1×. AI later made 10× plausible (ChatGPT as search successor)."
+        },
+        {
+          "e": "🌱",
+          "q": "How did Neeva's failure seed Snowflake's AI work?",
+          "a": "Ramaswamy frames **failure seeds the next venture**: Neeva's search and AI teams now build **Snowflake Cortex** and **Snowflake Intelligence**. Failure still teaches; **resilience beats a clean success résumé**."
+        }
+      ]
+    },
+    {
+      "title": "Leadership and hiring in the AI era",
+      "items": [
+        {
+          "e": "👥",
+          "q": "How should leaders handle credit when things go well or badly?",
+          "a": "**Credit is never diluted by sharing** — good leaders share happy news upward and **stand in front when things fail**. He also sees the leader as a **cultural icon** who embodies mission and craft, not only headcount management."
         },
         {
           "e": "🎯",
-          "q": "What should you remember about **$100B plan as forcing function**?",
-          "a": "**audacious target (2007–8) seemed** absurd but drove ~5% quarterly query-monetization improvements that compounded."
+          "q": "What excellence bar does he set for enterprise AI products?",
+          "a": "Snowflake's bar is **faster, cheaper, better** — ideally all three — leveraging best models into enterprise value. **High-quality products priced competitively** are the ultimate defensibility. Hire **driven, malleable** people who can adapt as AI displaces yesterday's skills."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Identity beyond outcomes",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Mobile was existential**?",
-          "a": "**desktop flatline + mobile** fraction monetization = five-year fight; smooth outside view, turbulence inside."
+          "e": "🧭",
+          "q": "What personal reframe keeps him resilient through wins and losses?",
+          "a": "Tell yourself and your kids: you are **more than successes and more than failures**. Cherish wins more after knowing how rare they are. Startups require **belief plus madness** — quasi-religious conviction you can do what others haven't."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Neeva's fatal bar**?",
-          "a": "**needed 10× vs Google given** distribution disadvantage; built ~1×; AI later made 10× plausible (ChatGPT)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Startup = belief + madness**?",
-          "a": "**quasi-religious conviction you can do** what others haven't; failure still teaches; resilience > pure success."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Snowflake AI bar**?",
-          "a": "**faster, cheaper, better (ideally** all three); leverage best models into enterprise value creation."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Identity anchor**?",
-          "a": "**tell yourself and your kids**: more than successes *and* more than failures; cherish wins more after knowing how rare they are."
+          "e": "⏱️",
+          "q": "How do you know you're in the right work?",
+          "a": "Work on what makes **time stand still**. Ramaswamy was okay at research but never passionate; **software creation + business impact** at Google ads was the fit. Every new role (including first-time public CEO) has its own **definition of excellence** — find people who know it and get feedback."
         }
       ]
     }

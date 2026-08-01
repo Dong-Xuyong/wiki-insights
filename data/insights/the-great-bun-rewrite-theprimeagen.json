@@ -2,72 +2,62 @@
   "slug": "the-great-bun-rewrite-theprimeagen",
   "sections": [
     {
-      "title": "The Great Bun Rewrite",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Fun → production in weeks**?",
-          "a": "**community-note denial → internal dogfood** → public rewrite blog; AI collapses \"language choice is one-way\" assumption."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Memory bug class as rewrite driver**?",
-          "a": "**Bun 1.3.14 sample dominated** by UAF/OOB/leaks/double-free/races; Jared attributes unusual GC+manual mix, not Zig itself."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **compiler enforcement vs style guides**?",
-          "a": "**style guides + review/linters are best-effort social contracts;** Rust makes the contract a compile error (~20% of Bun was already C++ with same enforcement problem)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **$165K vs engineer-years**?",
-          "a": "**Netflix rewrite comparator**: million-dollar fully-loaded cost + freeze; 11-day AI port + months of cleanup still wins the cost/quality/speed triangle."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **fresh context agent review**?",
-          "a": "**after each task, spawn separate no-context agents on** the changeset (\"did it do the thing? bugs?\") then apply feedback; Primeagen's favorite AI use for ~8 months."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Parallel error/test shards**?",
-          "a": "**many Claude Code workers in git worktrees; one** error or test slice per agent; loop until 16K errors and then all unit tests pass."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
+      "title": "Eleven days, $165K",
       "items": [
         {
           "e": "💰",
-          "q": "What should you remember about **Mechanical translation ≠ idiomatic**?",
-          "a": "**structure may mirror Zig;** lifetimes/style guides were front-loaded; expect heavy post-port cleanup (\"refactorbation\")."
+          "q": "Was Bun's $165K AI rewrite bill a scandal?",
+          "a": "Primeagen calls it a **steal**. The Zig→Rust port took **11 days**, ~**6,502 commits**, ~**1.8M lines**, and ~**$165K** in API spend — vs his Netflix rewrite of **3 engineers × ~1 year → >$1M** fully loaded plus feature freeze."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Verification gate**?",
-          "a": "**compile-green ≠ ship; linker panic on** bun --version; unit-test fleet was the confidence signal for \"this might actually work\"."
+          "e": "△",
+          "q": "Why can cost, quality, and speed all improve together here?",
+          "a": "Even if AI output is only ~**50% of desired shape** and three engineers spend three months cleaning up, the port still beats a pure human rewrite on the **cost / quality / speed** triangle — \"one of the rare three-point triangle W's.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Why leave Zig",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Devtools love**?",
-          "a": "**Primeagen values the orchestration pattern (change → dual** review → fix → shard) more than tribal Zig/Rust takes; built Prime Agent Review into Neovim/cloud-agent workflow."
+          "e": "🐛",
+          "q": "What bug class drove the Bun rewrite?",
+          "a": "Bun's Zig codebase accumulated **use-after-free, leaks, double-free, and races** from mixing **GC with manual memory**. Jared frames that mix — not Zig itself — as the unusual risk."
+        },
+        {
+          "e": "🦀",
+          "q": "Why prefer Rust compiler rules over style guides?",
+          "a": "Tiger Style and Google C++ guides are **best-effort social contracts**. Rust makes ownership a **compile error** via RAII/drop — stronger than Zig `defer` or review/linters at Bun's scale (~**20%** was already C++ with the same enforcement gap)."
+        }
+      ]
+    },
+    {
+      "title": "Agent fleet playbook",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What was the translation → review loop?",
+          "a": "**File-by-file Zig→Rust mechanical translation**, then **two fresh-context reviewer agents**, then apply feedback. Primeagen maps this to **Prime Agent Review**, where about **50% of feedback is actually good**."
+        },
+        {
+          "e": "🌳",
+          "q": "How did they burn down ~16K compile errors?",
+          "a": "Many **Claude Code workers in git worktrees**, each fixing **one error or test slice**, looping until compile errors and then **unit-test shards** went green."
+        },
+        {
+          "e": "✅",
+          "q": "Is compile-green enough to ship a rewrite?",
+          "a": "No. First `bun --version` still **linker-panicked**. The real confidence gate was the **unit-test fleet**, not a green compile alone. Mechanical translation ≠ idiomatic Rust — expect heavy cleanup."
+        }
+      ]
+    },
+    {
+      "title": "What AI is actually good at",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "What does Primeagen think LLMs are unusually strong at?",
+          "a": "**Mechanical translation** — \"translating one thing to the next thing.\" Language choice used to be a **one-way decision** for a project like Bun; agent fleets collapsed that assumption in weeks."
         }
       ]
     }

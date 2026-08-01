@@ -2,92 +2,72 @@
   "slug": "openclaw-creator-why-80-percent-apps-disappear",
   "sections": [
     {
-      "title": "OpenClaw Creator",
+      "title": "Local-first is the unlock",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Local-first > cloud assistants**?",
-          "a": "**Full machine access is the** unlock; ChatGPT can't control your bed temperature or search your whole disk."
+          "e": "💻",
+          "q": "Why does Peter Steinberger bet on local-first agents?",
+          "a": "Cloud chatbots do a few things; an agent on your machine can do **everything you can do on the machine** — search files, control devices, surprise you. \"If you run on your computer, it can do **every effing thing**.\""
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Surprise via filesystem**?",
-          "a": "**Agent found year-old Sunday audio** logs user forgot; narrative of last year without explicit setup."
+          "e": "📼",
+          "q": "What \"surprise\" moment sold the filesystem thesis?",
+          "a": "The agent found **year-old Sunday audio logs** the user forgot and built a narrative of last year — without explicit setup. Full disk access beats cloud silos."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Why 80% of apps disappear",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Bot-to-bot + human rental**?",
-          "a": "**Restaurant bots negotiate; legacy venues** may need a hired human to call or stand in line."
+          "e": "📱",
+          "q": "Which apps get absorbed by agents?",
+          "a": "Any app that merely **manages data** — fitness tracking, reminders, calorie logs (e.g. MyFitnessPal). Agents that already know context will track, infer, and nudge naturally. \"I think **80% of them are going away**.\""
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Specialist swarm future**?",
-          "a": "**Separate bots for work, personal life, relationships** — society specializes, so should agents."
+          "e": "📡",
+          "q": "Which apps survive?",
+          "a": "Apps with **sensors** — cameras, ovens, beds, Tesla hardware. \"Only the apps that actually have sensors, maybe they **survive**.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Swarm intelligence and memory",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **80% app displacement**?",
-          "a": "**Data-management apps (MyFitnessPal, generic** reminders) replaced by agents that track, infer, and nudge naturally."
+          "e": "🐝",
+          "q": "God AI or specialist swarm?",
+          "a": "Steinberger favors **swarm/specialist intelligence** — separate bots for work, personal life, relationships — because society specializes, so should agents. Bot-to-bot negotiation (restaurants) may still need a **hired human** for legacy venues."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Sensor apps survive**?",
-          "a": "**Hardware-integrated apps (Tesla, oven,** sonar bed) outlast pure CRUD wrappers."
+          "e": "📝",
+          "q": "How does OpenClaw break vendor memory silos?",
+          "a": "**User-owned markdown memories** on disk — but those files become more sensitive than Google search history. \"What's more sensitive — your Google search history or your **memory.md** files?\""
+        },
+        {
+          "e": "👻",
+          "q": "Where does personality come from?",
+          "a": "**soul.md** / **identity.md** — core values + human-AI interaction norms. Marty infused install templates; one private soul file was **never cracked**."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Moats, growth, and contrarian build choices",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Model moat is temporary**?",
-          "a": "**Users adapt to each new** model within a month; open source catches up on a ~1-year lag."
+          "e": "🏰",
+          "q": "Is the model company moat durable?",
+          "a": "Tokens-for-now, but expectations **ratchet every release**; users adapt within a month; open weights from a year ago feel unusable — open source catches up on a ~**1-year lag**."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Memory silos vs OpenClaw**?",
-          "a": "**Big chat vendors trap** memories; OpenClaw stores user-owned markdown on disk."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Public Discord as marketing**?",
-          "a": "**Couldn't explain on Twitter;** live demo + prompt-injection theater drove understanding."
+          "e": "📢",
+          "q": "How did OpenClaw go viral?",
+          "a": "Couldn't explain on Twitter — a reckless **public Discord demo** (prompt-injection attempts laughed off; owner-only execution) drove understanding. Origin: same ~**9-second** Marrakesh voice improvisation as the TED story."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **soul.md personality layer**?",
-          "a": "**Core values + human-AI interaction** norms; Marty infused install templates; private soul file never cracked."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **No MCP by design**?",
-          "a": "**Mac Porter CLI wrapper for** on-demand MCP use without restart; \"classical MCP crap\" scales poorly."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Contrarian git workflow**?",
-          "a": "**Multiple full repo checkouts** on main, not worktrees; minimize cognitive overhead."
+          "e": "🛠️",
+          "q": "What contrarian tooling choices did he make?",
+          "a": "**Codex over Claude Code** (reads more files; ~10 parallel sessions); multiple full repo copies on `main` instead of worktrees; **CLIs over MCP** (Mac Porter converts MCPs to shell on demand) — \"Humans don't call MCP manually. They just want to use **CLIs**.\""
         }
       ]
     }

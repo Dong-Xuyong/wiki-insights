@@ -2,92 +2,67 @@
   "slug": "chatgpt-moment-robotics-catie-cuan-stanford",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "The real robotics bottleneck",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Intelligence ≠ interaction**?",
-          "a": "**robotics hype centers capability;** the hard problem is unpredictable humans in shared spaces."
+          "e": "🤖",
+          "q": "What is the \"ChatGPT moment\" for robotics — and what's still missing?",
+          "a": "Weekly breakthroughs and a path to **billions of robots** in offices, hospitals, hotels, and homes (iPhone-like curve: ~**13 years to 1B** devices). The missing layer is not raw intelligence — it's **human-robot interaction**: mutual **legibility** when unpredictable people share space with capable machines."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Billions-of-robots timeline**?",
-          "a": "**iPhone hit 1B in ~13** years; robotics workforce + capital suggests similar density in lifetimes."
+          "e": "🏥",
+          "q": "What hospital lesson shaped Cuan's mission?",
+          "a": "Her father's experience with life-saving but **opaque, beeping machines** showed that legibility is **safety + dignity**. Humanistic robotics should empower and delight, not merely be utilitarian."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "VLI and measuring success",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **VLI model**?",
-          "a": "**first model class measuring robot** action success via human affect response, not just task metrics."
+          "e": "👁️",
+          "q": "What is a Vision-Language-Interaction (VLI) model?",
+          "a": "A model class that takes **behavioral impetus from humans** in the environment (like LLMs on text), maps to robot actions, and judges success by **human affect response** (positive/negative) — not just task completion metrics."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Hospital opacity lesson**?",
-          "a": "**life-support machines that beep** without explanation traumatize vulnerable patients; legibility is safety + dignity."
+          "e": "🎵",
+          "q": "What did Google's robot music mode prove?",
+          "a": "Mapping **200 robots'** joint motion data to musical samples turned \"fine\" office robots into **awe experiences** (engineers crying at desks). Delight shipped fleet-wide — people wanted more than ambivalence toward utility bots."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Beyond humanoids and utility",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Google music mode**?",
-          "a": "**mapping joint motion → musical** samples turned \"fine\" office robots into crying-at-desk awe experiences; shipped fleet-wide."
+          "e": "🪞",
+          "q": "Why can humanoid form be a trap?",
+          "a": "**Rodney Brooks**: the closer something looks human, the higher the expectations — **mirror neurons** fire automatically. A 77-year-old ESL dad may not want a humanoid even if it \"works.\""
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Rodney Brooks humanoid trap**?",
-          "a": "**human-likeness raises expectations via mirror neurons;** 77-year-old ESL dad may not want a humanoid even if it works."
+          "e": "🦭",
+          "q": "What roles exist beyond dirty, dull, and dangerous labor?",
+          "a": "**Paro seal** companions, autism social-skills robots, and art/dance show **non-humanoid** beneficial roles already exist. Design for companionship and awe, not only dishes and logistics."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Why before what",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Beyond dirty/dull/dangerous**?",
-          "a": "**Paro seal companions, autism** social robots show non-humanoid beneficial roles already exist."
+          "e": "❓",
+          "q": "What does Stanford CS 334 teach builders in an infinite-opportunity era?",
+          "a": "Ask **why before what**. When building is easy, the scarce resource is **values + time allocation** — \"Do I want it to say or to do?\""
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **2017 transcendent dance**?",
-          "a": "**first choreography with a robot** felt like Homo technae continuum from stone tools to modern machines."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Humans > robots expressively**?",
-          "a": "**years of robotics work** increased respect for human diversity of motion, timing, social acuity."
+          "e": "⏳",
+          "q": "Why does Cuan treat time as the critical design constraint?",
+          "a": "Time is the only resource that is **equal for everyone** and cannot be bought back. Building choices = spending irreplaceable life. Mark Skylar-Scott's **25-year** heart goal models crafts worth that dedication."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Mark Skylar Scott 25-year heart**?",
-          "a": "**worthy crafts take a** lifetime; robotics needs problems worth that dedication."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **CS 334 why-question**?",
-          "a": "**when building is easy/infinite, the scarce resource is *why* you build** — values + time allocation."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Time unscalable**?",
-          "a": "**only resource equal for** everyone; cannot buy back; building choices = spending precious time."
+          "e": "🛠️",
+          "q": "How does she reframe what makes humans unique?",
+          "a": "Via Aristotle: we should be called **Homo technae** — defined by our **relationship to tools**. Years of robotics debugging made her more awed by **human dexterity and expressiveness** than any machine."
         }
       ]
     }

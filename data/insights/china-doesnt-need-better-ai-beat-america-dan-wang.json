@@ -2,87 +2,62 @@
   "slug": "china-doesnt-need-better-ai-beat-america-dan-wang",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "AI lead vs magical thinking",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about uS AI lead is **moderate not decisive**?",
-          "a": "**China catching up quickly;** export controls haven't prevented competitive models."
+          "e": "🤖",
+          "q": "How big is the US AI lead over China, according to Dan Wang?",
+          "a": "At best a **moderate lead, not decisive**. Chinese firms produced competitive models despite ~**a decade** of export controls — often **open-source and cheap to run**, with some video-generation models arguably ahead."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Deployment infrastructure > model sophistication**?",
-          "a": "**electrical power, factories, iteration** speed determine who benefits from AI rollout."
+          "e": "🪄",
+          "q": "What \"magical thinking\" does he criticize in Washington and Silicon Valley?",
+          "a": "**AI magical thinking geopolitics** — the belief that somewhat better models alone deliver decisive strategic advantage over China, while underweighting **physical dynamism** and deployment infrastructure."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about china built **1,500 ships** last year; US built **~5**?",
-          "a": "**industrial capacity gap dwarfs AI benchmark gaps.**"
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Dark factories**?",
-          "a": "**lights off, minimal human workers** — plus dense ecosystem of battery/sensor/EV suppliers next door."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
+      "title": "Physical capacity gaps",
       "items": [
         {
           "e": "⚡",
-          "q": "Why does this matter: **Engineer-led state** excels at physical infrastructure; fails when it **social-engineers** people (one-child?",
-          "a": "**Engineer-led state** excels at physical infrastructure; fails when it **social-engineers** people (one-child policy)."
+          "q": "Which infrastructure numbers show China outbuilding the US?",
+          "a": "Last year: ~**300 GW solar** vs ~**30 GW** US; **40 nuclear plants** under construction vs **zero** in the US; ~**1,500 ships** vs ~**5**; auto model iteration ~**18 months** vs **5–6 years** American."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Anaconda in chandelier**?",
-          "a": "**censorship works through ambient** fear, not constant visible punishment."
+          "e": "🏭",
+          "q": "Why might manufacturing ecosystems matter more than model benchmarks?",
+          "a": "**Dark factories**, dense battery/sensor/EV supplier networks, and ~**70M manufacturing workers** across skill tiers may outweigh marginal model quality gains. Wang wouldn't trade US model sophistication for China's industrial ecosystem."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Engineering state strengths and failures",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Both countries self-sabotage**?",
-          "a": "**leader overconfidence (Xi property** smash, Trump tariffs/deportations) vs trailing-country urgency."
+          "e": "🚄",
+          "q": "Where does China's engineer-led state excel — and fail?",
+          "a": "It excels at **physical infrastructure** (subways, high-speed rail **2×** the rest of the world combined, bridges, power). It fails when it **social-engineers** people — the one-child policy (~**300M abortions**, ~**100M sterilizations** over 35 years)."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about don't trade vibrant manufacturing ecosystem for marginally better AI models?",
-          "a": "**Don't trade vibrant manufacturing** ecosystem for marginally better AI models."
+          "e": "🐍",
+          "q": "What is the \"anaconda in the chandelier\" metaphor?",
+          "a": "Perry Link's image of **ambient censorship**: you don't need to see the snake strike — knowing it's hanging above produces **self-censorship** that corrodes creative thinking. Wang's own site was blocked in **2022**."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Self-sabotage and the decade ahead",
       "items": [
-        {
-          "e": "🔄",
-          "q": "Why does this matter: Silicon Valley founders inspirational but **don't deliver** orderly streets, affordable housing, clean cities ?",
-          "a": "Silicon Valley founders inspirational but **don't deliver** orderly streets, affordable housing, clean cities to ordinary Americans."
-        },
         {
           "e": "⚖️",
-          "q": "What should you remember about young workers in AI-exposed jobs seeing **16% slower employment growth**?",
-          "a": "**opportunity if augmented not automated.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
+          "q": "How do the US and China both sabotage themselves?",
+          "a": "**Whichever leads makes hubris mistakes; the trailer feels the whip.** Xi's 2021 property demolition and tech crackdown (Jack Ma) drag China's economy; Trump's tariffs, alliance erosion, and deporting ~**300** South Korean engineers from a Georgia Hyundai plant hurt US manufacturing credibility. Wang's message: **do less**."
+        },
         {
-          "e": "🚀",
-          "q": "What should you remember about **Made in China** brand trajectory → premium quality parity with Germany/Japan within a decade?",
-          "a": "**Made in China** brand trajectory → premium quality parity with Germany/Japan within a decade."
+          "e": "🏷️",
+          "q": "Where does he think the \"Made in China\" brand is heading?",
+          "a": "Within **~10 years**, **Made in China** may rival **Germany/Japan** as a quality premium label as manufacturing concentrates. Young workers in AI-exposed jobs already see **~16% slower employment growth** — opportunity if AI **augments** rather than replaces."
         }
       ]
     }

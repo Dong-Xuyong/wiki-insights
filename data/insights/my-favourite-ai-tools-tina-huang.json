@@ -2,92 +2,72 @@
   "slug": "my-favourite-ai-tools-tina-huang",
   "sections": [
     {
-      "title": "My Favourite AI Tools",
+      "title": "Depth over hype",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Depth over breadth**?",
-          "a": "**three core home-base tools** used extremely well beats trying every hyped product."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Life-map organization**?",
-          "a": "**tools grouped by life zone** (life map ai tool categories), not by vendor or category label."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Human touch in content**?",
-          "a": "**AI education creator who keeps** filming/editing human; AI assists research, assets, companions, not on-camera delivery."
-        },
         {
           "e": "🎯",
-          "q": "What should you remember about **Cowork morning brief**?",
-          "a": "**emails + Slack +** calendar + portfolio + focus in one no-code workflow."
+          "q": "What is Tina Huang's core AI tool philosophy?",
+          "a": "Master a **small core set deeply** instead of chasing every release. \"Have a core set of tools that you know how to use **really, really well** as opposed to try to chase the hype.\""
+        },
+        {
+          "e": "🗺️",
+          "q": "How does she organize her stack?",
+          "a": "As a **life map** with four zones — **home base**, builder dungeon, Octopus HQ, content studio — not by vendor or category label."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Home base daily drivers",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Claude chat**?",
-          "a": "**planning, trivia, travel, hardware** how-tos (Logitech mouse, layover planning)."
+          "e": "☀️",
+          "q": "What runs her morning brief?",
+          "a": "**Claude Cowork** no-code workflow: email + Slack + calendar + portfolio + daily focus in one pass, plus investment dashboards."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Perplexity**?",
-          "a": "**when you want cited** multi-model answers across sources; VPN workaround in restricted regions."
+          "e": "🔍",
+          "q": "When does she reach for Perplexity over Claude?",
+          "a": "For **multi-source objective search** (sneakers, dentists, product comparisons) — and in Hong Kong where Claude/Gemini/OpenAI need VPN but **Perplexity does not**."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Builder dungeon coding ladder",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Coding intensity ladder**?",
-          "a": "**Claude Code (deep codebase autonomy) →** Warp (agent orchestration) → Cursor (IDE familiarity) → Codex (specialized / subscription bundling)."
+          "e": "🪜",
+          "q": "How does she choose among coding tools?",
+          "a": "Intensity ladder: **Claude Code** (deep autonomous codebase work) → **Warp** (multi-agent orchestration) → **Cursor** (familiar IDE) → **Codex** (specialized / bundled subscriptions). **Bolt** for quick prototypes; **Retool** for business-specific internal apps."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Prototype vs production**?",
-          "a": "**Bolt for fast functional** UI prototypes; Retool for business-specific internal apps."
+          "e": "🖥️",
+          "q": "Why run a Mac Studio for local models?",
+          "a": "**M4 64GB** hosts Qwen, Llama, GLM, MiniMax **24/7** for private/free inference — critical for accounting/tax/banking tools that need **exact workflow fit** and privacy."
+        },
+        {
+          "e": "🤖",
+          "q": "How does she build custom agents?",
+          "a": "Cowork + **Hermes** (open-source local) for workflows; **n8n** for no-code agents; OpenAI SDK for code path. **SerpAPI** feeds Hermes news tracking, slide generator, and resource tools (250 free credits at signup)."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Octopus HQ and content studio",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Agent building**?",
-          "a": "**Cowork/Hermes for local workflows;** n8n no-code; OpenAI SDK code path."
+          "e": "🐙",
+          "q": "What is Cowork's role for the Lonely Octopus team?",
+          "a": "Notification hub across **Discord, Notion, Slack, email**; Notion AI for doc search; Google Workspace + Gemini for meetings; **Whisperflow** for voice input."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Local inference**?",
-          "a": "**Mac Studio 64GB M4** hosts open models for private/free 24/7 runs."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Cowork as notification hub**?",
-          "a": "**Discord, Notion, Slack, email** drafting in one agent layer."
+          "e": "🎬",
+          "q": "Does AI replace her on-camera work?",
+          "a": "No — \"What you see here, **100% human**.\" Hermes scans Reddit/X/HN/Instagram/YouTube for rising topics → alerts + research outlines; Cowork for graphics; human deep-dive, film, and edit."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **Custom meta-business software**?",
-          "a": "**accounting/tax/bank coordination too specific** for off-the-shelf SaaS; built in-house with local models."
+          "e": "🦀",
+          "q": "What is AI Tina?",
+          "a": "Internal chat trained on **all her public content** for team FAQ — RAG-style retrieval, not decision-making. Prompt mnemonics: **TCREI / RSTI** (\"tiny crabs ride enormous iguanas…\")."
         }
       ]
     }

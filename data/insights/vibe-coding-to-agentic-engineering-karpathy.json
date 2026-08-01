@@ -2,62 +2,62 @@
   "slug": "vibe-coding-to-agentic-engineering-karpathy",
   "sections": [
     {
-      "title": "Andrej Karpathy",
+      "title": "The December 2025 inflection",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about december 2025 was a inflection: agentic coherent workflows \"just worked\"?",
-          "a": "**many people's ChatGPT-era mental models are stale.**"
+          "e": "📈",
+          "q": "Why does Karpathy feel more behind as a programmer than ever?",
+          "a": "Not despite AI — because **December 2025** marked a step change where **agentic workflows stopped needing constant correction**, and he entered a rabbit hole of side projects. Many ChatGPT-era mental models are now stale."
         },
         {
-          "e": "🔑",
-          "q": "Why does this matter: Software 3.0 = prompt + context window as the programming interface; many apps in the old paradigm \"shouldn't ?",
-          "a": "**Software 3.0 = prompt + context** window as the programming interface; many apps in the old paradigm \"shouldn't exist\"."
+          "e": "💻",
+          "q": "What is Software 3.0?",
+          "a": "LLMs as programmable computers where **prompting + the context window** replace traditional code. Example: MenuGen (a full Vercel app) made obsolete by a **single Gemini image prompt** — \"that app shouldn't exist.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Floor vs ceiling",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about vibe coding raises the floor; agentic engineering raises the ceiling while keeping the quality bar?",
-          "a": "**Vibe coding raises the floor;** agentic engineering raises the ceiling while keeping the quality bar."
+          "e": "🏗️",
+          "q": "How do vibe coding and agentic engineering differ?",
+          "a": "**Vibe coding raises the floor** — anyone can build. **Agentic engineering** preserves the professional quality bar while going far beyond **10× faster**."
         },
+        {
+          "e": "🧩",
+          "q": "Why are LLMs \"jagged\" in capability?",
+          "a": "Models automate what you can **verify** (like code automates what you can **specify**). RL peaks in verifiable domains (code, math) and fails on commonsense edge cases — jaggedness = **verifiable + labs care**."
+        }
+      ]
+    },
+    {
+      "title": "What humans still own",
+      "items": [
         {
           "e": "🎯",
-          "q": "Why does this matter: LLMs automate what you can **verify** (like code automates what you can **specify**); jaggedness = verifiable ?",
-          "a": "LLMs automate what you can **verify** (like code automates what you can **specify**); jaggedness = verifiable + labs care."
+          "q": "What can't you outsource to agents?",
+          "a": "\"You can outsource your thinking, but you can't outsource your **understanding**.\" Humans keep **taste, spec design, judgment, oversight**, and fundamental comprehension — not API trivia."
+        },
+        {
+          "e": "📚",
+          "q": "What are LLM wikis actually for?",
+          "a": "Knowledge bases are tools for **enhancing understanding**, not replacing it — Karpathy's own wiki/knowledge-base project."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Agent-native future",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about hiring for agentic engineers should use big real projects + red-team agents, not LeetCode puzzles?",
-          "a": "**Hiring for agentic engineers should** use big real projects + red-team agents, not LeetCode puzzles."
+          "e": "📋",
+          "q": "What becomes the new programming paradigm?",
+          "a": "\"What is the piece of text to **copy-paste to your agent**?\" Agent-native docs, sensors/actuators over the world, and agents negotiating on our behalf replace human-oriented instructions."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about human value shifts to aesthetics, judgment, taste, oversight, and fundamental understanding — not API trivia?",
-          "a": "**Human value shifts to aesthetics,** judgment, taste, oversight, and fundamental understanding — not API trivia."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about agent-native world?",
-          "a": "**\"What should I copy-paste** to my agent?\" replaces human-oriented docs."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about lLM wikis/knowledge bases are tools for **enhancing understanding**, not replacing it?",
-          "a": "LLM wikis/knowledge bases are tools for **enhancing understanding**, not replacing it."
+          "e": "🧑‍💼",
+          "q": "How should you hire agentic engineers?",
+          "a": "Use **big real projects + red-team agents**, not LeetCode puzzles — evaluate coordinating fallible agents without sacrificing quality."
         }
       ]
     }

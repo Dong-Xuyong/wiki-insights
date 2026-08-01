@@ -2,62 +2,62 @@
   "slug": "six-best-claude-code-skills-nate-herk",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "What businesses actually pay for",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Skills vs plugins**?",
-          "a": "**skill = markdown SOP package; plugin** = wrapper that can bundle multiple skills + hooks + MCP servers."
+          "e": "💼",
+          "q": "After 400 hours, which Claude Code skills do clients pay for?",
+          "a": "Not flashy demos — **six boring types** that **save time, cut costs, or remove mistakes**, repeatable across real estate, HVAC, coaching, and marketing. Sell **outcomes** (hours saved, fewer errors, more leads), not \"an AI workflow.\""
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Six types clients pay for**?",
-          "a": "**time saved, money saved,** mistakes removed; simple and repeatable across industries."
+          "e": "📦",
+          "q": "What's the difference between a skill and a plugin?",
+          "a": "A **skill** is a markdown SOP package; a **plugin** can bundle multiple skills + hooks + MCP servers. Don't install all six day one — learn one, demo value, then compound."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Build and ship with process",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Stacked workflow**?",
-          "a": "**Superpowers (process) + GSD** (clean context) + ultra review (confirmed bugs before merge)."
+          "e": "🏭",
+          "q": "Why is Skill Creator the factory behind paid work?",
+          "a": "Describe a job in plain English (or drop in an SOP); Claude drafts, tests, and packages **`SKILL.md`**. Clients don't buy Skill Creator — every paid skill comes from it. Install globally at user scope."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Context rot is the mid-session wall**?",
-          "a": "**GSD sub-agents and Context** Mode attack different halves (task isolation vs tool-output garbage)."
+          "e": "🦸",
+          "q": "What failure mode does Superpowers fix?",
+          "a": "Rushed code that looks fine until a client runs it. It forces **plan → isolated env → tests before code → two-stage review**. Realistic first-pass: ~**80%** with QA framing vs ~**60%** without. (**150K+** GitHub stars.)"
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Context rot and review",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Context Mode + Claude Mem split**?",
-          "a": "**current session hygiene vs cross-session startup tax elimination.**"
+          "e": "🧹",
+          "q": "How do GSD and Context Mode attack mid-session walls?",
+          "a": "**GSD** spins fresh sub-agents per task so the main session stays clean (scope-drop + security gates). **Context Mode** sandboxes tool output — e.g. **56KB → 299 bytes** Playwright snapshots — so sessions that died at ~**30 min** run ~**3 hours**."
         },
+        {
+          "e": "🔍",
+          "q": "When should you use `/review` vs `/ultra review`?",
+          "a": "`/review` for **fast local feedback**; **ultra** for payments/auth/DB migrations — cloud sandbox with parallel reviewers that must **independently reproduce bugs**. Needs Claude account sign-in; Pro/Max gets ~**3 free** ultra runs, then ~**$5–20**/run."
+        }
+      ]
+    },
+    {
+      "title": "Memory across sessions",
+      "items": [
         {
           "e": "🧠",
-          "q": "What should you remember about **Skill Creator compresses the skill authoring learning curve**?",
-          "a": "**natural-language + SOP ingest beats manual SKILL.md editing.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Don't install all six day one**?",
-          "a": "**learn one, demo to** a business owner, compound from there."
+          "q": "What does Claude Mem add that Context Mode doesn't?",
+          "a": "**Cross-session** memory: lifecycle hooks → semantic summaries in local SQLite + vector search, **~10× token savings** vs dumping history, and auto-updates folder-level **`CLAUDE.md`**. Use marketplace install — `npm install` SDK-only won't register hooks."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Free resource guide** in ai automation society Skool community.?",
-          "a": "**Free resource guide** in ai automation society Skool community."
+          "e": "🎨",
+          "q": "What's the bonus seventh skill?",
+          "a": "**Frontend Design** (official) — install globally for **less AI-slop UI**. Complements Claude Design; still useful when projects return to Claude Code."
         }
       ]
     }

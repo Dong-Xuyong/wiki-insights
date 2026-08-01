@@ -2,62 +2,77 @@
   "slug": "jeremy-grantham-ai-bubble-crash-diary-of-a-ceo",
   "sections": [
     {
-      "title": "AI Bubble Dynamics",
+      "title": "The AI bubble thesis",
       "items": [
-        {
-          "e": "📊",
-          "q": "What are the classic indicators that we’re in an AI bubble?",
-          "a": "Great bubbles form around **real transformative ideas** (railroads, internet, AI) when capital over-invests. Grantham flags **pure crazy euphoria** signals like SpaceX narratives claiming a quarter of global GDP as addressable market — timing that can mean the peak is near."
-        },
         {
           "e": "💥",
-          "q": "If AI is real, why still sell?",
-          "a": "Because **bubble ≠ scam**. The idea can reshape the world while high-flyers still suffer **70%+ drawdowns**; Nasdaq fell ~82% in 2000 before winners later inherited the spoils."
+          "q": "Is Grantham saying AI itself is fake?",
+          "a": "No — **bubble ≠ scam**. \"The great bubbles always occur around the **very most important ideas**\" (railroads, internet, AI). Capital still **over-invests**; Amazon fell **92%** in 2000 before inheriting retail. Peak/burst window is **days to years**, not decades."
+        },
+        {
+          "e": "📉",
+          "q": "How bad could a drawdown get for AI mega-caps?",
+          "a": "High-flyers could fall **70%+** from unprecedented levels; Nasdaq fell **82%** in 2000. SpaceX framing a quarter of global GDP as addressable market is his **euphoria signal** — \"like they tell stories about the **South Sea bubble**.\""
         }
       ]
     },
     {
-      "title": "Investment Strategy and Asset Protection",
+      "title": "Portfolio playbook",
       "items": [
         {
-          "e": "💰",
-          "q": "What simple portfolio stance does Grantham recommend?",
-          "a": "**Don’t own US stocks** as the default. Prefer ~**60% non-US / EM equities**, some bonds and cash, **5–10% precious metals**, and skip crypto (he expects it to go to zero)."
+          "e": "🌍",
+          "q": "What simple allocation does he recommend right now?",
+          "a": "\"**Don't own US stocks.**\" Portfolio sketch: ~**60% non-US / EM equity**, **5–10% precious metals**, some sensible real estate, rest in **bonds/cash**. No crypto — he expects it to go to **zero**."
         },
         {
-          "e": "🏦",
-          "q": "Why won’t your advisor tell you to get out?",
-          "a": "**Career risk in bull markets** — underperform while the party continues and clients fire you. Sell-side marketing stayed bullish in 1999 even when the engine room privately agreed a bear market was coming."
+          "e": "🤐",
+          "q": "Why won't your advisor tell you to get out?",
+          "a": "**Career-risk mismatch**: Wall Street never says \"get out\" in bull markets. In 1999, **99%** of the analyst engine room agreed a bear market was coming yet marketing stayed bullish. GMO lost **half its book** being 2¼ years early in 1998–99. \"**No help is coming**.\""
         }
       ]
     },
     {
-      "title": "Wealth Gap and Economic Reset",
+      "title": "Housing, inequality, and survival",
       "items": [
-        {
-          "e": "⚖️",
-          "q": "How extreme is US inequality in Grantham’s framing?",
-          "a": "US **Gini** is now Brazil/Mexico tier after post-1975 stagnation for median hours worked. History rarely fixes extremes via peaceful policy — resets come via **war, revolution, or collapse**."
-        },
         {
           "e": "🏠",
-          "q": "Is housing still a safe wealth engine?",
-          "a": "Even a **30% drop** can leave homes expensive vs incomes. **Population decline** plus unaffordable prices means fewer future bidders, not automatic appreciation."
+          "q": "Why is he cautious on property even after a crash?",
+          "a": "UK housing went from **3.4× income (1994)** to **10×+** today — even a **30% drop** stays expensive. Population decline + baby bust means **fewer bidders**, not automatic appreciation."
+        },
+        {
+          "e": "🎒",
+          "q": "What practical advice does he give for harder times?",
+          "a": "Keep a **cash reserve**, hold a **useful job**, upskill, make friends, build tight community. Founders should **lock up capital now** and brace for a post-burst funding drought. Plan as if times won't be easy."
         }
       ]
     },
     {
-      "title": "Fertility, Toxicity, and Civilization Metrics",
+      "title": "Fertility and chemical toxicity",
       "items": [
         {
-          "e": "🧪",
-          "q": "What fertility data does he treat as an emergency?",
-          "a": "Sperm counts ~**100M/mL in 1970 → ~35 today**, declining ~2.5%/year. Endocrine disruptors (phthalates, BPA, PFAS, microplastics) and pesticide exposure are the suspects."
+          "e": "🧬",
+          "q": "What fertility trend does Grantham call unsustainable?",
+          "a": "Sperm counts fell from ~**100M/mL in 1970** to ~**35** today (~**2.5%/yr**) — on pace toward median zero by ~**2045**. Drivers include **phthalates, BPA, PFAS, microplastics**, and pesticides."
         },
         {
-          "e": "🇪🇺",
-          "q": "Why does he prefer EU-style chemical rules?",
-          "a": "EU banned ~**1,500 cosmetic chemicals** vs ~**12 in the US**; ~85 pesticides legal in the US are banned in the EU. Highest leverage: pregnant women going organic on dirty-dozen produce and skipping cosmetics."
+          "e": "🧴",
+          "q": "Where is the highest-leverage personal action?",
+          "a": "For pregnancy: **no cosmetics** + **organic dirty dozen** for ~9 months could eliminate ~**half** of fertility damage. EU banned ~**1,500** cosmetic chemicals vs US ~**12**; use scan apps (Yuka, EWG)."
+        }
+      ]
+    },
+    {
+      "title": "AI risk and civilization metrics",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "How does he frame benevolent AI?",
+          "a": "\"When was there ever a case where a **higher intelligence** was benevolent in a sustainable way to a lower intelligence? The one example is **mothers to babies**.\" Jobs face disruption from robotics + AI; practical skills matter if complexity unravels."
+        },
+        {
+          "e": "🏥",
+          "q": "What \"civilization metric\" does he highlight?",
+          "a": "**Maternal mortality**: Norway ~**0** vs US ~**21/100K**. He recommends Denmark, Japan, France, Germany over the US for safety nets and life expectancy — US expectancy flat ~**15 years** while the Sweden gap widens."
         }
       ]
     }

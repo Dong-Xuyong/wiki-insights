@@ -2,92 +2,77 @@
   "slug": "how-cannabis-impacts-health-matthew-hill",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Endocannabinoid system and THC pharmacology",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **CB1 ubiquity**?",
-          "a": "**THC's wide effects (time, memory, appetite,** pain, mood) follow from CB1 being among the most abundant brain receptors."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Partial agonist pharmacology**?",
-          "a": "**THC outcompetes anandamide/2-AG but** with lower efficacy; endocannabinoid tone modulates without intoxication."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Anandamide elevation ≠ high**?",
-          "a": "**FAAH inhibitors raise anandamide** without psychoactivity; proves intoxication requires exogenous THC overshoot."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Edible danger**?",
-          "a": "**Delayed onset causes stacking** doses; ER visits disproportionately from oral overdose, not smoking."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Concentrates break titration**?",
-          "a": "**Flower users self-regulate blood** THC; dabs/high-THC carts remove that feedback loop."
-        },
         {
           "e": "🧠",
-          "q": "What should you remember about **Strain names are folklore**?",
-          "a": "**Indica/sativa labels don't predict** pharmacological effect; terpene marketing exceeds evidence."
+          "q": "Why does THC affect time, memory, appetite, pain, and mood so broadly?",
+          "a": "**CB1** is among the brain's most widely expressed GPCRs. THC is a **high-affinity partial agonist** that outcompetes endogenous **anandamide/2-AG** tone without matching 2-AG's efficacy — wide receptor occupancy explains wide subjective effects."
+        },
+        {
+          "e": "🔬",
+          "q": "Does raising natural anandamide get you high?",
+          "a": "No. **FAAH inhibitors** elevate anandamide without psychoactivity — \"no one can guess.\" Intoxication requires **exogenous THC** at superphysiological receptor occupancy; you don't need much THC in the brain to produce a high."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "THC, CBD, and the indica/sativa myth",
       "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **CBD is not simple \"THC antidote\"**?",
-          "a": "**Mechanism and dose matter;** high CBD can boost THC via liver enzyme inhibition."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Psychosis: acute vs chronic**?",
-          "a": "**Acute episodes possible; schizophrenia link** is association with heavy adolescent use + high potency — not deterministic."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Use disorder is real**?",
-          "a": "**~1 in 11 users** develop CUD; withdrawal syndrome recognized clinically."
-        },
         {
           "e": "⚖️",
-          "q": "What should you remember about **Legalization ≠ teen epidemic**?",
-          "a": "**Canadian/US data show adult/elderly increases;** teen rates stable or slightly down in some legal states."
+          "q": "Is CBD a simple antidote that buffers THC?",
+          "a": "Mechanisms are **dose- and context-dependent**. At clinical doses CBD can inhibit hepatic CYPs and **potentiate THC** (Ryan Vandrey blinded studies) rather than buffer it. Pediatric epilepsy benefits may partly come from slowing other anti-epileptic drug metabolism."
+        },
+        {
+          "e": "🏷️",
+          "q": "Do indica and sativa labels predict how you'll feel?",
+          "a": "**No consistent biological basis** — strain names are largely **marketing folklore**. Terpene/cannabinoid profiles vary batch-to-batch; **expectation and set/setting** dominate \"couch-lock\" vs \"energy\" stories."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Routes, potency, and titration",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Sleep tradeoff**?",
-          "a": "**THC helps onset, hurts** REM maintenance; not a sustainable sleep solution."
+          "e": "💨",
+          "q": "Why are edibles riskier than smoking for overdose?",
+          "a": "Inhaled cannabis hits blood THC fast, enabling **self-titration** (~**100 ng/mL** peaks in experienced users). **Edibles** delay onset **30–90+ minutes**, so people stack doses — ER visits disproportionately come from **oral overdose**, not smoking."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **PTSD nuance**?",
-          "a": "**Preclinical fear-extinction data intriguing;** clinical translation incomplete; VA/policy context matters."
+          "e": "🔥",
+          "q": "What's the problem with dabs and distillate carts?",
+          "a": "Plants biologically top out around **25–30% THC**; concentrates push **60–90%+** and **break self-titration**. Users can't reliably down-regulate intake, correlating with tolerance, dependence symptoms, and acute adverse events."
+        }
+      ]
+    },
+    {
+      "title": "Psychosis, addiction, and legalization",
+      "items": [
+        {
+          "e": "⚠️",
+          "q": "Does cannabis cause schizophrenia?",
+          "a": "Acute THC psychotic episodes are **real but uncommon**. The link between **early heavy / high-potency use** and earlier schizophrenia onset is a **robust association**, but **causality isn't provable** (shared genetics, prodromal self-medication). Vulnerable people can get worse positive symptoms."
+        },
+        {
+          "e": "🔄",
+          "q": "How common is cannabis use disorder?",
+          "a": "Roughly **9–10% lifetime risk** (~**1 in 11** users), higher with early/heavy use — distinct from casual habit. Withdrawal (irritability, sleep disruption, anxiety, appetite change) is clinically meaningful; tolerance tracks **CB1 downregulation**."
+        },
+        {
+          "e": "📜",
+          "q": "Did legalization create a teen cannabis epidemic?",
+          "a": "Canada/US data: biggest post-legalization increases in **55+** (especially women) and some young adults; **teen use largely flat** (already ~**35–40%** lifetime by grade 12). Legal ≠ safe — public conflates legality with harmlessness while edible/hyperemesis ER visits rose."
+        }
+      ]
+    },
+    {
+      "title": "Clinical tradeoffs",
+      "items": [
+        {
+          "e": "😴",
+          "q": "Is THC a good long-term sleep aid?",
+          "a": "THC can **shorten sleep latency** but **reduces REM**; Hill flags long-term sleep-architecture concerns — not a sustainable sleep solution. Anxiety is **biphasic** (low dose anxiolytic for some, high dose → panic); PTSD fear-extinction data is promising preclinically but human trials remain mixed."
         }
       ]
     }

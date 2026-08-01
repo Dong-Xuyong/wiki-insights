@@ -2,92 +2,57 @@
   "slug": "vibe-coding-with-opencode-bridgemind",
   "sections": [
     {
-      "title": "Vibe Coding With Opencode",
+      "title": "What OpenCode is",
       "items": [
         {
-          "e": "💡",
-          "q": "Why does this matter: Open-source terminal/IDE/desktop agent; **LSP auto-load**, multi-session parallel agents, shareable session li?",
-          "a": "Open-source terminal/IDE/desktop agent; **LSP auto-load**, multi-session parallel agents, shareable session links."
+          "e": "⭐",
+          "q": "Why did BridgeMind stress-test OpenCode as a budget vibe-coding tool?",
+          "a": "OpenCode is an **open-source CLI AI coding agent** that exploded to **57K+ GitHub stars**. BridgeMind ran it as a cheaper alternative to paid harnesses like Claude Code and Cursor, connecting **BridgeMind MCP** and parallel sessions on real UI/app tasks."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **75+ LLM providers** via models.dev?",
-          "a": "**Moonshot, Z.ai, local models,** etc.; widest provider menu vs Droid and other CLI tools."
+          "e": "🧰",
+          "q": "What capabilities make OpenCode stand out among CLI agents?",
+          "a": "It offers **LSP auto-load**, multi-session parallel agents, shareable session links, and **75+ LLM providers** via models.dev — Moonshot, Z.ai, local models, and more. **OpenCode Zen** is a ~$20 pay-as-you-go key for bundled coding models at discounted rates."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Free models and rate limits",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **OpenCode Zen**?",
-          "a": "**pay-as-you-go (~$20) single API** key for bundled coding models at discounted rates."
+          "e": "🆓",
+          "q": "Which free models did BridgeMind actually ship work with?",
+          "a": "**GLM 4.7** (Z.ai) and **MiniMax M 2.1** run free inside OpenCode. On the LM Arena **web-dev leaderboard**, both score **above GPT-5** — MiniMax roughly **50 points higher** — despite arriving months after GPT-5 was frontier."
         },
         {
-          "e": "🎯",
-          "q": "Why does this matter: UI: all-black CLI, context/token meter always visible, slash commands, MCP config, /init for agents.md, themes?",
-          "a": "**UI**: all-black CLI, context/token meter always visible, slash commands, MCP config, /init for agents.md, themes, review/timeline/export."
+          "e": "🐢",
+          "q": "What slows free models down in practice?",
+          "a": "MiniMax hits **tokens-per-minute rate limits** on heavier tasks. GLM is less rate-limited but only ~**40 tokens/sec** on Open Router — the bottleneck is **model speed**, not an OpenCode bug."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Provider lockdown",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about missing vs Claude Code?",
-          "a": "**Claude skills, ultra-think-style commands,** parallel codebase-analyst sub-agents out of the box."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about anthropic now rejects Claude Code / Anthropic-plan OAuth in OpenCode?",
-          "a": "***\"This credential is only authorized for** use with Claude Code and cannot be used for other API requests.\"*."
+          "e": "🔒",
+          "q": "Can you plug Claude Code or ChatGPT Pro credentials into OpenCode?",
+          "a": "No. Anthropic now rejects Claude Code / Anthropic-plan OAuth with: credentials are **only authorized for Claude Code**. OpenAI looks **API-key only** — ChatGPT Pro is not usable the same way. That is strategic lock-in to official harnesses."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "BridgeMind MCP workflow",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about worked last week (Opus 4.5); strategic lock-in to Claude Code harness.?",
-          "a": "**Worked last week (Opus** 4.5); strategic lock-in to Claude Code harness."
+          "e": "🔀",
+          "q": "How does the two-agent BridgeMind pattern work with OpenCode?",
+          "a": "**Agent A** reviews the codebase and creates a structured BridgeMind MCP task (breadcrumbs, mobile board, security vulns). **Agent B** gets a **fresh context window** and executes that one task — planning and execution stay separated."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about openAI connection appears **API-key only**?",
-          "a": "**ChatGPT Pro plan not** usable in OpenCode (same pattern suspected)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **GLM 4.7** (Z.ai) and **MiniMax M 2.1** available free inside OpenCode.?",
-          "a": "**GLM 4.7** (Z.ai) and **MiniMax M 2.1** available free inside OpenCode."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about lM Arena **web dev leaderboard**: both score **above GPT-5** (MiniMax ~50 points higher)?",
-          "a": "**shocking for models released months after GPT-5 frontier.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **MiniMax M 2.1**?",
-          "a": "hits **tokens-per-minute rate limits** during BridgeMind sidebar task."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **GLM 4.7**: less rate-limited; ~**40 tokens/sec** on Open Router?",
-          "a": "**slowness is model speed, not OpenCode bug.**"
+          "e": "✅",
+          "q": "Who should actually use OpenCode day to day?",
+          "a": "BridgeMind gives a **stamp of approval for budget/local-model users** who cannot spend **$100–200/mo** on frontier plans. Frontier builders already on Claude Code (sub-agents, skills, `/ultra think`, UI polish) should stay put — OpenCode is secondary for the creator."
         }
       ]
     }

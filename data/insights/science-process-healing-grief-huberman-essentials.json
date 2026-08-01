@@ -2,72 +2,62 @@
   "slug": "science-process-healing-grief-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "How the brain maps attachment",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Three-dimensional attachment map**?",
-          "a": "**inferior parietal lobule uniquely tracks** changes in object spacing, sound timing, and emotional distance to people."
+          "e": "🗺️",
+          "q": "In what three dimensions do we map people we love?",
+          "a": "**Space** (physical proximity), **time** (temporal proximity), and **closeness** (emotional distance). The **inferior parietal lobule** tracks changes across those dimensions."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Grief = uncoupling**?",
-          "a": "**untangle attachment from space/time** predictions; episodic memory catalog persists and drives reverberatory seeking."
+          "e": "🔗",
+          "q": "What is grief doing to that map?",
+          "a": "Grief is **uncoupling** attachment from **space/time predictions** (they'll walk in, call at the usual hour). Adaptive grieving **keeps the attachment**; dismantling the bond is not the goal."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Rational grieving practice",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Keep the attachment, remap space/time**?",
-          "a": "**adaptive grieving preserves intensity** of bond; dismantling attachment is not the goal."
+          "e": "🕰️",
+          "q": "How do you practice rational grieving in a session?",
+          "a": "Dedicate **5–45 minute blocks** (often 5–10–30+) to feel attachment deeply while consciously decoupling from spatial/temporal seeking — **accept the new reality** and still **anchor to the bond**."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Rational grieving blocks**?",
-          "a": "**5–10–30+ min dedicated sessions;** feel closeness; actively avoid counterfactuals and guilt spirals."
+          "e": "🌀",
+          "q": "Why avoid \"what if\" thinking during those blocks?",
+          "a": "**Counterfactual thinking** is an **infinite guilt landscape** tightly tied to guilt. Rational grieving means clear acceptance plus attachment — not spiraling \"what if I had…\" loops."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Why intensity differs by person",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Kübler-Ross stages are partial**?",
-          "a": "**fMRI shows motivation/craving circuits** (not just sadness) dominate grief; stages not universal."
+          "e": "🧪",
+          "q": "Does more yearning mean you loved more deeply?",
+          "a": "Not necessarily. **Oxytocin receptor density** in the nucleus accumbens (prairie vole + human fMRI) links to **intense yearning/motivation to reconnect**, not greater attachment capacity."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Oxytocin → yearning**?",
-          "a": "**monogamous prairie voles have more accumbens** oxytocin receptors; human grief intensity varies by receptor density, not attachment depth."
+          "e": "✍️",
+          "q": "Does bereavement writing help everyone equally?",
+          "a": "A **35-subject** study found **no group effect** until stratified by **vagal tone / RSA** — high respiratory sinus arrhythmia writers (who can feel attachment somatically) benefited most."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Biology foundations for healing",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Writing disclosure**?",
-          "a": "**35-subject bereavement study**: no group effect until stratified by vagal tone; high RSA writers benefited."
+          "e": "📈",
+          "q": "How does complicated grief show up in cortisol?",
+          "a": "**Complicated grief** keeps **4 PM and 9 PM cortisol elevated** vs non-complicated patterns. Foundation tools: **morning sunlight** to normalize diurnal cortisol plus sleep hygiene."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Complicated grief cortisol**?",
-          "a": "**afternoon/evening cortisol stays elevated;** morning sunlight + sleep hygiene as foundation."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **NSDR for remapping**?",
-          "a": "**plasticity triggered by loss** + rational grieving practice; literal rewiring during deep sleep/NSDR."
+          "e": "😴",
+          "q": "When does the remapping actually consolidate?",
+          "a": "Neuroplasticity is trigger + offline wiring: remapping consolidates in **sleep** and **10–30 min NSDR**. Grief differs from **depression** despite overlapping symptoms (sleep, appetite, crying); Kübler-Ross stages are **partial**, not universal — craving circuits dominate on fMRI."
         }
       ]
     }

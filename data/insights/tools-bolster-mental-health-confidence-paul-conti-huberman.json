@@ -2,87 +2,82 @@
   "slug": "tools-bolster-mental-health-confidence-paul-conti-huberman",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Start from what's going right",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Start from strength**?",
-          "a": "**\"What's going right\" is truth-aligned, not** toxic positivity; positions you to change what isn't working from power not helplessness."
+          "e": "✅",
+          "q": "Why begin mental health work from strength instead of pathology?",
+          "a": "Conti's frame: there's **far more going right than wrong** if you're alive and seeking growth. **\"What's going right\"** is truth-aligned, not toxic positivity — it lets you change from **power, not helplessness**."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Compassionate curiosity only ingredient**?",
-          "a": "**self-inquiry can be playful;** fear/stigma makes aloneness anxiety-provoking unnecessarily."
+          "e": "🔍",
+          "q": "What is the only crucial ingredient for self-inquiry?",
+          "a": "**Compassionate curiosity** — light-hearted or serious exploration without fear of what you'll find. Fear and stigma make aloneness unnecessarily anxiety-provoking."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Doing vs thinking",
       "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Balance doing and thinking**?",
-          "a": "**too much doing →** diminishing returns/unsatisfaction; too little → learned helplessness; map your profile."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Overconnection erodes aloneness**?",
-          "a": "**social media can strengthen or distract from** self; sweet spot = some external check-ins + enough solitude to form own questions first."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Externalizing thoughts helps**?",
-          "a": "**speech/writing holds brain accountable; internal-only loops get stuck.**"
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Examine choices, not just inventory**?",
-          "a": "**examined life reveals ~80%** autopilot; agency begins with \"why am I doing this?\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Insight frees; opposition traps**?",
-          "a": "**repeating parent's pattern OR** doing opposite both fail without understanding healthy middle."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Anti-control is agency lever**?",
-          "a": "**you're not your enemy; find** why you block yourself (fear of failure, unworthiness, overcommitment to others)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Self-talk audit first**?",
-          "a": "**intrusive thoughts often unconscious;** always carry meaning worth exploring."
-        },
         {
           "e": "⚖️",
-          "q": "What should you remember about **Prime positive climate**?",
-          "a": "**photos, memories, \"what went** right\" counter negative unconscious bias."
+          "q": "Should you only act, or only introspect?",
+          "a": "Neither extreme. Map your **doing-vs-thinking profile**. Too much doing → diminishing returns; too little → **learned helplessness**. Low reflection can work if generative drive is on and life is going well."
+        },
+        {
+          "e": "✍️",
+          "q": "Why externalize thoughts instead of only ruminating?",
+          "a": "**Speech and writing** activate different error-checking than internal loops. External tests help you avoid **self-referential bigotry** — quiet vs hyperverbal is not the same as organized vs anxious."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Choice audit and patterns",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Happiness ≠ escape**?",
-          "a": "**real happiness holds tragedy** awareness + contentment; happy-go-lucky avoids grounding."
+          "e": "📋",
+          "q": "What does an examined-life laundry list usually reveal?",
+          "a": "Ask: how much are you **choosing** vs running on reflex? Intensive work often finds only ~**10–20%** of reported life is truly valued — the rest is **accumulated momentum** (~80% autopilot)."
+        },
+        {
+          "e": "❌",
+          "q": "What does \"X marks the spot\" mean in Conti's method?",
+          "a": "**Draining patterns** (e.g. repeating dead-end dates while wanting a partner) show where to dig. Change via **collaborative small wins** — one gym visit beats five failed attempts."
+        },
+        {
+          "e": "🔓",
+          "q": "Why isn't doing the opposite of your parents enough?",
+          "a": "Replicating a childhood pattern **or** overcorrecting both fail without understanding. **Insight** — not mere opposition — puts you in the **driver's seat**."
+        }
+      ]
+    },
+    {
+      "title": "Agency and self-talk",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "How does the anti-control instinct become an agency lever?",
+          "a": "Humans **resist being controlled**. Realizing **you stand in your own way** (fear of failure, unworthiness, overcommitment) — not an enemy-self — defuses tension so you get **on the same page with yourself**."
+        },
+        {
+          "e": "💭",
+          "q": "What should you do with intrusive thoughts?",
+          "a": "Audit **self-talk first** — loops can run **hundreds of times/day** and always carry meaning. Redirect after you understand the root; trauma's limbic system ignores the clock so \"then\" feels like \"now.\""
+        }
+      ]
+    },
+    {
+      "title": "Climate and real happiness",
+      "items": [
+        {
+          "e": "🖼️",
+          "q": "How do you prime the unconscious toward a better bias?",
+          "a": "Build a **positive climate**: photo walls of real memories (Larry Squire anecdote), \"what went right\" reviews — implicit registration that counters a default **negative self-talk climate**."
+        },
+        {
+          "e": "😊",
+          "q": "Is happy-go-lucky the goal of mental health?",
+          "a": "No. Real happiness is **peace + contentment + capacity for delight**, holding tragedy awareness. Happy-go-lucky **avoids grounding**; an examined life is required for intentional living."
         }
       ]
     }

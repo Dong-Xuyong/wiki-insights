@@ -2,92 +2,72 @@
   "slug": "cancer-scientist-daily-diet-feeding-cancer-thomas-seyfried",
   "sections": [
     {
-      "title": "Cancer Scientist",
+      "title": "Mitochondrial origin thesis",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Cancer origin = mitochondrial damage**?",
-          "a": "**structure determines function; \"ghost** mitochondria\" under EM; field still treats mutations as primary."
+          "e": "🔬",
+          "q": "What does Seyfried say cancer primarily is?",
+          "a": "A **mitochondrial metabolic disease**, not mainly a nuclear genetic disease. Damaged mitochondria force compensatory fermentation; DNA mutations and ROS are largely **downstream** of organelle damage."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **~1,700 US cancer deaths/day**?",
-          "a": "**Seyfried's urgency framing; incidence** still rising (breast, prostate, pancreatic, melanoma, HPV oral)."
+          "e": "🧪",
+          "q": "What do nuclear-cytoplasm transfer experiments show?",
+          "a": "A **cancer nucleus in healthy cytoplasm → no cancer**; a **healthy nucleus in cancer cytoplasm → cancer**. Cytoplasm/mitochondria decide fate more than mutational load alone — a direct challenge to somatic mutation theory."
+        },
+        {
+          "e": "⚡",
+          "q": "What two fuels feed corrupted tumor metabolism?",
+          "a": "**Glucose** (glycolysis) + **glutamine** (glutaminolysis) — the dual-fuel problem. You must restrict both. **Ketones** feed healthy cells but cannot fuel cancer cells that lack functional mitochondria."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "GKI and prevention zones",
       "items": [
         {
           "e": "📊",
-          "q": "What should you remember about **Dog vs wolf**?",
-          "a": "**domestic dogs #1 killer cancer; wild wolves rare** — lifestyle/food/inactivity as mitochondrial insult analogy."
+          "q": "What is the Glucose Ketone Index (GKI) for?",
+          "a": "A **mitochondrial-health biomarker**: low glucose + elevated ketones. Built after cases like Trudy Dupont's brainstem tumor; used for both **prevention and management**."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Dual fuel**?",
-          "a": "**glucose (glycolysis) + glutamine (glutaminolysis);** must restrict both; ketones feed healthy cells, not corrupted tumor mitochondria."
+          "e": "🟢",
+          "q": "What do the bioenergetic prevention zones mean?",
+          "a": "**Yellow/green** ≈ Paleolithic-like metabolic state (hard to get cancer). **Red** = high sugar/low ketones = disease risk. Management means dropping from red to green, then targeting glutamine with drugs."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Press-pulse therapy",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **GKI**?",
-          "a": "**built after Trudy Dupont** brainstem-tumor case (~10+ years); ratio tool for prevention and management."
+          "e": "🩺",
+          "q": "How does press-pulse cancer therapy work?",
+          "a": "**Press** glucose down with diet/fasting; **pulse** glutamine with agents like **mebendazole** (with collaborators Dominic D'Agostino and Joe Maroon). Ketosis + fasting can prep tumors so chemo/radiation become a lower-dose **pulse**, not the first hammer."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Zones**?",
-          "a": "**yellow/green hard to get cancer;** red zone → must drop to green for management, then drug-target glutamine."
+          "e": "⚠️",
+          "q": "Does Seyfried claim a cure?",
+          "a": "No **\"cure\" language** — manage, extend life, make tumors indolent. Case vignette: Pablo Kelly lived ~**10 years** with glioblastoma on metabolic therapy alone; died of surgical hemorrhage, not tumor growth."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Lifestyle and environment",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Press-pulse** (with Dominic D'Agostino, Joe Maroon)?",
-          "a": "**press glucose (diet/fasting), pulse glutamine (repurposed drugs).**"
+          "e": "🍽️",
+          "q": "What daily diet pattern does he recommend?",
+          "a": "Cut **ultraprocessed carbs** and **HFCS**; move, sleep, lower emotional stress; individualize macros for GKI. Calorie-restricted Mediterranean (fish, olive oil, avocado + exercise) or carefully disciplined carnivore can both lower GKI — diet is **bioenergetic, not tribal**."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Chemo/radiation as pulse, not first hammer**?",
-          "a": "**ketosis + fasting protect** healthy cells; lower targeted doses after metabolic prep."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Not \"cure\" language**?",
-          "a": "**manage, extend life, make tumors** indolent; glioblastoma still deadly but metabolic results claimed vs 100-year stagnation."
+          "e": "🏭",
+          "q": "How do environmental toxins fit the story?",
+          "a": "**PFAS, microplastics, glyphosate, heavy metals** damage oxidative phosphorylation, forcing compensatory **glucose/glutamine** fermentation. Domestic dogs die of cancer far more than wild wolves — a lifestyle/food/inactivity analogy."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Lifestyle prescription**?",
-          "a": "**cut ultraprocessed carbs, move, sleep,** lower emotional stress; individualize macros for GKI; avoid HFCS; seed oils secondary/uncertain."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Carcinogens converge**?",
-          "a": "**forever chemicals, microplastics, arsenic/cadmium** in water → OXPHOS damage → fermentation shift."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Scientific literacy**?",
-          "a": "**population demand + published case** reports will shift oncology; foundation support asked for metabolic research."
+          "e": "📈",
+          "q": "Why the urgency framing?",
+          "a": "About **~1,700 US cancer deaths/day**, with incidence still rising in breast, prostate, pancreatic, melanoma, and HPV oral cancers. Seyfried is founding the **MORE Alliance** at Boston College to organize metabolic + conventional care."
         }
       ]
     }

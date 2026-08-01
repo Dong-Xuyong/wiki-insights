@@ -2,92 +2,82 @@
   "slug": "david-unwin-fatty-liver-metabolic-health-doac",
   "sections": [
     {
-      "title": "Fatty Liver Expert",
+      "title": "Metabolic cascade & fatty liver",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Health futures framing**?",
-          "a": "**everyone has multiple possible futures;** lifestyle picks which; young people have longest runway but worst trends."
+          "e": "⏱️",
+          "q": "How costly is poorly controlled type 2 diabetes?",
+          "a": "Every year of poorly controlled T2D costs about **100 days of life**. Unwin has helped **157 patients** into **drug-free** T2D remission via diet."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Maturity-onset diabetes renamed**?",
-          "a": "**T2D in under-55s was** unknown in 1986 Unwin practice; now patients under 25."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
+          "e": "🫀",
+          "q": "What is the \"long silent scream\" of fatty liver?",
+          "a": "Excess carbs → insulin stores belly fat + **hepatic fat for ~10 silent years** (Roy Taylor) → insulin resistance → more insulin → pancreatic fat → T2D. High glucose damages arterial **glycocalyx within 6 hours**."
+        },
         {
           "e": "📊",
-          "q": "What should you remember about **Insulin as storage hormone**?",
-          "a": "**pushes glucose out of blood** into cells; excess → fat (belly + liver); not just \"middle-age spread\"."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Mrs. Jones epiphany (2012)**?",
-          "a": "**patient off metformin via low** carb; \"bread is sugar\"; 40,000 online learners rubbished by professionals; Unwin ashamed."
+          "q": "How do remission odds change by stage on low carb?",
+          "a": "Prediabetes → **93%** normal blood sugar; early T2D → **73%**; after **5 years** → **50%**. Stitch in time — wait and the odds fall."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Teaspoons, starch & nutrition literacy",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **GP payment incentive**?",
-          "a": "**metformin compliance quotas part** of pay; conflict with patient-led remission."
+          "e": "🥄",
+          "q": "How does Unwin make glycemic load intuitive?",
+          "a": "**Teaspoons of sugar equivalent** (4g cubes): cornflakes **8**, potato **9**, banana **6**, chocolate **7.5**, 150g boiled rice **10**. Only **one sugar cube** sits in entire **5L** of blood at normal levels — a banana doubles his CGM."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **2013 Monday-night cohort**?",
-          "a": "**18 volunteers + Unwin + Jen +** nurse Heather (unpaid); liver function improved 33–50% in weeks; weight, BP, HbA1c followed; hunger vanished."
+          "e": "🍞",
+          "q": "Why call bread and rice \"sugar\"?",
+          "a": "**Starch is glucose molecules holding hands** — digestion frees them as sugar again. Cereal + OJ + snacks + sandwich + cake + pizza is sugar on sugar all day."
+        },
+        {
+          "e": "🏷️",
+          "q": "What label traps should people watch?",
+          "a": "UK labels exclude fiber from carbs (US includes); **4g carbs ≈ 1 tsp sugar**; dried fruit can be **60–70%** sugar with a health halo; white chocolate ~**80%** sugar; barbecue sauce ~**30 cubes**/bottle."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Behavior change & addiction",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Eat less move more failure**?",
-          "a": "**Unwin blamed patients 25 years; All-Bran** + skim milk advice; Belsen analogy shame; exercise undervalued until low carb."
+          "e": "😊",
+          "q": "What is Jen Unwin's GRIN model?",
+          "a": "**Goals, Resources, Increments, Notice** — hope-based coaching that replaces doctor-as-leaflet moaning. Consistency beats a six-pack deadline."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Nutrition literacy gap**?",
-          "a": "**successful adults ask if 12\" pizza** beats Nando's chicken; Premier League star thinks carbonara is health food from carb-loading era."
+          "e": "🚫",
+          "q": "Why does moderation fail food addicts?",
+          "a": "~**14%** show ultra-processed food addiction. Protocol: honesty → identify **trigger foods** → **abstinence** plan. Policing loved ones produces **deceit**, not recovery."
+        },
+        {
+          "e": "💉",
+          "q": "When does Unwin use Ozempic?",
+          "a": "As a **partial** answer that quiets cravings, not the root cause. For severe cases: **low carb + CGM + GLP-1** \"triple therapy\" when someone can abstain but cannot moderate."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Screening, healthspan & cancer",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Sugar all day**?",
-          "a": "**cereal + OJ + snacks + sandwich** + cake + pizza = sugar on sugar; snacking epidemic; thin kids on snacks lack protein."
+          "e": "📏",
+          "q": "What simple metabolic screen does he recommend?",
+          "a": "**Waist < half height** — the string test. The average person may spend ~**23 sick years** at end of life; UK taxpayer cost of UPF consequences cited around **£7,000/yr**."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Dried fruit trap**?",
-          "a": "60–70% sugar marketed as fruit; **nova food classification** halo."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Orange juice / smoothies**?",
-          "a": "**fast sugar hit →** insulin spike → crash → hunger; Unwin's biscuit panic-attack loop."
+          "e": "🎗️",
+          "q": "How strongly does Unwin link diet to cancer?",
+          "a": "After smoking, **diet is the next commonest cause of cancer** — eight cancers linked to diabetes; hyperinsulinemia inhibits apoptosis; prevention is underweighted vs treatment."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **White chocolate ~80% sugar**?",
-          "a": "**chocoholics addicted to sugar** not cocoa; 90% dark ~2 tsp vs milk chocolate."
+          "e": "😔",
+          "q": "What did Unwin learn after 25 years of \"eat less, move more\"?",
+          "a": "He spent **25 years blaming patients**; the failure was his advice (All-Bran + skim milk). Low carb made hunger vanish and liver function improve **33–50%** in weeks in the 2013 Monday-night cohort."
         }
       ]
     }

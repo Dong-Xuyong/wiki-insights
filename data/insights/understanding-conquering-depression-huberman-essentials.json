@@ -2,62 +2,67 @@
   "slug": "understanding-conquering-depression-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Major depression, clearly framed",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Anti-self confabulation**?",
-          "a": "**depressed patients generate elaborate negative self-narratives** that contradict objective progress (e.g., rehab improving but patient insists they're weakening)."
+          "e": "📉",
+          "q": "How common is major depression, and how is it distinct?",
+          "a": "It affects about **5%** of the population and is a top disability cause — distinct from **bipolar** depression. Watch for grief/sadness, **anhedonia**, **anti-self confabulation**, and vegetative signs."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Sleep architecture collapse**?",
-          "a": "**slow-wave → REM sequencing** disrupted; early waking despite exhaustion is a hallmark vegetative sign."
+          "e": "🌙",
+          "q": "What sleep and cortisol signatures show up?",
+          "a": "**Slow-wave → REM** sequencing collapses; early waking despite exhaustion is a hallmark. A **9 PM cortisol peak** is a physiological signature of depressive-like states."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "The neurochemistry triad",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Three chemical systems, one brain**?",
-          "a": "**boosting serotonin alone rarely** fixes lethargy or anhedonia; psychiatrists often push/pull all three."
+          "e": "🧪",
+          "q": "Which chemicals map to which symptom clusters?",
+          "a": "**Norepinephrine** → psychomotor/lethargy; **dopamine** → anhedonia; **serotonin** → grief/guilt. Boosting serotonin alone rarely fixes lethargy or anhedonia — clinicians often push/pull all three."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Inflammation diverts tryptophan**?",
-          "a": "**cytokines (IL-6, TNF-α, CRP) shunt** tryptophan to kynurenine → quinolinic acid (pro-depressive) instead of serotonin."
+          "e": "💊",
+          "q": "How well do SSRIs work, and how fast?",
+          "a": "About **⅔ respond**; roughly **⅓** get no benefit. Synaptic effects are immediate, but clinical onset is delayed about **~2 weeks**. Also check: **~20%** have low thyroid."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Lifestyle and supplement tools",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **EPA rivals SSRIs in some trials**?",
-          "a": "**≥1000 mg EPA/day symptom relief comparable** to prescription antidepressants in multiple double-blind studies (consult physician; don't stop meds abruptly)."
+          "e": "🐟",
+          "q": "What EPA dose shows antidepressant-level relief in trials?",
+          "a": "**≥1000 mg EPA/day** (ideally ~**2000 mg**) has matched some prescription antidepressants in double-blind studies — consult a physician; don't stop meds abruptly."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Creatine + SSRI synergy**?",
-          "a": "**AJ Psychiatry 2012 RCT**: oral creatine monohydrate augmented SSRI response, especially in women with MDD."
+          "e": "💪",
+          "q": "How do exercise, cold, creatine, and inflammation fit?",
+          "a": "Cold + exercise raise **norepinephrine** (catch-22: severe depression saps the energy to start). Exercise shunts **kynurenine** away from the inflammatory depression path. **Creatine monohydrate** augmented SSRI response in an AJ Psychiatry 2012 RCT, especially in women."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Risk, novel therapies, refractory cases",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Ketamine/psilocybin mechanism**?",
-          "a": "**not just \"pep up\" but** create distance from grief-laden self-narratives and enable neural circuit rewiring."
+          "e": "🧬",
+          "q": "How do genetics and stress raise risk?",
+          "a": "Identical twins show about **50% concordance**. Hitting **4–5** major intense stress episodes sharply raises risk for major depression."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Behavioral tools have a catch-22**?",
-          "a": "**exercise/cold help norepinephrine, but** severely depressed patients often lack energy/motivation to start them."
+          "e": "🍄",
+          "q": "What do ketamine and psilocybin appear to do?",
+          "a": "Not just \"pep up\" — they create **distance from grief-laden self-narratives** and enable circuit rewiring. JAMA 2021: psilocybin showed **50–70%** improvement in that trial context; keto is discussed for **treatment-resistant** GABA/glutamate balance."
+        },
+        {
+          "e": "🪞",
+          "q": "What is anti-self confabulation?",
+          "a": "Depressed patients generate elaborate **negative self-narratives** that contradict objective progress — e.g., rehab improving while they insist they're weakening."
         }
       ]
     }

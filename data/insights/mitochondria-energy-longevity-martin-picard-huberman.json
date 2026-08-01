@@ -2,92 +2,87 @@
   "slug": "mitochondria-energy-longevity-martin-picard-huberman",
   "sections": [
     {
-      "title": "Core insights",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Living vs cadaver**?",
-          "a": "**same structures; difference is** energy flow stops at death."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Emotions = energy in motion**?",
-          "a": "**we perceive deltas in energy, not absolute levels.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Mito-centric biology**?",
-          "a": "**genetically identical mice differ in anxiety** partly via mitochondrial energetics; genes identical across cells but mitotypes differ by organ."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Eat + breathe for mitochondria**?",
-          "a": "**oxygen and food electrons converge** in mitochondria; they make water and release CO₂, closing the photosynthesis cycle."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
+      "title": "Energy as flow, not fuel",
       "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about **Social mitochondria**?",
-          "a": "**fusion/fission, division of labor** within cells (subsarcomeric vs intermyofibrillar), lifecycle like ant colonies."
+          "q": "What does Picard mean by \"energy is the potential for change\"?",
+          "a": "Energy is **flow and transformation**, not a quantity you eat. \"The difference between a living person and a cadaver is the **flow of energy**.\" Think in verbs — you are an **energy transformation being**."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Obesity/lethargy**?",
-          "a": "not lack of input energy but **dysfunctional transformation** and distribution."
+          "e": "📡",
+          "q": "Are mitochondria just ATP factories?",
+          "a": "No — they are **energy patterning and distribution systems** that link psychology, behavior, and organ-specific aging. \"They act as antennas to link your **psychological experiences** to your organ health.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "The finite energy budget",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Use-it-or-lose-it**?",
-          "a": "**energy directed to an organ/brain circuit** builds mitochondrial capacity there; finite budget creates trade-offs (amenorrhea, overtraining, sick behavior)."
+          "e": "📊",
+          "q": "How is the daily energy budget split?",
+          "a": "Three buckets: **vital costs** (heart, brain, detox), **stress costs** (sympathetic activation, worry, cortisol), and **GMR** (growth, maintenance, repair). Chronic stress **steals from GMR**; sleep and meditation reallocate toward repair."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Sickness behavior**?",
-          "a": "**immune system expands energy share;** body conserves via pain, cold, anorexia, apathy (~10–15% digestion cost saved)."
+          "e": "🍷",
+          "q": "What does alcohol cost energetically?",
+          "a": "Detox steals ~**10% of your energy budget**, disrupts sleep, and mitochondrial-disease patients are often intolerant. \"Are you willing to sacrifice **10% of your energy budget** going towards alcohol detoxification?\""
+        },
+        {
+          "e": "🤒",
+          "q": "Why do you feel apathetic when sick?",
+          "a": "**Sickness behavior** — the immune system expands its energy share; the body conserves via pain, cold, anorexia, and apathy (~**10–15% digestion cost** saved)."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Resistance and use-it-or-lose-it",
       "items": [
+        {
+          "e": "🏋️",
+          "q": "What is the energy-resistance principle?",
+          "a": "Life requires **resistance to transform energy** (exercise, learning, breath-hold). Too much = suffering; too little = atrophy (**astronaut model**). Fear can signal something there that can help you grow."
+        },
         {
           "e": "🔄",
-          "q": "What should you remember about **Aging cliffs**?",
-          "a": "**non-linear mitochondrial decline at life stages; stress/inflammation accelerate.**"
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Inflammation**?",
-          "a": "**inflammation as energetic state**; cytokines as cellular distress signals when energy flow stalls (hypoxia analog)."
+          "q": "Why can't you just eat more for more energy?",
+          "a": "Obesity/lethargy is often **dysfunctional transformation and distribution**, not lack of input. Energy directed to an organ builds **mitochondrial capacity** there — finite budget creates trade-offs (amenorrhea, overtraining)."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Mind, purpose, and mitotypes",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **NAD developmental pace**?",
-          "a": "**faster mitochondrial metabolism →** faster development/shorter lifespan (mouse vs human stem-cell studies)."
+          "e": "💇",
+          "q": "Can stress reverse gray hair?",
+          "a": "Picard lab: same-genome hairs **gray and re-darken** with stress cycles — reversible depigmentation linked to stress timing (**gray-hair stress reversal**)."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **Can't out-eat sleep deprivation**?",
-          "a": "**behavioral foundation before supplements.**"
+          "e": "🎯",
+          "q": "Does life purpose show up in brain mitochondria?",
+          "a": "Post-mortem **DLPFC mitochondria** correlate with life purpose and social connection. ~**90% of longevity is non-genetic** (~7% heritable); mitochondrial DNA is **100% maternal inheritance**."
+        },
+        {
+          "e": "🧬",
+          "q": "What are mitotypes?",
+          "a": "Tissue-specific **mitochondrial types** from one maternal lineage — genes identical across cells, but mitotypes differ by organ (mitoypeexplorer.org from the Picard lab)."
+        }
+      ]
+    },
+    {
+      "title": "Action stack and supplement skepticism",
+      "items": [
+        {
+          "e": "😴",
+          "q": "What lifestyle levers actually move the needle?",
+          "a": "Sleep (**10–15% energy savings**, parasympathetic restoration); expert meditators ~**−40% metabolic rate**; skip-breakfast/hunger cycles (mitochondrial fusion); get out of breath; resistance training doubles **muscle** mitochondria (with organ trade-offs)."
+        },
+        {
+          "e": "💊",
+          "q": "Does Picard take mitochondrial supplements?",
+          "a": "**Never** — deficiency-responsive only (CoQ10, B12). SS31 trials mostly negative. You **can't out-eat sleep deprivation**; behavioral foundation before pills. Diet is individualized — keto/fasting life-changing for ~**20%** in trials; RCT averages hide responders."
         }
       ]
     }

@@ -2,87 +2,62 @@
   "slug": "vibe-coding-with-grok-build-bridgemind",
   "sections": [
     {
-      "title": "Vibe Coding With Grok Build",
+      "title": "What Grok Build is",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about grok Build is typical agent CLI (skills, plugins, hooks, MCP, plan/always-approve modes)?",
-          "a": "**nothing special beyond xAI model access.**"
+          "e": "🛠️",
+          "q": "What is Grok Build, and what's under it?",
+          "a": "xAI's agentic CLI for **Super Grok Heavy ($300/mo)**, harnessing **Grok 4.3** (~**500B** params). Artificial Analysis coding index: Grok **41** vs GPT 5.5 (**59**), Gemini 3.1 (**55**), Opus 4.7 (**53**) — intelligence index ~**53**, closer to frontier."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about fast Grok 4.3 inference doesn't translate to fast agent sessions?",
-          "a": "**24 min for Remotion** plan despite fast model reputation."
+          "e": "🚫",
+          "q": "Did it get the BridgeMind stamp of approval?",
+          "a": "**No** — two blockers: brutal **rate limits** and **Grok 4.3** output quality far behind frontier for design-heavy vibe coding."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Sub-agents & stability",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about 512K context window shown in session; creator expected 1M+ for Grok 4.3?",
-          "a": "**512K context window shown** in session; creator expected 1M+ for Grok 4.3."
+          "e": "💥",
+          "q": "How does Grok Build handle extreme sub-agent load?",
+          "a": "**200 sub-agents** → CLI crash (`Thread SES panicked`). **50** → unstable; only a handful ran. **Claude Code at 100** → no crash; partitioned 582 files into **14 security domains** instead of literal 100 agents."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about grok Build crashes under extreme sub-agent load; Claude Code stable at same prompts?",
-          "a": "**Grok Build crashes under** extreme sub-agent load; Claude Code stable at same prompts."
+          "e": "⏱️",
+          "q": "Does fast inference mean fast agent sessions?",
+          "a": "No — Remotion plan took **24+ min** despite Grok's fast-model reputation. Session showed **512K** context (creator expected **1M+** for Grok 4.3)."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Build quality & differentiators",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about requested sub-agent counts often ignored?",
-          "a": "**both Grok and Claude** partition work into fewer domain agents."
+          "e": "🎨",
+          "q": "How did design-heavy builds fare?",
+          "a": "Next.js revamp: **double nav bar**, weak pricing, \"worse than Kimi K2.6.\" Remotion misaligned with real UI. Imagine infographic: low quality vs **GPT Image 2**. Debug plans OK; shipping UI/video not — **\"GPT-4 type stuff.\"**"
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about uI shows sub-agent count in corner; task checklist with completion checkmarks?",
-          "a": "**UI shows sub-agent count** in corner; task checklist with completion checkmarks."
+          "e": "🔌",
+          "q": "What does Grok Build do well as a harness?",
+          "a": "**Zero-config Claude Code** plugin/skill/hook parity + AGENTS.md; praised plan-mode modal; built-in **Imagine** image gen (#2 ELO after GPT Image 2); fork/share/rewind/usage/dream/flush commands — still not enough without model quality."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Quota & commodity framing",
       "items": [
+        {
+          "e": "📉",
+          "q": "How bad are Super Grok Heavy rate limits?",
+          "a": "~1 hour → **8% of a two-week quota** on **$300/mo**. Normal **6–8 hour** sessions would burn ~**50%** per session — incompatible with multi-agent fleets."
+        },
         {
           "e": "💰",
-          "q": "What should you remember about 8%/2-week on $300/mo after partial session with failed/limit sub-agent launches?",
-          "a": "**8%/2-week on $300/mo after** partial session with failed/limit sub-agent launches."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about same pattern as **glm coding plan rate limits**?",
-          "a": "cheap/heavy subscription unusable for multi-agent **vibe coding**."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about grok 4.3 strong on hallucination/intelligence benchmarks for its size but weak on UI/Remotion/design?",
-          "a": "**Grok 4.3 strong on** hallucination/intelligence benchmarks for its size but weak on UI/Remotion/design."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **jagged intelligence** + **attention to detail vibe coding**?",
-          "a": "**debug plans OK, shipping-quality UI/video not.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about creator apologizes for laughing at bad UI but stands by verdict: \"GPT-4 type stuff\"?",
-          "a": "**Creator apologizes for laughing at bad UI but stands by verdict**: \"GPT-4 type stuff\"."
+          "q": "How should you evaluate agent CLIs?",
+          "a": "Agent CLIs are a **commodity** — value = **subsidized access to the underlying model**. Grok Build loses to Claude Code (Opus 4.7) and Codex (GPT 5.5) on both quality and quota; **Grok 5** may change the trajectory."
         }
       ]
     }

@@ -2,77 +2,62 @@
   "slug": "how-gong-built-7b-company-vibe-coding-amit-bendov",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "The CRM gap that spawned Gong",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Market > execution when stuck**?",
-          "a": "**local optimum on a small** hill ($50–100M) vs trillion-dollar mountain; SDR-only plays are a Bay Area mirage."
+          "e": "📞",
+          "q": "What Sisense moment revealed the real data problem?",
+          "a": "As Sisense CEO, a bad quarter showed CRM is a \"single source of truth\" only if humans type what happened — roughly **~1% of reality** reaches the CRM; **~99%** stays in conversations and heads. Gong's thesis: an **autonomous system** that captures meetings, extracts insight, and drives action."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Category creation is a long game**?",
-          "a": "**unique product first; category** emerges only after copycats; no existing budget line at start."
+          "e": "🚗",
+          "q": "What is the revenue-AI \"self-driving\" metaphor?",
+          "a": "Bendov uses a **Tesla five-level** frame: sensors (revenue graph), AI interpretation, and an application layer — a **revenue AI self-driving framework** designed before the tech fully existed, inspired by the AlphaGo era."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Market, category, and competition",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **CRM captures ~1%**?",
-          "a": "**rest lives in heads/calls;** autonomous capture was the 2016 thesis before \"AI\" was mainstream."
+          "e": "⛰️",
+          "q": "When you're stuck, should you blame execution or the market?",
+          "a": "Check for a **market local optimum** first: \"If your market is too small, **very little else matters**.\" SDR-only tools can feel big in the Bay Area yet hit a **~$50–100M ceiling** — a hill, not the mountain."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Customer obsession, not competitor matching**?",
-          "a": "**in expansive early markets,** hunt Easter eggs; don't mirror rival feature bundles (2023 trap)."
+          "e": "🥚",
+          "q": "How should early AI markets compete?",
+          "a": "Bezos-style **customer obsession**, not competitor mirroring: competition should be an **Easter egg hunt**, not a football match. Gong created the **\"revenue AI\"** category over years of education — harder than joining existing CRM budget lines, but unique product came first."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Operating through the 2023 hangover",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Cash + engineering > office trophies**?",
-          "a": "**barely touched raised capital;** WeWork/short leases; invest in people when sector struggles."
+          "e": "💚",
+          "q": "What operating principle sits above \"happy customers\"?",
+          "a": "**Raving fans** — surprise-and-delight advocates, not feature-checklist satisfaction. \"Happy is like, yeah, I could be happy with a chair… We want **raving fans**.\" Two North Stars: reclaim ~**75%** of seller time lost to CRM/admin, and make reps better in live conversations."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Attack when rivals are gasping**?",
-          "a": "**cycling climb metaphor**: accelerate into competitor exhaustion; shipped 4 product lines while bundles stalled."
+          "e": "🚴",
+          "q": "How did Gong respond when growth slowed post-COVID?",
+          "a": "**Preserve cash**, invest in engineering not real estate (**WeWork short leases** since day one), ship more products, and **attack when rivals are gasping** — cycling-climb metaphor. Smooth external growth is **stacked S-curves** planned **2–3 years** ahead."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Vibe coding and the enterprise moat",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Vibe-coding moat skepticism**?",
-          "a": "**code leak ≠ runnable** enterprise; CRM/HR/revenue ops need 10-year operational complexity + trust."
+          "e": "🛡️",
+          "q": "Will vibe coding commoditize companies like Gong overnight?",
+          "a": "Investor panic is **overblown**. The moat is **beyond code**: running production, security patches, adoption, and a **decade of operational complexity**. \"You can't vibe code it even with 100 engineers — otherwise why are we not seeing a competitor right now?\""
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Sales AI is hard**?",
-          "a": "**asymmetrical buyer engagement, deception,** politics, judgment/creativity beyond plausible-token outputs."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Raving fans > happy customers**?",
-          "a": "**mission is outcome (revenue** potential), not feature checklist; product must surprise repeatedly."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Layer revenue S-curves early**?",
-          "a": "**each source hits glass** ceiling; plan next curve before current one flatlines."
+          "e": "🤝",
+          "q": "Why is sales AI especially hard for models?",
+          "a": "**Sales AI asymmetry**: buyers lie, B2B has multi-stakeholder politics, and ambiguity/creative moves exceed plausible-token outputs. Distilled focus amid AI noise: **who do you cater to and what do you offer?**"
         }
       ]
     }

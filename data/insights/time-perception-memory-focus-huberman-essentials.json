@@ -2,92 +2,82 @@
   "slug": "time-perception-memory-focus-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Time as life's lens",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Entrainment**?",
-          "a": "**internal biology matched to external cycles; melatonin** tracks day length (less light → more/longer melatonin → lower winter energy for most people)."
+          "e": "⏱️",
+          "q": "Why does Huberman treat time perception as so central?",
+          "a": "**Perception of time** is \"perhaps the most important factor in how we gauge our life\" — it shapes **mood, stress, happiness**, and how we judge past, present, and future."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Circadian precision matters**?",
-          "a": "**view 10–30 min bright light (ideally sun)** within ~1 h of waking + again afternoon/evening; minimize evening bright light; exercise at consistent times."
+          "e": "🌞",
+          "q": "How do you keep your body clock locked to the outside world?",
+          "a": "View **10–30 min bright light** (ideally sun) within ~**1 hour of waking** and again afternoon/evening; minimize evening bright light; exercise at consistent times. Circadian misalignment raises risks for cancer, obesity, mental health, and hormone disruption."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "90-minute focus windows",
       "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Ashoff isolation studies**?",
-          "a": "**disrupted circadian entrainment breaks** both long- and short-interval time judgment → impairs work performance."
-        },
         {
           "e": "🎯",
-          "q": "What should you remember about **90-min ultradian focus**?",
-          "a": "**brain can focus ~90 min then acetylcholine/dopamine** circuits resist further deep engagement; you choose when a cycle starts (not tied to sleep-cycle end)."
+          "q": "How long can the brain stay in deep focus?",
+          "a": "About **90 minutes** — an ultradian block where acetylcholine/dopamine support focus, then circuits resist further deep work. You **choose when a cycle starts**; it is not tied to sleep-cycle end."
+        },
+        {
+          "e": "2️⃣",
+          "q": "How many hard 90-minute blocks should you schedule per day?",
+          "a": "Max about **2 hard blocks/day**, separated by **2–4 hours**. These are for hard problem-solving — not email/social — and even one block still feels taxing."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Dopamine vs serotonin clocks",
       "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about **Max ~2 hard 90-min blocks/day**?",
-          "a": "**separate by 2–4 h; not email/social** — hard problem solving; one block still feels taxing."
+          "q": "How does dopamine change how fast time feels?",
+          "a": "More dopamine → you **overestimate** elapsed time (a minute called at ~**38 seconds**). Dopamine/NE run higher in the **first half of the day**, so schedule hardest work **morning**."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Dopamine speeds the clock**?",
-          "a": "**higher dopamine → think** more time passed than actually did."
+          "e": "🌙",
+          "q": "What does serotonin do to the time clock?",
+          "a": "Serotonin tends to make you **underestimate** time. It rises in the **evening** and supports the sleep transition — opposite direction from morning dopamine/NE."
+        },
+        {
+          "e": "😴",
+          "q": "What breaks first when sleep is disrupted?",
+          "a": "Daily regulation of **dopamine, norepinephrine, and serotonin** — the neuromodulators that fine-slice or batch your sense of time and work capacity."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Fun, boredom, and trauma",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Serotonin slows the clock**?",
-          "a": "**opposite direction; evening serotonin** rise supports sleep transition (cross-link meal timing focus and sleep)."
+          "e": "🎢",
+          "q": "Why does a fun day feel short now but long later?",
+          "a": "High-dopamine **fun/variety feels fast now, long later**; boredom feels **slow now, short later**. Two stopwatches: fine-sliced encoding vs big memory bins (the amusement-park paradox)."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Do hardest task early**?",
-          "a": "**supported by circadian neuromodulator literature, not just psychology.**"
+          "e": "💥",
+          "q": "Why are traumatic memories so sticky and slow-motion?",
+          "a": "**Overclocking**: huge dopamine/NE spikes make you perceive ultra slow motion and stamp the hippocampus at a **high frame rate**. Dopamine here is **motivation/arousal**, not \"reward.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Novelty and habit bins",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Sleep disruption**?",
-          "a": "**first casualty is daily dopamine/NE/serotonin regulation.**"
+          "e": "🗽",
+          "q": "How does novelty stretch how long a place or relationship feels?",
+          "a": "More **novel places, people, and experiences** expand retrospective time — e.g. three apartments + 3× people + 3× experiences in NYC can feel like you've lived there longer than one apartment/year."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Trauma memory = rate code**?",
-          "a": "**hippocampus stores both which neurons fired and** at what rate; over-clocking makes memories hard to shake even when emotions eventually decouple with treatment."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Amusement park paradox**?",
-          "a": "**kids' exciting day flies** by live, expands in memory months later."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Novelty density**?",
-          "a": "**three apartments + 3× people +** 3× experiences in NYC → feel you've lived there longer than one apartment/year."
+          "e": "📌",
+          "q": "How do habits carve up your day?",
+          "a": "Anchor routines at **fixed day intervals** so they release dopamine and become **functional time bins** — morning habit + meal habits segment experience beyond mere convenience."
         }
       ]
     }

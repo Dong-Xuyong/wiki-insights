@@ -2,87 +2,92 @@
   "slug": "peptides-science-uses-safety-abud-bakri-huberman",
   "sections": [
     {
-      "title": "Peptides",
+      "title": "Two peptide languages",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Two peptide categories**?",
-          "a": "**Known-receptor (GLP-1s) vs no-receptor/elusive-receptor (BPC, Russian peptides)** — determines predictability and regulatory path."
+          "e": "🗣️",
+          "q": "How does Bakri organize the peptide landscape?",
+          "a": "Peptides are one of the body's **\"languages\"** (alongside steroid hormones), split into **known-receptor** peptides (e.g. GLP-1s — strong, predictable effects) vs **no/elusive-receptor** peptides (BPC-157, TB-500, Russian bioregulators)."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **BPC-157 animal data is striking but single-source**?",
-          "a": "**Almost all from Croatian Sikiric group;** VEGF/angiogenesis is both healing mechanism and tumor-vascularization concern (no human cancer signal yet)."
+          "e": "📋",
+          "q": "Why does that taxonomy matter clinically?",
+          "a": "Known receptors → clearer **predictability and regulatory path**. Unknown-receptor compounds may still act via protein interactions, angiogenesis, or **epigenetic DNA-groove binding** — but with weaker human evidence."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "BPC-157: hype vs evidence",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Oral/rectal BPC may not go systemic**?",
-          "a": "**Phase 1 enemas showed no** blood levels; injectable does; mechanism for distant MSK effects unclear."
+          "e": "🧪",
+          "q": "How strong is the BPC-157 evidence?",
+          "a": "Animal data is striking but **almost all from one Croatian group** (Sikiric). Human RCTs are nearly absent — two small rectal UC enemas (safety signal; efficacy unpublished)."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Legal/regulatory mess**?",
-          "a": "**Category 1/2/3 compounding lists, PDA relabeling,** telehealth state-by-state, RFK \"supplements not meds\" ambiguity; physicians in uncomfortable liability position."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **All APIs Chinese**?",
-          "a": "**Same raw material feeds** pharma, compounders, and gray market; difference is finishing/QC/sterility testing."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Gray market is risky**?",
-          "a": "**Batch-to-batch variance; wrong compound injected** (retatrutide → melanotan case); $5–10B US gray-market spend (2025 est.)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Thymus shrinks at puberty**?",
-          "a": "**Sex steroids drive involution; post-infection atrophy without** convalescence may accelerate aging diseases; thymic score on MRI (2026 Nature paper) predicts mortality."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Pinealon ≠ pineal**?",
-          "a": "**EDR tripeptide from cortex** extract; epithalon is the pineal one; naming confusion widespread."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **GH secretagogues trade-offs**?",
-          "a": "**Youthful skin/sleep/recovery vs insulin resistance, prostate** growth (PSA), potential tumor promotion; cyclic use under monitoring may have role."
+          "e": "💉",
+          "q": "Does oral or rectal BPC go systemic?",
+          "a": "Phase 1 enemas showed **no blood levels**; injectable does. Distant MSK healing claims have an **unclear mechanism**. VEGF/angiogenesis is both healing path and tumor-vascularization concern."
         },
         {
           "e": "⚖️",
-          "q": "What should you remember about **GHK-Cu topical**?",
-          "a": "**Real human aesthetic data when properly** formulated (blue from copper); injectable lacks human trials; pairs with red light."
+          "q": "What is the regulatory status?",
+          "a": "FDA put BPC on compounding **Category 2** (late 2024), then off that list (**Apr 2025**) but not yet Category 1 — legal gray zone; no malpractice coverage for off-label peptides."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Sourcing & gray-market risk",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **GLP-1s are necessary medicine**?",
-          "a": "**System would collapse without obesity/diabetes** intervention; not a free lunch long-term; compounding markup ethics matter."
+          "e": "🇨🇳",
+          "q": "Where do peptide APIs actually come from?",
+          "a": "**Everything's Chinese peptides** — same raw material feeds pharma, compounders, and gray market. Quality bins: **pharma > compounding > \"research use only\" > black market**."
+        },
+        {
+          "e": "⚠️",
+          "q": "How bad can gray-market batches get?",
+          "a": "Batch inconsistency is real — viral case: a **retatrutide vial was melanotan**. Estimated **$5–10B** US gray-market spend (2025). Bakri's dilemma: either BPC is amazing and millions lack access, or it's ineffective/harmful and millions are injecting it now."
+        }
+      ]
+    },
+    {
+      "title": "GLP-1s, GH secretagogues & stacks",
+      "items": [
+        {
+          "e": "📉",
+          "q": "Where do GLP-1s fit vs experimental peptides?",
+          "a": "Bakri has prescribed them since residency — **necessary medicine** for obesity/T2D epidemics, not a free lunch long-term. Compounding boom ($**150** Mexico vs $**1,500** US pens) raised markup ethics."
+        },
+        {
+          "e": "📈",
+          "q": "What are the GH secretagogue trade-offs?",
+          "a": "Tesamorelin/ipamorelin/MK-677 may help skin/sleep/recovery but risk **insulin resistance**, PSA/prostate growth, and potential tumor promotion. Huberman's tesamorelin trial **nuked REM** and spiked PSA."
+        },
+        {
+          "e": "⭐",
+          "q": "What is the \"celebrity trinity\" stack?",
+          "a": "**GLP-1 (or retatrutide) + GH secretagogue + TRT/androgen modulation** — popular but needs honest consent, monitoring, and safe sourcing."
+        }
+      ]
+    },
+    {
+      "title": "Thymus, pinealon & GHK-Cu",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "Why does thymus involution matter?",
+          "a": "The thymus **shrinks at puberty** under sex steroids. Thymic peptides (thymosin alpha-1, TB-500, thymulin) and a cheap **lymphocyte:monocyte ratio** on CBC are discussed as immunity proxies."
+        },
+        {
+          "e": "🧠",
+          "q": "Is pinealon from the pineal gland?",
+          "a": "**No** — pinealon/EDR is a **cortex** tripeptide; **epithalon** is the pineal tetrapeptide. Naming confusion is widespread."
+        },
+        {
+          "e": "✨",
+          "q": "Does GHK-Cu have human data?",
+          "a": "**Topical GHK-Cu** has real aesthetic/collagen human data (properly formulated; blue from copper) and pairs with red light; **injectable lacks human trials**."
         }
       ]
     }

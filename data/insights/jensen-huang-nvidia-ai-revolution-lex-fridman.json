@@ -2,92 +2,77 @@
   "slug": "jensen-huang-nvidia-ai-revolution-lex-fridman",
   "sections": [
     {
-      "title": "Jensen Huang",
+      "title": "Extreme co-design and the AI factory",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about extreme co-design exists because distributed AI workloads hit Amdahl's Law?",
-          "a": "**you must shard pipeline,** data, and model, making networking/CPU/memory/power all bottlenecks."
+          "e": "🏭",
+          "q": "Why doesn't NVIDIA win by building \"the best chip\" alone anymore?",
+          "a": "**Extreme co-design**: GPU, CPU, memory, networking, storage, power, cooling, software, racks, pods, and data centers are one system. Distributed AI hits **Amdahl's Law** — networking/CPU/memory/power all become bottlenecks. The unit of compute is now a **gigawatt-scale token factory**."
         },
         {
-          "e": "🔑",
-          "q": "Why does this matter: Company org charts should mirror the product you build, not generic hamburger charts; Jensen has 60+ direct re?",
-          "a": "**Company org charts should mirror the product** you build, not generic hamburger charts; Jensen has 60+ direct reports, almost all engineers."
+          "e": "📐",
+          "q": "How does Jensen organize the company around that stack?",
+          "a": "Org charts should **mirror the product**, not generic hamburger charts. He has **60+ direct reports** (almost all engineers) who attack problems in **group sessions** — no one-on-ones — because every design choice ripples across the stack."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "CUDA moat and scaling laws",
       "items": [
+        {
+          "e": "🧱",
+          "q": "What is NVIDIA's primary competitive moat?",
+          "a": "\"**Install base** defines an architecture. Not… Everything else is secondary.\" **CUDA on every GeForce** built developer reach before cloud existed — \"NVIDIA is the house that **GeForce** built\" — plus horizontal ecosystem integration across industries and clouds."
+        },
         {
           "e": "📊",
-          "q": "What should you remember about **Install base defines architecture**?",
-          "a": "**x86 survived despite elegance criticism;** CUDA on every GeForce built developer reach before cloud existed."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about four scaling laws loop?",
-          "a": "**agentic systems generate data → back to pre-training** → post-training → test-time → deploy; synthetic data is normal (most human teaching is synthetic too)."
+          "q": "What are the four AI scaling laws Jensen describes?",
+          "a": "**Pre-training, post-training, test-time/inference, and agentic** — they loop as agents generate data back into training. \"Inference is thinking… Thinking is way harder than reading.\" Token cost drops ~**10×/year**; NVIDIA scaled compute ~**1M× in 10 years** vs Moore's Law ~**100×**."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Power, supply chain, and speed",
       "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about inference/thinking is harder than pre-training/memorization?",
-          "a": "**test-time scaling is intensely** compute-heavy; agentic scaling multiplies AI like hiring employees."
+          "q": "How should AI data centers use the power grid smarter?",
+          "a": "The grid runs ~**60% of peak ~99% of the time**. Use that **idle capacity** and gracefully degrade during rare peaks instead of demanding **six-nines** uptime for every watt."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about aI model architectures change ~every 6 months; hardware ~every 3 years?",
-          "a": "**NVIDIA does internal research** + listens to every AI lab + keeps CUDA flexible."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about digital workers need file systems, research, and tools?",
-          "a": "**OpenClaw schematic was at** GTC two years before launch; agents use microwaves, not finger-lasers."
+          "e": "🔗",
+          "q": "How complex is a modern NVIDIA rack supply chain?",
+          "a": "About **200 suppliers** and **1.3M components** per Vera Rubin rack. Jensen informs upstream/downstream CEOs like employees — notably **no formal contract with TSMC** after decades of trust."
         },
-        {
-          "e": "🏆",
-          "q": "Why does this matter: Token cost drops ~10×/year via perf/watt co-design; NVIDIA scaled compute ~1M× in 10 years vs Moore's Law ~100?",
-          "a": "**Token cost drops ~10×/year via perf/watt** co-design; NVIDIA scaled compute ~1M× in 10 years vs Moore's Law ~100×."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about supply chain?",
-          "a": "**200 suppliers, 1.3M components per Vera Rubin** rack; Jensen informs upstream/downstream CEOs like employees — no contract with TSMC after decades."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about power grid runs ~60% of peak 99% of the time?",
-          "a": "**data centers should gracefully** degrade during rare peak demand instead of requiring six-nines."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
         {
           "e": "🚀",
-          "q": "What should you remember about elon's Colossus lesson?",
-          "a": "**question necessity, method, timeline;** be present at point of action; personal urgency propagates."
+          "q": "What is \"speed-of-light\" engineering?",
+          "a": "Compare every design against **physical limits**, not incremental 74→72-day improvements. \"We need things to be as complex as necessary, but as **simple as possible**.\""
+        }
+      ]
+    },
+    {
+      "title": "Jobs, coding, and AGI",
+      "items": [
+        {
+          "e": "💼",
+          "q": "Will AI eliminate jobs like radiology?",
+          "a": "Separate **job purpose from tasks**. The radiologist scare was wrong — purpose and headcount grew. Hire people **expert in using AI**; coding expands from ~**30M** to ~**1B** as specification artistry. \"You can outsource your thinking, but you can't outsource your **understanding**.\""
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about nVIDIA moat #1?",
-          "a": "**CUDA install base + developer trust; moat #2**: horizontal ecosystem integration across every industry/cloud."
+          "e": "🤖",
+          "q": "Has Jensen declared AGI achieved?",
+          "a": "Under a **billion-dollar-company** definition — agents can already spin up viral apps — he says \"I think we've achieved **AGI**.\" Building NVIDIA-scale companies remains human. **Intelligence is a commodity**; humanity (pain, love, subjective experience) is bigger — chips won't feel nervous."
+        }
+      ]
+    },
+    {
+      "title": "Leadership belief systems",
+      "items": [
+        {
+          "e": "🗣️",
+          "q": "How does Jensen prepare people before big bets?",
+          "a": "**Belief-system shaping**: reason about the future daily and align employees, partners, and board **before** announcements so everyone says \"what took you so long?\" Resilience stack includes childlike \"**How hard can it be?**,\" forgetting setbacks, and sharing burden quickly."
         }
       ]
     }

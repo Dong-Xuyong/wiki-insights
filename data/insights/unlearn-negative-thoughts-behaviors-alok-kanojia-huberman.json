@@ -2,92 +2,72 @@
   "slug": "unlearn-negative-thoughts-behaviors-alok-kanojia-huberman",
   "sections": [
     {
-      "title": "Core insights",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Change tendency, not willpower**?",
-          "a": "**NPD-level personality can shift** in therapy; behavior follows identity change."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Distress tolerance tanking**?",
-          "a": "**Transdiagnostic factor exploding mental illness rates.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Uncertainty intolerance**?",
-          "a": "**Defined answers obsession harms resilience and relationships.**"
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Misdiagnosis in high performers**?",
-          "a": "**Wrong label (anxiety) blocks right intervention.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **No feelings road map (Western)**?",
-          "a": "**Clinicians say honor feelings** but offer no navigation chart; Eastern models differ."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Comparison = ego desire**?",
-          "a": "**Silver-medalist framing; tenure vs adjunct identity.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Sense-organ desires**?",
-          "a": "**Hardest psychiatry task**: show people they don't want what they claim to want."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Flirting is ambiguity by design**?",
-          "a": "**Plausible deniability; training for certainty breaks social dance.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
+      "title": "Change tendency, not willpower",
       "items": [
         {
           "e": "🔄",
-          "q": "What should you remember about **Feel your feelings (3 steps)**?",
-          "a": "**Tranquility in face of** emotion without suppression or explosion."
+          "q": "Why does Dr. K say willpower is the wrong target?",
+          "a": "Psychotherapy should change **personality-level tendencies** so behavior shifts without perpetual force. When you're no longer narcissistic (for example), **willpower isn't necessary** — identity change remits refractory depression and PTSD patterns."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Poison-dart criticism**?",
-          "a": "**Precision at weak points;** linguistic cortex amplifies; Teflon Buddha = imperviousness."
+          "e": "🌡️",
+          "q": "Which two capacities are collapsing across diagnoses?",
+          "a": "**Distress tolerance** (sitting with discomfort) and **intolerance of uncertainty** (needing defined answers) are worsening transdiagnostically — and both predict resilience when intact."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Desire, ego, and false wants",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Shunya void**?",
-          "a": "**Strip positive/negative self-labels; contact** what remains; narcissism practice fit."
+          "e": "🎯",
+          "q": "How do you tell ego desire from real drive?",
+          "a": "Anything you want as a **comparison** (silver vs gold, tenure vs adjunct, looks ranking) is **born of the ego**. Separate those from an **internal desire roadmap**."
+        },
+        {
+          "e": "📱",
+          "q": "What's the hardest psychiatry problem Dr. K names?",
+          "a": "Convincing people they **don't really want** what they claim — **sense organs** and social media feed manufactured wants that aren't true desires."
+        }
+      ]
+    },
+    {
+      "title": "Practices for unlearning",
+      "items": [
+        {
+          "e": "🫧",
+          "q": "What are the three steps to feel your feelings?",
+          "a": "**Recognize, allow, investigate** — without acting from raw emotion. Aim for tranquility in the face of emotion, neither suppression nor explosion."
         },
         {
           "e": "🛡️",
-          "q": "What should you remember about **Samskaras + Nidra**?",
-          "a": "**Learning imprints; burn weeds** at root; trauma belief change via sankalpa."
+          "q": "How does criticism actually land, and what's the defense?",
+          "a": "Criticism is a **poison dart**: precision at linguistic weak points, not volume. Build **Teflon Buddha** imperviousness. For narcissism patterns, **shunya void** meditation strips attributes until you contact self beyond labels."
+        },
+        {
+          "e": "🕉️",
+          "q": "What sankalpa does Dr. K prefer for trauma patients?",
+          "a": "**\"I deserve to be whole\"** — not \"I am whole.\" Pair with **Yoga Nidra** to burn **samskara** roots; liminal hypnagogic windows also favor belief rewiring."
+        }
+      ]
+    },
+    {
+      "title": "Modern life traps",
+      "items": [
+        {
+          "e": "💬",
+          "q": "Why does needing certainty kill flirting and social skill?",
+          "a": "Flirting preserves **plausible deniability**; neutral observers detect it only about **24–42%** of the time. Training for certainty breaks the social dance."
+        },
+        {
+          "e": "🎮",
+          "q": "How do gifted kids and porn show up clinically?",
+          "a": "Gifted + internet → school pace mismatch, games with level pacing, then **failure to launch**. Young-men ED under 30 rose roughly **~5% → ~20%**, often **completion** not initiation failure — emotional more than purely vascular."
+        },
+        {
+          "e": "🤖",
+          "q": "What AI mental-health warning does he raise?",
+          "a": "A first case report of **AI-chat psychosis** with hospitalization and antipsychotics in someone **without prior history** — a scary mechanism worth treating as real risk, not sci-fi."
         }
       ]
     }

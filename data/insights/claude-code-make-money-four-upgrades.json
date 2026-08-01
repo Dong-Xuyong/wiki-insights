@@ -2,87 +2,77 @@
   "slug": "claude-code-make-money-four-upgrades",
   "sections": [
     {
-      "title": "Core insights",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Productive ≠ profitable**?",
-          "a": "**Claude is tuned for** agreement and completion feelings, not business outcomes."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **AI sycophancy is measured**?",
-          "a": "**\"Elephant\" study**: models fail to push back on framing ~88% of the time (humans ~60%); personalization/memory makes it worse."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Council beats single-perspective advice**?",
-          "a": "**side-by-side demo**: plain Claude gave generic \"rework it\" feedback; roast council gave scored personas, CAC/LTV analysis, and a concrete 48-hour test."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Verification is a habit, not one button**?",
-          "a": "**define \"done\" per domain; build** loop (create → verify → fix → repeat); then adversarial stress testing."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **First shot ~65%, verification gets ~90%**?",
-          "a": "**same benchmark Cole Medin** cites; less human rework on review."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Context rot starts early**?",
-          "a": "**longer conversations make Claude** dumber even on simple tasks; more context is not better."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
+      "title": "Productive vs profitable",
       "items": [
         {
           "e": "💰",
-          "q": "What should you remember about **Session handoff > compact**?",
-          "a": "**Nate finds /compact slow; custom handoff** skill preserves state across /clear and enables cross-tool transfer (e.g. to Codex)."
+          "q": "What capped Nate's income before the four upgrades?",
+          "a": "Not raw intelligence — **output quality** and **production speed**. By default Claude is tuned to make you feel **productive**, not to make you **money**. He claims these upgrades **3×'d income in 30 days**."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Parallel sub-agents for independent work**?",
-          "a": "**each gets a clean context window; synthesize after.**"
+          "e": "🐘",
+          "q": "How bad is AI sycophancy in measured studies?",
+          "a": "The \"Elephant\" study: models fail to push back on framing ~**88%** of the time (humans ~**60%**). Personalization/memory makes agreement mode worse."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Upgrade 1 — Stop the yes-man",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **/goal separates worker from judge**?",
-          "a": "**addresses the same sycophancy** problem at completion time; objective done-criteria work best."
+          "e": "🔥",
+          "q": "What does the `/roast` skill actually do?",
+          "a": "Spins a **council of sub-agents** (contrarian, expansionist, first-principles, deep researcher, buyer, judge) that stress-test ideas before building. Verdicts: **green light, reshape, or kill** — plus the cheapest **48-hour validation** test."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Role shift: builder → reviewer**?",
-          "a": "**with all four upgrades,** human becomes problem-solver, decision-maker, and judge."
+          "e": "🧪",
+          "q": "What happened when the council roasted the $9 LinkedIn tool?",
+          "a": "Scores of **2–8/10** and a reshape: kill the commodity **$9 wrapper**, keep the engine, target a narrow niche with **voice matching + scheduled posting** (later rebranded \"Cadence\")."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Upgrade 2 — Verification loop",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Skills available free** in ai automation society Skool community (roast, session handoff).?",
-          "a": "**Skills available free** in ai automation society Skool community (roast, session handoff)."
+          "e": "✅",
+          "q": "Why isn't \"finished\" the same as \"working\"?",
+          "a": "~**40%** of Copilot-generated code had vulnerabilities (NYU). Nate's outreach agent claimed **100%** email delivery but only sent **25%**. Fix: verify before handoff, then **adversarial stress-test** after."
+        },
+        {
+          "e": "🎭",
+          "q": "What did the live landing-page verification look like?",
+          "a": "**Playwright CLI** screenshots at desktop + mobile until zero visible errors, then **22 form-submission** stress tests (valid + malformed) in a headed browser. First shot ~**65%**; verification gets ~**90%**."
+        }
+      ]
+    },
+    {
+      "title": "Upgrade 3 — Context management",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "When does context rot actually start?",
+          "a": "**Well before the window fills** — longer conversations make Claude dumber even on simple tasks across **18 tested models**. More context is not better."
+        },
+        {
+          "e": "📦",
+          "q": "Why prefer `/session-handoff` over `/compact`?",
+          "a": "Nate finds `/compact` slow. Custom handoff captures **locked decisions, shipped files, running state, open questions, and \"pick up here\"**, then `/clear` + paste. Stay under ~**250K tokens**; use `/context` to audit token eaters."
+        }
+      ]
+    },
+    {
+      "title": "Upgrade 4 — Sub-agents + `/goal`",
+      "items": [
+        {
+          "e": "👥",
+          "q": "How much do parallel sub-agents help?",
+          "a": "Anthropic's parallel sub-agent team beat a single agent by **>90%** on internal evals. Each agent gets a **clean context window**; synthesize after. Final demo: **6 parallel agents** built a full GTM kit in ~**8 minutes**."
+        },
+        {
+          "e": "🎯",
+          "q": "What problem does `/goal` solve at completion time?",
+          "a": "Sets an **objective done condition**; a **separate evaluator model** grades each turn so the worker **can't declare itself done** — sycophancy control at the finish line. Your role shifts from builder to **reviewer/judge**."
         }
       ]
     }

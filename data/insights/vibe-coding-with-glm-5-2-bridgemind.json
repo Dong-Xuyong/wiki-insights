@@ -2,92 +2,62 @@
   "slug": "vibe-coding-with-glm-5-2-bridgemind",
   "sections": [
     {
-      "title": "Vibe Coding With GLM 5.2",
+      "title": "Release & verdict",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about gLM 5.2 dropped same day as Fable 5/Mythos 5 US access suspension?",
-          "a": "**ZAI treated ban as marketing moment.**"
+          "e": "🚫",
+          "q": "Did GLM 5.2 earn the BridgeMind stamp of approval?",
+          "a": "**No** — despite strong BridgeBench scores. Fast and cheap on paper, but fails **attention to detail** on interactive builds and hits **brutal rate limits** on the **$65/mo** GLM coding plan."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about coding-plan-only access; not in ZAI chatbot or public API at test time.?",
-          "a": "**Coding-plan-only access; not in** ZAI chatbot or public API at test time."
+          "e": "📅",
+          "q": "Why did ZAI time the GLM 5.2 drop this way?",
+          "a": "Same-day as the US **Fable 5 / Mythos 5 ban** — marketed as \"open AI belongs to the people,\" exclusive to coding-plan users (not chatbot/API at test time). Plan price had doubled from ~**$35 → $65/mo**."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Live build failures",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about open-source positioning praised; model quality for production vibe coding rejected.?",
-          "a": "**Open-source positioning praised; model** quality for production vibe coding rejected."
+          "e": "🎮",
+          "q": "What broke in the interactive game tests?",
+          "a": "Horror house: third-key never spawns hunter; door won't open. Stealth: **pitch-black**, unplayable. Minecraft clone: UI loads but **player cannot move**. Remotion video: generic purple + weak copy."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about running 5–9 subagents triggers immediate rate limits on $65/mo plan.?",
-          "a": "**Running 5–9 subagents triggers** immediate rate limits on $65/mo plan."
+          "e": "🔍",
+          "q": "What's the Chinese open-model pattern BridgeMind sees?",
+          "a": "Strong on **isolated HTML demos** (Flappy Bird, thunderstorm, coral reef), weak on **end-to-end game logic**. Contrast: pre-ban Fable 5 one-shot perfection on the same horror-house prompt."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Benchmarks vs jagged reality",
       "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about zAI lacks server capacity for concurrent agent fleets?",
-          "a": "**conflicts with sub agents and teams parallel workflow.**"
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about 71%/5hr quota burn in ~1 hour on cheap model undermines value vs Opus limits (expensive but usable).?",
-          "a": "**71%/5hr quota burn in ~1** hour on cheap model undermines value vs Opus limits (expensive but usable)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about chinese open models pattern?",
-          "a": "strong on isolated HTML demos, weak on **end-to-end game logic** (escape triggers, movement controls, lighting)."
-        },
         {
           "e": "🏆",
-          "q": "What should you remember about creator contrasts with pre-ban Fable 5 one-shot perfection on same horror-house prompt.?",
-          "a": "**Creator contrasts with pre-ban** Fable 5 one-shot perfection on same horror-house prompt."
+          "q": "Where did GLM 5.2 dominate BridgeBench?",
+          "a": "**#1 reasoning** (+1.3% over Fable 5); first **100% BS** score (5.1 was ~26%); **#6 hallucination**, **#4 refactoring**, **86.6 debugging**; **296 tok/s** (~3.5× GLM 5.1)."
+        },
+        {
+          "e": "⚡",
+          "q": "How is this jagged intelligence?",
+          "a": "**#1 reasoning** in the same session as **broken Minecraft movement**. Trust bar: \"If you can't navigate a voxel map, I won't trust you with subscribers on the line.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Quota economics & niche",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **jagged intelligence** manifest?",
-          "a": "**#1 reasoning + broken** Minecraft movement in same session."
+          "e": "💸",
+          "q": "How fast does the coding plan burn under multi-agent load?",
+          "a": "~1 hour with **5–9 subagents** → **71% of 5-hour quota** and **14% of weekly** on ~37M tokens — incompatible with real multi-agent vibe coding despite ~**$1/M** input pricing."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about trust bar for production?",
-          "a": "**\"If you can't navigate a** voxel map, I won't trust you with subscribers on the line.\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about bridgeBench HTML visual tests ≠ production codebase reliability.?",
-          "a": "**BridgeBench HTML visual tests ≠ production codebase reliability.**"
-        },
-        {
-          "e": "🛡️",
-          "q": "Why does this matter: Reasoning/BS/refactoring scores suggest good **Hermes-style background agents**; interactive greenfield still ?",
-          "a": "Reasoning/BS/refactoring scores suggest good **Hermes-style background agents**; interactive greenfield still needs frontier models."
+          "e": "🤖",
+          "q": "Is there any niche for GLM 5.2?",
+          "a": "Maybe **Hermes-style background orchestration** (cheap + fast + strong reasoning/BS) — **not** as primary IDE agent for interactive greenfield."
         }
       ]
     }

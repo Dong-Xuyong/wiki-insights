@@ -2,92 +2,57 @@
   "slug": "enhance-focus-improve-productivity-cal-newport-huberman",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Deep work vs pseudo-productivity",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Buffet, not dogma**?",
-          "a": "**Huberman uses phone/email/social; Newport minimizes** both; shared goal = protect blocks for highest-quality cognitive work."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Time blocking > to-do lists**?",
-          "a": "**Grapple with actual calendar gaps;** short gaps → admin; first 90 min → hardest deep work."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Pull vs push**?",
-          "a": "**Email is a public post to-do list; push-based** orgs drown workers; pull-based = fixed concentration budget + active-list queue (Trello cards, not meetings about inactive projects)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Multiscale cascade**?",
-          "a": "**Quarter/season objectives inform weekly plan** inform daily time blocks; free-form text weekly plan is enough."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Shutdown ritual**?",
-          "a": "**Review inbox, plan, calendar; capture** open loops; sense of tomorrow; physical phrase/gesture to end work mode."
-        },
         {
           "e": "🧠",
-          "q": "What should you remember about **~4–4.5 h quality brain/day** (Newport)?",
-          "a": "**Low phone/internet use compounds;** midnight-oil myth; network switching hidden tax."
+          "q": "What fake metric traps knowledge workers?",
+          "a": "**Pseudo-productivity** — visible busyness, meetings, and email responsiveness inherited from agriculture/industry — while real value comes from **deep work**: sustained, distraction-free cognitive effort. Newport estimates **~4–4.5 hours/day** of peak cognitive output (Huberman ~**3–4 h**)."
+        },
+        {
+          "e": "📱",
+          "q": "Why are smartphones so expensive for focus?",
+          "a": "They induce costly **attention-network switching** and create **solitude deprivation** — no time free from other minds' stimuli — locking you into all-day social-processing mode that drives anxiety and exhaustion. The tax is switching cost, not just minutes on screen."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Newport's top three protocols",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Task switching cost**?",
-          "a": "**Phone excels at inducing** expensive attention-network switches; \"text bankruptcy\" several times daily."
+          "e": "📥",
+          "q": "What is a pull-based workflow?",
+          "a": "Fix your **concentration budget** in advance and **pull** tasks from an active list (e.g. Trello) instead of drowning in push-based email/meeting bombardment. Newport calls email a **public post to-do list**."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Solitude deprivation**?",
-          "a": "**Cognitive solitude = absence of stimuli** from other human minds; smartphones make all-day social-processing mode possible → anxiety/exhaustion."
+          "e": "📅",
+          "q": "How does multiscale planning beat a naked to-do list?",
+          "a": "Cascade **seasonal/quarterly objectives → weekly plan against the real calendar → daily time blocks**. Assign work to actual free hours: short gaps → admin; first **~90 min** → hardest deep work."
+        },
+        {
+          "e": "🛑",
+          "q": "What does a shutdown ritual actually include?",
+          "a": "End-of-day **loop closure**: review inbox/plan/calendar, capture open loops, preview tomorrow, then a demonstrative **\"work is over\"** signal. Associating the dinner table with work thoughts poisons relationships and sleep (Matt Walker parallel)."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Practice, orgs, and environment",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Deliberate practice ≠ flow**?",
-          "a": "**Pro musicians push 20% past** comfort, forget to breathe; flow loses time; growth requires discomfort (Anders Ericsson)."
+          "e": "🎯",
+          "q": "Is flow the state that makes you better?",
+          "a": "No — Newport says **deliberate practice** (maximal discomfort, Anders Ericsson) is the opposite of flow's time-dissolving ease. Pros push ~**20% past comfort**; growth requires discomfort, not just enjoyable immersion."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Pseudo productivity**?",
-          "a": "**Knowledge work measured by visible** activity because we lacked better metrics when the sector emerged mid-20th century."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Hyperactive hive mind**?",
-          "a": "**Checking email every 2 min is** like neglecting a $20M factory robot; requires org-level workflow change, not individual willpower alone."
+          "e": "🏢",
+          "q": "Can individual willpower fix a hyperactive hive-mind workplace?",
+          "a": "Often not. Constant email/Slack/Zoom is like neglecting a **$20M factory robot**; escaping needs expensive **top-down workflow redesign**. *Slow Productivity* prescription: fewer commitments, longer timelines, obsession with **quality over visible activity**."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **30-day digital minimalism**?",
-          "a": "**White-knuckle abstinence fails; aggressively** pursue replacement activities (hobbies, exercise, libraries, structure)."
+          "e": "🎧",
+          "q": "What environment tweaks protect deep work?",
+          "a": "Prefer **silence** (lyrical music hurts focus), engineer windows/blinds to cut visual distraction, and for digital minimalism run a **30-day** reset by aggressively pursuing **replacement activities** — white-knuckle abstinence alone fails. The better you get, the more the world steals the time that built your reputation."
         }
       ]
     }

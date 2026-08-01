@@ -2,87 +2,67 @@
   "slug": "understand-assess-mental-health-paul-conti",
   "sections": [
     {
-      "title": "Dr. Paul Conti",
+      "title": "What a healthy self looks like",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Healthy self = agency + gratitude**?",
-          "a": "**Happy people across life stages approach the** world feeling they can act (agency) and appreciate what is (gratitude); these are indicators, not affirmations."
+          "e": "🧭",
+          "q": "If mental health isn't just \"no symptoms,\" what is it?",
+          "a": "A **healthy self**: sound **structure of self** plus **function of self** that yields **agency and gratitude** — empowerment to act plus humility to appreciate what is."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Structure before symptoms**?",
-          "a": "**Diagnose architecture (unconscious, defenses, character,** self) before chasing surface behaviors; physical health parallels (structure/function) apply to psyche."
+          "e": "🧊",
+          "q": "How much of the mind is unconscious in Conti's model?",
+          "a": "Picture an **iceberg**: the conscious tip sits above water, but maybe **~95%** is unconscious biological processing beneath. Conscious work is awareness, choice, and integration — not total control."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Structure and function of self",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Iceberg model**?",
-          "a": "**Unconscious processes most thoughts, feelings, and** behaviors; conscious mind's job is awareness, choice, and integration — not total control."
+          "e": "🏗️",
+          "q": "What belongs in the structure of self?",
+          "a": "**Unconscious content**, **defense mechanisms**, **character structure** (predispositions + action patterns), and **self-concept**. Diagnose this architecture before chasing surface behaviors."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Defenses are tools**?",
-          "a": "**Projection, displacement, humor/sarcasm, affiliate defenses can** protect or harm; understanding *which* defense runs *when* beats blanket \"stop being defensive.\"."
+          "e": "⚙️",
+          "q": "What does the function of self include?",
+          "a": "**Self-awareness**, **salience** (what you choose to notice), how you **deploy defenses**, and striving via drives. Mental health includes placing attention on what matters instead of reactive fixation."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Three drives in balance",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Generative drive is the north star**?",
-          "a": "**Aggressive drive (assertion) and pleasure drive** (enjoyment) are necessary but insufficient; flourishing requires generative striving — create, learn, contribute."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Confidence is state-dependent**?",
-          "a": "**People can be confident in many domains yet** fragile in one; map the specific cupboard (unconscious pattern, narrative, defense) rather than relabeling identity as \"not confident.\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Salience is selective attention**?",
-          "a": "**Thousands of stimuli compete; mental health includes** consciously placing attention on what matters instead of reactive fixation (especially negative internal dialogue)."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Overthinking ≠ thinking**?",
-          "a": "**Rumination and procrastination often signal drive** imbalance or defense loops; restructure self-talk and examine which drive is starving."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Envy vs generative living**?",
-          "a": "**Biting sarcasm, destruction, and mass-violence narratives sit** at the pathological end of thwarted generative/aggressive balance; demoralization sits at the low-aggression pole."
+          "e": "🔥",
+          "q": "Which drive puts \"rubber to the road\" for flourishing?",
+          "a": "The **generative drive** — create, understand, explore, contribute. Aggressive drive (assertion) and pleasure drive (enjoyment) are necessary but insufficient alone."
         },
         {
           "e": "⚖️",
-          "q": "What should you remember about **Spirited inquiry**?",
-          "a": "**When answers aren't in one cupboard, search** many (childhood, defenses, drives, relationships, biology) before medicating or concluding; medicine supports exploration, doesn't replace it."
+          "q": "What happens when aggressive and pleasure drives go wrong?",
+          "a": "When they dominate or collapse you get **envy/destruction** at one pole or **demoralization** (low agency, failure to launch) at the other — generative striving is the north star for balance."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Assessment tools you can use",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Series roadmap**?",
-          "a": "**Episodes 2–4 cover improvement protocols, relationships** (\"magic bridge of the us\"), and concrete tools; this episode is the assessment framework."
+          "e": "🪞",
+          "q": "Why isn't \"I'm not confident\" a useful global label?",
+          "a": "Confidence is **state-dependent** — strong in many domains, fragile in one. Map the specific **cupboard** (unconscious pattern, narrative, defense) instead of relabeling identity."
+        },
+        {
+          "e": "🗄️",
+          "q": "What is the ten-cupboards exercise?",
+          "a": "**Spirited inquiry**: look in **all the cupboards** — childhood, defenses, drives, relationships, biology — before medicating or concluding. Medicine supports exploration; it doesn't replace it."
+        },
+        {
+          "e": "💭",
+          "q": "How should you treat overthinking and negative self-talk?",
+          "a": "Rumination and procrastination often signal **drive imbalance** or defense loops. Audit **negative internal dialogue**, restructure self-talk, and notice which defense (projection, displacement, sarcasm) runs when."
         }
       ]
     }

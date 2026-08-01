@@ -2,57 +2,62 @@
   "slug": "vibe-coding-with-loops-bridgemind",
   "sections": [
     {
-      "title": "Vibe Coding With Loops",
+      "title": "Loops vs one-shot prompts",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Prompt = one answer; loop = recursive goal** until objective stop condition met?",
-          "a": "**removes human from the daily re-prompt cycle.**"
-        },
-        {
-          "e": "🔑",
-          "q": "Why does this matter: **Best loop candidates:** production error triage (Sentry/CloudWatch), analytics-driven conversion work (PostH?",
-          "a": "**Best loop candidates:** production error triage (Sentry/CloudWatch), analytics-driven conversion work (PostHog), SEO maintenance (Semrush) — all have **verifiable external state** as stop signal."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Integrations are the moat**?",
-          "a": "**loops need real production data sources** and deploy paths; MCP + manual prompting replicates but doesn't automate the daily ritual."
+          "e": "🔄",
+          "q": "What is an agentic loop?",
+          "a": "Prompt = **one answer**. Loop = **recursive goal** you define once: run → self-check against **stop condition** → repeat or exit. Optional **max iterations** (e.g. 10) as a safety rail."
         },
         {
           "e": "🎯",
-          "q": "What should you remember about **Parallel loops**?",
-          "a": "**multiple independent stop conditions** can run simultaneously (7 in demo)."
+          "q": "When should you loop vs prompt?",
+          "a": "**Looping ≠ replacing prompting yet.** Greenfield features → still prompt (Claude Code). Daily **repeatable ops** with clear done-criteria → loop."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Production loop demos",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Iteration caps**?",
-          "a": "**optional max iterations (10** shown) as safety rail alongside stop condition."
+          "e": "🐛",
+          "q": "What did the Sentry and CloudWatch loops do?",
+          "a": "Sentry: pull unresolved BridgeSpace errors → dedupe → prioritize → fix → push. Stop: **no unresolved high-priority** issues → shipped **BridgeSpace v3.4**. CloudWatch: AWS errors until **none require code changes**."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Shipped outcomes without hand-holding**?",
-          "a": "**Sentry loop → v3.4** release; SEO loop → PR with Semrush-backed changes."
+          "e": "📈",
+          "q": "How do PostHog and Semrush loops use external data?",
+          "a": "PostHog: conversion opportunities → GitHub edits; stop = reviewed + **≥3 data-backed improvements**. Semrush: SEO fixes → tests/builds pass → deploy; creates a **PR on completion**."
+        },
+        {
+          "e": "⚡",
+          "q": "Can multiple loops run at once?",
+          "a": "Yes — demo ran **seven parallel loops** (SEO, Sentry, CloudWatch, PostHog, others); one already shipped a BridgeSpace update mid-demo."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Why integrations matter",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Claude Code /goal acknowledged**?",
-          "a": "**same family as goal command;** BridgeMind argues integrated product beats raw harness goals for ops loops."
+          "e": "🔗",
+          "q": "What makes a task a good loop candidate?",
+          "a": "Tasks with **verifiable external state** as stop signal: Sentry/CloudWatch error triage, PostHog conversion work, Semrush SEO — not open-ended greenfield design."
+        },
+        {
+          "e": "🏰",
+          "q": "What's BridgeAgent's moat vs Claude Code/Codex?",
+          "a": "Claude/Codex are **harnesses**; BridgeAgent positions as an **autonomous software developer** with native GitHub, Sentry, Cloudflare, PostHog, Semrush, AWS. `/goal` exists on harnesses but lacks the integrated observability stack."
+        }
+      ]
+    },
+    {
+      "title": "Daily ritual removed",
+      "items": [
+        {
+          "e": "🧘",
+          "q": "What human work does looping eliminate?",
+          "a": "Manual Claude Sentry ritual (MCP pull → table → plan → execute → push) becomes **one-click**. \"I'll never have to write that prompt again\" for work you do **every single day**."
         }
       ]
     }

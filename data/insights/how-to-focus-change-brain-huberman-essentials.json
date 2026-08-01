@@ -2,92 +2,72 @@
   "slug": "how-to-focus-change-brain-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Adult plasticity is gated",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Child vs adult plasticity**?",
-          "a": "**babies are crude wide** webs; adults need gated neurochemical state shifts, not passive exposure."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Hardwired vs plastic circuits**?",
-          "a": "**heartbeat, breathing, digestion resist** change; sensory maps stay customizable."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Post-puberty neurogenesis is minimal**?",
-          "a": "**change = strengthen/weaken connections,** not adding neurons at scale."
+          "e": "🧬",
+          "q": "Why doesn't every experience rewire an adult brain?",
+          "a": "Neuroplasticity is lifelong, but after **~25** it is **gated**. Babies are crude wide webs; adults need a specific neurochemical state. *\"The nervous system doesn't just change because you experience something unless you're a very young child.\"*"
         },
         {
           "e": "🎯",
-          "q": "What should you remember about **Recognition is step one**?",
-          "a": "**naming a behavior/emotion you want** to change (even telling someone your voice triggers them) begins plasticity."
+          "q": "What opens plasticity to a specific experience?",
+          "a": "Only experiences you **pay super careful attention to** open plasticity — and only to **that specific content**. Merzenich/Recanzone drum experiments: adult touch maps rewired **only when subjects attended to touch**, not when attention went to an auditory cue."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "The three-chemical gate",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Attention is the gate**?",
-          "a": "**Recanzone/Merzenich**: bump-distance task rewired finger maps only with touch-attention; auditory-attention rewired hearing, not touch."
+          "e": "⚗️",
+          "q": "Which neurochemicals are required for adult brain change?",
+          "a": "You need **epinephrine** (alertness) + **brainstem acetylcholine** (spotlight / signal-to-noise) + **nucleus basalis acetylcholine** (marks active circuits). When all three are present, *\"you can change your brain… it absolutely will change.\"*"
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Three neurochemicals required**?",
-          "a": "**epinephrine + brainstem acetylcholine (signal/noise)** + nucleus basalis acetylcholine → change is mandatory when all three present."
+          "e": "😤",
+          "q": "Is agitation during focus a bad sign?",
+          "a": "No — **agitation and challenge while focusing** usually means **epinephrine is doing its job**. *\"Chances are you're doing it right.\"* Nicotine can bind nicotinic ACh receptors, but Huberman warns against **chronic pharmacologic focus** — plasticity needs a **distinct window** from baseline."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Protocol stack for change",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Alertness toolkit**?",
-          "a": "**sleep, caffeine, accountability (checks to** hated orgs, public posts, love/fear goals — brain doesn't distinguish motive)."
+          "e": "1️⃣",
+          "q": "What is step one before trying to change a behavior?",
+          "a": "**Awareness / recognition**: name what you want to change — even telling someone your voice triggers them **begins plasticity**. Then build **alertness** via sleep mastery plus an accountability kit (love, fear, shame, public commitment all release **epinephrine equally**)."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Mental focus follows visual focus**?",
-          "a": "**vergence eye movement shrinks visual** window → releases norepinephrine/epinephrine/acetylcholine; practice at screen distance before reading."
+          "e": "👀",
+          "q": "How does visual focus create mental focus?",
+          "a": "*\"Mental focus follows visual focus.\"* Hold a **narrow visual focus for 60–120 seconds** at work distance; **vergence** triggers brainstem **acetylcholine/epinephrine**. For auditory learning, **close your eyes** — visual demand hijacks listening. Don't demand eye contact while someone needs to hear."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Ultradian bouts and sleep consolidation",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Don't demand eye contact while listening**?",
-          "a": "**visual system hijacks auditory** attention; closing eyes creates auditory cone."
+          "e": "⏱️",
+          "q": "How long should a focused learning bout last?",
+          "a": "Work in **~90-minute ultradian blocks**: warm-up flicker is OK; middle **~1 hour** deep; Wi-Fi off, phone in another room; **re-anchor with the eyes** when attention drifts. Don't demand all-day laser focus."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **90-min bouts, not all-day focus**?",
-          "a": "**warm-up flicker OK; middle ~1** h deep; Wi-Fi off, phone in other room; re-grab attention with eyes."
+          "e": "😴",
+          "q": "When does neuroplasticity actually occur?",
+          "a": "*\"Neuroplasticity doesn't occur during wakefulness, it occurs during sleep.\"* Acetylcholine **marks synapses** during the day; consolidation is offline. A poor night 1 can still work if **night 2 deep sleep** lands."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "NSDR after learning",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Plasticity happens in sleep**?",
-          "a": "**acetylcholine marks synapses metabolically; poor** sleep night 1 OK if night 2 deep sleep lands."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **NSDR post-learning**?",
-          "a": "**20-min protocol or ≤90-min nap** after session accelerates retention vs waiting for overnight sleep alone."
+          "e": "🧘",
+          "q": "What can accelerate retention right after a session?",
+          "a": "A **~20-minute NSDR** or shallow nap (**≤90 min**) immediately post-learning can **beat waiting for next-night sleep alone** (Cell Reports spatial-memory task). Pair focused bouts with this rest window."
         }
       ]
     }

@@ -2,92 +2,72 @@
   "slug": "pavel-durov-telegram-freedom-lex-fridman",
   "sections": [
     {
-      "title": "Pavel Durov",
+      "title": "Freedom over money",
       "items": [
         {
-          "e": "💡",
-          "q": "Why does this matter: Freedom without abundance is visible early (Soviet vs Italy at age 4); without freedom you can't contribute to?",
-          "a": "**Freedom without abundance is visible early** (Soviet vs Italy at age 4); without freedom you can't contribute to abundance."
+          "e": "🗽",
+          "q": "What is Durov's core value hierarchy?",
+          "a": "**Freedom matters more than money** (Свобода дороже денег). The biggest enemies of freedom are **fear and greed** — imagine the worst outcome and accept it, then nothing can blackmail you."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about clarity of mind requires abstaining from addictive substances?",
-          "a": "**clouded mind follows mainstream authority.**"
+          "e": "🧘",
+          "q": "How does he protect clarity of mind?",
+          "a": "Ascetic discipline for **20+ years**: no alcohol/tobacco/coffee/pills/drugs, **no personal phone**, extreme training, long-term thinking over short-term pleasure — a clouded mind follows mainstream authority."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Lean engineering at billion-user scale",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about 40 engineers + automation beats thousands of manual ops; too many employees coordinate instead of build?",
-          "a": "**40 engineers + automation beats** thousands of manual ops; too many employees coordinate instead of build."
+          "e": "⚙️",
+          "q": "How does Telegram run 1B+ users with so few people?",
+          "a": "~**40 core engineers** for **1B+** monthly users; ~**100K servers** managed algorithmically. Thesis: **automation over headcount** — too many employees coordinate instead of build."
         },
         {
           "e": "🎯",
-          "q": "What should you remember about distributed encrypted cloud + split keys > trusting any single employee or government?",
-          "a": "**Distributed encrypted cloud +** split keys > trusting any single employee or government."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
+          "q": "How does Telegram hire?",
+          "a": "**Contest-based hiring** via coding competitions — A-players only. Firing B-players can **increase** team output."
+        },
         {
           "e": "⚡",
-          "q": "What should you remember about never shared private messages with anyone; system designed so backdoors are impossible without rebuilding?",
-          "a": "**Never shared private messages** with anyone; system designed so backdoors are impossible without rebuilding."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about french arrest unprecedented for a tech CEO at this scale?",
-          "a": "**accused of crimes users allegedly committed.**"
+          "q": "Why obsess over 50ms of latency?",
+          "a": "**Telegram speed engineering** is a core product value — subconscious latency sensitivity at billion-user scale drove PHP→C++ custom engines (same lesson from VK)."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Privacy by architecture",
       "items": [
         {
-          "e": "💰",
-          "q": "Why does this matter: French intelligence asked to censor Romania conservative channels while Durov couldn't leave France — refused ?",
-          "a": "**French intelligence asked to censor** Romania conservative channels while Durov couldn't leave France — refused and disclosed."
+          "e": "🔐",
+          "q": "Can Telegram employees read your private messages?",
+          "a": "No — **distributed encryption** with keys split across jurisdictions. \"**Humans are attack vectors.**\" Telegram has **never shared a single private message** with any government."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about public sector 58% of French GDP?",
-          "a": "**entrepreneurs squeezed by tax** investigations that destroy companies over years."
+          "e": "🚪",
+          "q": "Would Durov add a government backdoor?",
+          "a": "**No backdoors** is architectural, not policy — he would **shut down in a country** rather than rebuild the system to enable them. Secret Chats shipped E2E **1 year 3 months** ahead of WhatsApp."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Censorship pressure & France arrest",
       "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about math + competition in education builds founders; removing competition pushes kids to video games?",
-          "a": "**Math + competition in** education builds founders; removing competition pushes kids to video games."
-        },
         {
           "e": "⚖️",
-          "q": "What should you remember about vK: build login module first (Nikolai's advice); strip features to scale; PHP→C++ custom engines for speed?",
-          "a": "**VK**: build login module first (Nikolai's advice); strip features to scale; PHP→C++ custom engines for speed."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about telegram did most messenger features first (auto-delete timer 7yr ahead, stickers 3yr 8mo, E2E 1yr 3mo)?",
-          "a": "**Telegram did most messenger features** first (auto-delete timer 7yr ahead, stickers 3yr 8mo, E2E 1yr 3mo)."
+          "q": "What happened in the August 2024 France arrest?",
+          "a": "Arrested at Paris airport; ~**15 crimes** alleged for **user actions** on Telegram; **4 days** in a concrete cell — Lex parallels Kafka's *The Trial*. Unprecedented for a tech CEO at this scale."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about open source since 2013 + reproducible builds on iOS/Android?",
-          "a": "**only popular messenger with both.**"
+          "e": "🛑",
+          "q": "Did he comply with French intelligence censorship requests while detained?",
+          "a": "He **refused** requests to censor Romanian/Moldovan political channels while unable to leave France — and disclosed the pressure. Protecting speech makes enemies on **all sides**."
+        },
+        {
+          "e": "🛰️",
+          "q": "How does Telegram survive national bans?",
+          "a": "**Digital resistance**: millions of rotating IPs and global proxies; in Iran, **proxy ads create economic incentive** to bypass bans. Apple once briefly blocked global updates siding with a Russian censor."
         }
       ]
     }

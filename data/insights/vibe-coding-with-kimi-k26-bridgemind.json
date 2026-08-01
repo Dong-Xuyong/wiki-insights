@@ -2,92 +2,62 @@
   "slug": "vibe-coding-with-kimi-k26-bridgemind",
   "sections": [
     {
-      "title": "Vibe Coding With Kimi K2.6",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about public benchmark posts drive massive impressions; labs optimize for SWE Bench Pro / Verified scores.?",
-          "a": "**Public benchmark posts drive massive** impressions; labs optimize for SWE Bench Pro / Verified scores."
-        },
-        {
-          "e": "🔑",
-          "q": "Why does this matter: Anthropic accused of same pattern with Opus 4.7; creator argues benchmarks are increasingly untrustworthy for ?",
-          "a": "**Anthropic accused of same pattern with** Opus 4.7; creator argues benchmarks are increasingly untrustworthy for vibe coding decisions."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
+      "title": "Bench-maxing vs real builds",
       "items": [
         {
           "e": "📊",
-          "q": "What should you remember about **Output quality > leaderboard rank**?",
-          "a": "**random UI bugs in** production matter more than aggregate scores."
+          "q": "What's wrong with trusting SWE Bench headlines?",
+          "a": "Labs are **bench-maxing** — training for SWE Bench Pro / Verified scores while real output diverges. Public posts drive impressions; **output quality > leaderboard rank** for vibe coding decisions."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **1.1T parameters**, 595 GB total on Hugging Face?",
-          "a": "**not runnable on consumer** hardware (creator's DGX Spark insufficient)."
+          "e": "🚫",
+          "q": "Did Kimi K2.6 get the BridgeMind stamp?",
+          "a": "**No** — won't use it personally despite marketing parity vs GPT 5.4 Extra High / Opus 4.6 / Gemini 3.1 Pro. Leading open-source ≠ frontier closed for shipping UI."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Specs & Agent Swarm",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **262K context**; pricing ~$0.95/M input, $4/M output via Moonshot API or **Open Router**.?",
-          "a": "**262K context**; pricing ~$0.95/M input, $4/M output via Moonshot API or **Open Router**."
+          "e": "🧮",
+          "q": "What are K2.6's size, context, and price?",
+          "a": "**1.1T parameters**, **595 GB** on Hugging Face (not consumer-runnable); **262K** context; ~**$0.95/M** in, **$4/M** out via Moonshot API or OpenRouter. Open-weight but best accessed via API."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about open-weight but best accessed via API for most builders.?",
-          "a": "**Open-weight but best accessed** via API for most builders."
+          "e": "🐝",
+          "q": "What does Agent Swarm (beta) actually do?",
+          "a": "Creates **named role subagents** (e.g. asset gen \"Shannon\", engine \"Woo\") that collaborate on a TypeScript zombies game (~**30–60 min**). Swarm builds **complete apps** even when prompted for a single HTML file — but game output was poor (zombie count mismatch, decorative beams)."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "BridgeBench strengths vs UI gaps",
       "items": [
-        {
-          "e": "💰",
-          "q": "Why does this matter: Creates named subagents with role descriptions (asset generator \"Shannon\", game engine dev \"Woo\", gameplay dev?",
-          "a": "**Creates named subagents with role** descriptions (asset generator \"Shannon\", game engine dev \"Woo\", gameplay dev)."
-        },
         {
           "e": "🏆",
-          "q": "What should you remember about subagents collaborate on a TypeScript zombies game (~30–60 min)?",
-          "a": "**generates hyper-realistic gun/floor textures live on stream.**"
+          "q": "Where does K2.6 shine on BridgeBench?",
+          "a": "**#5 overall** (up from K2.5 at #17); standout **#1 debugging** (beats Opus 4.6/4.7, GPT 5.4); **#3 hallucination**, **#4 refactoring**; ~**95 tok/s**."
+        },
+        {
+          "e": "🖼️",
+          "q": "Where does UI and game output fail?",
+          "a": "Lava Lamp added **unrequested** speed/glow/color controls; Snake/Flappy/Breakout failed. Website revamp: broken light/dark, **random rising white block** on pricing; single agent unfinished in **14 min** vs Opus 4.7 polish."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Trust & jagged intelligence",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about swarm mode builds **complete applications** even when prompted for a single HTML file.?",
-          "a": "Swarm mode builds **complete applications** even when prompted for a single HTML file."
+          "e": "⚠️",
+          "q": "Why is #1 debugging still untrusted?",
+          "a": "Adding features **not in the prompt** (Lava Lamp controls) is scary in a NestJS API context. Same jagged pattern: elite debugging + failed games/UI in one model."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about game output poor?",
-          "a": "**zombie count mismatch (shows 3** remaining but many on screen), decorative ceiling beams, overall \"not good.\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about single K2.6 agent: 14 min for incomplete Next.js 16 landing page?",
-          "a": "**pricing/ecosystem pages unfinished; \"AI** slop\" vs Claude Opus 4.7 side-by-side polish."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Agent Swarm** (8 OpenCode instances)?",
-          "a": "**backgrounds, site structure, polish, deploy tracks** — added light/dark mode (broken globally), pricing page with random rising white block bug, page reload failures."
+          "e": "✅",
+          "q": "What credit does Moonshot still get?",
+          "a": "Probably the **leading open-source coding model** with a massive **K2.5 → K2.6** BridgeBench jump — just **cannot compare to frontier closed models** for production UI/shipping."
         }
       ]
     }

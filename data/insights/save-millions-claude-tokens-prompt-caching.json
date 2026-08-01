@@ -2,87 +2,62 @@
   "slug": "save-millions-claude-tokens-prompt-caching",
   "sections": [
     {
-      "title": "Core insights",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Caching is automatic** in Claude Code and Claude?",
-          "a": "**no setup required; understanding it protects subscription limits.**"
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Cache create vs cache read**?",
-          "a": "**create is one-time write cost;** read is 10× cheaper reuse (system prompt, tools, CLAUDE.md, prior turns)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Three layers**?",
-          "a": "**system (instructions, tools, output style),** project (CLAUDE.md, memory, rules), conversation (messages/replies that grow each turn)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Prefix matching**?",
-          "a": "**cache keys on content prefix;** model switch = new prefix = zero cache hits on identical history."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **TTL by context**?",
-          "a": "Claude Code on subscription: **1 hour** idle; API default: **5 minutes** (extendable to 1 hour at extra cost); sub-agents: **5 minutes** on any plan; extra-usage (post weekly limit) drops to 5 minutes on subscription too."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Community TTL panic was unfounded**?",
-          "a": "**Anthropic did not silently change subscription TTL from** 1 hour to 5 minutes; confusion came from API vs Code vs sub-agent docs being mixed."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
+      "title": "Why caching matters",
       "items": [
         {
           "e": "💰",
-          "q": "What should you remember about **Anthropic monitors cache hit rate**?",
-          "a": "**Thariq Shihipar (Anthropic)**: they run alerts and declare SEVs if Claude Code cache hit rates drop too low."
+          "q": "How much cheaper are cached Claude tokens?",
+          "a": "**Cached reads cost 10% of normal input** (10× cheaper). Nate reports **91M tokens saved in one day** and **300M+ in a week** with no settings changes — caching is **automatic** in Claude Code and Claude."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Model switch breaks cache**?",
-          "a": "including **Opus plan mode** (Opus in plan, Sonnet in execution): each plan toggle is a model switch and fresh cache; still saves limits long-run but resets cache each toggle."
+          "e": "📦",
+          "q": "What mental model should you use for each turn?",
+          "a": "Turn one **writes everything to cache**; later turns inside the TTL only process **new messages**. Wait too long, switch models, change the system prompt, or hit `/compact` → **full recache** of the stack."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Three cache layers",
       "items": [
+        {
+          "e": "🧱",
+          "q": "What are the three layers that get cached?",
+          "a": "**System** (instructions, tools, output style), **project** (`CLAUDE.md`, memory, rules), and **conversation** (messages/replies that grow each turn). Cache create is the one-time write; cache read is the cheap reuse."
+        },
+        {
+          "e": "🔑",
+          "q": "Why does switching models wipe cache hits?",
+          "a": "Cache keys on **content prefix**. Each model has its own cache — `/model` (or Opus plan → Sonnet execute toggles) means the next request rereads **identical history with zero hits**."
+        }
+      ]
+    },
+    {
+      "title": "TTL realities",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "How long does the cache last on different plans?",
+          "a": "Claude Code **subscription: 1 hour** idle; **API default: 5 minutes** (extendable to 1 hour at cost); **sub-agents: 5 minutes** on any plan. Extra-usage after weekly limit also drops subscription to **5 minutes**."
+        },
+        {
+          "e": "📢",
+          "q": "Did Anthropic secretly cut subscription TTL to 5 minutes?",
+          "a": "Community panic was **unfounded** — confusion came from mixing **API vs Code vs sub-agent** docs. Anthropic even SEVs if Claude Code **cache hit rates** drop too low (Thariq Shihipar)."
+        }
+      ]
+    },
+    {
+      "title": "Habits that protect limits",
+      "items": [
+        {
+          "e": "✅",
+          "q": "What three habits cover 95% of users?",
+          "a": "(1) Don't pause **>1 hour** — hand off to a fresh session. (2) **Start fresh** when switching tasks (`/compact`, `/clear`, or session handoff). (3) In Claude chat, put large docs in **Projects**, not pasted into the thread."
+        },
         {
           "e": "🔄",
-          "q": "What should you remember about **Edit CLAUDE.md mid-session is safe**?",
-          "a": "**changes don't apply until** session restart, so cache stays intact."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Session handoff at ~205K tokens**?",
-          "a": "**Nate demo**: summarize → /copy → /clear → paste; faster than /compact (which also breaks cache)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Token dashboard**?",
-          "a": "**local GitHub repo reads past Claude Code** session files; device-specific; setup by giving repo link to Claude Code for localhost install."
+          "q": "Is `/compact` the best way to reset a long session?",
+          "a": "Prefer **session handoff** near ~**205K tokens**: summarize → `/copy` → `/clear` → paste. It's **faster than `/compact`**, which also **breaks the cache**. Editing `CLAUDE.md` mid-session is safe until restart."
         }
       ]
     }

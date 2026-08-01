@@ -2,87 +2,62 @@
   "slug": "how-to-set-achieve-goals-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Neural circuit of goal pursuit",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Four brain areas, two jobs**?",
-          "a": "**value assessment (worth pursuing?)** + action selection (go/no-go given current value)."
+          "e": "🧬",
+          "q": "Which brain systems share every goal?",
+          "a": "One circuit does two jobs: **value assessment** and **action selection**. Key nodes: **amygdala** (avoidance/fear value), **basal ganglia** (go/no-go), **lateral PFC** (planning across time), **orbitofrontal cortex** (emotional progress vs future state). **Dopamine** is the common currency."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Three goal elements**?",
-          "a": "**identify specific target; assess** progress; execute concrete action steps."
+          "e": "🧭",
+          "q": "What's the difference between peripersonal and extrapersonal modes?",
+          "a": "**Peripersonal** = consummatory here-and-now; progress *feeling* lives there. **Extrapersonal** = goal-directed beyond reach — you must **shift attention outward** to pursue, not only feel about the goal."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Visual focus and failure foreshadowing",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Peripersonal = consume; extrapersonal = pursue**?",
-          "a": "**progress evaluation happens in** peripersonal feeling-state; movement toward goals requires exteroceptive orientation."
+          "e": "👀",
+          "q": "How does a 30–60 second visual lock help goal pursuit?",
+          "a": "Narrow focus on a point **beyond reach** before acting recruits adrenaline and readiness. Emily Balcetis: eyes fixed on the goal line → **17% less perceived effort**, **23% faster**."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Vergence vs magnocellular vision**?",
-          "a": "**narrow point focus → adrenaline,** systolic BP rise, goal-directed readiness; diffuse panoramic vision → relaxed, stay-in-place mode."
+          "e": "😰",
+          "q": "Should you visualize success or failure?",
+          "a": "Routinely foreshadow **specific negative consequences of inaction** — near-**doubling** in goal attainment vs success visualization. Use **positive visualization only at the start**; the amygdala is built into the circuit."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Difficulty, dopamine, and milestones",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Visualize failure, not success**?",
-          "a": "**write/talk through specific negative** consequences of inaction; amygdala is built into goal circuitry."
+          "e": "🎚️",
+          "q": "What difficulty level keeps people pursuing?",
+          "a": "**Moderate goals** just outside current ability — *\"maybe I can, maybe I can't\"* — nearly **double ongoing pursuit** vs goals that are too easy or impossible."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Moderate difficulty wins**?",
-          "a": "**\"maybe I can, maybe** I can't\" doubles ongoing pursuit vs easy or impossible targets."
+          "e": "📉",
+          "q": "How should you place rewards to avoid dopamine crashes?",
+          "a": "Don't fixate only on the finish line. Use **milestones** and **reward prediction error**: unexpected wins spike dopamine; fully anticipated rewards **pre-release** then underwhelm; misses drop **below baseline**. Do **weekly goal assessments** to re-up motivation."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Space-time bridging protocol",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Dopamine = motivation, not pleasure**?",
-          "a": "**dopamine-depleted rats still enjoy** rewards but won't move one body-length to reach them."
+          "e": "🌉",
+          "q": "What daily drill trains long-range goal cognition?",
+          "a": "**Space-time bridging**: **90 s–3 min** shifting attention **interoception → palm → room → horizon → panoramic → return**. Near/internal focus = fine time slices; distant/broad focus = coarser future framing — practice builds flexible milestone + long-goal control."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Reward prediction error**?",
-          "a": "**biggest dopamine from unexpected positive events; anticipated** rewards pre-release dopamine then smaller peak at receipt; missed predictions → below-baseline drop (disappointment)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Weekly check-ins**?",
-          "a": "**tractable cadence to re-up** dopamine motivation when on track."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Vision ↔ dopamine reciprocity**?",
-          "a": "**narrow visual focus recruits** dopamine/epinephrine; raising dopamine sharpens outward visual targeting."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Space-time bridging**?",
-          "a": "**visual system batches time**: internal/near focus = fine time slices (breath/heartbeat clock); distant/broad focus = coarser future-oriented time framing; practice builds control over milestone + long-goal cognition."
+          "e": "🛠️",
+          "q": "Why prefer behavioral tools before caffeine or L-tyrosine?",
+          "a": "Practiced **visual-attention drills** engage **neuroplasticity** in motivation/focus circuits themselves — you get better at being motivated by training the system, not only by stimulants."
         }
       ]
     }

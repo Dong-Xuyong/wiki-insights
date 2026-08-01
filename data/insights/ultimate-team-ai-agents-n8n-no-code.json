@@ -2,87 +2,67 @@
   "slug": "ultimate-team-ai-agents-n8n-no-code",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Orchestrator, not doer",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Delegate, don't do**?",
-          "a": "**Ultimate Assistant prompt**: \"send the user's query to the correct tool; never write emails or event summaries.\"."
+          "e": "🎛️",
+          "q": "What is the Ultimate Assistant allowed to do?",
+          "a": "Only **route** the user's query to the correct tool. The prompt says it should **never write emails or event summaries** — specialists handle the work."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Specialist agents beat one mega-agent**?",
-          "a": "**four short-prompt sub-agents (email, calendar,** contact, content) scale better than one agent with every tool."
+          "e": "👥",
+          "q": "Why four specialist agents instead of one mega-agent?",
+          "a": "**Email, Calendar, Contact, and Content Creator** each get a **short prompt** and scoped tools. That scales better than one agent loaded with every tool and a huge system prompt."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "n8n wiring patterns",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Contact lookup rule**?",
-          "a": "**before send/draft email or calendar event with** attendee, orchestrator must call Contact Agent first and pass resolved email into the downstream query."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Call n8n Workflow as Tool**?",
-          "a": "**sub-workflows start with Execute Workflow Trigger; last** node returns response; tool names in camelCase must match system prompt (emailAgent, calendarAgent, etc.)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Agent error handoff**?",
-          "a": "**sub-workflows use \"On Error**: Continue (Error Output)\" → try again branch so orchestrator can retry with a new query."
+          "e": "🔗",
+          "q": "How do sub-workflows become tools?",
+          "a": "Use **Call n8n Workflow as Tool**. Sub-workflows start with **Execute Workflow Trigger**; the last node returns `response`. Tool names in **camelCase** (`emailAgent`, `calendarAgent`) must match the system prompt."
         },
         {
           "e": "🧠",
-          "q": "What should you remember about **$fromAI for tool params**?",
-          "a": "**model fills Gmail/Calendar node fields** (to, subject, body, message ID) from natural-language queries without manual parsing logic."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **ID-chaining pattern**?",
-          "a": "**reply/label/mark-unread/delete/update require a prior \"get\"** tool (emails, labels, events) to fetch IDs before the action tool runs."
+          "q": "How does the model fill Gmail and Calendar fields?",
+          "a": "**$fromAI** lets the model fill tool params (to, subject, body, message ID) from natural language — no hand-written parsing. Tavily HTTP search uses the same idea with `{{searchTerm}}` placeholders."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Voice + text unified**?",
-          "a": "**Switch routes voice → transcribe or** text → both map to json.text so one agent input field works for both."
+          "e": "🪪",
+          "q": "Why do reply/label/delete actions need a prior \"get\"?",
+          "a": "It's an **ID-chaining** pattern: fetch emails, labels, or events first, then pass those IDs into the action tool for reply, label, mark-unread, delete, or update."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Contact-first and error recovery",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Model mix**?",
-          "a": "**GPT-4o for orchestrator and most** sub-agents; Claude 3.5 Sonnet for Content Creator (HTML blog structure)."
+          "e": "📇",
+          "q": "What must happen before drafting email or inviting attendees?",
+          "a": "The orchestrator must call the **Contact Agent** first and pass the **resolved email** into the downstream email or calendar query."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Memory buffer**?",
-          "a": "**orchestrator retains context (\"push** it back an hour\") without re-explaining prior turns."
+          "e": "🔁",
+          "q": "How do failed sub-workflows recover?",
+          "a": "Sub-workflows use **On Error: Continue (Error Output)** → a `try again` branch so the orchestrator can retry with a new query instead of dying mid-run."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Telegram UX and model mix",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Tavily placeholders**?",
-          "a": "**HTTP tool uses {{searchTerm}}** placeholders (same idea as $fromAI) for dynamic web search queries."
+          "e": "📱",
+          "q": "How do voice and text share one agent input?",
+          "a": "A **Switch** routes voice → transcription or text → both map to `json.text`, so one agent input field serves both. Memory buffer keeps context like \"push it back an hour.\""
+        },
+        {
+          "e": "🤖",
+          "q": "Which models power which agents?",
+          "a": "**GPT-4o** for the orchestrator and most sub-agents; **Claude 3.5 Sonnet** for the Content Creator (HTML blog structure). Free JSON templates ship via the AI Automation Society Skool resources."
         }
       ]
     }

@@ -2,92 +2,82 @@
   "slug": "my-vibe-coding-workflow-bridgemind",
   "sections": [
     {
-      "title": "My Vibe Coding Workflow (Step by Step Workflow)",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about power-user stack (~12–16 hr/day)?",
-          "a": "**$200/mo Claude**, OpenAI (GPT-5.5 via Codex), Cursor, Perplexity (research) — budget-flexible; not all required."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about minimum vibe-coding trio?",
-          "a": "**agentic IDE** + **voice-to-text** + **screenshot annotation** for context."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about monorepo-style parent folder with **separate project directories** (API, UI, MCP)?",
-          "a": "**@-reference directories in prompts** so agents list and load the right files."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Multiple workspaces** in BridgeSpace?",
-          "a": "**e.g. BridgeMind + Vibe Academy** — with mixed agent fleets (4 Claude + 4 Codex)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about cross-project references accelerate greenfield builds?",
-          "a": "**\"reference Vibe Academy API for Drizzle ORM pattern.\".**"
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Level 1** (button color, copy)?",
-          "a": "**one agent, no plan, voice prompt.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Level 5–6** (NestJS + Drizzle + Cognito + Discord auth)?",
-          "a": "**plan mode, single strong** model (GPT-5.5 Extra High Fast for backend)."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Level 10** (full AWS VPC/ECR/ECS/RDS)?",
-          "a": "plan mode + **five sub-agents**, Claude Code Extra High, AWS CLI profile on machine."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **UI design**?",
-          "a": "Claude Opus 4.8; **backend**: GPT-5.5 Extra High; model routing by task type."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about run **3+ agents in parallel** on non-overlapping scopes (API vs UI vs tests)?",
-          "a": "**\"if you only work** on one task, you're not a good vibe coder.\"."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
+      "title": "Production vibe coding thesis",
       "items": [
         {
           "e": "🚀",
-          "q": "What should you remember about track which agent owns which directory; merge conflicts rare when scopes differ.?",
-          "a": "**Track which agent owns** which directory; merge conflicts rare when scopes differ."
+          "q": "What is BridgeMind's vibe-coding thesis?",
+          "a": "Not one agent and one task — orchestrating **multiple agents across multiple workspaces** while you voice-prompt, add context, and walk away. Stack behind an **$18K MRR / $74K gross-volume** business, live-building BridgeBench V3 without manually writing code."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **Deep dive agents** (3 launched) for landing-page review?",
-          "a": "**~5–10 min autonomous research before implementation.**"
+          "e": "🧰",
+          "q": "What is the minimum tool trio?",
+          "a": "**Agentic IDE** + **voice-to-text** + **screenshot annotation**. Power-user stack (~12–16 hr/day): ~**$200/mo Claude**, OpenAI/Codex, Cursor, Perplexity — budget-flexible; not all required."
+        }
+      ]
+    },
+    {
+      "title": "Task difficulty and agent scaling",
+      "items": [
+        {
+          "e": "1️⃣",
+          "q": "How many agents for a level-1 task?",
+          "a": "Button color or copy: **one agent, no plan**, voice prompt only."
+        },
+        {
+          "e": "🔟",
+          "q": "What does a level-10 AWS build look like?",
+          "a": "Full VPC/ECR/ECS/RDS: **plan mode + five sub-agents**, Claude Code Extra High, AWS CLI profile on the machine. Level 5–6 NestJS+auth: plan mode, single strong model (**GPT-5.5 Extra High** for backend)."
+        },
+        {
+          "e": "🔀",
+          "q": "How does he route models by task type?",
+          "a": "**Claude Opus 4.8** for UI design; **GPT-5.5 Extra High** for backend; separate agent for test framework — parallel tracks on non-overlapping scopes."
+        }
+      ]
+    },
+    {
+      "title": "Multi-agent coordination",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "Why run 3+ agents at once?",
+          "a": "\"If you only are working on a singular task, you're **not a really good vibe coder**.\" Parallel API vs UI vs tests; merge conflicts rare when scopes differ. **Git worktrees** help when needed but are often overkill."
+        },
+        {
+          "e": "🚶",
+          "q": "Why always YOLO / bypass permissions?",
+          "a": "\"It allows you to literally just be able to **walk away**\" — 30–60 min on infra provisioning. Deep-dive agents (~**5–10 min** autonomous research) before landing-page implementation."
+        }
+      ]
+    },
+    {
+      "title": "Context tools that cut hallucinations",
+      "items": [
+        {
+          "e": "🎤",
+          "q": "What do Bridge Voice and Bridge Shot do?",
+          "a": "**Bridge Voice**: speak prompts + save history for reuse. **Bridge Shot**: screenshot + arrow annotation into the agent — \"it will cut down on **hallucinations so much**\" (demo: search bar added correctly)."
+        },
+        {
+          "e": "📁",
+          "q": "How should you structure the workspace?",
+          "a": "Monorepo-style parent with **separate project directories** (API, UI, MCP); `@`-reference so agents load the right files. Cross-project refs accelerate greenfield (\"reference Vibe Academy API for **Drizzle ORM** pattern\")."
+        }
+      ]
+    },
+    {
+      "title": "Browser handoff and production reality",
+      "items": [
+        {
+          "e": "🌐",
+          "q": "How does Discord OAuth get set up without manual clicking?",
+          "a": "Agent writes a **handoff prompt** for Comet browser AI → Control Browser → Discord Developer Portal app created automatically; then wire frontend ↔ API."
+        },
+        {
+          "e": "🐛",
+          "q": "What happens when production breaks?",
+          "a": "\"Typically, when you are pushing stuff to production, it **won't necessarily work the first time**.\" Paste logs + screenshots back to the agent → fix pushed to main. Live outcome: Postgres RDS, NestJS auth, Docker/ECR/ECS, Discord OAuth, Vercel UI on bridgebench.ai."
         }
       ]
     }

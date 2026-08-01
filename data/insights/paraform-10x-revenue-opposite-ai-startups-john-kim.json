@@ -2,92 +2,77 @@
   "slug": "paraform-10x-revenue-opposite-ai-startups-john-kim",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "AI made hiring noisier",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **AI increases hiring noise**?",
-          "a": "**5,000 outreach emails per** hire; spam destroys signal; scarcity restores meaning."
+          "e": "📢",
+          "q": "How much harder did outreach get in the AI era?",
+          "a": "Engineers contacted per hire went ~**500–700** (5 years ago) → ~**1,500** (2 years ago) → **~5,000 today**. When every candidate gets **1,000 cold emails**, nothing feels special."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Augment recruiters, don't replace**?",
-          "a": "**paid $50M+ to recruiters;** opposite of \"AI replaces recruiters\" narrative."
+          "e": "💎",
+          "q": "What restores signal when spam is everywhere?",
+          "a": "**Meaning comes from scarcity.** Trust, relationships, and access matter more than another talent-graph search."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Opposite of \"AI replaces recruiters\"",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Trust > talent graph**?",
-          "a": "**finding great engineers is** easy; getting response requires relationship/access."
+          "e": "🤝",
+          "q": "What is Paraform's core product bet?",
+          "a": "**Augment recruiters, don't replace them** — automate ~**70–80%** of grunt work; keep the last ~**20% human touch**. They've paid out **$50M+** to recruiters."
         },
         {
           "e": "🎯",
-          "q": "What should you remember about **Referral bounties failed**?",
-          "a": "**overestimated network size; casual referrers don't return.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Professional recruiters retained**?",
-          "a": "**it's their job, they're connected, financially motivated.**"
+          "q": "Why did referral bounties fail but pro recruiters work?",
+          "a": "Casual referrers **don't know enough candidates** and don't return. Independent recruiters/agencies retain because it's their **job**, they're connected, and they're financially motivated."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Quality over quantity matching**?",
-          "a": "**3–4 curated fits beats infinite choice overload.**"
+          "e": "🔢",
+          "q": "How many candidates should matching surface?",
+          "a": "**3–4 high-fit options**, not 1,000 choices — constrained matching beats infinite choice overload."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Root cause of hard hiring",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **70/20 AI-human split**?",
-          "a": "**automate sourcing/admin; human touch for closing/trust.**"
+          "e": "🔍",
+          "q": "What did founders say the #1 problem was?",
+          "a": "Almost all said **hiring** — at about **$40K/hire**. Five hires/year ≈ a salary equivalent of willingness to pay."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **$40K/hire willingness**?",
-          "a": "**founders validated problem before** building; five hires/year = salary equivalent."
+          "e": "🔐",
+          "q": "Why isn't \"find great engineers\" the real bottleneck?",
+          "a": "Finding talent is easy; **getting a response** requires trust/access. A Meta engineer may ignore a stranger but consider a **trusted friend's** outreach."
+        },
+        {
+          "e": "⛏️",
+          "q": "How deep should you dig before building?",
+          "a": "Surface \"hiring is hard\" → root cause: **trust, access, relationships**. Kim: \"If you think you're going deep you're **probably still not deep enough**.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Dig to root cause**?",
-          "a": "**surface \"hiring is hard\" → why? trust/access/relationships.**"
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **110% problem conviction**?",
-          "a": "**stay in hiring space** through failed pivots; don't idea-hop."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
+      "title": "Founder proof points",
       "items": [
         {
           "e": "🚀",
-          "q": "What should you remember about **3-year horizon urgency**?",
-          "a": "**health scare → prioritize** now; false alarm but mindset stuck."
+          "q": "What proof point unlocked Paraform's seed?",
+          "a": "**Hightouch** had a director of engineering role open **18 months**; Paraform filled it in **1.5 months** → investor intro → seed term sheet **same day**, no pitch deck."
         },
         {
-          "e": "🛡️",
-          "q": "What should you remember about **Hightouch proof point**?",
-          "a": "**18-month open role filled** in 6 weeks → customer-led seed intro."
+          "e": "⏳",
+          "q": "How did a health scare shape Kim's urgency?",
+          "a": "At 18 a lung scare reframed life into **3-year terms**, not 65-year deferral — **finite-horizon urgency** that stuck even after the false alarm."
+        },
+        {
+          "e": "📈",
+          "q": "What scale has that conviction produced?",
+          "a": "Raised **$65M**, **10× revenue in 2025**, customers including Palantir, Rippling, Decagon, and Bridge — by staying in the hiring problem through failed pivots."
         }
       ]
     }

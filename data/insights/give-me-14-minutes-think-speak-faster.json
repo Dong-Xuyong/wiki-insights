@@ -2,72 +2,52 @@
   "slug": "give-me-14-minutes-think-speak-faster",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Two linked problems",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Slow brain → slow mouth**?",
-          "a": "**processing lag causes real-time** formulation failure; both halves need separate drills."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Speed without articulation = mumble**?",
-          "a": "**tongue twisters trip you** up on purpose; clarity and velocity train together."
+          "e": "🐢",
+          "q": "Why do some people speak slowly even when they \"know\" the answer?",
+          "a": "Two separate issues: **mouth can't keep up with thoughts**, or **brain can't formulate in real time**. If processing lags, you can't formulate responses live — so both halves need **separate drills**, not mindset fluff."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Speak faster drills",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **WPM is measurable**?",
-          "a": "**300-word story at 1** minute gives baseline; intentional +10 WPM increments track progress."
+          "e": "👅",
+          "q": "How do tongue twisters help you speak faster without mumbling?",
+          "a": "Use a **top-50 list**; read one **five times**, accelerating each pass. Twisters **trip you up on purpose** so articulation and velocity train together — speed without hardware becomes mumble."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Breathy = slow**?",
-          "a": "**too much air per** word exhausts breath supply; \"ease out\" air, don't push it."
+          "e": "⏱️",
+          "q": "How do you measure and raise your rate of speech?",
+          "a": "Take a **300-word story**, time yourself to **1 minute**, count words spoken, then add ~**10 WPM per session** until you plateau — then return to tongue twisters."
+        },
+        {
+          "e": "🌬️",
+          "q": "How does breath control make you faster?",
+          "a": "Expelling **too much air per word** forces extra breaths and slows you. Practice **S-sound sustain** and counting **1–20 on one breath** with equal energy per number — avoid collapsing into vocal fry."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Think faster drills",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **One breath, many words**?",
-          "a": "**controlled support lets you** speak long stretches without gasping."
+          "e": "📚",
+          "q": "Why do new experts stall on simple questions?",
+          "a": "Slow answers often mean **shallow domain knowledge**. Read **3–5 books** on your specialty so you respond from **understanding**, not memory retrieval."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Understanding beats retrieval**?",
-          "a": "**new hires in a field** stall because they search memory instead of reasoning from depth."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Depth + framework**?",
-          "a": "**expertise alone overwhelms; 321** framework prevents tab-overload when answering loaded questions."
+          "e": "3️⃣",
+          "q": "How does the 3-2-1 framework stop expert brain meltdown?",
+          "a": "Even deep experts melt without structure. Pick **three steps, two types, or the one thing** — e.g. \"record yourself for self-awareness\" — instead of dumping everything. **One powerful answer** beats tab-overload."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **One thing > everything**?",
-          "a": "**give one powerful answer; let follow-ups request more.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Anxiety taxes cognition**?",
-          "a": "**box breathing before stressful** conversations clears the mind for faster thinking."
+          "e": "📦",
+          "q": "What do you do about anxiety taxing cognition?",
+          "a": "Stress **impairs clear thinking**. Prep with diaphragmatic breathing and **box breathing** (Navy SEAL **4-4-4-4**, 3–5 cycles) before high-stakes conversations."
         }
       ]
     }

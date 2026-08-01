@@ -2,57 +2,67 @@
   "slug": "benefits-sauna-deliberate-heat-exposure-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Shell vs core thermoregulation",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Two temperatures always**?",
-          "a": "**shell (skin) and core (viscera/CNS) are** distinct; brain integrates shell signals to drive heat dump or behavioral exit."
+          "e": "🌡️",
+          "q": "Why do you always have two temperatures?",
+          "a": "Across the lifespan you have distinct **shell (skin)** and **core (organs/CNS)** temperatures. Skin TRP channels → spinal dorsal horn → lateral parabrachial → **POA (preoptic area)** drive sweating/vasodilation or amygdala-linked \"get out\" agitation."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **POA is the hub**?",
-          "a": "**preoptic area over roof** of mouth; controls autonomic sweating/vasodilation and amygdala-linked \"get out\" agitation."
+          "e": "⚠️",
+          "q": "What's the hyperthermia warning?",
+          "a": "**CNS neurons don't regenerate** — the safe heat window is narrow versus cold. Sauna is convenience, not magic: hot tub, layered clothing + jog, or wrestler \"plastics\" work if shell + core heat appropriately."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Cardiovascular and longevity dose",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Sitting sauna ≈ cardio**?",
-          "a": "**HR 100–150, plasma volume ↑,** stroke volume ↑; not a substitute for loaded exercise/bone density."
+          "e": "❤️",
+          "q": "How often should you sauna for heart and longevity benefits?",
+          "a": "Protocol: **80–100°C (176–212°F)**, 5–20 min/session. **2–3×/week → 27%** lower cardiovascular mortality vs 1×/week; **4–7×/week → 50%** lower (2018 BMC Medicine, n=1,688). Sitting sauna raises HR ~100–150 but is **not a substitute** for loaded exercise/bone density."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Frequency dose-response**?",
-          "a": "**more sauna sessions/week →** greater cardiovascular and all-cause mortality reduction (confounders controlled)."
+          "e": "🧬",
+          "q": "What cellular longevity pathways does heat trigger?",
+          "a": "**Heat-shock proteins** rescue misfolded proteins. **FOXO3** (DNA repair, senescent-cell clearance) is upregulated with **2–7×/week** heat. Any deliberate heat likely hits multiple mechanisms — there is no protocol \"only for cortisol\" or \"only for FOXO3.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Cortisol, mood, and growth hormone",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **GH requires infrequent shock**?",
-          "a": "**heat adaptation blunts GH spike; once/week or** every 10 days for maximal release; 4×30 min same day is the study protocol."
+          "e": "🧊",
+          "q": "What hot-cold protocol drops cortisol?",
+          "a": "**4× 12 min at ~90°C + 6 min ~10°C** water produced a significant cortisol drop (2021 study). Contrast is the lever — heat alone isn't framed as a cortisol-specific protocol."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Discomfort is the mood feature**?",
-          "a": "**dynorphin from safe-but-uncomfortable heat** primes endorphin system efficiency over time."
+          "e": "📈",
+          "q": "How do you get the big growth-hormone spike?",
+          "a": "**4× 30 min at 80°C same day** (2 hr total), **once/week max** (or ~every 10 days) → **16-fold GH** on day 1; attenuates with heat adaptation. Avoid food **2–3 hr before**; elevated glucose/insulin blunts GH."
+        },
+        {
+          "e": "😌",
+          "q": "Why is the discomfort part of the mood benefit?",
+          "a": "Safe-but-uncomfortable heat releases **dynorphin** (κ receptor) → downstream **μ-opioid receptor upregulation** → elevated baseline mood and amplified joy. \"A little bit of discomfort… is activating pathways that are allowing the **feel-good molecules**… to increase their efficiency.\""
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Timing and hydration",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Evening heat, evening cool**?",
-          "a": "**post-sauna cooling parallels sleep-onset temperature** drop; cold before bed can raise core temp and impair sleep."
+          "e": "🌙",
+          "q": "When should you heat for sleep?",
+          "a": "**Evening/later-day** heat aids post-exit cooling that parallels sleep-onset temperature drop (and supports GH). Cold right before bed can **raise core temp** and impair sleep."
+        },
+        {
+          "e": "💧",
+          "q": "How much should you rehydrate after sauna?",
+          "a": "About **16 oz water per 10 min** in sauna; add electrolytes as needed. Treat heat sessions as real fluid loss, not optional sweat."
         }
       ]
     }

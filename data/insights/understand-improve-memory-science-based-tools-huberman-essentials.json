@@ -2,77 +2,67 @@
   "slug": "understand-improve-memory-science-based-tools-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "What memory actually is",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Repetition works at the circuit level**?",
-          "a": "**each repeat strengthens the** same neuron chain; the bottleneck is time/patience, not mechanism."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Adrenaline is the memory stamp**?",
-          "a": "**ice-water arm after boring text** → retention equal to emotional material; block epinephrine → effect vanishes."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Timing inversion**?",
-          "a": "**most people caffeinate *before* learning;** optimal is late in session or immediately after (absorption lag matters)."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Calm encode, spike consolidate**?",
-          "a": "**high attention + low** baseline adrenaline during study; acute stress *after* encodes."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Don't double-spike**?",
-          "a": "**espresso + alpha-GPC during work** *and* cold shower after = flattened delta = worse memory."
-        },
         {
           "e": "🧠",
-          "q": "What should you remember about **Medieval river dunk**?",
-          "a": "**historical practice of post-event adrenaline to lock memories (Neuron review**: *Mechanisms of Memory Under Stress*)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Exercise is not optional for memory**?",
-          "a": "**zone-2 cardio minimum; bones** signal brain via osteocalcin; still need cognitive challenge too."
+          "q": "How does Huberman define memory in one line?",
+          "a": "Memory is a **bias in which perceptions get replayed** later — only a subset of sensory input becomes durable recall. Repetition strengthens the same **A→B→C→D** neuron chain."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Volitional framing beats passive looking**?",
-          "a": "**choosing to photograph (or blink-snapshot)** stamps visual memory even if you never review the photo."
+          "e": "⚡",
+          "q": "How can one trial beat endless repetition?",
+          "a": "A **post-learning adrenaline spike** (McGaugh/Cahill) can stamp both positive and negative events in **one trial** — neurochemicals strengthen connections by making them active just once."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Calm encode, spike after",
       "items": [
+        {
+          "e": "🧊",
+          "q": "What is the core learning protocol here?",
+          "a": "Stay **calm yet focused during learning**, then spike adrenaline **immediately after** in a **5–15 min** window — cold water, hard run, or caffeine taken **late** in the session, not before."
+        },
+        {
+          "e": "📈",
+          "q": "Is absolute adrenaline what matters?",
+          "a": "No — it's the **adrenaline delta**: change vs the **1–2 hour prior** baseline. Chronic elevation during *and* after learning backfires; don't stack espresso + alpha-GPC during work **and** a cold shower after."
+        }
+      ]
+    },
+    {
+      "title": "Exercise, photos, and meditation",
+      "items": [
+        {
+          "e": "🚴",
+          "q": "How much cardio supports memory biology?",
+          "a": "**180–200 min/week zone-2** cardio supports **dentate gyrus neurogenesis**, and load-bearing movement signals the brain via **osteocalcin** — still pair it with cognitive challenge."
+        },
+        {
+          "e": "📸",
+          "q": "Does taking a photo help even if you never look at it?",
+          "a": "Yes for encoding: **volitional framing** (camera or eyelid-blink mental snapshot) stamps visual memory better than passive looking — even without later review."
+        },
+        {
+          "e": "🧘",
+          "q": "What meditation dose improved attention and memory?",
+          "a": "Wendy Suzuki protocol: **13 min/day** body-scan/breath focus for **8 weeks** — benefits show at 8 weeks, **not** at 4."
+        }
+      ]
+    },
+    {
+      "title": "Sleep and déjà vu",
+      "items": [
+        {
+          "e": "😴",
+          "q": "Should you NSDR right after the adrenaline spike?",
+          "a": "Post-learning you want **alertness**, not NSDR. Sleep/naps still consolidate circuits **hours later** — that's fine and expected."
+        },
         {
           "e": "🔄",
-          "q": "What should you remember about **Déjà vu = partial pattern replay**?",
-          "a": "**hippocampal ensemble reactivated out** of original temporal order → familiarity without full context."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Meditation is slow-burn**?",
-          "a": "**13 min daily body-scan/breath** focus; benefits at 8 weeks, not 4."
+          "q": "What is déjà vu at the neural level?",
+          "a": "Tonegawa/Mayford: the same hippocampal ensemble reactivates in a **scrambled sequence** — familiarity without full context (**partial pattern replay**)."
         }
       ]
     }

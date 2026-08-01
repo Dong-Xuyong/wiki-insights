@@ -2,87 +2,72 @@
   "slug": "matt-pocock-ai-coding-workflow-workshop",
   "sections": [
     {
-      "title": "Full Walkthrough",
+      "title": "Constraints: smart zone & amnesia",
       "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Smart zone ~100K**?",
-          "a": "**1M context windows mostly add** more dumb zone; retrieval OK, coding not; status line essential (aihero.dev article)."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Session anatomy**?",
-          "a": "**system prompt (keep tiny) →** explore → implement → test; clearing beats compacting for predictable resets."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **Grill Me live**?",
-          "a": "**sub-agent explore burns ~94K in isolation; parent** stays lean; 22–100+ alignment questions; shared design concept (Brooks, *Design of Design*) beats reading plans."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **Don't read the PRD**?",
-          "a": "**after grilling you're testing** summarization only; Matt skips review intentionally."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
-        {
-          "e": "⚡",
-          "q": "What should you remember about **Vertical slices**?",
-          "a": "**AI codes horizontally (DB → API → UI);** tracer bullets give feedback before phase 3; first slice must span schema + service + minimal UI."
-        },
         {
           "e": "🧠",
-          "q": "What should you remember about **Ralph AFK loop**?",
-          "a": "**once.sh cats all issue markdown** + last 5 commits; permission accept-edits; human exits loop at implementation."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **TDD anti-cheat**?",
-          "a": "**failing test first; separate review context** = smart zone reviewer; feedback loops are the ceiling on AI output quality."
+          "q": "How big is the real \"smart zone\" for coding agents?",
+          "a": "About **~100K tokens** regardless of a 1M nominal window — larger windows mostly add more **dumb zone**. Retrieval can use the rest; coding quality can't. Prefer **`/clear`** over compacting sediment."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Deep modules**?",
-          "a": "**Ousterhout *Philosophy of Software Design*; shallow modules** = untestable graph; design interfaces, delegate implementation (gray boxes) to retain codebase mental model."
+          "e": "🎬",
+          "q": "What does a healthy session look like anatomically?",
+          "a": "Tiny **system prompt** → explore → implement → test. Clearing beats compacting for predictable resets; a status line is essential for watching the smart zone."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Seven-phase shipping pipeline",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Sand Castle parallel**?",
-          "a": "**Sonnet implementer + Opus reviewer;** worktrees in Docker; planner picks parallelizable issues from blocking graph."
+          "e": "1️⃣",
+          "q": "What are the seven phases from vague Slack brief to shipped feature?",
+          "a": "(1) **Grill Me** for shared design concept; (2) **PRD** as destination; (3) **Kanban/issues** as journey with vertical slices; (4) **AFK Ralph loop**; (5) **TDD** red-green-refactor; (6) human **QA for taste**; (7) **deep modules** + architecture skill."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Doc rot**?",
-          "a": "**closed PRDs mislead agents when** code diverges; prefer closing GitHub issues over keeping stale markdown."
+          "e": "🔥",
+          "q": "Why Grill Me instead of reading a plan?",
+          "a": "A sub-agent explore can burn ~**94K** in isolation while the parent stays lean; **22–100+** alignment questions build a shared design concept (Brooks) — after grilling, reviewing the PRD mostly tests summarization."
         }
       ]
     },
     {
-      "title": "Further takeaways 6",
+      "title": "Vertical slices, TDD & AFK",
       "items": [
         {
-          "e": "🚀",
-          "q": "What should you remember about **Frontend prototypes**?",
-          "a": "**throwaway routes for 3 clickable UI** options; feed winner into grilling; Playwright/browser MCP not mature enough for taste QA."
+          "e": "🎯",
+          "q": "Why tracer-bullet vertical slices instead of horizontal layers?",
+          "a": "AI defaults to **horizontal** coding (DB → API → UI). **Tracer bullets** give feedback before phase 3 — the first slice must span **schema + service + minimal UI**."
+        },
+        {
+          "e": "🔴",
+          "q": "How does TDD stop agents from cheating?",
+          "a": "Write a **failing test first**; use a **separate review context** so the reviewer stays in the smart zone. Without feedback loops you will **never** get decent AI output."
+        },
+        {
+          "e": "🌙",
+          "q": "What runs in the Ralph AFK loop?",
+          "a": "`once.sh` cats all **issue markdown** + last **5 commits**; permission accept-edits; the human exits the loop at implementation. Alignment stays **human-in-the-loop**; implementation can be AFK."
+        }
+      ]
+    },
+    {
+      "title": "Architecture, Sand Castle & taste",
+      "items": [
+        {
+          "e": "📦",
+          "q": "What codebase shape helps agents most?",
+          "a": "**Deep modules** (Ousterhout): design interfaces, keep a mental model of gray-box implementation. Shallow modules become an **untestable graph**. Prefer closing GitHub issues over stale PRDs to avoid **doc rot**."
+        },
+        {
+          "e": "🏰",
+          "q": "How does Sand Castle parallelize work?",
+          "a": "Planner picks parallelizable issues from a **blocking DAG** → sandbox worktrees → **Sonnet** implementers → **Opus** reviewer → merger. Implementers **pull** skills; reviewers get standards **pushed**."
+        },
+        {
+          "e": "🎨",
+          "q": "Where does human taste still belong?",
+          "a": "**QA imposes your opinions** back on the codebase — automation without taste produces **slop**. One takeaway: buy the old software books (*Pragmatic Programmer*, Ousterhout)."
         }
       ]
     }

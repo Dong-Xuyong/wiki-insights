@@ -2,77 +2,52 @@
   "slug": "fable-5-karpathy-llm-wiki-cheating-nate-herk",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Why the wiki feels like cheating",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **5-minute bootstrap**?",
-          "a": "**Obsidian vault → open in VS Code →** paste Karpathy gist + screenshot → \"You are now my LLM wiki agent\" → schema + first ingest."
+          "e": "👑",
+          "q": "What beats dumping everything into raw chat context?",
+          "a": "**Data + routing.** Once transcripts, PDFs, and articles live in **`raw/`** and get ingested into **`wiki/`** with **`index.md` + `log.md`**, agents crawl backlinks instead of burning tokens on blind search. Nate's line: **\"Data is king. Context is king.\"**"
         },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Multiple vaults inside one AIOS**?",
-          "a": "**topic-separated wikis (YouTube vs meetings)** each with own rules; Herk2 routes agents to the right vault."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
-      "items": [
-        {
-          "e": "📊",
-          "q": "What should you remember about **wiki flat vs structured folders**?",
-          "a": "**YouTube wiki uses concepts/entities/sources/tools subfolders; meeting** wiki stays flat until patterns emerge; flat = easier agent search at small scale."
-        },
-        {
-          "e": "🎯",
-          "q": "What should you remember about **raw/ immutable → wiki/ LLM-owned**?",
-          "a": "**one source may spawn** 5–50 pages; index + log let agents navigate incrementally."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 3",
-      "items": [
         {
           "e": "⚡",
-          "q": "What should you remember about **Obsidian = human IDE only**?",
-          "a": "**agents read the same** markdown; graph view optional for browsing backlinks."
-        },
-        {
-          "e": "🧠",
-          "q": "What should you remember about **Fable for ambitious synthesis, Opus/Sonnet fine for ingest**?",
-          "a": "**Fable overkill for setup;** better for post-data creative outputs (HTML maps, branded dashboards)."
+          "q": "How fast can you bootstrap a Karpathy LLM wiki?",
+          "a": "About a **5-minute setup**: Obsidian vault → open in VS Code → paste Karpathy's gist + screenshot → \"You are now my LLM wiki agent\" → schema + first ingest. Live demo: PDF + URL → ~**10–12 min** → **~20 cross-linked wiki pages**."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Structure and routing",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Fable subscription note**?",
-          "a": "**limited window until July 7 2026 then** usage credits; Thor tweet says Anthropic plans to restore as subscription benefit (no date)."
+          "e": "📁",
+          "q": "Should every vault use the same folder layout?",
+          "a": "No. Nate's **YouTube wiki** uses structured subfolders (sources, concepts, entities, tools, techniques); his **meeting wiki** stays **flat** until patterns emerge — flat is easier for agent search at small scale. **`raw/` is immutable; `wiki/` is LLM-owned** (one source may spawn **5–50 pages**)."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Tool-agnostic markdown**?",
-          "a": "**connect hermes agent, Codex,** or any agent; wiki is just files + routing rules."
+          "e": "🔀",
+          "q": "How do multiple wikis fit inside one AIOS?",
+          "a": "Topic-separated vaults nest inside **Herk2**; **`CLAUDE.md` acts as a router** so agents land in the right vault without token-wasting search. Obsidian is the **human IDE** — agents read the same markdown; graph view is optional browsing."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Fable vs Opus and synthesis payoff",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Batch vs guided ingest**?",
-          "a": "**batch works but review** folder structure; update AGENTS.md rules if organization feels wrong."
+          "e": "🎨",
+          "q": "When should you reach for Fable instead of Opus?",
+          "a": "Same wiki backend: **Fable** one-shotted a beginner-friendly HTML concept map and a branded **6-month business visual journey** from Herk2 data; **Opus** needed a full day and still felt confusing. Fable is overkill for setup; better for **ambitious post-data synthesis**. Opus/Sonnet are fine for ingest."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Free course**?",
-          "a": "**full Build Your Own** AIOS course in ai automation society Skool (link in description)."
+          "e": "🔗",
+          "q": "What's the killer feature of cross-source wiki synthesis?",
+          "a": "Cross-links surface comparisons you'd miss in separate summaries — e.g. **frontier model cyber security** where OpenAI benchmarked against a **Mythos preview** while Anthropic compared to an **April predecessor**, with **different harnesses** so numbers don't line up."
+        },
+        {
+          "e": "🛠️",
+          "q": "Is the wiki locked to Claude Code?",
+          "a": "No — it's **tool-agnostic markdown** with routing rules. Connect Hermes, Codex, or any agent. Batch ingest works if you review folder structure and update **`AGENTS.md`** when organization feels wrong. Free Build Your Own AIOS course lives in **AI Automation Society** Skool."
         }
       ]
     }

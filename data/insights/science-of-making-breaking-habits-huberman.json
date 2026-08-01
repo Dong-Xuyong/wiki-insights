@@ -2,77 +2,62 @@
   "slug": "science-of-making-breaking-habits-huberman",
   "sections": [
     {
-      "title": "The Science of Making & Breaking Habits",
+      "title": "What habits really are",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Habits ≠ reflexes**?",
-          "a": "**Reflexes are hard-wired (blink,** withdraw from heat); habits are neuroplasticity-driven learned sequences."
+          "e": "🔁",
+          "q": "How much of waking life is habitual, and are habits reflexes?",
+          "a": "Up to **~70% of waking behavior** is habitual. Habits are **learned via neuroplasticity**, not hard-wired reflexes (blink, heat withdraw). Timelines vary wildly — Lally: **18–254 days**, average ~**66**."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Limbic friction is measurable**?",
-          "a": "**Too alert/anxious OR too** tired/unmotivated both block execution; match habit difficulty to phase neurochemistry."
+          "e": "🔥",
+          "q": "What is limbic friction and why does it decide success?",
+          "a": "**Limbic friction** is the activation energy to override being too **anxious/alert** or too **tired/unmotivated**. Habit strength = **context dependence** + ongoing friction; the goal is **automaticity** in basal ganglia circuits."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Linchpins and mental setup",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Linchpin habits must be enjoyable**?",
-          "a": "**Only habits you like** can reliably pull harder habits along."
+          "e": "⚓",
+          "q": "Which habits should you install first?",
+          "a": "**Linchpin habits** you actually enjoy — they cascade into harder ones (exercise → sleep, hydration, food). Only liked anchors reliably pull the rest."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Context dependence reveals depth**?",
-          "a": "**Strong habits survive travel,** schedule shifts; weak ones collapse outside home routine."
+          "e": "🎬",
+          "q": "What should you do before executing a new habit?",
+          "a": "Use **procedural-memory visualization**: mentally walk the **full step sequence** once (Hebbian/NMDA priming). Pair with **task-bracketing** — mark the whole start/stop envelope, not just the hard middle."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Phase-based habit plan",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Scheduling time < anchoring state**?",
-          "a": "**Rigid \"10 AM every day\" breaks** under context change; phase windows (0–8 h after wake) flex while preserving neurochemical support."
+          "e": "🌅",
+          "q": "When should you schedule high-friction habits?",
+          "a": "**Phase 1** (0–8 h after waking): elevated norepinephrine/dopamine/cortisol — put **hard habits** here. Phase 2 (9–14/15 h): mellow habits. Phase 3 (16–24 h): sleep/consolidation. **State beats clock** — rigid \"10 AM\" fails long-term."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Phase 1 for hard habits**?",
-          "a": "**Leverage natural norepinephrine/dopamine/cortisol elevation +** sunlight/exercise/cold/caffeine/fasting to override friction on the behaviors you resist most."
+          "e": "✨",
+          "q": "How should you use dopamine around a habit?",
+          "a": "**Dopamine spotlighting**: treat dopamine as **motivation/drive**, not pleasure. Apply reward-prediction honesty across the **full time envelope** (before, during, after) — anticipate shoes → door → run → meal, not only the misery mid-run."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "21-day system and breaking bad habits",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Phase 3 for consolidation**?",
-          "a": "**Sleep-dependent neuroplasticity; low light, lower** body temp, NSDR/yoga nidra for habits that require calm (not high-friction work)."
+          "e": "📅",
+          "q": "How does Huberman's 21-day habit system work?",
+          "a": "Pick **6 target habits/day for 21 days**; expect **4–5 completions** (permission to miss). Days **22–28** test without tracking. Missteps → restart the **21-day block for that habit only** — you're training the **meta-habit** of doing habits."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Task-bracketing + dopamine spotlight**?",
-          "a": "**Positively anticipate the whole sequence (shoes → door** → run → hunger → meal), not just the miserable middle; honest about difficulty, reward the envelope."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **21-day system trains meta-habit**?",
-          "a": "**Missing 1–2 of 6 daily** targets is feature, not failure; tests automaticity days 22–28 without the list."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Breaking habits**?",
-          "a": "Long-term synaptic depression; insert **positive cargo** immediately after the unwanted behavior; avoid notification-based reminders."
+          "e": "♻️",
+          "q": "What's the best way to break an unwanted habit?",
+          "a": "Use **positive cargo**: immediately after the bad habit, insert an easy **replacement positive behavior** and let **synaptic depression** weaken the old path over time. Notification reminders alone don't work."
         }
       ]
     }

@@ -2,62 +2,72 @@
   "slug": "ben-felix-rich-is-simple-doac",
   "sections": [
     {
-      "title": "Stock Expert",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Execution > strategy**?",
-          "a": "**index fund + don't** look beats clever tactics for most people."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Earn first**?",
-          "a": "**human capital and skill-market fit often dominate frugality.**"
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
+      "title": "Investing has been solved",
       "items": [
         {
           "e": "📊",
-          "q": "What should you remember about **Young save less?**?",
-          "a": "**lifecycle research**: save more at higher income; pressure to save early can be suboptimal but risks bad habits."
+          "q": "If getting rich from investing is simple, why won't most people do it?",
+          "a": "\"Investing's been solved. We're going to use **index funds**. That's it. The hard part is actually **doing that**.\" Psychology and life design beat stock-picking. People who know \"just enough to hurt themselves\" underperform those who keep it simple."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **House ≠ investment**?",
-          "a": "**consumption asset with unrecoverable** costs; 5% rule + PWL calculator."
+          "e": "🙈",
+          "q": "Does checking your portfolio more often help?",
+          "a": "No — academic finding: **more portfolio checks → less risk taken → lower returns**. Felix's parable: lose the password. Control plan, goals, allocation, emergency fund, and tax — **not market timing**."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Goals before tactics",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **100% stocks debate**?",
-          "a": "**academic challenge to bond** glide paths for long horizons."
+          "e": "🧭",
+          "q": "How should you set financial goals that aren't just \"more money\"?",
+          "a": "Use **PERMA** (Positive emotion, Engagement, Relationships, Meaning, Accomplishment) plus categorical prompts for higher-quality goals. Run the Ferrari **hedonic treadmill** test before optimizing for status purchases."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Cash under mattress**?",
-          "a": "**3% inflation halves purchasing power in ~20 years.**"
+          "e": "☕",
+          "q": "What's the real cost of a $10 coffee in Felix's framing?",
+          "a": "At ~7% over 40 years, **$10 today ≈ $150** in future compounding. \"You better really enjoy the coffee.\" Balance spending joy against **future compounding** deliberately."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Top mistakes and housing math",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Control the controllables**?",
-          "a": "**plan, goals, allocation, emergency fund, tax** — not market timing."
+          "e": "⚠️",
+          "q": "What's the #1 mistake before frugality even matters?",
+          "a": "**Not earning enough** — human capital, rare complementary skills, and market/industry choice often dominate (e.g. biotech writer **5× pay**). Other big misses: wrong risks (stock picking/options/crypto), tax/estate planning, partner money personality, and under-insuring (term life + disability)."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Advisor industry**?",
-          "a": "**car-dealership sales culture; referral** doesn't guarantee quality (investment advisor incentive mismatch overlap)."
+          "e": "🏠",
+          "q": "How do you decide rent vs buy without the mortgage-vs-rent trap?",
+          "a": "**5% housing rule**: unrecoverable costs ≈ mortgage interest + equity opportunity cost + property tax (~0.5–1%) + maintenance (~2%+). Monthly break-even rent ≈ price × 5% ÷ 12 (**$300K → $1,250/mo**). Controlled studies show **no owner happiness advantage**; buy for risk aversion, long tenure, priced-out fear, or primary-residence tax treatment."
+        }
+      ]
+    },
+    {
+      "title": "Allocation controversy and products to skip",
+      "items": [
+        {
+          "e": "📈",
+          "q": "Why does Felix challenge the bond glide path?",
+          "a": "Bootstrap sim across **39 countries since 1890** finds **100% global equities** (≈⅓ domestic, ⅔ international) often optimal vs target-date bonds. Bonds got crushed in high inflation. Cash under a mattress: **3% inflation halves** purchasing power in ~20 years."
+        },
+        {
+          "e": "🚫",
+          "q": "Which \"smart\" products should most people avoid?",
+          "a": "Skip **covered-call ETFs** (capped upside), **thematic ETFs** launched at peaks (AI/cannabis/EV), and high-fee private-access products. Fees compound silently. No crypto at PWL; don't reallocate a diversified portfolio just because of crises."
+        }
+      ]
+    },
+    {
+      "title": "Partners and behavior",
+      "items": [
+        {
+          "e": "💑",
+          "q": "How do money personalities wreck relationships?",
+          "a": "**Tightwad–spendthrift mismatch** (Carnegie Mellon/Michigan quiz): opposites marry → more money conflict. Prenups as \"default government will\" analogy. Women often outperform men investing via **less overtrading** (Fidelity/Warwick/UC Berkeley findings) — \"Give your money to your wife.\""
         }
       ]
     }

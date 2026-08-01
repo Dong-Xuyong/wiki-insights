@@ -2,92 +2,67 @@
   "slug": "how-to-speak-better-than-99-percent-complete-framework",
   "sections": [
     {
-      "title": "Core insights",
-      "items": [
-        {
-          "e": "💡",
-          "q": "What should you remember about **Three-tier diagnostic**?",
-          "a": "**voice + body + words determine** rookie / pretty good / natural; use it to self-locate before practicing."
-        },
-        {
-          "e": "🔑",
-          "q": "What should you remember about **Unconscious incompetence**?",
-          "a": "**most people are rookies** because they don't know what they're doing wrong."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 2",
+      "title": "Three communication tiers",
       "items": [
         {
           "e": "📊",
-          "q": "What should you remember about **Rookie voice**?",
-          "a": "**flat delivery (one speed/pitch/volume/emotion);** vocal fry; filler words every breath → unsure, unclear, unconfident."
+          "q": "How do listeners unconsciously rank every speaker?",
+          "a": "Into **rookie**, **pretty good**, or **natural** — judged on **voice, body language, and words**. Diagnose yourself on that map before practicing random tips."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Brilliant ≠ great communicator**?",
-          "a": "**Zuckerberg/Musk/Altman can succeed without polish; mere mortals cannot.**"
+          "e": "🪞",
+          "q": "Are bad communicators \"bad people,\" or something else?",
+          "a": "*\"You're not a bad communicator. You just have **bad communication habits**.\"* Tiers are **habits, not identity** — Vinh's ESL/refugee arc proves the future version is trainable."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Rookie traps",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Rookie body**?",
-          "a": "**no expression, bad posture,** awkward eye contact; behaviors are changeable habits."
+          "e": "🔇",
+          "q": "What does rookie voice and body usually look like?",
+          "a": "**Flat delivery** (one speed/pitch/volume/emotion), **vocal fry**, fillers every breath, **no expression**, bad posture, awkward eye contact — listeners decode meaning for you."
+        },
+        {
+          "e": "📝",
+          "q": "What's a fast self-awareness audit?",
+          "a": "Record a **2-min answer** to *\"Why improve communication?\"*, **transcribe** it, then audit **fillers, clarity, and repetition**. Most rookies live in **unconscious incompetence**."
         },
         {
           "e": "🧠",
-          "q": "What should you remember about **Rookie words**?",
-          "a": "**no structure, circles, winging** it; listener does all cognitive work."
+          "q": "Can brilliant people still sound like rookies?",
+          "a": "Yes — Vinh cites **Zuckerberg / Musk / Altman** succeeding despite rough delivery. **Mere mortals cannot** lean on brilliance alone; polish is the equalizer."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "Pretty good → natural",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Self-awareness exercise**?",
-          "a": "**record 2-min answer to** \"Why improve communication?\"; transcribe (Gemini); audit fillers, clarity, repetition."
+          "e": "🎹",
+          "q": "What keeps \"pretty good\" speakers stuck in the middle?",
+          "a": "They have more range but **play it safe** — limited **gesture vocabulary**, **non-functional body language**, and **fear of judgment**. Rebut with the **spotlight effect**: people think about themselves, not you."
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Range scale**?",
-          "a": "**rookies use a sliver; pretty-good** uses more but stays in the middle; naturals use full range."
+          "e": "🚶",
+          "q": "When should you move on stage or in a room?",
+          "a": "**Only move with purpose.** If there's no reason, don't move — stillness is a pro tool. Mark Manson's repetitive pacing is called out as **non-functional** movement."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Natural toolkit",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Play at the edges**?",
-          "a": "**Alex Hormozi with Tony Robbins vs Diary of a CEO**: same person, more range = \"version I've never seen.\"."
+          "e": "🎙️",
+          "q": "What does natural-tier voice actually control?",
+          "a": "All **five vocal foundations** at once: **rate, volume, pitch, tonality, pause**. Face must **sync** with voice — emotion heard but not seen (or RBF) means the audience won't feel it."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **Fear of judgment trap**?",
-          "a": "**keeps pretty-good speakers safe; spotlight effect rebuttal**: people think about themselves, not you."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Only move with purpose**?",
-          "a": "**Mark Manson stage pacing** as non functional body language; stillness is a pro tool."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Frameworks as filters**?",
-          "a": "**PREP, STAR, 321, PARA, PEEL** distill thinking so listeners don't follow your raw thought process."
+          "e": "🧩",
+          "q": "How do naturals structure words beyond winging it?",
+          "a": "Layer **frameworks** (PREP, STAR, **321**, PARA, PEEL) with **stories, analogies, props, and activities** so listeners don't follow your raw thought process — like the \"read more books\" army/exercise demo."
         }
       ]
     }

@@ -2,77 +2,72 @@
   "slug": "nervous-system-enhance-immune-system-huberman-essentials",
   "sections": [
     {
-      "title": "Core insights",
+      "title": "Three layers of immune defense",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Three immune layers**?",
-          "a": "**(1) physical barrier (skin + mucus-lined openings), (2) innate** rapid response (white blood cells, neutrophils, macrophages, NK cells, complement proteins), (3) adaptive slower targeted response (B/T cells, antibodies, memory)."
+          "e": "🛡️",
+          "q": "What are the three main immune layers Huberman outlines?",
+          "a": "(1) **Physical barrier** — skin + mucus-lined openings; (2) **innate** rapid response (neutrophils, macrophages, NK cells, complement); (3) **adaptive** slower targeted response (B/T cells, antibodies, memory)."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Mucus is a filter**?",
-          "a": "**traps/kills pathogens; site-specific microbiomes (eyes,** mouth, nose, gut segments differ); nasal breathing filters better than mouth breathing."
+          "e": "👃",
+          "q": "Why prefer nasal breathing for immunity?",
+          "a": "**Mucus is a filter** that traps/kills pathogens; site-specific microbiomes differ by eye/mouth/nose/gut. \"Whenever possible… you want to be **nasal breathing**, not breathing through your mouth.\" Also avoid touching eyes after surfaces."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Prevention and sickness behavior",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **Fermented foods = mucosal defense**?",
-          "a": "**2–4 low-sugar servings/day reduces** cytokine activity; fewer cells \"calling for help.\"."
+          "e": "🥬",
+          "q": "What fermented-food dose supports mucosal defense?",
+          "a": "**2–4 servings/day** of low-sugar fermented foods (sauerkraut, kimchi, natto) support mucosal microbiota and **reduce cytokine activity** — fewer cells \"calling for help.\""
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Sickness behavior is motivated**?",
-          "a": "**not laziness; vagus → hypothalamus → fever** (kills pathogens), photophobia (anterior thalamus → meninges), daytime sleep drive, lethargy, loss of grooming/appetite."
+          "e": "🤒",
+          "q": "Is sickness behavior laziness?",
+          "a": "No — a **motivated state**: vagus → hypothalamus → fever (kills pathogens), photophobia, daytime sleep drive, lethargy, loss of appetite. Fast vagus path vs slow **humoral IL-6/IL-1/TNF** via choroid plexus → cognitive fog."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Zero-cost recovery tools",
       "items": [
+        {
+          "e": "🛏️",
+          "q": "How does foot elevation help when you're sick?",
+          "a": "During early infection, **glymphatic clearance** ramps. Elevate heels ~**12°** (pillows under feet, head below legs) for more **glymphatic washout** during sleep."
+        },
+        {
+          "e": "🌬️",
+          "q": "What is the cyclic hyperventilation protocol at first symptoms?",
+          "a": "**25–30 deep mouth breaths** → exhale hold **15–60 s** → **2–4 rounds** (often framed as 3×25–30). PNAS endotoxin study: ↑ **IL-10**, ↓ TNF-α/IL-6/IL-8, fewer flu-like symptoms via epinephrine — \"zero-cost tool\" bridging nervous and immune systems."
+        },
+        {
+          "e": "✈️",
+          "q": "Why do people get sick on vacation?",
+          "a": "Sustained adrenaline during crunch → **crash on rest** → illness emerges. The breathing tool **mimics short-term immune boost** from the same stress system used for psychological and pathogen combat."
+        }
+      ]
+    },
+    {
+      "title": "Mindset, acupuncture, and symptom relief",
+      "items": [
+        {
+          "e": "🌅",
+          "q": "How does hope affect immune recovery?",
+          "a": "Ayssa Rolls lab: sense of **positive future/hope** → mesolimbic **dopamine** → anti-inflammatory cytokine shift (tumor size, wound healing). \"A sense of hope is a sense of the future… tightly associated with the **dopamine system**.\""
+        },
         {
           "e": "⚡",
-          "q": "What should you remember about **Two sickness signaling speeds**?",
-          "a": "**fast vagus pathway vs slow humoral** cytokines crossing choroid plexus → brain inflammation → poor cognition/memory when deeply ill."
+          "q": "What does electroacupuncture do for inflammation?",
+          "a": "Qiufu Ma lab: hind-limb **electroacupuncture** → ProkR2 fascia neurons → medulla → adrenal catecholamines → **reduced inflammation**."
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **Glymphatic + foot elevation**?",
-          "a": "**during early viral/bacterial infection, glymphatic** clearance ramps; ~12° heel elevation increases washout (pillows under feet)."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 4",
-      "items": [
-        {
-          "e": "💰",
-          "q": "What should you remember about **Cyclic hyperventilation protocol**?",
-          "a": "**25–30 deep mouth breaths → exhale hold 15–60** s → 2–4 rounds; epinephrine drives anti-inflammatory IL-10; same stress system used for psychological and pathogen combat."
-        },
-        {
-          "e": "🏆",
-          "q": "What should you remember about **Vacation sickness**?",
-          "a": "**sustained adrenaline during crunch →** crash on rest → illness emerges; breathing tool mimics short-term immune boost."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 5",
-      "items": [
-        {
-          "e": "🔄",
-          "q": "What should you remember about **Hope = dopamine = immune**?",
-          "a": "**sense of future activates** reward pathway; reduces inflammatory cytokines independent of \"pure biology\" framing."
-        },
-        {
-          "e": "⚖️",
-          "q": "What should you remember about **Spirulina for rhinitis**?",
-          "a": "**2 g algae/day; 65–129 subject** RCTs; improved smell, sleep, work; reduced nasal itching/obstruction; alternative to Sudafed-class meds."
+          "e": "🌿",
+          "q": "What dose of spirulina helps rhinitis?",
+          "a": "**2 grams/day** (not milligrams) — double-blind RCTs (65–129 subjects) improved smell, sleep, work; reduced nasal itching/obstruction — alternative to dehydrating, sleep-disrupting OTC decongestants."
         }
       ]
     }

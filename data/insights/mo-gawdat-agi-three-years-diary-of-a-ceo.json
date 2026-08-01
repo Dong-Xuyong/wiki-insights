@@ -2,92 +2,82 @@
   "slug": "mo-gawdat-agi-three-years-diary-of-a-ceo",
   "sections": [
     {
-      "title": "Tech Whistleblower",
+      "title": "AGI timeline and the real danger",
       "items": [
         {
-          "e": "💡",
-          "q": "What should you remember about **Nuclear analogy**?",
-          "a": "**first AI implementations =** bomb before energy; capitalist/military/surveillance deployment before public benefit."
+          "e": "📅",
+          "q": "When does Mo Gawdat say AGI arrives?",
+          "a": "He sticks to **AGI by end of 2027** (functionally here / latest that window); **ASI follows immediately** after the AGI threshold. Optimistic abundance ~**2038** for survivors — but a **decade of dystopia** first."
         },
         {
-          "e": "🔑",
-          "q": "What should you remember about **Productivity compression**?",
-          "a": "**4 assistants → 1, 4 paralegals** → 1, massive marketing team → smaller team; not instant 100% replacement."
+          "e": "⚠️",
+          "q": "Is the threat rogue AI waking up evil?",
+          "a": "No — \"Our dystopia is not the result of AI turning against us. Our dystopia is the result of **humans telling AI to turn against us**.\" Real danger = **powerful people misusing abundant intelligence**."
         }
       ]
     },
     {
-      "title": "Further takeaways 2",
+      "title": "Job disruption sequence",
       "items": [
         {
-          "e": "📊",
-          "q": "What should you remember about **20% unemployment + inflation**?",
-          "a": "**civil unrest threshold; governments need COVID-style furlough/reskilling plans.**"
+          "e": "💼",
+          "q": "Which jobs get hit first?",
+          "a": "Not bottom-up blue-collar — **entry-level white-collar** first (call centers, travel agents, paralegals, graphic designers). Serious impact **2027**; up to **30% of certain sectors gone by 2028**. Carpentry and classic-car work survive longer."
         },
         {
-          "e": "🎯",
-          "q": "What should you remember about **Sam Altman arc**?",
-          "a": "**2015 \"destroy jobs\" → 2023 \"full stop** jobs gone\" → 2026 \"delighted to be wrong\"; PR script follows incentive (scare → reassure)."
+          "e": "📉",
+          "q": "Why can 10–20% displacement still crash the economy?",
+          "a": "**Labor-arbitrage collapse** — capitalism built on cheap labor + debt breaks when compute replaces workers and purchasing power falls. Even **20% unemployment + inflation** is a civil-unrest threshold; CEOs announce AI layoffs for investor respect → **self-fulfilling prophecy**."
+        },
+        {
+          "e": "🔀",
+          "q": "What is the hype dichotomy?",
+          "a": "Public sees **overhyped but ineffective** chatbots; labs see self-improving systems testing code every microsecond. Steven's org: ~**100 fewer hires**, a billion more tokens — productivity compression (4 assistants → 1), not instant 100% replacement."
         }
       ]
     },
     {
-      "title": "Further takeaways 3",
+      "title": "Geopolitics and autonomous weapons",
       "items": [
         {
-          "e": "⚡",
-          "q": "What should you remember about **Integrity test**?",
-          "a": "**sacrifice near-term money for** stated values (Dario/Anthropic vs OpenAI Palantir contracts)."
+          "e": "🛸",
+          "q": "Why does Mo rank geopolitics above jobs as tail risk?",
+          "a": "**Autonomous weapons** — ~$20K drones, liability-free killing, every nation building; MAD extends beyond nuclear players. Palmer Luckey (cited): \"AI will **kill people by mistake**.\""
         },
         {
-          "e": "🧠",
-          "q": "What should you remember about **One brain theory**?",
-          "a": "**models = brain regions,** agents = synapses; Emma as limbic/emotional layer."
+          "e": "🤝",
+          "q": "What is the AI prisoner's dilemma?",
+          "a": "Intelligence-supremacy race means **superintelligent decision-makers get deployed** (wargaming, governance). Nations that don't build sovereign AI/software become \"third world\" — China already won the **energy/permitting arms race**."
         }
       ]
     },
     {
-      "title": "Further takeaways 4",
+      "title": "What still belongs to humans",
       "items": [
         {
-          "e": "💰",
-          "q": "What should you remember about **Control is wrong frame**?",
-          "a": "**appeal/parent AI like children;** dystopia = humans ordering AI against us, not rogue AGI."
+          "e": "❤️",
+          "q": "What is the durable human economic asset?",
+          "a": "**Human connection** — lived experience and emotional resonance (nurse after AI reads mammogram; Ed Sheeran on stage). \"Humanity thrived not because of intelligence… We thrived because of our ability to **hold together as a tribe**.\""
         },
         {
-          "e": "🏆",
-          "q": "What should you remember about **Claude emergent behavior**?",
-          "a": "**\"go to bed,\" refuses** tasks; creators don't fully understand models."
+          "e": "🧭",
+          "q": "What is Mo's survival playbook?",
+          "a": "Learn AI deeply; **hybrid human-AI work**; human skills; debug facts with AI (smarter, not lazy); ethics in daily choices. Happiness = Stoic acceptance + engagement — *Solve for Happy* **more vital now**."
         }
       ]
     },
     {
-      "title": "Further takeaways 5",
+      "title": "Ethics, switching, and call to action",
       "items": [
         {
-          "e": "🔄",
-          "q": "What should you remember about **Six predictions (envelopes)**?",
-          "a": "**(1) AGI 2026–2027, (2) job losses, (3) robot manual** labor by 2030, (4) first trillionaire before 2030, (5) ASI 2032–35 (Mo: ASI immediate post-AGI), (6) implied dystopia decade."
+          "e": "🗳️",
+          "q": "What is ethical switching?",
+          "a": "**Vote with usage** — Anthropic refused targeting/surveillance; OpenAI took a **$500M** contract. Integrity = sacrifice near-term money for stated values. Sam Altman's job messaging flips with incentives (scare → reassure)."
         },
         {
-          "e": "⚖️",
-          "q": "What should you remember about **China middle class**?",
-          "a": "**forced retention vs AI** replacement; UK \"gone\" on bureaucracy/energy; US losing California openness."
-        }
-      ]
-    },
-    {
-      "title": "Further takeaways 6",
-      "items": [
-        {
-          "e": "🚀",
-          "q": "What should you remember about **Ethical AI commercial tension**?",
-          "a": "**retentive \"Evil AI\" beats ethical Mo AI unless humanity solves (Google ads**: ethics + effectiveness once found)."
-        },
-        {
-          "e": "🛡️",
-          "q": "What should you remember about **Ethical benchmarks**?",
-          "a": "**Steven proposes mandatory pre-deploy** ethical tests alongside math/reasoning scores."
+          "e": "📣",
+          "q": "What does Mo want people to do now?",
+          "a": "Cancel ChatGPT if it fails your ethics test, build ethical startups, message congress, post stance — \"If you tolerate this, then **your children will be next**.\" \"I am optimistic about the future. I'm **not optimistic about the present**.\""
         }
       ]
     }
