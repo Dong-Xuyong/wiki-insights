@@ -86,6 +86,8 @@ body { padding-bottom: env(safe-area-inset-bottom); }
 
 #tab-toggle {
   display: flex;
+  flex: 1;
+  min-width: 0;
   background: var(--bg-soft);
   border-radius: 999px;
   padding: 3px;
@@ -101,11 +103,18 @@ body { padding-bottom: env(safe-area-inset-bottom); }
   padding: 0.4rem 0.95rem;
   border-radius: 999px;
   cursor: pointer;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
 }
 #tab-toggle .seg.active {
   background: var(--bg-raised);
   color: var(--text);
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+/* Three segments plus back and theme buttons get tight on small phones. */
+@media (max-width: 400px) {
+  #tab-toggle .seg { font-size: 0.78rem; padding: 0.4rem 0.5rem; }
 }
 
 #view-root {
@@ -219,6 +228,20 @@ code {
   border-color: color-mix(in srgb, var(--peach) 60%, var(--border));
   box-shadow: var(--shadow);
 }
+.video-card-top {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+}
+.video-card-thumb {
+  flex-shrink: 0;
+  width: 96px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--bg-soft);
+}
+.video-card-body { min-width: 0; flex: 1; }
 .video-card-title {
   font-weight: 650;
   font-size: 0.95rem;
@@ -232,6 +255,41 @@ code {
   font-size: 0.78rem;
   color: var(--text-mute);
 }
+
+/* Concepts panel — links out to Wiki Flashcards */
+.study-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.85rem;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in srgb, var(--peach) 55%, var(--border));
+  background: var(--peach-soft);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.study-cta:active { opacity: 0.85; }
+.concept-grid { display: flex; flex-direction: column; gap: 0.45rem; }
+.concept-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 48px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  color: var(--text);
+  text-decoration: none;
+}
+.concept-chip:hover { border-color: color-mix(in srgb, var(--peach) 60%, var(--border)); }
+.concept-chip:active { opacity: 0.85; }
+.concept-emoji { font-size: 1.1rem; flex-shrink: 0; line-height: 1; }
+.concept-name { font-size: 0.88rem; font-weight: 600; line-height: 1.3; }
 /* Detail */
 .player-wrap {
   position: relative;

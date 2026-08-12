@@ -8,6 +8,10 @@
   const fabShare = document.getElementById("fab-share");
 
   const LOCAL_KEY = "wiki-insights-local-v1";
+  // Sibling app; relative when serving the repo root locally.
+  const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
+    ? "../wiki-flashcards/"
+    : "https://dong-xuyong.github.io/wiki-flashcards/";
   const PIPED = [
     "https://pipedapi.kavin.rocks",
     "https://pipedapi.adminforge.de",
@@ -184,12 +188,24 @@
           .map(
             (v) => `
           <button type="button" class="video-card" data-slug="${esc(v.slug)}">
-            <p class="video-card-title">${esc(v.title)}${
-              v.local ? ` <span class="badge-local">Local</span>` : ""
-            }</p>
-            <div class="video-card-meta">
-              ${v.creator ? `<span>${esc(String(v.creator).replace(/-/g, " "))}</span>` : ""}
-              ${v.duration_min ? `<span>${v.duration_min} min</span>` : ""}
+            <div class="video-card-top">
+              ${
+                v.video_id
+                  ? `<img class="video-card-thumb" src="https://i.ytimg.com/vi/${esc(
+                      v.video_id
+                    )}/mqdefault.jpg" alt="" loading="lazy" decoding="async" />`
+                  : ""
+              }
+              <div class="video-card-body">
+                <p class="video-card-title">${esc(v.title)}${
+                  v.local ? ` <span class="badge-local">Local</span>` : ""
+                }</p>
+                <div class="video-card-meta">
+                  ${v.creator ? `<span>${esc(String(v.creator).replace(/-/g, " "))}</span>` : ""}
+                  ${v.duration_min ? `<span>${v.duration_min} min</span>` : ""}
+                  ${v.conceptCount ? `<span>${v.conceptCount} concepts</span>` : ""}
+                </div>
+              </div>
             </div>
             ${keywordChips(v.keywords)}
           </button>`
@@ -260,6 +276,34 @@
       .join("");
   }
 
+  function renderConceptsHtml(v) {
+    const list = v.concepts || [];
+    if (!list.length) {
+      return `<div class="missing-insights">${
+        v.local
+          ? "Local videos have no wiki concepts yet. Ingest it into the vault to get flashcards."
+          : "No concepts linked to this video yet. Add a <code>## Sources</code> entry on a concept page."
+      }</div>`;
+    }
+    const studyUrl = `${FLASHCARDS_URL}#/v/${encodeURIComponent(v.slug)}`;
+    return `
+      <a class="study-cta" href="${esc(studyUrl)}">
+        Study ${list.length} concept${list.length === 1 ? "" : "s"} &rarr;
+      </a>
+      <div class="concept-grid">
+        ${list
+          .map(
+            (c) => `<a class="concept-chip" href="${esc(
+              `${FLASHCARDS_URL}#/c/${encodeURIComponent(c.slug)}`
+            )}">
+              <span class="concept-emoji">${esc(c.e || "💡")}</span>
+              <span class="concept-name">${esc(c.title)}</span>
+            </a>`
+          )
+          .join("")}
+      </div>`;
+  }
+
   function renderSummaryHtml(v) {
     const paras = (v.summary || "")
       .split(/\n\n+/)
@@ -285,7 +329,11 @@
       b.classList.toggle("active", b.dataset.panel === panel);
     });
     body.innerHTML =
-      panel === "summary" ? renderSummaryHtml(currentVideo) : renderInsightsHtml(currentInsights);
+      panel === "summary"
+        ? renderSummaryHtml(currentVideo)
+        : panel === "concepts"
+          ? renderConceptsHtml(currentVideo)
+          : renderInsightsHtml(currentInsights);
     body.querySelectorAll(".kw-chip").forEach((chip) => {
       chip.addEventListener("click", () => {
         searchQ = chip.dataset.kw || "";
