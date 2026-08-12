@@ -1,7 +1,7 @@
 {
   "generated": true,
-  "videoCount": 170,
-  "insightsCount": 169,
+  "videoCount": 171,
+  "insightsCount": 170,
   "videos": [
     {
       "slug": "10-communication-skills-that-will-make-you-rich",
@@ -861,6 +861,53 @@
         "Healing is under-studied — medicine focuses on disease molecules; continuous repair/wholeness is nature's default",
         "Red light / long COVID — audience questions raised; Picard emphasizes lifestyle foundation over shortcuts",
         "Business = energetic extension — Bartlett: conversation shifted how he thinks about preserving/aiming energy at work"
+      ],
+      "has_insights": true
+    },
+    {
+      "slug": "atomic-habits-james-clear-audiobook",
+      "title": "Atomic Habits by James Clear | Full Audiobook",
+      "video_id": "4r6Vdjx9RqA",
+      "url": "https://youtu.be/4r6Vdjx9RqA",
+      "duration_min": 156,
+      "creator": "james-clear",
+      "tags": [
+        "books",
+        "habits",
+        "behavior-change",
+        "identity",
+        "productivity",
+        "james-clear"
+      ],
+      "keywords": [
+        "books",
+        "habits",
+        "behavior change",
+        "identity",
+        "productivity",
+        "james clear",
+        "systems over goals",
+        "four laws of behavior change",
+        "identity votes from habits",
+        "plateau of latent potential",
+        "habit scorecard",
+        "implementation intention"
+      ],
+      "summary": "~156-minute YouTube narration of james-clear's *Atomic Habits* — the popular systems playbook for behavior change. Core thesis: you do not rise to the level of your goals; you fall to the level of your systems. Tiny habits compound like interest; identity shifts when small actions accumulate as votes for who you are becoming. Progress often hides on the plateau-of-latent-potential until a breakthrough appears after long invisible work.\n\nThe book maps habit loops (cue → craving → response → reward) to the four-laws-of-behavior-change: make it obvious, attractive, easy, satisfying (invert for bad habits). Practical stack: habit-scorecard for awareness; implementation-intention and habit-stacking for cue design; environment redesign over willpower; temptation-bundling for attraction; two-minute-rule and law of least effort for ease; immediate rewards, habit tracking, and never-miss-twice for satisfaction; accountability partners when needed. Later chapters cover talent vs fit (Goldilocks rule), reflection, and lasting results through identity + systems rather than motivation spikes.\n\nCross-corpus: popular OS for identity-votes-from-habits and discipline-as-self-trust; complements Huberman science-of-making-breaking-habits-huberman (limbic-friction, task-bracketing) and Swart habit-change-four-steps-swart with clearer daily tactics.",
+      "key_insights": [
+        "Goals set direction; systems-over-goals produce outcomes — redesign the process",
+        "Habits are identity votes; become the type of person first, then prove it with small wins",
+        "Compound growth + plateau-of-latent-potential: expect a lag before visible results; most quit in the valley",
+        "Four laws ↔ habit loop: obvious/cue, attractive/craving, easy/response, satisfying/reward",
+        "Awareness first: habit-scorecard before optimization",
+        "Point-and-shoot: implementation-intention (\"I will [BEHAVIOR] at [TIME] in [LOCATION]\") and habit-stacking (\"After [CURRENT], I will [NEW]\")",
+        "Self-control is mostly environment design — remove cues; don't rely on constant resistance",
+        "temptation-bundling: pair want-to-do with need-to-do (Milkman)",
+        "two-minute-rule: scale any habit to a 2-minute gateway; motion beats planning-as-delay",
+        "Cardinal rule: what is immediately rewarded is repeated; what is immediately punished is avoided",
+        "never-miss-twice: one miss is an accident; two starts a new (bad) habit",
+        "Goldilocks rule: peak motivation when challenge is just at the edge of ability",
+        "Lasting change = identity + systems + community alignment, not heroic willpower"
       ],
       "has_insights": true
     },
@@ -4315,12 +4362,14 @@
       "duration_min": 66,
       "creator": "",
       "tags": [
+        "books",
         "mindset",
         "self-control",
         "discipline",
         "awareness"
       ],
       "keywords": [
+        "books",
         "mindset",
         "self control",
         "discipline",
@@ -4331,8 +4380,7 @@
         "feeling acting gap",
         "discipline as self trust",
         "focus as self control gatekeeper",
-        "effort outcome detachment",
-        "emotion regulation relationship not removal"
+        "effort outcome detachment"
       ],
       "summary": "~66-minute anonymous mindset audiobook arguing that outer control is a false foundation. People chase better schedules, results, and surroundings while remaining reactive inside; stress and overwhelm return because the chain thoughts → emotions → actions → results is unmanaged. Real control starts by asking how to control *yourself* — not harshly, but with honesty: notice thoughts without obeying them, feel emotions without acting immediately, and practice the pause that creates choice.\n\nEight chapters build one stack. (1) Inner-first control: chaos outside is rarely the real problem; two people face the same workload with different emotional states. (2) Awareness foundation: action without awareness is reaction in disguise; thoughts as events, not commands; name emotions to create distance. (3) Thought mastery: unchecked thinking is destructive; question \"fact vs assumption / useful now / in my control\"; attention feeds thoughts — withdraw attention to weaken them. (4) Emotional control as power: the gap between feeling and acting is freedom; suppress ≠ control; calm is practiced restraint, not personality. (5) Discipline as inner order: reliability over motivation; small kept promises rebuild self-trust; freedom needs structure. (6) Focus as gatekeeper: distraction is surrender; single-tasking, environment design, and lower consumption restore presence. (7) Detach from uncontrollables: effort vs outcome; attachment to results creates suffering; acceptance sharpens response. (8) Controlled life: consistency compounds into a way of being — navigable life, not predictable life; measure success by responses, not only outcomes.\n\nClosing thesis: you don't need to conquer the world to feel powerful — stop losing yourself to it. Apply one resonant principle first; mastery = notice sooner, return faster.",
       "key_insights": [
@@ -5961,12 +6009,14 @@
       "duration_min": 64,
       "creator": "",
       "tags": [
+        "books",
         "mindset",
         "discipline",
         "habits",
         "self-respect"
       ],
       "keywords": [
+        "books",
         "mindset",
         "discipline",
         "habits",
@@ -5977,8 +6027,7 @@
         "identity votes from habits",
         "stop negotiating with excuses",
         "habits reveal future seriousness",
-        "raise personal standards",
-        "own your potential"
+        "raise personal standards"
       ],
       "summary": "~64-minute anonymous mindset audiobook arguing that success begins with a quiet decision: take your own life seriously. No one else will do it for you. \"Soon\" sounds responsible but stretches into years of planning without crossing the line where potential stops being optional. The turning point is not more talent or luck; it is treating your time, promises, and goals as real — not rehearsal.\n\nEight chapters build one stack. (1) Life as main project: stop treating goals like side projects while entertainment gets protected time; schedule and defend important work. (2) Self-respect as behavior: respect is kept promises and standards when nobody watches, not a feeling; broken self-promises erode self-trust. (3) Avoidance and self-handicapping: half-effort preserves a comforting \"I could have\" story; full commitment removes the safety net and forces honest feedback. (4) Quiet discipline and identity: small repeated actions cast votes for who you are; consistency beats dramatic motivation. (5) Stop negotiating with excuses: excuses protect present comfort and steal future progress; act on \"what needs doing now.\" (6) Habits reveal seriousness: routines, not intentions, build the future; modest daily habits compound into identity. (7) Raise personal standards: results rise or fall to what you accept from yourself; high standards become identity, not occasional effort. (8) Own your potential: responsibility for growth ends waiting on perfect conditions; deliberate daily ownership replaces drift.\n\nClosing thesis: success does not begin with talent, luck, or perfect conditions. It begins the day you stop treating your life casually — and from that decision, habits, standards, and identity shift.",
       "key_insights": [
