@@ -8,6 +8,9 @@
   const fabShare = document.getElementById("fab-share");
 
   const LOCAL_KEY = "wiki-insights-local-v1";
+  const PROGRESS_KEY = "wiki-insights-progress-v1";
+  const RESUME_MIN_SEC = 3;
+  const RESUME_END_PAD_SEC = 5;
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -26,6 +29,11 @@
   let panel = "insights";
   let searchQ = "";
   const insightsCache = new Map();
+  let ytApiPromise = null;
+  let ytPlayer = null;
+  let ytPlayerVideoId = null;
+  let ytSaveTimer = null;
+  let ytHasPlayed = false;
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (m) =>
@@ -61,6 +69,178 @@
   }
   function saveLocal() {
     localStorage.setItem(LOCAL_KEY, JSON.stringify({ videos: localVideos, insights: localInsights }));
+  }
+
+  function loadProgressMap() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+      return raw && typeof raw === "object" ? raw : {};
+    } catch {
+      return {};
+    }
+  }
+
+  function getSavedSeconds(videoId) {
+    if (!videoId) return 0;
+    const rec = loadProgressMap()[videoId];
+    const t = rec && typeof rec.t === "number" ? rec.t : 0;
+    return t >= RESUME_MIN_SEC ? Math.floor(t) : 0;
+  }
+
+  function setSavedSeconds(videoId, seconds, { done = false } = {}) {
+    if (!videoId) return;
+    const map = loadProgressMap();
+    if (done) delete map[videoId];
+    else if (seconds < RESUME_MIN_SEC) return;
+    else map[videoId] = { t: Math.floor(seconds), updated: Date.now() };
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+  }
+
+  function formatClock(seconds) {
+    const s = Math.max(0, Math.floor(seconds));
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = s % 60;
+    if (h) return `${h}:${String(m).padStart(2, "0")}:${String(sec).padStart(2, "0")}`;
+    return `${m}:${String(sec).padStart(2, "0")}`;
+  }
+
+  function paintResumeBar(seconds) {
+    const bar = document.getElementById("resume-bar");
+    const label = document.getElementById("resume-label");
+    if (!bar || !label) return;
+    if (seconds < RESUME_MIN_SEC) {
+      bar.classList.add("hidden");
+      return;
+    }
+    label.textContent = `Resuming from ${formatClock(seconds)}`;
+    bar.classList.remove("hidden");
+  }
+
+  function persistPlayerTime({ done = false } = {}) {
+    if (!ytPlayer || !ytPlayerVideoId) return 0;
+    if (!done && !ytHasPlayed) return 0;
+    try {
+      const t = ytPlayer.getCurrentTime?.();
+      const dur = ytPlayer.getDuration?.() || 0;
+      if (typeof t !== "number" || !Number.isFinite(t)) return 0;
+      const finished = done || (dur > 0 && t >= dur - RESUME_END_PAD_SEC);
+      if (finished) {
+        setSavedSeconds(ytPlayerVideoId, t, { done: true });
+        paintResumeBar(0);
+        return t;
+      }
+      if (t < RESUME_MIN_SEC) return t;
+      setSavedSeconds(ytPlayerVideoId, t);
+      paintResumeBar(t);
+      return t;
+    } catch {
+      return 0;
+    }
+  }
+
+  function stopProgressTimer() {
+    if (!ytSaveTimer) return;
+    clearInterval(ytSaveTimer);
+    ytSaveTimer = null;
+  }
+
+  function destroyPlayer() {
+    persistPlayerTime();
+    stopProgressTimer();
+    if (ytPlayer) {
+      try {
+        ytPlayer.destroy();
+      } catch {
+        /* already gone */
+      }
+      ytPlayer = null;
+    }
+    ytPlayerVideoId = null;
+    ytHasPlayed = false;
+  }
+
+  function ensureYouTubeAPI() {
+    if (window.YT && typeof window.YT.Player === "function") {
+      return Promise.resolve(window.YT);
+    }
+    if (ytApiPromise) return ytApiPromise;
+    ytApiPromise = new Promise((resolve) => {
+      const prev = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = () => {
+        if (typeof prev === "function") prev();
+        resolve(window.YT);
+      };
+      const src = "https://www.youtube.com/iframe_api";
+      if (!document.querySelector(`script[src="${src}"]`)) {
+        const tag = document.createElement("script");
+        tag.src = src;
+        document.head.appendChild(tag);
+      }
+    });
+    return ytApiPromise;
+  }
+
+  function youtubeEmbedSrc(videoId, startAt) {
+    const params = new URLSearchParams({
+      enablejsapi: "1",
+      playsinline: "1",
+      rel: "0",
+      origin: location.origin,
+    });
+    if (startAt >= RESUME_MIN_SEC) params.set("start", String(startAt));
+    return `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
+  }
+
+  function bindResumePlayer(videoId, startAt) {
+    ytPlayerVideoId = videoId;
+    ensureYouTubeAPI().then((YT) => {
+      const el = document.getElementById("yt-player");
+      if (!el || currentVideo?.video_id !== videoId) return;
+      ytPlayer = new YT.Player("yt-player", {
+        events: {
+          onReady(e) {
+            if (startAt >= RESUME_MIN_SEC) {
+              try {
+                e.target.seekTo(startAt, true);
+              } catch {
+                /* first play still uses start= */
+              }
+            }
+          },
+          onStateChange(e) {
+            if (e.data === YT.PlayerState.PLAYING) {
+              ytHasPlayed = true;
+              if (!ytSaveTimer) ytSaveTimer = setInterval(() => persistPlayerTime(), 5000);
+              return;
+            }
+            if (e.data === YT.PlayerState.PAUSED) {
+              persistPlayerTime();
+              stopProgressTimer();
+            } else if (e.data === YT.PlayerState.ENDED) {
+              persistPlayerTime({ done: true });
+              stopProgressTimer();
+            }
+          },
+        },
+      });
+    });
+  }
+
+  function bindResumeBar(videoId) {
+    const restart = document.getElementById("restart-video");
+    if (!restart) return;
+    restart.addEventListener("click", () => {
+      setSavedSeconds(videoId, 0, { done: true });
+      paintResumeBar(0);
+      if (ytPlayer?.seekTo) {
+        try {
+          ytPlayer.seekTo(0, true);
+        } catch {
+          /* ignore */
+        }
+      }
+    });
   }
 
   function allVideos() {
@@ -195,6 +375,7 @@
   }
 
   function renderCatalog() {
+    destroyPlayer();
     setChrome({ title: "Wiki Insights", showBack: false, showTabs: false });
     currentVideo = null;
     currentInsights = null;
@@ -375,21 +556,28 @@
   async function renderDetail(slug) {
     const v = allVideos().find((x) => x.slug === slug);
     if (!v) {
+      destroyPlayer();
       root.innerHTML = `<div class="empty">Video not found.</div>`;
       return;
     }
+    destroyPlayer();
     setChrome({ title: "", showBack: true, showTabs: true });
     currentVideo = v;
     panel = "insights";
+    const startAt = v.video_id ? getSavedSeconds(v.video_id) : 0;
     root.innerHTML = `
       <div class="player-wrap">
         ${
           v.video_id
-            ? `<iframe src="https://www.youtube.com/embed/${esc(v.video_id)}" title="${esc(
+            ? `<iframe id="yt-player" src="${esc(youtubeEmbedSrc(v.video_id, startAt))}" title="${esc(
                 v.title
-              )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>`
+              )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             : `<div class="missing-insights">No video id</div>`
         }
+      </div>
+      <div id="resume-bar" class="resume-bar${startAt ? "" : " hidden"}">
+        <span id="resume-label">${startAt ? `Resuming from ${formatClock(startAt)}` : ""}</span>
+        <button type="button" id="restart-video">Start over</button>
       </div>
       <p class="detail-title">${esc(v.title)}${
         videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
@@ -403,6 +591,10 @@
         navigate("#/");
       });
     });
+    if (v.video_id) {
+      bindResumeBar(v.video_id);
+      bindResumePlayer(v.video_id, startAt);
+    }
     currentInsights = await loadInsights(slug);
     paintDetailBody();
   }
@@ -684,6 +876,10 @@
 
   window.addEventListener("hashchange", () => {
     route();
+  });
+  window.addEventListener("pagehide", () => persistPlayerTime());
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") persistPlayerTime();
   });
 
   loadLocal();

@@ -11,6 +11,7 @@ Live: https://dong-xuyong.github.io/wiki-insights/
 - **Insights** — sectioned emoji Q&A with selective highlighting (`**phrase**`)
 - **Summary** — wiki Summary + key insight bullets
 - **Concepts** — every wiki concept drawn from this video, linking into [Wiki Flashcards](https://dong-xuyong.github.io/wiki-flashcards/), plus a button that studies the whole set as one session
+- **Resume playback** — last pause (and last known time) is saved in your browser per video, so coming back continues where you left off. Use **Start over** to clear it.
 - **Open / create from link** — paste a YouTube URL, or open  
   `https://dong-xuyong.github.io/wiki-insights/?url=https://youtu.be/VIDEO_ID`  
   - If the video is already in the wiki → opens it  
