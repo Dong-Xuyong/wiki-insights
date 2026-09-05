@@ -67,7 +67,35 @@
     const map = new Map();
     for (const v of CATALOG.videos || []) map.set(v.slug, v);
     for (const v of localVideos) map.set(v.slug, { ...v, local: true });
-    return [...map.values()];
+    return [...map.values()].sort((a, b) => {
+      const da = a.updated || a.created || "";
+      const db = b.updated || b.created || "";
+      if (da !== db) return db.localeCompare(da);
+      return String(a.title || "").localeCompare(String(b.title || ""));
+    });
+  }
+
+  function formatUpdated(iso) {
+    const raw = String(iso || "").trim();
+    const m = raw.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return "";
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const month = months[Number(m[2]) - 1];
+    if (!month) return raw;
+    return `${Number(m[3])} ${month} ${m[1]}`;
+  }
+
+  function videoUpdatedLabel(v) {
+    const formatted = formatUpdated(v.updated || v.created);
+    return formatted ? `Updated ${formatted}` : "";
+  }
+
+  function todayIso() {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    return `${y}-${m}-${day}`;
   }
 
   function extractVideoId(input) {
@@ -182,11 +210,12 @@
         <input id="url-input" type="url" placeholder="Paste YouTube link to open or create Insights…" autocomplete="off" />
         <button type="button" id="url-go" class="url-go">Go</button>
       </div>
-      <p class="catalog-meta">${videos.length} videos · click a keyword chip to filter</p>
+      <p class="catalog-meta">${videos.length} videos · newest updates first · click a keyword chip to filter</p>
       <div id="catalog-list">
         ${videos
-          .map(
-            (v) => `
+          .map((v) => {
+            const updated = videoUpdatedLabel(v);
+            return `
           <button type="button" class="video-card" data-slug="${esc(v.slug)}">
             <div class="video-card-top">
               ${
@@ -204,12 +233,13 @@
                   ${v.creator ? `<span>${esc(String(v.creator).replace(/-/g, " "))}</span>` : ""}
                   ${v.duration_min ? `<span>${v.duration_min} min</span>` : ""}
                   ${v.conceptCount ? `<span>${v.conceptCount} concepts</span>` : ""}
+                  ${updated ? `<span>${esc(updated)}</span>` : ""}
                 </div>
               </div>
             </div>
             ${keywordChips(v.keywords)}
-          </button>`
-          )
+          </button>`;
+          })
           .join("")}
       </div>
     `;
@@ -361,7 +391,9 @@
             : `<div class="missing-insights">No video id</div>`
         }
       </div>
-      <p class="detail-title">${esc(v.title)}</p>
+      <p class="detail-title">${esc(v.title)}${
+        videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
+      }</p>
       ${keywordChips(v.keywords, 8)}
       <div id="detail-body"><div class="empty">Loading…</div></div>
     `;
@@ -549,6 +581,8 @@
           .map((it) => it.a.replace(/\*\*/g, "")),
         has_insights: true,
         local: true,
+        updated: todayIso(),
+        created: todayIso(),
       };
 
       localVideos = [video, ...localVideos.filter((v) => v.slug !== slug)];
