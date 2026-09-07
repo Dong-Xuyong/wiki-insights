@@ -1,0 +1,35 @@
+{
+  "slug": "use-sleep-enhance-learning-memory-gina-poe-huberman-essentials",
+  "sections": [
+    {
+      "title": "Sleep you cannot fake",
+      "items": [
+        {
+          "e": "😴",
+          "q": "Why isn't a quiet rest on the sofa a substitute for sleep?",
+          "a": "N1 / N2 / N3 / REM chemistry **cannot be faked awake**. A \"perfect\" night is **~4–5 cycles of ~90 min** (first cycle often **105–110 min**), totaling **7.5–8 hours**."
+        },
+        {
+          "e": "⏰",
+          "q": "What happens if you go to bed later than usual?",
+          "a": "You **miss** the first-cycle window — it is **clock-tied, not delayable**. Early slow-wave sleep is the **GH bolus**, protein synthesis, adenosine→ATP rebuild (~**20 min**), and the **bilge-pump** wash of misfolded proteins."
+        }
+      ]
+    },
+    {
+      "title": "Spindles, REM, emotion",
+      "items": [
+        {
+          "e": "🧵",
+          "q": "What writes last night's learning to long-term storage?",
+          "a": "**Sleep spindles** (N2, 10–15 Hz) write hippocampal \"RAM\" to cortical \"disk.\" If you learned something new and spindles **do not rise**, sleep will not incorporate it. Late-night **REM** sews schema — Poe's account of insight."
+        },
+        {
+          "e": "💔",
+          "q": "Why does anxious pre-sleep make nightmares worse?",
+          "a": "**Locus coeruleus** (norepinephrine) is **fully silent only in REM**, which divorces emotion from the N2 memory. If LC stays on (anxiety, PTSD), REM **re-sews** heart-rate/sweat into the story. Enter sleep **calm**; skip novelty, games, and **alcohol** (REM + spindle suppressant)."
+        }
+      ]
+    }
+  ]
+}

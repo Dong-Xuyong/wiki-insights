@@ -1,9 +1,102 @@
 {
   "generated": true,
-  "videoCount": 177,
-  "insightsCount": 170,
-  "conceptCount": 1659,
+  "videoCount": 188,
+  "insightsCount": 188,
+  "conceptCount": 1789,
   "videos": [
+    {
+      "slug": "americas-bond-market-secretly-collapsing-graham-stephan",
+      "title": "It Started: America’s Bond Market Is Secretly Collapsing",
+      "video_id": "eKzS_xzqYNw",
+      "url": "https://youtu.be/eKzS_xzqYNw",
+      "duration_min": 14,
+      "creator": "graham-stephan",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "personal-finance",
+        "macro",
+        "investing",
+        "bonds",
+        "federal-reserve"
+      ],
+      "keywords": [
+        "personal finance",
+        "macro",
+        "investing",
+        "bonds",
+        "federal reserve",
+        "graham stephan",
+        "Treasury Buybacks",
+        "Ten Year Five Percent Barrier",
+        "Silent Fed Doctrine",
+        "September Effect (Equities)",
+        "Bubble Prick Mechanics",
+        "Dalio Big Cycle"
+      ],
+      "summary": "graham-stephan (~14 min, auto-captions — treat magnitudes as video claims) frames a near-term US Treasury stress as rollover + buyback, not a clean payoff. Starting September 9, he says the Treasury doubles the pace of treasury-buybacks: issue new debt to repurchase older issues because private demand is thinning. The rollover analogy is paying a mortgage with an introductory-rate credit card — long-term holders want ~5% as inflation rises, so the government prefers cheaper short-term paper and, when buyers are scarce, buys the debt itself. He calls that tape over the check-engine light: inflation up, national debt up, fewer willing lenders, buybacks used to artificially hold yields down. The market, in his telling, is already calling the bluff.\n\nThe policy layer is new Fed Chair kevin-warsh at Jackson Hole. Versus Jerome Powell-style forward guidance, Warsh's silent-fed-doctrine is: say nothing, let markets move, then act separately — end the \"hall of mirrors.\" Five points Graham extracts: (1) remain silent; (2) watch the market; (3) get inflation toward objective \"clearly and at a sufficient speed\" (Fed-speak for hikes if needed); (4) the economy can take it (jobless ~4.1%, housing slowing not crashing, financial conditions not \"restrictive\"); (5) AI as a hinge / new factor of production. Markets are pricing >60% odds of a 25 bp hike on September 16, one week after the buyback step-up.\n\nThe watch line is the ten-year-five-percent-barrier: last time the 10-year hit 5% was 2007, which Graham treats as the \"everything is fine\" / \"something breaks\" border. Near-term tape: S&P still slightly up over the last month, national home prices flat, yen-bailout / oil / Middle East noise. Seasonal overlay is the september-effect-equities via ryan-detrick — September historically the weakest month (positive only ~45% of the time; average −0.6%), worse in midterms, then often some of the strongest post-election quarters. Graham's base case: 5–12% chop possible on uncertainty (hikes, oil, ~60 days to a possible Democratic sweep), then smoother if the election result is digested. He is not selling. Personal mix: ~55% stocks / 20% tax-free munis / 10% Bitcoin ETF / rest real estate and other — buy dips, hold the rest. Intro name-drops ray-dalio \"point of no return\"; the body does not actually teach Dalio's cycle. Treat that as a hook, not a Dalio lecture.",
+      "key_insights": [
+        "treasury-buybacks doubling Sept 9: new issuance to retire old debt when private bid is thin",
+        "Rollover = pay long-term holders with cheaper short-term paper (credit-card-on-mortgage analogy)",
+        "Core unresolved stack: rising inflation, surging national debt, fewer Treasury buyers, buybacks used to suppress yields",
+        "silent-fed-doctrine: Warsh refuses Powell-style pre-signaling; markets decide, Fed acts apart",
+        "Inflation still the official job; \"economy is fine\" = ~4.1% jobless, housing slow not crash, credit still available",
+        "AI framed as a hinge point / new factor of production — timing unknown; something can break first",
+        ">60% priced odds of a 25 bp hike Sept 16; Treasury buyback announcement left yields \"pretty much unchanged\"",
+        "ten-year-five-percent-barrier — 10-year at 5% last seen 2007; the line he watches",
+        "september-effect-equities — weak month, tax-loss / vacation / low volume; midterm Septembers especially messy, then historically strong year-after-August-31 midterm stretch (Detrick: 18 of 19 years higher, zero 20%+ drawdowns in that window since 1950)",
+        "Personal stance: balanced, not all-in, not all-out; buy a 5–12% dip, otherwise sit"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "treasury-buybacks",
+          "title": "Treasury Buybacks",
+          "e": "🔁"
+        },
+        {
+          "slug": "ten-year-five-percent-barrier",
+          "title": "Ten-Year Five-Percent Barrier",
+          "e": "🚧"
+        },
+        {
+          "slug": "silent-fed-doctrine",
+          "title": "Silent Fed Doctrine",
+          "e": "🤫"
+        },
+        {
+          "slug": "september-effect-equities",
+          "title": "September Effect (Equities)",
+          "e": "🍂"
+        },
+        {
+          "slug": "bubble-prick-mechanics",
+          "title": "Bubble Prick Mechanics",
+          "e": "💥"
+        },
+        {
+          "slug": "dalio-big-cycle",
+          "title": "Dalio Big Cycle",
+          "e": "🌀"
+        },
+        {
+          "slug": "diversified-all-weather-thinking",
+          "title": "Diversified All-Weather Thinking",
+          "e": "☂️"
+        },
+        {
+          "slug": "concentration-risk-single-asset",
+          "title": "Concentration Risk (Single Asset)",
+          "e": "🎯"
+        },
+        {
+          "slug": "ai-investment-bubble",
+          "title": "AI Investment Bubble",
+          "e": "🫧"
+        }
+      ],
+      "conceptCount": 9
+    },
     {
       "slug": "dhh-future-of-programming-ai-lex-fridman",
       "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
@@ -26,12 +119,12 @@
         "lex fridman",
         "November 24 Inflection",
         "Agentic Phases Driver to Outcome",
-        "human agent bandwidth bottleneck",
-        "linux agent advantage",
-        "programmer overspecification trap",
-        "taste differential evaluation",
-        "agent pr review abundance",
-        "overton window nudging"
+        "Human Agent Bandwidth Bottleneck",
+        "Linux Agent Advantage",
+        "Malleable Agentic OS",
+        "Programmer Overspecification Trap",
+        "Taste Differential Evaluation",
+        "Agent PR Review Abundance"
       ],
       "summary": "Lex Fridman interviews David Heinemeier Hansson (316 min) thirteen months after their previous conversation. DHH says his *opinions* did not change; the *mode* of AI did. Autocomplete and chatbot-tutor AI never replaced hand-chiseled Ruby. Agents did. He dates the break to november-24-inflection (Opus 4.5, ~Nov 24–26, 2025): output close enough to his own code that he stopped treating agents as curiosities. Emotionally he reports 100% joy, not dread. Intellectually he grants displacement risk. The proof artifact is omarchy Quattro: ~3 months of full-throttle agents, zero hand-written shipped code in the last ~2 months, 1,000+ merged PRs, tens of thousands of downloads, a sub-60-second live install.\n\nThe through-line is not \"AI writes code.\" It is who sits in the loop. human-agent-bandwidth-bottleneck: 10×–1000× only appears when a human with taste talks to agents directly. PM/design/VP approval layers absorb the surplus; Microsoft already had endless programmers and still shipped uncompelling software. On greenfield/system work (Omarchy, Omawrite in ~20 minutes) agents can own implementation. On large CRUD products (Basecamp/Hey) an early \"let designers vibe\" sprint destroyed architecture and had to be mopped by hand. DHH's later model of skill is agentic-phases-driver-to-outcome: first you prescribe paths, then you steer, then you state problems and let agents choose routes (GPS analogy). Experienced programmers can be *worse* at the last phase via the programmer-overspecification-trap.\n\nHe hates the marketing term \"agentic engineering\" and dislikes \"vibe coding\" as script-kiddie branding, yet draws a sharp line: vibe coding = ship without reviewing implementation; programming = retain primitive understanding. Linux wins the era because everything is files and CLIs (linux-agent-advantage); Mac/Windows GUI lock-in becomes a caveman-click tax. Open source should treat agent PR floods as abundance (agent-pr-review-abundance). The durable human skill is taste-differential-evaluation (pick among a few options) plus product sense. Later hours cover family as peak meaning, stoic amor fati about the death of handcrafted Ruby, racing-as-exhaustion metaphor, and a long overton-window-nudging segment on mass immigration / demographic noticing that cost him friendships after ~2020 and after the Basecamp politics blowup.",
       "key_insights": [
@@ -54,18 +147,1127 @@
         "Family > optimization culture; memento mori calendar Easter egg (~62% of a 90-year life at ~46); wants ~90–100 years, not Bryan Johnson immortality",
         "Overton window: mass immigration / demographic change is a legitimate democratic topic; noticing is not racism; merit-based immigration defended; cites Danish fiscal stats"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "november-24-inflection",
-          "title": "November 24 Inflection"
+          "title": "November 24 Inflection",
+          "e": "📅"
         },
         {
           "slug": "agentic-phases-driver-to-outcome",
-          "title": "Agentic Phases Driver to Outcome"
+          "title": "Agentic Phases Driver to Outcome",
+          "e": "🧭"
+        },
+        {
+          "slug": "human-agent-bandwidth-bottleneck",
+          "title": "Human-Agent Bandwidth Bottleneck",
+          "e": "📡"
+        },
+        {
+          "slug": "linux-agent-advantage",
+          "title": "Linux Agent Advantage",
+          "e": "🐧"
+        },
+        {
+          "slug": "malleable-agentic-os",
+          "title": "Malleable Agentic OS",
+          "e": "🧩"
+        },
+        {
+          "slug": "programmer-overspecification-trap",
+          "title": "Programmer Overspecification Trap",
+          "e": "🪤"
+        },
+        {
+          "slug": "taste-differential-evaluation",
+          "title": "Taste Differential Evaluation",
+          "e": "🎛️"
+        },
+        {
+          "slug": "agent-pr-review-abundance",
+          "title": "Agent PR Review Abundance",
+          "e": "📬"
+        },
+        {
+          "slug": "overton-window-nudging",
+          "title": "Overton Window Nudging",
+          "e": "🪟"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "agentic-engineering",
+          "title": "Agentic Engineering",
+          "e": "🏗️"
+        },
+        {
+          "slug": "software-taste",
+          "title": "Software Taste",
+          "e": "🎨"
+        },
+        {
+          "slug": "future-of-coding-specification",
+          "title": "Future of Coding Specification",
+          "e": "📝"
         }
       ],
-      "conceptCount": 2
+      "conceptCount": 13
+    },
+    {
+      "slug": "did-openai-actually-build-agi-gpt-6-astra-first-look",
+      "title": "Did OpenAI actually build AGI? GPT-6 Astra first look",
+      "video_id": "FluKUJyeYD8",
+      "url": "https://youtu.be/FluKUJyeYD8",
+      "duration_min": 8,
+      "creator": "the-code-report",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "meta",
+        "benchmarks",
+        "cybersecurity"
+      ],
+      "keywords": [
+        "ai",
+        "openai",
+        "anthropic",
+        "meta",
+        "benchmarks",
+        "cybersecurity",
+        "the code report",
+        "Vendor vs Independent Benchmarks",
+        "Contributor Tier Training Discount",
+        "Computer Use Agent Capability",
+        "Critical Cyber Threshold",
+        "Model Supervised Training"
+      ],
+      "summary": "the-code-report (~8 min, dated Sept 4, 2026, auto-generated captions) is a satirical news dump of the first week of September: three frontier drops in three days, then a messy gpt-6-astra launch that coincided with a multi-product outage. Treat claims as host-reported, not independently verified.\n\nTuesday — anthropic Fable / Mythos 5.1. Same weights: Fable is the public twin (safety-filtered; \"changes the subject\" on anthrax); Mythos is project-glass-wing / trusted-access only. Vendor benches (\"TMBBs\") were \"fine\"; the interesting bits are case studies. Millennium (hedge fund) had a five-year ~1-in-a-million crash. Fable 5.1 took the crash memory snapshot, saw the address land in a compiled vendor library without source, disassembled to assembly, and traced a vendor bug. Mythos 5.1 protein-binder hit rate cited as ~10% → ~50%. A third case: a neural net on 30-year-old NASA radar to rebuild a Venus elevation map.\n\nWednesday — Muse Spark 1.3 (host also says \"MuSpark\"), fourth release in five months from Meta Superintelligence Labs. Headline is price, not benches: standard $1.25 / $4.25 per million tokens; contributor tier $0.10 / $0.20 if Meta trains on your traffic. Alexander Wang: a double-digit share of developers pick the cheap tier (contributor-tier-training-discount).\n\nThursday — gpt-6-astra. Morning outage across ChatGPT, Claude, Grok, and Cursor (Occam: Azure; joke: Astra's first act). Launch page went up, embargoed Reuters / CNBC / The Verge stories published, OpenAI pulled the announcement, then restored it ~90 minutes later. Model still not public; Plus / Pro \"coming days.\" sam-altman apologized; told a Pro user to \"go to bed\"; told CNBC the model had a formal Trump-administration review before release.\n\nAstra training: 100,000+ GPUs at Stargate Texas; first OpenAI model where prior models did a significant chunk of supervision (model-supervised-training). Product pitch is computer-use-agent-capability: forms, spreadsheets, KiCad, Blender. OSWorld: 73% in ~40 min vs GPT 5.6 Soul 65% in ~75 min. Vendor numbers: Exploit Bench 100%, Terminal Bench Science 65% (said to beat Anthropic's Tuesday figures), ARC-AGI 3 99%. First OpenAI model to hit the critical-cyber-threshold (autonomous zero-day find/exploit). List price matches Fable 5.1: $10 / $50.\n\nEarly-access spatial demos (Sherif Shamim Palace of Fine Arts in Blender; Thomas Recart Blender → walkable Unreal 5 house; Matt Schumer Unreal world with a dozen Astra agents) vs the punchline: Artificial Analysis Independent Intelligence Index 61 — tied with GPT 5.6 Soul, 5 points behind Fable 5.1. That gap is the video's vendor-vs-independent-benchmarks thesis: vendor AGI theater vs an independent score that does not move.",
+      "key_insights": [
+        "Same-week dump, not one AGI event. Fable/Mythos 5.1 → Muse Spark 1.3 → Astra in three days; the story is cadence and rollout chaos as much as capability.",
+        "Fable 5.1 value is debug archaeology, not TMBBs. Crash-dump → vendor binary → assembly is the case study the host treats as real work.",
+        "Mythos still means \"you can't use it.\" Same weights as Fable; Glass Wing / trusted access; protein and planetary-science demos stay gated.",
+        "Meta is competing on price + data. Contributor tier is a 12× / 21× discount in exchange for training rights; Wang claims double-digit adoption.",
+        "Astra's public claim is computer use + cyber, not a higher independent IQ. OSWorld and spatial demos vs AA 61 = Soul.",
+        "Critical cyber threshold is the policy twin of Glass Wing. OpenAI says Astra can find and exploit zero-days without a human pointing; government reviewed it first; public rollout still delayed.",
+        "Vendor benches and independent index disagree. 100% Exploit Bench / 99% ARC-AGI 3 vs AA 61 is the \"something doesn't add up\" line."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "vendor-vs-independent-benchmarks",
+          "title": "Vendor vs Independent Benchmarks",
+          "e": "🧪"
+        },
+        {
+          "slug": "contributor-tier-training-discount",
+          "title": "Contributor-Tier Training Discount",
+          "e": "🏷️"
+        },
+        {
+          "slug": "computer-use-agent-capability",
+          "title": "Computer-Use Agent Capability",
+          "e": "🖱️"
+        },
+        {
+          "slug": "critical-cyber-threshold",
+          "title": "Critical Cyber Threshold",
+          "e": "🔓"
+        },
+        {
+          "slug": "model-supervised-training",
+          "title": "Model-Supervised Training",
+          "e": "🪞"
+        },
+        {
+          "slug": "project-glass-wing",
+          "title": "Project Glass Wing",
+          "e": "🪟"
+        },
+        {
+          "slug": "bench-maxing",
+          "title": "Bench-Maxing",
+          "e": "🏆"
+        },
+        {
+          "slug": "llm-harness-security-benchmarks",
+          "title": "LLM harness security benchmarks",
+          "e": "🛡️"
+        },
+        {
+          "slug": "subscription-vs-api-agent-pricing",
+          "title": "Subscription vs API Agent Pricing",
+          "e": "🧾"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
+      "slug": "everyone-builds-ships-sells-kimberly-tan-a16z",
+      "title": "Everyone Builds, Ships, and Sells. Winners Do It Differently. | Kimberly Tan, a16z Investing Partner",
+      "video_id": "etgdNjInYEU",
+      "url": "https://youtu.be/etgdNjInYEU",
+      "duration_min": 18,
+      "creator": "kimberly-tan",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "applied-ai",
+        "enterprise",
+        "venture-capital",
+        "a16z"
+      ],
+      "keywords": [
+        "applied ai",
+        "enterprise",
+        "venture capital",
+        "a16z",
+        "kimberly tan",
+        "Demo vs Production AI Gap",
+        "Forward Deploy AI",
+        "Vertical Applied AI",
+        "Base Model to Buyer Gap",
+        "Identifiable Pilot ROI",
+        "Human Oversight Liability Automation",
+        "Model Harness AI Product"
+      ],
+      "summary": "18-minute eo-studio interview with kimberly-tan, early-stage B2B investing partner at andreessen-horowitz (~6 years; joined at 23; applied AI). Portfolio names she cites: decagon, prepared, Menlo, and sola. The through-line is not \"call the best model\" but the unsexy distance between a base model and an enterprise buyer.\n\nShe rehabilitates the pejorative GPT wrapper label: out-of-the-box model capability is not the capability a buyer will pay for. Two gaps sit in between. First, base-model-to-buyer-gap — routing, chaining, latency/cost tradeoffs, and mapping tacit process knowledge that is not on paper. Second, demo-vs-production-ai-gap — a demo with known data and a known outcome is easy; production is non-deterministic (95% right, 5% something else), unlike click-this-button enterprise software. That implies you must see the product in production, and you need more education, onboarding, and implementation than the last SaaS wave.\n\nThe GTM consequence is forward-deploy-ai: send people to the client site to wire integrations, inject business context, and set guardrails so the last mile actually delivers. The company-building consequence is vertical-applied-ai — translate one industry's rules, compliance, and culture into something an agent can act on. prepared (911 / emergency response) is the worked example: a founder who knows every conference and every buyer, a value prop (faster help to the person who needs it) that even historically weak software buyers understand, and an industry-focused moat.\n\ndecagon is the commercial-instinct story: pre-name, pre-idea, they wanted enterprise AI + knew they could sell; they asked tech-native companies for the biggest pain and the ROI; support won; PMF followed almost immediately once the product existed. Tan's warning to technologists: excellent tech does not matter if no one buys it, sees the value, and is happy after implementation. Design identifiable-pilot-roi so the pilot can reach production with a metric you already named. Coding and support have obvious ROI (more output; resolution / CSAT / 24-7 / cost). Partial-flow or augmentation products struggle to prove the number.\n\nsola attacks back-office drudgery (data entry, claims) by letting the person who holds the process record it; the system labels login vs extraction steps and builds a bot. Automation has two axes: how fully the domain can be automated technically, and whether culture / liability / regulation will allow it (lawyer still signs; doctor still owns). Even support keeps human escalation and human managers. Investor craft at the end: ignore AUM on a daily basis; be a patient partner; friendship plus 6 a.m. Friday pitch prep; winners now are customer-empathetic, AI-native, and faster than the field.",
+      "key_insights": [
+        "GPT wrapper is a slur for real work — base-model capability ≠ enterprise-buyer capability",
+        "Demo ≠ production — known data + known outcome is a toy; 95/5 non-determinism is a different product muscle",
+        "See it in production — a demo can no longer stand in for proof",
+        "Forward deploy is the AI GTM — last mile, context, guardrails, on-site setup",
+        "Vertical beats generic — industry rules/compliance/culture encoded as agent-actionable logic",
+        "Don't always call the biggest model — route by intent, latency, cost, and strength",
+        "Tacit knowledge is not ingestible — sit next to the customer; fly there",
+        "Prepared moat — 911-domain empathy + clear outcome (faster help) creates pull in a historically weak software market",
+        "Decagon discovery — ask pain + ROI; support was the consistent answer; PMF after the product, not before the conversations",
+        "Tech without a buyer fails — explain, implement, make them happy",
+        "Name the ROI before the pilot — plus real organizational sponsorship",
+        "Clear-ROI categories — coding (you see more output) and support (resolution, NPS/CSAT, cost, 24/7)",
+        "Hard-ROI categories — automate one step of a flow, or augment a human",
+        "Sola pattern — record the process that lives in someone's head; generate the bot",
+        "Two automation dimensions — technical completeness × cultural / regulatory / liability permission",
+        "Human oversight persists — sign-off, escalation, agent managers; trust-building step",
+        "Lock in now — early lead dies without speed; empathy + AI-native + harder work"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "demo-vs-production-ai-gap",
+          "title": "Demo vs Production AI Gap",
+          "e": "🎬"
+        },
+        {
+          "slug": "forward-deploy-ai",
+          "title": "Forward Deploy AI",
+          "e": "🛬"
+        },
+        {
+          "slug": "vertical-applied-ai",
+          "title": "Vertical Applied AI",
+          "e": "🏗️"
+        },
+        {
+          "slug": "base-model-to-buyer-gap",
+          "title": "Base Model to Buyer Gap",
+          "e": "🌉"
+        },
+        {
+          "slug": "identifiable-pilot-roi",
+          "title": "Identifiable Pilot ROI",
+          "e": "📏"
+        },
+        {
+          "slug": "human-oversight-liability-automation",
+          "title": "Human Oversight Liability Automation",
+          "e": "⚖️"
+        },
+        {
+          "slug": "model-harness-ai-product",
+          "title": "Model Harness AI Product",
+          "e": "🧰"
+        },
+        {
+          "slug": "model-routing-vibe-coding",
+          "title": "Model Routing for Vibe Coding",
+          "e": "🔀"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "how-ai-is-breaking-the-internet-matthew-prince-ted",
+      "title": "How AI Is Breaking the Internet (and What to Do About It) | Matthew Prince | TED",
+      "video_id": "YCldrsmxi_s",
+      "url": "https://www.youtube.com/watch?v=YCldrsmxi_s",
+      "duration_min": 13,
+      "creator": "matthew-prince",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "ai",
+        "media",
+        "internet",
+        "ted"
+      ],
+      "keywords": [
+        "ai",
+        "media",
+        "internet",
+        "ted",
+        "matthew prince",
+        "Traffic as Internet Currency",
+        "Answer Engine vs Search Engine",
+        "Swiss Cheese Knowledge Model",
+        "Google Train or Delist",
+        "Catch Google Content Licensing",
+        "Local Unique Content AI Licensing",
+        "ChatGPT as Search Successor"
+      ],
+      "summary": "matthew-prince (~13 min, TED; CEO of cloudflare) argues that the internet's 30-year business model — publish an idea, drive traffic, monetize via ads, subscriptions, or sales — is breaking under a new platform shift. Desktop browsers → social → mobile all still ran on banner ads and traffic-as-internet-currency. google was the \"Superman\" of that era: it indexed the web *and* built the monetization system that paid creators for clicks.\n\nAI chatbots are not just another interface. They turn search from a treasure map (results you click through) into an answer-engine-vs-search-engine that answers on the page. Consumers win; publishers lose the traffic that paid for journalism. Cloudflare logs (18 months before the talk): same content is 5.2× harder to convert into traffic on today's Google, 750× on openai, 32,000× on anthropic. Trust in AI then doubled the difficulty again. Reported publisher traffic is down 30–90%. \"Journalists deserve to be able to eat.\"\n\nPrince's proposed replacement: treat LLMs as a mathematical model of human knowledge — a swiss-cheese-knowledge-model. Cheese = what we know; holes = what we don't. AI labs (he says he has talked to all of them) will pay for people who fill the holes — original research, ideas worth spreading — not for rewriting stories that already exist. The last decade of media did the opposite: cheap content + cortisol headlines that \"light the cheese on fire.\" He jokes about a Big Cheese award for whoever mathematically advances human knowledge the most in a year.\n\nTwo hope stories: (1) Napster theft → iTunes 99¢ → Spotify all-you-can-eat; Spotify alone sent >$10B to creators last year, plus YouTube/TikTok/Apple Music — more money to music than any time in history. Daniel Ek's unfulfilled-query loop (a Dane earning €40M/year writing songs nobody had written) is hole-filling for emotion. (2) Prince and his wife bought the dying park-record (Park City, Utah) with one KPI: voter turnout, low 20s → 60%+. In 2026 they expect local-unique-content-ai-licensing revenue to beat digital ads, because they are the only source for the new restaurant and the band in town.\n\nThe blocker is Google as last-movie hero / this-movie villain: a claimed right to all content without paying, plus a crawl advantage (every page OpenAI sees, Google sees 3, Microsoft 4, Anthropic 5, xAI 21–22) enforced by google-train-or-delist. No AI lab's top priority is paying creators; it is beating Google. Prince's working tactic: catch-google-content-licensing — don't bill for the whole web, charge rivals for the crawl that lets them catch Google. That may be the iTunes moment that proves content is worth paying for.",
+      "key_insights": [
+        "30-year model — idea → traffic → ads / subscriptions / sales; survived desktop → social → mobile",
+        "Traffic is the currency — content was built to win clicks, not to complete answers",
+        "Google as Superman — search index + AdSense-style payouts financed the open web for ~27 years",
+        "Answer engine — chatbot/AI-overview pages finish the query without the treasure-map click-through",
+        "Referral collapse — 5.2× (Google) / 750× (OpenAI) / 32,000× (Anthropic) harder; then ~2× worse as trust rose; 30–90% publisher traffic drop",
+        "Swiss cheese — LLMs model known knowledge; pay for new holes, not duplicate cheese or incendiary cheese",
+        "Cortisol headlines — media execs brag about cheapest content + maximum stress clickbait",
+        "Big Cheese award — measure who advanced human knowledge most in a year",
+        "iTunes → Spotify — 99¢ was not the winning model but started paying; pie expanded",
+        "Unfulfilled queries — Spotify publishes missing-song demand back to creators",
+        "Park Record — civic KPI (turnout) plus unique local facts become the AI-era asset",
+        "Crawl gap — Google 3× OpenAI, 4× Microsoft, 5× Anthropic, 21–22× xAI",
+        "Train-or-delist — refuse training and lose Search",
+        "Catch-Google licensing — charge labs for the crawl that closes Google's gap; iTunes moment, not endgame"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "traffic-as-internet-currency",
+          "title": "Traffic as Internet Currency",
+          "e": "💱"
+        },
+        {
+          "slug": "answer-engine-vs-search-engine",
+          "title": "Answer Engine vs Search Engine",
+          "e": "🗺️"
+        },
+        {
+          "slug": "swiss-cheese-knowledge-model",
+          "title": "Swiss Cheese Knowledge Model",
+          "e": "🧀"
+        },
+        {
+          "slug": "google-train-or-delist",
+          "title": "Google Train or Delist",
+          "e": "🦸"
+        },
+        {
+          "slug": "catch-google-content-licensing",
+          "title": "Catch-Google Content Licensing",
+          "e": "🎵"
+        },
+        {
+          "slug": "local-unique-content-ai-licensing",
+          "title": "Local Unique Content AI Licensing",
+          "e": "📰"
+        },
+        {
+          "slug": "chatgpt-as-search-successor",
+          "title": "ChatGPT as Search Successor",
+          "e": "🔍"
+        },
+        {
+          "slug": "aeo-seo-strategy",
+          "title": "AEO / SEO Strategy",
+          "e": "🔍"
+        },
+        {
+          "slug": "reality-as-content-moat",
+          "title": "Reality as Content Moat",
+          "e": "🗿"
+        },
+        {
+          "slug": "knowledge-cheap-verification-expensive",
+          "title": "Knowledge Cheap Verification Expensive",
+          "e": "🔍"
+        }
+      ],
+      "conceptCount": 10
+    },
+    {
+      "slug": "how-to-join-conversations-without-feeling-awkward",
+      "title": "How to Join Conversations Without Feeling Awkward",
+      "video_id": "-X13GINFYOY",
+      "url": "https://youtu.be/-X13GINFYOY",
+      "duration_min": 8,
+      "creator": "vinh-giang",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "communication",
+        "conversation",
+        "social-skills",
+        "networking"
+      ],
+      "keywords": [
+        "communication",
+        "conversation",
+        "social skills",
+        "networking",
+        "vinh giang",
+        "Question as Contribution",
+        "Overly Polite Invisibility",
+        "Auditory + Visual Join Signals",
+        "Conversation Visibility KPI",
+        "Open Ended Questions",
+        "Curious Mindset (Communication)",
+        "Conversational Threading"
+      ],
+      "summary": "vinh-giang 8-minute STAGE community Q&A clip. A student (Sharon) can inch closer, smile, and make eye contact, but freezes as a bystander once friends \"pop\" into a topic she does not know — she waits for them to finish and reads that as being too polite. Vinh splits the problem into two skills: enter the circle, and add value even when you lack topic knowledge.\n\nBlock one is a cognitive rule: contribution = expert knowledge. He calls that incorrect. question-as-contribution counts — \"How did you find this restaurant?\" or \"What sparked your interest?\" opens a new angle, lets them share (dad, teacher, first memory), and gives you a bridge into your own story (kite-flying with dad vs bak kut teh). Quantum physics is the stress test: you can still ask what started the interest and say \"tell me more.\"\n\nBlock two is overly-polite-invisibility. Over-considerate people mute visual and vocal signals, so the room assumes they do not want to join. Intent stays trapped in the brain. The fix is not becoming rude: keep the value, add auditory-visual-join-signals (\"Ah\" plus a look/lean), then play — a cheeky \"how is this only my first time?\" after a restaurant rave. Start with two or three jumps, not fifty. Set a conversation-visibility-kpi: at least one question, one contribution, visible once (ideally 1–3 times) every lunch or meeting. Questions also invite reciprocity from other considerate people.\n\nMid-clip pitch: Odyssey bundle (lifetime Stage Academy + 6 months Stage community) for the monthly 5,000-student Q&A.",
+      "key_insights": [
+        "Kind people get ignored — over-consideration reads as non-participation; others cannot see your intention.",
+        "Ignorance is not a mute button — a question is a contribution; it opens another angle on their topic.",
+        "Question → their story → your parallel — restaurant → dad memory → your dad/kites; you join without faking expertise.",
+        "Signal before content — auditory + visual indicators beat waiting for a perfect gap that never comes.",
+        "Play after you land — a light tease keeps the join from feeling like a lecture.",
+        "Dose the muscle — 2–3 jumps next conversation; KPI of one visible turn minimum, never leave lunch invisible.",
+        "Questions buy an invitation — enough asks and considerate people fire one back; that is your talk slot."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "question-as-contribution",
+          "title": "Question as Contribution",
+          "e": "❓"
+        },
+        {
+          "slug": "overly-polite-invisibility",
+          "title": "Overly Polite Invisibility",
+          "e": "🫥"
+        },
+        {
+          "slug": "auditory-visual-join-signals",
+          "title": "Auditory + Visual Join Signals",
+          "e": "👀"
+        },
+        {
+          "slug": "conversation-visibility-kpi",
+          "title": "Conversation Visibility KPI",
+          "e": "📊"
+        },
+        {
+          "slug": "open-ended-questions",
+          "title": "Open-Ended Questions",
+          "e": "❓"
+        },
+        {
+          "slug": "curious-mindset-communication",
+          "title": "Curious Mindset (Communication)",
+          "e": "👂"
+        },
+        {
+          "slug": "conversational-threading",
+          "title": "Conversational Threading",
+          "e": "🧵"
+        },
+        {
+          "slug": "playfulness-in-communication",
+          "title": "Playfulness in Communication",
+          "e": "😄"
+        },
+        {
+          "slug": "meeting-contribution",
+          "title": "Meeting Contribution",
+          "e": "🗣️"
+        },
+        {
+          "slug": "conversation-starters-networking",
+          "title": "Conversation Starters (Networking)",
+          "e": "👋"
+        },
+        {
+          "slug": "self-centric-shyness",
+          "title": "Self-Centric Shyness",
+          "e": "🪞"
+        },
+        {
+          "slug": "social-exposure-ladder",
+          "title": "Social Exposure Ladder",
+          "e": "🪜"
+        },
+        {
+          "slug": "shy-to-confident-bridge",
+          "title": "Shy-to-Confident Bridge",
+          "e": "🌉"
+        }
+      ],
+      "conceptCount": 13
+    },
+    {
+      "slug": "my-agentic-engineering-workflow-david-ondrej",
+      "title": "My Agentic Engineering Workflow (after 6,775 sessions)",
+      "video_id": "c9nRxEy1kUY",
+      "url": "https://youtu.be/c9nRxEy1kUY",
+      "duration_min": 55,
+      "creator": "david-ondrej",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "agents",
+        "agentic-engineering",
+        "harness-engineering",
+        "subscriptions"
+      ],
+      "keywords": [
+        "agents",
+        "agentic engineering",
+        "harness engineering",
+        "subscriptions",
+        "david ondrej",
+        "Self Hosted Cloud Agents",
+        "Presending Messages",
+        "Ask Then Build",
+        "YOLO With Guardrails",
+        "Subscription vs API Agent Pricing",
+        "Git Worktrees for Agents",
+        "Docs in Repo (`/docs/adr`, `/docs/external`)"
+      ],
+      "summary": "david-ondrej solo setup dump (~55 min, auto-generated captions). Claimed base: 3 years / 2,000+ hours / 6,775 sessions coding with AI, plus interviews with high-output agentic engineers. This is the operator complement to his hosted conversations with matt-pocock and dex-horthy — not theory, a current stack as of H2 2026.\n\nThe spine is interfaces → subscriptions → self-hosted cloud agents → harnesses → skills → rapid-fire ops. Main UI is bb (open-source, any subscription / agent / model in one pane). CMAX is tmux-like and fine for a few agents, then the sidebar primitive breaks. Daily terminal is Ghostty running herder (lightweight agent runtime with idle / running / blocked / done states). He is building Coral (Zeron fork, unpublished) so a finished P1 agent always jumps the queue over a finished P4.\n\nMoney rule: never pay API list price. Stack OpenCode Go ($10) plus Codex / Claude / Cursor by budget. Cloud agents are the future — he cites an internal Cursor 7-day rolling share of *merged* PRs from cloud agents: ~10–15% at year start, approaching ~60% in H2 2026. Vendor cloud = lock-in + data exposure. His 80/20: cheap VPS + Herder + SSH, with the first local agent doing the DevOps in plain English (Hostinger is the sponsor).\n\nHuman job is taste and decisions (ask-then-build, ADRs), not syntax. Reviews are one cross-model pass, never recursive. Sub-agents only when he chooses the model. Worktrees only at 15–30+ parallel agents. YOLO only behind yolo-with-guardrails.",
+      "key_insights": [
+        "Interface is attention. You will talk to a manager that owns workers. State tracking (Herder) and priority queues (Coral) matter because human attention is the scarce resource.",
+        "Subscription stack, not API. OpenCode Go is the best $10 deal (Kimi K3, Grok 4.6, GLM 5.3, DeepSeek V4 Pro) but small limits and no Fable / GPT 5.6. $30 = OpenCode + Codex; $50 add Claude $20; $70 add Cursor $20; $110+ buy a big Codex plan (he says OpenAI subsidizes more than Anthropic); $210 = Codex + Claude + OpenCode. Cursor/Grok predicted to become a great deal in 2–4 months via SpaceX/xAI compute — his forecast, not yet true on subsidy.",
+        "Own the cloud runtime. Local agents die on laptop close, flaky wifi, or a few agents running the test suite. Vendor cloud agents lock secrets, sessions, and context. self-hosted-cloud-agents: VPS + Herder + SSH from phone or laptop.",
+        "First agent compounds. Fight to install one agent. That agent installs Node/Python/Git/Herder/Pi and finds installer docs via Deep API. After that, setup is speech.",
+        "Harness by uncertainty. pi-agent (minimal, four tools, always YOLO, any provider — what openclaw is built on) is non-negotiable. Cursor CLI is underrated (all models, skill tags, presending-messages — Claude Code cannot queue). Uncertain work: hermes-agent or Prime Agent (self-improving, writes skills). Known software work: Codex / Claude / Pi / Cursor so they do not invent skills. Aliases: `CC` = Claude Code dangerously-skip-permissions; `CX` = Codex YOLO.",
+        "Skills = repeated workflows; snippets = repeated sentences. Total review runs GPT-review + Fable-review then merges to one issue list. ask-then-build front-loads the 4–5 architectural choices humans must make. Deep API covers scrape / Twitter / GitHub / research that built-in search cannot. Do not install the whole viral skills repo.",
+        "One review, then ship. Medium/large or weaker-model work: one Total Review. Small frontend tweak: push. Recursive Fable→GPT→Fable invents imaginary bugs. Build with Fable, review with GPT 5.6 Soul, fix the worst, push.",
+        "Worktrees are a scale tool. Skip on small repos. Required when 15–30+ agents would fight on one checkout. bb remembers per-repo worktree policy; Cursor app forgets and wants `/worktree` every time.",
+        "Model routing from use, not Twitter. Plan / new project: Fable. Nasty bug: GPT 5.6 Soul max (or `/goal`). Default chat: Grok 4.6 high/extra-high (~same intelligence, 2× cheaper and faster). Frontend: Kimi K3. New major model: a full day using only that model.",
+        "Sub-agents are overused. He wants manager/worker language and to pick the worker model. Default harnesses dump to Haiku 4.5 or GPT 5.6 Luna. If you accept lab defaults on when/which sub-agent runs, you are not a serious agentic engineer.",
+        "ADRs + read-only prod. `/docs/adr` so future agents know *why*. Read-only Postgres role for usage-driven checks; never write access. GPT 5.6 Soul over-adds tests — tell it not to add tests to land at the right amount.",
+        "Voice + presending-messages. Super Whisper / Whisper Flow / Glo: speak ~3–4× faster than typical typing. Queue 2–6 predicted next turns. Never use a GUI that cannot queue. Input tokens are as scarce as the model's."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "self-hosted-cloud-agents",
+          "title": "Self-Hosted Cloud Agents",
+          "e": "🖥️"
+        },
+        {
+          "slug": "presending-messages",
+          "title": "Presending Messages",
+          "e": "📬"
+        },
+        {
+          "slug": "ask-then-build",
+          "title": "Ask Then Build",
+          "e": "🎯"
+        },
+        {
+          "slug": "yolo-with-guardrails",
+          "title": "YOLO With Guardrails",
+          "e": "🛡️"
+        },
+        {
+          "slug": "agentic-engineering",
+          "title": "Agentic Engineering",
+          "e": "🏗️"
+        },
+        {
+          "slug": "subscription-vs-api-agent-pricing",
+          "title": "Subscription vs API Agent Pricing",
+          "e": "🧾"
+        },
+        {
+          "slug": "git-worktrees-for-agents",
+          "title": "Git Worktrees for Agents",
+          "e": "🌳"
+        },
+        {
+          "slug": "docs-in-repo-adr-external",
+          "title": "Docs in Repo (`/docs/adr`, `/docs/external`)",
+          "e": "🗂️"
+        },
+        {
+          "slug": "software-taste",
+          "title": "Software Taste",
+          "e": "🎨"
+        },
+        {
+          "slug": "multi-agent-orchestration",
+          "title": "Multi-Agent Orchestration",
+          "e": "🤖"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "voice-to-text-coding",
+          "title": "Voice-to-Text Coding",
+          "e": "⌨️"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        }
+      ],
+      "conceptCount": 13
+    },
+    {
+      "slug": "omarchy-automation-investigation-custom-harness",
+      "title": "Omarchy Automation Investigation (Building Custom Harness)",
+      "video_id": "GOu_05J_fdc",
+      "url": "https://youtu.be/GOu_05J_fdc",
+      "duration_min": 156,
+      "creator": "the-primeagen",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "agents",
+        "harness-engineering",
+        "linux",
+        "theprimeagen",
+        "computer-use"
+      ],
+      "keywords": [
+        "agents",
+        "harness engineering",
+        "linux",
+        "theprimeagen",
+        "computer use",
+        "the primeagen",
+        "Wrap Around Custom Harness",
+        "QEMU Computer Use Test Gauntlet",
+        "Vibe Coding Progress Illusion",
+        "Programmer as LLM Proxy",
+        "Computer Use Agent Capability",
+        "Token Maxing Fallacy"
+      ],
+      "summary": "the-primeagen (~156 min, YouTube auto-generated captions) live-builds alagoti (also Oligoti / Oligarchy), a wrap-around-custom-harness for testing omarchy with computer-use agents. The name is a pun: DHH took ~$12M to fund Hyprland / Quickshell / the Arch ecosystem, someone called Omarchy compromised, DHH replied that \"oligarchy Linux kind of slaps,\" and Primeagen named the test gauntlet after that.\n\nThe architecture is a QEMU farm plus an observability sidecar, not a bigger system prompt. A Kimu proxy wraps the QEMU CLI, multiplexes many VMs (target ~16 on dedicated hardware), and records every action and desktop screenshot to PlanetScale. A thin HTTP client talks only to that proxy so the driver can live on another machine (Cursor cloud agents, Linear loops) via Cloudflare tunnel. Test definitions are instruction + proof pairs. experiment new should mint one Linear ticket per definition, plus pending result rows keyed by UUID, carrying ISO URL, server URL, suite ID, and version / agent-test labels. Statuses: pending, running, passed, failed, aborted, timed out. The product vision is a qemu-computer-use-test-gauntlet: each Omarchy release, agents explore the delta, rewrite the plan, and ~two hours later report what broke.\n\nThe stream does not finish a desktop walkthrough. Two agents share one locked ISO download (the lock works). Agents waste context grepping the monolith instead of calling the client (~46k tokens before a lock-screen click). Soul (GPT-5.6 extra-high fast) is too slow and over-engineers (invents a token column; inconsistent CLI flags). Grok is the default producer; Fable is \"emotionally expensive\" on Cursor's meter; Soul is better as a reviewer that strips guardrails. He dropped Go on this repo for Effect TS + Drizzle so migrations stay human. Unit tests are refused: the experiment run *is* the test. UI rule: Vim/CLI or mobile (oligarchi.term.sh), no desktop website.\n\nSide thread: Screenplay, a terminal presentation tool (action timeline, fades, Braille particles) that he would never have built by hand. He gets little joy from waiting on agents (vibe-coding-progress-illusion) and argues that if you cannot specify the architecture you are only a programmer-as-llm-proxy.",
+      "key_insights": [
+        "Harness = wrap, not agent — Steve Yegge sense: the QEMU proxy, DB log, Sentry, Linear tickets, ISO cache, and client API are the harness; the model is interchangeable",
+        "Desktop OS as computer-use bench — lock screen, user creation, timezone isolation, Chrome, app tour; generate new manifests from version diffs",
+        "Observability is why the proxy exists — QEMU is already a server; the sidecar exists so crashes, every RPC, and every framebuffer land in Postgres + Sentry",
+        "Linear as controller, MCP as exception — bulk ticket create is an API for-loop; MCP is for remote ad-hoc (\"Sentry, latest issue\")",
+        "ISO cache lock — concurrent agents enter a downloading phase instead of clobbering the same file",
+        "Cheap screenshots, expensive exploration — frames are cheap; grepping AGENTS.md and the server tree is not. Split the client into its own repo / use the API, not Cursor CLI in a fat workspace",
+        "Model routing — Grok or Fable produce; Soul reviews; never leave a giant goal overnight",
+        "Deterministic migrations — Drizzle so the LLM does not own schema",
+        "E2E experiment as the only test — \"stop writing tests\"; the gauntlet is the unit",
+        "280 vs neighborhood — slower-feeling motion beats faster-feeling standstill; waiting for Soul knocks him out of the zone",
+        "Employability — if you cannot say how the pieces plug together you are a proxy any employer can replace",
+        "Omarchy politics — money to Vax / Hyprland is the opposite of a honeypot; he still plans a Grok security pass over the QML/config surface",
+        "Unfinished — Thursday stream for Linear loops, recurring cloud jobs that spawn many Grok workers, cost-per-gauntlet"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
+        },
+        {
+          "slug": "qemu-computer-use-test-gauntlet",
+          "title": "QEMU Computer-Use Test Gauntlet",
+          "e": "🖥️"
+        },
+        {
+          "slug": "vibe-coding-progress-illusion",
+          "title": "Vibe Coding Progress Illusion",
+          "e": "🛣️"
+        },
+        {
+          "slug": "programmer-as-llm-proxy",
+          "title": "Programmer as LLM Proxy",
+          "e": "🪞"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "computer-use-agent-capability",
+          "title": "Computer-Use Agent Capability",
+          "e": "🖱️"
+        },
+        {
+          "slug": "token-maxing-fallacy",
+          "title": "Token-Maxing Fallacy",
+          "e": "🪙"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "model-harness-ai-product",
+          "title": "Model Harness AI Product",
+          "e": "🧰"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
+      "slug": "rob-dial-failing-goals-how-to-fix-jay-shetty",
+      "title": "Mindset Coach on Why You’re Failing to Achieve Your Goals & How to Fix It | Rob Dial",
+      "video_id": "-iFWZR-snTw",
+      "url": "https://youtu.be/-iFWZR-snTw",
+      "duration_min": 57,
+      "creator": "jay-shetty",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "mindset",
+        "psychology",
+        "fear",
+        "identity",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "mindset",
+        "psychology",
+        "fear",
+        "identity",
+        "jay shetty",
+        "Primal vs Intellectual Fear",
+        "First Thought Second Thought",
+        "If Why Strong Enough How Reveals",
+        "Fear of Unchanged Future",
+        "External Search Is Self Search",
+        "Rewarded Workaholism",
+        "Love Parts Don't Fight"
+      ],
+      "summary": "jay-shetty interviews rob-dial (*The Mindset Mentor*, ~1,400 episodes) on why people who already want change still fail to act. Dial's working book title was *The Psychology of Taking Action*. The two blockers he names first are intellectual fear (rejection, failure, success, not being enough) and a fixed identity of who you think you are. Intellectual fears are invented \"boogeymen\": you cannot overcome something that does not exist, yet the body treats the imagined future as present (nightmare lion / neuropeptides). Practice: notice the fear, six breaths back to the heart, rehearse the *best* that could happen, then repeat (primal-vs-intellectual-fear, first-thought-second-thought).\n\nProcrastination, in his extreme-example test, is a weak why: chance of making $1M this year jumps from ~0% to 100% if everyone you love dies without it. Coach line: if the why is strong enough, the how reveals itself. Seven levels of why turned a client's \"$100k because I've never done it\" into custody and safety for children. Motivation is fleeting; driven people have a why that survives mood (if-why-strong-enough-how-reveals). Dial's own fork at 27 ($250k, withering): the 5-year unchanged future was more terrifying than the unknown. November 2015 commitment after his late father's letter — \"live your life with courage, love, and laughter\" — *decadere* = cut off other options (fear-of-unchanged-future).\n\nThe second half is the spiritual correction to achievement: money and recognition did not fill the childhood void. What he searched for externally he was searching for in himself. Workaholism was the socially rewarded addiction that let him skip feeling (Gabor Maté: ask why the pain). Silence on the porch is the practice; God/universe \"speaks in silence.\" Later: love all parts (IFS / Jay's *anartha* — engage the unwanted in higher service), ask for help, and take CEO ownership — \"everything is your fault\" as responsibility, not blame for the original wound. Final Five: best advice = everything is your fault; worst = fit in; most repeated thought = \"I'm proud of you\"; habit = meditation and breath work; one law = five minutes of self-awareness daily.",
+      "key_insights": [
+        "Two focus blockers: intellectual fear + the identity you refuse to challenge (Jim Carrey / *Jim & Andy*: if you can lose \"Jim Carrey,\" that name was a character)",
+        "Primal fear = pain or death; most modern fear is intellectual and made up",
+        "You cannot overcome a fear that does not exist; fighting the boogeyman steals focus from the action",
+        "Body cannot tell imagined future from now (nightmare physiology); if you will feel the worst, also try on the best",
+        "Pattern change = awareness → practice → repetition + grace (don't beat yourself up for noticing)",
+        "You cannot change the first thought; you can change the second (grocery-store judgment → name three things you like)",
+        "Meditation = sit on the mountain and watch cars; ~90% of thoughts repeat yesterday; keep the ones that help",
+        "Procrastination is a why problem, not a time-management problem; million-dollar / loved-ones-die test",
+        "Motivation fades; driven people have a why they can see in their eyes",
+        "Seven levels of why: keep asking until the surface goal becomes the real stake",
+        "Fast-forward 5 years: the futures you don't want can outweigh the fear of the unknown",
+        "Decision (*decadere*) cuts off Plan B; fear does not vanish after the tattoo",
+        "Destination myth: no paycheck, house, or partner turns the brain off; uncertainty demands consciousness",
+        "External search is self-search; 38-year-old sits with the 9-year-old still healing",
+        "Rewarded workaholism = unpaid feeling; silence first brings anxiety, then release",
+        "Krishnamurti: don't *know* yourself from memory; *learn* yourself in the present",
+        "Spiritual work did not kill drive; it ended white-knuckling — head in future, body here",
+        "Life is significant *and* insignificant; either pole alone is unhelpful",
+        "Love the \"bad\" parts and they quiet; fight them and they strengthen; ego can serve a better book",
+        "Hard way: you cannot do it alone; asking for help is strength",
+        "CEO of your life: not everything that happened is your fault; working through it is your responsibility"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "primal-vs-intellectual-fear",
+          "title": "Primal vs Intellectual Fear",
+          "e": "👻"
+        },
+        {
+          "slug": "first-thought-second-thought",
+          "title": "First Thought Second Thought",
+          "e": "2️⃣"
+        },
+        {
+          "slug": "if-why-strong-enough-how-reveals",
+          "title": "If Why Strong Enough How Reveals",
+          "e": "🎯"
+        },
+        {
+          "slug": "fear-of-unchanged-future",
+          "title": "Fear of Unchanged Future",
+          "e": "📅"
+        },
+        {
+          "slug": "external-search-is-self-search",
+          "title": "External Search Is Self Search",
+          "e": "🪞"
+        },
+        {
+          "slug": "rewarded-workaholism",
+          "title": "Rewarded Workaholism",
+          "e": "💼"
+        },
+        {
+          "slug": "love-parts-dont-fight",
+          "title": "Love Parts Don't Fight",
+          "e": "🎼"
+        },
+        {
+          "slug": "ceo-of-your-life",
+          "title": "CEO of Your Life",
+          "e": "👔"
+        },
+        {
+          "slug": "fear-lives-in-the-vague",
+          "title": "Fear Lives in the Vague",
+          "e": "🌫️"
+        },
+        {
+          "slug": "specific-judgment-fear",
+          "title": "Specific Judgment Fear",
+          "e": "👤"
+        },
+        {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
+        },
+        {
+          "slug": "thought-as-event-not-command",
+          "title": "Thought as Event Not Command",
+          "e": "💭"
+        },
+        {
+          "slug": "settle-for-pain-of-where-you-are",
+          "title": "Settle for Pain of Where You Are",
+          "e": "🪨"
+        },
+        {
+          "slug": "busyness-as-unhappiness-outrun",
+          "title": "Busyness as Unhappiness Outrun",
+          "e": "🏃"
+        },
+        {
+          "slug": "habit-change-four-steps-swart",
+          "title": "Habit Change Four Steps (Swart)",
+          "e": "🧭"
+        },
+        {
+          "slug": "awareness-as-control-foundation",
+          "title": "Awareness as Control Foundation",
+          "e": "👁️"
+        },
+        {
+          "slug": "please-everyone-business-never-succeeds",
+          "title": "Please Everyone Business Never Succeeds",
+          "e": "🙅"
+        }
+      ],
+      "conceptCount": 17
+    },
+    {
+      "slug": "spending-5000-vibe-coding-claude-fable-5-1",
+      "title": "Spending $5,000 Vibe Coding With Claude Fable 5.1",
+      "video_id": "1Kongqi_HDs",
+      "url": "https://www.youtube.com/watch?v=1Kongqi_HDs",
+      "duration_min": 274,
+      "creator": "bridgemind",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "vibe-coding",
+        "agents",
+        "bridgemind",
+        "llm",
+        "claude-code"
+      ],
+      "keywords": [
+        "vibe coding",
+        "agents",
+        "bridgemind",
+        "llm",
+        "claude code",
+        "Subscription vs API Agent Pricing",
+        "Oneshot vs Iterate (Vibe Coding)",
+        "Inference Speed (Vibe Coding)",
+        "Model Routing for Vibe Coding",
+        "Serving Capacity (Model Usability)",
+        "Token Maxing Fallacy",
+        "Project Glass Wing"
+      ],
+      "summary": "bridgemind (4h 33m VOD, streamed 2026-09-02, ~87K views) is the launch-day grind stream for Claude Fable 5.1 — the day after Anthropic's Sept 1, 2026 release. Not an edited bake-off like kimi-k3-vs-fable-5-vs-gpt-5-6-vs-grok-4-5-bridgemind. It is a $5,000 \"maxxing\" session: extra-high / xhigh effort, six parallel claude-code panes on Claude Max, shipping BridgeMind One (Swift) and bridge-bench while chat runs a like-for-pushup grind. Stated ARR $196,500. Captions are off; this page is grounded in the description, on-screen UI, host chat, and sampled frames.\n\nQuality claim on the creator's own X: Fable 5.1 oneshot a Mario Kart clone and is \"a huge step up from Fable 5.\" Mid-stream he launches two Fable 5.1 sub-agents to build a triple-A Three.js Subway Surfers clone; later he posts an Apex/FO GitHub Pages demo. On-screen stack matches the description: Fable 5.1 + Claude Code + GPT 5.6 SOL + Grok 4.6 + Codex.\n\nThe constraint that actually showed up is quota, not IQ. A usage graphic on stream: session 100% used, week-all-models 41%, week-Fable 78%, plus a tweet that Max users are \"cooked\" and 5.1 feels more expensive. Live chat repeats the same split: Anthropic's API story is cheaper cache reads; subscription users report session melt (one claim: 30% of a Max window in ~30 seconds on medium) and lost 50% token discounts that force Opus 5 fallback and \"contaminate\" Fable work. Same afternoon Gemini 3.8 Flash dropped and hijacked chat — Flash in minutes vs Fable Mario Kart estimated 1h40–2h. That is oneshot-vs-iterate-vibe-coding and inference-speed-vibe-coding colliding with subscription-vs-api-agent-pricing.\n\nOfficial launch context (not spoken on the VOD, needed to read the stream): Fable 5.1 keeps Fable 5 list prices ($10 / $50 per MTok) and cuts cache reads 75% to $0.25; Anthropic estimates ~25% typical / ~45% highly agentic API savings. Adaptive thinking is always on; effort is the depth dial. Claude Mythos 5.1 is the same weights for project-glass-wing / trusted-access only. Docs still say start with Opus 5 for most work and reserve Fable 5.1 for long-horizon agents.",
+      "key_insights": [
+        "Six Claude Code v2.1.357 terminals, each Fable 5.1 xhigh / Claude Max.",
+        "MCP banner: six servers need `/mcp` auth — harness tax before the model even works.",
+        "Workspaces already named `fable-5-1` and `bridgebench` next to production `bridgemind` / `bridgespace-tauri`.",
+        "Creator-labeled Mario Kart oneshot = \"huge step up from Fable 5.\"",
+        "Sub-agent prompt is maximalist (AAA Subway Surfers, Three.js, insane graphics) — same oneshot instinct as the Jul 2026 therapist MVP.",
+        "On-screen session bar at 100% with Fable week at 78% is the primary evidence.",
+        "Chat: MAX effort ~2.5× extra-high; 5.1 \"eats tokens\" far faster than Fable 5; API cheaper ≠ Max cheaper.",
+        "Routing improvisation from chat: Fable 5.1 as advisor over Opus 5 xhigh workers; or 5.1 medium vs Fable 5 xhigh.",
+        "Gemini 3.8 Flash is not a fair intelligence comparison; chat still used it as a time-to-playable foil.",
+        "Reinforces Jul 2026 lesson: tok/s and quota are product features, not footnotes."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "subscription-vs-api-agent-pricing",
+          "title": "Subscription vs API Agent Pricing",
+          "e": "🧾"
+        },
+        {
+          "slug": "oneshot-vs-iterate-vibe-coding",
+          "title": "Oneshot vs Iterate (Vibe Coding)",
+          "e": "⚡"
+        },
+        {
+          "slug": "inference-speed-vibe-coding",
+          "title": "Inference Speed (Vibe Coding)",
+          "e": "⚡"
+        },
+        {
+          "slug": "model-routing-vibe-coding",
+          "title": "Model Routing for Vibe Coding",
+          "e": "🔀"
+        },
+        {
+          "slug": "serving-capacity-model-usability",
+          "title": "Serving Capacity (Model Usability)",
+          "e": "🚦"
+        },
+        {
+          "slug": "token-maxing-fallacy",
+          "title": "Token-Maxing Fallacy",
+          "e": "🪙"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "project-glass-wing",
+          "title": "Project Glass Wing",
+          "e": "🪟"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "use-sleep-enhance-learning-memory-gina-poe-huberman-essentials",
+      "title": "Essentials: Use Sleep to Enhance Learning, Memory & Emotional State | Dr. Gina Poe",
+      "video_id": "f1NNmiz547U",
+      "url": "https://youtu.be/f1NNmiz547U",
+      "duration_min": 30,
+      "creator": "andrew-huberman",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "health",
+        "neuroscience",
+        "sleep",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "health",
+        "neuroscience",
+        "sleep",
+        "huberman lab",
+        "andrew huberman",
+        "Sleep Architecture (90 Minute Cycles)",
+        "First Cycle Slow Wave Clock",
+        "Sleep Spindle Memory Consolidation",
+        "Locus Coeruleus REM Silence",
+        "REM Emotion Divorce (PTSD)",
+        "Sleep Inertia (Cycle Completion)",
+        "Late Night REM Schema Creativity"
+      ],
+      "summary": "andrew-huberman Huberman Lab Essentials recap (~30 min, published 2026-09-03) of the conversation with UCLA sleep researcher gina-poe. Sleep is not a cheaper form of rest: brain chemistry in N1 / N2 / N3 / REM cannot be faked by any waking state. A \"perfect\" night is ~4–5 cycles of ~90 min (first cycle often 105–110 min), totaling 7.5–8 hours.\n\nThe first cycle is clock-tied, not delayable. Early-night slow-wave sleep delivers the big growth-hormone bolus, memory-building protein synthesis, adenosine→ATP rebuild in the first ~20 min (why power naps feel powerful), and the neuron expand/contract \"bilge pump\" that washes misfolded proteins. Go to bed later than your usual clock and you miss that window; you do not shift it. Shift workers who keep a *consistent* late schedule can still be fine if melatonin and morning corticosterone also shift.\n\nLater cycles add more REM. That is when the brain opens folders, compares documents, and sews schema — Poe's account of insight and creativity. Sleep spindles (N2, 10–15 Hz thalamus–cortex) write hippocampal \"RAM\" to cortical \"disk.\" Spindle density tracks intelligence *and* that night's learning: if you learned something new and spindles do not rise, sleep will not incorporate it.\n\nLocus coeruleus (norepinephrine) is tonic in wake, slower in NREM, and fully silent only in REM. That silence erases the novelty-encoding \"thumb drive\" so you can keep learning, and it divorces emotion from the memory just consolidated in N2. If LC stays on (anxious pre-sleep, PTSD), REM re-sews the heart-rate/sweat response into the story. Practical lever: enter sleep calm (breathing, bath, unexciting book); skip novelty/video games and alcohol (REM + spindle suppressant).",
+      "key_insights": [
+        "Sleep is irreplaceable — no waking substitute matches NREM/REM chemistry.",
+        "Four human states — N1 (dozing, gamma), N2 (spindles + K-complexes; hallucination-style dreams if woken), N3 slow-wave (brain wash + GH bolus), REM (storyline dreams + muscle atonia).",
+        "~90-min cycles — ~5 per night; first cycle longer (~105–110 min); later cycles shorter and REM-heavy.",
+        "Clock, not delay — miss habitual bedtime → miss first-cycle GH bolus, protein synthesis, and slow-wave washout. Consistent bedtime is a marker of later-life neurological health.",
+        "Alcohol — suppresses REM and N2→REM spindle transition until metabolized.",
+        "Mid-night bathroom wake is normal — sleep is homeostatic; make it up next morning/night rather than stressing.",
+        "Sleepwalking ≠ REM behavior — sleepwalking is mixed slow-wave + wake (can cook, drive); REM without atonia is dangerous acting-out.",
+        "Sleep inertia — waking mid-cycle = opening a washing machine mid-rinse. Wake from REM is usually cognitively clean. Trackers ~70% at staging; do not live by them.",
+        "Power-nap ATP — first ~20 min rebuilds adenosine into ATP.",
+        "Late-night REM = creativity — schema linking of old + new; P-waves (pons→thalamus→cortex) + spindles sew insight (may be less random than first thought).",
+        "LC off in REM — erase novelty RAM; PTSD model = norepinephrine not downscaled, so REM amplifies emotion.",
+        "Debrief-after-trauma caution — reactivating emotion without restoring safety/calm before sleep can make sleep maladaptive.",
+        "Pre-sleep calm — deep breathing, meditation, warm bath, comforting (not boring, not exciting) book. Anxious entry → maladaptive sleep."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "sleep-architecture-90-minute-cycles",
+          "title": "Sleep Architecture (90-Minute Cycles)",
+          "e": "🌙"
+        },
+        {
+          "slug": "first-cycle-slow-wave-clock",
+          "title": "First-Cycle Slow-Wave Clock",
+          "e": "🕙"
+        },
+        {
+          "slug": "sleep-spindle-memory-consolidation",
+          "title": "Sleep Spindle Memory Consolidation",
+          "e": "🧵"
+        },
+        {
+          "slug": "locus-coeruleus-rem-silence",
+          "title": "Locus Coeruleus REM Silence",
+          "e": "🔇"
+        },
+        {
+          "slug": "rem-emotion-divorce-ptsd",
+          "title": "REM Emotion Divorce (PTSD)",
+          "e": "💔"
+        },
+        {
+          "slug": "sleep-inertia-cycle-completion",
+          "title": "Sleep Inertia (Cycle Completion)",
+          "e": "🧺"
+        },
+        {
+          "slug": "late-night-rem-schema-creativity",
+          "title": "Late-Night REM Schema Creativity",
+          "e": "💡"
+        },
+        {
+          "slug": "glymphatic-sleep-cleansing",
+          "title": "Glymphatic Sleep Cleansing",
+          "e": "🧠"
+        },
+        {
+          "slug": "huberman-sleep-stack",
+          "title": "Huberman Sleep Stack",
+          "e": "😴"
+        },
+        {
+          "slug": "sauna-growth-hormone-protocol",
+          "title": "Sauna Growth Hormone Protocol",
+          "e": "🔥"
+        },
+        {
+          "slug": "nsdr-learning-acceleration",
+          "title": "NSDR Learning Acceleration",
+          "e": "😴"
+        },
+        {
+          "slug": "sleep-mitochondrial-restoration",
+          "title": "Sleep & Mitochondrial Restoration",
+          "e": "😴"
+        }
+      ],
+      "conceptCount": 12
+    },
+    {
+      "slug": "wim-hof-2-minute-routine-more-energy-than-coffee",
+      "title": "Wim Hof's 2 Minute Routine for More Energy than Coffee",
+      "video_id": "J_f8_X6hrnM",
+      "url": "https://youtu.be/J_f8_X6hrnM",
+      "duration_min": 46,
+      "creator": "jay-shetty",
+      "updated": "2026-09-05",
+      "created": "2026-09-05",
+      "tags": [
+        "health",
+        "breathing",
+        "cold-exposure",
+        "willpower",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "health",
+        "breathing",
+        "cold exposure",
+        "willpower",
+        "jay shetty",
+        "Wim Hof Method Three Pillars",
+        "Deliberate Hyperventilation for Adrenaline",
+        "Deliberate Cold Exposure Protocols",
+        "Comfort Is a False Feeling",
+        "Anxiety as Cleanup Signal",
+        "Willpower as CNS Connection",
+        "Interoceptive Intention"
+      ],
+      "summary": "jay-shetty *On Purpose* interview (~46 min, auto-generated captions) with wim-hof: the wim-hof-method-three-pillars — breathing, cold, and commitment — as a half-hour path to autonomic, immune, and emotional control that science once called impossible. Hof's core claim is practical autonomy: inflammation is \"the cause and effect of every disease\"; the same simple protocol that blunted an endotoxin challenge can clean \"biochemical residue\" from daily stress and restore energy, focus, and will.\n\nThe \"2-minute routine\" in the title is the entry trick: 30 full breaths (nose vs mouth \"does not matter so much\" for a short round), exhale and hold on empty lungs, then test a known max (Poland stage demo: 15 push-ups → 40). Best on an empty stomach, first thing or before a shower; add a cold shower. Mechanism Hof teaches: blow off CO₂ → blood goes alkaline → you can sit 1.5–2 minutes without air hunger → brainstem still reads oxygen drop → adrenal axis spikes (~2× a first-time bungee, in his telling) → after the hold, ~5× more blood to brain and heart. Same protocol for interview, stage, or relationship anxiety: anxiety-as-cleanup-signal — anxiety is the body saying clean up before you go up.\n\nCold is the other door. comfort-is-false-feeling: comfort is a false long-term feeling that heaps psychosomatic residue; \"if you don't go to the cold, the cold will come to you.\" Anyone can stay one minute; after that the inner power is \"on.\" Shetty's monastery contrast therapy (sauna 10–15 min / cold 3–5 min × 3) is the lived relaxation counterexample — the mind expects tightness, the body goes loose. Hof's 500-person corporate comparison (submitted, he says, to *Nature*) beat mindfulness/meditation on rumination, cognitive awareness, stress experience, and trust. Willpower is not thinking: willpower-as-cns-connection — 2–3 minutes of cold adaptation links prefrontal cortex to the central nervous system; 76-year-old with Lyme, no climbing experience, Kilimanjaro in shorts in 31 hours. Top-down interoceptive-intention (\"when we talk to our body, it hears us\") is the same everyday motor command, aimed at purpose and subcortical areas.\n\nSafety sits with the Huberman layer: cyclic hyperventilation is never for water; Hof's toxin-flush language (PFAS, microplastics, mRNA, radio waves) is his speculative frame, not the PNAS cytokine result. The usable gift is free: breath + cold shower + do it once.",
+      "key_insights": [
+        "Three pillars, one hour — breathing, cold, commitment (\"just do it\"); techniques used to take 10 days, then 4, now ~30 minutes to feel",
+        "30 breaths → empty hold → test power — Poland: 15 push-ups to 40; boxers, singers, and athletes already knew breath; daily life forgot",
+        "Empty stomach, morning or pre-shower — plus a cold shower; don't overthink nasal vs mouth for a short round",
+        "Alkaline hold, then adrenaline — CO₂ off → alkaline → no air hunger → brainstem panic → adrenal spike; Hof: ~2× first-time bungee adrenaline, then ~5× brain/heart blood flow",
+        "Same protocol for anxiety — simplicity is the power; anxiety as cleanup signal before a job interview, date, or stage",
+        "Endotoxin lineage — Hof's telling of the trained-vs-untrained bacterial-injection experiment (the Huberman/PNAS IL-10 story); claims training time collapsed from days to half an hour",
+        "Comfort is the trap — escaping into comfort fails when stress arrives anyway; conscious stress (cold/breath) trains the same machinery",
+        "One minute is the hunch — first 10 seconds is an untrained body; stay ~60 s and adaptation \"turns on\"; 80-year-olds did 10 minutes last weekend",
+        "Good after / bad before — Shetty: things good for you feel good after; things bad for you feel good before",
+        "Willpower = connection, not thought — 2–3 min cold adaptation; Kilimanjaro Lyme story (31 hours, shorts, 76); \"Do you really want it?\"",
+        "Talk to the body — lifting a glass is already interoceptive command; intention + breath moved a brain scan past the 9,500-scan human bandwidth (Hof's Sydney demo)",
+        "Freedom is for free — no paid breath work, no paid cold shower; \"love is where you are able to make that what is going bad within good\""
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "wim-hof-method-three-pillars",
+          "title": "Wim Hof Method Three Pillars",
+          "e": "🧊"
+        },
+        {
+          "slug": "deliberate-hyperventilation-adrenaline",
+          "title": "Deliberate Hyperventilation for Adrenaline",
+          "e": "😮‍💨"
+        },
+        {
+          "slug": "deliberate-cold-exposure-protocols",
+          "title": "Deliberate Cold Exposure Protocols",
+          "e": "🧊"
+        },
+        {
+          "slug": "comfort-is-false-feeling",
+          "title": "Comfort Is a False Feeling",
+          "e": "🛋️"
+        },
+        {
+          "slug": "anxiety-as-cleanup-signal",
+          "title": "Anxiety as Cleanup Signal",
+          "e": "🧹"
+        },
+        {
+          "slug": "willpower-as-cns-connection",
+          "title": "Willpower as CNS Connection",
+          "e": "🔗"
+        },
+        {
+          "slug": "interoceptive-intention",
+          "title": "Interoceptive Intention",
+          "e": "🗣️"
+        },
+        {
+          "slug": "cold-exposure-walls-resilience",
+          "title": "Cold Exposure Walls (Resilience Training)",
+          "e": "🧊"
+        },
+        {
+          "slug": "anterior-mid-cingulate-cortex-willpower",
+          "title": "Anterior Mid-Cingulate Cortex Willpower",
+          "e": "🏋️"
+        },
+        {
+          "slug": "energy-menu-items",
+          "title": "Energy Menu Items",
+          "e": "⚡"
+        },
+        {
+          "slug": "pre-presentation-nerves",
+          "title": "Pre-Presentation Nerves",
+          "e": "🎤"
+        }
+      ],
+      "conceptCount": 11
     },
     {
       "slug": "alex-hormozi-if-i-started-today-jay-shetty",
@@ -119,7 +1321,7 @@
         "Humans underweight upside / overweight downside (survival-useful, wealth-hostile)",
         "Final Five: unreasonable work; worst = follow passion; find better people / help first; focus; mandatory end-of-life wealth giveaway (not inheritance)"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "actions-required-frame",
@@ -229,7 +1431,7 @@
         "Match rigor to stage. Pre-PMF, vibe code and find what people pay for. At 5+ engineers, regulated fintech, or publicly traded customers, the ladder is step one because a bug can cost a million-dollar fine.",
         "You are competing against a product manager, not a company. Anthropic and Google are formidable in aggregate; the team actually assigned to your niche is small and wrapped in process."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "agentic-software-factory",
@@ -394,7 +1596,7 @@
         "Sold BTC to break a narrative — prove treasury can sell without killing BTC or equity credit loop",
         "Adult curriculum — Taleb statistics + full Durant civilization history over CliffNotes youth education"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "bitcoin-as-digital-capital",
@@ -492,7 +1694,7 @@
         "Speed + pause — fast speech from nerves/adrenaline/self-focus; breathing + star jumps + audience reframe; pause for listener processing; see three-second-pause, five-vocal-foundations.",
         "Vocal match then lead — mirror five foundations where they are, then shift; one-gear default kills dynamism; see energy-leadership, communication-gears."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "habitual-vs-natural-voice",
@@ -615,7 +1817,7 @@
         "Already happening — 5/6 IMO auto-formalized solutions = gold-level without human review",
         "Fork — bottleneck only if humans insist on being sole thinkers and sole checkers"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "human-verification-bottleneck",
@@ -921,7 +2123,7 @@
         "UK classic late-cycle squeeze — can't raise taxes / cut benefits / finance deficits easily",
         "US power theater exposed — Hormuz/Iran shows limited appetite for sustained force projection"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "ai-investment-bubble",

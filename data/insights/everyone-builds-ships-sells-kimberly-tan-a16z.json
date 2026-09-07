@@ -1,0 +1,40 @@
+{
+  "slug": "everyone-builds-ships-sells-kimberly-tan-a16z",
+  "sections": [
+    {
+      "title": "The unsexy last mile",
+      "items": [
+        {
+          "e": "📦",
+          "q": "Why does Tan rehabilitate the 'GPT wrapper' slur?",
+          "a": "Out-of-the-box model capability is **not what an enterprise buyer will pay for**. Two gaps: **base-model-to-buyer** (routing, tacit knowledge) and **demo-vs-production** (**95% right, 5% something else** vs click-this-button SaaS)."
+        },
+        {
+          "e": "✈️",
+          "q": "What GTM motion does that imply?",
+          "a": "**Forward-deploy AI**: send people **on site** to wire integrations, inject context, and set guardrails. A demo can no longer stand in for proof — you must see it **in production**."
+        }
+      ]
+    },
+    {
+      "title": "Vertical, ROI, humans",
+      "items": [
+        {
+          "e": "🏥",
+          "q": "Why do vertical applied-AI products win?",
+          "a": "They encode one industry's **rules, compliance, and culture**. Prepared (911) is the example: founder knows every buyer, outcome is **faster help**, historically weak software buyers still understand it."
+        },
+        {
+          "e": "📊",
+          "q": "What must you name before a pilot ends?",
+          "a": "**Identifiable ROI** plus a real sponsor. Coding and support have obvious numbers (output, resolution, CSAT, 24/7, cost). **Partial-flow or augmentation** products struggle to prove the number."
+        },
+        {
+          "e": "🧑‍⚖️",
+          "q": "Does automation replace the human?",
+          "a": "Two axes: **technical completeness** × **liability / culture / regulation**. Lawyer still signs; doctor still owns. Even support keeps **escalation and agent managers**. Excellent tech still fails if no one buys it."
+        }
+      ]
+    }
+  ]
+}

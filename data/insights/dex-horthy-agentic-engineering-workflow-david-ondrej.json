@@ -1,0 +1,35 @@
+{
+  "slug": "dex-horthy-agentic-engineering-workflow-david-ondrej",
+  "sections": [
+    {
+      "title": "Review is the bottleneck",
+      "items": [
+        {
+          "e": "🏭",
+          "q": "What unfashionable claim does Dex start from?",
+          "a": "Agents solve problems well but **cannot yet write maintainable code without a human**. The factory swapped \"human builds\" for an agent: building is **minutes**, reviewing is still **hours/days**. Automating build doubles nothing if trust-building still takes days."
+        },
+        {
+          "e": "🕳️",
+          "q": "What broke when HumanLayer tried to stop reading code?",
+          "a": "The **light software factory** (agent review, linters, nobody reads). A desktop bug three frontier models could not fix forced them back into months of unread **slop** under user pressure. Recovery cost is paid at the worst time."
+        }
+      ]
+    },
+    {
+      "title": "Front-load judgment where it is cheap",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "Which alignment rung does almost everyone skip?",
+          "a": "**Program design**: file placement, call stack, types/signatures, what tests will look like — **before** the agent cooks. A design session at ~**43K tokens** still has full model intelligence; re-steering after thousands of lines is expensive and biased."
+        },
+        {
+          "e": "📊",
+          "q": "Why don't 99% SWE-Bench scores license you to stop reading?",
+          "a": "RL scores **tests passing**, never design. Maintainability has **no fast oracle**. Match rigor to stage: pre-PMF, vibe; at 5+ engineers or regulated customers, the ladder is step one. If review is the constraint, adding coding agents is the **token-maxing fallacy**."
+        }
+      ]
+    }
+  ]
+}
