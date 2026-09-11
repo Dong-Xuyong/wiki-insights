@@ -1,8 +1,66 @@
 {
   "generated": true,
-  "videoCount": 199,
-  "insightsCount": 196,
-  "conceptCount": 1920,
+  "videoCount": 202,
+  "insightsCount": 199,
+  "conceptCount": 1943,
+  "sections": [
+    {
+      "id": "architecture",
+      "title": "Knowledge architecture",
+      "color": "#77b7ff"
+    },
+    {
+      "id": "agents",
+      "title": "AI stack & agents",
+      "color": "#9a8cff"
+    },
+    {
+      "id": "systems",
+      "title": "Systems, geopolitics & security",
+      "color": "#ff8e72"
+    },
+    {
+      "id": "build",
+      "title": "Build, sell & wealth",
+      "color": "#ffbc70"
+    },
+    {
+      "id": "human",
+      "title": "Human edge",
+      "color": "#ff8fac"
+    },
+    {
+      "id": "performance",
+      "title": "Performance & body",
+      "color": "#61d8ba"
+    },
+    {
+      "id": "mind",
+      "title": "Mind & habits",
+      "color": "#57c4db"
+    },
+    {
+      "id": "relationships",
+      "title": "Communication & relationships",
+      "color": "#e99dff"
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "color": "#9a948a"
+    }
+  ],
+  "sectionCounts": {
+    "architecture": 2,
+    "agents": 43,
+    "systems": 8,
+    "build": 28,
+    "human": 10,
+    "performance": 46,
+    "mind": 25,
+    "relationships": 33,
+    "other": 7
+  },
   "videos": [
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",
@@ -13,6 +71,7 @@
       "creator": "steven-bartlett",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -159,6 +218,7 @@
       "creator": "andrew-ng",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "human",
       "tags": [
         "andrew-ng",
         "jobs",
@@ -274,6 +334,7 @@
       "creator": "jay-shetty",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "mind",
       "tags": [
         "mindset",
         "criticism",
@@ -428,6 +489,7 @@
       "creator": "jay-shetty",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "relationships",
       "tags": [
         "relationships",
         "breakup",
@@ -548,6 +610,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "performance",
       "tags": [
         "health",
         "genetics",
@@ -640,6 +703,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "performance",
       "tags": [
         "health",
         "mitochondria",
@@ -715,6 +779,7 @@
       "creator": "vincent-wendy",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "agents",
       "tags": [
         "design",
         "agents",
@@ -822,6 +887,7 @@
       "creator": "simon-squibb",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "build",
       "tags": [
         "social-media",
         "entrepreneurship",
@@ -939,6 +1005,7 @@
       "creator": "the-primeagen",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "agents",
       "tags": [
         "agents",
         "programming",
@@ -1031,6 +1098,7 @@
       "creator": "the-primeagen",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "agents",
       "tags": [
         "ai-for-math",
         "openai",
@@ -1122,6 +1190,253 @@
       "conceptCount": 10
     },
     {
+      "slug": "the-secret-to-deeper-conversations-ted-intersections",
+      "title": "The Secret to Deeper Conversations | TED Intersections",
+      "video_id": "1r2fqbD0KZ4",
+      "url": "https://youtu.be/1r2fqbD0KZ4",
+      "duration_min": 29,
+      "creator": "ted",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "section": "mind",
+      "tags": [
+        "communication",
+        "conversation",
+        "ted",
+        "mental-health",
+        "male-friendship"
+      ],
+      "keywords": [
+        "communication",
+        "conversation",
+        "ted",
+        "mental health",
+        "male friendship",
+        "Ask More Questions Than Statements",
+        "Why Not Plus Silence",
+        "One Standard for Every Person",
+        "Enough as Existence Not Accomplishment",
+        "Scheduled Male Friendship",
+        "Undistracted Time for Depth",
+        "Question as Contribution"
+      ],
+      "summary": "ted Intersections card-deck conversation (~29 min, YouTube auto-generated captions) between journalist joshua-johnson and toms-shoes founder blake-mycoskie. They shuffle audience/editor prompts on whether \"real\" conversation is dying, how lonely men start, the most transformational talk each has had, how they would redesign connection, and practical tips for going deeper. Host-reported lived practice, not a lab study.\n\nThey reject a simple decline story. Johnson's friend group is swinging back toward dinner parties and vulnerability after a long digital stretch. Mycoskie, now mostly in mental-health work, is biased toward raw talk and argues capacity grows once people taste the benefit. Johnson's editor-instinct caveat: \"real\" includes WhatsApp check-ins that walk some people toward face-to-face. That is a bridge, not a fake.\n\nMale loneliness splits into an inner step and a practical step. Johnson wants men to get honest in the mirror first — what a connected day would actually look like — so \"be more social\" stops being a fuzzy ought. Mycoskie's starter move: invite someone to coffee, ideally an old close friend, and ask about *their* life so they go first. Proof of maintenance: at ~30 he interviewed his father, whose only regret was losing college and medical-school friends to family and work. Blake emailed seven friends, started an annual trip (Colorado camping, year one), and 19 years later the Rugged Adventure Club is 14 men. After selling TOMS they go to places like the Maldives; he still treats the group as one of the biggest mental-health interventions in his life. Johnson's parallel father story fails: after years of estrangement (divorce at five, coming out, Jehovah's Witness father) he flew to Florida to record an oral history, bought gear, and was deferred until \"next time.\" His father died. Johnson still has not written the obit. The contrast is scheduled-male-friendship vs a connection attempt that missed the deadline.\n\nTransformational talks: Johnson, hosting NPR, stopped inflating for Eric Holder and treated him like any other guest; Holder cancelled the planned mid-segment exit. The reframe is one-standard-for-every-person — conversation depends on what is inside you, not on calibrating to status. Mycoskie, after a two-year mental-health crisis, told his 11- and 8-year-olds that he is enough because he exists, not because of TOMS or other people's opinions, and that the same is true of them. He saw his son drop water-polo/grade pressure he had been projecting without saying it. Dinner ritual: youngest first, \"I am enough / you are enough / we are enough.\" He always wears an extra \"you are enough\" bracelet to give away; he gives one to Johnson on camera. Softness and activist \"enough!\" sit in the same word.\n\nRedesign: Johnson would make listening, communication, and critical thinking a common-core / high-school requirement (speech and debate was his best skill set; 14-second TikTok cannot carry connection; Gen Z saving for retirement earlier is a fear signal). Mycoskie jokes about Avatar neural-queue handshakes, then lands on the same human work.\n\nClosing tips: Johnson's operating system is ask-more-questions-than-statements plus why-not-plus-silence — radio strangers said \"I never would have guessed you were Black\"; he answered \"Why not?\" and paused; they apologize to themselves harder than he could punish them. Ask permission when needed, then stand on the question; after it leaves your mouth it is their problem. Mycoskie: undistracted-time-for-depth — host with leftover clock, sit in the pause, ask a clarifying follow-up before jumping to the next prompt. Depth is a time budget, not a cleverer opener.",
+      "key_insights": [
+        "\"Real\" is a spectrum. Text-when-freaking-out can be the on-ramp; eye-to-eye is not the only authentic mode",
+        "Pendulum, not collapse. Digital saturation is producing hunger for dinner-party intimacy in their circles",
+        "Men: mirror, then coffee. Agency about *what* connection is for, then go first by asking about their life",
+        "Friendship is a calendar item. Dad's only regret → 19 annual trips; sell a company and the group still matters",
+        "Oral history has a deadline. Johnson booked the flight; his father said \"we've got time\"",
+        "One standard beats status calibration. Holder stayed because the host stopped performing for the famous guest",
+        "Enough is existence, not résumé. Parent worth-wound projects onto kids until it is named out loud",
+        "Practice, not a one-time insight. Dinner ritual + extra bracelet; eight-year-old still has room to grow",
+        "Teach connection in school. Listening / communication / critical thinking as graduation requirements",
+        "Questions + silence + time. Ask more than you declare; \"Why not?\" then shut up; do not rush the pause; clarify before the next question"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ask-more-questions-than-statements",
+          "title": "Ask More Questions Than Statements"
+        },
+        {
+          "slug": "why-not-plus-silence",
+          "title": "Why Not Plus Silence"
+        },
+        {
+          "slug": "one-standard-for-every-person",
+          "title": "One Standard for Every Person"
+        },
+        {
+          "slug": "enough-as-existence-not-accomplishment",
+          "title": "Enough as Existence Not Accomplishment"
+        },
+        {
+          "slug": "scheduled-male-friendship",
+          "title": "Scheduled Male Friendship"
+        },
+        {
+          "slug": "undistracted-time-for-depth",
+          "title": "Undistracted Time for Depth"
+        }
+      ],
+      "conceptCount": 6
+    },
+    {
+      "slug": "the-stress-expert-david-ko-calm-jay-shetty",
+      "title": "The Stress Expert: The Reason You Wake Up Tired Every Morning | David Ko, CEO of Calm",
+      "video_id": "UvBLLTLfqqo",
+      "url": "https://www.youtube.com/watch?v=UvBLLTLfqqo",
+      "duration_min": 49,
+      "creator": "jay-shetty",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "section": "mind",
+      "tags": [
+        "mental-health",
+        "stress",
+        "leadership",
+        "communication",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "mental health",
+        "stress",
+        "leadership",
+        "communication",
+        "jay shetty",
+        "Battery Check Question",
+        "Four Battery Zones",
+        "Recharge vs Rest Guilt",
+        "Eustress vs Distress at Work",
+        "Power Up Not Power Through",
+        "Know Your Chargers",
+        "Presence as Mutual Charge"
+      ],
+      "summary": "jay-shetty On Purpose clip (~49 min, YouTube auto-generated captions) with david-ko, then-CEO of calm and author of *Recharge: Boosting Your Mental Battery, One Conversation at a Time*. Host-reported lived practice plus Ko's book interviews (Dr. Aditi Nerurkar on eustress/distress; Randall Park, Delilah, and others), not a lab study. Shetty opens with a 72-gigabyte-per-day information load — likened to reading *The Hobbit* every day (~96,000 words) — as the reason people wake up already tired.\n\nThe operating metaphor is a mental battery. Ko's friend Brenda asked her kids \"how's your battery?\" after \"how are you?\" produced only \"fine.\" Kids answered with percentages and needs (snack, decompress). Ko ran with it because it is simple, age-agnostic, and does not charge the conversation the way \"mental health\" still does. Shetty's add: people scale life to a 10 or flatten it to \"plain fine\"; a number gives you something to work with.\n\nKo maps four-battery-zones: 75–100 move along; 50–75 start planning a recharge; 25–50 take a break (walk, phone down, stop the Zoom litany); 0–25 hard stop. Recharge is personal — walk, outside, breaths, workout — listed as a menu in the book, not a protocol. Shetty keeps his phone and his body above ~30–50% and cancelled the dinner after this taping so he could stay present for two interviews. The reframe is recharge-vs-rest-guilt: rest feels like stealing time; recharge is how you give tomorrow your best. Ko cannot take an EV to 5%; some friends stress if they charge *too* high. Same battery, different setpoints.\n\nWhen someone says they are at five, do not hope for \"I'm good.\" leader-vulnerability-permission plus presence: be ready for the answer, listen, then audit the drainers the way Apple shows which apps kill the phone. Shetty's CEO-client refused to tell his team the transformation journey (\"they'll think I'm weak\"); Shetty's bet is they will think he is strong. Strength-as-bravado is shifting slowly. eustress-vs-distress-work: checking \"are you done yet / why didn't numbers triple\" makes people work *harder*; the right amount of stress makes them work *better*. Unending 24/7 stack → anxiety, depression, physical ailments, unproductivity. More than half of Calm users come for sleep (devices in bed). Younger Ko smoked in the Salomon Brothers stairwell, then drank more and ate Chinese at 11:30 — negative behavior because he had no in-the-moment tools. Brain capacity is not endless; below 50% / 25% his work is \"embarrassingly bad,\" and \"no amount of AI is going to make it better.\" Shetty: a still mind makes quicker, better decisions; seven minutes of stillness makes you faster, not slower.\n\npower-up-not-power-through: 61% feel expected to just get over stress; 33% feel too overwhelmed by daily stress to think ahead. At 14, Ko got chest tightness, shortness of breath, and sweaty palms around tests and speaking; his traditional Korean mother said power through. He only got vocabulary later, in healthcare. Shetty's South Asian parallel: doctors wired him for 24 hours, said he was fine; family culture was performative. Mental health is more approachable in the US than when he goes home to Korea. Leaders stay \"down the fairway\" (media-trained, boring) because they fear the board, the press, and weakness. Ko now opens staff meetings with weekend life, not PRDs; Shetty's Friday weekly win (30 min) reveals what people actually count as success.\n\nknow-your-chargers in advance: sleep, mindfulness, food, workout, loved people — mapped to the situations that put you at 1–20%, so you do not invent a charger while depleted. Shetty: 5/7 days gym; meditation before 9am five days; daily gratitude; breath work before stage; phone-free dinner/show with his wife; laptop without messaging apps in team rooms. Ko: no phone first thing; coffee, open the window, three breaths outside; walking meetings; people give him energy; exercise something every day. Power-down is actually off, not face-down. One-law wish: teach kids mental health the way gym is mandatory, starting before 14.\n\nCoda: Shetty never asked how Ko's battery was. Ko: 100% because presence charged him. Shetty came in at ~60 after Diwali social load, left at ~95. presence-as-mutual-charge — charging someone else by being here is not a loss.",
+      "key_insights": [
+        "\"How are you?\" is designed to fail. It returns \"fine.\" \"How's your battery?\" returns a percentage and a need",
+        "Zero and 100 are easy; the middle is the work. Kids' weddings vs job loss; daily life lives in the zones",
+        "Four zones, not vibes. 75–100 fine; 50–75 plan; 25–50 break; 0–25 hard stop",
+        "Recharge is not rest. Rest triggers guilt; recharge is how tomorrow gets a present person",
+        "Setpoints differ. Some people panic at 5% EV; some panic if they charge too high",
+        "Do not ask if you cannot stay. A 5% answer needs space, listening, and a drain-audit, not a polite skip",
+        "Vulnerability is permission. If the CEO never narrates the journey, the team concludes it is not safe",
+        "Harder ≠ better. Deadline pile-on creates distress; eustress builds resilience, growth, culture",
+        "Sleep is the first workplace tool. Devices in bed → irritability → bad next-day work; half of Calm comes for sleep",
+        "Negative coping is a missing-toolkit problem. Stairwell cigarettes and 11:30 Chinese were what he had at Salomon",
+        "Capacity is finite. Powering through below 50% produces embarrassing work; AI does not rescue it",
+        "Stillness is speed. Stressed communication is short and rushed; 7 minutes can make you faster",
+        "61% / 33%. Expected to get over it; too overwhelmed to think ahead — corporate denial is a leadership failure",
+        "Power up, do not power through. The parent line that lacked vocabulary",
+        "Name your chargers before 1%. Sleep vs workout vs no-plans weekend vs breath work — decide when you are at 70",
+        "Presence charges both sides. Open tabs drain; being here fills both batteries",
+        "Teach it like PE. Mental-health vocabulary at 14 would have changed the coping stack"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "battery-check-question",
+          "title": "Battery Check Question"
+        },
+        {
+          "slug": "four-battery-zones",
+          "title": "Four Battery Zones"
+        },
+        {
+          "slug": "recharge-vs-rest-guilt",
+          "title": "Recharge vs Rest Guilt"
+        },
+        {
+          "slug": "eustress-vs-distress-work",
+          "title": "Eustress vs Distress at Work"
+        },
+        {
+          "slug": "power-up-not-power-through",
+          "title": "Power Up Not Power Through"
+        },
+        {
+          "slug": "know-your-chargers",
+          "title": "Know Your Chargers"
+        },
+        {
+          "slug": "presence-as-mutual-charge",
+          "title": "Presence as Mutual Charge"
+        },
+        {
+          "slug": "leader-vulnerability-permission",
+          "title": "Leader Vulnerability Permission"
+        },
+        {
+          "slug": "ask-more-questions-than-statements",
+          "title": "Ask More Questions Than Statements"
+        },
+        {
+          "slug": "undistracted-time-for-depth",
+          "title": "Undistracted Time for Depth"
+        }
+      ],
+      "conceptCount": 10
+    },
+    {
+      "slug": "this-is-everything-thats-wrong-with-consumerism-matt-davella",
+      "title": "This is everything that's wrong with consumerism",
+      "video_id": "__fM_PQDj2Y",
+      "url": "https://youtu.be/__fM_PQDj2Y",
+      "duration_min": 19,
+      "creator": "matt-davella",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "section": "other",
+      "tags": [
+        "consumerism",
+        "fashion",
+        "shein",
+        "attention",
+        "matt-davella"
+      ],
+      "keywords": [
+        "consumerism",
+        "fashion",
+        "shein",
+        "attention",
+        "matt davella",
+        "Ultra Fast Fashion",
+        "Fashion as Tech Proposition",
+        "Casino Shopping Interface",
+        "Social Programming of Cheap",
+        "Clothes Are Not Consumed",
+        "Someone Always Pays for Cheap",
+        "Buy Much Less"
+      ],
+      "summary": "matt-davella (~19 min, YouTube auto-generated captions, ~445K views, ~Sept 9 2026) uses a midlife \"I should dress better\" question to audit the fashion industry as a case study of how far consumerism has gone. Host-reported industry interviews plus an app walkthrough, not a supply-chain investigation. The through-line: ultra-fast-fashion replaced seasonal buying with daily algorithmic drops, then trained people to treat clothes as trash.\n\nThe tempo story has three gears. Traditional retail refreshed twice a year (spring/summer). Fast fashion (Zara / H&M, ~2000s) moved drops to every few weeks. Ultra-fast (last ~2–5 years, shein leading from 2020) puts ~10,000 styles online every day. D'Avella's reported numbers: Shein net sales $1.4B (2018) → $41B (2025); average item Zara $34 / H&M $26 / Shein $14; apparel prices flat 1994–2024 while inflation roughly doubled everything else. Amazon and Temu copied the formula.\n\nclare-press (Australian fashion journalist; ~30 years in the industry; auto-captions never spell her name) names the mechanism: fashion became a fashion-as-tech-proposition — no stores, no retail staff, no designers. Scrape the internet (\"another word for that is stealing\"), \"chuck it in the AI blender,\" test tiny runs with small Shanghai-area producers, keep what flies. The app is a casino-shopping-interface: prize wheels, countdown timers, fake urgency. D'Avella opens Shein with no intent to buy and his heart still races.\n\nThe cultural layer is social-programming-of-cheap. The \"average guy\" has been trained to spend $10 / $50 / $100 on tee / pants / jacket and throw them out. Press rejects the word *consumer*: you consume food; clothes are physical and non-biodegradable. For most of history they were scarce and precious; now status means dressing like royalty, on volume. Influencers post a new outfit daily (\"comment shirt and I'll send you the link\"). Australians buy 56 new items a year — more than one a week — and wear them less than their grandparents did. D'Avella's reframe: grandparents did not have better values; they lived in a different system (higher wages, no mystery wheel on socks). Meta's ~$18B child-addiction settlement is the attention analog.\n\nThe counterexample is Melbourne bespoke. jarrad-cuff (one of four bespoke tailors left in the city; workshop in the shop window) and Marco take several weeks and about four fittings for a $3,800 jacket and pants — \"slow fashion\" that still races the wedding date. D'Avella's sister Madison upcycles pre-loved clothes (Squarespace sponsor beat).\n\nOn cheapness: someone-always-pays-for-cheap. Cotton has to be grown, ginned, spun, woven, dyed, cut; responsible versions of those steps cannot price a tee at $3. Reported Shein labor: ~75-hour weeks, piece rates, no benefits; accusations of forced labor and child labor. Press has stopped worrying about making people feel guilty: overbuying is mostly not school-uniform poverty; people buy five times what they used to. \"We get the system we choose.\" Closing advice: buy-much-less. After 30 years in fashion she is more delighted by a walk looking at birds than by buying feathers to dress like one.",
+      "key_insights": [
+        "Fashion is the consumerism demo. Seasonal → monthly fast fashion → daily ultra-fast is the same addiction stack as social media, applied to physical goods",
+        "Ultra-fast is a tech company wearing a clothing site. No stores, no designers; scrape + AI blender + tiny test runs + keep the hits",
+        "10,000 styles/day is not \"choice.\" It is volume so an algorithm can find what sticks; most SKUs are disposable probes",
+        "The app is a casino. Wheels, timers, 60–90% off pop-ups; friction removed so you never ask \"do I need this?\"",
+        "Prices were socially programmed down. $10 tee / $50 pants / throw-away cycle; apparel sticker prices did not inflate for 30 years",
+        "\"Consumer\" is the wrong verb. Food is consumed; clothes are not sustenance and do not biodegrade on a useful timescale",
+        "Status flipped from scarcity to surplus. Historical preciousness → \"everyone deserves to dress like royalty\"",
+        "Grandparents ≠ better morals. Different wages, different tempo, no gamified checkout",
+        "Someone always pays. 75-hour weeks and piece rates are the $3 tee's real price",
+        "Guilt is the point. Overbuying 5× is a choice for most buyers; \"we get the brands we support\"",
+        "The intervention is volume, not a greener haul. Buy much less; reject the system; nature > costume"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ultra-fast-fashion",
+          "title": "Ultra Fast Fashion"
+        },
+        {
+          "slug": "fashion-as-tech-proposition",
+          "title": "Fashion as Tech Proposition"
+        },
+        {
+          "slug": "casino-shopping-interface",
+          "title": "Casino Shopping Interface"
+        },
+        {
+          "slug": "social-programming-of-cheap",
+          "title": "Social Programming of Cheap"
+        },
+        {
+          "slug": "clothes-are-not-consumed",
+          "title": "Clothes Are Not Consumed"
+        },
+        {
+          "slug": "someone-always-pays-for-cheap",
+          "title": "Someone Always Pays for Cheap"
+        },
+        {
+          "slug": "buy-much-less",
+          "title": "Buy Much Less"
+        }
+      ],
+      "conceptCount": 7
+    },
+    {
       "slug": "why-ai-agents-need-million-token-context-thomas-wolf-olive-song",
       "title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax",
       "video_id": "5Cxe5dv2Xlw",
@@ -1130,6 +1445,7 @@
       "creator": "thomas-wolf",
       "updated": "2026-09-11",
       "created": "2026-09-11",
+      "section": "agents",
       "tags": [
         "agents",
         "context",
@@ -1226,6 +1542,7 @@
       "creator": "graham-stephan",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "build",
       "tags": [
         "personal-finance",
         "macro",
@@ -1319,6 +1636,7 @@
       "creator": "lex-fridman",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "agents",
       "tags": [
         "programming",
         "agents",
@@ -1439,6 +1757,7 @@
       "creator": "the-code-report",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "systems",
       "tags": [
         "ai",
         "openai",
@@ -1530,6 +1849,7 @@
       "creator": "kimberly-tan",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "build",
       "tags": [
         "applied-ai",
         "enterprise",
@@ -1624,6 +1944,7 @@
       "creator": "matthew-prince",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "other",
       "tags": [
         "ai",
         "media",
@@ -1725,6 +2046,7 @@
       "creator": "vinh-giang",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "relationships",
       "tags": [
         "communication",
         "conversation",
@@ -1834,6 +2156,7 @@
       "creator": "david-ondrej",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "agents",
       "tags": [
         "agents",
         "agentic-engineering",
@@ -1948,6 +2271,7 @@
       "creator": "the-primeagen",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "agents",
       "tags": [
         "agents",
         "harness-engineering",
@@ -2044,6 +2368,7 @@
       "creator": "jay-shetty",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "mind",
       "tags": [
         "mindset",
         "psychology",
@@ -2188,6 +2513,7 @@
       "creator": "bridgemind",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -2276,6 +2602,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -2386,6 +2713,7 @@
       "creator": "jay-shetty",
       "updated": "2026-09-05",
       "created": "2026-09-05",
+      "section": "performance",
       "tags": [
         "health",
         "breathing",
@@ -2491,6 +2819,7 @@
       "creator": "jay-shetty",
       "updated": "2026-08-12",
       "created": "2026-08-12",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -2608,6 +2937,7 @@
       "creator": "david-ondrej",
       "updated": "2026-08-12",
       "created": "2026-08-12",
+      "section": "agents",
       "tags": [
         "agents",
         "agentic-engineering",
@@ -2773,6 +3103,7 @@
       "creator": "michael-saylor",
       "updated": "2026-08-12",
       "created": "2026-08-12",
+      "section": "build",
       "tags": [
         "bitcoin",
         "finance",
@@ -2873,6 +3204,7 @@
       "creator": "vinh-giang",
       "updated": "2026-08-12",
       "created": "2026-08-12",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -2996,6 +3328,7 @@
       "creator": "tudor-achim",
       "updated": "2026-08-12",
       "created": "2026-08-12",
+      "section": "other",
       "tags": [
         "ai-for-math",
         "formal-verification",
@@ -3074,6 +3407,7 @@
       "creator": "james-clear",
       "updated": "2026-08-01",
       "created": "2026-08-01",
+      "section": "mind",
       "tags": [
         "books",
         "habits",
@@ -3191,6 +3525,7 @@
       "creator": "",
       "updated": "2026-08-01",
       "created": "2026-08-01",
+      "section": "mind",
       "tags": [
         "books",
         "mindset",
@@ -3298,6 +3633,7 @@
       "creator": "ray-dalio",
       "updated": "2026-08-01",
       "created": "2026-08-01",
+      "section": "build",
       "tags": [
         "finance",
         "investing",
@@ -3395,6 +3731,7 @@
       "creator": "",
       "updated": "2026-08-01",
       "created": "2026-08-01",
+      "section": "mind",
       "tags": [
         "books",
         "mindset",
@@ -3494,6 +3831,7 @@
       "creator": "bridgemind",
       "updated": "2026-07-20",
       "created": "2026-07-20",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -3567,6 +3905,7 @@
       "creator": "matt-pocock",
       "updated": "2026-07-20",
       "created": "2026-07-20",
+      "section": "agents",
       "tags": [
         "agents",
         "skills",
@@ -3650,6 +3989,7 @@
       "creator": "matt-pocock",
       "updated": "2026-07-20",
       "created": "2026-07-20",
+      "section": "agents",
       "tags": [
         "skills",
         "agents",
@@ -3747,6 +4087,7 @@
       "creator": "graham-stephan",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "build",
       "tags": [
         "china",
         "housing",
@@ -3851,6 +4192,7 @@
       "creator": "steven-bartlett",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "performance",
       "tags": [
         "health",
         "cancer",
@@ -3951,6 +4293,7 @@
       "creator": "jay-shetty",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "performance",
       "tags": [
         "health",
         "hydration",
@@ -4064,6 +4407,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "performance",
       "tags": [
         "memory",
         "aging",
@@ -4207,6 +4551,7 @@
       "creator": "jay-shetty",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "mind",
       "tags": [
         "mindset",
         "creativity",
@@ -4322,6 +4667,7 @@
       "creator": "jay-shetty",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "mind",
       "tags": [
         "mindset",
         "happiness",
@@ -4436,6 +4782,7 @@
       "creator": "the-primeagen",
       "updated": "2026-07-16",
       "created": "2026-07-16",
+      "section": "agents",
       "tags": [
         "agents",
         "bun",
@@ -4518,6 +4865,7 @@
       "creator": "entrepreneurs-organization",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "build",
       "tags": [
         "product",
         "anthropic",
@@ -4637,6 +4985,7 @@
       "creator": "po-shen-loh",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "human",
       "tags": [
         "education",
         "ai",
@@ -4741,6 +5090,7 @@
       "creator": "catie-cuan",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "systems",
       "tags": [
         "robotics",
         "human-robot-interaction",
@@ -4841,6 +5191,7 @@
       "creator": "dan-wang",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "systems",
       "tags": [
         "china",
         "geopolitics",
@@ -4955,6 +5306,7 @@
       "creator": "tom-yeh",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "human",
       "tags": [
         "education",
         "ai",
@@ -5031,6 +5383,7 @@
       "creator": "nebulock",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "systems",
       "tags": [
         "cybersecurity",
         "ai-safety",
@@ -5136,6 +5489,7 @@
       "creator": "thales-teixeira",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "build",
       "tags": [
         "entrepreneurship",
         "business-model",
@@ -5249,6 +5603,7 @@
       "creator": "mihail-eric",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "agents",
       "tags": [
         "agents",
         "engineering",
@@ -5349,6 +5704,7 @@
       "creator": "sridhar-ramaswamy",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "build",
       "tags": [
         "leadership",
         "enterprise",
@@ -5447,6 +5803,7 @@
       "creator": "the-primeagen",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "systems",
       "tags": [
         "ai-safety",
         "cybersecurity",
@@ -5530,6 +5887,7 @@
       "creator": "entrepreneurs-organization",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "agents",
       "tags": [
         "startups",
         "enterprise-ai",
@@ -5629,6 +5987,7 @@
       "creator": "po-shen-loh",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "human",
       "tags": [
         "education",
         "ai",
@@ -5745,6 +6104,7 @@
       "creator": "yasser-elsaid",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "build",
       "tags": [
         "startups",
         "saas",
@@ -5872,6 +6232,7 @@
       "creator": "john-kim",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "human",
       "tags": [
         "startups",
         "hiring",
@@ -5974,6 +6335,7 @@
       "creator": "roy-lee",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "build",
       "tags": [
         "ai",
         "startups",
@@ -6095,6 +6457,7 @@
       "creator": "kyle-gillett",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "performance",
       "tags": [
         "hormones",
         "mens-health",
@@ -6216,6 +6579,7 @@
       "creator": "po-shen-loh",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "human",
       "tags": [
         "education",
         "ai",
@@ -6356,6 +6720,7 @@
       "creator": "matt-davella",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "other",
       "tags": [
         "minimalism",
         "consumerism",
@@ -6453,6 +6818,7 @@
       "creator": "entrepreneurs-organization",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "build",
       "tags": [
         "crypto",
         "blockchain",
@@ -6583,6 +6949,7 @@
       "creator": "ken-ono",
       "updated": "2026-07-09",
       "created": "2026-07-09",
+      "section": "human",
       "tags": [
         "ai-for-math",
         "education",
@@ -6678,6 +7045,7 @@
       "creator": "steven-bartlett",
       "updated": "2026-07-04",
       "created": "2026-07-04",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -6792,6 +7160,7 @@
       "creator": "nate-herk",
       "updated": "2026-07-04",
       "created": "2026-07-04",
+      "section": "architecture",
       "tags": [
         "claude-code",
         "second-brain",
@@ -6864,6 +7233,7 @@
       "creator": "steven-bartlett",
       "updated": "2026-07-04",
       "created": "2026-07-04",
+      "section": "relationships",
       "tags": [
         "psychology",
         "seduction",
@@ -6981,6 +7351,7 @@
       "creator": "tina-huang",
       "updated": "2026-06-29",
       "created": "2026-06-29",
+      "section": "agents",
       "tags": [
         "agents",
         "claude-code",
@@ -7057,6 +7428,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -7170,6 +7542,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -7265,6 +7638,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "mental-health",
         "psychology",
@@ -7362,6 +7736,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "fitness",
         "strength",
@@ -7464,6 +7839,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -7569,6 +7945,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -7638,6 +8015,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "nutrition",
@@ -7685,6 +8063,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "fitness",
         "strength",
@@ -7823,6 +8202,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "productivity",
         "focus",
@@ -7946,6 +8326,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "fitness",
@@ -8049,6 +8430,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "psychology",
         "purpose",
@@ -8111,6 +8493,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8200,6 +8583,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8299,6 +8683,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "psychology",
         "emotional-intelligence",
@@ -8429,6 +8814,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8504,6 +8890,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "fitness",
         "mobility",
@@ -8629,6 +9016,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8704,6 +9092,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8808,6 +9197,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8909,6 +9299,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -8973,6 +9364,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "psychology",
         "neuroscience",
@@ -9075,6 +9467,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "psychology",
         "health",
@@ -9179,6 +9572,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -9318,6 +9712,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -9415,6 +9810,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "human",
       "tags": [
         "learning",
         "neuroscience",
@@ -9441,6 +9837,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "productivity",
         "workspace",
@@ -9539,6 +9936,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "addiction",
         "psychiatry",
@@ -9720,6 +10118,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "psychology",
         "social-connection",
@@ -9827,6 +10226,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "pharmacology",
@@ -9961,6 +10361,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -10049,6 +10450,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -10103,6 +10505,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "health",
         "neuroscience",
@@ -10200,6 +10603,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "mental-health",
         "social-media",
@@ -10305,6 +10709,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -10401,6 +10806,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "mental-health",
         "psychology",
@@ -10505,6 +10911,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "health",
         "neuroscience",
@@ -10585,6 +10992,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "psychology",
@@ -10662,6 +11070,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "human",
       "tags": [
         "learning",
         "neuroscience",
@@ -10746,6 +11155,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -10839,6 +11249,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "health",
         "neuroscience",
@@ -10945,6 +11356,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "mind",
       "tags": [
         "psychology",
         "mental-health",
@@ -11113,6 +11525,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-28",
       "created": "2026-06-28",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -11202,6 +11615,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11293,6 +11707,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11405,6 +11820,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11516,6 +11932,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11595,6 +12012,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11693,6 +12111,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11786,6 +12205,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11881,6 +12301,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -11961,6 +12382,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -12035,6 +12457,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -12120,6 +12543,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -12228,6 +12652,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "storytelling",
@@ -12309,6 +12734,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -12390,6 +12816,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "psychology",
         "purpose",
@@ -12480,6 +12907,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -12545,6 +12973,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -12615,6 +13044,7 @@
       "creator": "ben-felix",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "finance",
         "investing",
@@ -12717,6 +13147,7 @@
       "creator": "simon-squibb",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -12812,6 +13243,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "agents",
@@ -12918,6 +13350,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "automation",
@@ -12997,6 +13430,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "automation",
@@ -13079,6 +13513,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "performance",
       "tags": [
         "fitness",
         "strength",
@@ -13191,6 +13626,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "automation",
@@ -13264,6 +13700,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "monetization",
@@ -13368,6 +13805,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -13445,6 +13883,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "second-brain",
@@ -13536,6 +13975,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -13629,6 +14069,7 @@
       "creator": "darren-candow",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "performance",
       "tags": [
         "health",
         "supplements",
@@ -13717,6 +14158,7 @@
       "creator": "david-eagleman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "mind",
       "tags": [
         "neuroscience",
         "brain-plasticity",
@@ -13832,6 +14274,7 @@
       "creator": "steven-bartlett",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "performance",
       "tags": [
         "health",
         "nutrition",
@@ -13963,6 +14406,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -14045,6 +14489,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "job-interview",
@@ -14105,6 +14550,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -14165,6 +14611,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "architecture",
       "tags": [
         "claude-code",
         "second-brain",
@@ -14241,6 +14688,7 @@
       "creator": "tina-huang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "human",
       "tags": [
         "personal-finance",
         "education",
@@ -14333,6 +14781,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "career",
         "automation",
@@ -14413,6 +14862,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -14520,6 +14970,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -14604,6 +15055,7 @@
       "creator": "lex-fridman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "other",
       "tags": [
         "music",
         "guitar",
@@ -14688,6 +15140,7 @@
       "creator": "ali-abdaal",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -14724,6 +15177,7 @@
       "creator": "gabe-bult",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -14808,6 +15262,7 @@
       "creator": "peter-steinberger",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "agents",
         "openclaw",
@@ -14876,6 +15331,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "mind",
       "tags": [
         "psychology",
         "discipline",
@@ -14959,6 +15415,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "investing",
@@ -15047,6 +15504,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -15113,6 +15571,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "personal-finance",
@@ -15199,6 +15658,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "networking",
@@ -15287,6 +15747,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -15385,6 +15846,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -15491,6 +15953,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "mind",
       "tags": [
         "mental-health",
         "focus",
@@ -15552,6 +16015,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -15596,6 +16060,7 @@
       "creator": "lex-fridman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "other",
       "tags": [
         "nvidia",
         "ai-infrastructure",
@@ -15729,6 +16194,7 @@
       "creator": "jeremy-grantham",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "finance",
         "investing",
@@ -15868,6 +16334,7 @@
       "creator": "lex-fridman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "systems",
       "tags": [
         "china",
         "economics",
@@ -15965,6 +16432,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "n8n",
         "automation",
@@ -16036,6 +16504,7 @@
       "creator": "david-ondrej",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "agents",
         "skills",
@@ -16148,6 +16617,7 @@
       "creator": "matt-pocock",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "agents",
         "skills",
@@ -16247,6 +16717,7 @@
       "creator": "mo-gawdat",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "systems",
       "tags": [
         "ai",
         "agi",
@@ -16311,6 +16782,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agentic-engineering",
@@ -16413,6 +16885,7 @@
       "creator": "peter-steinberger",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "agents",
         "openclaw",
@@ -16508,6 +16981,7 @@
       "creator": "lex-fridman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "systems",
       "tags": [
         "telegram",
         "privacy",
@@ -16618,6 +17092,7 @@
       "creator": "rena-malik",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "sexual-health",
         "urology",
@@ -16731,6 +17206,7 @@
       "creator": "steven-bartlett",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "psychology",
         "seduction",
@@ -16848,6 +17324,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "context",
@@ -16925,6 +17402,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "relationships",
         "psychology",
@@ -17033,6 +17511,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "performance",
       "tags": [
         "health",
         "neuroscience",
@@ -17140,6 +17619,7 @@
       "creator": "mark-tilbury",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "business",
         "entrepreneurship",
@@ -17227,6 +17707,7 @@
       "creator": "simon-squibb",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "entrepreneurship",
         "business",
@@ -17354,6 +17835,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "claude-code",
         "skills",
@@ -17454,6 +17936,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -17554,6 +18037,7 @@
       "creator": "lex-fridman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "ai",
         "llm",
@@ -17637,6 +18121,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "performance",
       "tags": [
         "health",
         "nutrition",
@@ -17748,6 +18233,7 @@
       "creator": "tara-swart",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "mind",
       "tags": [
         "neuroscience",
         "stress",
@@ -17853,6 +18339,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -17900,6 +18387,7 @@
       "creator": "dan-olson",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "build",
       "tags": [
         "finance",
         "investing",
@@ -17991,6 +18479,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -18101,6 +18590,7 @@
       "creator": "nate-herk",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "n8n",
         "automation",
@@ -18166,6 +18656,7 @@
       "creator": "andrew-huberman",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "mind",
       "tags": [
         "mental-health",
         "psychology",
@@ -18305,6 +18796,7 @@
       "creator": "tina-huang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -18387,6 +18879,7 @@
       "creator": "andre-karpathy",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "agents",
         "karpathy",
@@ -18486,6 +18979,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -18565,6 +19059,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "agents",
@@ -18627,6 +19122,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "kimi-k26",
@@ -18689,6 +19185,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "agents",
         "vibe-coding",
@@ -18768,6 +19265,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "minimax-m3",
@@ -18822,6 +19320,7 @@
       "creator": "bridgemind",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "agents",
       "tags": [
         "vibe-coding",
         "opencode",
@@ -18882,6 +19381,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "relationships",
@@ -18952,6 +19452,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -19057,6 +19558,7 @@
       "creator": "vinh-giang",
       "updated": "2026-06-26",
       "created": "2026-06-26",
+      "section": "relationships",
       "tags": [
         "communication",
         "public-speaking",
@@ -19129,6 +19631,7 @@
       "creator": "",
       "updated": "",
       "created": "",
+      "section": "other",
       "tags": [],
       "keywords": [
         "AI Judgment Delegation Risk",
@@ -19252,6 +19755,7 @@
       "creator": "",
       "updated": "",
       "created": "",
+      "section": "performance",
       "tags": [],
       "keywords": [
         "Temperature Minimum",
