@@ -1,0 +1,75 @@
+{
+  "slug": "how-mitochondria-control-your-metabolism-jared-rutter",
+  "sections": [
+    {
+      "title": "You don't have one metabolism",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What is \"your metabolism\" in Rutter's frame?",
+          "a": "Not a single furnace. Organismal calories-in/out is the **sum of ~30 trillion cell maps**. Each cell takes nutrients, runs its chemistry, and returns waste — a **constellation of metabolisms**, not one rate."
+        },
+        {
+          "e": "🪵",
+          "q": "What decision sits at pyruvate?",
+          "a": "After glycolysis, pyruvate is **burned** in mitochondria for ATP + CO₂, or kept as **biomass** (new cell, repair, antibodies). Lumber for **heat** vs lumber for the **house**."
+        }
+      ]
+    },
+    {
+      "title": "The MPC gate",
+      "items": [
+        {
+          "e": "🚪",
+          "q": "What are MPC1 and MPC2?",
+          "a": "The **mitochondrial pyruvate carrier** — the hole that lets pyruvate in so it can be oxidized. Inferred for **60–70 years**; identified **~2012** (Rutter/Thummel + Martinou). Whole-body knockout dies around **embryonic day 12–13**."
+        },
+        {
+          "e": "❤️",
+          "q": "Why do heart-specific MPC knockout mice die of heart failure?",
+          "a": "Not ATP bankruptcy — they still **burn fat**. Glucose is misallocated into **growth**. Cardiomyocytes that should **be heart** start **making more heart**; the pump **dilates**."
+        }
+      ]
+    },
+    {
+      "title": "Fuel jobs by tissue",
+      "items": [
+        {
+          "e": "🍽️",
+          "q": "What does the heart eat?",
+          "a": "It is a **metabolic omnivore**: fat, glucose, lactate, ketones, amino acids. About **70–80%** of cardiac energy comes from **fat**, especially when fasted. Glucagon tells fat cells to **release**; the heart is a destination that must not shut down."
+        },
+        {
+          "e": "🧪",
+          "q": "Is lactate just the burn you feel in exercise?",
+          "a": "No. It is pyruvate's **other fate** — a **biomass mediator** and a real **fuel** (the heart consumes it). \"Waste product\" was a label that shut down discovery. Excess still kills (**lactic acidosis**)."
+        }
+      ]
+    },
+    {
+      "title": "Cancer and Warburg",
+      "items": [
+        {
+          "e": "🫁",
+          "q": "Did Warburg prove mitochondria in cancer are broken?",
+          "a": "He observed **low oxygen consumption**. The old inference was **broken mitochondria cause cancer**. Rutter: low O₂ is a **surrogate for build-not-burn**. Cancer mitochondria are often **very good at making stuff**. FDG-PET lights tumors because they take glucose to **build**."
+        },
+        {
+          "e": "💊",
+          "q": "What cancer-therapy future does he sketch?",
+          "a": "**Combination** hits on that tumor's mutations **and** metabolic program — like **HIV triple therapy** — because a **0.1%** resistant clone can repopulate. Classify by **phenotype**, not only breast/liver/colon **address**."
+        }
+      ]
+    },
+    {
+      "title": "Excess energy",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "How can extra calories hurt below the waistline?",
+          "a": "Mitochondria **overpowered** before ATP conversion leak **reactive oxygen species** that damage DNA and proteins — a candidate **aging** mechanism. Free fatty acids are **acutely** toxic; high glucose is **chronically** damaging (minutes vs years)."
+        }
+      ]
+    }
+  ]
+}

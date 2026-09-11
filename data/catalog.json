@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 191,
-  "insightsCount": 191,
-  "conceptCount": 1828,
+  "videoCount": 196,
+  "insightsCount": 193,
+  "conceptCount": 1876,
   "videos": [
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",
@@ -151,6 +151,384 @@
       "conceptCount": 16
     },
     {
+      "slug": "andrew-ng-biggest-opportunities-ai-arent-where-you-think",
+      "title": "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think",
+      "video_id": "o-wv_szZ0V0",
+      "url": "https://youtu.be/o-wv_szZ0V0",
+      "duration_min": 38,
+      "creator": "andrew-ng",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "andrew-ng",
+        "jobs",
+        "education",
+        "product",
+        "open-source"
+      ],
+      "keywords": [
+        "andrew ng",
+        "jobs",
+        "education",
+        "product",
+        "open source",
+        "AI Fear Mongering Regulatory Capture",
+        "Task Complement Not Job Replacement",
+        "University Curriculum Lag",
+        "Human Context Advantage",
+        "Cognitive Offloading Learning Damage",
+        "Full Cycle Role Expansion",
+        "Product Management Bottleneck"
+      ],
+      "summary": "38-minute silicon-valley-girl interview (Aug 28 2026) with andrew-ng (Google Brain / coursera co-founder; DeepLearning.AI; learn-vector). The through-line is anti-apocalypse, pro-skill-shift: loud lab fear messaging has skewed the public, while the actual bottleneck for builders has moved from *can we ship?* to *what should we ship?*\n\nNg's origin story for the fear wave is ai-fear-mongering-regulatory-capture. Giant closed models are inconvenient if someone else trains one and gives it away. A handful of leading labs, he argues, analogize AI to nuclear weapons, cherry-pick mishaps, and inflate data-center/water claims in order to get rules that tax incumbents' rivals and stall open weights. Fear works; American adoption slows; individuals hear \"you will be obsolete\" and stop leaning in. A high-schooler emailed him asking what to major in because \"in four years AI will do all this.\" That email is the cost of the drumbeat.\n\nJobs get a task, not a headline, analysis. Citing stanford-university economist Erik Brynjolfsson and MIT's Andy McAfee: AI may do 30–40% of tasks in many jobs; the remaining 60–70% becomes more valuable as an economic complement (task-complement-not-job-replacement). People who use AI replace people who don't. Software engineering is the most-affected profession *and* a counterexample: openings are up; good engineers are busier; 2022-style coding is the trap. SWE is a full-cycle-role-expansion harbinger — frontend/backend → fullstack; marketing coordinators → full-cycle marketers; sourcers → end-to-end recruiting — *if* people add both AI skills and the adjacent disciplinary skills.\n\nGrads collide with university-curriculum-lag: faculty mastery + curriculum committees take years; many schools still train 2022 jobs when they should train 2028. Ng's office is full of AI-native interns (including one high-schooler) who let models do the 30–40% and lean into the rest. Advice: work hard in class, then fill the gap on coursera, DeepLearning.AI, Udemy.\n\nThe technical name he gives for \"taste\" is human-context-advantage. Models still emit one or two good ideas, a few mediocre ones, and several atrocious ones. Humans know the facial expression, the manager's aside, the customer who hated the demo. Plumbing to give AI that context does not exist for the foreseeable future — which is why judgment stays human, and why education still matters even when ChatGPT has facts. Separately, and \"maybe controversial\": cognitive-offloading-learning-damage. Homework scores rise; long-term retention falls. Wikipedia and search are facts; asking a model to *do the work* is offloading. Ng's own six-month frontend/backend answers vanish when he needs them again. That is why he is building learn-vector (~$100M from Coursera) for 1:1 rather than 1-to-many courses, with more to show early next year.\n\nOpportunity for individuals in 2026 is not \"the model.\" Building got cheap, so more people should build — marketers, recruiters, HR, ops — and the scarce skill is product-management-bottleneck: decide what to build, talk to customers, iterate. Playbook: learn-ai-build-fast-talk-to-customers. Job descriptions now ask for agency (spot a problem and go). Swim-lane cultures lose; cultures that let people explore outside the lane, responsibly, win. Ng interviews marketers with what-have-you-built — his marketers all code; one built a Mac app that crawls related work while drafting. Finance wrote overnight consistency-check scripts instead of waiting for engineering. Recruiting has recruiting engineers embedded. Embed an engineer in a function *after* the function has already started building.\n\nPrivacy is company-DNA, not a slogan: trust hyperscalers' long-term ToS incentives; be wary of labs that quietly change retention/training terms; MNPI stays on-prem or on a local open-weight model (Meta Muse, latest Qwen — keep trying new ones). Loss-of-control is an airplane problem: never perfect, grow capability in a measured environment. NCII deepfakes should be outlawed. Kids have a bright future *and* a learning-damage risk; adult-supervised tools; Ng built a typing app for his seven-year-old.\n\nAGI, under the definition he uses — any intellectual task a human can, including a five-year PhD and driving a truck through dense rainforest after tens of minutes of practice — is decades away. jensen-huang and labs that \"lower the bar\" can already claim it. OpenAI once had a Microsoft-agreement incentive to declare AGI early; that deal was renegotiated. Building a company is still hard: a weekend LLM wrapper is not a business. Sample widely, then go deep.",
+      "key_insights": [
+        "Fear is a GTM for regulation — closed-model incumbents vs cheap/open rivals; nuclear analogy has no factual basis",
+        "No job apocalypse — 30–40% of tasks, not 50% of people; remaining work is the complement",
+        "AI users replace non-users — not AI replacing humans for the vast majority of jobs",
+        "SWE is the canary and the counterexample — most affected, openings up, 2022 coding is the failure mode",
+        "Universities lag AI by years — train 2028, not 2022; fill the gap online",
+        "Easier building → more builders — marketers/HR/ops should ship, not wait for engineering",
+        "KPI is the business, not the model — growth, retention, speed, accuracy",
+        "Taste = context advantage — years of unspoken knowledge models cannot yet ingest",
+        "Default LLM use is terrible for learning — scores up, retention down; offloading ≠ studying",
+        "Learn Vector — 1:1 tutoring bet after the 1-to-many MOOC wave",
+        "Full-cycle expansion — AI lets coordinators own the whole loop if they re-skill",
+        "Fear makes students give up — the worst outcome in an era where lean-in wins",
+        "Agency is the new JD line — spot and solve; don't wait for the boss",
+        "What have you built? — Ng's marketer interview; dashboards are the floor",
+        "Embedded function engineers — recruiting/marketing/HR engineers after the function self-starts",
+        "Privacy follows business model — hyperscalers vs ToS-shifting labs; MNPI stays local",
+        "Airplane, not Skynet — never perfect control; grow then measure",
+        "PM bottleneck — build cost collapsed; choosing what to build did not",
+        "AGI decades on the hard definition — PhD + rainforest truck; other definitions already \"met\"",
+        "Weekend app ≠ company — still need technical depth and customer insight measured in months/years"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "ai-fear-mongering-regulatory-capture",
+          "title": "AI Fear-Mongering Regulatory Capture"
+        },
+        {
+          "slug": "task-complement-not-job-replacement",
+          "title": "Task Complement Not Job Replacement"
+        },
+        {
+          "slug": "university-curriculum-lag",
+          "title": "University Curriculum Lag"
+        },
+        {
+          "slug": "human-context-advantage",
+          "title": "Human Context Advantage"
+        },
+        {
+          "slug": "cognitive-offloading-learning-damage",
+          "title": "Cognitive Offloading Learning Damage"
+        },
+        {
+          "slug": "full-cycle-role-expansion",
+          "title": "Full-Cycle Role Expansion"
+        },
+        {
+          "slug": "product-management-bottleneck",
+          "title": "Product Management Bottleneck"
+        },
+        {
+          "slug": "learn-ai-build-fast-talk-to-customers",
+          "title": "Learn AI, Build Fast, Talk to Customers"
+        },
+        {
+          "slug": "software-taste",
+          "title": "Software Taste",
+          "e": "🎨"
+        },
+        {
+          "slug": "ai-native-engineer",
+          "title": "AI Native Engineer",
+          "e": "🦾"
+        },
+        {
+          "slug": "everyone-entrepreneur-ai-era",
+          "title": "Everyone Entrepreneur AI Era",
+          "e": "🌍"
+        },
+        {
+          "slug": "learning-ownership-not-answers",
+          "title": "Learning Ownership Not Answers",
+          "e": "🧠"
+        },
+        {
+          "slug": "ai-job-anxiety-advice",
+          "title": "AI Job Anxiety Advice",
+          "e": "💼"
+        }
+      ],
+      "conceptCount": 13
+    },
+    {
+      "slug": "easiest-way-heal-from-a-breakup-jay-shetty",
+      "title": "The Easiest Way to Actually Heal From a Breakup",
+      "video_id": "1h6qmMTdIwY",
+      "url": "https://youtu.be/1h6qmMTdIwY",
+      "duration_min": 48,
+      "creator": "jay-shetty",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "relationships",
+        "breakup",
+        "dating",
+        "attachment",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "relationships",
+        "breakup",
+        "dating",
+        "attachment",
+        "jay shetty",
+        "Addicted to the Feeling, Not the Person",
+        "Eight Good Weeks Closure",
+        "Poet vs Poetry Relationship",
+        "Give Energy You're Willing to Lose",
+        "Abandonment Voice Keeps You Stuck",
+        "Desperate Stage of a Breakup",
+        "Disconnection as Marriage Killer"
+      ],
+      "summary": "~48-minute jay-shetty *On Purpose* compilation (posted Sep 10 2026) stitching four guests into a heartbreak masterclass: matthew-hussey, nessa-barrett, cynthia-erivo, and divorce lawyer james-sexton. Shetty's frame opens the cut: we do not get addicted to people; we get addicted to how we felt around them — wanted, seen, chosen. addicted-to-the-feeling-not-the-person. You miss who you thought you would be with them. Healing starts when you recreate that feeling from self, friends, and community. Closure is peace over answers; healing is three steps forward and two back.\n\nHussey is the dating-operator layer. Instagram-profile traits (guitar, languages, looks) are not relationship skill — go to a John Mayer concert if you want guitar. He weights right time over right person: intentional love is starting a business, not winning the lottery. Early dating is an impress vs connect streak, not a narcissism diagnosis. The person who ghosts in week 9 had eight-good-weeks-closure — that action *is* the closure; the \"could have / should have\" life is science fiction because it did not happen. Bukowski's stolen-poetry line: God created many poets, not much poetry. poet-vs-poetry-relationship — charm is cheap; the written relationship is rare. Dating culture complaint (flaky, cool, indifferent) is a culture you can replace in your micro-life. Play-it-cool attracts people whose demons only want the unavailable. Safer-feeling trap: pour months into unequal energy rather than take a five-minute rejection. Rule: give-energy-youre-willing-to-lose. The abandonment-voice-keeps-you-stuck will people-please to keep someone, then rewrite history the night you leave — its only goal is \"don't be abandoned,\" not your happiness.\n\nBarrett is the after-the-lights layer. Tour-stage connection then empty hotel room. Hardest breakup phase is the desperate-stage-of-breakup (her song *Motel*): bargaining for any leftover attention — friends, hookups — while still in love, which re-breaks the heart. Longest work is exiting codependency: the ex was the only safe place, so every hard day craves them. Self-love is the unlock — you cannot give what you do not have; nights alone stop being grief rehearsals. Stage burn box: fans write what they need to release; she burns it as a communal letting-go.\n\nErivo is the abandonment-origin layer. Father walked away at 16; she worked to prove she was worthy of love until that fuel stopped sustaining. Shift in small decisions (cheer someone up today). She ended a relationship because they were no longer growing together — staying would make both miserable. Heartbreak is a live emotion; unshared heartbreak becomes resentment. Her lyric: \"looking through the lens of an impending abandonment\" — pre-expect leaving so it cannot hurt, then stay silent to keep people, which creates danger. Leaving is not always abandonment.\n\nSexton is the 25-year court layer. Number one marriage killer is disconnection-as-marriage-killer — from partner and from yourself; you go bankrupt slowly then all at once. Most dangerous lies are the ones you tell yourself about what still makes you happy. We stop seeing the person we see most (20-year couch). Halo/horns at divorce is the same self-story. love-is-loaned-not-gifted — protect the bond with small \"hit send now\" truths heard as care, not attack. When good-faith repair fails, happily ever after can mean separately. Kitchen-table line with his ex: if sheer willpower could make two people love each other, they would have lasted.",
+      "key_insights": [
+        "Feeling, not person — chase the state (wanted/seen/chosen) and rebuild it without the ex",
+        "You miss the future self — grief is the life you scripted, not only the human",
+        "Closure = peace over answers — you may never get the apology; waiting is the loop",
+        "Healing is non-linear — a flood after weeks of strength is human, not failure",
+        "Competence over Instagram — relationship skill beats guitar/looks/status",
+        "Right time over right person — intentionality vs wave-washing-over-you",
+        "Impress ≠ connect — a perfect first date can be a performance; week 8 is data",
+        "Eight good weeks is closure — ghosting is the answer; could-have is science fiction",
+        "Poet vs poetry — charm is common; staying and rebuilding after arguments is rare",
+        "Create your dating culture — lighthouse energy; find your crowd by being it",
+        "Give energy you can lose — casino chip; 5-minute rejection beats years of drip",
+        "Abandonment voice — people-please, then rewrite; goal is not happiness",
+        "Desperate stage — leftover contact re-breaks you; skip if you can",
+        "Codependency hangover — longest stage; become the safe place for yourself",
+        "Burn box — write it, burn it, watch the release (communal ritual)",
+        "Prove-you're-worthy work — parental abandonment as unsustainable fuel",
+        "Seasonal vs lifetime — ending can be care for both people",
+        "Speak the heartbreak — swallowed grief turns sour",
+        "Abandonment lens — expecting leave ≠ seeing leave; silence to keep people is costly",
+        "Disconnection kills marriages — slowly then all at once; preventative maintenance",
+        "Love is loaned — small truths now, heard as bond-protection",
+        "Willpower cannot make love last — love the person, still be poorly married"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "addicted-to-the-feeling-not-the-person",
+          "title": "Addicted to the Feeling, Not the Person"
+        },
+        {
+          "slug": "eight-good-weeks-closure",
+          "title": "Eight Good Weeks Closure"
+        },
+        {
+          "slug": "poet-vs-poetry-relationship",
+          "title": "Poet vs Poetry Relationship"
+        },
+        {
+          "slug": "give-energy-youre-willing-to-lose",
+          "title": "Give Energy You're Willing to Lose"
+        },
+        {
+          "slug": "abandonment-voice-keeps-you-stuck",
+          "title": "Abandonment Voice Keeps You Stuck"
+        },
+        {
+          "slug": "desperate-stage-of-breakup",
+          "title": "Desperate Stage of a Breakup"
+        },
+        {
+          "slug": "disconnection-as-marriage-killer",
+          "title": "Disconnection as Marriage Killer"
+        },
+        {
+          "slug": "love-is-loaned-not-gifted",
+          "title": "Love Is Loaned, Not Gifted"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "genes-inheritance-memories-oded-rechavi-huberman-essentials",
+      "title": "Essentials: Genes & the Inheritance of Memories Across Generations | Dr. Oded Rechavi",
+      "video_id": "1_iNTFSw4Nc",
+      "url": "https://youtu.be/1_iNTFSw4Nc",
+      "duration_min": 32,
+      "creator": "andrew-huberman",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "health",
+        "genetics",
+        "epigenetics",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "health",
+        "genetics",
+        "epigenetics",
+        "huberman lab",
+        "andrew huberman",
+        "IKEA Catalog Gene Expression",
+        "Weismann Barrier",
+        "Epigenetic Reprogramming Blank Slate",
+        "Inheritance of Acquired Traits",
+        "RNA Interference Gene Silencing",
+        "Small RNA Transgenerational Inheritance",
+        "C. elegans as Model Organism"
+      ],
+      "summary": "andrew-huberman Huberman Lab Essentials recap (~32 min) of the conversation with Tel Aviv epigeneticist oded-rechavi. The folk model is clean: eye color is inherited, architecture knowledge is not. Gym work does not give your kids muscles. That intuition is Weismann's barrier (soma cannot write the germline) plus epigenetic reprogramming (~90% of chemical marks wiped so the next embryo starts from the species IKEA book, not last year's annotated copy).\n\nRechavi's point is not that Lamarck was secretly right in humans. It is that small RNAs are a third channel that can, in C. elegans, carry acquired antiviral instructions and even brain-state effects across generations. Fire and Mello's RNA interference (1998 paper, 2006 Nobel) already showed double-stranded RNA injected or fed to a worm silences matching genes in the germline and the next generation. Rechavi's lab then showed a *natural* version: infect a worm with a fluorescent virus; neutralize the descendants' ability to *make* small RNAs; the kids stay black anyway because they inherited the parents' virus-matching RNAs. Sequence them: they match the virus, and only if the parents were infected.\n\nThe provocative claim is brain-to-germline-rna-communication: change endogenous small-RNA production only in the worm brain and food-finding behavior changes for three generations, via a germline gene (captions: sage-2), without translating 3D synapses into a molecular code and back. Mammals lack the worm's RNA-amplification pump, so a tiny RNA dose would have to hit early development or placenta (DOHaD-style) to matter. Human status: not shown. Near-term use, if the channel exists, is heritable-rna-diagnostics (look at IVF RNA, not just DNA) and lifestyle that retunes parental RNA (rodent exercise correcting overfeeding inheritance).",
+      "key_insights": [
+        "IKEA catalog — DNA is the full furniture book in every cell; a page pulled out is RNA; the built chair is protein. Less than 2% of the genome is messenger RNA; most transcribed RNA does other jobs.",
+        "Soma vs germline — only sperm and egg build the next body. Brain circuits and biceps stay in this life. That isolation is the main theoretical wall against inherited memories.",
+        "Two barriers — Weismann (second law of biology) plus germline/embryo wipe of most epigenetic marks. Without the wipe, the instruction book would stay restricted to last generation's rooms.",
+        "Why people want Lamarck — Schrödinger (1944) called Darwin-only inheritance gloomy: you can leave money and schooling, not biology. Wanting meaning is not evidence.",
+        "RNAi is not controversial in worms — inject or feed double-stranded RNA; silencing spreads body-wide including germ cells and offspring. Daily C. elegans method.",
+        "Natural acquired immunity — fluorescent-virus assay; progeny that cannot manufacture small RNAs still silence the virus if parents were infected. The cargo is sequenced, virus-matching RNA.",
+        "Brain → germline, not brain → germline → brain — 2019 *Cell*: perturb neuronal small RNAs → germline gene change → behavior change for multiple generations. Requires the RNA-carrying protein.",
+        "Language problem — synapses are 3D; heredity must pass a one-cell bottleneck. A receptor-downregulation story is the easy mammal guess; the hard proof is the brain-to-germ-to-brain path, still unconvincing in mammals.",
+        "Worms amplify; mammals dilute — without an amplification loop, inherited RNA would have to throw early development off (DOHaD) rather than rewrite adult circuits.",
+        "Human applications are science fiction with a diagnostic first step — RNA profiles at IVF; treadmill before retrieval if a healthy RNA signature is known. Rechavi's disclaimer is repeated: we do not know how this works in humans."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "ikea-catalog-gene-expression",
+          "title": "IKEA Catalog Gene Expression",
+          "e": "📘"
+        },
+        {
+          "slug": "weismann-barrier",
+          "title": "Weismann Barrier",
+          "e": "🚧"
+        },
+        {
+          "slug": "epigenetic-reprogramming-blank-slate",
+          "title": "Epigenetic Reprogramming Blank Slate",
+          "e": "🧹"
+        },
+        {
+          "slug": "inheritance-of-acquired-traits",
+          "title": "Inheritance of Acquired Traits",
+          "e": "🦒"
+        },
+        {
+          "slug": "rna-interference-gene-silencing",
+          "title": "RNA Interference Gene Silencing",
+          "e": "✂️"
+        },
+        {
+          "slug": "small-rna-transgenerational-inheritance",
+          "title": "Small RNA Transgenerational Inheritance",
+          "e": "🦠"
+        },
+        {
+          "slug": "c-elegans-as-model-organism",
+          "title": "C. elegans as Model Organism",
+          "e": "🪱"
+        },
+        {
+          "slug": "brain-to-germline-rna-communication",
+          "title": "Brain to Germline RNA Communication",
+          "e": "🧠"
+        },
+        {
+          "slug": "heritable-rna-diagnostics",
+          "title": "Heritable RNA Diagnostics",
+          "e": "🧪"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
+      "slug": "how-mitochondria-control-your-metabolism-jared-rutter",
+      "title": "How Mitochondria Control Your Metabolism | Dr. Jared Rutter",
+      "video_id": "bv56Cuq-fyY",
+      "url": "https://www.youtube.com/watch?v=bv56Cuq-fyY",
+      "duration_min": 124,
+      "creator": "andrew-huberman",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "health",
+        "mitochondria",
+        "metabolism",
+        "huberman-lab",
+        "cancer"
+      ],
+      "keywords": [
+        "health",
+        "mitochondria",
+        "metabolism",
+        "huberman lab",
+        "cancer",
+        "andrew huberman",
+        "Cellular Metabolism Constellation",
+        "Pyruvate Resource Allocation",
+        "Mitochondrial Pyruvate Carrier",
+        "Heart as Metabolic Omnivore",
+        "Lactate as Fuel, Not Waste",
+        "Warburg Effect as Resource Allocation"
+      ],
+      "summary": "andrew-huberman full episode (~124 min, published ~Sept 7 2026) with jared-rutter — University of Utah biochemist and Howard Hughes Medical Institute investigator. Complements mitochondria-energy-longevity-martin-picard-huberman's psychobiology / energy-budget layer with a cell-biochemistry layer: you do not have one metabolism. Organismal \"calories in, calories out\" is the sum of ~30 trillion cellular metabolisms, each making a second-by-second resource-allocation decision at pyruvate — burn fuel for ATP, or keep the carbons as biomass (new cell, repair, antibodies).\n\nCore node: the mitochondrial-pyruvate-carrier (MPC1/MPC2), co-discovered ~2008–2012 by Rutter + Carl Thummel (and independently Jean-Claude Martinou). The carrier had been inferred for 60–70 years; it is the hole that lets pyruvate into mitochondria so it can be oxidized. Whole-body MPC knockout is lethal around embryonic day 12–13. Heart-specific knockout mice live weeks, then die of dilated heart failure — not because they cannot make ATP (they still burn fat) but because glucose is misallocated into growth. Cardiomyocytes that should \"be heart\" start \"making more heart,\" and the pump dilates.\n\nTissue wiring: heart-as-metabolic-omnivore (70–80% of cardiac energy from fat even when fed; also glucose, lactate, ketones, amino acids); gut lining stem cells turn over every 5–7 days and are biomass-wired; neurons prefer glucose (hypoglycemia kills in minutes; hyperglycemia damages over years). Insulin is a fed-state broadcast, not a glucose shuttle — adipocytes store; glucagon is the fasting opposite that liberates fat for the heart. lactate-as-fuel-not-waste is the other major fate of pyruvate: historically a hypoxic waste product; now a biomass mediator and a real fuel (Joshua Rabinowitz; heart consumes it). Excess free fatty acids are acutely toxic, so cells burn fat first; glucose toxicity is more chronic.\n\nCancer: Rutter keeps mutations as a common feature (immune evasion, replication) and re-reads the Warburg effect — low oxygen consumption is a surrogate for build-not-burn, not proof that mitochondria are broken. Cancer mitochondria are often *very good* at making stuff. Tension with thomas-seyfried / cancer-mitochondrial-metabolic-disease: both put metabolism at the center; they disagree on \"broken OXPHOS\" vs \"reprogrammed allocation.\" Therapy future: combo hits like HIV triple therapy, plus classify tumors by mutation and metabolic phenotype rather than organ address. Excess calories at the organelle: excess-mitochondrial-energy-ros — overpowered mitochondria leak reactive oxygen species that damage DNA and proteins; a candidate aging/pathology mechanism.",
+      "key_insights": [
+        "You don't have one metabolism — organismal metabolic rate is the sum of ~30 trillion cell maps",
+        "Endosymbiont origin — bacterium engulfed; circular mtDNA relic; 100% maternal cytoplasmic inheritance via the egg",
+        "Spatial ATP — mitochondria everywhere; 1 m neuron projections; immune cells concentrate mito at the crawling leading edge",
+        "Tissue-specific (and intra-cell) mitotypes — cardiomyocyte = ATP machine; gut stem cell = biomass factory; Craig Thompson: biosynthetic vs ATP mitochondria *inside one cell*",
+        "Pyruvate pivot — glucose → glycolysis → pyruvate → mitochondria (burn) or cytosol biomass; lumber for heat vs lumber for house",
+        "MPC1/MPC2 — the named carrier; yeast + fly + human-cell triangulation; 2012 papers",
+        "Heart knockout lesson — ATP still available from fat; pathology is wrong allocation → dilated cardiomyopathy",
+        "Hormone verbs — insulin = \"we just ate, store\"; glucagon = \"fasting, release fat\"; heart is the destination that must not shut down",
+        "Lactate — not junk; enables ongoing biomass; fuel + shuttle; exercise lactate ↔ BDNF \"build connections\" rhyme",
+        "Warburg reread — Otto observed low O₂; inferred broken mito; modern: allocation toward duplication; FDG-PET lights tumors because they take glucose to build",
+        "Cancer hard problems — self vs non-self; 0.1% resistant clones repopulate; combo-specific drugs (KRAS etc.) rather than organ-name taxonomy",
+        "Excess energy — overpowered mito → ROS → mutations/protein damage → aging; cells \"pay the piper\" for cheating allocation",
+        "Aging — mitochondria become less energized; damage accumulation is cellular even when we talk about \"the body\""
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cellular-metabolism-constellation",
+          "title": "Cellular Metabolism Constellation"
+        },
+        {
+          "slug": "pyruvate-resource-allocation",
+          "title": "Pyruvate Resource Allocation"
+        },
+        {
+          "slug": "mitochondrial-pyruvate-carrier",
+          "title": "Mitochondrial Pyruvate Carrier"
+        },
+        {
+          "slug": "heart-as-metabolic-omnivore",
+          "title": "Heart as Metabolic Omnivore"
+        },
+        {
+          "slug": "lactate-as-fuel-not-waste",
+          "title": "Lactate as Fuel, Not Waste"
+        },
+        {
+          "slug": "warburg-effect-resource-allocation",
+          "title": "Warburg Effect as Resource Allocation"
+        },
+        {
+          "slug": "excess-mitochondrial-energy-ros",
+          "title": "Excess Mitochondrial Energy and ROS"
+        }
+      ],
+      "conceptCount": 7
+    },
+    {
       "slug": "one-designer-ai-hundreds-of-deliverables-vincent-wendy",
       "title": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
       "video_id": "O1FN4awNEtM",
@@ -256,6 +634,95 @@
         }
       ],
       "conceptCount": 11
+    },
+    {
+      "slug": "the-end-of-an-era",
+      "title": "The End of an Era",
+      "video_id": "Eg5bygoMDTQ",
+      "url": "https://youtu.be/Eg5bygoMDTQ",
+      "duration_min": 12,
+      "creator": "the-primeagen",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "agents",
+        "programming",
+        "theprimeagen",
+        "verification"
+      ],
+      "keywords": [
+        "agents",
+        "programming",
+        "theprimeagen",
+        "verification",
+        "the primeagen",
+        "Verification Oracle for Agents",
+        "Programmer as LLM Proxy",
+        "Expertise as Agent Dividend",
+        "LLM Gives Up, Human Continues",
+        "LLM Mechanical Code Translation",
+        "AI Rewrite Cost vs Human Years",
+        "Agent Verification"
+      ],
+      "summary": "the-primeagen (~12 min, YouTube auto-generated captions, ~384K views, Sept 9 2026) answers Paul Dix's \"end of programming\" claim after the bun Zig→Rust rewrite. The opener lists three other signals: eve-online still migrating Python 2→3, linus-torvalds adopting AI coding, and Primeagen's own 2025 joke that everyone would be vibe-coding games with Gemini 3 Flash by year-end. His verdict is none of the three popular options (APIs-and-frontier-models decide quality / business as usual / packing the office). It is a new era of agents that are actually good, plus expertise that now pays more, not less.\n\npaul-dix (InfluxData / InfluxDB) treats Bun as the exhibit: AI wrote ~1M lines, refined them over months, 11 days and ~$165K of API spend, models \"we may or may not have access to,\" now running on millions of machines. Primeagen agrees it is mind-blowing and not shocking. The cheap objection (\"they had an oracle, so it was easy\") sells the result short and is also the real condition. If you can build a verification system and give direction, agents produce highly complex software and refine it until it works. That is verification-oracle-for-agents.\n\nHe pairs Bun with Anthropic's earlier C compiler built by parallel Claude / Opus 4.6: 30 years of tests, hard-won understanding, plus GCC already in the training weights. Both projects had exceptional oracles. Bun also had a formal specification (\"code that said this is how you should operate\"). He cedes Dix's ground: formal verification + direction → incredible things. The catch: a reliable oracle is years of hard-fought knowledge. People who only direct an AI to figure everything out are the new Stack Overflow copy-pasters — first out the door. He rejects the phrase meat proxy as devaluing; the hireability claim still stands as programmer-as-llm-proxy.\n\neve-online is the counterexample, not a Luddite shop. The Python 2→3 project has run since February 2023. Same source can compile in both languages and behave differently (1/2 is 0 vs 0.5). Primeagen is shocked they have not just handed 20k lines to an LLM. Stakes and budget differ from Bun; more importantly the verification system may be a different order of magnitude, so they lean on human review. They already use agents heavily on a 30-year poorly documented codebase. The missing piece is the oracle, not willingness.\n\nThe 2025 vibe-coding-games prediction already failed: demos are crappy; no 3D-game knowledge → no magic 3D game. That is vibe-coding hitting the floor, not the ceiling. linus-torvalds is the other pole: a graphics-driver \"debug session from hell,\" 24 debug patches and 18 kernel boots after the LLM called the bug impossible / unsolvable. The fix was one line. That is llm-gives-up-human-continues. Side note: claude-fable found a memory leak in a game Primeagen was debugging and refused to name it (\"that would be hacking\").\n\nClose: agents are officially good; treating them as idiots is foolish. expertise-as-agent-dividend — reading the manual and staying curious used to pay ~3%; now ~10%. He is more bullish on learning than before. Stop being a paste proxy. Ask questions.",
+      "key_insights": [
+        "Not the end of programming. New era + agents that are good; expertise is the differentiator, not API access",
+        "Concede the miracle, name the condition. Bun + Anthropic C compiler worked because of years of tests / formal spec / (GCC) weights — verification-oracle-for-agents",
+        "\"They had an oracle\" is not a dunk. It is why it worked *and* why most codebases will not",
+        "Stack Overflow sequel. Direct-only operators are faster copy machines; first fired, same as people who never learned the system",
+        "Reject \"meat proxy.\" The hireability claim is real; the phrase is dehumanizing",
+        "Eve is not anti-AI. 30-year unknown code + Python 2/3 semantic traps + no Bun-class oracle → human verification, even while they already use agents",
+        "2025 game-vibe prediction already lost. No domain knowledge, no 3D game",
+        "Linus vs \"impossible.\" 24 patches / 18 boots / one-line bug after the model quit",
+        "Fable safety theater on debug. Found a leak, would not say where (hacking)",
+        "Learning dividends up. RTFM + curiosity: 3% → 10%; more bullish on learning than ever"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "verification-oracle-for-agents",
+          "title": "Verification Oracle for Agents"
+        },
+        {
+          "slug": "programmer-as-llm-proxy",
+          "title": "Programmer as LLM Proxy",
+          "e": "🪞"
+        },
+        {
+          "slug": "expertise-as-agent-dividend",
+          "title": "Expertise as Agent Dividend"
+        },
+        {
+          "slug": "llm-gives-up-human-continues",
+          "title": "LLM Gives Up, Human Continues"
+        },
+        {
+          "slug": "llm-mechanical-code-translation",
+          "title": "LLM Mechanical Code Translation",
+          "e": "🔄"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "maintainability-has-no-oracle",
+          "title": "Maintainability Has No Oracle",
+          "e": "⏳"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "evergreen-foundational-skills",
+          "title": "Evergreen Foundational Skills",
+          "e": "🪨"
+        }
+      ],
+      "conceptCount": 9
     },
     {
       "slug": "the-navier-stokes-situation-is-insane",
@@ -3073,9 +3540,13 @@
           "slug": "glyphosate-cell-communication-disruption",
           "title": "Glyphosate Cell Communication Disruption",
           "e": "🌾"
+        },
+        {
+          "slug": "warburg-effect-resource-allocation",
+          "title": "Warburg Effect as Resource Allocation"
         }
       ],
-      "conceptCount": 9
+      "conceptCount": 10
     },
     {
       "slug": "hidden-link-water-exhaustion-zach-bush",
@@ -12309,9 +12780,13 @@
           "slug": "eighty-twenty-exercise-rule",
           "title": "Eighty-Twenty Exercise Rule",
           "e": "🏋️"
+        },
+        {
+          "slug": "lactate-as-fuel-not-waste",
+          "title": "Lactate as Fuel, Not Waste"
         }
       ],
-      "conceptCount": 12
+      "conceptCount": 13
     },
     {
       "slug": "claude-24-7-trader-routines",
