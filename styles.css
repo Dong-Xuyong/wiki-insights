@@ -171,6 +171,9 @@ html.dark .url-go { background: var(--peach); color: #1a1208; }
   gap: 0.35rem;
   margin-top: 0.55rem;
 }
+.video-card-body > .kw-row {
+  margin-top: 0.5rem;
+}
 .kw-chip {
   border: 1px solid var(--border);
   background: var(--bg-soft);
@@ -222,25 +225,79 @@ code {
   cursor: pointer;
   font: inherit;
   color: inherit;
+  overflow: hidden;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .video-card:hover {
   border-color: color-mix(in srgb, var(--peach) 60%, var(--border));
   box-shadow: var(--shadow);
 }
+.video-card:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--peach) 80%, var(--text));
+  outline-offset: 2px;
+}
 .video-card-top {
   display: flex;
   gap: 0.7rem;
   align-items: flex-start;
 }
-.video-card-thumb {
+.video-card-thumb-wrap {
+  position: relative;
   flex-shrink: 0;
-  width: 96px;
-  height: 54px;
-  object-fit: cover;
+  width: 128px;
+  height: 72px;
   border-radius: 8px;
+  overflow: hidden;
   background: var(--bg-soft);
 }
+.video-card-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-card-thumb-empty {
+  background: linear-gradient(135deg, var(--bg-soft), var(--border));
+}
+.video-card-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.45);
+}
+.video-card-progress span {
+  display: block;
+  height: 100%;
+  background: #ff4d4d;
+}
+.video-card-progress.is-done span {
+  background: #3dbe7a;
+}
+.video-card-status {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background: rgba(20, 18, 12, 0.78);
+  padding: 0.08rem 0.34rem;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+.video-card-status.is-watch {
+  background: rgba(20, 18, 12, 0.72);
+}
+.video-card-watch {
+  font-weight: 650;
+}
+.video-card-watch.is-watch { color: #d4533c; }
+.video-card-watch.is-done { color: #2f9d63; }
+html.dark .video-card-watch.is-watch { color: #ff8a78; }
+html.dark .video-card-watch.is-done { color: #5ed392; }
 .video-card-body { min-width: 0; flex: 1; }
 .video-card-title {
   font-weight: 650;

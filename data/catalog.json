@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 197,
-  "insightsCount": 194,
-  "conceptCount": 1888,
+  "videoCount": 198,
+  "insightsCount": 195,
+  "conceptCount": 1906,
   "videos": [
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",
@@ -264,6 +264,160 @@
         }
       ],
       "conceptCount": 13
+    },
+    {
+      "slug": "charles-leclerc-breaks-his-silence-on-online-judgment",
+      "title": "Charles Leclerc Breaks His Silence on Online Judgment",
+      "video_id": "kz5niTICw1U",
+      "url": "https://youtu.be/kz5niTICw1U",
+      "duration_min": 52,
+      "creator": "jay-shetty",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "mindset",
+        "criticism",
+        "grief",
+        "formula-1",
+        "sport",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "mindset",
+        "criticism",
+        "grief",
+        "formula 1",
+        "sport",
+        "jay shetty",
+        "Loved Ones Opinion Filter",
+        "Misread Personality Criticism",
+        "Harsh Honesty Plus Right Reaction",
+        "Corner by Corner Mental Reset",
+        "Control Dissolves Fear",
+        "What Would He Want Me To Do"
+      ],
+      "summary": "52-minute jay-shetty *On Purpose* interview with Ferrari Formula 1 driver charles-leclerc — not a race recap but the inner operating system under 24 races, Ferrari pressure, and social-media judgment. Leclerc started by coincidence at 3.5 (skipped school; first kart at Philippe Bianchi's track, Jules Bianchi's father, rope on the first lap, then drove until the fuel ran out). 23 years later the helmet still puts a smile on his face. The childhood seed is intact: from five years old he left the track having learned something and taken a step.\n\nThe critic problem is the title cut. Karting and F2 mistakes were family-scale. F1 year one he read everything. The lasting filter is loved-ones-opinion-filter — only the people he loves most get a vote. Driving mistakes are \"part of the sport.\" The wounds that linger are misread-personality-criticism (\"look how arrogant he is\") because they do not describe him. He tries to show his true self on social media and accepts he will not be liked by everyone (please-everyone-business-never-succeeds).\n\nSelf-talk matured. Young Leclerc was extremely harsh; honesty stayed, the reaction changed (harsh-honesty-plus-right-reaction). In the car there is no time to brood — corner-by-corner-mental-reset (next corner in ~1 second; adrenaline helps). The long injury is post-race rumination for one or two weeks while waiting to prove yourself again. Fear splits by control: never scared in the car; snakes, bungee (could not jump; loved skydiving), and watching brother Arthur race are different (control-dissolves-fear). Every brother's race is \"a torture\"; security first, performance second.\n\nGrief is the other spine. Father Hervé died on the Tuesday of Baku 2017 (F2). Leclerc asked what-would-he-want-me-to-do and flew Wednesday to try to win. The father stepped back on race weekends, then debriefed honestly; the two words he left were humble and grateful (humble-grateful-keep-working). Do not ease off in a four-race hot streak; the people struggling will catch up. In bad Ferrari stretches, gratitude is the work, not the default. Two days before the death he told his father he had signed an F1 contract he had not signed; his mother was angry; he signed a month later and could live with the anticipation. He refuses the word sacrifice for himself (he was doing what he loved); the father saved, traveled, missed his wife.\n\nThe rest is the high-performance shell: sleep is #1 (10–11 hours; cannot sleep on planes, so fly by day); Milan dietitian; Friday carbs/water then 3.5–4 kg cockpit sweat; neck is untrainable in the gym (February practice day wrecks everyone); apnea in corners; three real-car days a year, the rest ferrari Maranello sim (feel close; no adrenaline, no sustained G); cold baths start and end race day; self-taught piano from COVID as the disconnect (~40 private days a year). ayrton-senna is the idol (precision, especially Monaco) — also his father's. pierre-gasly is the childhood friend: visor down he is nobody (visor-down-competitive-friendship). Jules Bianchi (2014 Japan) and Anthoine Hubert (2019 Belgium) are the only corners that load negative thought; inside the car you still have to extract the maximum. Championship hunger is the 1,500-person Maranello factory, not a solo trophy. Goals are small-steps-right-direction (one or two months, not ten years). What he learned: he is stronger than the kid who asked whether 1,500 people and the media were too much.",
+      "key_insights": [
+        "F1 year one vs now — first year he booked his own flights, arrived the day before practice, collapsed late season; now a team plans sleep, diet, time zones",
+        "Sleep is the priority — 10–11 hours; cannot sleep on planes; fly by day",
+        "Hydration is a race-week plan — Friday heavy (carbs + water); cockpit can drop 3.5–4 kg; one or two days to recover",
+        "Neck + apnea — gym elastics fail; only driving trains the neck; apnea in corners is years of F1 habit",
+        "Three real-car days — rest is Maranello sim; first qualifying is a week after those three days",
+        "Harsh honesty needs a better reaction — self-critique is a strength; collapse of confidence is the junior failure mode",
+        "Reset every corner — thinking about the last one causes the next mistake; post-race rumination is the long wound",
+        "Control dissolves fear — 0% scared in the car; snakes, bungee, brother's racing still scare him",
+        "Brother's race is torture — security first; still watches while in his own meetings",
+        "What would he want me to do — father dies Tuesday Baku 2017; flies Wednesday to try to win",
+        "Humble and grateful — father's two words; don't work less in a hot streak",
+        "Only loved ones' opinions — F2 = mum/dad; F1 = thousands; stop reading strangers",
+        "Misread personality hurts more than a bad lap — \"arrogant\" when he is not",
+        "Show the true self — then accept not everyone likes it",
+        "Anticipated F1 contract — lied two days before the death; signed a month later; found peace",
+        "He did not sacrifice; his father did — expensive sport; time away from the mother",
+        "Visor down, nobody — Gasly friendship off-track; zero advice, zero gifts on-track",
+        "Team sport in the shadows — 1,500 factory people; radio/strategy while driving",
+        "Small steps, right direction — 1–2 month targets beat a 10–15 year fantasy",
+        "Cold baths bookend race day — drop core before extreme cockpit heat; recover after",
+        "Piano as disconnect — COVID self-taught; 4–5 hours disappear; ~40 private days a year",
+        "Senna as precision idol — especially Monaco; also the father's idol",
+        "Safety changed bravery — 1970s closest-to-death was fastest; he feels none of that now",
+        "Kids' eyes at a kart track — Michael Schumacher at 6–7; smallest gesture lasts months",
+        "Stronger than he thought — kid-to-1,500-person team was the hidden lesson"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "loved-ones-opinion-filter",
+          "title": "Loved Ones Opinion Filter",
+          "e": "💗"
+        },
+        {
+          "slug": "misread-personality-criticism",
+          "title": "Misread Personality Criticism",
+          "e": "🪞"
+        },
+        {
+          "slug": "harsh-honesty-plus-right-reaction",
+          "title": "Harsh Honesty Plus Right Reaction",
+          "e": "🪓"
+        },
+        {
+          "slug": "corner-by-corner-mental-reset",
+          "title": "Corner by Corner Mental Reset",
+          "e": "↩️"
+        },
+        {
+          "slug": "control-dissolves-fear",
+          "title": "Control Dissolves Fear",
+          "e": "🎛️"
+        },
+        {
+          "slug": "what-would-he-want-me-to-do",
+          "title": "What Would He Want Me To Do",
+          "e": "🕊️"
+        },
+        {
+          "slug": "humble-grateful-keep-working",
+          "title": "Humble Grateful Keep Working",
+          "e": "🙇"
+        },
+        {
+          "slug": "visor-down-competitive-friendship",
+          "title": "Visor Down Competitive Friendship",
+          "e": "🪖"
+        },
+        {
+          "slug": "small-steps-right-direction",
+          "title": "Small Steps Right Direction",
+          "e": "🪜"
+        },
+        {
+          "slug": "power-of-separation-craft-reception",
+          "title": "Power of Separation Craft Reception",
+          "e": "🎨"
+        },
+        {
+          "slug": "online-vs-offline-reputation-box",
+          "title": "Online vs Offline Reputation Box",
+          "e": "📦"
+        },
+        {
+          "slug": "please-everyone-business-never-succeeds",
+          "title": "Please Everyone Business Never Succeeds",
+          "e": "🙅"
+        },
+        {
+          "slug": "man-in-the-arena",
+          "title": "Man in the Arena",
+          "e": "🏟️"
+        },
+        {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
+        },
+        {
+          "slug": "grief-without-performative-suffering",
+          "title": "Grief Without Performative Suffering",
+          "e": "🕯️"
+        },
+        {
+          "slug": "life-task-childhood-seed",
+          "title": "Life Task Childhood Seed",
+          "e": "🌱"
+        },
+        {
+          "slug": "cry-celebrate-one-night-training",
+          "title": "Cry Celebrate One Night Training",
+          "e": "😢"
+        },
+        {
+          "slug": "deliberate-cold-exposure-protocols",
+          "title": "Deliberate Cold Exposure Protocols",
+          "e": "🧊"
+        }
+      ],
+      "conceptCount": 18
     },
     {
       "slug": "easiest-way-heal-from-a-breakup-jay-shetty",

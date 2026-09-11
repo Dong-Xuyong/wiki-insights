@@ -83,17 +83,52 @@
   function getSavedSeconds(videoId) {
     if (!videoId) return 0;
     const rec = loadProgressMap()[videoId];
-    const t = rec && typeof rec.t === "number" ? rec.t : 0;
+    if (!rec || rec.done) return 0;
+    const t = typeof rec.t === "number" ? rec.t : 0;
     return t >= RESUME_MIN_SEC ? Math.floor(t) : 0;
   }
 
-  function setSavedSeconds(videoId, seconds, { done = false } = {}) {
+  function setSavedSeconds(videoId, seconds, { done = false, clear = false } = {}) {
     if (!videoId) return;
     const map = loadProgressMap();
-    if (done) delete map[videoId];
-    else if (seconds < RESUME_MIN_SEC) return;
-    else map[videoId] = { t: Math.floor(seconds), updated: Date.now() };
+    if (clear) delete map[videoId];
+    else if (done) {
+      map[videoId] = { t: Math.floor(seconds || 0), updated: Date.now(), done: true };
+    } else if (seconds < RESUME_MIN_SEC) return;
+    else map[videoId] = { t: Math.floor(seconds), updated: Date.now(), done: false };
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+  }
+
+  function catalogProgress(v, progressMap) {
+    const rec = v.video_id ? progressMap[v.video_id] : null;
+    if (!rec) return { done: false, pct: 0, started: false };
+    if (rec.done) return { done: true, pct: 100, started: true };
+    const t = typeof rec.t === "number" ? rec.t : 0;
+    if (t < RESUME_MIN_SEC) return { done: false, pct: 0, started: false };
+    const dur = (Number(v.duration_min) || 0) * 60;
+    const pct = dur > 0 ? Math.min(99, Math.max(6, Math.round((t / dur) * 100))) : 12;
+    return { done: false, pct, started: true };
+  }
+
+  function thumbProgressHtml(v, progress) {
+    const { done, pct, started } = progress;
+    const thumb = v.video_id
+      ? `<img class="video-card-thumb" src="https://i.ytimg.com/vi/${esc(
+          v.video_id
+        )}/mqdefault.jpg" alt="" loading="lazy" decoding="async" />`
+      : `<div class="video-card-thumb video-card-thumb-empty" aria-hidden="true"></div>`;
+    const bar =
+      started
+        ? `<div class="video-card-progress${done ? " is-done" : ""}" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}" aria-label="${
+            done ? "Completed" : `${pct}% watched`
+          }"><span style="width:${pct}%"></span></div>`
+        : "";
+    const badge = done
+      ? `<span class="video-card-status">Done</span>`
+      : started
+        ? `<span class="video-card-status is-watch">${pct}%</span>`
+        : "";
+    return `<div class="video-card-thumb-wrap">${thumb}${bar}${badge}</div>`;
   }
 
   function formatClock(seconds) {
@@ -231,7 +266,7 @@
     const restart = document.getElementById("restart-video");
     if (!restart) return;
     restart.addEventListener("click", () => {
-      setSavedSeconds(videoId, 0, { done: true });
+      setSavedSeconds(videoId, 0, { clear: true });
       paintResumeBar(0);
       if (ytPlayer?.seekTo) {
         try {
@@ -381,6 +416,7 @@
     currentInsights = null;
     const q = searchQ.trim().toLowerCase();
     const videos = allVideos().filter((v) => matchesQuery(v, q));
+    const progressMap = loadProgressMap();
     root.innerHTML = `
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search keywords, title, creator…" value="${esc(
@@ -396,16 +432,18 @@
         ${videos
           .map((v) => {
             const updated = videoUpdatedLabel(v);
+            const progress = catalogProgress(v, progressMap);
+            const watchLabel = progress.done
+              ? "Completed"
+              : progress.started
+                ? `${progress.pct}% watched`
+                : "Not started";
             return `
-          <button type="button" class="video-card" data-slug="${esc(v.slug)}">
+          <article class="video-card" data-slug="${esc(v.slug)}" tabindex="0" role="link" aria-label="${esc(
+            `${v.title}. ${watchLabel}`
+          )}">
             <div class="video-card-top">
-              ${
-                v.video_id
-                  ? `<img class="video-card-thumb" src="https://i.ytimg.com/vi/${esc(
-                      v.video_id
-                    )}/mqdefault.jpg" alt="" loading="lazy" decoding="async" />`
-                  : ""
-              }
+              ${thumbProgressHtml(v, progress)}
               <div class="video-card-body">
                 <p class="video-card-title">${esc(v.title)}${
                   v.local ? ` <span class="badge-local">Local</span>` : ""
@@ -415,11 +453,16 @@
                   ${v.duration_min ? `<span>${v.duration_min} min</span>` : ""}
                   ${v.conceptCount ? `<span>${v.conceptCount} concepts</span>` : ""}
                   ${updated ? `<span>${esc(updated)}</span>` : ""}
+                  ${
+                    progress.started
+                      ? `<span class="video-card-watch${progress.done ? " is-done" : " is-watch"}">${watchLabel}</span>`
+                      : ""
+                  }
                 </div>
               </div>
             </div>
             ${keywordChips(v.keywords)}
-          </button>`;
+          </article>`;
           })
           .join("")}
       </div>
@@ -449,10 +492,18 @@
     document.getElementById("url-input").addEventListener("keydown", (e) => {
       if (e.key === "Enter") handleIncomingUrl(e.target.value);
     });
-    root.querySelectorAll(".video-card").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
+    root.querySelectorAll(".video-card").forEach((card) => {
+      const open = () => navigate(`#/v/${card.dataset.slug}`);
+      card.addEventListener("click", (e) => {
         if (e.target.closest(".kw-chip")) return;
-        navigate(`#/v/${btn.dataset.slug}`);
+        open();
+      });
+      card.addEventListener("keydown", (e) => {
+        if (e.target.closest(".kw-chip")) return;
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
       });
     });
     root.querySelectorAll(".kw-chip").forEach((chip) => {
