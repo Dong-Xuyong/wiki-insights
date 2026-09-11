@@ -17,6 +17,7 @@
   const XP_STARTED = 10;
   const XP_COMPLETED = 40;
   const XP_PER_LEVEL = 250;
+  const ASSET_VERSION = "dashboard2";
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -816,7 +817,9 @@
     if (localInsights[slug]) return localInsights[slug];
     if (insightsCache.has(slug)) return insightsCache.get(slug);
     try {
-      const res = await fetch(`data/insights/${encodeURIComponent(slug)}.json`);
+      const res = await fetch(
+        `data/insights/${encodeURIComponent(slug)}.json?v=${ASSET_VERSION}`
+      );
       if (!res.ok) throw new Error("missing");
       const data = await res.json();
       insightsCache.set(slug, data);
@@ -1829,7 +1832,7 @@
   });
 
   loadLocal();
-  fetch("data/catalog.json")
+  fetch(`data/catalog.json?v=${ASSET_VERSION}`)
     .then((r) => {
       if (!r.ok) throw new Error("catalog missing");
       return r.json();
