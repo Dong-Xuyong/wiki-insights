@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 197,
-  "insightsCount": 193,
+  "insightsCount": 194,
   "conceptCount": 1888,
   "videos": [
     {
@@ -716,7 +716,7 @@
         {
           "slug": "expertise-as-agent-dividend",
           "title": "Expertise as Agent Dividend",
-          "e": "📚"
+          "e": "📈"
         },
         {
           "slug": "llm-gives-up-human-continues",
@@ -900,7 +900,7 @@
         "Research harnesses; M3 building M3.1 — auto data, model-on-model, kernel work",
         "Multi-agents + routing are the next excitement — capability and diagnosis"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "agentic-long-context",
