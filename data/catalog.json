@@ -1,9 +1,181 @@
 {
   "generated": true,
-  "videoCount": 188,
-  "insightsCount": 188,
-  "conceptCount": 1789,
+  "videoCount": 190,
+  "insightsCount": 189,
+  "conceptCount": 1804,
   "videos": [
+    {
+      "slug": "one-designer-ai-hundreds-of-deliverables-vincent-wendy",
+      "title": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
+      "video_id": "O1FN4awNEtM",
+      "url": "https://youtu.be/O1FN4awNEtM",
+      "duration_min": 17,
+      "creator": "vincent-wendy",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "design",
+        "agents",
+        "automation",
+        "ai-engineer"
+      ],
+      "keywords": [
+        "design",
+        "agents",
+        "automation",
+        "ai engineer",
+        "vincent wendy",
+        "Five Step Design Scale Playbook",
+        "Problem as Design Advantage",
+        "Atomic Design as LLM Constraint",
+        "LLM Capability Workaround",
+        "Human Plus AI QA Team",
+        "Exceptions as the Real Job",
+        "Design Thinking Problem First"
+      ],
+      "summary": "17-minute ai-engineer World's Fair talk by vincent-wendy, senior creative designer on a 12–15 person conference team. Scale at the event: ~7,000 attendees (up from a 6,000 forecast), 140+ sponsors, 300+ speakers, 600+ sessions, and one designer. Every surface is a deliverable: stickers, swag, landing pages, speaker announcements, track mascots, wayfinding, digital signage. Thesis: the bottleneck is no longer tools. The stack is Wendy + devin + GPT + figma. problem-as-design-advantage — a real operational problem is what inspires the system.\n\nHe calls out Simon Willison's 2025 \"pelican riding a bicycle\" SVG test: frontier models still fail usable vectors. The designer workaround is llm-capability-workaround: ask for a PNG, then vectorize in Figma, and ship. Think around the model instead of waiting for it.\n\nScale playbook is five steps (five-step-design-scale-playbook): foundation first, reusable designs, automated workflows, validated output, remove friction. Foundation is a design system (type, color, components) plus atomic-design-as-llm-constraint — pin desktop/mobile type so Claude-class models stop inventing random font sizes. Once the website tokens exist, marketing can rinse-and-repeat emails, flyers, and documents. Automated workflows collapse the old designer↔engineer pixel-perfect loop: Devin lives in Slack; pull latest schedule data for a room/day; export PNG to a flash drive for the screens; MCP or a Figma spec-sheet plugin (spacing, type, color annotations even when layers are named \"Frame 3\") makes the output pixel-accurate. Speaker announcements for 300+ people are a generator (portrait, landscape, TBPN-inspired trading cards).\n\nValidation is visual. Devin matches speaker photos (Tinder-style same-person check; demo: Jason Liu) so thumbnails stop being a photographer-code scavenger hunt. Asked to find missing logos on a 140-sponsor banner, it hit 100% on Wendy's test — same pass on swag T-shirts. human-plus-ai-qa-team: humans miss small gaps; the model is a second pair of eyes.\n\nFriction removal is attendee-journey thinking (registration → wayfinding → QR → rooms), not designer ego. exceptions-as-the-real-job: a morning schedule change with no edit button; ask Devin to add one, export PNG, replug the screen. Takeaway: solve scale by thinking small — every detail that can go wrong — and treat the problem as the thing that lets you ship.",
+      "key_insights": [
+        "One designer, conference-scale — 7k attendees / 140+ sponsors / 300+ speakers / 600+ sessions",
+        "Design team is Wendy + Devin + GPT + Figma — tools are no longer the constraint",
+        "Problem inspires the brand — asked what inspired AI Engineer design, the answer was the scale problem",
+        "Pelican SVG still fails — PNG then Figma vectorize; work around the model",
+        "Five-step scale playbook — foundation, reusable, automate, validate, defriction",
+        "Atomic tokens constrain LLM slop — pin type/color or you get random font sizes",
+        "Reusable once, then rinse-repeat — website tokens → email, flyer, mascot family",
+        "Slack → Figma → Devin → PNG — replaces the old research/design-thinking loop for this job",
+        "Spec sheet / MCP beats unnamed layers — spacing, type, color annotated even on Frame 3",
+        "Speaker generator — 300+ announcements, landscape, trading cards",
+        "Visual QA — photo match + 100% missing-logo check on 140 sponsors",
+        "Human + AI = QA team — combine, don't pick one",
+        "Walk as the attendee — wayfinding is user-centric, not designer-centric",
+        "Exceptions are the job — add the missing edit button the morning of",
+        "Think small to solve scale — enumerate failure modes before they hit the floor"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "five-step-design-scale-playbook",
+          "title": "Five-Step Design Scale Playbook",
+          "e": "🧱"
+        },
+        {
+          "slug": "problem-as-design-advantage",
+          "title": "Problem as Design Advantage",
+          "e": "🎯"
+        },
+        {
+          "slug": "atomic-design-as-llm-constraint",
+          "title": "Atomic Design as LLM Constraint",
+          "e": "🔤"
+        },
+        {
+          "slug": "llm-capability-workaround",
+          "title": "LLM Capability Workaround",
+          "e": "🐦"
+        },
+        {
+          "slug": "human-plus-ai-qa-team",
+          "title": "Human Plus AI QA Team",
+          "e": "👀"
+        },
+        {
+          "slug": "exceptions-as-the-real-job",
+          "title": "Exceptions as the Real Job",
+          "e": "🚨"
+        },
+        {
+          "slug": "design-thinking-problem-first",
+          "title": "Design Thinking Problem-First",
+          "e": "🎯"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "agentic-engineering",
+          "title": "Agentic Engineering",
+          "e": "🏗️"
+        },
+        {
+          "slug": "model-harness-ai-product",
+          "title": "Model Harness AI Product",
+          "e": "🧰"
+        }
+      ],
+      "conceptCount": 11
+    },
+    {
+      "slug": "the-navier-stokes-situation-is-insane",
+      "title": "The Navier Stokes situation is insane",
+      "video_id": "UA0UkPombNk",
+      "url": "https://youtu.be/UA0UkPombNk",
+      "duration_min": 12,
+      "creator": "the-primeagen",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "ai-for-math",
+        "openai",
+        "anthropic",
+        "agents",
+        "theprimeagen"
+      ],
+      "keywords": [
+        "ai for math",
+        "openai",
+        "anthropic",
+        "agents",
+        "theprimeagen",
+        "the primeagen",
+        "Forced vs Unforced Navier–Stokes",
+        "Rumor Triggered Compute Sprint",
+        "Deidentified Session Training Contamination",
+        "Lab Rivalry as Research Driver",
+        "Formal Mathematics Stack",
+        "Human Verification Bottleneck"
+      ],
+      "summary": "the-primeagen (~12 min, YouTube auto-generated captions, ~373K views, Sept 10 2026 livestream clip) recaps the week OpenAI claimed an AI-agent resolution of a Navier–Stokes blowup theorem, and the academic fight that followed. Host-reported, not a math paper. Primeagen says he does not understand the PDE; he is reading tweets, tristan-buckmaster's four-page account, and sebastian-bubeck's reply.\n\nThe popular headline in the video is that openai \"solved\" a Clay Millennium Prize problem with ~10,000 agents in ~88 hours, spending \"probably north of $10 million\" for a $1 million prize. The *technical* quotes inside the same recap are narrower: **finite-time blowup for the *forced* Navier–Stokes equation, \"existence for the forced blowup in R3 and T3,\" and \"finite time blow up with smooth forcing.\" Treat that gap as forced-vs-unforced-navier-stokes — the Clay existence-and-smoothness prize is the unforced incompressible 3D problem; a Lean-checked forced blowup is still a frontier result, not automatically the million-dollar statement.\n\ntristan-buckmaster (NYU) and levent-alpoge (Anthropic) had spent ~a year on a Millennium project using Claude and OpenAI codex / GPT-5.6 Soul and later gpt-6-astra. Progress was slow until an LLM-generated proof around August 15 (Buckmaster: \"the most horrendous I have ever read\") that Lean verified around August 22. On September 3 a rumor circulated that Anthropic** had solved an open problem. OpenAI launched a sprint. Buckmaster emailed lab scientists: it is us, not Anthropic; we have been using both labs' models. He was then pressed into a meeting and told an internal OpenAI model had produced a forced blowup — the same unusual attack he had not advertised. He asked whether the model had been trained on their Codex sessions; he was told the model does not look up user data; a training question got no answer. That is deidentified-session-training-contamination.\n\nRelease politics: OpenAI offered either staggered independent posts or Buckmaster alone writing the general paper while acknowledging an internal model. Primeagen reports Buckmaster claiming Bubeck wanted Alpöge off authorship because he works at Anthropic; Bubeck's posted texts deny that and instead offer to recognize academic priority, share prompts, and coordinate a concurrent release. Primeagen finds the generosity *suspicious if the discoveries were truly independent*, but does not believe OpenAI stole drafts or committed academic fraud. His synthesis: maybe deidentified session data helped jumpstart search; the thing that actually solved it was rumor-triggered-compute-sprint — a rumor that one of the seven had fallen made the problem *believed solvable*, so Sam-level spend on 10,000 internal-model agents for 88 hours got approved because lab-rivalry-as-research-driver (cannot let Anthropic win). Punchline: if the stack is that good, point it at P vs NP.\n\nThis is the first corpus *news* layer on Achim's prediction that AI would emit Navier–Stokes attacks faster than humans can check (human-verification-bottleneck). Verification here is lean-theorem-prover compile, not Clay prize committee.",
+      "key_insights": [
+        "Headline ≠ theorem. Video opener says Millennium Prize solved; quoted statement is forced / smooth-forcing blowup in R3 and T3",
+        "Cost theater. ~10k agents, ~88 hours, tens of millions of dollars vs a $1M prize; the prize is not the business case",
+        "Year of human+LLM drafts, then a rumor. Buckmaster/Alpöge slow until mid-August LLM proof + Lean check; Sept 3 Anthropic-solved rumor detonates OpenAI's sprint",
+        "Same unusual approach as a red flag. Forced blowup in R3/T3 matched work they had not publicized",
+        "Training-data question unanswered. \"Model does not look up user data\" ≠ \"we did not train on deidentified Codex logs\"",
+        "Authorship / lab-politics. Alpöge-at-Anthropic as a release irritant; Bubeck texts vs Buckmaster's four-pager disagree on whether removal was requested",
+        "\"Why would you ruin your career?\" Tenure-academic vs lab-employee power asymmetry; Buckmaster's \"I'm an academic\" reply",
+        "Suspicious generosity. Offering all academic accolades looks odd if the lab truly independently derived one of the hardest open problems",
+        "Primeagen's verdict. Not theft/fraud; possible deidentified leak; real unlock is belief + compute after a rumor",
+        "Rivalry as the budget. Tens of millions get approved so Anthropic does not \"win\" a Big Seven",
+        "P vs NP taunt. If 10k agents / 88 hours is the method, try the traveling-salesman prize next"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "forced-vs-unforced-navier-stokes",
+          "title": "Forced vs Unforced Navier–Stokes"
+        },
+        {
+          "slug": "rumor-triggered-compute-sprint",
+          "title": "Rumor-Triggered Compute Sprint"
+        },
+        {
+          "slug": "deidentified-session-training-contamination",
+          "title": "Deidentified Session Training Contamination"
+        },
+        {
+          "slug": "lab-rivalry-as-research-driver",
+          "title": "Lab Rivalry as Research Driver"
+        }
+      ],
+      "conceptCount": 4
+    },
     {
       "slug": "americas-bond-market-secretly-collapsing-graham-stephan",
       "title": "It Started: America’s Bond Market Is Secretly Collapsing",
