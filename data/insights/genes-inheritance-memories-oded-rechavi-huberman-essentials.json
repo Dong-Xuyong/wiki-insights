@@ -1,0 +1,50 @@
+{
+  "slug": "genes-inheritance-memories-oded-rechavi-huberman-essentials",
+  "sections": [
+    {
+      "title": "What is supposed to be inherited",
+      "items": [
+        {
+          "e": "📘",
+          "q": "What is Rechavi's IKEA picture of a cell?",
+          "a": "Every cell holds the **same catalog** (DNA). A room pulls **one page** (RNA) and builds **the chair** (protein). Less than **2%** of the genome is messenger RNA. Most other RNAs regulate genes instead of encoding furniture."
+        },
+        {
+          "e": "🚧",
+          "q": "Why don't gym muscles or architecture knowledge go to your kids?",
+          "a": "The **Weismann barrier**: only sperm and egg build the next body. Soma stays in this life. Then **epigenetic reprogramming** wipes about **90%** of chemical marks so the next embryo gets a clean book, not last year's pencil notes."
+        }
+      ]
+    },
+    {
+      "title": "Small RNAs in worms",
+      "items": [
+        {
+          "e": "✂️",
+          "q": "What did Fire and Mello show that later won a Nobel Prize?",
+          "a": "**Double-stranded RNA** matching a gene makes small RNAs that **destroy that gene's mRNA**. In C. elegans the silencing **spreads** — inject or feed — into **germ cells and the next generation**. Daily worm method; origin story is antiviral defense."
+        },
+        {
+          "e": "🦠",
+          "q": "How did Rechavi show inherited antiviral protection is real?",
+          "a": "Infect parents with a **fluorescent virus** (green = replication). Disable the kids' genes for **making** small RNAs. The kids stay **black** and carry **virus-matching RNAs** only if the parents were infected. Settled in worms; **not shown in humans**."
+        }
+      ]
+    },
+    {
+      "title": "Brain, bottleneck, diagnostics",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "Can a worm brain write the next generations without talking to them?",
+          "a": "2019 *Cell*: change **endogenous small RNAs only in the brain** and descendants **find food differently for three generations**. The RNA-carrier protein is required. That is brain → germ, not a translated synapse map back into a new brain."
+        },
+        {
+          "e": "🧪",
+          "q": "If this channel exists in people, what would you do first?",
+          "a": "**Look at the RNA.** Couples already screen DNA; nobody screens heritable RNA at IVF. RNA is plastic — rodent **exercise can correct** overfeeding inheritance. Editing dish RNAs is science fiction. The human mechanism is **unknown**."
+        }
+      ]
+    }
+  ]
+}

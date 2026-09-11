@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 196,
-  "insightsCount": 193,
-  "conceptCount": 1876,
+  "insightsCount": 194,
+  "conceptCount": 1880,
   "videos": [
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",
@@ -261,9 +261,14 @@
           "slug": "ai-job-anxiety-advice",
           "title": "AI Job Anxiety Advice",
           "e": "💼"
+        },
+        {
+          "slug": "grade-homework-not-do-homework",
+          "title": "Grade Homework Not Do Homework",
+          "e": "📝"
         }
       ],
-      "conceptCount": 13
+      "conceptCount": 14
     },
     {
       "slug": "easiest-way-heal-from-a-breakup-jay-shetty",
@@ -353,9 +358,24 @@
         {
           "slug": "love-is-loaned-not-gifted",
           "title": "Love Is Loaned, Not Gifted"
+        },
+        {
+          "slug": "attracting-vs-chasing-energy",
+          "title": "Attracting vs Chasing Energy",
+          "e": "🧲"
+        },
+        {
+          "slug": "external-search-is-self-search",
+          "title": "External Search Is Self Search",
+          "e": "🪞"
+        },
+        {
+          "slug": "please-everyone-business-never-succeeds",
+          "title": "Please Everyone Business Never Succeeds",
+          "e": "🙅"
         }
       ],
-      "conceptCount": 8
+      "conceptCount": 11
     },
     {
       "slug": "genes-inheritance-memories-oded-rechavi-huberman-essentials",
@@ -399,7 +419,7 @@
         "Worms amplify; mammals dilute — without an amplification loop, inherited RNA would have to throw early development off (DOHaD) rather than rewrite adult circuits.",
         "Human applications are science fiction with a diagnostic first step — RNA profiles at IVF; treadmill before retrieval if a healthy RNA signature is known. Rechavi's disclaimer is repeated: we do not know how this works in humans."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "ikea-catalog-gene-expression",
