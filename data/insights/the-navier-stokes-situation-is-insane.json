@@ -1,0 +1,50 @@
+{
+  "slug": "the-navier-stokes-situation-is-insane",
+  "sections": [
+    {
+      "title": "Headline vs theorem",
+      "items": [
+        {
+          "e": "🌊",
+          "q": "Did OpenAI win the Clay Millennium Prize?",
+          "a": "The video **opener says yes**. The quoted statement is **finite-time blowup with smooth forcing** / forced blowup in **R3 and T3**. Lean can check that. The **$1M Clay problem** is **unforced** existence and smoothness. Keep them apart."
+        },
+        {
+          "e": "💸",
+          "q": "What did the sprint cost versus the prize?",
+          "a": "~**10,000 agents**, ~**88 hours**, **probably north of $10 million** — for a **$1 million** prize. Primeagen: the prize is not the business case."
+        }
+      ]
+    },
+    {
+      "title": "Year of drafts, then a rumor",
+      "items": [
+        {
+          "e": "📅",
+          "q": "What had Buckmaster and Alpöge already done?",
+          "a": "~A year on a Millennium project using **Claude + Codex / GPT-5.6 Soul / Astra**. An LLM proof around **August 15** (\"the most horrendous I have ever read\") that **Lean verified around August 22**."
+        },
+        {
+          "e": "📣",
+          "q": "What actually turned OpenAI's fleet on?",
+          "a": "A **September 3 rumor** that Anthropic had solved an open problem. Primeagen: labs will not search an infinite space speculatively. **Belief it is solvable** unlocked tens of millions of compute."
+        }
+      ]
+    },
+    {
+      "title": "Logs, priority, rivalry",
+      "items": [
+        {
+          "e": "📥",
+          "q": "What did Buckmaster ask about training?",
+          "a": "Whether the model had been **trained on a year of Codex sessions** for an unusual forced-blowup attack they had not advertised. Answer: the model does not **look up** user data. Training question: **no answer**. Primeagen rejects theft/fraud; treats **deidentified sneak-in** as plausible."
+        },
+        {
+          "e": "📏",
+          "q": "Why offer the academics all the accolades?",
+          "a": "Bubeck texts: concurrent discoveries, **recognize your priority**, share prompts. Primeagen finds that **suspicious if truly independent**. His budget theory: **cannot let Anthropic win**. Punchline: if the stack works, point **10k agents / 88 hours at P vs NP**."
+        }
+      ]
+    }
+  ]
+}

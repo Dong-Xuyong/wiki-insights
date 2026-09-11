@@ -1,9 +1,74 @@
 {
   "generated": true,
-  "videoCount": 190,
-  "insightsCount": 189,
-  "conceptCount": 1804,
+  "videoCount": 191,
+  "insightsCount": 190,
+  "conceptCount": 1810,
   "videos": [
+    {
+      "slug": "andrew-huberman-protocols-operating-manual-doac",
+      "title": "Andrew Huberman: My Exact Routine To Optimize Brain & Body, I Do All Of These Every Day!",
+      "video_id": "MGxcosNuC8k",
+      "url": "https://youtu.be/MGxcosNuC8k",
+      "duration_min": 137,
+      "creator": "steven-bartlett",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "health",
+        "neuroscience",
+        "circadian",
+        "sleep",
+        "huberman-lab",
+        "diary-of-a-ceo"
+      ],
+      "keywords": [
+        "health",
+        "neuroscience",
+        "circadian",
+        "sleep",
+        "huberman lab",
+        "diary of a ceo",
+        "steven bartlett",
+        "protocols as synergistic gears",
+        "flattening of cortisol curve",
+        "bright days dark nights",
+        "netflix inoculation afternoon light",
+        "phone presence cognitive flexibility"
+      ],
+      "summary": "137-minute the-diary-of-a-ceo interview (steven-bartlett hosting andrew-huberman) for the book *Protocols: An Operating Manual for the Human Body* (~50 protocols across sleep, exercise, stress, nutrition, light, focus/motivation/learning, personal growth). Huberman picks 10 zero-or-low-cost protocols he does every day (one rest day on training) because they move the needle most and ratchet together: last night's sleep is this morning's cognition.\n\nThe spine is the healthy cortisol curve. You wake *because* of the cortisol-awakening-response. You want that peak as high as possible in the first 60 minutes so afternoon/night cortisol can fall (sleep requirement). flattening-of-cortisol-curve — a medium or flat morning peak — predicts shorter lifespan, worse recovery, and longer stress blips riding a higher baseline. Huberman's public reframe: cortisol is an energy-mobilizing / preparation hormone, not \"the stress hormone.\" He bets 2027 closes the coffin on cortisol-is-bad. Cushing's is rare; most people have morning cortisol too low and evening cortisol too high.\n\nSequenced through the day: (1) hydrate 16–32 oz on waking (~80 oz/day, front-loaded; electrolytes optional) — bladder-empty + water via vagus wakes the brain; (2) morning-sunlight-protocol or 10,000 lux in the first 30–60 min (not through glass; overcast still counts; miss a day → twice as long next day) plus skin/long-wavelength light (Glen Jeffery / UCL: red on the back cut glucose peak >25%; UVB on skin raises T/estrogen/libido); (3) exercise in the first 3–4 hours — 3 lift days (compound, 2–3 work sets) + 3 cardio (1 hr easy / 30 min moderate / short max-HR intervals) + rest after legs. Deliberate cold does not raise cortisol; it raises catecholamines. Weight training near failure does spike cortisol — that is the wanted morning inflection. (4) 90–120 min effortful learning with the phone out of the room (phone-presence-cognitive-flexibility; fifteen-percent-error-plasticity; testing-effect-learning). (5) physiological-sigh-stress as the real-time tool (Spiegel/Yilmaz-Balban four-arm: sigh beat meditation, box breathing, and cyclic hyperventilation). (6) netflix-inoculation-afternoon-light — late-day daylight buffers night screens (fails in adolescents). (7–8) bright-days-dark-nights — UK Biobank: bright days *and* dark nights are additive; after-6pm LED work at home counts as night shift; dim lights because bright nights raise cortisol, not only suppress melatonin; last 30 min no screens / first 30 min after waking = sun+hydrate+move. Sleep dark, cool, side + head slightly elevated for glymphatic-sleep-cleansing; closed-eye movement trick to dump proprioception if you wake at 2–3am. (10) hollis-shut-up-suit-up-show-up plus a daily exit from stimulus-response (meditation, drawing, music) so the unconscious can feed \"deepest heart's desires.\" Calling is found while working something else.\n\nLong detours (not in the ten): nutrition (complete-protein-to-calorie-ratio; starches at night buffer cortisol; olive oil over seed-oil wars); peptides as optional on a behavioral foundation (pinealon REM, microdose tirzepatide anecdote, BPC-157 tumor-vascularization caution, Sinclair GLP blindness scare vs optic-nerve-head subset); psychedelics (Huberman: clinical MDMA+psilocybin, done; Bartlett DMT → reality-as-chemistry); faith-as-infrared-goggles — Huberman prays nightly ~3 years, Stanford Veritas talk with arthur-brooks; thirst-proves-water argument; spiritual anorexia. Closes with five-if-you-must supplements (Mg threonate/bisglycinate, ≥1 g EPA / Lovaza, vitamin D 5–10k IU, alpha-GPC 600–900 mg + garlic for TMAO, creatine 5–10 g) and soleus-glucose-buffer-walking 5–10 min after meals / 7–8k steps.",
+      "key_insights": [
+        "Ten protocols, zero cost, every day — sequenced start-to-finish; one weekly training rest day",
+        "Protocols are gears — sleep last night → cortisol today → stress duration → tonight's melatonin",
+        "High morning CAR is the goal — peak in first 60 min sets the nighttime trough",
+        "Flattened cortisol curve is the danger — low/flat morning → longer daytime stress spikes, shorter lifespan",
+        "Cortisol mobilizes energy — preparation hormone; 2027 coffin on \"cortisol is bad\"",
+        "Hydrate 16–32 oz on waking — ~80 oz/day, more early than late",
+        "Sunlight in eyes, not through glass — melanopsin → SCN → extra adrenal cortisol in hour one; 10k lux if dark",
+        "Bright days + dark nights are additive — UK Biobank; bright nights raise early-death risk",
+        "Home after 6pm on LEDs is night shift — kids' evening cortisol up, next-morning CAR struggling",
+        "Skin light is metabolic — long-wavelength through ~8 cm; Jeffery glucose peak −25%; UVB → sex hormones",
+        "Exercise 3–4 h after waking — 3 compound lift days + 3 cardio + rest after legs; cortisol spike wanted",
+        "Cold ≠ cortisol — catecholamines yes; psychological stress is the cortisol-appropriate stimulus",
+        "aMCC grows on unwanted hard — diet, new exercise, cold, language; Parvizi stimulation = \"challenge coming\"",
+        "First 20–30 s of stress you are brain-damaged — PFC offline; wait before texts",
+        "Physiological sigh wins the four-arm trial — once is enough in the moment; 10 long exhales at 3am",
+        "Afternoon light = Netflix inoculation — buffers night screens; not in adolescents",
+        "Phone in the room costs flexibility — even off, face-down; more energy to focus",
+        "~15% genuine error rate drives adult plasticity — not every experience rewires you",
+        "Self-test beats reread — one pass + quiz later > four rereads + highlight",
+        "Hollis: shut up, suit up, show up — then once a day exit role/stimulus-response",
+        "Calling while working — not an Easter-egg passion hunt",
+        "Faith as infrared goggles — ~3 years nightly prayer; thirst proves water",
+        "Side sleep, head slightly elevated — glymphatic washout; PNAS short meditation also clears by day",
+        "10 breaths before getting up — if you cannot concentrate for 10 breaths, what kind of day",
+        "Walk 5–10 min after meals — soleus ~1% of muscle, outsized glucose furnace; 7–8k steps",
+        "Five-if-you-must stack — Mg, EPA 1 g, D 5–10k, alpha-GPC+garlic, creatine 5–10 g",
+        "Peptides sit on behavior — foundation first; GLPs thousandfold vs physiology; vision scan before GLPs"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
     {
       "slug": "one-designer-ai-hundreds-of-deliverables-vincent-wendy",
       "title": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
@@ -155,26 +220,60 @@
         "Rivalry as the budget. Tens of millions get approved so Anthropic does not \"win\" a Big Seven",
         "P vs NP taunt. If 10k agents / 88 hours is the method, try the traveling-salesman prize next"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "forced-vs-unforced-navier-stokes",
-          "title": "Forced vs Unforced Navier–Stokes"
+          "title": "Forced vs Unforced Navier–Stokes",
+          "e": "🌊"
         },
         {
           "slug": "rumor-triggered-compute-sprint",
-          "title": "Rumor-Triggered Compute Sprint"
+          "title": "Rumor-Triggered Compute Sprint",
+          "e": "📣"
         },
         {
           "slug": "deidentified-session-training-contamination",
-          "title": "Deidentified Session Training Contamination"
+          "title": "Deidentified Session Training Contamination",
+          "e": "📥"
         },
         {
           "slug": "lab-rivalry-as-research-driver",
-          "title": "Lab Rivalry as Research Driver"
+          "title": "Lab Rivalry as Research Driver",
+          "e": "📏"
+        },
+        {
+          "slug": "formal-mathematics-stack",
+          "title": "Formal Mathematics Stack",
+          "e": "📐"
+        },
+        {
+          "slug": "human-verification-bottleneck",
+          "title": "Human Verification Bottleneck",
+          "e": "🔍"
+        },
+        {
+          "slug": "mathematical-superintelligence",
+          "title": "Mathematical Superintelligence",
+          "e": "🧮"
+        },
+        {
+          "slug": "multi-agent-orchestration",
+          "title": "Multi-Agent Orchestration",
+          "e": "🤖"
+        },
+        {
+          "slug": "knowledge-cheap-verification-expensive",
+          "title": "Knowledge Cheap Verification Expensive",
+          "e": "🔍"
+        },
+        {
+          "slug": "humans-as-math-question-askers",
+          "title": "Humans as Math Question Askers",
+          "e": "🧭"
         }
       ],
-      "conceptCount": 4
+      "conceptCount": 10
     },
     {
       "slug": "americas-bond-market-secretly-collapsing-graham-stephan",
