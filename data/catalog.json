@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 198,
-  "insightsCount": 195,
-  "conceptCount": 1906,
+  "videoCount": 199,
+  "insightsCount": 196,
+  "conceptCount": 1920,
   "videos": [
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",
@@ -812,6 +812,123 @@
         }
       ],
       "conceptCount": 11
+    },
+    {
+      "slug": "started-social-media-zero-followers-2026-simon-squibb",
+      "title": "If I Started Social Media From 0 Followers In 2026, I'd Do This",
+      "video_id": "w57UlRjz0Jg",
+      "url": "https://youtu.be/w57UlRjz0Jg",
+      "duration_min": 13,
+      "creator": "simon-squibb",
+      "updated": "2026-09-11",
+      "created": "2026-09-11",
+      "tags": [
+        "social-media",
+        "entrepreneurship",
+        "authenticity",
+        "simon-squibb"
+      ],
+      "keywords": [
+        "social media",
+        "entrepreneurship",
+        "authenticity",
+        "simon squibb",
+        "Authenticity Over Guru Cosplay",
+        "Platform Native In App Content",
+        "Comment Reply Engagement Loop",
+        "Retention Graph Re edit Loop",
+        "Owned List Beats Rented Reach",
+        "Daily Post Compounding",
+        "Ninety Ten Create Consume Ratio",
+        "Social Media Is a Team Sport"
+      ],
+      "summary": "13-minute simon-squibb playbook (~25 million followers, ~500 million views a month, six years of daily posting). YouTube auto-generated captions. Numbered operating rules for starting from zero in 2026, not a growth-hack listicle. Complements blueprint-5000-month-beginner-simon-squibb (product launch) and simon-squibb-30-years-business-knowledge (career OS) with the attention engine those businesses sit on. Tide UK business-account mid-roll is a sponsor; the rest is the system he says he would run again.\n\nauthenticity-over-guru-cosplay is first because the algorithm is downstream of a reason to care. He retells the origin: father died at 15, kicked out, homeless, jobs and social services said no, so entrepreneurship was necessity not vibe. Book plug: *What's Your Story?* If you are still building, talk about the struggle and learn in public rather than pretending to be a guru — the Squibb-lane twin of Hormozi show-yourself and Chatbase building-in-public-organic-growth.\n\nplatform-native-in-app-content is the distribution mechanic. Do not export one video everywhere. Edit captions and hooks inside TikTok / Instagram / YouTube / Snapchat so each app treats the file as original. Snapchat now surfaces whether the clip was *recorded in-app*. Instagram Stories should be shot in the moment, not an upload of a \"standard\" video. comment-reply-engagement-loop sits on the same principle: stay in the comments yourself (or manychat) with answers and questions; ten minutes of checking then leaving is leaving reach on the table.\n\nData splits in two camps. retention-graph-reedit-loop: if the hook dies and they do not finish or rewatch, re-edit and put it out again. Platforms get paid when people stay. owned-list-beats-rented-reach: every video should move people onto a list you control. A thousand emails you can actually message beat a million views with no relationship, because a platform can suppress you tomorrow. His own hook is a weekly trends-and-business newsletter. helpbnk competition CTA (up to $1M + free help) is the community layer under the list.\n\ndaily-post-compounding is the part people reject. No such thing as passive income. He posted every day for six years; first TikTok is him and his son at the zoo learning filters. Batch-record if you cannot shoot daily; a parent or friend can hit publish. Mental override: treat not posting as unacceptable. Attention compounds into trust, then you still need a way to take the money (Tide plug) — the distribution twin of demand-before-infrastructure / be-ready-to-invoice.\n\nninety-ten-create-consume-ratio is the discipline sibling: about nine hours making, one hour watching, enough to steal execution not identity. Street content was not an original *idea*; it was original *execution* (passion-over-original-idea on camera). Line: use the system, do not let the system use you — operator version of platform-working-for-you.\n\nClose: social-media-is-a-team-sport — camera, editor, story structure, poster (roles can collapse into one person at the start). share-the-upside-not-100-percent is how you staff before you can pay: he cites 716,000 kids in England who cannot find work; offer 50% of a channel's revenue rather than keep 100% of a grind you hate. Same equity instinct as co-founder-selection (\"50% of something I enjoy\"). £1,000 giveaway for tagging him in a post about the video.",
+      "key_insights": [
+        "Story before tactics. Homeless-at-15 is the reason-why; uniqueness is the only durable positioning",
+        "Do not guru early. Share the struggle and learn in public until the advice is earned",
+        "In-app = original. Captions, hooks, Snapchat recorded-in-app, live Stories — make the platform believe it was born there",
+        "Comments are distribution. Answer + question; ManyChat if volume requires it",
+        "Retention is an edit loop. If they bounce, recut and republish; rewatches are what the app wants",
+        "Own the list. 1,000 emails > 1M unengaged views; platforms can block you",
+        "Daily or you are not in the game. Six years, zoo-filter start, batch if needed; no passive income",
+        "Make 90%, watch 10%. Steal execution, not identity; leverage the app, do not live inside it",
+        "Team + upside. Camera / edit / story / post; share revenue with unemployed talent rather than solo heroics",
+        "Be ready to take the money. Audience without invoicing/account infrastructure dumps momentum (Tide)"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "authenticity-over-guru-cosplay",
+          "title": "Authenticity Over Guru Cosplay",
+          "e": "🏚️"
+        },
+        {
+          "slug": "platform-native-in-app-content",
+          "title": "Platform Native In-App Content",
+          "e": "📱"
+        },
+        {
+          "slug": "comment-reply-engagement-loop",
+          "title": "Comment Reply Engagement Loop",
+          "e": "💬"
+        },
+        {
+          "slug": "retention-graph-reedit-loop",
+          "title": "Retention Graph Re-edit Loop",
+          "e": "📉"
+        },
+        {
+          "slug": "owned-list-beats-rented-reach",
+          "title": "Owned List Beats Rented Reach",
+          "e": "📧"
+        },
+        {
+          "slug": "daily-post-compounding",
+          "title": "Daily Post Compounding",
+          "e": "📅"
+        },
+        {
+          "slug": "ninety-ten-create-consume-ratio",
+          "title": "Ninety Ten Create Consume Ratio",
+          "e": "⏱️"
+        },
+        {
+          "slug": "social-media-is-a-team-sport",
+          "title": "Social Media Is a Team Sport",
+          "e": "🎥"
+        },
+        {
+          "slug": "share-the-upside-not-100-percent",
+          "title": "Share the Upside Not 100 Percent",
+          "e": "🤝"
+        },
+        {
+          "slug": "building-in-public-organic-growth",
+          "title": "Building in Public Organic Growth",
+          "e": "🌱"
+        },
+        {
+          "slug": "show-yourself",
+          "title": "Show Yourself",
+          "e": "📣"
+        },
+        {
+          "slug": "platform-working-for-you",
+          "title": "Platform Working For You",
+          "e": "📵"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "🤝"
+        },
+        {
+          "slug": "seven-and-eight-hiring-rule",
+          "title": "Seven and Eight Hiring Rule",
+          "e": "7️⃣"
+        }
+      ],
+      "conceptCount": 14
     },
     {
       "slug": "the-end-of-an-era",
