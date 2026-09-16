@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 216,
-  "insightsCount": 211,
+  "insightsCount": 212,
   "conceptCount": 2159,
   "sections": [
     {
@@ -1483,43 +1483,52 @@
         "Achievement confidence is brittle — number-one identity collapses when someone outshines you; self-acceptance doesn't need to win.",
         "Attention rule — when uncomfortable, stop scanning the room and phones; stay in the space between your noses."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "grounded-charisma",
-          "title": "Grounded Charisma"
+          "title": "Grounded Charisma",
+          "e": "🪨"
         },
         {
           "slug": "theory-of-mind-three-questions",
-          "title": "Theory of Mind Three Questions"
+          "title": "Theory of Mind Three Questions",
+          "e": "🧠"
         },
         {
           "slug": "process-after-provocation",
-          "title": "Process After Provocation"
+          "title": "Process After Provocation",
+          "e": "🌙"
         },
         {
           "slug": "insecure-attachment-push-pull",
-          "title": "Insecure Attachment Push Pull"
+          "title": "Insecure Attachment Push Pull",
+          "e": "🪢"
         },
         {
           "slug": "dont-chase-withdrawal",
-          "title": "Dont Chase Withdrawal"
+          "title": "Dont Chase Withdrawal",
+          "e": "😴"
         },
         {
           "slug": "vulnerability-without-need",
-          "title": "Vulnerability Without Need"
+          "title": "Vulnerability Without Need",
+          "e": "💬"
         },
         {
           "slug": "take-whats-useful-leave-the-rest",
-          "title": "Take Whats Useful Leave The Rest"
+          "title": "Take Whats Useful Leave The Rest",
+          "e": "🎯"
         },
         {
           "slug": "achievement-vs-self-acceptance-confidence",
-          "title": "Achievement Vs Self Acceptance Confidence"
+          "title": "Achievement Vs Self Acceptance Confidence",
+          "e": "🏅"
         },
         {
           "slug": "space-between-noses-focus",
-          "title": "Space Between Noses Focus"
+          "title": "Space Between Noses Focus",
+          "e": "👃"
         },
         {
           "slug": "self-centric-shyness",
