@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 216,
-  "insightsCount": 212,
-  "conceptCount": 2159,
+  "insightsCount": 213,
+  "conceptCount": 2164,
   "sections": [
     {
       "id": "architecture",
@@ -700,7 +700,7 @@
     },
     {
       "slug": "linguistic-map-voice-agents-midam-kim",
-      "title": "A Linguistic Map for Voice Agents ? Midam Kim, ServiceNow",
+      "title": "A Linguistic Map for Voice Agents — Midam Kim, ServiceNow",
       "video_id": "IDNfAZVKvPE",
       "url": "https://youtu.be/IDNfAZVKvPE",
       "duration_min": 15,
@@ -731,45 +731,75 @@
       ],
       "summary": "15-minute ai-engineer talk (Frontier Models / World's Fair bill, published ~Sept 15 2026) by midam-kim, ML engineer at servicenow and lifelong researcher of speech communication in the wild. Motto: doing linguistics. She hands the room a linguistic lens, not a patch. Voice AI is booming; users still prefer humans. The claim: that gap is a linguistic orchestration failure, not a missing model.\n\nThe cold open is her own call. The bot asks her to spell her first name. She says M-I-D-A-M. It confirms M-I-D-A-N. She corrects. It thanks her and greets Madam. Then it asks for an account number she does not recognize. She starts spelling A-X-4-5-1 slowly. The bot cuts her off, says it could not find the record, and asks her to repeat. She escalates: \"Can I talk to a person?\"\n\nvoice-ai-as-joint-activity is the frame. Human conversation is a joint activity: sounds and words go both ways while both parties update a mental model. Voice agents have to meet that standard because it is the only communication humans have evolved. A pipeline that transcribes, generates, and speaks is not enough.\n\nlinguistic-voice-agent-map is the diagnostic. Two channels (listen / speak) times four interdependent layers (sounds, words, interaction, mental model). Her call maps cleanly: STT missed M vs N (listen/sounds); English-centric TTS read MIDAM as an American name and then \"Madam\" (speak/sounds + words); barge-in on a slow account number (listen/interaction); no shared concept of \"account number\" and no repair (listen/words + mental model); repeat the same slot instead of interactive-clarification (speak/interaction + mental model). The layers are not independent. Good phonemes without turn-taking still fail. Task completion needs all eight cells aligned on a timeline.\n\nvoice-ephemerality-mental-model is why chat-bot thinking breaks here. In text you can see the history. In voice the waveforms are gone. Only the user's mental model remains. Satisfaction is whether that model grew with the bot, not whether a log looks complete.\n\nLevers she names: ASR models and post-processing; TTS models and pre-processing; a shared vocabulary; turn detection, latency, turn-taking; emotion detection and handling; dynamic context retention across sounds/words/turns/intent, for kids and adults, when they are happy and when they are not. Diagnose with eva-bench (ServiceNow's end-to-end voice-agent benchmark). Hire linguists. Learn linguistics. There is no one fix; \"the fix is in you and your system.\"\n\nClose: speaker-adaptation-readiness. Listeners already adapted to her accent and word choice during the talk. Users adapt to your agent across a call and across calls. Language changes in six months. Is the system ready for the next time, and for language change? Business KPIs (frustration, task failure, live-agent escalation, abandoned calls, silent failures) are linguistic KPIs.\n\nThis is the diagnosis twin of realtime-voice-agents-frontier-intelligence-bohan-li-eliseai: Li hides ASR/LLM/TTS latency in a cascaded harness; Kim asks whether those same stages are linguistically aligned. Her Midam/Madam name failure is the user-side of Li's name/DOB speculative-ASR demo.",
       "key_insights": [
-        "Voice AI is joint activity, not a pipeline ? humans expect the same back-and-forth mental-model update they evolved",
-        "Two channels times four layers ? listen/speak times sounds, words, interaction, mental model",
-        "Layers are interdependent and must stay aligned ? any missing cell can sink the call",
-        "Name spelling is a multi-layer fail ? M/N STT, English-centric TTS, then Madam",
-        "Barge-in on slow spelling ? turn detection that talks over the user is an interaction failure, not just ASR",
-        "Repeat is not repair ? humans clarify interactively; please-repeat plus no mental-model update drives escalation",
-        "Voice is ephemeral ? sounds/words/turns vanish; only the user's mental model remains (unlike chat history)",
-        "Target the mental model on the timeline ? that is the satisfaction object",
-        "Shared vocabulary ? account number that the user cannot locate is a words/mental-model miss",
-        "Dynamic orchestration ? kids, accents, emotion, changing state over the call",
-        "Business KPIs are linguistic KPIs ? frustration, task fail, live-agent, abandon, silent fail",
-        "eva-bench as a diagnostic ? end-to-end, not a component scoreboard; no metrics shown in the talk",
-        "Hire linguists ? the framework is the deliverable, not a patch",
-        "Speakers adapt; language changes ? is the agent ready next call and in six months?"
+        "Voice AI is joint activity, not a pipeline — humans expect the same back-and-forth mental-model update they evolved",
+        "Two channels times four layers — listen/speak times sounds, words, interaction, mental model",
+        "Layers are interdependent and must stay aligned — any missing cell can sink the call",
+        "Name spelling is a multi-layer fail — M/N STT, English-centric TTS, then Madam",
+        "Barge-in on slow spelling — turn detection that talks over the user is an interaction failure, not just ASR",
+        "Repeat is not repair — humans clarify interactively; please-repeat plus no mental-model update drives escalation",
+        "Voice is ephemeral — sounds/words/turns vanish; only the user's mental model remains (unlike chat history)",
+        "Target the mental model on the timeline — that is the satisfaction object",
+        "Shared vocabulary — account number that the user cannot locate is a words/mental-model miss",
+        "Dynamic orchestration — kids, accents, emotion, changing state over the call",
+        "Business KPIs are linguistic KPIs — frustration, task fail, live-agent, abandon, silent fail",
+        "eva-bench as a diagnostic — end-to-end, not a component scoreboard; no metrics shown in the talk",
+        "Hire linguists — the framework is the deliverable, not a patch",
+        "Speakers adapt; language changes — is the agent ready next call and in six months?"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "voice-ai-as-joint-activity",
-          "title": "Voice AI as Joint Activity"
+          "title": "Voice AI as Joint Activity",
+          "e": "🤝"
         },
         {
           "slug": "linguistic-voice-agent-map",
-          "title": "Linguistic Voice Agent Map"
+          "title": "Linguistic Voice Agent Map",
+          "e": "🗺️"
         },
         {
           "slug": "voice-ephemerality-mental-model",
-          "title": "Voice Ephemerality Mental Model"
+          "title": "Voice Ephemerality Mental Model",
+          "e": "💨"
         },
         {
           "slug": "interactive-clarification",
-          "title": "Interactive Clarification"
+          "title": "Interactive Clarification",
+          "e": "🔁"
         },
         {
           "slug": "speaker-adaptation-readiness",
-          "title": "Speaker Adaptation Readiness"
+          "title": "Speaker Adaptation Readiness",
+          "e": "🔄"
+        },
+        {
+          "slug": "cascaded-voice-agent-stack",
+          "title": "Cascaded Voice Agent Stack",
+          "e": "🚗"
+        },
+        {
+          "slug": "human-oversight-liability-automation",
+          "title": "Human Oversight Liability Automation",
+          "e": "⚖️"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "model-harness-ai-product",
+          "title": "Model Harness AI Product",
+          "e": "🧰"
+        },
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 10
     },
     {
       "slug": "modern-life-is-a-disease",
