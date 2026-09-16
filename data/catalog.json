@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 216,
   "insightsCount": 211,
-  "conceptCount": 2145,
+  "conceptCount": 2148,
   "sections": [
     {
       "id": "architecture",
@@ -930,35 +930,43 @@
       "concepts": [
         {
           "slug": "bash-first-harness",
-          "title": "Bash-First Harness"
+          "title": "Bash-First Harness",
+          "e": "🐚"
         },
         {
           "slug": "self-extensible-agent-software",
-          "title": "Self-Extensible Agent Software"
+          "title": "Self-Extensible Agent Software",
+          "e": "🧩"
         },
         {
           "slug": "agents-as-dos-era-ui",
-          "title": "Agents as DOS-Era UI"
+          "title": "Agents as DOS-Era UI",
+          "e": "💾"
         },
         {
           "slug": "durable-portable-agent-sessions",
-          "title": "Durable Portable Agent Sessions"
+          "title": "Durable Portable Agent Sessions",
+          "e": "⏯️"
         },
         {
           "slug": "agent-generated-durable-ui",
-          "title": "Agent-Generated Durable UI"
+          "title": "Agent-Generated Durable UI",
+          "e": "🏠"
         },
         {
           "slug": "cloud-dev-env-fidelity-gap",
-          "title": "Cloud Dev Env Fidelity Gap"
+          "title": "Cloud Dev Env Fidelity Gap",
+          "e": "🐘"
         },
         {
           "slug": "training-data-default-choice",
-          "title": "Training-Data Default Choice"
+          "title": "Training-Data Default Choice",
+          "e": "🚌"
         },
         {
           "slug": "open-source-judged-in-retrospect",
-          "title": "Open Source Judged in Retrospect"
+          "title": "Open Source Judged in Retrospect",
+          "e": "⏳"
         },
         {
           "slug": "linux-agent-advantage",
@@ -1490,6 +1498,21 @@
           "e": "🪞"
         },
         {
+          "slug": "curious-mindset-communication",
+          "title": "Curious Mindset (Communication)",
+          "e": "👂"
+        },
+        {
+          "slug": "vulnerability-vs-insecurity-seduction",
+          "title": "Vulnerability Vs Insecurity Seduction",
+          "e": "💔"
+        },
+        {
+          "slug": "abandonment-voice-keeps-you-stuck",
+          "title": "Abandonment Voice Keeps You Stuck",
+          "e": "👻"
+        },
+        {
           "slug": "confidence-from-accomplishment",
           "title": "Confidence From Accomplishment",
           "e": "💪"
@@ -1500,7 +1523,7 @@
           "e": "🪞"
         }
       ],
-      "conceptCount": 12
+      "conceptCount": 15
     },
     {
       "slug": "tui-or-gui",
