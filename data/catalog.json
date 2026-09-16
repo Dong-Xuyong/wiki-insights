@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 213,
-  "insightsCount": 204,
-  "conceptCount": 2083,
+  "videoCount": 215,
+  "insightsCount": 208,
+  "conceptCount": 2125,
   "sections": [
     {
       "id": "architecture",
@@ -57,8 +57,8 @@
     "build": 29,
     "human": 10,
     "performance": 47,
-    "mind": 27,
-    "relationships": 36,
+    "mind": 28,
+    "relationships": 37,
     "other": 7
   },
   "videos": [
@@ -107,7 +107,7 @@
         "TACT — thank (calm fight-or-flight) → acknowledge (seen/heard; you need not agree) → commit (change, more perspectives, or a dated callback) → thank again (reward the risk: text or handwritten card)",
         "Follow-through — unclear next step teaches people not to bother"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "receiving-feedback-with-tact",
@@ -134,6 +134,11 @@
           "title": "Title-Role Feedback Barrier"
         },
         {
+          "slug": "holding-space",
+          "title": "Holding Space",
+          "e": "👂"
+        },
+        {
           "slug": "man-in-the-arena",
           "title": "Man in the Arena",
           "e": "🏟️"
@@ -142,9 +147,19 @@
           "slug": "constructive-criticism-outside-bubble",
           "title": "Constructive Criticism (Outside Bubble)",
           "e": "💬"
+        },
+        {
+          "slug": "loved-ones-opinion-filter",
+          "title": "Loved Ones Opinion Filter",
+          "e": "💗"
+        },
+        {
+          "slug": "five-speaking-traps",
+          "title": "Five Speaking Traps",
+          "e": "🎤"
         }
       ],
-      "conceptCount": 8
+      "conceptCount": 11
     },
     {
       "slug": "how-are-they-losing-so-bad",
@@ -241,6 +256,109 @@
       "conceptCount": 9
     },
     {
+      "slug": "how-to-start-journaling-when-you-dont-know-what-to-write",
+      "title": "How to start journaling when you don't know what to write",
+      "video_id": "4Nq99I4ySqw",
+      "url": "https://youtu.be/4Nq99I4ySqw",
+      "duration_min": 22,
+      "creator": "peter-mckinnon",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "mind",
+      "tags": [
+        "habits",
+        "journaling",
+        "analog",
+        "productivity",
+        "peter-mckinnon"
+      ],
+      "keywords": [
+        "habits",
+        "journaling",
+        "analog",
+        "productivity",
+        "peter mckinnon",
+        "Finish Two Notebooks First",
+        "Gear After Habit",
+        "Pocket Notebook Completion Loop",
+        "Analog Lock In",
+        "Notebook Evolution No Rules",
+        "Ephemera as Journal Fuel",
+        "Archive Memory Recycle Todos"
+      ],
+      "summary": "22-minute peter-mckinnon operator video (YouTube auto-generated captions). Follow-up to a notebook-system video that produced $800 Amazon carts and \"where do I start?\" texts. Not a stationery review. The question is what to write so the habit sticks before leather covers, typewriters, and watercolor tins are allowed to matter.\n\nHardware is a two-size problem. Pocket (field-notes is his house brand, not a sponsor) vs A5 (as big as he will go; bigger feels like court reporting). A5 is easier on a hand that only taps and swipes; filling one A5 page is two to three pocket pages. From an ADHD brain, small books finish sooner, seasonal covers stay novel, and a 3-month A5 used to burn him out for two months. Graph paper is favorite; blank is \"pure chaos.\" Any pen is fine on day one (he defers a pen-rank video; personal stack is four colors: red undone / green done / blue change / black default). gear-after-habit: eliminate anything that makes the process painful; if journaling feels like homework, it is not for you.\n\nWhat he actually wrote. Book 1 (Dec 2022): messy lists — Polar Pro, Epidemic, Instagram posts, \"having a real hard time getting anything done today\" as a whole day. Then shot lists and video process so the notebook stays in the pocket instead of the phone (analog-lock-in). Kids' drawings fill dead pages and become the archive. He numbers books on the back; first page is index, kid art, or unused. Months-long gaps (\"four swear-word months later\") are normal. Around book 7 the to-do lists died; entries became dated feelings, days, and people (Montreal with Chris Ramsay; a thinner-than-Muji-0.38 pen). Latest books: pockets, paintings, a Lewis Hamilton Spanish GP page with an F1 card sleeve, typewriter on boarding passes. He now walks through life hunting tickets and lounge paper (ephemera-as-journal-fuel). A 15-minute day-tracker copied from a friend taught him nothing; trial and error still required starting.\n\nThe beginner rule is finish-two-notebooks-first. Two finished books is the sense of accomplishment that finds the rhythm. Split books (to-dos vs memory; a friend recycles the errand book) are a later archive problem — archive-memory-recycle-todos. Leather, pockets, stamps, and typewriters wait until the habit is stuck. Blank-page prompts: greatest thing this week; how do you feel about the incoming season; three questions for him (and the comments). Days with nothing: skip without making it a thing. Close: \"welcome back to scrapbooking for men / journaling for dudes / all things analog.\"",
+      "key_insights": [
+        "Buy one notebook and any pen. Size and paper matter; accessories do not until two books are full",
+        "Pocket beats A5 for starters if you get bored: faster finish, seasonal covers, less burn-out (pocket-notebook-completion-loop)",
+        "Make it easy or it dies. Lay-flat, carryable, not cramped; friction is the enemy of the streak",
+        "Lists are a valid first language. Grocery, to-do, shot list, \"hard time getting anything done\" — no aesthetic tax",
+        "Paper beats the phone for lock-in. Pulling the notebook does not open Instagram, tracking, and 17 texts",
+        "Writing on paper is the thinking. The list is also how the video process gets into the head",
+        "Kids, friends, and strangers can fill a page when you have nothing — drawings become the archive",
+        "Gaps of months are not failure. Number the books and pick them up; identity shift is like running (hate → want)",
+        "No rules except start. To-do years and collage years can trade places; do not layout a system on page one",
+        "Finish two before you split, decorate, or archive-optimize",
+        "Hunt tickets and paper later, once the habit is a way of documenting time",
+        "Three starter prompts: best thing this week; incoming season; three questions you still have"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "finish-two-notebooks-first",
+          "title": "Finish Two Notebooks First"
+        },
+        {
+          "slug": "gear-after-habit",
+          "title": "Gear After Habit"
+        },
+        {
+          "slug": "pocket-notebook-completion-loop",
+          "title": "Pocket Notebook Completion Loop"
+        },
+        {
+          "slug": "analog-lock-in",
+          "title": "Analog Lock-In"
+        },
+        {
+          "slug": "notebook-evolution-no-rules",
+          "title": "Notebook Evolution No Rules"
+        },
+        {
+          "slug": "ephemera-as-journal-fuel",
+          "title": "Ephemera as Journal Fuel"
+        },
+        {
+          "slug": "archive-memory-recycle-todos",
+          "title": "Archive Memory Recycle Todos"
+        },
+        {
+          "slug": "blank-page-journal-prompts",
+          "title": "Blank Page Journal Prompts"
+        },
+        {
+          "slug": "two-minute-rule",
+          "title": "Two-Minute Rule",
+          "e": "⏱️"
+        },
+        {
+          "slug": "never-miss-twice",
+          "title": "Never Miss Twice",
+          "e": "2️⃣"
+        },
+        {
+          "slug": "identity-votes-from-habits",
+          "title": "Identity Votes from Habits",
+          "e": "🗳️"
+        },
+        {
+          "slug": "habit-stacking",
+          "title": "Habit Stacking",
+          "e": "🔗"
+        }
+      ],
+      "conceptCount": 12
+    },
+    {
       "slug": "khloe-kardashian-3-years-ashamed-leave-house",
       "title": "Khloé Kardashian on the 3 Years She Was Too Ashamed to Leave Her House",
       "video_id": "c3p00jTd1E0",
@@ -299,47 +417,57 @@
         "Monthly dinner as social skill — battery is empty; group is safer around the kids",
         "Thank God in the good times — don't only call for help"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "comparison-is-thief-of-joy",
-          "title": "Comparison Is the Thief of Joy"
+          "title": "Comparison Is the Thief of Joy",
+          "e": "🪞"
         },
         {
           "slug": "shame-cloud-isolation",
-          "title": "Shame Cloud Isolation"
+          "title": "Shame Cloud Isolation",
+          "e": "☁️"
         },
         {
           "slug": "learn-on-your-own-timeline",
-          "title": "Learn on Your Own Timeline"
+          "title": "Learn on Your Own Timeline",
+          "e": "⏳"
         },
         {
           "slug": "self-forgiveness-as-harder-work",
-          "title": "Self-Forgiveness as Harder Work"
+          "title": "Self-Forgiveness as Harder Work",
+          "e": "🤍"
         },
         {
           "slug": "avoidant-distraction-coping",
-          "title": "Avoidant Distraction Coping"
+          "title": "Avoidant Distraction Coping",
+          "e": "🎉"
         },
         {
           "slug": "recipe-not-rescue-faith",
-          "title": "Recipe Not Rescue Faith"
+          "title": "Recipe Not Rescue Faith",
+          "e": "🍰"
         },
         {
           "slug": "numbness-as-trauma-protection",
-          "title": "Numbness as Trauma Protection"
+          "title": "Numbness as Trauma Protection",
+          "e": "🧊"
         },
         {
           "slug": "overgiving-to-earn-love",
-          "title": "Overgiving to Earn Love"
+          "title": "Overgiving to Earn Love",
+          "e": "🫶"
         },
         {
           "slug": "forgive-and-dont-forget",
-          "title": "Forgive and Don't Forget"
+          "title": "Forgive and Don't Forget",
+          "e": "🕊️"
         },
         {
           "slug": "compassion-mistaken-for-weakness",
-          "title": "Compassion Mistaken for Weakness"
+          "title": "Compassion Mistaken for Weakness",
+          "e": "🏥"
         },
         {
           "slug": "happiness-as-present-contentment",
@@ -623,12 +751,42 @@
           "e": "🐧"
         },
         {
+          "slug": "token-maxing-fallacy",
+          "title": "Token-Maxing Fallacy",
+          "e": "🪙"
+        },
+        {
+          "slug": "self-hosted-cloud-agents",
+          "title": "Self-Hosted Cloud Agents",
+          "e": "🖥️"
+        },
+        {
+          "slug": "subscription-vs-api-agent-pricing",
+          "title": "Subscription vs API Agent Pricing",
+          "e": "🧾"
+        },
+        {
+          "slug": "human-oversight-liability-automation",
+          "title": "Human Oversight Liability Automation",
+          "e": "⚖️"
+        },
+        {
+          "slug": "agentic-software-factory",
+          "title": "Agentic Software Factory",
+          "e": "🏭"
+        },
+        {
           "slug": "harness-engineering",
           "title": "Harness Engineering",
           "e": "🛠️"
+        },
+        {
+          "slug": "agentic-engineering",
+          "title": "Agentic Engineering",
+          "e": "🏗️"
         }
       ],
-      "conceptCount": 10
+      "conceptCount": 16
     },
     {
       "slug": "realtime-voice-agents-frontier-intelligence-bohan-li-eliseai",
@@ -689,7 +847,8 @@
         },
         {
           "slug": "background-tool-call-injection",
-          "title": "Background Tool Call Injection"
+          "title": "Background Tool Call Injection",
+          "e": "🧰"
         },
         {
           "slug": "eager-generation-with-utterance-hold",
@@ -703,9 +862,29 @@
           "slug": "harness-engineering",
           "title": "Harness Engineering",
           "e": "🛠️"
+        },
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
+        },
+        {
+          "slug": "model-harness-ai-product",
+          "title": "Model Harness AI Product",
+          "e": "🧰"
+        },
+        {
+          "slug": "multi-agent-orchestration",
+          "title": "Multi-Agent Orchestration",
+          "e": "🤖"
+        },
+        {
+          "slug": "vertical-applied-ai",
+          "title": "Vertical Applied AI",
+          "e": "🏗️"
         }
       ],
-      "conceptCount": 6
+      "conceptCount": 10
     },
     {
       "slug": "tested-3-unusual-strength-methods-pana",
@@ -954,9 +1133,102 @@
           "slug": "happiness-as-present-contentment",
           "title": "Happiness as Present Contentment",
           "e": "😌"
+        },
+        {
+          "slug": "rewarded-workaholism",
+          "title": "Rewarded Workaholism",
+          "e": "💼"
+        },
+        {
+          "slug": "wandering-mind-unhappy-mind",
+          "title": "Wandering Mind Is an Unhappy Mind",
+          "e": "🌀"
+        },
+        {
+          "slug": "midlife-happiness-dip",
+          "title": "Midlife Happiness Dip",
+          "e": "📉"
+        },
+        {
+          "slug": "watch-one-do-one-teach-one",
+          "title": "Watch One, Do One, Teach One",
+          "e": "🔁"
+        },
+        {
+          "slug": "smartphone-attention-erosion",
+          "title": "Smartphone Attention Erosion",
+          "e": "📱"
+        },
+        {
+          "slug": "here-and-now-molecules",
+          "title": "Here-and-Now Molecules",
+          "e": "🧘"
+        },
+        {
+          "slug": "living-intentionally",
+          "title": "Living Intentionally",
+          "e": "🎯"
         }
       ],
-      "conceptCount": 14
+      "conceptCount": 21
+    },
+    {
+      "slug": "the-psychology-that-disarms-emotional-games",
+      "title": "The Psychology That Disarms Emotional Games",
+      "video_id": "16WnyoRqzCc",
+      "url": "https://youtu.be/16WnyoRqzCc",
+      "duration_min": 14,
+      "creator": "charisma-on-command",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "charisma",
+        "psychology",
+        "relationships",
+        "attachment"
+      ],
+      "keywords": [
+        "communication",
+        "charisma",
+        "psychology",
+        "relationships",
+        "attachment",
+        "charisma on command",
+        "Grounded Charisma",
+        "Theory of Mind Three Questions",
+        "process after provocation",
+        "insecure attachment push pull",
+        "dont chase withdrawal",
+        "vulnerability without need"
+      ],
+      "summary": "charisma-on-command (~14 min) uses Robin Williams's Shawn Maguire in *Good Will Hunting* as a case study for a sixth charisma type: grounded-charisma. The original five were conviction, authentic, funny, empathetic, and energetic. Shawn skews empathetic, but the move that actually disarms Will Hunting's mind games is staying calm and centered enough to see what is happening and choose a response instead of getting pulled into someone else's emotional game.\n\nThe video's stack is social, not theatrical. Charisma is not self-monitoring (how do I look, how do I sound). It is theory-of-mind-three-questions: understand why the other person is behaving this way so you do not take it personally. In-the-moment reaction is often outside your control — even Shawn blows up when Will disrespects his late wife. What stays inside your control is process-after-provocation: go home, find the pattern, name the real conflict.\n\nWill is the stress test because of insecure-attachment-push-pull. Closeness feels like threat, so he attacks, uses sarcasm, redirects, then freezes Shawn out. Chasing a freeze teaches him that withdrawal controls the relationship. Shawn's counter is dont-chase-withdrawal — he falls asleep in the silent session, so when Will re-engages there is no leftover resentment. That is also the rescue-animal analogy: need them to heal and you are at your wit's end when they finally open.\n\nGrounded is not always passive. Boundary violations get a walk-out. Rapport with someone terrified of vulnerability is built by vulnerability-without-need — share what you can get nothing back for (the farting-when-nervous story). Will still punches it. Shawn stays calm because he was not fishing for comfort.\n\nCriticism is the same muscle. Collapse complexity (\"screw the haters\" vs \"I am a bad person\") is the trap. take-whats-useful-leave-the-rest: the painting attack is Will's wound, not Shawn's; the remarriage jab is true, and Shawn lets it change him (\"put my money back on the table\").\n\nThe foundation is achievement-vs-self-acceptance-confidence. Gerald Lambeau's confidence is Fields-medal identity, so Will outshining him destroys him. Shawn's is self-understanding: \"I know who I am and I'm proud of what I do. It was a conscious choice.\" Ego not on the line frees attention for the other person. Immediate practice: space-between-noses-focus — the most interesting place in the room is the space between your noses.\n\nPitch: Charisma University, 30 days of one action per conversation.",
+      "key_insights": [
+        "Sixth type is grounded — stay centered enough to choose a response instead of entering their game.",
+        "Self-monitoring is anti-charisma — if you don't understand why they behave that way, you will take it personally.",
+        "Three questions — what is this behavior doing for them; why do they need to; what response are they trying to pull out of me.",
+        "Reaction vs processing — the flinch may be outside control; the night of pattern-finding is not.",
+        "Insecure attachment is a code — closeness wanted and threatening; attack / sarcasm / redirect / freeze are tools, not the whole person.",
+        "Don't chase the freeze — drawing out a power-game withdrawal teaches control; relaxed non-pursuit is the higher-control move.",
+        "Ultimate control looks like doing nothing — so relaxed you don't have to lay down the law.",
+        "Share what needs nothing back — otherwise your state is in their hands.",
+        "Discern feedback — ignore what isn't for you; change when there is a grain of truth.",
+        "Achievement confidence is brittle — number-one identity collapses when someone outshines you; self-acceptance doesn't need to win.",
+        "Attention rule — when uncomfortable, stop scanning the room and phones; stay in the space between your noses."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "grounded-charisma",
+          "title": "Grounded Charisma"
+        },
+        {
+          "slug": "theory-of-mind-three-questions",
+          "title": "Theory of Mind Three Questions"
+        }
+      ],
+      "conceptCount": 2
     },
     {
       "slug": "tui-or-gui",
@@ -1113,7 +1385,7 @@
         "Closure is behavior — ego wants the last word; soul already has the data",
         "Final Five — peace over pleasure; drop \"dream girl\"; love needs conditions; adoration ≠ attraction; same person with or without monitoring"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "entertain-not-attract",
@@ -1150,9 +1422,49 @@
         {
           "slug": "forced-commitment-resentment",
           "title": "Forced Commitment Resentment"
+        },
+        {
+          "slug": "attracting-vs-chasing-energy",
+          "title": "Attracting vs Chasing Energy",
+          "e": "🧲"
+        },
+        {
+          "slug": "give-energy-youre-willing-to-lose",
+          "title": "Give Energy You're Willing to Lose",
+          "e": "🎰"
+        },
+        {
+          "slug": "eight-good-weeks-closure",
+          "title": "Eight Good Weeks Closure",
+          "e": "📅"
+        },
+        {
+          "slug": "addicted-to-the-feeling-not-the-person",
+          "title": "Addicted to the Feeling, Not the Person",
+          "e": "🧲"
+        },
+        {
+          "slug": "attraction-prerequisite-before-kindness",
+          "title": "Attraction Prerequisite Before Kindness",
+          "e": "💘"
+        },
+        {
+          "slug": "physical-intimacy-relationship-predictor",
+          "title": "Physical Intimacy Relationship Predictor",
+          "e": "💗"
+        },
+        {
+          "slug": "healthy-boundaries-relationships",
+          "title": "Healthy Boundaries in Relationships",
+          "e": "🚧"
+        },
+        {
+          "slug": "poet-vs-poetry-relationship",
+          "title": "Poet vs Poetry Relationship",
+          "e": "✒️"
         }
       ],
-      "conceptCount": 9
+      "conceptCount": 17
     },
     {
       "slug": "youre-not-lazy-broke-stuck-exhausted-joe-dispenza",
