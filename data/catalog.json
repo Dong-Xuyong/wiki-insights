@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 206,
-  "insightsCount": 200,
-  "conceptCount": 1993,
+  "videoCount": 212,
+  "insightsCount": 204,
+  "conceptCount": 2053,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,65 @@
   ],
   "sectionCounts": {
     "architecture": 2,
-    "agents": 43,
+    "agents": 46,
     "systems": 9,
     "build": 29,
     "human": 10,
     "performance": 47,
-    "mind": 26,
-    "relationships": 33,
+    "mind": 27,
+    "relationships": 35,
     "other": 7
   },
   "videos": [
+    {
+      "slug": "four-steps-hearing-hard-feedback-gracefully-chris-wheatley-ted",
+      "title": "The Four Steps to Hearing Hard Feedback Gracefully | Chris Wheatley | TED",
+      "video_id": "owRN5fVLoEk",
+      "url": "https://youtu.be/owRN5fVLoEk",
+      "duration_min": 13,
+      "creator": "chris-wheatley",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "feedback",
+        "leadership",
+        "ted",
+        "relationships"
+      ],
+      "keywords": [
+        "communication",
+        "feedback",
+        "leadership",
+        "ted",
+        "relationships",
+        "chris wheatley",
+        "receiving feedback with tact",
+        "youre doing your thing cue",
+        "everyone has a thing",
+        "feedback receiver lowers courage",
+        "narrow feedback question",
+        "title role feedback barrier"
+      ],
+      "summary": "chris-wheatley (~13 min, ted) argues there is no substitute for a tough piece of feedback from someone who cares — and that growth at work and at home depends on making it safe enough for those people to say the hard thing. The usual mistake is putting all the courage on the giver (the Christies of the world). Receivers have to lower the courage required.\n\nHe learned it the hard way. After leaving the only organization he had ever worked for, coworker Christy became his best friend at work. After an argument she told him: it seemed like he needed her to feel stupid. Internally he listed every reason she was wrong. Out loud he said \"Thank you for telling me\" — because she could have gossiped, gone to the boss, or silently resented him. The recurring pattern: when he is not at his best he comes across as arrogant, condescending, self-righteous, a know-it-all — the thing he is most embarrassed about. He asked for a book or a training. She offered a live cue instead: \"You're doing your thing\" whenever he started a sentence with *\"Well, actually.\"* Relationships shifted almost immediately; his wife later said the process made conversations possible that had not been.\n\neveryone-has-a-thing: Christy's thing (shared with permission) is going 0 to 100 in about two seconds and saying something she regrets. The first time he had to give her the cue while she was already upset, he was terrified; she cooled off and thanked him. Then a restructure made him her supervisor, and she assumed the feedback loop was over because of the title. He insisted it stay. title-role-feedback-barrier — titles and roles scare people off even when the receiver wants the truth. He once had to give a CEO critical feedback; she hugged him (he briefly feared a mafia hug). The practice spread to his team, other managers, then broke open with his sister: he told her someone at work said he can sound arrogant; she paused and said \"Yeah.\" She had needed him and did not call because of that tone. After that he asks his boss, teammates, wife, and son. He does not always agree. Safety matters more than agreement.\n\nThe skill is receiving-feedback-with-tact: Thankfulness → Acknowledgment → Commitment → a second Thankfulness. Do not wait. Ask. Do not ask *\"How am I doing as your manager?\"* (everyone says \"Great!\"). Use a narrow-feedback-question. Then respond so the person feels it was worth the risk. His sister on a draft of this talk: he has completely flipped how he talks to her; she cannot remember what he used to sound like.",
+      "key_insights": [
+        "No substitute — tough feedback from someone who cares beats books and trainings for the pattern you cannot hear in yourself",
+        "Receiver's job — stop loading all courage onto the giver; make it safer and cheaper to tell you",
+        "Internal defense is normal — he ran \"that's unfair / I would never\" in his head; the win was not saying it",
+        "youre-doing-your-thing-cue — a pre-agreed shorthand for a known pattern (his: *\"Well, actually…\"*) beats a lecture mid-conflict",
+        "everyone-has-a-thing — a not-at-your-best move that gets in the way; name it, cue it, improve it",
+        "Titles are a second barrier — boss/CEO status can kill the loop even when you want it",
+        "Family withdrawal is data — sister needed him and stayed away because of tone; loved ones may already be voting with silence",
+        "Ask, don't wait — pick someone who cares *and* will be honest if you make it safer",
+        "Narrow the ask — one skill, one piece of advice (staff meetings), not a blank performance review",
+        "TACT — thank (calm fight-or-flight) → acknowledge (seen/heard; you need not agree) → commit (change, more perspectives, or a dated callback) → thank again (reward the risk: text or handwritten card)",
+        "Follow-through — unclear next step teaches people not to bother"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
     {
       "slug": "how-are-they-losing-so-bad",
       "title": "How are they Losing so Bad",
@@ -106,23 +155,27 @@
         "Ox Alpha credit-grab. Google tweets implied Gemini; the stealth model was GLM 5.3 Flash",
         "\"None place\" is the social rank. Not fifth — people do not think about Gemini at all"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "generational-fumble-incumbent-ai",
-          "title": "Generational Fumble (Incumbent AI)"
+          "title": "Generational Fumble (Incumbent AI)",
+          "e": "📉"
         },
         {
           "slug": "unattended-agent-runaway-loop",
-          "title": "Unattended Agent Runaway Loop"
+          "title": "Unattended Agent Runaway Loop",
+          "e": "🔁"
         },
         {
           "slug": "stealth-model-credit-grab",
-          "title": "Stealth Model Credit Grab"
+          "title": "Stealth Model Credit Grab",
+          "e": "🕵️"
         },
         {
           "slug": "default-surface-not-frontier",
-          "title": "Default Surface Not Frontier"
+          "title": "Default Surface Not Frontier",
+          "e": "🚪"
         },
         {
           "slug": "vendor-vs-independent-benchmarks",
@@ -151,6 +204,125 @@
         }
       ],
       "conceptCount": 9
+    },
+    {
+      "slug": "khloe-kardashian-3-years-ashamed-leave-house",
+      "title": "Khloé Kardashian on the 3 Years She Was Too Ashamed to Leave Her House",
+      "video_id": "c3p00jTd1E0",
+      "url": "https://youtu.be/c3p00jTd1E0",
+      "duration_min": 71,
+      "creator": "jay-shetty",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "relationships",
+      "tags": [
+        "relationships",
+        "shame",
+        "therapy",
+        "faith",
+        "parenting",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "relationships",
+        "shame",
+        "therapy",
+        "faith",
+        "parenting",
+        "jay shetty",
+        "Comparison Is the Thief of Joy",
+        "Shame Cloud Isolation",
+        "Learn on Your Own Timeline",
+        "Self Forgiveness as Harder Work",
+        "Avoidant Distraction Coping",
+        "Recipe Not Rescue Faith"
+      ],
+      "summary": "71-minute jay-shetty *On Purpose* interview with khloe-kardashian — not a Kardashian recap but the shame-to-solitude OS after public cheating, a 10-year freeze with lamar-odom, and a 40s reset. The title cut is literal: after repeated public infidelity she would not go to the grocery store and meet someone's eyes. The cloud felt bigger than the story. She spent years treating herself as the problem. The work of the last ~3 years is self-forgiveness-as-harder-work — she was already fluent at giving grace to people who hurt her.\n\nThe 30s were the hard decade (kids, bad relationships, career not matching the plan). She skipped into 40 because the old deadline (\"done before 40\") dropped. Advice to women at 30 who are not married: comparison-is-thief-of-joy. Highlight reels steal the day; siblings' failed companies never make the outsider view. Shetty's add-on: purify envy by studying the story, not envying the peak. Desire check: do you want marriage/kids because you want them, or because you were taught to?\n\nThe inner campaign was social-media narration plus shame-cloud-isolation. She talks to the mirror and chooses a happy day; she tells her kids the same. Shetty: the day does not have to be great *to* you; you can still make it a great day. Leaving the fantasy that was not serving her could not be rushed — learn-on-your-own-timeline. If a 20s Khloé watched herself stay, she would have called herself stupid. Judgment is cheap until you live it.\n\nCoping used to be avoidant-distraction-coping: dad died at 19; after divorce she partied, lost hair, gained weight, hyperventilated when alone. Around 2021–22, with kids and leftover lockdown, she refused dating and clubs and faced herself. 5 a.m. coffee, prayer, Bible app. Faith is recipe-not-rescue-faith — God can send the mix; you still bake the cake. Thank God in the good times, not only the ditch.\n\nTherapy arrived via Kim, ~2 years ago, after a decade of not trusting therapists. First sessions were monotone biography. Homework: write mini and major traumas, then go line by line until feeling returns. numbness-as-trauma-protection — she would rather not feel than feel too much; humor is the escape; she still apologizes after crying. Love language is caretaking. Origin: overgiving-to-earn-love — chubby-compared-to-siblings, \"where'd she come from,\" funny as the available praise. Shetty: a boundary should not put a boundary on the ability to love; it should protect you from loving the wrong person (healthy-boundaries-relationships).\n\nLamar is the long spine. Last saw him 2016. Super Bowl Las Vegas: Malika cried in a lobby, swapped numbers. Khloé had kept a storage unit of his custom furniture for years; a friend sold it. In a move she found his Six Man trophy and his late mother's things and would not give them to anyone else. Reunion at Malika's house, cameras, his chosen time. He was nervous; she got triggered by mannerisms. They did not speak for ~10 years because after the overdose (he said this on the episode: seizures, strokes, rehab) he used again. She had paid for a house and said she could never see him. Seeing him: love, sadness, the shock of having outgrown someone she thought she would never outgrow. OS: forgive-and-dont-forget — Kardashians get mad, then a year later recite the good; remember capability without carrying the wound as identity. compassion-mistaken-for-weakness: hospital after the brothel overdose; Tristan's disabled brother Amari moving in after their mother died while she was not speaking to Tristan. Strength is putting your feelings aside when someone vulnerable needs a house.\n\nParenting: True wrote \"there is kindness in her soul.\" Thirty minutes of floor time beats presents. iPad limited; no phone until 12 if she can keep it; brush off fan recognition so the kids do not live inside fame. Dating in the 40s is slow because of the kids — a feature, not a bug. Social battery is empty; experiment is a monthly dinner, friends bring a friend. Shetty's close: she leans into discomfort. She traces it to a faith-heavy household, and to calling God when she is joyful, not only when she needs a ladder.",
+      "key_insights": [
+        "30s were the grind; 40s dropped the deadline — career/relationship/clock pressure; now \"solid in who you are\"",
+        "Golden Girls vs JLo — old 40s representation was the fear; liveliness is the reframe",
+        "Comparison is the thief of joy — highlight reel vs sibling spaghetti-on-the-wall failures",
+        "Study purifies envy — Shetty: envy demotivates; study the messy start",
+        "Want vs taught — marriage/kids/career order is allowed to change in your 30s",
+        "Choose happy out loud — mirror talk; kids hear \"we choose a happy day\"",
+        "Shame cloud is bigger than the story — grocery-store eyes; people who never heard it",
+        "You cannot rush leaving — patience with yourself; \"what if\" stays if you leave early",
+        "Learn on your timeline — judging someone else's pace is easy; one decision in your own life is not",
+        "Forgive yourself last — fluent at defending others; last 3 years of adult life",
+        "I was weak / I am not — mistake vs identity; outfit you would not wear again",
+        "Avoid then face — party after dad/divorce vs 5 a.m. aloneness",
+        "Recipe not rescue — God gives signs; you still do the work; being alone is the scary part",
+        "Therapy via sibling trust — Kim intro; 3 days/week then as-needed; write the biography until it hurts",
+        "Numbness is protection — laughter when asked for feeling; grief is an expression of love",
+        "Overgive to earn a seat — caretaking as worth; funny because cute was not available",
+        "Boundaries protect the target of love, not the capacity",
+        "Lamar: 10-year freeze after relapse — keep the mother's things; reunion triggers; outgrew him",
+        "Forgive and don't forget — remember capability; don't live in the wound",
+        "Showing up is not weakness — hospital; Amari in the house; moral compass over optics",
+        "Kindness in her soul — 6-year-old True; 30 minutes phone-down",
+        "Slow dating because of kids — love-bombing used to win; structure now forces patience",
+        "Monthly dinner as social skill — battery is empty; group is safer around the kids",
+        "Thank God in the good times — don't only call for help"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "comparison-is-thief-of-joy",
+          "title": "Comparison Is the Thief of Joy"
+        },
+        {
+          "slug": "shame-cloud-isolation",
+          "title": "Shame Cloud Isolation"
+        },
+        {
+          "slug": "learn-on-your-own-timeline",
+          "title": "Learn on Your Own Timeline"
+        },
+        {
+          "slug": "self-forgiveness-as-harder-work",
+          "title": "Self-Forgiveness as Harder Work"
+        },
+        {
+          "slug": "avoidant-distraction-coping",
+          "title": "Avoidant Distraction Coping"
+        },
+        {
+          "slug": "recipe-not-rescue-faith",
+          "title": "Recipe Not Rescue Faith"
+        },
+        {
+          "slug": "numbness-as-trauma-protection",
+          "title": "Numbness as Trauma Protection"
+        },
+        {
+          "slug": "overgiving-to-earn-love",
+          "title": "Overgiving to Earn Love"
+        },
+        {
+          "slug": "forgive-and-dont-forget",
+          "title": "Forgive and Don't Forget"
+        },
+        {
+          "slug": "compassion-mistaken-for-weakness",
+          "title": "Compassion Mistaken for Weakness"
+        },
+        {
+          "slug": "happiness-as-present-contentment",
+          "title": "Happiness as Present Contentment",
+          "e": "😌"
+        },
+        {
+          "slug": "campaign-of-misery",
+          "title": "Campaign of Misery",
+          "e": "😤"
+        },
+        {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
+        }
+      ],
+      "conceptCount": 13
     },
     {
       "slug": "modern-life-is-a-disease",
@@ -196,43 +368,52 @@
         "You attract money. Character, time, interesting life — then a daily cash report so money is a tool",
         "Weekly exam. Score seven pillars 1–5; two lowest get two actions. A great life is a life well examined"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "modern-life-disease",
-          "title": "Modern Life Disease"
+          "title": "Modern Life Disease",
+          "e": "🏎️"
         },
         {
           "slug": "seven-life-pillars",
-          "title": "Seven Life Pillars"
+          "title": "Seven Life Pillars",
+          "e": "🏛️"
         },
         {
           "slug": "who-test-mission",
-          "title": "WHO Test Mission"
+          "title": "WHO Test Mission",
+          "e": "🧭"
         },
         {
           "slug": "sms-health-system",
-          "title": "SMS Health System"
+          "title": "SMS Health System",
+          "e": "💧"
         },
         {
           "slug": "preloaded-year",
-          "title": "Preloaded Year"
+          "title": "Preloaded Year",
+          "e": "📅"
         },
         {
           "slug": "friend-inventory",
-          "title": "Friend Inventory"
+          "title": "Friend Inventory",
+          "e": "👥"
         },
         {
           "slug": "three-fs-hobbies",
-          "title": "Three Fs Hobbies"
+          "title": "Three Fs Hobbies",
+          "e": "🎯"
         },
         {
           "slug": "attract-money-by-becoming",
-          "title": "Attract Money by Becoming"
+          "title": "Attract Money by Becoming",
+          "e": "🧲"
         },
         {
           "slug": "weekly-pillar-scorecard",
-          "title": "Weekly Pillar Scorecard"
+          "title": "Weekly Pillar Scorecard",
+          "e": "📊"
         },
         {
           "slug": "never-miss-twice",
@@ -255,12 +436,191 @@
           "e": "💼"
         },
         {
+          "slug": "busyness-as-unhappiness-outrun",
+          "title": "Busyness as Unhappiness Outrun",
+          "e": "🏃"
+        },
+        {
           "slug": "faith-as-infrared-goggles",
           "title": "Faith as Infrared Goggles",
           "e": "🙏"
+        },
+        {
+          "slug": "agency-and-gratitude",
+          "title": "Agency and Gratitude",
+          "e": "🙌"
+        },
+        {
+          "slug": "systems-over-goals",
+          "title": "Systems Over Goals",
+          "e": "⚙️"
+        },
+        {
+          "slug": "identity-votes-from-habits",
+          "title": "Identity Votes from Habits",
+          "e": "🗳️"
         }
       ],
-      "conceptCount": 14
+      "conceptCount": 18
+    },
+    {
+      "slug": "pi-agent-dev-reveals-agentic-engineering-workflow",
+      "title": "Pi Agent dev reveals his Agentic Engineering Workflow",
+      "video_id": "SxuQs9GGYbk",
+      "url": "https://youtu.be/SxuQs9GGYbk",
+      "duration_min": 66,
+      "creator": "david-ondrej",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "agentic-engineering",
+        "harness-engineering",
+        "open-source"
+      ],
+      "keywords": [
+        "agents",
+        "agentic engineering",
+        "harness engineering",
+        "open source",
+        "david ondrej",
+        "Bash First Harness",
+        "Self Extensible Agent Software",
+        "Agents as DOS Era UI",
+        "Durable Portable Agent Sessions",
+        "Agent Generated Durable UI",
+        "Cloud Dev Env Fidelity Gap",
+        "Training Data Default Choice"
+      ],
+      "summary": "david-ondrej interviews armin-ronacher (Flask; sentry alum; founder of earendil) about pi-agent (~66 min, auto-generated captions). This is the harness-author twin of Ondrej's solo my-agentic-engineering-workflow-david-ondrej stack dump: same podcast, opposite seat. Armin is conservative where Ondrej is token-maxing — Earendil still has no robot-Pi factory, most work is local or SSH, and a lot of the day is *figuring out how the thing should work*, not generating code.\n\nThe through-line is bash-first-harness. Pi looks \"minimal\" because models got good at computers; bash lets them pipeline (rg + separators) instead of stuffing every hop into context. Codex has already dropped most custom tools and does the same. Christmas takeoff was self-extensible-agent-software: make it your own while Claude Code was adding tools every release (and has since walked some of that back; OpenCode 2 is plugins). Earendil's bet is not \"stay the harness company\" — it is make AI work for non-programmers too, starting at the harness because that is where they are.\n\nArmin treats today's coding-agent UI as agents-as-dos-era-ui: DOS, not Windows. Token-maxers will dump agents into factories; domain users will not live in a TUI. Unsolved pieces: durable-portable-agent-sessions (suspend/resume; US closed-weight server-side compaction as non-portable lock-in), a web agent that is not just a terminal in a browser, and agent-generated-durable-ui so a Home Assistant agent can *show* the house, not only chat about it. Those are systems problems (state, components, agent-safe databases), not a new transformer.\n\nOn operations he is blunt. Cloud agents fail cloud-dev-env-fidelity-gap: a Codex/Claude cloud session he debuged had no Postgres — tests were mocked, the user did not know. His Mac is faster than a decent Linux box; Tailscale + SSH is ugly UX vs Codex/MMP orbs, but it is a machine he controls. Sentry onboarding used to take two to three days; seven agents still means seven DBs and seven Kafkas. Enterprise AI spend has not shown up as revenue; GitHub is drowning in commits; the street outside has not changed. That is token-maxing-fallacy from the other side of the table.\n\nThe last third is taste, open source, weights, and Europe. Side-project hits are genuine curiosity plus years of commits, not a joke (Flask, Ghostty's native+fast story, curl, Django, Sentry). Judge OSS open-source-judged-in-retrospect — still there and open in 10–15 years. AI OSS is often marketing plus free GitHub Actions. training-data-default-choice is the new SEO (bus ad: \"ask your AI\"); Xbox code was withheld inside Microsoft for the same reason. Sessions are not getting cheaper even as token list prices fall; he would feel weird burning API prices on investor capital. Closing: Europe preserves the past, 27 markets, motivated people leave; send people to pi.dev and earendil.com.",
+      "key_insights": [
+        "Bash is the tool. Pipelines keep context lean; Codex \"discover files\" is just `rg`. Interleaved system messages now allow deferred tool loading — a harness change, not a new religion.",
+        "Extensibility beat feature count. Pi hooked people by being make-your-own while other agents became tool piles. Claude Code has fewer tools than at peak. OpenCode 2 went plugins.",
+        "Hire Mario, then acquire Pi. Earendil talked to mario-zechner in summer 2025; the acquisition was \"what do we have to do to get Mario,\" not \"become the harness company.\" Goal: AI that works for non-engineers, starting at the harness.",
+        "Today's agent UI is DOS. Four years from now nobody should still live in this TUI. Factories will hide agents; domain work needs a different surface. Markdown/JSON/Unix win because humans can still read them.",
+        "Accountability needs introspectability. Banks will not vibe-code; you cannot blame a machine. If the human is liable, they will demand the same interface the agent has — not \"ask another agent that might lie.\"",
+        "Linux advantage is training data. Agents remote-control Ubuntu/Arch/NixOS off the internet; Mac less; Windows off-distribution. Complements DHH's text-config argument on linux-agent-advantage. Rust, NixOS, Kafka become cheaper because they were always better and humans were the bottleneck.",
+        "GDP still needs a human. Agents do not create more buyers. Software that only agents use is energy burn. Observability might go 10% human / 60% AI / 30% automation — not 0% human.",
+        "Local still wins on fidelity. Kick-ass Mac vs cloud env that never started Postgres. SSH into a known machine beats ephemeral clouds until bootstrap is seconds, not seven minutes × N agents.",
+        "No robot-Pi yet. Earendil may be the only harness company without an auto-issue farm. Conservative on purpose. A bit of GitHub Actions Pi; most engineering still on the machines where the code is.",
+        "Token spend ≠ success. Traditional enterprises rolled out coding agents and mostly added a line item (including security research against their own repos). Side projects are capturing more of the upside than company rollouts. \"Why aren't you more successful then?\"",
+        "Open source is retrospective. PHP 1.0 is horrifying; Laravel exists because people stayed. Pi is a great OSS project only if it still matters in a few years. Starting open for free CI + marketing, then closing (Daytona, Kagi) is the annoying old move, now louder.",
+        "Get into the weights. Default-choice companies already advertise \"ask your AI.\" In-context docs still matter because *your* codebase is not in the corpus. Inference share of software spend will rise; whether tokens stay expensive is a supply-and-society question. Fear: Europe's GDP funnels to US labs; AI that everyone uses and hates, like short-form."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "bash-first-harness",
+          "title": "Bash-First Harness"
+        },
+        {
+          "slug": "self-extensible-agent-software",
+          "title": "Self-Extensible Agent Software"
+        },
+        {
+          "slug": "agents-as-dos-era-ui",
+          "title": "Agents as DOS-Era UI"
+        },
+        {
+          "slug": "durable-portable-agent-sessions",
+          "title": "Durable Portable Agent Sessions"
+        },
+        {
+          "slug": "agent-generated-durable-ui",
+          "title": "Agent-Generated Durable UI"
+        },
+        {
+          "slug": "cloud-dev-env-fidelity-gap",
+          "title": "Cloud Dev Env Fidelity Gap"
+        },
+        {
+          "slug": "training-data-default-choice",
+          "title": "Training-Data Default Choice"
+        },
+        {
+          "slug": "open-source-judged-in-retrospect",
+          "title": "Open Source Judged in Retrospect"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "realtime-voice-agents-frontier-intelligence-bohan-li-eliseai",
+      "title": "Realtime Voice Agents with Frontier Intelligence — Bohan Li, EliseAI",
+      "video_id": "MBHOH1NmDqc",
+      "url": "https://youtu.be/MBHOH1NmDqc",
+      "duration_min": 13,
+      "creator": "bohan-li",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "voice",
+        "harness-engineering",
+        "latency",
+        "ai-engineer",
+        "applied-ai"
+      ],
+      "keywords": [
+        "agents",
+        "voice",
+        "harness engineering",
+        "latency",
+        "ai engineer",
+        "applied ai",
+        "bohan li",
+        "Cascaded Voice Agent Stack",
+        "Streaming Speculative Transcription",
+        "Background Tool Call Injection",
+        "Eager Generation with Utterance Hold",
+        "TTS Prefix Caching"
+      ],
+      "summary": "13-minute ai-engineer talk by bohan-li (Bo) of elise-ai on how they architect a cascaded voice-agent harness so a slow, frontier LLM can still feel real-time. Auto-captions say \"Xnor.ai\"; the title, conference page, and his close all say EliseAI. Li's prior stack was self-driving; he maps the same three layers onto voice.\n\ncascaded-voice-agent-stack is the frame. Perception = transcription (signals → data the brain can use). Planning = the language model. Controls = TTS (text → audio the user hears). Each layer gets a latency trick that does not trade away intelligence.\n\nstreaming-speculative-transcription layers a fast streaming model (Flux) under a slower, more accurate batch model (Scribe V2 in the talk, with more audio context). Walkthrough: the agent asked for name and date of birth. Short streaming detections fire first. The corrective layer stays quiet when the text matches, cancels when new audio supersedes an in-flight accurate hypothesis, then fires when Scribe V2 can use question context to split \"this is a name / this is a date of birth.\" Punctuation-only detections are ignored. The released text is the corrected utterance, not the first guess.\n\neager-generation-with-utterance-hold plus background-tool-call-injection is the LLM layer. Frontier models are slow, and tool calling is the extra round trip. Background agents parse name/DOB (including phonetic matching on mis-transcriptions) and push tool traces into the main agent's context so it \"thinks it made the tool call\" without a second inference. Every streaming detection also starts an early generation; nothing is emitted until the user has finished speaking. Incomplete detections (\"Sure\") get a holding generation. A premature \"please spell that\" generation is canceled once the background agent actually has name + DOB, then retriggered with the tool context.\n\ntts-prefix-caching is the controls trick. The agent streams tokens. After about three words, a prefix cache can hit on a prior generation in the same call (example: \"you said your name is\"). Cached audio is yielded immediately so the user hears a reply while the unique tail (the actual name) is still generating. The remaining text goes to cartesia over a websocket. Cartesia sees the full sentence and synthesizes natural prosody; Elise suppresses the already-played prefix and only plays the new tail. Li says a tiny hiccup is possible and, in the demo, not noticeable.\n\nThe live demo is an OBGYN ultrasound scheduler (\"Bo OBGYN Elise\"): pregnancy confirmation, name/DOB, new-patient intake, insurance SMS, Thursday vs next-week slots, book Dr. Avery Stone at North Clinic. Thesis: the interesting work is the harness, not a faster model. Close: NYC HQ, expanding in the Bay Area, housing + healthcare as \"life's most critical areas,\" hiring, follow @EliseAI.",
+      "key_insights": [
+        "Cascaded stack = self-driving — perception / planning / controls → ASR / LLM / TTS",
+        "Do not sacrifice intelligence for speed — hide latency in the harness instead of shrinking the model",
+        "Speculative transcription — Flux streaming under Scribe V2 batch; cancel stale accurate hypotheses",
+        "Context beats the first guess — Scribe uses the prior question to parse name vs date of birth",
+        "Ignore punctuation detections — they are not turn-taking signal",
+        "Tool calls are the expensive round trip — background agents inject traces so the main LLM skips a second inference",
+        "Eager generate, late emit — start on every partial; hold until end of utterance; cancel if tools arrive",
+        "Phonetic matching on names — background tools correct ASR, then the spoken reply uses the clean record",
+        "TTS prefix cache after ~3 words — play \"you said your name is\" from cache while the name is still generating",
+        "Full-sentence TTS, sliced playback — Cartesia keeps prosody; suppress the prefix you already played",
+        "Natural conversation is harness work — the demo sounds ordinary because a lot is happening off-mic",
+        "Elise = housing + healthcare — NYC, Bay Area expansion, critical-life verticals not SF-app theater"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "cascaded-voice-agent-stack",
+          "title": "Cascaded Voice Agent Stack"
+        },
+        {
+          "slug": "streaming-speculative-transcription",
+          "title": "Streaming Speculative Transcription"
+        },
+        {
+          "slug": "background-tool-call-injection",
+          "title": "Background Tool Call Injection"
+        },
+        {
+          "slug": "eager-generation-with-utterance-hold",
+          "title": "Eager Generation with Utterance Hold"
+        },
+        {
+          "slug": "tts-prefix-caching",
+          "title": "TTS Prefix Caching"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        }
+      ],
+      "conceptCount": 6
     },
     {
       "slug": "tested-3-unusual-strength-methods-pana",
@@ -381,6 +741,215 @@
       "conceptCount": 14
     },
     {
+      "slug": "the-art-of-true-happiness-arthur-brooks",
+      "title": "The Art of True Happiness | Dr. Arthur Brooks",
+      "video_id": "Gk2ArbsrZwE",
+      "url": "https://youtu.be/Gk2ArbsrZwE",
+      "duration_min": 170,
+      "creator": "andrew-huberman",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "mind",
+      "tags": [
+        "happiness",
+        "psychology",
+        "spirituality",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "happiness",
+        "psychology",
+        "spirituality",
+        "huberman lab",
+        "andrew huberman",
+        "Happiness Macronutrients",
+        "Enjoyment vs Pleasure",
+        "Unhappiness Inside Happiness",
+        "Proper Leisure",
+        "Satisfaction from Struggle",
+        "Four Worldly Idols",
+        "Special Rather Than Happy"
+      ],
+      "summary": "170-minute andrew-huberman Lab interview with arthur-brooks (Vanderbilt professor; Harvard Business School senior fellow; *The Meaning of Your Life* / *From Strength to Strength*). Huberman calls it one of his favorite episodes. Brooks is the happiness scientist who refuses to treat happiness as a feeling. Feelings are evidence, like the smell of turkey is not Thanksgiving dinner. The working model is nutritional: three happiness-macronutrients — enjoyment, satisfaction, meaning — each containing unhappiness. Trying to eliminate suffering paradoxically misses happiness (unhappiness-inside-happiness).\n\nEnjoyment ≠ pleasure. Pleasure is limbic / animal (VTA, ventral striatum; cocaine and \"I love you\" share circuitry). enjoyment-vs-pleasure is pleasure plus people and memory, managed by the prefrontal cortex as a moral aspiration you want to see yourself doing. Rule of thumb: if it is addictive and done alone, it is probably pleasure, not enjoyment. Strivers fail this macronutrient because they want to be special-rather-than-happy. proper-leisure (Josef Pieper) is the diagnostic: unpaid time used to deepen relationships on purpose, learn something you do not need, and seek metaphysical / philosophical life — not money, power, pleasure, or honor. Compassion is *suffer with* (Latin); boxing, Marine scout-sniper bonds, and marriage vows all put people-and-memory on struggle.\n\nSatisfaction is joy of accomplishment after struggle (satisfaction-from-struggle). Humans are wired for progress toward goals, not arrival — Olympic gold and lottery wins leave people cold; cheaters get no satisfaction. Retirement as \"all suffering then all goofing\" is neurophysiologically and philosophically unsound. Strivers also never eat the second marshmallow: they wait their whole lives.\n\nMeaning is the crisis macronutrient. Aristotle / Aquinas four-worldly-idols (money/resources, power/influence, pleasure/comfort, honor/fame) promise satisfaction and steal love. Elimination game: Huberman lands on power (control / maestro of help); Brooks lands on honor (\"human doing\" earning love). Virtues and vices are the same coin. Right-hemisphere questions (McGilchrist) — why, God, marriage — cannot be Googled; phone 205×/day is left-hemisphere lock. Break tech with first-hour-last-hour-meals-no-phone, then live old-fashioned: ungoogleable questions, beauty, calling, suffering as integration.\n\nFaith sits inside meaning. Brooks: thirst is evidence of water; practice → belief → feeling (practice-before-feeling), daily Mass, rosary, Divine Office with Esther. Huberman: ~3 years nightly prayer, gradual on-ramp, Veritas Stanford talk. Spiritual anorexia / \"none\" identity can invert the craving. Three three-questions-of-meaning: coherence (why do things happen / am I acting that way?), purpose (why am I doing this?), significance (why does my life matter, and to whom?). The billionaire who wrote her own prescription: \"I've always chosen to be special rather than happy.\" Life as pilgrimage (Camino as metaphor). They agree to a later self-exploration series.",
+      "key_insights": [
+        "Happiness is not a feeling — feelings are evidence; define it like nutrition, not vibes",
+        "Three macronutrients — enjoyment, satisfaction, meaning; happiest people pursue all three",
+        "Unhappiness lives inside happiness — avoid suffering and you miss the meal",
+        "Pleasure is animal; enjoyment is human — add people, memory, and moral aspiration",
+        "If it is addictive and done alone, it is probably pleasure — woods-and-prayer is the exception",
+        "Mother nature does not care if you are happy — negative emotion is an alarm, not a bug",
+        "Declare moral aspirations publicly — commitment bias; wedding vows say it will suck",
+        "Proper leisure — deepen relationships, learn unused knowledge, seek transcendence",
+        "Beach house test — scoreboard vs bait for grandkids",
+        "Compassion = suffer together — Marines, sparring, 35-year Spanish-English marriage",
+        "Satisfaction = struggle then joy — PhD, Marine training, Home Depot last dollar",
+        "Progress, not arrival — gold medals and extra billions leave you cold",
+        "Earn it or you cannot price it — cheaters get no satisfaction; hungry kids eat better dinners",
+        "Eat the second marshmallow — strivers wait forever and skip Winters-orchard Fridays",
+        "Retirement trap — all grind then all leisure is two miseries",
+        "Four idols — money, power, pleasure, honor; cost is almost always love",
+        "Eliminate to find your idol — Huberman: power; Brooks: honor / earned love",
+        "Love is a grace, not earned — honor addicts marry people who make them earn it",
+        "When I am strong, I am weak — vice is the other face of your greatest virtue",
+        "Faith, family, friends, work — pivot off the idol toward tropical-kin love",
+        "Hedonic treadmill — limbic system resets; toys-at-death bumper sticker",
+        "Quantification as addiction signal — Lembke; NYT list; follower deltas; H-index",
+        "Meaning is the happiness crisis — left hemisphere how/what; right hemisphere why",
+        "First hour / last hour / meals, no phone — break tech so the right hemisphere can light",
+        "Ungoogleable questions — gorillas can answer, not ask",
+        "Suffering integrates you — \"when did you know who you were?\" is never the beach week",
+        "Thirst proves water — desire for the divine as evidence, not proof",
+        "Practice, belief, feeling — same order as marriage and strength training",
+        "Ashramas — student / householder / forest / sannyasa; time spreads like a river delta",
+        "Three why questions — coherence, purpose, significance; act in accord",
+        "Special rather than happy — missed Little League; the moral aspiration is to choose happiness",
+        "Worry is evidence of a lack of faith — if you say God wills it, stop freaking about tomorrow",
+        "Fame: happy in spite of, never because of — Oprah as integrated public/private person",
+        "Workaholism is sheared-off creating — people congratulate the drunk of success",
+        "Life is a pilgrimage — Camino as the daily-progress metaphor"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "happiness-macronutrients",
+          "title": "Happiness Macronutrients"
+        },
+        {
+          "slug": "enjoyment-vs-pleasure",
+          "title": "Enjoyment vs Pleasure"
+        },
+        {
+          "slug": "unhappiness-inside-happiness",
+          "title": "Unhappiness Inside Happiness"
+        },
+        {
+          "slug": "proper-leisure",
+          "title": "Proper Leisure"
+        },
+        {
+          "slug": "satisfaction-from-struggle",
+          "title": "Satisfaction from Struggle"
+        },
+        {
+          "slug": "four-worldly-idols",
+          "title": "Four Worldly Idols"
+        },
+        {
+          "slug": "special-rather-than-happy",
+          "title": "Special Rather Than Happy"
+        },
+        {
+          "slug": "three-questions-of-meaning",
+          "title": "Three Questions of Meaning"
+        },
+        {
+          "slug": "practice-before-feeling",
+          "title": "Practice Before Feeling"
+        },
+        {
+          "slug": "first-hour-last-hour-meals-no-phone",
+          "title": "First Hour, Last Hour, Meals, No Phone"
+        },
+        {
+          "slug": "faith-as-infrared-goggles",
+          "title": "Faith as Infrared Goggles",
+          "e": "🙏"
+        },
+        {
+          "slug": "pleasure-pain-balance",
+          "title": "Pleasure-Pain Balance",
+          "e": "⚖️"
+        }
+      ],
+      "conceptCount": 12
+    },
+    {
+      "slug": "tui-or-gui",
+      "title": "TUI or GUI",
+      "video_id": "Ay3wo9LdRwQ",
+      "url": "https://youtu.be/Ay3wo9LdRwQ",
+      "duration_min": 40,
+      "creator": "the-primeagen",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "agents",
+      "tags": [
+        "neovim",
+        "gui",
+        "theprimeagen",
+        "vibe-coding",
+        "editors"
+      ],
+      "keywords": [
+        "neovim",
+        "gui",
+        "theprimeagen",
+        "vibe coding",
+        "editors",
+        "the primeagen",
+        "Neovim Embedded UI Protocol",
+        "TUI Cannot Layer",
+        "TUI to GUI Crossing",
+        "GUI Proof Is Weird Not Useful",
+        "LSP Reference Arrows",
+        "Same Buffer Live Preview"
+      ],
+      "summary": "the-primeagen standup (~40 min, YouTube auto-generated captions) is a lunch-and-learn rating of tj-devries's Neovim GUI, built after casey-muratori said last week's demo was not a GUI — no arrows, no non-grid drawing, just a TUI in a window. The panel is Prime, TJ, Casey, and trashdev. Scores land Casey 7 / Trash 6 / Prime 6. Consensus: it crossed into GUI (tui-to-gui-crossing), mostly because of lsp-reference-arrows; it still feels like modal popups lifted from the terminal.\n\nThe architecture is Neovim's long-standing embeddable UI, not a fork. Neovim can stop owning the terminal draw and instead push state and take events (neovim-embedded-ui-protocol). Historical exhibit: FireNvim (Neovim inside browser text boxes — also a way to get stuck in a GitHub comment). The draw layer is gpui, Zed's immediate-mode Rust toolkit. A Bun / TypeScript subsystem hot-reloads overlay widgets without recompiling the editor; when a widget is used \"a thousand times,\" delete the JS and rewrite it in Rust (hot-reload-then-graduate). Stack joke: C + Rust + TypeScript + Lua + English. TJ will not explain GPUI internals — \"we've just been vibing\"; Casey should ask the LLM. Sanity rule: never-read-the-llm. About ten days of work.\n\nDemos, less-interesting to more: native right-click menu (rare actions without 85 shortcuts; mouse + voice dictation); same-buffer-live-preview markdown (live same buffer, proportional fonts, images, checklists, highlighted code, tables, LLM-favorite sequence diagrams — \"all we wanted from UML\"); Tree-sitter → GUI render path. Docked side-pane is still WIP: Neovim thinks a buffer occupies a zone; the GUI paints the rich view on top. Brain-rot simulator (Subway Surfers, Minecraft loop, soap/cheese cutting) as the required 2026 editor feature; claimed +10–20% concurrent viewers. cursor SDK chat picker with the same markdown renderer; a daemon keeps multiple Neovims + a browser view in sync (Tailscale; \"say hi to trashdev\"). LSP: connecting-line hover, peek that skips overlay lines on j/k, double-click jump, then the Casey request — arrows drawn to references. Live color-scheme editor (drag, no lag, hover/revert, discard dialog). Overlay \"art\" (circles, Doom) as proof you can draw anything GPUI can draw — Casey: a renderer is not a GUI until it is in the edit. Linear board inside Neovim (mark done; no webhooks yet).\n\nRating theory is the load-bearing bit. Casey refused a usefulness scale: the point of a GUI is weird stuff that proves it is a GUI (gui-proof-is-weird-not-useful). Mini-map, animated characters, 100 ms keystroke delay are anti-useful and still the direction they tell TJ to go. Emacs \"already has every feature at 0.001 fps.\" Prime will not add a mini-map on principle. TJ thought markdown tables + sequence diagrams + same-buffer edit would buy Prime's highest score; Prime was \"afraid to look like a nice guy.\"",
+      "key_insights": [
+        "Casey was right that a TUI in a window is not a GUI. Arrows, layering, and non-grid drawing are the crossing, not a nicer font",
+        "Neovim already wanted this. Embed protocol: don't draw, send state; FireNvim was the browser-box version",
+        "gpui + Bun is the 2026 split. Rust for the editor; JS for widgets you might throw away tomorrow (hot-reload-then-graduate)",
+        "tui-cannot-layer. A terminal cell is one glyph; you cannot show \"the thing underneath\" a hover",
+        "lsp-reference-arrows sold the room. Peek/highlight is the useful twin; arrows are the GUI proof",
+        "same-buffer-live-preview is the operator win. LLM tables and sequence diagrams are unreadable in a grid; the preview is the same buffer",
+        "never-read-the-llm is the vibe-coding coping rule. TJ: you do not stay sane if you read the reply",
+        "Ratings are not usefulness. Casey 7 / Trash 6 / Prime 6; popups still feel TUI; they asked for animations and lag on purpose",
+        "Polyglot is the punchline. C editor, Rust GUI, Bun scripts, Lua config, English prompts",
+        "Ten days, not a product. Docked panes, webhooks, browser design-mode still missing"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "neovim-embedded-ui-protocol",
+          "title": "Neovim Embedded UI Protocol"
+        },
+        {
+          "slug": "tui-cannot-layer",
+          "title": "TUI Cannot Layer"
+        },
+        {
+          "slug": "tui-to-gui-crossing",
+          "title": "TUI to GUI Crossing"
+        },
+        {
+          "slug": "gui-proof-is-weird-not-useful",
+          "title": "GUI Proof Is Weird Not Useful"
+        },
+        {
+          "slug": "lsp-reference-arrows",
+          "title": "LSP Reference Arrows"
+        },
+        {
+          "slug": "same-buffer-live-preview",
+          "title": "Same Buffer Live Preview"
+        },
+        {
+          "slug": "hot-reload-then-graduate",
+          "title": "Hot Reload Then Graduate"
+        },
+        {
+          "slug": "never-read-the-llm",
+          "title": "Never Read the LLM"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
       "slug": "youre-not-lazy-broke-stuck-exhausted-joe-dispenza",
       "title": "YOU'RE NOT LAZY! How to Never Be Broke, Stuck & Exhausted Again | Dr. Joe Dispenza",
       "video_id": "K1FWEHIgNZE",
@@ -436,47 +1005,57 @@
         "Show up when scans have not moved — \"what about me still has to change?\"",
         "When you don't need the outcome, it starts — lack/separation ends when the body believes it is already in the event"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "personality-creates-personal-reality",
-          "title": "Personality Creates Personal Reality"
+          "title": "Personality Creates Personal Reality",
+          "e": "🧬"
         },
         {
           "slug": "thought-feeling-loop",
-          "title": "Thought–Feeling Loop"
+          "title": "Thought–Feeling Loop",
+          "e": "🔁"
         },
         {
           "slug": "body-conditioned-as-the-mind",
-          "title": "Body Conditioned as the Mind"
+          "title": "Body Conditioned as the Mind",
+          "e": "🐾"
         },
         {
           "slug": "mental-rehearsal-installs-circuitry",
-          "title": "Mental Rehearsal Installs Circuitry"
+          "title": "Mental Rehearsal Installs Circuitry",
+          "e": "🧠"
         },
         {
           "slug": "signal-genes-ahead-of-environment",
-          "title": "Signal Genes Ahead of the Environment"
+          "title": "Signal Genes Ahead of the Environment",
+          "e": "🌱"
         },
         {
           "slug": "how-long-will-you-react",
-          "title": "How Long Will You React"
+          "title": "How Long Will You React",
+          "e": "⏱️"
         },
         {
           "slug": "emotions-are-a-record-of-the-past",
-          "title": "Emotions Are a Record of the Past"
+          "title": "Emotions Are a Record of the Past",
+          "e": "📼"
         },
         {
           "slug": "enter-the-operating-system",
-          "title": "Enter the Operating System"
+          "title": "Enter the Operating System",
+          "e": "💻"
         },
         {
           "slug": "relaxed-heart-awake-brain",
-          "title": "Relaxed Heart Awake Brain"
+          "title": "Relaxed Heart Awake Brain",
+          "e": "❤️"
         },
         {
           "slug": "chronic-survival-steals-growth-energy",
-          "title": "Chronic Survival Steals Growth Energy"
+          "title": "Chronic Survival Steals Growth Energy",
+          "e": "🚨"
         },
         {
           "slug": "thought-as-event-not-command",
@@ -489,12 +1068,52 @@
           "e": "2️⃣"
         },
         {
+          "slug": "stands-vs-court",
+          "title": "Stands vs Court",
+          "e": "🏟️"
+        },
+        {
           "slug": "inner-control-before-outer",
           "title": "Inner Control Before Outer",
           "e": "🧭"
+        },
+        {
+          "slug": "identity-votes-from-habits",
+          "title": "Identity Votes from Habits",
+          "e": "🗳️"
+        },
+        {
+          "slug": "awareness-as-control-foundation",
+          "title": "Awareness as Control Foundation",
+          "e": "👁️"
+        },
+        {
+          "slug": "feeling-acting-gap",
+          "title": "Feeling–Acting Gap",
+          "e": "⏸️"
+        },
+        {
+          "slug": "meditation-refocus-practice",
+          "title": "Meditation Refocus Practice",
+          "e": "🎯"
+        },
+        {
+          "slug": "liminal-states-belief-change",
+          "title": "Liminal States Belief Change",
+          "e": "🌙"
+        },
+        {
+          "slug": "change-tendency-not-willpower",
+          "title": "Change Tendency Not Willpower",
+          "e": "🔄"
+        },
+        {
+          "slug": "man-in-the-arena",
+          "title": "Man in the Arena",
+          "e": "🏟️"
         }
       ],
-      "conceptCount": 13
+      "conceptCount": 21
     },
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",

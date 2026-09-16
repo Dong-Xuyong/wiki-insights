@@ -1,0 +1,65 @@
+{
+  "slug": "tui-or-gui",
+  "sections": [
+    {
+      "title": "Still a TUI?",
+      "items": [
+        {
+          "e": "🖥️",
+          "q": "What did Casey say last week that forced this demo?",
+          "a": "A nicer Neovim is **not a GUI**. You need **arrows** and drawing that is not a text grid. A TUI **cannot layer** — one glyph per cell, no underlay."
+        },
+        {
+          "e": "📐",
+          "q": "What architecture lets TJ put GPUI on Neovim instead of forking it?",
+          "a": "The **embed UI protocol**: Neovim stops drawing the terminal, **pushes state**, and **takes events**. FireNvim was the browser-box version of the same idea."
+        }
+      ]
+    },
+    {
+      "title": "What actually crossed",
+      "items": [
+        {
+          "e": "➡️",
+          "q": "Which feature sold all three raters that this is a GUI?",
+          "a": "**LSP reference arrows** drawn onto the buffer. The useful twin is a highlighted peek. Doom and Subway Surfers do **not** count — a renderer is not a GUI until it is **in the edit**."
+        },
+        {
+          "e": "📝",
+          "q": "Why does TJ care about a same-buffer markdown preview?",
+          "a": "LLMs emit **tables** and **sequence diagrams** that are unreadable on a character grid. The preview is the **same Neovim buffer**, live — not a synced browser tab."
+        }
+      ]
+    },
+    {
+      "title": "How it was built",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "What is hot-reload-then-graduate?",
+          "a": "Keep Rust/C compiled. Put throwaway widgets in **Bun/TypeScript** so you don't rebuild the editor. When a widget is used a thousand times, **delete the JS and rewrite it in Rust**."
+        },
+        {
+          "e": "🙈",
+          "q": "How does TJ stay sane while vibe-coding GPUI?",
+          "a": "**Never read what the LLM sends back.** He will not explain how GPUI works. Ask the model. Casey *did* read Claude research prose and hated the unearned certainty."
+        }
+      ]
+    },
+    {
+      "title": "The scores",
+      "items": [
+        {
+          "e": "7️⃣",
+          "q": "What were the ratings, and what is Casey's scale actually measuring?",
+          "a": "**Casey 7 / Trash 6 / Prime 6.** Five means you cannot tell TUI from GUI. Usefulness is **not** the criterion — weird drawing is. Mini-maps and 100 ms key lag are **anti-useful** and still more GUI."
+        },
+        {
+          "e": "⏱️",
+          "q": "How long had TJ been working on it?",
+          "a": "Not even **10 days**. Docked panes, Linear webhooks, and browser design-mode are still missing. Emacs already has the features at **0.001 fps**."
+        }
+      ]
+    }
+  ]
+}
