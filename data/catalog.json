@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 215,
-  "insightsCount": 208,
-  "conceptCount": 2125,
+  "insightsCount": 209,
+  "conceptCount": 2131,
   "sections": [
     {
       "id": "architecture",
@@ -351,12 +351,17 @@
           "e": "🗳️"
         },
         {
+          "slug": "environment-design-habits",
+          "title": "Environment Design for Habits",
+          "e": "🏠"
+        },
+        {
           "slug": "habit-stacking",
           "title": "Habit Stacking",
           "e": "🔗"
         }
       ],
-      "conceptCount": 12
+      "conceptCount": 13
     },
     {
       "slug": "khloe-kardashian-3-years-ashamed-leave-house",
@@ -835,7 +840,7 @@
         "Natural conversation is harness work — the demo sounds ordinary because a lot is happening off-mic",
         "Elise = housing + healthcare — NYC, Bay Area expansion, critical-life verticals not SF-app theater"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "cascaded-voice-agent-stack",
@@ -852,7 +857,8 @@
         },
         {
           "slug": "eager-generation-with-utterance-hold",
-          "title": "Eager Generation with Utterance Hold"
+          "title": "Eager Generation with Utterance Hold",
+          "e": "⏸️"
         },
         {
           "slug": "tts-prefix-caching",
@@ -1198,10 +1204,10 @@
         "charisma on command",
         "Grounded Charisma",
         "Theory of Mind Three Questions",
-        "process after provocation",
-        "insecure attachment push pull",
-        "dont chase withdrawal",
-        "vulnerability without need"
+        "Process After Provocation",
+        "Insecure Attachment Push Pull",
+        "Dont Chase Withdrawal",
+        "Vulnerability Without Need"
       ],
       "summary": "charisma-on-command (~14 min) uses Robin Williams's Shawn Maguire in *Good Will Hunting* as a case study for a sixth charisma type: grounded-charisma. The original five were conviction, authentic, funny, empathetic, and energetic. Shawn skews empathetic, but the move that actually disarms Will Hunting's mind games is staying calm and centered enough to see what is happening and choose a response instead of getting pulled into someone else's emotional game.\n\nThe video's stack is social, not theatrical. Charisma is not self-monitoring (how do I look, how do I sound). It is theory-of-mind-three-questions: understand why the other person is behaving this way so you do not take it personally. In-the-moment reaction is often outside your control — even Shawn blows up when Will disrespects his late wife. What stays inside your control is process-after-provocation: go home, find the pattern, name the real conflict.\n\nWill is the stress test because of insecure-attachment-push-pull. Closeness feels like threat, so he attacks, uses sarcasm, redirects, then freezes Shawn out. Chasing a freeze teaches him that withdrawal controls the relationship. Shawn's counter is dont-chase-withdrawal — he falls asleep in the silent session, so when Will re-engages there is no leftover resentment. That is also the rescue-animal analogy: need them to heal and you are at your wit's end when they finally open.\n\nGrounded is not always passive. Boundary violations get a walk-out. Rapport with someone terrified of vulnerability is built by vulnerability-without-need — share what you can get nothing back for (the farting-when-nervous story). Will still punches it. Shawn stays calm because he was not fishing for comfort.\n\nCriticism is the same muscle. Collapse complexity (\"screw the haters\" vs \"I am a bad person\") is the trap. take-whats-useful-leave-the-rest: the painting attack is Will's wound, not Shawn's; the remarriage jab is true, and Shawn lets it change him (\"put my money back on the table\").\n\nThe foundation is achievement-vs-self-acceptance-confidence. Gerald Lambeau's confidence is Fields-medal identity, so Will outshining him destroys him. Shawn's is self-understanding: \"I know who I am and I'm proud of what I do. It was a conscious choice.\" Ego not on the line frees attention for the other person. Immediate practice: space-between-noses-focus — the most interesting place in the room is the space between your noses.\n\nPitch: Charisma University, 30 days of one action per conversation.",
       "key_insights": [
@@ -1226,9 +1232,29 @@
         {
           "slug": "theory-of-mind-three-questions",
           "title": "Theory of Mind Three Questions"
+        },
+        {
+          "slug": "process-after-provocation",
+          "title": "Process After Provocation"
+        },
+        {
+          "slug": "insecure-attachment-push-pull",
+          "title": "Insecure Attachment Push Pull"
+        },
+        {
+          "slug": "dont-chase-withdrawal",
+          "title": "Dont Chase Withdrawal"
+        },
+        {
+          "slug": "vulnerability-without-need",
+          "title": "Vulnerability Without Need"
+        },
+        {
+          "slug": "take-whats-useful-leave-the-rest",
+          "title": "Take Whats Useful Leave The Rest"
         }
       ],
-      "conceptCount": 2
+      "conceptCount": 7
     },
     {
       "slug": "tui-or-gui",
@@ -1278,35 +1304,43 @@
       "concepts": [
         {
           "slug": "neovim-embedded-ui-protocol",
-          "title": "Neovim Embedded UI Protocol"
+          "title": "Neovim Embedded UI Protocol",
+          "e": "🔌"
         },
         {
           "slug": "tui-cannot-layer",
-          "title": "TUI Cannot Layer"
+          "title": "TUI Cannot Layer",
+          "e": "▦"
         },
         {
           "slug": "tui-to-gui-crossing",
-          "title": "TUI to GUI Crossing"
+          "title": "TUI to GUI Crossing",
+          "e": "🎚️"
         },
         {
           "slug": "gui-proof-is-weird-not-useful",
-          "title": "GUI Proof Is Weird Not Useful"
+          "title": "GUI Proof Is Weird Not Useful",
+          "e": "🤡"
         },
         {
           "slug": "lsp-reference-arrows",
-          "title": "LSP Reference Arrows"
+          "title": "LSP Reference Arrows",
+          "e": "➡️"
         },
         {
           "slug": "same-buffer-live-preview",
-          "title": "Same Buffer Live Preview"
+          "title": "Same Buffer Live Preview",
+          "e": "📝"
         },
         {
           "slug": "hot-reload-then-graduate",
-          "title": "Hot Reload Then Graduate"
+          "title": "Hot Reload Then Graduate",
+          "e": "♻️"
         },
         {
           "slug": "never-read-the-llm",
-          "title": "Never Read the LLM"
+          "title": "Never Read the LLM",
+          "e": "🙈"
         },
         {
           "slug": "vibe-coding",
