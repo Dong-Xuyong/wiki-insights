@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 215,
   "insightsCount": 209,
-  "conceptCount": 2131,
+  "conceptCount": 2135,
   "sections": [
     {
       "id": "architecture",
@@ -356,12 +356,17 @@
           "e": "🏠"
         },
         {
+          "slug": "four-laws-of-behavior-change",
+          "title": "Four Laws of Behavior Change",
+          "e": "4️⃣"
+        },
+        {
           "slug": "habit-stacking",
           "title": "Habit Stacking",
           "e": "🔗"
         }
       ],
-      "conceptCount": 13
+      "conceptCount": 14
     },
     {
       "slug": "khloe-kardashian-3-years-ashamed-leave-house",
@@ -848,7 +853,8 @@
         },
         {
           "slug": "streaming-speculative-transcription",
-          "title": "Streaming Speculative Transcription"
+          "title": "Streaming Speculative Transcription",
+          "e": "🎙️"
         },
         {
           "slug": "background-tool-call-injection",
@@ -862,7 +868,8 @@
         },
         {
           "slug": "tts-prefix-caching",
-          "title": "TTS Prefix Caching"
+          "title": "TTS Prefix Caching",
+          "e": "🔊"
         },
         {
           "slug": "harness-engineering",
@@ -1252,9 +1259,17 @@
         {
           "slug": "take-whats-useful-leave-the-rest",
           "title": "Take Whats Useful Leave The Rest"
+        },
+        {
+          "slug": "achievement-vs-self-acceptance-confidence",
+          "title": "Achievement Vs Self Acceptance Confidence"
+        },
+        {
+          "slug": "space-between-noses-focus",
+          "title": "Space Between Noses Focus"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 9
     },
     {
       "slug": "tui-or-gui",
@@ -1496,9 +1511,14 @@
           "slug": "poet-vs-poetry-relationship",
           "title": "Poet vs Poetry Relationship",
           "e": "✒️"
+        },
+        {
+          "slug": "abandonment-voice-keeps-you-stuck",
+          "title": "Abandonment Voice Keeps You Stuck",
+          "e": "👻"
         }
       ],
-      "conceptCount": 17
+      "conceptCount": 18
     },
     {
       "slug": "youre-not-lazy-broke-stuck-exhausted-joe-dispenza",
