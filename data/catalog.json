@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 213,
   "insightsCount": 204,
-  "conceptCount": 2061,
+  "conceptCount": 2083,
   "sections": [
     {
       "id": "architecture",
@@ -132,9 +132,19 @@
         {
           "slug": "title-role-feedback-barrier",
           "title": "Title-Role Feedback Barrier"
+        },
+        {
+          "slug": "man-in-the-arena",
+          "title": "Man in the Arena",
+          "e": "🏟️"
+        },
+        {
+          "slug": "constructive-criticism-outside-bubble",
+          "title": "Constructive Criticism (Outside Bubble)",
+          "e": "💬"
         }
       ],
-      "conceptCount": 6
+      "conceptCount": 8
     },
     {
       "slug": "how-are-they-losing-so-bad",
@@ -355,9 +365,39 @@
           "slug": "repetition-compulsion-relationships",
           "title": "Repetition Compulsion in Relationships",
           "e": "🔄"
+        },
+        {
+          "slug": "giving-vs-taking-relationships",
+          "title": "Giving vs Taking in Relationships",
+          "e": "💕"
+        },
+        {
+          "slug": "abandonment-voice-keeps-you-stuck",
+          "title": "Abandonment Voice Keeps You Stuck",
+          "e": "👻"
+        },
+        {
+          "slug": "please-everyone-business-never-succeeds",
+          "title": "Please Everyone Business Never Succeeds",
+          "e": "🙅"
+        },
+        {
+          "slug": "faith-as-infrared-goggles",
+          "title": "Faith as Infrared Goggles",
+          "e": "🙏"
+        },
+        {
+          "slug": "living-intentionally",
+          "title": "Living Intentionally",
+          "e": "🎯"
+        },
+        {
+          "slug": "ego-comparison-trap",
+          "title": "Ego Comparison Trap",
+          "e": "🪞"
         }
       ],
-      "conceptCount": 15
+      "conceptCount": 21
     },
     {
       "slug": "modern-life-is-a-disease",
@@ -576,9 +616,19 @@
         {
           "slug": "open-source-judged-in-retrospect",
           "title": "Open Source Judged in Retrospect"
+        },
+        {
+          "slug": "linux-agent-advantage",
+          "title": "Linux Agent Advantage",
+          "e": "🐧"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
         }
       ],
-      "conceptCount": 8
+      "conceptCount": 10
     },
     {
       "slug": "realtime-voice-agents-frontier-intelligence-bohan-li-eliseai",
@@ -894,9 +944,19 @@
           "slug": "pleasure-pain-balance",
           "title": "Pleasure-Pain Balance",
           "e": "⚖️"
+        },
+        {
+          "slug": "dopamine-from-effort",
+          "title": "Dopamine From Effort",
+          "e": "🔥"
+        },
+        {
+          "slug": "happiness-as-present-contentment",
+          "title": "Happiness as Present Contentment",
+          "e": "😌"
         }
       ],
-      "conceptCount": 12
+      "conceptCount": 14
     },
     {
       "slug": "tui-or-gui",
@@ -980,9 +1040,14 @@
           "slug": "vibe-coding",
           "title": "Vibe Coding",
           "e": "✨"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
         }
       ],
-      "conceptCount": 9
+      "conceptCount": 10
     },
     {
       "slug": "woman-he-dates-isnt-the-woman-he-marries-sadia-khan",
@@ -1007,13 +1072,13 @@
         "attachment",
         "infidelity",
         "jay shetty",
-        "entertain not attract",
-        "similarity feels like settling",
-        "three as women fall in love",
-        "three ls men fall in love",
-        "dates vs marries self control",
-        "unconscious helping contract",
-        "unconditional love unconditional disrespect"
+        "Entertain Not Attract",
+        "Similarity Feels Like Settling",
+        "Three A's Women Fall in Love",
+        "Three L's Men Fall in Love",
+        "Dates vs Marries Self Control",
+        "Unconscious Helping Contract",
+        "Unconditional Love Unconditional Disrespect"
       ],
       "summary": "~69-minute jay-shetty *On Purpose* interview with relationship psychologist sadia-khan — the selection and maintenance OS beside the breakup compilation easiest-way-heal-from-a-breakup-jay-shetty and Eastwick's science-of-attraction-compatibility-romance-paul-eastwick evidence stack. Not \"how to get them back\" but who you keep entertaining, what you tolerate, and which ingredients actually produce love. Khan's opening claim: apply this and you overcome fear of conflict, which is usually fear of walking away. The quality of a relationship jumps the moment you can leave when you are heartbroken, disrespected, or dehumanized. Kindness without that strength becomes the downfall.\n\nThe dating-market cut is entertain-not-attract. Most people can attract almost anyone; low self-esteem normalizes 12 a.m. texts, hard-to-get, and unavailability, then attaches to the people who produce anxiety. Mystery looks like options; Khan reads it as emotional immaturity — cannot ward off alternatives and focus. After too many rejections, the trap is comparing matches to an algorithm \"high-value\" dream. Start with who likes you. similarity-feels-like-settling is the honesty test: a 40-year-old on a second divorce demanding a 25-year-old with no baggage, or someone not working demanding a six-figure entrepreneur. If similar feels like settling, standards are filling a self-worth gap. Ghosting: low digital investment, alternatives, or using the app as a coping mechanism — still a poor communicator; reduce attraction to that. Past patterns predict: never committed by 40, always unfaithful, never past three months. The inverse failure is habit rebound / love bombing — calling every day because they just left someone, not because you are compatible.\n\nKhan's caseload surprise: number one client is a man cheated on by a woman (under-discussed; men keep it private) or a woman who cannot get a man to commit. \"Not masculine enough\" here is not \"men should not feel.\" It is missing a male role model, then either (a) letting her lead every decision until she cannot relax, or (b) rescuing her from all struggle until she resents the missing purpose. Boundary skill is stern + sensitive — name the limit and remind her you love her and want the relationship. unconscious-helping-contract: I will heal you; you will love me. Recovered partners often leave for someone with a higher selection bar. Deal-breakers (gratitude, respect, honor, loyalty) are how you show you are there for love, not approval. A doormat signals low self-esteem.\n\nInfidelity frame is the most controversial. Khan: in her practice women cheat more on passive, naive, people-pleasing men than on toxic ones — they stay loyal to the toxic man and lose sexual attraction to the man who will not stand up for himself. unconditional-love-unconditional-disrespect — \"I'll love you regardless\" teaches them you will tolerate anything. Immunization: (1) know and meet true needs (sex drive, financial support), (2) both of you would actually leave if cheated. Catch Tinder / phone / \"footsteps\" early; screaming then staying is the wrong signal. If they keep disrespecting after you name it, withdraw access. A social network is the buffer so fear of being alone does not keep you.\n\nLove recipes: women need the three-as-women-fall-in-love (attraction, admiration, adoration) equally. Missing adoration → toxic begging for warmth from a \"great on paper\" man. Missing attraction → the nice-guy trap; she gaslights herself. Missing admiration → slow fade, especially after children. Men need the three-ls-men-fall-in-love (lust, labor, loyalty). Cool/low-maintenance that blocks labor turns you into the hookup. dates-vs-marries-self-control is the title cut: the social drinker with no sexual, food, or money discipline is a great date and a daily-anxiety husband. Hedonism is slow suicide for a man; you will mother a child you never wanted to adopt. psychological-before-physical-intimacy — chemistry is easy; intimacy is aligned 5–10 year vision. Keep intrinsic standards (texts, labels, time) high and extrinsic (holidays, flowers, gifts) low.\n\nThe rest is maintenance and exit. \"If they cheat it's partly your fault\" = smoking-gun day-one flags you ignored; stay in radical relationship with the truth; you do not need red-handed proof. Commit to the marriage's evolution, not the snapshot you fell in love with. forced-commitment-resentment — ultimatums produce a husband who resents bedtime, check-ins, and kisses. Pain (miscarriage, money, sick parents) is expected; suffering is daily anger at holding hands because you chose the wrong person. Peace without toxic lows is a win. Breakup: worst line is \"you knew he was like that.\" Vision outlives the person. Closure is in actions, not a last conversation. Ego wants the last word; soul already knows. Final Five: pick peace over pleasure; \"you're somebody's dream girl\" is the worst advice; love should not be unconditional; being adored without attraction feels like neediness; treat people the same behind their back as in front of them.",
       "key_insights": [
@@ -1049,8 +1114,45 @@
         "Final Five — peace over pleasure; drop \"dream girl\"; love needs conditions; adoration ≠ attraction; same person with or without monitoring"
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "concepts": [
+        {
+          "slug": "entertain-not-attract",
+          "title": "Entertain Not Attract"
+        },
+        {
+          "slug": "similarity-feels-like-settling",
+          "title": "Similarity Feels Like Settling"
+        },
+        {
+          "slug": "three-as-women-fall-in-love",
+          "title": "Three A's Women Fall in Love"
+        },
+        {
+          "slug": "three-ls-men-fall-in-love",
+          "title": "Three L's Men Fall in Love"
+        },
+        {
+          "slug": "dates-vs-marries-self-control",
+          "title": "Dates vs Marries Self-Control"
+        },
+        {
+          "slug": "unconscious-helping-contract",
+          "title": "Unconscious Helping Contract"
+        },
+        {
+          "slug": "unconditional-love-unconditional-disrespect",
+          "title": "Unconditional Love Unconditional Disrespect"
+        },
+        {
+          "slug": "psychological-before-physical-intimacy",
+          "title": "Psychological Before Physical Intimacy"
+        },
+        {
+          "slug": "forced-commitment-resentment",
+          "title": "Forced Commitment Resentment"
+        }
+      ],
+      "conceptCount": 9
     },
     {
       "slug": "youre-not-lazy-broke-stuck-exhausted-joe-dispenza",
