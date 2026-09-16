@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 202,
-  "insightsCount": 199,
-  "conceptCount": 1943,
+  "videoCount": 206,
+  "insightsCount": 200,
+  "conceptCount": 1993,
   "sections": [
     {
       "id": "architecture",
@@ -53,15 +53,449 @@
   "sectionCounts": {
     "architecture": 2,
     "agents": 43,
-    "systems": 8,
-    "build": 28,
+    "systems": 9,
+    "build": 29,
     "human": 10,
-    "performance": 46,
-    "mind": 25,
+    "performance": 47,
+    "mind": 26,
     "relationships": 33,
     "other": 7
   },
   "videos": [
+    {
+      "slug": "how-are-they-losing-so-bad",
+      "title": "How are they Losing so Bad",
+      "video_id": "d3Gjq-BffuI",
+      "url": "https://youtu.be/d3Gjq-BffuI",
+      "duration_min": 12,
+      "creator": "the-primeagen",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "systems",
+      "tags": [
+        "google",
+        "gemini",
+        "theprimeagen",
+        "llm",
+        "china"
+      ],
+      "keywords": [
+        "google",
+        "gemini",
+        "theprimeagen",
+        "llm",
+        "china",
+        "the primeagen",
+        "Generational Fumble (Incumbent AI)",
+        "Unattended Agent Runaway Loop",
+        "Stealth Model Credit Grab",
+        "Default Surface Not Frontier",
+        "Vendor vs Independent Benchmarks",
+        "Token Maxing Fallacy"
+      ],
+      "summary": "the-primeagen (~12 min, YouTube auto-generated captions, Sept 16 2026) argues that google is in a generational fumble on LLMs. Opener numbers: ~$500 million a day on data centers and AI, yet eighth on the artificial-intelligence index, only slightly ahead of ChatGPT 5.6 Luna. Personal foil: he interviewed at Google in 2009 (three phone screens writing binary search in Docs, then a six-round onsite; five yes, one C-programming no → no offer). Then Google was the cream of the crop. Now, when it is not killing other apps, it ships \"really crappy AI.\"\n\nThe lead is structural, not a bad quarter. 2015: first TPU — an ASIC for AI math; openai is only now shipping its first chip (Jalapeño), eleven years later. 2017: *Attention Is All You Need* from eight researchers the video places at google-deepmind — the transformer stack every current LLM sits on. \"Google created the T in ChatGPT.\" They invented the hardware and the paper, they still spend half a billion a day, and they still lost to glm-5-3. Headcount contrast: the GLM lab (~800–1,100 people) and moonshot-ai (~300) both beat Google. Grok was a coding laughing stock in March and is now \"way up there\" without TPUs or the transformer paper.\n\nProduct surface is the second indictment. The gemini site defaults you onto 3.1 Pro (February vintage, grouped with GPT 5.3 / Claude Opus 4.6) and, even after you pay, caps you at 3.6 — you cannot use the model they call Frontier. google-antigravity (Anti-gravity) is the suggested IDE; Primeagen has never met a single person who uses it in real life, and has heard more people talk about devin. He ran Gemini 3.8 Flash inside cursor on a tiny session-color bug. Forty minutes later it was still rereading the same file. He stopped it at 330 million tokens / $118. Other watched jobs were \"not horrible, not fantastic, not that fast\" — not enough to pick it despite the slowness. Same file-read loop has been discussed for eight months. Unattended overnight automation is the scare: eight hours of that loop could be a $1,000+ bill.\n\nThe marketing own-goal is worse than the Mr Beast partnership. August 20–22: a mysterious ox-alpha model appears on OpenRouter (1M context, free, \"insanely good\"). Google AI Studio accounts tweet \"What if the OX alpha was the friends we made along the way?\", \"Google is back. Trust the process. It's Gemini time.\" It was glm-5-3 Flash, released 9 days after Gemini 3.7 and 10 days before 3.8. Google later called it bad timing around the 3.7 Flash launch. Primeagen's read: they named Ox Alpha in the tweet. The close: Google had every piece, should have been the winner, and is now in \"none place\" — almost nobody talks about Gemini, and saying 3.8 is good gets \"what's wrong with you?\" He is afraid to use the model unsupervised because of the loop bill.",
+      "key_insights": [
+        "Spend ≠ rank. ~$500M/day and eighth on the AI index, barely ahead of GPT 5.6 Luna",
+        "Lead was hardware + paper. TPU 2015; transformer paper 2017; OpenAI's first chip ~11 years later",
+        "Smaller labs beat the incumbent. GLM 5.3 (~800–1,100 people) and Moonshot (~300) rank above Google",
+        "Grok's March→now swing is the foil: no TPU, no transformer paper, now \"destroying Google\"",
+        "Default surface is stale. Gemini site serves 3.1 Pro; paid still cannot reach Frontier",
+        "Anti-gravity has no street use. More Devin talk than Google's IDE among people he streams with",
+        "File-read loop is the product bug. 330M tokens / $118 / 40 min on a color-swap; eight months old",
+        "Unattended cost is the operator fear. Evening automation could print a four-figure API bill",
+        "Ox Alpha credit-grab. Google tweets implied Gemini; the stealth model was GLM 5.3 Flash",
+        "\"None place\" is the social rank. Not fifth — people do not think about Gemini at all"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "generational-fumble-incumbent-ai",
+          "title": "Generational Fumble (Incumbent AI)"
+        },
+        {
+          "slug": "unattended-agent-runaway-loop",
+          "title": "Unattended Agent Runaway Loop"
+        },
+        {
+          "slug": "stealth-model-credit-grab",
+          "title": "Stealth Model Credit Grab"
+        },
+        {
+          "slug": "default-surface-not-frontier",
+          "title": "Default Surface Not Frontier"
+        },
+        {
+          "slug": "vendor-vs-independent-benchmarks",
+          "title": "Vendor vs Independent Benchmarks",
+          "e": "🧪"
+        },
+        {
+          "slug": "token-maxing-fallacy",
+          "title": "Token-Maxing Fallacy",
+          "e": "🪙"
+        },
+        {
+          "slug": "open-weight-vs-closed-llms",
+          "title": "Open-weight vs closed LLMs",
+          "e": "⚖️"
+        },
+        {
+          "slug": "china-us-ai-race",
+          "title": "China-US AI race",
+          "e": "🏁"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
+      "slug": "modern-life-is-a-disease",
+      "title": "Modern Life is a Disease",
+      "video_id": "_rBsOP658YA",
+      "url": "https://youtu.be/_rBsOP658YA",
+      "duration_min": 31,
+      "creator": "dan-martell",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "build",
+      "tags": [
+        "personal-growth",
+        "habits",
+        "entrepreneurship",
+        "dan-martell"
+      ],
+      "keywords": [
+        "personal growth",
+        "habits",
+        "entrepreneurship",
+        "dan martell",
+        "Modern Life Disease",
+        "Seven Life Pillars",
+        "WHO Test Mission",
+        "SMS Health System",
+        "Preloaded Year",
+        "Friend Inventory",
+        "Three Fs Hobbies",
+        "Attract Money by Becoming"
+      ],
+      "summary": "31-minute dan-martell operating talk (YouTube auto-generated captions). Thesis: modern-life-disease is not hard work. Seasons of grind are real. The disease is when that season becomes a year, then two, then identity — you wake up rich, empty, and unchanged. Hook: a hundred supercars with every loved person gone would be traded back in a heartbeat. Counterexamples at the top of the money game (Gary Vee showing up for family, Jesse Itzler as \"grown camp counselor,\" Mark Cuban courtside) are growing every pillar, not just the bank account. Martell says the other pillars sped up the business, not the reverse.\n\nHe orders seven-life-pillars so money is last: mission, health, love, friends, hobbies, spirituality, finances. After three company exits people told him he had won; he still felt a hole, went to Peru (orphanages, mountains, three days of silence), and landed a mission of helping young people not feel broken. who-test-mission (Human / Wound / Outcome) is the finder: purpose sits next to the worst thing you will share. Health is sms-health-system (sweat / meals / sleep) plus Clear's cousin never-miss-twice (never two training days in a row). Love is spelled TIME — private-jet story of not hearing his son ask to play three times — operationalized as preloaded-year (people first, work fills the rest). Friends get a 90-day friend-inventory and \"want more for you than from you.\" Fun is scheduled three-fs-hobbies after a shingles warning at 31. Spirituality is presence plus ordinary gratitude (Five-Minute Journal; 60 seconds sitting with the list). Money is attracted by character (attract-money-by-becoming), measured with a daily cash report, scored last. Close: Sunday weekly-pillar-scorecard (1–5, two lowest, two actions) so nothing goes to zero.\n\nComplements atomic-habits-james-clear-audiobook (systems, environment, never miss twice), rewarded-workaholism / busyness-as-unhappiness-outrun (grind as identity), life-task-childhood-seed (purpose archaeology via wound, not childhood seed), and Huberman faith-as-infrared-goggles (bring faith into the work, not only the weekend).",
+      "key_insights": [
+        "Grind seasons are fine; grind-as-norm is the disease. Ten-year \"nothing changed\" is the failure mode",
+        "Mission before money. If money is the reason, you quit when it gets hard or slow",
+        "WHO test. Human you help, Wound you will share, Outcome you want for them — one sentence",
+        "Mess is the message. Purpose sits next to the worst thing that happened to you",
+        "Health first each day. SMS: 45 min sweat, remove food decisions, bedtime alarm not wake alarm (his: 9pm / 4am)",
+        "Never miss two days. One skip is life; two is a trend",
+        "Love = time. Kids do not care about the plane; preload the year with people first",
+        "Friends are environment. 90-day inventory; create space without a breakup speech; put 2–3 growers in the calendar",
+        "Schedule fun. Fun / Frequent / Friends; hobbies are a business investment (shingles as the body veto)",
+        "You attract money. Character, time, interesting life — then a daily cash report so money is a tool",
+        "Weekly exam. Score seven pillars 1–5; two lowest get two actions. A great life is a life well examined"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "modern-life-disease",
+          "title": "Modern Life Disease"
+        },
+        {
+          "slug": "seven-life-pillars",
+          "title": "Seven Life Pillars"
+        },
+        {
+          "slug": "who-test-mission",
+          "title": "WHO Test Mission"
+        },
+        {
+          "slug": "sms-health-system",
+          "title": "SMS Health System"
+        },
+        {
+          "slug": "preloaded-year",
+          "title": "Preloaded Year"
+        },
+        {
+          "slug": "friend-inventory",
+          "title": "Friend Inventory"
+        },
+        {
+          "slug": "three-fs-hobbies",
+          "title": "Three Fs Hobbies"
+        },
+        {
+          "slug": "attract-money-by-becoming",
+          "title": "Attract Money by Becoming"
+        },
+        {
+          "slug": "weekly-pillar-scorecard",
+          "title": "Weekly Pillar Scorecard"
+        },
+        {
+          "slug": "never-miss-twice",
+          "title": "Never Miss Twice",
+          "e": "2️⃣"
+        },
+        {
+          "slug": "environment-design-habits",
+          "title": "Environment Design for Habits",
+          "e": "🏠"
+        },
+        {
+          "slug": "life-task-childhood-seed",
+          "title": "Life Task Childhood Seed",
+          "e": "🌱"
+        },
+        {
+          "slug": "rewarded-workaholism",
+          "title": "Rewarded Workaholism",
+          "e": "💼"
+        },
+        {
+          "slug": "faith-as-infrared-goggles",
+          "title": "Faith as Infrared Goggles",
+          "e": "🙏"
+        }
+      ],
+      "conceptCount": 14
+    },
+    {
+      "slug": "tested-3-unusual-strength-methods-pana",
+      "title": "I Tested 3 UNUSUAL Strength Methods (and they worked)",
+      "video_id": "bWXgfwEW7fc",
+      "url": "https://youtu.be/bWXgfwEW7fc",
+      "duration_min": 21,
+      "creator": "panagiotis-tarinidis",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "performance",
+      "tags": [
+        "fitness",
+        "strength",
+        "powerlifting",
+        "programming"
+      ],
+      "keywords": [
+        "fitness",
+        "strength",
+        "powerlifting",
+        "programming",
+        "panagiotis tarinidis",
+        "Strength as a Skill",
+        "Double Singles Method",
+        "Practice Singles, Not Maxes",
+        "Heavy Single Exposure",
+        "Get Stronger on a Cut",
+        "Small Calorie Deficit for Strength",
+        "Peri Workout Carb Stacking"
+      ],
+      "summary": "21-minute panagiotis-tarinidis operator video (YouTube auto-generated captions). 2× IPF Open 66 kg world champion; programs live in the-panash (September 2026: buy-once plus the older monthly subscription). Not a 5×5 teardown. 5×5 and vanilla progressive overload still work; this is what he used when they stopped working. Three plateau tools: double-singles-method, get-stronger-on-a-cut, session-potentiation-before-volume.\n\nstrength-as-a-skill is the opener. Genetic outliers get strong without practicing heavies; he was a skinny intermediate whose bench was merely \"mid.\" Treat strength like guitar or football: more quality reps at the skill you actually fail — the heavy single — without turning the week into max-outs (practice-singles-not-maxes). Efficiency ranking: bench > squat > deadlift (deadlift last, and lighter if you use it).\n\nMethod 1 — double-singles-method. Stuck ~230 kg / ~515–520 lb squat for months; competition attempts made him nervous, technique collapsed, he missed. Two practice singles per week: Tuesday 86–89% 1RM, Saturday 89–94%, then crawl the percents up across the cycle. Result he cites: 230 → 250 kg. Psychology is heavy-single-exposure (same as growing a public-speaking audience). Physiology is extra CNS and technique work. Caveats: not two true maxes; still need volume, technique work, accessories; do not stack a 5×5 *and* a heavy single on the same day without thinning the rest of the week. Year-round only if recovery is excellent; otherwise method-block-cycling — ~8–10 weeks on, ~8–10 weeks off.\n\nMethod 2 — get-stronger-on-a-cut. Counter to \"turbo bulk or you cannot get strong / 180 lb to bench three plates.\" His receipts: bench 120 kg at 74 kg BW vs 178 kg at 65.7 kg; first-meet total 500 kg at 74 kg vs best 713 kg at ~66 kg (~7–8% body fat, more muscle than the softer 74 kg version). Three rules: small-calorie-deficit-for-strength (100–200 kcal, not 500–700); lose fat while gaining contractile tissue; peri-workout-carb-stacking (~70% of carbs around training: 40–50% ~2 h before, 20–30% after). Easier to get strong in a surplus; this is for people who also want to be lean, and mostly for higher body fat — already-shredded lifters skip it.\n\nMethod 3 — session-potentiation-before-volume. Not the meme of unracking 150% 1RM so 100% \"feels light.\" Linear low-intensity → high-intensity cycles still work; plateaus need more intensity *early*, inside the same session. Example: before 3×5 at 78%, hit a single at ~87–88%, then run the volume. CNS primed → later sets more explosive, weights feel lighter. Same lift ranking as double singles; deadlift singles maybe 85–86%. Fatigue risk is the same as method 1 — do not overreach joints and low back.\n\nClose: 5×5 / overload remain the base; these are small tweaks that either punch through a stall or change how you approach training. the-panash plug: Powerlifting Level 1/2 plus a bench-only program.",
+      "key_insights": [
+        "5×5 is not the villain. Basics fail at a *real* plateau; keep them as the base and add unusual frequency/intensity placement",
+        "Strength is a skill. Practice the heavy single; genetics-only strong people are the exception",
+        "Two singles, not two maxes. Early-week 86–89%, late-week 89–94%; progress the percents; never daily max-out",
+        "Exposure before the platform. Nervous on squat singles / meets → more submaximal singles, like growing a speaking audience",
+        "230 → 250 kg squat is the proof-of-work he cites for double singles on an already-heavy squat",
+        "Cut can still be a strength block if the deficit is tiny, muscle is rising, and carbs sit on the session",
+        "500 kg @ 74 kg → 713 kg @ 66 kg is years, not six months — but it falsifies \"must bulk to get strong\"",
+        "Potentiation is a single before volume, not a 150% walkout circus",
+        "Bench loves this, deadlift does not. Same methods, lower intensity and more caution on pulls",
+        "8–10 weeks on / 8–10 weeks off if recovery, work, or social life cannot absorb extra heavies"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "strength-as-a-skill",
+          "title": "Strength as a Skill",
+          "e": "🎸"
+        },
+        {
+          "slug": "double-singles-method",
+          "title": "Double Singles Method",
+          "e": "2️⃣"
+        },
+        {
+          "slug": "practice-singles-not-maxes",
+          "title": "Practice Singles, Not Maxes",
+          "e": "📏"
+        },
+        {
+          "slug": "heavy-single-exposure",
+          "title": "Heavy Single Exposure",
+          "e": "😬"
+        },
+        {
+          "slug": "get-stronger-on-a-cut",
+          "title": "Get Stronger on a Cut",
+          "e": "📉"
+        },
+        {
+          "slug": "small-calorie-deficit-for-strength",
+          "title": "Small Calorie Deficit for Strength",
+          "e": "🍽️"
+        },
+        {
+          "slug": "peri-workout-carb-stacking",
+          "title": "Peri-Workout Carb Stacking",
+          "e": "🍝"
+        },
+        {
+          "slug": "session-potentiation-before-volume",
+          "title": "Session Potentiation Before Volume",
+          "e": "⚡"
+        },
+        {
+          "slug": "method-block-cycling",
+          "title": "Method Block Cycling",
+          "e": "🔄"
+        },
+        {
+          "slug": "modifiable-variables-strength-conditioning",
+          "title": "Modifiable Variables of Strength and Conditioning",
+          "e": "📋"
+        },
+        {
+          "slug": "three-by-five-strength-protocol",
+          "title": "Three-by-Five Strength Protocol",
+          "e": "🏋️"
+        },
+        {
+          "slug": "nine-exercise-adaptations",
+          "title": "Nine Exercise Adaptations",
+          "e": "9️⃣"
+        },
+        {
+          "slug": "training-deload-six-two-cycle",
+          "title": "Training Deload Six-Two Cycle",
+          "e": "📉"
+        },
+        {
+          "slug": "stimulate-recover-adapt-training",
+          "title": "Stimulate, Recover, Adapt",
+          "e": "🏋️"
+        }
+      ],
+      "conceptCount": 14
+    },
+    {
+      "slug": "youre-not-lazy-broke-stuck-exhausted-joe-dispenza",
+      "title": "YOU'RE NOT LAZY! How to Never Be Broke, Stuck & Exhausted Again | Dr. Joe Dispenza",
+      "video_id": "K1FWEHIgNZE",
+      "url": "https://youtu.be/K1FWEHIgNZE",
+      "duration_min": 49,
+      "creator": "jay-shetty",
+      "updated": "2026-09-16",
+      "created": "2026-09-16",
+      "section": "mind",
+      "tags": [
+        "mindset",
+        "meditation",
+        "neuroscience",
+        "habits",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "mindset",
+        "meditation",
+        "neuroscience",
+        "habits",
+        "jay shetty",
+        "Personality Creates Personal Reality",
+        "Thought–Feeling Loop",
+        "Body Conditioned as the Mind",
+        "Mental Rehearsal Installs Circuitry",
+        "Signal Genes Ahead of the Environment",
+        "How Long Will You React",
+        "Emotions Are a Record of the Past"
+      ],
+      "summary": "49-minute jay-shetty *On Purpose* clip with joe-dispenza — not a laziness lecture. The clickbait title sits on a personality OS: personality-creates-personal-reality (how you think, act, and feel). Shetty opens on repetitive self-worth thoughts in love. Dispenza's stack: ~90% of thoughts are yesterday's; a repeated thought becomes a belief; fire-together / wire-together hardwires it until it is unconscious. Change is becoming conscious of the unconscious without accepting the thought as truth. Thought → choice → behavior → experience → emotion, then the emotion drives the same thoughts. Biology (circuitry, chemistry, hormones, gene expression) stays the same because *you* stay the same.\n\nThe hard part is not insight. The body-conditioned-as-the-mind has memorized the unworthy feeling better than the conscious mind. When you inhibit the thought, the body craves the old chemistry and assaults you with more matching thoughts. Unfamiliar = change. Familiar = the known self. Shetty's \"leave the bleachers\" is Dispenza's line too: looking for evidence in an unchanged environment and not finding it is how most people surrender back to the old loop (stands-vs-court). Victory one is not going unconscious to the old thoughts. Victory two is firing and wiring the worthy/abundance/heal thought with intention and attention (prefrontal meaning). mental-rehearsal-installs-circuitry: the brain does not know rehearsal from the event; walk through Zoom, traffic, the ex, coworkers. Then teach the body the elevated emotion *before* the event (signal-genes-ahead-of-environment). Meditation, for him, literally means become familiar with the old self and the new self — do not get up until you feel it. Seven-day immersions: bodies in a ballroom reporting they already live in the future.\n\nAnxiety never going away is the second spine. Life is the experiment. Not \"will you react\" but how-long-will-you-react. Strong emotion toward a person or problem is attention = energy, a biological dependence. emotions-are-a-record-of-the-past; the body believes it is back in the event every time you remember it. Survival emotions (anger, control, envy, unworthiness, shame, depression) are altered states, not \"normal\" psychology — physiology knocked out of homeostasis. Long-term they downregulate genes. Forgiveness is taking attention off the person so you are no longer defined by the past. ~50% of the story people tell about that past is not even true — it justifies why they have not changed.\n\nHow to rewrite: enter-the-operating-system. Stress keeps the brain in mid-to-high beta (sports car in first gear); attention glued to body, environment, and time; forecasting the future from the past so you cannot be present. Slow into alpha to open the door past the analytical mind; theta is hypnotic suggestibility (twin to liminal-states-belief-change). Sit, and the body will demand the phone, the emails, impatience, \"I can't meditate / it's my mother's fault.\" Each time you settle the animal back into the present, you execute will greater than the program. Past that tedium, energy moves to the heart then the brain: relaxed-heart-awake-brain (gratitude, coherence, workshop-reported \"supernatural\" gamma, oxytocin). The feeling is not coming from a person, a car, a game. That is when seeking outside stops.\n\nWorkshop claims (his data, not independently audited here): community of ~1,800 as a lab; 2,882 blood metabolites; gene expression; 75–85% cause-and-effect vs ~18–25% drug studies; \"nervous system as pharmacist\"; testimonials of cancers, sensory loss, spinal injury, ALS, Parkinson's reversing and sometimes returning when the old personality returns. The four-minute mile is the person on stage with scans. Duration is not a menu: three months, two years, seven years. Showing up = believing it is possible.\n\nShetty's everyday objection (late for the interview, fight with a partner, kid in hospital): the emergency system is *for* predators. chronic-survival-steals-growth-energy is the failure mode — alarm left on, addictive, no energy for growth and repair. Two choices: victim (that person controls how I feel) or creator. Do the 10 resets in a day and it was a day worth living. Walking meditations practice the state with eyes open. Defaulting is not failure; it is a program. You ride the bike now. Keep showing up when there is no evidence. When you no longer need the magic because you already feel whole, that is when life starts changing. Community is hard in survival (attention on the self); out of survival, nature is connection.",
+      "key_insights": [
+        "~90% of thoughts are yesterday's — repetition becomes belief, then automatic, then unconscious",
+        "Thought is not truth — accept it and you get the same choice → behavior → experience → emotion loop",
+        "Body as the mind — habit is the body knowing better than the brain; it craves the old feeling",
+        "Unfamiliar is the river of change — familiar feeling is the known self, not \"this is right\"",
+        "Look for evidence too soon and you relapse — the environment has not changed because you have not fully changed",
+        "Mental rehearsal installs circuitry — brain does not distinguish imagined Zoom/traffic/ex from the event",
+        "Feel it before it happens — generate worthy/grateful/abundance so the body believes the future now",
+        "Meditation = become familiar — old self, new self; don't get up until the feeling is there",
+        "How long will you react — everyone reacts; staying is the identity",
+        "Emotions are a record of the past — remembering trauma remakes the chemistry",
+        "Survival emotions are altered states — not \"normal\"; they knock physiology out of balance",
+        "Forgiveness is attention off the person — you free yourself and them",
+        "Enter the operating system — beta chatter cannot rewrite; alpha/theta can",
+        "Settle the animal — phone, impatience, \"I can't meditate\" are the program asking to run",
+        "Relaxed in the heart, awake in the brain — inner-generated love/gratitude; seeking outside stops",
+        "Emergency vs chronic survival — run from the predator; do not live in alarm",
+        "Victim or creator — anything that controls how you feel and think is what you are victim to",
+        "Ten resets is a day worth living — walking meditation is the eyes-open test drive",
+        "Falling off is a program — how many times until you stop forgetting",
+        "One good hour vs 15–16 programmed hours — the hour cannot outweigh the day unless the day changes",
+        "Show up when scans have not moved — \"what about me still has to change?\"",
+        "When you don't need the outcome, it starts — lack/separation ends when the body believes it is already in the event"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "personality-creates-personal-reality",
+          "title": "Personality Creates Personal Reality"
+        },
+        {
+          "slug": "thought-feeling-loop",
+          "title": "Thought–Feeling Loop"
+        },
+        {
+          "slug": "body-conditioned-as-the-mind",
+          "title": "Body Conditioned as the Mind"
+        },
+        {
+          "slug": "mental-rehearsal-installs-circuitry",
+          "title": "Mental Rehearsal Installs Circuitry"
+        },
+        {
+          "slug": "signal-genes-ahead-of-environment",
+          "title": "Signal Genes Ahead of the Environment"
+        },
+        {
+          "slug": "how-long-will-you-react",
+          "title": "How Long Will You React"
+        },
+        {
+          "slug": "emotions-are-a-record-of-the-past",
+          "title": "Emotions Are a Record of the Past"
+        },
+        {
+          "slug": "enter-the-operating-system",
+          "title": "Enter the Operating System"
+        },
+        {
+          "slug": "relaxed-heart-awake-brain",
+          "title": "Relaxed Heart Awake Brain"
+        },
+        {
+          "slug": "chronic-survival-steals-growth-energy",
+          "title": "Chronic Survival Steals Growth Energy"
+        },
+        {
+          "slug": "thought-as-event-not-command",
+          "title": "Thought as Event Not Command",
+          "e": "💭"
+        },
+        {
+          "slug": "first-thought-second-thought",
+          "title": "First Thought Second Thought",
+          "e": "2️⃣"
+        },
+        {
+          "slug": "inner-control-before-outer",
+          "title": "Inner Control Before Outer",
+          "e": "🧭"
+        }
+      ],
+      "conceptCount": 13
+    },
     {
       "slug": "andrew-huberman-protocols-operating-manual-doac",
       "title": "Andrew Huberman: My Exact Routine To Optimize Brain & Body, I Do All Of These Every Day!",
