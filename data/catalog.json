@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 240,
-  "insightsCount": 235,
+  "insightsCount": 236,
   "conceptCount": 2400,
   "sections": [
     {
@@ -199,23 +199,28 @@
       "concepts": [
         {
           "slug": "ai-as-medium-not-product",
-          "title": "AI as Medium Not Product"
+          "title": "AI as Medium Not Product",
+          "e": "🧰"
         },
         {
           "slug": "pay-what-you-think-its-worth-pilot",
-          "title": "Pay What You Think Its Worth Pilot"
+          "title": "Pay What You Think Its Worth Pilot",
+          "e": "💻"
         },
         {
           "slug": "hair-on-fire-narrowing",
-          "title": "Hair on Fire Narrowing"
+          "title": "Hair on Fire Narrowing",
+          "e": "🔥"
         },
         {
           "slug": "sell-founder-not-product",
-          "title": "Sell Founder Not Product"
+          "title": "Sell Founder Not Product",
+          "e": "🧑‍💼"
         },
         {
           "slug": "deliver-in-existing-tools",
-          "title": "Deliver in Existing Tools"
+          "title": "Deliver in Existing Tools",
+          "e": "📊"
         },
         {
           "slug": "forward-deploy-ai",
@@ -301,7 +306,7 @@
         "30s: keep disrupting or you freeze",
         "Immigrant cost (self-doubt) and immigrant gift (see the broken thing) are the same seat"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "why-you-why-this-company",
@@ -586,31 +591,38 @@
       "concepts": [
         {
           "slug": "fail-at-what-you-love",
-          "title": "Fail at What You Love"
+          "title": "Fail at What You Love",
+          "e": "💔"
         },
         {
           "slug": "user-blueprint-not-gut",
-          "title": "User Blueprint Not Gut"
+          "title": "User Blueprint Not Gut",
+          "e": "🧩"
         },
         {
           "slug": "ask-pain-not-praise",
-          "title": "Ask Pain Not Praise"
+          "title": "Ask Pain Not Praise",
+          "e": "📞"
         },
         {
           "slug": "feature-subtraction-clarity",
-          "title": "Feature Subtraction Clarity"
+          "title": "Feature Subtraction Clarity",
+          "e": "✂️"
         },
         {
           "slug": "geo-arbitrage-runway",
-          "title": "Geo-Arbitrage Runway"
+          "title": "Geo-Arbitrage Runway",
+          "e": "✈️"
         },
         {
           "slug": "founder-discipline-over-freedom",
-          "title": "Founder Discipline Over Freedom"
+          "title": "Founder Discipline Over Freedom",
+          "e": "🕘"
         },
         {
           "slug": "startup-unsexy-boredom",
-          "title": "Startup Unsexy Boredom"
+          "title": "Startup Unsexy Boredom",
+          "e": "📊"
         },
         {
           "slug": "product-market-fit-iteration",
