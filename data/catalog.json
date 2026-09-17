@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 241,
-  "insightsCount": 238,
-  "conceptCount": 2415,
+  "videoCount": 245,
+  "insightsCount": 239,
+  "conceptCount": 2432,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 2,
-    "agents": 48,
+    "agents": 49,
     "systems": 12,
     "build": 40,
     "human": 11,
-    "performance": 47,
-    "mind": 30,
+    "performance": 48,
+    "mind": 31,
     "relationships": 42,
-    "other": 9
+    "other": 10
   },
   "videos": [
     {
@@ -550,6 +550,156 @@
       "conceptCount": 5
     },
     {
+      "slug": "ai-is-making-coding-cheap-what-matters-now",
+      "title": "AI Is Making Coding Cheap. Here's What Matters Now",
+      "video_id": "AVvDFsMUxf0",
+      "url": "https://youtu.be/AVvDFsMUxf0",
+      "duration_min": 105,
+      "creator": "andrew-ng",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "agents",
+      "tags": [
+        "andrew-ng",
+        "career",
+        "agents",
+        "stanford",
+        "vibe-coding"
+      ],
+      "keywords": [
+        "andrew ng",
+        "career",
+        "agents",
+        "stanford",
+        "vibe coding",
+        "Product Management Bottleneck",
+        "engineer pm hybrid",
+        "trusted advisor engineer",
+        "agent intent plan execute reflect",
+        "make hype mundane",
+        "big ai vs small ai",
+        "Learn AI, Build Fast, Talk to Customers"
+      ],
+      "summary": "perfology-clips upload (~105 min, Sept 9 2026) of Stanford CS230 Autumn 2025 Lecture 9 — Career Advice in AI. andrew-ng opens; laurence-moroney (invited guest; *Introduction to PyTorch*) takes the second half. Original lecture: [AuZoDsNmG_s](https://youtu.be/AuZoDsNmG_s). YouTube captions on this upload were blocked; wiki body is that lecture.\n\nNg's half is the classroom version of product-management-bottleneck. Coding sped up (GPT-5 / Gemini 3 in the room). Product spec did not. Old Silicon Valley eng:PM talk was 4–8 engineers per PM. He is seeing 2:1 or 1:1, and the faster teams collapse engineer and PM into one human who talks to users, writes the spec, and ships. METR's task-horizon doubling is the study he cites against \"is AI slowing down?\" (benchmarks cannot go past 100%). Career move: do not wait for permission. Ideas outnumber builders. A failed weekend is cheap. Pick the team you sit with, not the hottest logo — he has told the CS230 story of a student parked on Java payment processing at a brand-name company, then watched a later student repeat it.\n\nMoroney's half is the trusted-advisor-engineer. Anyone can prompt an app. The senior job is security, maintainability, and saying no to the VP who vibe-coded spaghetti over a weekend. Debt is a mortgage vs credit-card test: a house you can service is good debt; impulse shoes are not. When a client says \"build an agent,\" ask why until the sentence has no AI in it. Sales example: they wanted an agent; they needed salespeople 20% more efficient at pre-call homework. Then agent-intent-plan-execute-reflect — intent, plan with tools, execute, reflect — not a framework shopping trip. make-hype-mundane: text-to-video is next-frame prediction; once you say that, consistency bugs stop being magic. big-ai-vs-small-ai: hosted AGI race vs self-hosted open-weight models on phones / one GPU (Hollywood, law, medicine). He expects the sooner bubble on Big AI, a later one on Small AI; either way, learn to create value, not to shill. Hard work is output you measure, not 996 hours.",
+      "key_insights": [
+        "Build cost fell; spec did not — bottleneck is what to build and why",
+        "Eng:PM 4–8:1 → 2:1 / 1:1 — or one person who is both",
+        "Weekend failure is cheap — do not wait for permission; do not harm others",
+        "Team over logo — Java-payments matching at a hot company taught nothing",
+        "Trusted advisor, not AI shill — strip the buzzword; solve the sentence that remains",
+        "Intent → plan → tools → reflect — that loop *is* an agent",
+        "Mortgage vs credit-card debt — vibe-code only what you can service",
+        "Make it mundane — next-frame, not \"magic video\"",
+        "Small AI — 7B next year ≈ 300B yesterday; fine-tune locally where privacy is the product",
+        "996 is time, not work — you are what you measure",
+        "Assume good intent, prepare for bad — the model has no choice; people do"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
+      "slug": "are-teens-really-using-less-drugs-scott-hadland",
+      "title": "Are Teens REALLY Using Less Drugs? | Dr. Scott Hadland",
+      "video_id": "XiXd1_3NPUo",
+      "url": "https://youtu.be/XiXd1_3NPUo",
+      "duration_min": 118,
+      "creator": "doctor-mike",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "mind",
+      "tags": [
+        "adolescent-medicine",
+        "addiction",
+        "public-health",
+        "pediatrics"
+      ],
+      "keywords": [
+        "adolescent medicine",
+        "addiction",
+        "public health",
+        "pediatrics",
+        "doctor mike",
+        "Teen Use Down, Danger Up",
+        "DARE Failed, Normative Non Use",
+        "Confidential Teen Visit",
+        "Safer Behaviors, Worse Wellbeing",
+        "Addiction Persistence Despite Harm",
+        "Motivational Interviewing Addiction",
+        "How to Talk to Someone With Addiction"
+      ],
+      "summary": "118-minute doctor-mike Checkup interview with scott-hadland (chief of adolescent and young adult medicine, Mass General for Children; Harvard pediatrics). YouTube title is the use-rate question. Podcast title is the confidential-visit fight. Both are in the tape. Recorded after the lagged 2025 NSDUH drop: teen nicotine/vaping, alcohol, cannabis, and other illicit use at historic lows. About two-thirds of high-school seniors had not used drugs or alcohol in the last month.\n\nThe split is the point. Use is down. Danger is not gone. teen-use-down-danger-up: 2022 teen overdoses hit an all-time high (~a classroom a week); most were fentanyl, often counterfeit pills that looked like oxycodone or Xanax. Families say poisoning, not overdose. Deaths have fallen since. Hadland is humble about why: naloxone and treatment help, but the illicit supply may simply be less lethal. Demand-side work (prevention, treatment, housing) still matters. The old war-on-drugs supply-only swing failed; dropping law enforcement entirely is also wrong.\n\ndare-failed-normative-nonuse: DARE's refusal-skills / \"just say no\" did not work. What works is telling teens most kids do not use, plus coping, stress, peers, trusted adults — often not a drug class. Energy drinks (200–300 mg caffeine) are the spike that did go up.\n\nAddiction in clinic is addiction-persistence-harm-definition as function: grades, money, driving, relationships out of control. Cannabis is the hardest to treat (milder withdrawal, \"just weed\"). Opioids are the most lethal and also the ones with FDA meds. Nicotine pouches can be a harm-reduction step if regulated as such, not as candy. First visit win is often come back, not quit. Ask what the use does for them. Ask: what would a problem look like? Write it down. Revisit.\n\nParents: do not supply alcohol at home (cohort: later heavy use). Do not be the 90s full-stop either. Curious questions, then a clear I recommend you don't. Limits and leverage (curfew, car, cash, phone). Praise the safe-ride call. Model use. If the parent uses daily too, treat that.\n\nconfidential-teen-visit is standard of care from ~11–12: RCT evidence that teens disclose more when a parent steps out. Safety exception (self/other harm; opioid overdose risk is a gray zone). Several states tried to ban it. Grooming/gender-conversion panic: a clinician cannot talk a kid into a new gender. Bills mostly stalled. Hadland honors the few families who refuse.\n\nAlso on tape: HPV as listen-first, not \"the vaccine causes sex\"; SSRI evidence vs rushed PHQ-9 scripts and later deprescribe; safer-behaviors-worse-wellbeing (sex/pregnancy/drugs down; ~1 in 5 teens moderate–severe anxiety, ~1 in 7 past-year depression); social-media self-diagnosis vs function; gay-dad/doctor path (St. Louis med school, 2009 match advice to stay closeted, one nursery refusal 17 years later); AI as visit speed + scribe, not a replacement when health-literacy splits free vs pro search.",
+      "key_insights": [
+        "Use down, danger up — historic-low teen use + fentanyl pills that look like real meds",
+        "Classroom a week — 2022 teen overdose peak; deaths down since; supply may explain more than messaging",
+        "Poisoning language — parents who lost a kid reject \"overdose\"",
+        "DARE missed the ingredient — most kids don't use; teach that, not only no",
+        "First visit = come back — dragged-in teen; find *their* goal (sleep, money, fit-in)",
+        "Function is the line — coffee that helps work ≠ cannabis that tanks grades or driving",
+        "Cannabis hardest, opioids deadliest — CUD is real; OUD has meds",
+        "What would a problem look like? — write the line; addiction's natural history crosses it",
+        "Cool-parent alcohol backfires — home supply → later heavy use",
+        "Recommend, don't shut the door — curiosity first, then \"I recommend you don't\"",
+        "Praise the safe ride — limits exist; punish the call and they stop calling",
+        "Parent out of the room — gold standard; honor the rare no",
+        "Safety is the only break — sex/cannabis/nicotine stay in the room unless harm",
+        "SSRIs work when assessed — trials yes; 15-minute checkbox no; later taper is normal",
+        "Safer kids, worse mood — risk behaviors down, distress up; cause unknown",
+        "Not every sadness is GAD — function, not a label from a test week",
+        "AI speeds the visit — lookup + ambient note; person still applies it"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "teen-use-down-danger-up",
+          "title": "Teen Use Down, Danger Up"
+        },
+        {
+          "slug": "dare-failed-normative-nonuse",
+          "title": "DARE Failed, Normative Non-Use"
+        },
+        {
+          "slug": "confidential-teen-visit",
+          "title": "Confidential Teen Visit"
+        },
+        {
+          "slug": "safer-behaviors-worse-wellbeing",
+          "title": "Safer Behaviors, Worse Wellbeing"
+        },
+        {
+          "slug": "addiction-persistence-harm-definition",
+          "title": "Addiction Persistence Despite Harm",
+          "e": "🔁"
+        },
+        {
+          "slug": "motivational-interviewing-addiction",
+          "title": "Motivational Interviewing Addiction",
+          "e": "🗣️"
+        },
+        {
+          "slug": "how-to-talk-someone-with-addiction",
+          "title": "How to Talk to Someone With Addiction",
+          "e": "🗣️"
+        },
+        {
+          "slug": "brain-plasticity-addiction-onset-age",
+          "title": "Brain Plasticity Addiction Onset Age",
+          "e": "🧩"
+        },
+        {
+          "slug": "diagnostic-creep",
+          "title": "Diagnostic Creep",
+          "e": "📐"
+        },
+        {
+          "slug": "iatrogenic-psychotropic-tradeoff",
+          "title": "Iatrogenic Psychotropic Tradeoff",
+          "e": "⚖️"
+        }
+      ],
+      "conceptCount": 10
+    },
+    {
       "slug": "college-dropout-builds-30m-startup-jenni-ai-david-park",
       "title": "College Dropout Builds $30M Startup While Fighting Cancer | Jenni AI David Park",
       "video_id": "YN7DT39f_Ak",
@@ -799,6 +949,59 @@
         }
       ],
       "conceptCount": 10
+    },
+    {
+      "slug": "exposing-the-truth-about-peptides-doctor-mike",
+      "title": "Exposing The Truth About Peptides",
+      "video_id": "xpdLs-_nl4g",
+      "url": "https://youtu.be/xpdLs-_nl4g",
+      "duration_min": 20,
+      "creator": "doctor-mike",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "performance",
+      "tags": [
+        "health",
+        "peptides",
+        "compounding",
+        "fda",
+        "doctor-mike"
+      ],
+      "keywords": [
+        "health",
+        "peptides",
+        "compounding",
+        "fda",
+        "doctor mike",
+        "PCAC 503A Peptide Vote",
+        "BPC 157 Healing & Safety",
+        "Peptide Sourcing & Gray Market",
+        "Peptide Receptor Categories",
+        "Celebrity Trinity Stack (Peptides)",
+        "Epithalon & Pineal Longevity",
+        "GLP 1 Semaglutide Caution"
+      ],
+      "summary": "doctor-mike (Mikhail Varshavski) records a ~20 min explainer (~7.0M views, Sept 2026) on wellness peptides after patients and family keep asking. Frame: peptides are short amino-acid messengers (insulin is the gold-standard case that already survived full human + FDA review). The 2010s bodybuilder / biohacker wave plus GLP-1 media cycle created demand for \"peptides do everything.\" After 2023 FDA safety flags on many compounded peptides, people routed around regulation via telehealth, med spas, functional clinics, and gray-market \"research use only / not for human use\" vials — often self-injected, often made abroad, often unsupervised.\n\nThe video's payload is not a Bakri-style pharmacology catalog. It is the July 23–24, 2026 PCAC meeting. RFK Jr., as HHS secretary and a self-described peptide user, had pushed a new compounding review. The question on the table was not FDA approval. It was whether seven peptides should go on the 503A bulks list so 503A compounders could legally make them for a named patient. FDA scientists reviewed chemistry, animal data, human data, routes, and impurity/immunogenicity risk and recommended no on all seven: BPC-157 had one small UC enema abstract (n=53), no RCTs for injectable MSK use; they reported no adequate human exposure data for KPV, TB-500, and MOTS-c. Identity also fails the insulin test — vendor TB-500 sequences can differ, so \"10 units\" is not a known 10 units.\n\nPCAC still recommended six of seven (BPC-157 / KPV / TB-500 8–6–1; MOTS-c narrower; Epitalon and Semax day two; emideltide/DSIP failed). Doctor Mike calls the winning argument harm reduction (gray-market demand already exists; a licensed pharmacy beats mystery powder, including an MDMA-laced \"research\" vial anecdote) and says that argument is logical but not the question the process is built to answer. He then alleges process capture: 8 of 11 regular voting members seated weeks before the meeting; reported COI in longevity / compounding businesses; Makary raised concerns, HHS proceeded, Makary later resigned; one member tied to Rep. Diana Harshbarger, who had urged the peptide review; no public COI waivers; every yes from the new bloc, incumbents no/abstain. Clinics claiming \"BPC-157 is now FDA approved\" are lying — PCAC is advisory; list changes need rulemaking.\n\nCloses: some of these peptides might become medicines (insulin and semaglutide were experimental once); podcast excitement is the start of a pipeline, not the end; most promising treatments fail; thalidomide stayed out of the US because FDA said no.",
+      "key_insights": [
+        "Peptide ≠ protein, and insulin is the contrast case — size is a tendency; the real split is studied-in-humans + FDA-reviewed vs podcast-stack novelty.",
+        "GLP-1 hype leaked into the whole peptide category — bodybuilders → biohackers → \"maybe they work for everything.\"",
+        "2023 safety flags → gray-market workaround — telehealth / spas / \"not for human use\" self-injection; COVID-vax skepticism is inconsistent if you then inject unreviewed vials.",
+        "503A ≠ approval — bulks-list yes only lets a pharmacist/physician compound for a patient; it is not a finding of safety or efficacy for everyone.",
+        "Four 503A tests — identity/manufacture, safety, evidence it works, history of compounding use.",
+        "FDA staff: no on all seven — BPC-157 UC abstract only; no injectable MSK RCTs; no human exposure file for KPV / TB-500 / MOTS-c; peptides aggregate, degrade, immunize, and vary by vendor.",
+        "Harm-reduction yes vs evidence yes — gray-market MDMA contamination story is real-world; it still does not answer usefulness, dose, or how the drug should be made.",
+        "Six recommended, one not — BPC-157, KPV, TB-500, MOTS-c, Epitalon, Semax recommended; emideltide (DSIP) not. Advisory only.",
+        "Demand-as-evidence shortcut — if influencers create demand first, companies can skip trials and treat access as harm reduction. Doctor Mike: worse-than-pharma incentive (pharma at least has to prove dose and safety).",
+        "Anti-Ozempic / pro-unreviewed-peptide hypocrisy — same voices call physicians drug-pushers, then attack caution on BPC."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "pcac-503a-peptide-vote",
+          "title": "PCAC 503A Peptide Vote"
+        }
+      ],
+      "conceptCount": 1
     },
     {
       "slug": "he-didnt-make-money-for-8-years-saeju-jeong",
@@ -2384,6 +2587,100 @@
           "slug": "playfulness-in-communication",
           "title": "Playfulness in Communication",
           "e": "😄"
+        }
+      ],
+      "conceptCount": 6
+    },
+    {
+      "slug": "what-killed-every-movie-star-doctor-mike",
+      "title": "What Killed Every Movie Star",
+      "video_id": "fSCPw9z7HwE",
+      "url": "https://youtu.be/fSCPw9z7HwE",
+      "duration_min": 24,
+      "creator": "doctor-mike",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "other",
+      "tags": [
+        "medicine",
+        "celebrity",
+        "cause-of-death",
+        "doctor-mike"
+      ],
+      "keywords": [
+        "medicine",
+        "celebrity",
+        "cause of death",
+        "doctor mike",
+        "Hidden Diagnosis While Working",
+        "Polypharmacy Respiratory Depression",
+        "Lewy Body Dementia Misdiagnosis",
+        "SUDEP",
+        "Grief vs Depression Distinction",
+        "Cognitive Reserve Challenge"
+      ],
+      "summary": "doctor-mike (~24 min; auto-captions; Ground News mid-roll) walks an Oscars in-memoriam list and names how they died, not just that they died. The hook is mystery drownings, car wrecks, and one cult murder. The durable medical thread is quieter: stars keep working on hidden-diagnosis-while-working, cocktails of ordinary meds become polypharmacy-respiratory-depression, neurodegenerative disease is easy to misname, and a 20-year-old Disney actor can die of sudep.\n\nOfficial on-video corrections (description): Heath Ledger was 28, not 26. Paul Walker died in 2013, not 2015. ASR also garbles names and drugs; the list below uses the public record those lines point at.\n\nTeaching posture: rich/famous access is not protection. Personal physicians, studio \"handlers,\" and secrecy can make care worse. Closer: drop more names in comments; \"stay happy and healthy\"; tease a dictators-death follow-up.",
+      "key_insights": [
+        "Boseman — stage 3 colon cancer (2016, post–Civil War); chemo/surgery between shoot days; died 2020 at 43. Almost nobody knew.",
+        "Ledger — oxycodone + hydrocodone + diazepam + temazepam + alprazolam + doxylamine. Doses maybe not huge; combo respiratory depression in sleep. Video said 26; correction: 28.",
+        "Williams — thought Parkinson's; autopsy Lewy body dementia. 39/40 common LBD signs; wife thinks he hid hallucinations. Anti-anxiety meds can worsen paranoia. Died 63.",
+        "Connery — 90, sleep; heart failure from AFib + respiratory failure from pneumonia.",
+        "Moore — short cancer battle, Switzerland.",
+        "Carrie Fisher — cardiac arrest tied to sleep apnea; atherosclerosis + cocaine/methadone/MDMA/alcohol/opiates on tox. Age 60.",
+        "Debbie Reynolds — stroke the next day, 84. Son: shock of Carrie's death triggered it.",
+        "Temple — 85, pneumonia + COPD. 1972 mastectomy; public confidence cut stigma. FDR: \"as long as our country has Shirley Temple.\"",
+        "Garland — studio gave a child sleeping pills at night and uppers on set. Dead at 47, bathroom, barbiturate overdose.",
+        "Dean — 24, head-on on the way to a Salinas race; massive internal injuries, DOA. Other driver minor injuries.",
+        "Wood — 1981, dinghy + body near Catalina. First: accidental drowning. Reopened 2011: drowning + undetermined factors; how she entered the water \"not clearly established.\"",
+        "Hackman — 2025, found with wife Betsy. She: hantavirus pulmonary syndrome. He: heart disease days later. Speculation: advanced Alzheimer's, so no 911.",
+        "Lee — 32, cerebral edema. Official: hypersensitivity to Equagesic (aspirin + meprobamate). Other bets: repeated-head-trauma stroke, heat stroke after underarm sweat-gland removal, hyponatremia.",
+        "Hoffman — bathtub, needle, mixed intoxication (heroin, cocaine, benzos, amphetamine). Headline split on whether the opioid crisis is \"persisting\" or \"declining\" is the Ground News pitch.",
+        "Walker — passenger-side into trees, fire; traumatic + thermal. Video said 2015; correction: 2013. CGI/brother used for one more *Fast* film.",
+        "Chaplin — stroke, Christmas 1977. Keaton — lung cancer, 70.",
+        "Phoenix — 23, lethal cocaine + morphine; Valium/marijuana/ephedrine traces.",
+        "Poitier — 94; Alzheimer's + prostate cancer + heart failure. First Black best-actor Oscar; Medal of Freedom 2009.",
+        "Rickman — prostate cancer before *Order of the Phoenix*; later stroke → pancreatic cancer, died ~1 year after.",
+        "Coltrane — 72; multi-organ failure (sepsis, LRTI, T2DM, heart block, obesity).",
+        "Audrey Hepburn — appendix cancer. Katharine Hepburn — cardiac arrest; essential tremor (intention, with motion). No relation.",
+        "Tracy — heart attack, 67, after *Guess Who's Coming to Dinner*. Taylor — CHF, 79.",
+        "Wilder — survived non-Hodgkin lymphoma (2003); died 2016 of Alzheimer complications. Pryor — decades of MS, then cardiac arrest at 65.",
+        "O'Hara — PE; private rectal cancer. Cancer raises PE risk. Stewart — also PE.",
+        "Newman — lung cancer, 83. Redford — 89, \"peacefully in his sleep\"; no public specific cause.",
+        "Boyce — SUDEP in sleep after a seizure, 20. Youngest on the list.",
+        "Keaton — pneumonia after a rapid 2025 decline.",
+        "Tate — 1969, 8 months pregnant; Manson family stabbing. Blood used to write \"pig.\""
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "hidden-diagnosis-while-working",
+          "title": "Hidden Diagnosis While Working",
+          "e": "🎭"
+        },
+        {
+          "slug": "polypharmacy-respiratory-depression",
+          "title": "Polypharmacy Respiratory Depression",
+          "e": "💊"
+        },
+        {
+          "slug": "lewy-body-dementia-misdiagnosis",
+          "title": "Lewy Body Dementia Misdiagnosis",
+          "e": "🧠"
+        },
+        {
+          "slug": "sudep",
+          "title": "SUDEP",
+          "e": "⚡"
+        },
+        {
+          "slug": "grief-vs-depression-distinction",
+          "title": "Grief vs Depression Distinction",
+          "e": "💔"
+        },
+        {
+          "slug": "cognitive-reserve-challenge",
+          "title": "Cognitive Reserve Challenge",
+          "e": "🧩"
         }
       ],
       "conceptCount": 6
