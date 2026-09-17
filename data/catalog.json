@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 228,
-  "insightsCount": 222,
-  "conceptCount": 2251,
+  "insightsCount": 223,
+  "conceptCount": 2261,
   "sections": [
     {
       "id": "architecture",
@@ -389,7 +389,8 @@
         },
         {
           "slug": "one-sample-not-ten-thousand",
-          "title": "One Sample Not Ten Thousand"
+          "title": "One Sample Not Ten Thousand",
+          "e": "👕"
         },
         {
           "slug": "ask-advice-get-money",
@@ -398,7 +399,8 @@
         },
         {
           "slug": "waiting-list-market-test",
-          "title": "Waiting List Market Test"
+          "title": "Waiting List Market Test",
+          "e": "📬"
         },
         {
           "slug": "launch-as-commitment",
@@ -500,19 +502,23 @@
       "concepts": [
         {
           "slug": "instant-gratification-monkey",
-          "title": "Instant Gratification Monkey"
+          "title": "Instant Gratification Monkey",
+          "e": "🐒"
         },
         {
           "slug": "dark-playground",
-          "title": "Dark Playground"
+          "title": "Dark Playground",
+          "e": "🟠"
         },
         {
           "slug": "deadline-vs-no-deadline-procrastination",
-          "title": "Deadline vs No-Deadline Procrastination"
+          "title": "Deadline vs No-Deadline Procrastination",
+          "e": "📅"
         },
         {
           "slug": "life-calendar-weeks",
-          "title": "Life Calendar (Weeks)"
+          "title": "Life Calendar (Weeks)",
+          "e": "📦"
         },
         {
           "slug": "procrastination-types-huberman",
@@ -565,7 +571,7 @@
         "Genetic Lottery Beauty Legacy",
         "Constructed Fashion Image",
         "Lookism Unearned Benefits",
-        "model insecurity paradox",
+        "Model Insecurity Paradox",
         "Looksmaxxing Comparison Trap"
       ],
       "summary": "cameron-russell (~10 min, ted / TEDxMidAtlantic 2012; official captions) opens by changing out of a runway dress into a sweater on stage — the first outfit change she knows of on a TED stage — to prove the thesis in six seconds: image-powerful-and-superficial. Image moves what the room thinks of you. It is also a costume. She is on the stage because she is a pretty white woman her industry calls a \"sexy girl,\" not because she earned a different kind of expertise, and she treats honesty about that as the fearless move.\n\nShe answers the four questions people always ask, with the twist she says backstage never puts on camera. How do you become a model? Not \"I was scouted.\" genetic-lottery-beauty-legacy — she won a lottery and is cashing a centuries-old definition of beauty (health/youth/symmetry plus tall, slender, feminine, white). A 2007 NYU count of every hired runway model: 677 hired, 27 non-white (<4%). Can I be a model when I grow up? First, you can be president, invent the next Internet, or a ninja cardiothoracic surgeon poet. If they still insist: be my boss (Vogue editor, H&M CEO, the next Steven Meisel). Wanting to model is wanting to win the Powerball. It is not a career path, and ten years of \"underwear model\" on a résumé closes other rooms.\n\nDo they retouch? Yes, and that is the small part. constructed-fashion-image — first bikini shoot before she had her period; grandma photos, soccer, slumber party vs the same-day Vogue / V construction. Hair, makeup, photographer, stylists, pre- and post-production build a person who is not her. Do you get free stuff? The interesting free stuff is not 8-inch heels. lookism-unearned-benefits: Cambridge store forgot money, they gave her the dress; teenage red-light stop, \"Sorry, officer\" and they drove on. People also pay a cost for how they look: NYC stop-and-frisk that year, 140,000 teenagers, 86% Black and Latino, against ~177,000 young Black and Latino men in the city — not *will I get stopped* but *how many times*.\n\nWhat is it like? The answer they want is thinner thighs + shinier hair = happy. Backstage they say travel and creative people. The half they never say on camera: I am insecure, because she has to think about how she looks every day. model-insecurity-paradox — the women with the thinnest thighs, shiniest hair, and coolest clothes are probably the most physically insecure on the planet. US girls: 53% dislike their bodies at 13, 78% by 17. She is uncomfortable both naming the stacked deck and saying the stack does not always make her happy, and more uncomfortable unpacking gender/race oppression as one of its biggest beneficiaries. She is glad she said it before 10–20–30 years of agency would have edited out how she got the first job and paid for college.\n\nTakeaway: get more comfortable acknowledging the power of image in perceived successes and perceived failures.",
@@ -580,7 +586,7 @@
         "Say it while you still will — later agency might sand off the first-job and college-tuition stories",
         "Name the image tax on W/L — perceived success and failure both run through looks"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "image-powerful-and-superficial",
@@ -597,9 +603,23 @@
         {
           "slug": "lookism-unearned-benefits",
           "title": "Lookism Unearned Benefits"
+        },
+        {
+          "slug": "model-insecurity-paradox",
+          "title": "Model Insecurity Paradox"
+        },
+        {
+          "slug": "looksmaxxing-comparison-trap",
+          "title": "Looksmaxxing Comparison Trap",
+          "e": "🪞"
+        },
+        {
+          "slug": "comparison-is-thief-of-joy",
+          "title": "Comparison Is the Thief of Joy",
+          "e": "🪞"
         }
       ],
-      "conceptCount": 4
+      "conceptCount": 7
     },
     {
       "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
@@ -1002,9 +1022,34 @@
         {
           "slug": "replace-workmates-with-playmates",
           "title": "Replace Workmates With Playmates"
+        },
+        {
+          "slug": "happiness-macronutrients",
+          "title": "Happiness Macronutrients",
+          "e": "🍽️"
+        },
+        {
+          "slug": "enjoyment-vs-pleasure",
+          "title": "Enjoyment vs Pleasure",
+          "e": "🧠"
+        },
+        {
+          "slug": "four-worldly-idols",
+          "title": "Four Worldly Idols",
+          "e": "🗿"
+        },
+        {
+          "slug": "proper-leisure",
+          "title": "Proper Leisure",
+          "e": "📚"
+        },
+        {
+          "slug": "small-moments-connection-wellbeing",
+          "title": "Small Moments Connection Wellbeing",
+          "e": "💫"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 10
     },
     {
       "slug": "your-body-language-may-shape-who-you-are-amy-cuddy-ted",
@@ -1073,9 +1118,19 @@
           "slug": "presence-body-language-cues",
           "title": "Presence Body Language Cues",
           "e": "🚪"
+        },
+        {
+          "slug": "shy-to-confident-bridge",
+          "title": "Shy-to-Confident Bridge",
+          "e": "🌉"
+        },
+        {
+          "slug": "perceived-confidence-loop",
+          "title": "Perceived Confidence Loop",
+          "e": "🪞"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 7
     },
     {
       "slug": "atomic-habits-james-clear-audiobook",
