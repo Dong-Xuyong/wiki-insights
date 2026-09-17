@@ -310,19 +310,23 @@
       "concepts": [
         {
           "slug": "why-you-why-this-company",
-          "title": "Why You Why This Company"
+          "title": "Why You Why This Company",
+          "e": "🚪"
         },
         {
           "slug": "hard-time-is-building-time",
-          "title": "Hard Time Is Building Time"
+          "title": "Hard Time Is Building Time",
+          "e": "🧱"
         },
         {
           "slug": "decade-stage-self-investment",
-          "title": "Decade Stage Self-Investment"
+          "title": "Decade Stage Self-Investment",
+          "e": "📅"
         },
         {
           "slug": "immigrant-outsider-problem-sight",
-          "title": "Immigrant Outsider Problem Sight"
+          "title": "Immigrant Outsider Problem Sight",
+          "e": "🗽"
         },
         {
           "slug": "immigrant-founder-self-doubt",
@@ -1073,27 +1077,33 @@
       "concepts": [
         {
           "slug": "enterprise-sales-as-trust-exercise",
-          "title": "Enterprise Sales as Trust Exercise"
+          "title": "Enterprise Sales as Trust Exercise",
+          "e": "🤝"
         },
         {
           "slug": "seek-innovator-buyers",
-          "title": "Seek Innovator Buyers"
+          "title": "Seek Innovator Buyers",
+          "e": "🧪"
         },
         {
           "slug": "value-first-then-ask",
-          "title": "Value First, Then Ask"
+          "title": "Value First, Then Ask",
+          "e": "🎁"
         },
         {
           "slug": "sales-engineer-product-depth",
-          "title": "Sales-Engineer Product Depth"
+          "title": "Sales-Engineer Product Depth",
+          "e": "🔧"
         },
         {
           "slug": "weakness-as-sales-superpower",
-          "title": "Weakness as Sales Superpower"
+          "title": "Weakness as Sales Superpower",
+          "e": "🎤"
         },
         {
           "slug": "conversation-slowdown-phrases",
-          "title": "Conversation Slowdown Phrases"
+          "title": "Conversation Slowdown Phrases",
+          "e": "⏸️"
         },
         {
           "slug": "plg-sales-hybrid",
@@ -1880,31 +1890,38 @@
       "concepts": [
         {
           "slug": "one-step-per-day",
-          "title": "One Step Per Day"
+          "title": "One Step Per Day",
+          "e": "👣"
         },
         {
           "slug": "prepaid-first-customer",
-          "title": "Prepaid First Customer"
+          "title": "Prepaid First Customer",
+          "e": "💳"
         },
         {
           "slug": "bakery-reciprocity-saas",
-          "title": "Bakery Reciprocity (SaaS)"
+          "title": "Bakery Reciprocity (SaaS)",
+          "e": "🍞"
         },
         {
           "slug": "sameness-then-difference",
-          "title": "Sameness Then Difference"
+          "title": "Sameness Then Difference",
+          "e": "🥤"
         },
         {
           "slug": "tenth-cost-pricing",
-          "title": "Tenth-Cost Pricing"
+          "title": "Tenth-Cost Pricing",
+          "e": "💲"
         },
         {
           "slug": "vitamin-to-indispensable",
-          "title": "Vitamin to Indispensable"
+          "title": "Vitamin to Indispensable",
+          "e": "💊"
         },
         {
           "slug": "ten-year-minimum-build",
-          "title": "Ten-Year Minimum Build"
+          "title": "Ten-Year Minimum Build",
+          "e": "📅"
         },
         {
           "slug": "delayed-gratification-business",
