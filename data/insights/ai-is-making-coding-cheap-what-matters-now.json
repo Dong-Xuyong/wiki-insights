@@ -1,0 +1,65 @@
+{
+  "slug": "ai-is-making-coding-cheap-what-matters-now",
+  "sections": [
+    {
+      "title": "The bottleneck moved",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What got cheap, and what did not?",
+          "a": "Writing code sped up (GPT-5 / Gemini 3 in the room). **Deciding what to build did not.** That is Ng's product-management bottleneck in lecture form."
+        },
+        {
+          "e": "👥",
+          "q": "What happened to the eng:PM ratio?",
+          "a": "Old Valley talk: one PM keeps **4–8 engineers** busy. Ng is seeing **2:1 or 1:1** — or **one human who is both**. Take the numbers with salt. The direction does not wander."
+        },
+        {
+          "e": "🚪",
+          "q": "Do you wait for permission?",
+          "a": "**No.** Ideas outnumber builders. A failed weekend is cheap. Do not harm others. Then go."
+        }
+      ]
+    },
+    {
+      "title": "Trusted advisor, not shill",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is Moroney's first move when someone says 'build an agent'?",
+          "a": "Ask **why** until the sentence has **no AI and no agent**. Sales example: they wanted an agent. They needed salespeople **20% more efficient** at pre-call homework."
+        },
+        {
+          "e": "🔁",
+          "q": "What four steps make an agent?",
+          "a": "**Intent → plan (with tools) → execute → reflect.** If the result misses intent, replan. A toolkit is not an agent."
+        },
+        {
+          "e": "🏠",
+          "q": "What is the mortgage test for vibe coding?",
+          "a": "A house you can service is **good debt**. Shoes on a credit card are not. Prompted spaghetti you cannot debug is the credit card."
+        }
+      ]
+    },
+    {
+      "title": "Mundane mechanics, two AIs",
+      "items": [
+        {
+          "e": "🎬",
+          "q": "How do you kill hype?",
+          "a": "Say the dull true sentence. **Text-to-video is next-frame prediction.** Consistency bugs stop being magic. You become useful."
+        },
+        {
+          "e": "📱",
+          "q": "What is Small AI vs Big AI?",
+          "a": "**Big AI:** hosted frontier, AGI race, privacy risk for Hollywood/law/medicine. **Small AI:** self-hosted open weights on a phone or one GPU. Next year's **7B ≈ last year's 300B.** Sooner bubble on Big; later on Small. Learn to ship value on both."
+        },
+        {
+          "e": "⏱️",
+          "q": "Is 996 hard work?",
+          "a": "**No.** It is hours. You are what you **measure**. Output, not 9-to-9 six days."
+        }
+      ]
+    }
+  ]
+}

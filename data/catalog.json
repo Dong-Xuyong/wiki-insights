@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 245,
-  "insightsCount": 241,
+  "insightsCount": 242,
   "conceptCount": 2448,
   "sections": [
     {
@@ -594,7 +594,7 @@
         "996 is time, not work — you are what you measure",
         "Assume good intent, prepare for bad — the model has no choice; people do"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "product-management-bottleneck",
@@ -602,23 +602,28 @@
         },
         {
           "slug": "engineer-pm-hybrid",
-          "title": "Engineer-PM Hybrid"
+          "title": "Engineer-PM Hybrid",
+          "e": "👥"
         },
         {
           "slug": "trusted-advisor-engineer",
-          "title": "Trusted Advisor Engineer"
+          "title": "Trusted Advisor Engineer",
+          "e": "🧭"
         },
         {
           "slug": "agent-intent-plan-execute-reflect",
-          "title": "Agent: Intent → Plan → Execute → Reflect"
+          "title": "Agent: Intent → Plan → Execute → Reflect",
+          "e": "🔁"
         },
         {
           "slug": "make-hype-mundane",
-          "title": "Make Hype Mundane"
+          "title": "Make Hype Mundane",
+          "e": "🎬"
         },
         {
           "slug": "big-ai-vs-small-ai",
-          "title": "Big AI vs Small AI"
+          "title": "Big AI vs Small AI",
+          "e": "📱"
         },
         {
           "slug": "learn-ai-build-fast-talk-to-customers",
