@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 240,
   "insightsCount": 237,
-  "conceptCount": 2400,
+  "conceptCount": 2401,
   "sections": [
     {
       "id": "architecture",
@@ -372,9 +372,14 @@
           "slug": "purpose-driven-business",
           "title": "Purpose-Driven Business",
           "e": "🎯"
+        },
+        {
+          "slug": "hobby-passion-small-tam",
+          "title": "Hobby Passion Small TAM",
+          "e": "🎸"
         }
       ],
-      "conceptCount": 13
+      "conceptCount": 14
     },
     {
       "slug": "advice-from-investor-who-backed-40-unicorns-elad-gil",
