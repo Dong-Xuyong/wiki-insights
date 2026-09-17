@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 227,
-  "insightsCount": 220,
-  "conceptCount": 2237,
+  "videoCount": 228,
+  "insightsCount": 222,
+  "conceptCount": 2251,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 47,
     "mind": 30,
     "relationships": 42,
-    "other": 7
+    "other": 8
   },
   "videos": [
     {
@@ -325,9 +325,14 @@
           "slug": "uptalk",
           "title": "Uptalk",
           "e": "📈"
+        },
+        {
+          "slug": "five-speaking-traps",
+          "title": "Five Speaking Traps",
+          "e": "🎤"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 8
     },
     {
       "slug": "if-i-had-90-days-start-business-simon-squibb",
@@ -379,7 +384,8 @@
       "concepts": [
         {
           "slug": "i-am-not-one-day-identity",
-          "title": "I Am Not One Day Identity"
+          "title": "I Am Not One Day Identity",
+          "e": "🪪"
         },
         {
           "slug": "one-sample-not-ten-thousand",
@@ -387,7 +393,8 @@
         },
         {
           "slug": "ask-advice-get-money",
-          "title": "Ask Advice Get Money"
+          "title": "Ask Advice Get Money",
+          "e": "💰"
         },
         {
           "slug": "waiting-list-market-test",
@@ -395,7 +402,8 @@
         },
         {
           "slug": "launch-as-commitment",
-          "title": "Launch as Commitment"
+          "title": "Launch as Commitment",
+          "e": "🚀"
         },
         {
           "slug": "concept-vs-idea-business",
@@ -488,7 +496,7 @@
         "Everyone procrastinates something — the sneaky kind is the one without a due date",
         "life-calendar-weeks — ~90 years of week-boxes; awareness job starts now, not \"soon\""
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "instant-gratification-monkey",
@@ -528,6 +536,70 @@
         }
       ],
       "conceptCount": 8
+    },
+    {
+      "slug": "looks-arent-everything-believe-me-im-a-model-cameron-russell",
+      "title": "Looks aren't everything. Believe me, I'm a model. | Cameron Russell | TED",
+      "video_id": "KM4Xe6Dlp0Y",
+      "url": "https://youtu.be/KM4Xe6Dlp0Y",
+      "duration_min": 10,
+      "creator": "cameron-russell",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "other",
+      "tags": [
+        "ted",
+        "appearance",
+        "identity",
+        "fashion",
+        "privilege"
+      ],
+      "keywords": [
+        "ted",
+        "appearance",
+        "identity",
+        "fashion",
+        "privilege",
+        "cameron russell",
+        "Image Powerful and Superficial",
+        "Genetic Lottery Beauty Legacy",
+        "Constructed Fashion Image",
+        "Lookism Unearned Benefits",
+        "model insecurity paradox",
+        "Looksmaxxing Comparison Trap"
+      ],
+      "summary": "cameron-russell (~10 min, ted / TEDxMidAtlantic 2012; official captions) opens by changing out of a runway dress into a sweater on stage — the first outfit change she knows of on a TED stage — to prove the thesis in six seconds: image-powerful-and-superficial. Image moves what the room thinks of you. It is also a costume. She is on the stage because she is a pretty white woman her industry calls a \"sexy girl,\" not because she earned a different kind of expertise, and she treats honesty about that as the fearless move.\n\nShe answers the four questions people always ask, with the twist she says backstage never puts on camera. How do you become a model? Not \"I was scouted.\" genetic-lottery-beauty-legacy — she won a lottery and is cashing a centuries-old definition of beauty (health/youth/symmetry plus tall, slender, feminine, white). A 2007 NYU count of every hired runway model: 677 hired, 27 non-white (<4%). Can I be a model when I grow up? First, you can be president, invent the next Internet, or a ninja cardiothoracic surgeon poet. If they still insist: be my boss (Vogue editor, H&M CEO, the next Steven Meisel). Wanting to model is wanting to win the Powerball. It is not a career path, and ten years of \"underwear model\" on a résumé closes other rooms.\n\nDo they retouch? Yes, and that is the small part. constructed-fashion-image — first bikini shoot before she had her period; grandma photos, soccer, slumber party vs the same-day Vogue / V construction. Hair, makeup, photographer, stylists, pre- and post-production build a person who is not her. Do you get free stuff? The interesting free stuff is not 8-inch heels. lookism-unearned-benefits: Cambridge store forgot money, they gave her the dress; teenage red-light stop, \"Sorry, officer\" and they drove on. People also pay a cost for how they look: NYC stop-and-frisk that year, 140,000 teenagers, 86% Black and Latino, against ~177,000 young Black and Latino men in the city — not *will I get stopped* but *how many times*.\n\nWhat is it like? The answer they want is thinner thighs + shinier hair = happy. Backstage they say travel and creative people. The half they never say on camera: I am insecure, because she has to think about how she looks every day. model-insecurity-paradox — the women with the thinnest thighs, shiniest hair, and coolest clothes are probably the most physically insecure on the planet. US girls: 53% dislike their bodies at 13, 78% by 17. She is uncomfortable both naming the stacked deck and saying the stack does not always make her happy, and more uncomfortable unpacking gender/race oppression as one of its biggest beneficiaries. She is glad she said it before 10–20–30 years of agency would have edited out how she got the first job and paid for college.\n\nTakeaway: get more comfortable acknowledging the power of image in perceived successes and perceived failures.",
+      "key_insights": [
+        "Six-second proof — outfit change is the argument: image is powerful and not the person",
+        "Scouted is a cover story — lottery + a legacy definition of beauty, not hustle",
+        "<4% non-white runways (2007) — 27 of 677; the Naomi/Tyra exceptions do not cancel the count",
+        "Powerball, not a path — tell kids to be the editor/CEO; ten years of underwear-model résumé is hard to talk past",
+        "Retouch is the small lie — a professional crew builds the picture; first bikini was pre-period",
+        "Look privilege is real-life free stuff — dress, traffic stop; the inverse is stop-and-frisk frequency",
+        "Ideal body ≠ happy — models have the target and are still the most insecure; 53%→78% girl body dislike",
+        "Say it while you still will — later agency might sand off the first-job and college-tuition stories",
+        "Name the image tax on W/L — perceived success and failure both run through looks"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "image-powerful-and-superficial",
+          "title": "Image Powerful and Superficial"
+        },
+        {
+          "slug": "genetic-lottery-beauty-legacy",
+          "title": "Genetic Lottery Beauty Legacy"
+        },
+        {
+          "slug": "constructed-fashion-image",
+          "title": "Constructed Fashion Image"
+        },
+        {
+          "slug": "lookism-unearned-benefits",
+          "title": "Lookism Unearned Benefits"
+        }
+      ],
+      "conceptCount": 4
     },
     {
       "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
@@ -683,7 +755,7 @@
         "Not Missiles But Microbes",
         "No Epidemic System",
         "Germ Games",
-        "ebola as wake up call",
+        "Ebola as Wake Up Call",
         "Present Harms vs Extinction Risk"
       ],
       "summary": "bill-gates (~9 min, ted, March 2015) argues the next catastrophe that kills over 10 million is more likely a highly infectious virus than a war: not-missiles-but-microbes. Childhood nuclear barrels and huge deterrent budgets exist. An epidemic stop system does not. no-epidemic-system: Ebola was not a system that underperformed. There was no system — delayed paper case reports, no ready epidemiologists or medical team, no one assigned to treatments or diagnostics, WHO funded to monitor not to do the missing pieces. MSF orchestrated volunteers; a large epidemic would need hundreds of thousands of workers.\n\nAbout 10,000 died, almost all in three West African countries. Three reasons it stayed contained: heroic health workers; Ebola is not airborne and people are usually bedridden once contagious; it mostly missed cities — luck. Next time the source could be a natural epidemic or bioterrorism. A 1918-style airborne flu model is his \"thousand times worse\" exhibit (~30 million dead). Tools already exist (phones, satellite maps, faster pathogen-to-drug/vaccine turnaround) but they need a global health system and preparedness copied from war: standing force, reserves, NATO-style rapid deploy, germ-games (US last ran one in 2001; \"germs 1, people 0\"), plus vaccine/diagnostics R&D. Cost is \"modest\" vs World Bank >$3T wealth hit and millions of deaths from a worldwide flu. No panic, no spaghetti hoard. ebola-as-wake-up-call: time is not on our side; start now.",
@@ -713,9 +785,13 @@
         {
           "slug": "germ-games",
           "title": "Germ Games"
+        },
+        {
+          "slug": "ebola-as-wake-up-call",
+          "title": "Ebola as Wake-Up Call"
         }
       ],
-      "conceptCount": 3
+      "conceptCount": 4
     },
     {
       "slug": "this-is-what-happens-when-you-reply-to-spam-email-james-veitch-ted",
@@ -849,9 +925,14 @@
           "slug": "over-articulation",
           "title": "Over-Articulation",
           "e": "👄"
+        },
+        {
+          "slug": "playfulness-in-communication",
+          "title": "Playfulness in Communication",
+          "e": "😄"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 6
     },
     {
       "slug": "what-makes-a-good-life-robert-waldinger-ted",
@@ -877,11 +958,11 @@
         "ted",
         "longevity",
         "robert waldinger",
-        "good relationships keep us happier healthier",
-        "loneliness kills",
-        "relationship quality over quantity",
-        "secure attachment protects memory",
-        "replace workmates with playmates",
+        "Good Relationships Keep Us Happier Healthier",
+        "Loneliness Kills",
+        "Relationship Quality Over Quantity",
+        "Secure Attachment Protects Memory",
+        "Replace Workmates With Playmates",
         "Happiness Macronutrients"
       ],
       "summary": "robert-waldinger (~13 min, ted, TEDxBeaconStreet 2015) asks where you would invest time and energy if you wanted a future best self. A millennial survey said get rich (80%+) and become famous (~50%). Culture says lean in to work. Those pictures of whole lives are almost impossible to get from memory: hindsight is not 20/20, and memory is sometimes creative.\n\nThe harvard-study-of-adult-development is the rare exception. For 75 years it tracked 724 men from two starting groups: Harvard sophomores (WWII generation, including one US president) and boys from Boston's poorest 1930s tenements. About 60 original men were still participating in their 90s; the study had begun following 2,000+ children; wives joined \"about time.\" Waldinger is the fourth director. Questionnaires, living-room interviews, medical records, blood, brain scans, videos of couples talking about deepest concerns.\n\nThe clearest message is not wealth, fame, or working harder: good-relationships-keep-us-happier-healthier. Period. Three lessons: loneliness-kills (connection predicts happiness, health, longevity; isolation is toxic; >1 in 5 Americans lonely; you can be lonely in a crowd or a marriage); relationship-quality-over-quantity (not friend-count or marital status; high-conflict unaffectionate marriages may be worse than divorce; age-50 relationship satisfaction predicted health at 80 better than cholesterol; warm bonds buffer old-age pain); secure-attachment-protects-memory (being able to count on someone in your 80s keeps memory sharper; daily bickering is fine if the \"count on\" test still holds).\n\nWhy we ignore hill-old wisdom: we want a quick fix. Relationships are messy, unsexy, lifelong. Happiest retirees had replace-workmates-with-playmates. Operator moves: screen time → people time; stale relationships → walks / date nights; reach the family member you have not spoken to in years (grudges tax the holder). Twain close: there is only time for loving.\n\nThis is the 75-year longitudinal receipt under Brooks's happiness-macronutrients / enjoyment-vs-pleasure (enjoyment needs people) and the anti-idol twin of millennial get-rich/get-famous (four-worldly-idols).",
@@ -900,9 +981,30 @@
         "Retirement — replace workmates with playmates on purpose",
         "This week — people over screens; do something new together; end a feud"
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "good-relationships-keep-us-happier-healthier",
+          "title": "Good Relationships Keep Us Happier Healthier"
+        },
+        {
+          "slug": "loneliness-kills",
+          "title": "Loneliness Kills"
+        },
+        {
+          "slug": "relationship-quality-over-quantity",
+          "title": "Relationship Quality Over Quantity"
+        },
+        {
+          "slug": "secure-attachment-protects-memory",
+          "title": "Secure Attachment Protects Memory"
+        },
+        {
+          "slug": "replace-workmates-with-playmates",
+          "title": "Replace Workmates With Playmates"
+        }
+      ],
+      "conceptCount": 5
     },
     {
       "slug": "your-body-language-may-shape-who-you-are-amy-cuddy-ted",
@@ -931,7 +1033,7 @@
         "Two Minute Power Pose",
         "Bodies Change Minds",
         "Fake It Till You Become It",
-        "presence mediates evaluation",
+        "Presence Mediates Evaluation",
         "Presence Body Language Cues",
         "Shy to Confident Bridge"
       ],
@@ -962,9 +1064,18 @@
         {
           "slug": "fake-it-till-you-become-it",
           "title": "Fake It Till You Become It"
+        },
+        {
+          "slug": "presence-mediates-evaluation",
+          "title": "Presence Mediates Evaluation"
+        },
+        {
+          "slug": "presence-body-language-cues",
+          "title": "Presence Body Language Cues",
+          "e": "🚪"
         }
       ],
-      "conceptCount": 3
+      "conceptCount": 5
     },
     {
       "slug": "atomic-habits-james-clear-audiobook",
