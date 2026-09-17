@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 228,
-  "insightsCount": 223,
+  "insightsCount": 224,
   "conceptCount": 2267,
   "sections": [
     {
@@ -809,7 +809,7 @@
         "Budget test — modest vs >$3T + millions dead; primary care and R&D also make the world more just",
         "No panic, get going — Ebola as early warning, not a reason to hide in the basement"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "not-missiles-but-microbes",
