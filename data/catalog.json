@@ -295,11 +295,13 @@
       "concepts": [
         {
           "slug": "seven-deadly-sins-of-speaking",
-          "title": "Seven Deadly Sins of Speaking"
+          "title": "Seven Deadly Sins of Speaking",
+          "e": "☠️"
         },
         {
           "slug": "hail-speaking-foundations",
-          "title": "HAIL Speaking Foundations"
+          "title": "HAIL Speaking Foundations",
+          "e": "🏗️"
         },
         {
           "slug": "five-vocal-foundations",
@@ -802,19 +804,23 @@
       "concepts": [
         {
           "slug": "not-missiles-but-microbes",
-          "title": "Not Missiles But Microbes"
+          "title": "Not Missiles But Microbes",
+          "e": "🦠"
         },
         {
           "slug": "no-epidemic-system",
-          "title": "No Epidemic System"
+          "title": "No Epidemic System",
+          "e": "🕳️"
         },
         {
           "slug": "germ-games",
-          "title": "Germ Games"
+          "title": "Germ Games",
+          "e": "🪖"
         },
         {
           "slug": "ebola-as-wake-up-call",
-          "title": "Ebola as Wake-Up Call"
+          "title": "Ebola as Wake-Up Call",
+          "e": "⏰"
         }
       ],
       "conceptCount": 4
