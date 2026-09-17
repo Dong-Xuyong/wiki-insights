@@ -1,0 +1,60 @@
+{
+  "slug": "vibe-coding-with-opencode-bridgemind",
+  "sections": [
+    {
+      "title": "What OpenCode is",
+      "items": [
+        {
+          "e": "⭐",
+          "q": "Why did BridgeMind stress-test OpenCode as a budget vibe-coding tool?",
+          "a": "OpenCode is an **open-source CLI AI coding agent** that exploded to **57K+ GitHub stars**. BridgeMind ran it as a cheaper alternative to paid harnesses like Claude Code and Cursor, connecting **BridgeMind MCP** and parallel sessions on real UI/app tasks."
+        },
+        {
+          "e": "🧰",
+          "q": "What capabilities make OpenCode stand out among CLI agents?",
+          "a": "It offers **LSP auto-load**, multi-session parallel agents, shareable session links, and **75+ LLM providers** via models.dev — Moonshot, Z.ai, local models, and more. **OpenCode Zen** is a ~$20 pay-as-you-go key for bundled coding models at discounted rates."
+        }
+      ]
+    },
+    {
+      "title": "Free models and rate limits",
+      "items": [
+        {
+          "e": "🆓",
+          "q": "Which free models did BridgeMind actually ship work with?",
+          "a": "**GLM 4.7** (Z.ai) and **MiniMax M 2.1** run free inside OpenCode. On the LM Arena **web-dev leaderboard**, both score **above GPT-5** — MiniMax roughly **50 points higher** — despite arriving months after GPT-5 was frontier."
+        },
+        {
+          "e": "🐢",
+          "q": "What slows free models down in practice?",
+          "a": "MiniMax hits **tokens-per-minute rate limits** on heavier tasks. GLM is less rate-limited but only ~**40 tokens/sec** on Open Router — the bottleneck is **model speed**, not an OpenCode bug."
+        }
+      ]
+    },
+    {
+      "title": "Provider lockdown",
+      "items": [
+        {
+          "e": "🔒",
+          "q": "Can you plug Claude Code or ChatGPT Pro credentials into OpenCode?",
+          "a": "No. Anthropic now rejects Claude Code / Anthropic-plan OAuth with: credentials are **only authorized for Claude Code**. OpenAI looks **API-key only** — ChatGPT Pro is not usable the same way. That is strategic lock-in to official harnesses."
+        }
+      ]
+    },
+    {
+      "title": "BridgeMind MCP workflow",
+      "items": [
+        {
+          "e": "🔀",
+          "q": "How does the two-agent BridgeMind pattern work with OpenCode?",
+          "a": "**Agent A** reviews the codebase and creates a structured BridgeMind MCP task (breadcrumbs, mobile board, security vulns). **Agent B** gets a **fresh context window** and executes that one task — planning and execution stay separated."
+        },
+        {
+          "e": "✅",
+          "q": "Who should actually use OpenCode day to day?",
+          "a": "BridgeMind gives a **stamp of approval for budget/local-model users** who cannot spend **$100–200/mo** on frontier plans. Frontier builders already on Claude Code (sub-agents, skills, `/ultra think`, UI polish) should stay put — OpenCode is secondary for the creator."
+        }
+      ]
+    }
+  ]
+}

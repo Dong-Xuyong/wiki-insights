@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 228,
   "insightsCount": 223,
-  "conceptCount": 2266,
+  "conceptCount": 2267,
   "sections": [
     {
       "id": "architecture",
@@ -504,19 +504,23 @@
       "concepts": [
         {
           "slug": "instant-gratification-monkey",
-          "title": "Instant Gratification Monkey"
+          "title": "Instant Gratification Monkey",
+          "e": "🐒"
         },
         {
           "slug": "dark-playground",
-          "title": "Dark Playground"
+          "title": "Dark Playground",
+          "e": "🟠"
         },
         {
           "slug": "deadline-vs-no-deadline-procrastination",
-          "title": "Deadline vs No-Deadline Procrastination"
+          "title": "Deadline vs No-Deadline Procrastination",
+          "e": "📅"
         },
         {
           "slug": "life-calendar-weeks",
-          "title": "Life Calendar (Weeks)"
+          "title": "Life Calendar (Weeks)",
+          "e": "📦"
         },
         {
           "slug": "procrastination-types-huberman",
@@ -622,12 +626,17 @@
           "e": "🎭"
         },
         {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
+        },
+        {
           "slug": "ego-comparison-trap",
           "title": "Ego Comparison Trap",
           "e": "🪞"
         }
       ],
-      "conceptCount": 9
+      "conceptCount": 10
     },
     {
       "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",

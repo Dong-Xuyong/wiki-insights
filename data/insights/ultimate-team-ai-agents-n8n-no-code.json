@@ -1,0 +1,70 @@
+{
+  "slug": "ultimate-team-ai-agents-n8n-no-code",
+  "sections": [
+    {
+      "title": "Orchestrator, not doer",
+      "items": [
+        {
+          "e": "🎛️",
+          "q": "What is the Ultimate Assistant allowed to do?",
+          "a": "Only **route** the user's query to the correct tool. The prompt says it should **never write emails or event summaries** — specialists handle the work."
+        },
+        {
+          "e": "👥",
+          "q": "Why four specialist agents instead of one mega-agent?",
+          "a": "**Email, Calendar, Contact, and Content Creator** each get a **short prompt** and scoped tools. That scales better than one agent loaded with every tool and a huge system prompt."
+        }
+      ]
+    },
+    {
+      "title": "n8n wiring patterns",
+      "items": [
+        {
+          "e": "🔗",
+          "q": "How do sub-workflows become tools?",
+          "a": "Use **Call n8n Workflow as Tool**. Sub-workflows start with **Execute Workflow Trigger**; the last node returns `response`. Tool names in **camelCase** (`emailAgent`, `calendarAgent`) must match the system prompt."
+        },
+        {
+          "e": "🧠",
+          "q": "How does the model fill Gmail and Calendar fields?",
+          "a": "**$fromAI** lets the model fill tool params (to, subject, body, message ID) from natural language — no hand-written parsing. Tavily HTTP search uses the same idea with `{{searchTerm}}` placeholders."
+        },
+        {
+          "e": "🪪",
+          "q": "Why do reply/label/delete actions need a prior \"get\"?",
+          "a": "It's an **ID-chaining** pattern: fetch emails, labels, or events first, then pass those IDs into the action tool for reply, label, mark-unread, delete, or update."
+        }
+      ]
+    },
+    {
+      "title": "Contact-first and error recovery",
+      "items": [
+        {
+          "e": "📇",
+          "q": "What must happen before drafting email or inviting attendees?",
+          "a": "The orchestrator must call the **Contact Agent** first and pass the **resolved email** into the downstream email or calendar query."
+        },
+        {
+          "e": "🔁",
+          "q": "How do failed sub-workflows recover?",
+          "a": "Sub-workflows use **On Error: Continue (Error Output)** → a `try again` branch so the orchestrator can retry with a new query instead of dying mid-run."
+        }
+      ]
+    },
+    {
+      "title": "Telegram UX and model mix",
+      "items": [
+        {
+          "e": "📱",
+          "q": "How do voice and text share one agent input?",
+          "a": "A **Switch** routes voice → transcription or text → both map to `json.text`, so one agent input field serves both. Memory buffer keeps context like \"push it back an hour.\""
+        },
+        {
+          "e": "🤖",
+          "q": "Which models power which agents?",
+          "a": "**GPT-4o** for the orchestrator and most sub-agents; **Claude 3.5 Sonnet** for the Content Creator (HTML blog structure). Free JSON templates ship via the AI Automation Society Skool resources."
+        }
+      ]
+    }
+  ]
+}
