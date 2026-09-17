@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 230,
   "insightsCount": 226,
-  "conceptCount": 2271,
+  "conceptCount": 2278,
   "sections": [
     {
       "id": "architecture",
@@ -310,9 +310,19 @@
         {
           "slug": "creativity-past-first-idea",
           "title": "Creativity Past First Idea"
+        },
+        {
+          "slug": "creative-thinking-novel-problems",
+          "title": "Creative Thinking Novel Problems",
+          "e": "💡"
+        },
+        {
+          "slug": "everyone-entrepreneur-ai-era",
+          "title": "Everyone Entrepreneur AI Era",
+          "e": "🌍"
         }
       ],
-      "conceptCount": 4
+      "conceptCount": 6
     },
     {
       "slug": "how-to-speak-so-that-people-want-to-listen-julian-treasure-ted",
@@ -660,23 +670,28 @@
       "concepts": [
         {
           "slug": "image-powerful-and-superficial",
-          "title": "Image Powerful and Superficial"
+          "title": "Image Powerful and Superficial",
+          "e": "👗"
         },
         {
           "slug": "genetic-lottery-beauty-legacy",
-          "title": "Genetic Lottery Beauty Legacy"
+          "title": "Genetic Lottery Beauty Legacy",
+          "e": "🎰"
         },
         {
           "slug": "constructed-fashion-image",
-          "title": "Constructed Fashion Image"
+          "title": "Constructed Fashion Image",
+          "e": "📸"
         },
         {
           "slug": "lookism-unearned-benefits",
-          "title": "Lookism Unearned Benefits"
+          "title": "Lookism Unearned Benefits",
+          "e": "🚓"
         },
         {
           "slug": "model-insecurity-paradox",
-          "title": "Model Insecurity Paradox"
+          "title": "Model Insecurity Paradox",
+          "e": "🪞"
         },
         {
           "slug": "looksmaxxing-comparison-trap",
@@ -857,15 +872,15 @@
         "design",
         "stanford",
         "li jiang",
-        "ai thinking",
-        "let machines do machine work",
-        "all design is redesign",
-        "assign ai dont ban it",
+        "AI Thinking",
+        "Let Machines Do Machine Work",
+        "All Design Is Redesign",
+        "Assign AI Don't Ban It",
         "Design Thinking Problem First",
         "Grade Homework Not Do Homework",
         "Research Then Verify (ChatGPT Workflow)"
       ],
-      "summary": "li-jiang (~10 min, stanford-aire / stanford-university) argues the AI era has already started, school still teaches as if it has not, and avoiding the tool is how you lose. A job a human does for $1,000 becomes ~$200 for a robot because you cannot calculate faster than the machine. let-machines-do-machine-work. Fearful people try to stay away. He calls that a mistake: this is one of the most powerful tools ever invented, and if you do not use it you cannot compete.\n\nThe curriculum he wants as early as possible is ai-thinking — three abilities. First, a general picture of how AI works: old AI was human-written rules; now deep learning and reinforcement learning search for an optimized solution in data, and more data usually means a better fit. Second, tell human work from machine work. Exhibit: structural biology. Humans solved the structures of <1% of ~100–200 million proteins. alphafold (DeepMind) then predicted almost all of them and put the set in an open database. Once the machine can do the job, let it, and move to the human remainder. Third, work *with* AI. The scarce human move is 0-to-1 — invent something that did not exist — with AI supplying information, not replacing the invention.\n\nPeople say creativity cannot be taught. Stanford Design Thinking is his counter: it will not make you Jobs or Musk, but it can make you more innovative than *you*. Steps: empathize (users and their emotion) → define the problem → ideate / brainstorm → prototype → test → loop. all-design-is-redesign. A lecture or a book is not enough; you have to run the loop until you feel it. Class case: incubators for Nepal. Design-from-California assumed a shortage of expensive machines. The team flew to the mountains and found the medical centers already had them — unused, because staff could not operate them. Villages wanted cheap home units. Wrong problem, then the right one.\n\nChatGPT is the surprise that talks naturally *and* writes code. Kids will use it for essays. His move is assign-ai-dont-ban-it: yesterday's homework was write the essay *with* ChatGPT, then a short 1:1 on how they used it and how it felt. Technology is water. You cannot block it. You go with it. He still wants the dream that Optimus Prime gave him as a kid — early minds need dreams — and his long goal is the education system that fits the next generation.",
+      "summary": "li-jiang (~10 min, stanford-aire / stanford-university) argues the AI era has already started, school still teaches as if it has not, and avoiding the tool is how you lose. A job a human does for $1,000 becomes ~$200 for a robot because you cannot calculate faster than the machine. let-machines-do-machine-work. Fearful people try to stay away. He calls that a mistake: this is one of the most powerful tools ever invented, and if you do not use it you cannot compete.\n\nThe curriculum he wants as early as possible is ai-thinking — three abilities. First, a general picture of how AI works: old AI was human-written rules; now deep learning and reinforcement learning search for an optimized solution in data, and more data usually means a better fit. Second, tell human work from machine work. Exhibit: structural biology. Humans solved the structures of <1% of ~100–200 million proteins. AlphaFold (google-deepmind) then predicted almost all of them and put the set in an open database. Once the machine can do the job, let it, and move to the human remainder. Third, work *with* AI. The scarce human move is 0-to-1 — invent something that did not exist — with AI supplying information, not replacing the invention.\n\nPeople say creativity cannot be taught. Stanford Design Thinking is his counter: it will not make you Jobs or Musk, but it can make you more innovative than *you*. Steps: empathize (users and their emotion) → define the problem → ideate / brainstorm → prototype → test → loop. all-design-is-redesign. A lecture or a book is not enough; you have to run the loop until you feel it. Class case: incubators for Nepal. Design-from-California assumed a shortage of expensive machines. The team flew to the mountains and found the medical centers already had them — unused, because staff could not operate them. Villages wanted cheap home units. Wrong problem, then the right one.\n\nChatGPT is the surprise that talks naturally *and* writes code. Kids will use it for essays. His move is assign-ai-dont-ban-it: yesterday's homework was write the essay *with* ChatGPT, then a short 1:1 on how they used it and how it felt. Technology is water. You cannot block it. You go with it. He still wants the dream that Optimus Prime gave him as a kid — early minds need dreams — and his long goal is the education system that fits the next generation.",
       "key_insights": [
         "$1,000 → ~$200 — if a human can do the job and a machine can calculate it faster, price it as machine work",
         "Avoidance is the real risk — staying away from AI is not safety; it is falling behind people who use it",
@@ -882,8 +897,30 @@
         "Early dreams — Optimus Prime → robots; little minds still need a dream"
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "concepts": [
+        {
+          "slug": "ai-thinking",
+          "title": "AI Thinking"
+        },
+        {
+          "slug": "let-machines-do-machine-work",
+          "title": "Let Machines Do Machine Work"
+        },
+        {
+          "slug": "all-design-is-redesign",
+          "title": "All Design Is Redesign"
+        },
+        {
+          "slug": "assign-ai-dont-ban-it",
+          "title": "Assign AI Don't Ban It"
+        },
+        {
+          "slug": "design-thinking-problem-first",
+          "title": "Design Thinking Problem-First",
+          "e": "🎯"
+        }
+      ],
+      "conceptCount": 5
     },
     {
       "slug": "the-next-outbreak-were-not-ready-bill-gates-ted",
@@ -1146,23 +1183,28 @@
       "concepts": [
         {
           "slug": "good-relationships-keep-us-happier-healthier",
-          "title": "Good Relationships Keep Us Happier Healthier"
+          "title": "Good Relationships Keep Us Happier Healthier",
+          "e": "❤️"
         },
         {
           "slug": "loneliness-kills",
-          "title": "Loneliness Kills"
+          "title": "Loneliness Kills",
+          "e": "☠️"
         },
         {
           "slug": "relationship-quality-over-quantity",
-          "title": "Relationship Quality Over Quantity"
+          "title": "Relationship Quality Over Quantity",
+          "e": "⚖️"
         },
         {
           "slug": "secure-attachment-protects-memory",
-          "title": "Secure Attachment Protects Memory"
+          "title": "Secure Attachment Protects Memory",
+          "e": "🧠"
         },
         {
           "slug": "replace-workmates-with-playmates",
-          "title": "Replace Workmates With Playmates"
+          "title": "Replace Workmates With Playmates",
+          "e": "🎲"
         },
         {
           "slug": "happiness-macronutrients",
@@ -1241,19 +1283,23 @@
       "concepts": [
         {
           "slug": "two-minute-power-pose",
-          "title": "Two-Minute Power Pose"
+          "title": "Two-Minute Power Pose",
+          "e": "🦸"
         },
         {
           "slug": "bodies-change-minds",
-          "title": "Bodies Change Minds"
+          "title": "Bodies Change Minds",
+          "e": "🔄"
         },
         {
           "slug": "fake-it-till-you-become-it",
-          "title": "Fake It Till You Become It"
+          "title": "Fake It Till You Become It",
+          "e": "🎭"
         },
         {
           "slug": "presence-mediates-evaluation",
-          "title": "Presence Mediates Evaluation"
+          "title": "Presence Mediates Evaluation",
+          "e": "🎯"
         },
         {
           "slug": "presence-body-language-cues",
