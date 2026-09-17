@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 228,
   "insightsCount": 223,
-  "conceptCount": 2261,
+  "conceptCount": 2266,
   "sections": [
     {
       "id": "architecture",
@@ -502,23 +502,19 @@
       "concepts": [
         {
           "slug": "instant-gratification-monkey",
-          "title": "Instant Gratification Monkey",
-          "e": "🐒"
+          "title": "Instant Gratification Monkey"
         },
         {
           "slug": "dark-playground",
-          "title": "Dark Playground",
-          "e": "🟠"
+          "title": "Dark Playground"
         },
         {
           "slug": "deadline-vs-no-deadline-procrastination",
-          "title": "Deadline vs No-Deadline Procrastination",
-          "e": "📅"
+          "title": "Deadline vs No-Deadline Procrastination"
         },
         {
           "slug": "life-calendar-weeks",
-          "title": "Life Calendar (Weeks)",
-          "e": "📦"
+          "title": "Life Calendar (Weeks)"
         },
         {
           "slug": "procrastination-types-huberman",
@@ -617,9 +613,19 @@
           "slug": "comparison-is-thief-of-joy",
           "title": "Comparison Is the Thief of Joy",
           "e": "🪞"
+        },
+        {
+          "slug": "public-role-playing",
+          "title": "Public Role Playing",
+          "e": "🎭"
+        },
+        {
+          "slug": "ego-comparison-trap",
+          "title": "Ego Comparison Trap",
+          "e": "🪞"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 9
     },
     {
       "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
@@ -925,11 +931,13 @@
       "concepts": [
         {
           "slug": "voice-as-orchestra",
-          "title": "Voice as Orchestra"
+          "title": "Voice as Orchestra",
+          "e": "🎺"
         },
         {
           "slug": "demo-before-label",
-          "title": "Demo Before Label"
+          "title": "Demo Before Label",
+          "e": "🎤"
         },
         {
           "slug": "eighty-eight-keys-voice",
@@ -1128,9 +1136,24 @@
           "slug": "perceived-confidence-loop",
           "title": "Perceived Confidence Loop",
           "e": "🪞"
+        },
+        {
+          "slug": "easy-to-interrupt-presence",
+          "title": "Easy-to-Interrupt Presence",
+          "e": "🧍"
+        },
+        {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
+        },
+        {
+          "slug": "five-speaking-traps",
+          "title": "Five Speaking Traps",
+          "e": "🎤"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 10
     },
     {
       "slug": "atomic-habits-james-clear-audiobook",
