@@ -1,0 +1,75 @@
+{
+  "slug": "build-sell-claude-code-operating-systems",
+  "sections": [
+    {
+      "title": "AIOS mindset and frameworks",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What are the Three Ms for AI leverage?",
+          "a": "**Mindset, Method, Machine**: default to \"how could AI do **30%** of this?\", break jobs into automatable chunks, and treat AI as a **mentor**, not a vending machine."
+        },
+        {
+          "e": "🧱",
+          "q": "What order do the Four Cs require?",
+          "a": "**Context → Connections → Capabilities → Cadence**. You cannot skip steps — cadence needs connections, and capabilities need context first."
+        },
+        {
+          "e": "📉",
+          "q": "Should you expect a productivity dip when adopting an AIOS?",
+          "a": "Yes — expect about a **~20% short-term loss**, then an exponential payoff by roughly **week two**."
+        }
+      ]
+    },
+    {
+      "title": "Durable setup choices",
+      "items": [
+        {
+          "e": "🧰",
+          "q": "How do you keep an AIOS from dying when tools change?",
+          "a": "Build a **tool-agnostic durable layer**: context files, **API reference markdown**, and skills that survive model churn. Nate migrated his AIOS to Codex in about **~2 minutes**."
+        },
+        {
+          "e": "🔑",
+          "q": "Why use dedicated AI service accounts?",
+          "a": "Create separate API keys/accounts (e.g. **\"Up AI\" in ClickUp**) with **scoped permissions** instead of wiring your full-access personal credentials."
+        },
+        {
+          "e": "📄",
+          "q": "Why prefer API reference docs over MCP?",
+          "a": "Research an integration once, save endpoints as **local markdown** — better **token efficiency** than MCP. Hardcode frequently used IDs in skills after watching agent behavior."
+        }
+      ]
+    },
+    {
+      "title": "Skills and cadence",
+      "items": [
+        {
+          "e": "📋",
+          "q": "How do Claude Code skills load tokens efficiently?",
+          "a": "Skills live at `.claude/skills/<name>/SKILL.md` with YAML front matter. **Progressive disclosure**: name/description first (**~100 tokens**), full skill on invoke, references/scripts only when needed. Skills are **SOPs for agents**."
+        },
+        {
+          "e": "⏰",
+          "q": "What are the three tiers of cadence?",
+          "a": "**Cloud routines** (GitHub + env vars, laptop off), **desktop scheduled tasks** (local/remote), and **`/loop`** (same-session cron, **3-day expiry**, minutely intervals)."
+        }
+      ]
+    },
+    {
+      "title": "What actually wins",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "When should you skip agents for boring automation?",
+          "a": "**Deterministic workflows beat AI agents** about **nine times out of ten**. Break processes into chunks — many chunks need plumbing, not autonomy."
+        },
+        {
+          "e": "🏆",
+          "q": "How do you know an AIOS is working?",
+          "a": "Subjective KPIs: your team can **ask the AIOS instead of you**, you **stop opening new tabs**, and knowledge **leaves your head** into the system. Proof of concept with Claude artifacts before custom dashboards."
+        }
+      ]
+    }
+  ]
+}

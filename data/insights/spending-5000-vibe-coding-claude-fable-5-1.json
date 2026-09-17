@@ -1,0 +1,35 @@
+{
+  "slug": "spending-5000-vibe-coding-claude-fable-5-1",
+  "sections": [
+    {
+      "title": "Launch-day maxxing",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What was this 4h33m stream actually?",
+          "a": "Not a bake-off. A **$5,000 Fable 5.1 maxxing** VOD the day after Anthropic's Sept 1, 2026 release: extra-high / **xhigh**, **six** Claude Code panes on Claude Max. Captions off — grounded in UI, chat, and sampled frames."
+        },
+        {
+          "e": "🏎️",
+          "q": "What quality claim is the Fable pitch here?",
+          "a": "On the creator's X: Fable 5.1 **oneshot a Mario Kart clone** — \"huge step up from Fable 5.\" Mid-stream: two 5.1 sub-agents for a maximalist Three.js Subway Surfers clone."
+        }
+      ]
+    },
+    {
+      "title": "Quota, not IQ",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What constraint actually showed up on stream?",
+          "a": "A usage graphic: **session 100% used**, week-Fable **78%**. Chat: Max users are \"cooked\"; 5.1 **eats tokens** faster than Fable 5. API cache reads got cheaper (**75% cut to $0.25**); **subscription session bars still melt**."
+        },
+        {
+          "e": "⚡",
+          "q": "Why did Gemini 3.8 Flash hijack the chat?",
+          "a": "As a **time-to-playable foil**: Flash in **minutes** vs Fable Mario Kart estimated **1h40–2h**. Tok/s and quota are **product features**, not footnotes. Route: Fable 5.1 as **advisor**, cheaper models as workers."
+        }
+      ]
+    }
+  ]
+}

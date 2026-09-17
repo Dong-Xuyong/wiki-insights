@@ -1,0 +1,75 @@
+{
+  "slug": "claude-ultimate-second-brain",
+  "sections": [
+    {
+      "title": "Second brain vs AIOS",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What is the core distinction between a second brain and an AIOS?",
+          "a": "In the **Four Cs**, **Context + Connections = second brain** (knowledge); **Capabilities + Cadence = AIOS** (infrastructure on top). Without a second brain, you cannot have an AI operating system."
+        },
+        {
+          "e": "🎯",
+          "q": "Where does an OS actually start?",
+          "a": "Not with architecture diagrams — **\"an OS starts with a default\"** harness (Claude Code). Close the tabs and stop repeating yourself across ChatGPT projects."
+        },
+        {
+          "e": "🪞",
+          "q": "How do you gut-check whether your system works?",
+          "a": "Ask Claude Code about your business: does the answer sound like a **stranger**, or like a **teammate / co-founder**?"
+        }
+      ]
+    },
+    {
+      "title": "Folder architecture that compounds",
+      "items": [
+        {
+          "e": "🗺️",
+          "q": "What role does CLAUDE.md play in Herk 2?",
+          "a": "It is the **routing tree** — wiki paths, hot cache, master index, skills, sub-agents, and API key locations — so the agent can find things without long searches."
+        },
+        {
+          "e": "📁",
+          "q": "Why nest \"other worlds\" inside the main AIOS?",
+          "a": "Frequently used repos (YouTube OS, book, website) live inside Herk 2 for **single-repo GitHub sync** and unified agent reach across projects."
+        },
+        {
+          "e": "📡",
+          "q": "When should data be markdown vs live API?",
+          "a": "Use wiki/markdown for **background knowledge**; pull **APIs/CLIs** for changing numbers — e.g. stale **620k** subscriber stats vs live **800k**."
+        }
+      ]
+    },
+    {
+      "title": "Skills, sessions & Fable power",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "How should you run assembly-line sessions?",
+          "a": "Phase work: research → `/clear` → draft → `/clear` → polish — **one AI, one job per phase**. Turn repeated prompts into skills; every run is feedback data."
+        },
+        {
+          "e": "💸",
+          "q": "How expensive is Claude Fable under stress?",
+          "a": "About **2× Opus** pricing (**$10/M in, $50/M out**); a stress test can burn a **$200/mo Max 5-hour window in ~1 hour**. Use Fable for orchestration; Sonnet/Haiku for parallel sub-tasks."
+        }
+      ]
+    },
+    {
+      "title": "Cadence & permissions",
+      "items": [
+        {
+          "e": "🔑",
+          "q": "Why are keys more important than prompts for automation?",
+          "a": "**\"A prompt is never a permission layer\"** — assume **if it can, it will**. Scoped API keys are the real gate; illustrated by a mistaken bulk email to **150–200k** subscribers."
+        },
+        {
+          "e": "🛠️",
+          "q": "What IP survives model and harness churn?",
+          "a": "**Folders, markdown, skills, and routing logic** — you're building a personal OS, not a Claude-Code-only artifact. At ~**40k tokens** on `/context`, scale had not been a problem yet."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "pivot-and-fail-fast-ses-ai-qichao-hu",
+  "sections": [
+    {
+      "title": "Pivot cost and A123",
+      "items": [
+        {
+          "e": "🧬",
+          "q": "What does Hu wish he had done faster, and what was the real cost?",
+          "a": "The **drone → EV** cut. Not the slide. **People, cells, and momentum** felt like DNA. 'The biggest risk is you are letting go of something.' Attachment, not strategy, made the pivot late."
+        },
+        {
+          "e": "🏭",
+          "q": "What did A123 do wrong, in Hu's telling?",
+          "a": "LFP **too early** vs NCM. Then a **hired CEO** plus government money: 5,000 hires in 3 months, Michigan plant, tab-welding defects to GM, lost the contract to LG, **revenue at negative margin**. Bankrupt 2012. Founder CEO stays on the tech baby; professional CEO can forget who they are."
+        },
+        {
+          "e": "🔋",
+          "q": "How did SES use A123 after the bankruptcy?",
+          "a": "Walked into the emptied **Waltham** R&D line (peak ~200 → ~8 people), asked an engineer to run the **18650** line, built prototypes **for free**. Dead competitor as Series A lab. He says no other US battery company did that."
+        }
+      ]
+    },
+    {
+      "title": "Cash, board, AI",
+      "items": [
+        {
+          "e": "💸",
+          "q": "When the market is hot, what does Hu raise and what does he refuse to buy?",
+          "a": "**Raise as much cash as you can** (SPAC 2021–22). Do **not** spend it on CapEx. Peers built prettier California plants and shut them. $100 of CapEx later sells for **less than a cent**. Skip listed-company theatre that does not serve the cell."
+        },
+        {
+          "e": "🪵",
+          "q": "What challenge does he hate most, and what is the fix?",
+          "a": "A **bad board** — ignorant, on an exit clock, or under LP pressure. Brand-name dollar = no-name dollar. Write **CEO vs board power**. 'If you don't give me the power, don't make me the CEO — make someone else the COO.' Pivots need concentrated power."
+        },
+        {
+          "e": "🤖",
+          "q": "What is the AI bet, and how does he treat failure?",
+          "a": "One year of field data + a model instead of **ten years** of EV qualification. AI for science, manufacturing, and safety; [[nvidia]] as compute partner. Success and failure are **labels on temporary states**. Costs are real. 'I'm a robot.'"
+        }
+      ]
+    }
+  ]
+}

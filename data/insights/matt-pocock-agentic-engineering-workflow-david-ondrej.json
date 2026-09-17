@@ -1,0 +1,65 @@
+{
+  "slug": "matt-pocock-agentic-engineering-workflow-david-ondrej",
+  "sections": [
+    {
+      "title": "Strategic vs tactical programming",
+      "items": [
+        {
+          "e": "♟️",
+          "q": "What did AI \"eat,\" and what must humans still own?",
+          "a": "AI ate **tactical programming**; humans must win at **strategic programming** — architecture, scoping, interfaces, tests, codebase design. Your domain skills are the **ceiling** on what AI can do; seniors get ~**10×**, juniors a small boost."
+        },
+        {
+          "e": "🔧",
+          "q": "Why obsess over the harness instead of the model?",
+          "a": "Matt sees it as **50/50 model vs harness**. Optimize the codebase for **token spend** so cheaper models succeed — good **AX** (agent experience) overlaps good DX."
+        }
+      ]
+    },
+    {
+      "title": "Skills: Grill Me, teach, procedures",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "What is Grill Me, and how does it replace plan mode?",
+          "a": "An **adversarial interview** (~4 sentences of skill): list ~10 consequential decisions and ask until **~98% shared understanding** before implementation — shared design concept beats plan-mode docs."
+        },
+        {
+          "e": "📚",
+          "q": "Why prefer procedure skills over ability skills?",
+          "a": "Every **ability skill** description leaks into context (100 skills = 100 descriptions). Prefer **user-invoked procedures** with `disable-model-invocation` to avoid description bloat."
+        }
+      ]
+    },
+    {
+      "title": "AFK setup: Sand Castle & queues",
+      "items": [
+        {
+          "e": "🏰",
+          "q": "How does Matt run most work away from the keyboard?",
+          "a": "Claude Code + Opus 4.8 medium locally, plus **Sand Castle** (Docker/Podman/Vercel sandboxes) and **GitHub Actions** — PR review agent, label-triggered implement (explore/implement/review on issues)."
+        },
+        {
+          "e": "📋",
+          "q": "Queues or infinite Ralph loops?",
+          "a": "Matt thinks in **queues, not loops** — an AFK task queue (GitHub issues + labels) matches real teams better than infinite while-loops. Review the **system that produces code**, not just the code."
+        }
+      ]
+    },
+    {
+      "title": "Reset advice & business reality",
+      "items": [
+        {
+          "e": "🧹",
+          "q": "What should you do if skills and MCP have bloated your setup?",
+          "a": "**Delete every skill, plugin, MCP, and CLAUDE.md** → observe the bare agent → layer **procedure skills** back intentionally; then set up AFK agents."
+        },
+        {
+          "e": "💼",
+          "q": "Does AI change what a business should do day to day?",
+          "a": "No — still talk to customers and build prototypes. AI helps **implementation**, not idea generation; ask AI what to **remove**. Security bugs → build a **cron harness**, don't rely on frontier model serendipity."
+        }
+      ]
+    }
+  ]
+}

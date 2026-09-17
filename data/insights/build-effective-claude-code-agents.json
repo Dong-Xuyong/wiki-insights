@@ -1,0 +1,75 @@
+{
+  "slug": "build-effective-claude-code-agents",
+  "sections": [
+    {
+      "title": "Director loop, not vibe coding",
+      "items": [
+        {
+          "e": "🎬",
+          "q": "What's the core loop for effective Claude Code agents?",
+          "a": "**Plan → build → verify → evolve.** Most people skip planning and verification; Cole spends **more time planning than building**. Sandwich delegation between a spec/success criteria and proof — never \"go rip\" without them."
+        },
+        {
+          "e": "✅",
+          "q": "What does verification actually mean?",
+          "a": "\"Prove to me it's actually done and working.\" Use unit tests, rendered PNG review, Playwright/browser automation, or custom harnesses. Without checks ~**65–70%** first-pass; with self-validation harnesses ~**92%**."
+        }
+      ]
+    },
+    {
+      "title": "Context and the dumb zone",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "When does a huge context window start hurting quality?",
+          "a": "The **dumb zone** hits around **~250K tokens on Opus 4.8** (Sonnet 4.6 earlier, ~100–125K) despite 1M-token windows. Compact or hand off before quality drops; needle-in-haystack problems worsen there."
+        },
+        {
+          "e": "📦",
+          "q": "Why shouldn't you dump 20 MCP servers upfront?",
+          "a": "**Attention is scarce.** Skills enable **progressive loading**; front-loading MCP tool schemas burns context. Cole's pattern: **CLI + skill** beats MCP for token efficiency (CRM, GitHub, Arkon)."
+        }
+      ]
+    },
+    {
+      "title": "Harness engineering",
+      "items": [
+        {
+          "e": "🔗",
+          "q": "What is harness engineering for large work?",
+          "a": "A harness is **LLM + tools + context wrapper**. Chain multiple **fresh sessions** (plan → implement → validate) — the viral baseline is the **Ralph loop**; Cole's open-source **Arkon** is a deterministic multi-session orchestrator."
+        },
+        {
+          "e": "👥",
+          "q": "Should sub-agents orchestrate the whole project?",
+          "a": "Prefer sub-agents for **research/debate**, not deep orchestration — handoffs between sub-agents are poor. \"We want to pick when the AI model works in a workflow, instead of having it **drive the whole thing**.\""
+        }
+      ]
+    },
+    {
+      "title": "Security and system evolution",
+      "items": [
+        {
+          "e": "🔒",
+          "q": "Why aren't prompts enough for agent security?",
+          "a": "Assume anything the agent can touch, **it will touch** — Nate's team accidentally emailed an entire list with the wrong discount. Use **scoped keys** and **hooks** for pre-tool guards; prompts are not permissions."
+        },
+        {
+          "e": "🧬",
+          "q": "How do bugs become permanent upgrades?",
+          "a": "After each task, **system evolution** updates CLAUDE.md, skills, or planning docs so failures don't repeat. Session-end hooks can write daily logs and promote to memory.md (\"Claude dreaming\"). \"Every bug becomes a **permanent upgrade**.\""
+        }
+      ]
+    },
+    {
+      "title": "Mindset and intent",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What product-manager habits transfer to directing agents?",
+          "a": "You shape **vision and validation**; the agent implements. Give Claude the **why** during planning (**intent engineering**) so it shapes the how. Use `/btw` for sidecar explanations without polluting main context; treat it like your smartest friend and ask the questions in your head."
+        }
+      ]
+    }
+  ]
+}

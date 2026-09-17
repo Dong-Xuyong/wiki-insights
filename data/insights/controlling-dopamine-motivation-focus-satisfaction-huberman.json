@@ -1,0 +1,75 @@
+{
+  "slug": "controlling-dopamine-motivation-focus-satisfaction-huberman",
+  "sections": [
+    {
+      "title": "Baseline + peak currency",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "Why is there no such thing as a \"dopamine hit\"?",
+          "a": "Experience depends on **current baseline vs recent peaks**, not absolute release. After any big peak, baseline drops (tonic vs phasic; depleted vesicle pool). Repeated indulgence raises your enjoyment threshold."
+        },
+        {
+          "e": "⚖️",
+          "q": "What is the pleasure-pain balance after a reward?",
+          "a": "Pleasure is followed by sub-perceptible \"pain\" (craving) because the readily releasable pool is depleted. **Addiction = progressive narrowing** of what still releases dopamine as you chase the peak again."
+        },
+        {
+          "e": "💰",
+          "q": "Do chocolate, social media, and workouts share one budget?",
+          "a": "Yes — chocolate, alcohol, intense exercise, social media, and sex all draw from the **same dopamine currency** across the week. **Dopamine stacking** silently erodes drive."
+        }
+      ]
+    },
+    {
+      "title": "Protect motivation with schedules",
+      "items": [
+        {
+          "e": "🎰",
+          "q": "How do intermittent dopamine schedules preserve drive?",
+          "a": "Use **casino-style variable reinforcement** — e.g. flip a coin whether to bring music/pre-workout/phone into the gym. Don't spike before or after effort; spike **from** effort."
+        },
+        {
+          "e": "📱",
+          "q": "Why does phone-during-workout layering hurt?",
+          "a": "Layering dopamine sources dulls the underlying activity. Huberman's personal rule: **no phone in workouts** this year."
+        },
+        {
+          "e": "☕",
+          "q": "Which stimulant is the exception before hard work?",
+          "a": "Pre-workout drinks, Adderall/Ritalin/modafinil before every session eventually undermine motivation — **caffeine excepted** because it **upregulates D2/D3** receptors; yerba mate may also protect dopamine neurons."
+        }
+      ]
+    },
+    {
+      "title": "Cold water & effort-as-reward",
+      "items": [
+        {
+          "e": "🧊",
+          "q": "How much can cold immersion raise dopamine?",
+          "a": "About **14°C** water up to the neck for up to an hour → **~250% above baseline**, sustained ~**3 hours** — comparable peak to cocaine **without the crash**, and can raise baseline long-term."
+        },
+        {
+          "e": "💪",
+          "q": "How do you get dopamine from effort itself?",
+          "a": "External gold-star rewards reduced intrinsic drawing in a Stanford nursery study. Growth mindset = access dopamine **during friction** via prefrontal reframing: **\"this pain is the good part.\""
+        }
+      ]
+    },
+    {
+      "title": "Food reset, light & supplements",
+      "items": [
+        {
+          "e": "🍽️",
+          "q": "How do you reset highly palatable food sensitivity?",
+          "a": "A **48-hour** abstinence from highly palatable foods can restore taste sensitivity via a dopamine reset."
+        },
+        {
+          "e": "💊",
+          "q": "Which supplement and light pitfalls matter most?",
+          "a": "Mucuna = intense + crash; **L-tyrosine 500–1000 mg** peaks ~**45 min** then drops; PEA + Alpha-GPC for short focus. Avoid melatonin for sleep (**lowers dopamine ~60 min**) and bright light **10 PM–4 AM** (multi-day suppression)."
+        }
+      ]
+    }
+  ]
+}

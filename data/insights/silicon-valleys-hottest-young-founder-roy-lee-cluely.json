@@ -1,0 +1,65 @@
+{
+  "slug": "silicon-valleys-hottest-young-founder-roy-lee-cluely",
+  "sections": [
+    {
+      "title": "Interview Coder to Cluely",
+      "items": [
+        {
+          "e": "🎓",
+          "q": "How did Roy Lee go from Columbia expulsion to a funded AI company?",
+          "a": "He built **Interview Coder**, a stealth AI tool that passed Amazon's LeetCode-style interview, posted the stunt publicly, got expelled from Columbia, rode a month of doubt at ~**15K views**, then raised a **$5.3M seed** (Abstract + Susa) and pivoted Cluely to ~**$5M ARR** one month post-launch."
+        },
+        {
+          "e": "💀",
+          "q": "Why was Interview Coder \"a product designed to die\"?",
+          "a": "A tool to **cheat on technical interviews** expires the moment interviews change — so the stunt forced a **fast pivot** into a broader multimodal desktop AI overlay pitched as **\"cheat on everything.\"**"
+        }
+      ]
+    },
+    {
+      "title": "Hiring and AI UX thesis",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What's broken about Big Tech's LeetCode hiring ritual?",
+          "a": "Candidates memorize **300–600 riddles** for **$200K jobs** — a **20-year practice** with **no job relevance**. Lee's line: **\"LeetCode just has nothing to do with what you do on the job.\"** AI already answers every question, so interviews must go **holistic** (skills + culture)."
+        },
+        {
+          "e": "🪟",
+          "q": "What is the translucent AI overlay UX Lee is betting on?",
+          "a": "A **screen-aware, audio-aware translucent overlay** — proactive multimodal interaction instead of chat prompts. \"Cheat on everything\" reframes AI advantage the way **calculators and spellcheck** were once called cheating."
+        }
+      ]
+    },
+    {
+      "title": "Controversy as GTM",
+      "items": [
+        {
+          "e": "🐦",
+          "q": "What is Lee's X virality rule of thumb?",
+          "a": "~**1,000 tweets in three months**, with a filter: if **half the world wouldn't hate** the post, it probably won't go viral. **\"All press is good press\"** — hate drives downloads; get crazier online for the funnel."
+        },
+        {
+          "e": "🏠",
+          "q": "How does he separate online reputation from real life?",
+          "a": "**\"Online is not real life.\"** Keep family in an **unconditional box**; treat Twitter as performance noise, not identity."
+        }
+      ]
+    },
+    {
+      "title": "Risk, moats, and the AI window",
+      "items": [
+        {
+          "e": "⛄",
+          "q": "What does \"snowball risk-taking\" look like in practice?",
+          "a": "Stack incremental bets: **private tool → free post → public stunt → confidential docs**. Downside is smaller and upside larger than founders think — and **2 months of AI play** can put a 19-year-old ahead where biology still needs **10–20 years**."
+        },
+        {
+          "e": "⚡",
+          "q": "Where does Lee see Cluely's lasting moat?",
+          "a": "**Self-hosted models** for latency, cache/condense inputs, custom evals, plus a **personalized model data moat** — usage analytics → hyper-specific fine-tunes per user before incumbents copy the overlay UX."
+        }
+      ]
+    }
+  ]
+}

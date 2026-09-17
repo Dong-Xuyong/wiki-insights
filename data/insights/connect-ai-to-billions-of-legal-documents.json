@@ -1,0 +1,65 @@
+{
+  "slug": "connect-ai-to-billions-of-legal-documents",
+  "sections": [
+    {
+      "title": "Two searches, not one RAG",
+      "items": [
+        {
+          "e": "📁",
+          "q": "What is project search at Legora?",
+          "a": "A **deal room**. Upload the contracts for one matter — tens to **millions** of docs. Isolated per project. Needs interactive latency."
+        },
+        {
+          "e": "⚖️",
+          "q": "Why is legal research a graph, not a vector hit?",
+          "a": "**Hierarchy** (city → federal, worldwide), **overruling**, and **exemptions**. Toward **~10 billion vectors**. Queries **fan out**. Cold jurisdictions can wait."
+        }
+      ]
+    },
+    {
+      "title": "The 20-second P99",
+      "items": [
+        {
+          "e": "💥",
+          "q": "Why did pgvector blow up after it 'worked surprisingly well'?",
+          "a": "**Hot and cold projects packed into the same partitions**. Postgres pulled fat partitions, **thrashed cache**. P99 search/ingest went **100 ms → 20 s**."
+        },
+        {
+          "e": "🔑",
+          "q": "What did banks actually demand?",
+          "a": "**Physical isolation** and **CMEK**. Their vault key. Revoke it and Legora **cannot decrypt**. Residency already forced a full ES+blob copy per US / EU / APAC."
+        }
+      ]
+    },
+    {
+      "title": "Write to S3, puff the rest",
+      "items": [
+        {
+          "e": "🪣",
+          "q": "What is turbopuffer's fundamental trade-off?",
+          "a": "Writes go **direct to object storage**. No Paxos. **Slow write, adaptable read**. Fine for search. Bad for a Kylie Jenner inventory flash sale."
+        },
+        {
+          "e": "🌳",
+          "q": "Why not graph ANN on object storage?",
+          "a": "Each graph hop is another **~200 ms S3 P99**. They use a **cluster tree** — B-tree on the geometry. Roots in DRAM, leaves on SSD. **~3 round trips**."
+        }
+      ]
+    },
+    {
+      "title": "Cold tail, one cluster",
+      "items": [
+        {
+          "e": "🇩🇰",
+          "q": "Where should Danish law live?",
+          "a": "On **blob**. EU stays hot. **500 ms** on a cold research fetch is fine. That is **memory-hierarchy puffing** — and why one cluster serves **70–200 tenants**."
+        },
+        {
+          "e": "🤖",
+          "q": "Why did a 10× median drop matter more than one RAG hit?",
+          "a": "An agent fires **20–100 queries**. Latency **compounds**. BM25 came back. The CFO is happy. They can work on product."
+        }
+      ]
+    }
+  ]
+}

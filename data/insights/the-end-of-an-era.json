@@ -1,0 +1,65 @@
+{
+  "slug": "the-end-of-an-era",
+  "sections": [
+    {
+      "title": "Not the end",
+      "items": [
+        {
+          "e": "📦",
+          "q": "Does Primeagen think we should pack the office because agents write code?",
+          "a": "**No.** He suspects it is **neither** 'API access decides quality' **nor** business as usual. Agents are **officially good**. Treating them as idiots is foolish. Programming did not end."
+        },
+        {
+          "e": "🪞",
+          "q": "Who gets fired first in the agent era?",
+          "a": "The person who **only directs an AI to figure everything out** — same profile as the old **Stack Overflow copy-paster** who never learned the system. Faster copy machine. You add nothing."
+        }
+      ]
+    },
+    {
+      "title": "The oracle is the miracle",
+      "items": [
+        {
+          "e": "🔮",
+          "q": "Why does Primeagen say 'they had an oracle' is not a dunk on Bun?",
+          "a": "It is **why it worked**. Years of tests plus a **formal spec** ('code that said this is how you should operate'). Give agents that plus direction and they refine until it works. Most products do not have that."
+        },
+        {
+          "e": "🛠️",
+          "q": "What earlier Anthropic project does he pair with the Bun rewrite?",
+          "a": "A **C compiler** from parallel Claude / Opus 4.6. Same condition: **30 years of tests**, hard-won knowledge, and **GCC already in the weights**. Regurgitate + harness, not greenfield invention."
+        }
+      ]
+    },
+    {
+      "title": "Eve and Linus",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "Why hasn't EVE Online just LLM-ported Python 2 to 3 like Bun?",
+          "a": "Same source **compiles in both** and **behaves differently** (`1/2` is `0` vs `0.5`). They already use agents on a 30-year poorly documented codebase. Primeagen: the **verification system is another order of magnitude**, so humans stay in the loop."
+        },
+        {
+          "e": "🐧",
+          "q": "What happened when the LLM told Linus the graphics-driver bug was impossible?",
+          "a": "He kept going: **24 debug patches**, **18 kernel boots**, then a **one-line** fix. Same-access agents, different human. Fable also found a leak in Primeagen's game and **refused to say where** ('hacking')."
+        }
+      ]
+    },
+    {
+      "title": "Learning pays more",
+      "items": [
+        {
+          "e": "📚",
+          "q": "What happened to the return on reading the manual?",
+          "a": "Curiosity and RTFM used to pay about **3%**. Primeagen: now about **10%**. He is **more bullish on learning than ever**. Stop being a paste proxy. Ask questions."
+        },
+        {
+          "e": "🎮",
+          "q": "Did everyone vibe-code video games with Gemini 3 Flash by the end of 2025?",
+          "a": "**No.** That was his 'sure-fire' joke. Demos are still crappy. No 3D-game knowledge → **no magic 3D game**. Floor rose; ceiling did not vanish."
+        }
+      ]
+    }
+  ]
+}

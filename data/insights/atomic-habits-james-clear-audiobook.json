@@ -1,0 +1,80 @@
+{
+  "slug": "atomic-habits-james-clear-audiobook",
+  "sections": [
+    {
+      "title": "Systems beat goals",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "Why do big goals fail even when motivation is high?",
+          "a": "You **fall to the level of your systems**, not rise to your goals. A novel needs a writing habit; a marathon needs a training process. Without supporting systems, ambition collapses into comfort."
+        },
+        {
+          "e": "📈",
+          "q": "What is the plateau of latent potential?",
+          "a": "The **invisible lag** between effort and visible results — the valley where most people quit. Compounding looks flat until it crosses a threshold; keep the system through the silent stretch."
+        }
+      ]
+    },
+    {
+      "title": "Identity votes",
+      "items": [
+        {
+          "e": "🗳️",
+          "q": "How should you think about habit change if outcomes feel far away?",
+          "a": "Every action is a **vote for the type of person** you want to become. Decide identity first, then prove it with **small wins** — you become a runner by running regularly, even a little."
+        }
+      ]
+    },
+    {
+      "title": "Four laws",
+      "items": [
+        {
+          "e": "4️⃣",
+          "q": "What are Clear's four laws of behavior change?",
+          "a": "Map the habit loop to design rules: make it **obvious**, **attractive**, **easy**, and **satisfying**. Invert all four to break bad habits."
+        },
+        {
+          "e": "🏠",
+          "q": "Do disciplined people just have more willpower?",
+          "a": "Often no — they are **better at avoiding temptation cues**. Redesign the environment so good habits are default and bad habits require friction."
+        }
+      ]
+    },
+    {
+      "title": "Practical toolkit",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What should you do before optimizing habits?",
+          "a": "Run a **habit scorecard**: list daily habits and mark good / bad / neutral relative to who you want to become. You cannot change what you do not see."
+        },
+        {
+          "e": "🔗",
+          "q": "How do implementation intentions and habit stacking differ?",
+          "a": "Implementation intention fixes **time and place** (*I will [behavior] at [time] in [location]*). Habit stacking anchors to an existing routine (*After [current], I will [new]*)."
+        },
+        {
+          "e": "⏱️",
+          "q": "How does the two-minute rule stop procrastination?",
+          "a": "Scale the habit to a **gateway under two minutes** — open the book, put on shoes, write one line. Those minutes **are** the habit at first; motion beats planning-as-delay."
+        }
+      ]
+    },
+    {
+      "title": "Sticking with it",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What is the cardinal rule of behavior change?",
+          "a": "**What is immediately rewarded is repeated; what is immediately punished is avoided.** Add short-term satisfaction (tracking, small rewards) so long-term habits survive."
+        },
+        {
+          "e": "2️⃣",
+          "q": "What should you do after you miss a day?",
+          "a": "**Never miss twice.** One miss is an accident; two starts a new unwanted habit. Resume immediately, even with a tiny two-minute version."
+        }
+      ]
+    }
+  ]
+}

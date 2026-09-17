@@ -1,0 +1,45 @@
+{
+  "slug": "how-ai-is-breaking-the-internet-matthew-prince-ted",
+  "sections": [
+    {
+      "title": "Traffic was the currency",
+      "items": [
+        {
+          "e": "🗺️",
+          "q": "How did AI change search without changing 'publish then monetize'?",
+          "a": "Desktop → social → mobile still ran on **traffic**. Search was a **treasure map** of clicks. Chatbots are **answer engines**: they finish the query **on the page**. Consumers win; publishers lose the click that paid for journalism."
+        },
+        {
+          "e": "📉",
+          "q": "How much harder is it to turn the same content into traffic?",
+          "a": "Cloudflare logs: **5.2×** harder on today's Google, **750×** on OpenAI, **32,000×** on Anthropic — then about **2× worse** as trust rose. Publisher traffic down **30–90%**. \"Journalists deserve to be able to eat.\""
+        }
+      ]
+    },
+    {
+      "title": "Pay for holes, not reprints",
+      "items": [
+        {
+          "e": "🧀",
+          "q": "What should replace clickbait as the thing labs pay for?",
+          "a": "Treat LLMs as **Swiss cheese**: cheese = known knowledge, holes = unknown. Pay people who **fill holes** (original research), not cortisol reprints that \"light the cheese on fire.\" Park Record's unique local facts are the post-traffic asset."
+        },
+        {
+          "e": "🎵",
+          "q": "What is the iTunes hope story?",
+          "a": "Napster theft → **iTunes 99¢** → Spotify all-you-can-eat. Spotify sent **>$10B** to creators last year. 99¢ was not the winning model — it **started paying**. Prince's wedge: **charge rivals for the crawl** that lets them catch Google."
+        }
+      ]
+    },
+    {
+      "title": "Google as this-movie villain",
+      "items": [
+        {
+          "e": "🦸",
+          "q": "What crawl advantage and policy does Prince blame?",
+          "a": "Every page OpenAI sees, Google sees **3**, Microsoft **4**, Anthropic **5**, xAI **21–22**, enforced by **train-or-delist**. No lab's top priority is paying creators — it is **beating Google**."
+        }
+      ]
+    }
+  ]
+}

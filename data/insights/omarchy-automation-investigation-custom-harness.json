@@ -1,0 +1,35 @@
+{
+  "slug": "omarchy-automation-investigation-custom-harness",
+  "sections": [
+    {
+      "title": "Harness, not a bigger prompt",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What is Alagoti actually testing?",
+          "a": "A **wrap-around custom harness** for [[omarchy]] computer-use agents: **QEMU farm** + Kimu proxy + PlanetScale screenshots + Linear tickets. The model is interchangeable; the **proxy, DB log, ISO cache, and client API** are the harness."
+        },
+        {
+          "e": "🖥️",
+          "q": "What does a passing run look like?",
+          "a": "Instruction + **proof** pairs. Statuses: pending, running, passed, failed, aborted, timed out. Vision: each Omarchy release, agents explore the delta and ~**two hours** later report what broke — lock screen, user creation, Chrome, app tour."
+        }
+      ]
+    },
+    {
+      "title": "What the stream learned the hard way",
+      "items": [
+        {
+          "e": "💸",
+          "q": "Where did agents waste money?",
+          "a": "Frames are cheap; **grepping the monolith** is not (~**46k tokens** before a lock-screen click). Split the client; call the API. Soul over-engineers; **Grok produces**, Soul **reviews**. Migrations stay **human** (Drizzle). The experiment run **is** the unit test."
+        },
+        {
+          "e": "🪞",
+          "q": "When are you only an LLM proxy?",
+          "a": "If you **cannot specify how the pieces plug together**. Waiting on agents is a **progress illusion**. UI rule: Vim/CLI or mobile — **no desktop website**."
+        }
+      ]
+    }
+  ]
+}

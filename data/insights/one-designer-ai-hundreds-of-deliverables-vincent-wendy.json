@@ -1,0 +1,50 @@
+{
+  "slug": "one-designer-ai-hundreds-of-deliverables-vincent-wendy",
+  "sections": [
+    {
+      "title": "Scale, not tools",
+      "items": [
+        {
+          "e": "🧍",
+          "q": "What was Wendy actually shipping as the sole designer?",
+          "a": "A 7,000-person conference on a 12–15 person team: **140+ sponsors, 300+ speakers, 600+ sessions**. Stickers, swag, landing pages, announcements, mascots, wayfinding, digital signage. Design team = Wendy + **Devin + GPT + Figma**."
+        },
+        {
+          "e": "🎯",
+          "q": "What inspired the AI Engineer look?",
+          "a": "The **scale problem**, not a moodboard. Tools are no longer the bottleneck. **Having a real problem is the advantage.**"
+        }
+      ]
+    },
+    {
+      "title": "Playbook and workarounds",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What are the five steps?",
+          "a": "**Foundation → reusable → automate → validate → remove friction.** Pin type/color so LLMs stop inventing font sizes. Website tokens let marketing rinse-repeat emails and flyers."
+        },
+        {
+          "e": "🐦",
+          "q": "Pelican-on-a-bicycle SVG still fails. Then what?",
+          "a": "Ask for a **PNG**, vectorize in Figma, ship. Work around jagged capability instead of waiting for native vectors."
+        }
+      ]
+    },
+    {
+      "title": "Devin on the floor",
+      "items": [
+        {
+          "e": "📺",
+          "q": "How do room schedules get on the screens?",
+          "a": "Devin **lives in Slack**. Pull latest data for a room/day, export **pixel-perfect PNG** to a flash drive. MCP or a Figma spec sheet (spacing/type/color, even on 'Frame 3') replaces the designer↔engineer loop."
+        },
+        {
+          "e": "👀",
+          "q": "How do you QA 140 logos and 300 headshots?",
+          "a": "Ask Devin what is **missing** or **whether this photo is that speaker** (Tinder-style match). Wendy's logo test: **100%**. Human + AI is the QA team. The remaining job is **exceptions** — add the edit button the morning of."
+        }
+      ]
+    }
+  ]
+}

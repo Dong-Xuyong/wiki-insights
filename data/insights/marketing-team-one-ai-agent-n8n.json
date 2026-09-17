@@ -1,0 +1,65 @@
+{
+  "slug": "marketing-team-one-ai-agent-n8n",
+  "sections": [
+    {
+      "title": "One agent, six marketing tools",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "How can one n8n agent act like a full marketing team?",
+          "a": "A thin **orchestrator agent** exposes **six tools**, each a separate n8n sub-workflow: create image, edit image, search image database, blog post, LinkedIn post, and faceless video — controlled via **Telegram** (voice or text)."
+        },
+        {
+          "e": "🔗",
+          "q": "What pattern links the main agent to those sub-workflows?",
+          "a": "The **workflow-as-tool** pattern: sub-workflows start with \"When executed by another workflow\" and defined inputs; the main agent uses **Call n8n workflow** so the model fills parameters like image title, prompt, and chat ID."
+        }
+      ]
+    },
+    {
+      "title": "Telegram UI & simple prompts",
+      "items": [
+        {
+          "e": "💬",
+          "q": "How do voice and text reach the agent the same way?",
+          "a": "Voice is transcribed to text; both paths normalize to **`JSON.text`** so the agent sees one input shape. Results return to Telegram and log to **Google Sheets** + **Google Drive**."
+        },
+        {
+          "e": "📝",
+          "q": "What belongs in the system prompt?",
+          "a": "Keep it simple: list each tool and when to use it; handle synonyms (**\"make\" = edit**); avoid duplicate delivery for blog/LinkedIn because the sub-workflow already sends content."
+        }
+      ]
+    },
+    {
+      "title": "Images, blogs & the video pipeline",
+      "items": [
+        {
+          "e": "🖼️",
+          "q": "How do create vs edit image flows stay consistent?",
+          "a": "Sheets act as an **image database** (title, type, request, Drive ID, link, post). Edit needs the prior image binary — search returns the Drive ID, then edit downloads it. Image gen uses OpenAI GPT image (~**$0.19**/image)."
+        },
+        {
+          "e": "🎬",
+          "q": "What stack builds the ~20-second faceless video?",
+          "a": "**Flux** (PI API) → **Runway** image-to-video → **ElevenLabs** SFX → **Creatomate** render. Prefer **polling** over fixed 90s waits; ballpark ~**$1**/video (Runway ~$0.25 per 5-sec clip)."
+        }
+      ]
+    },
+    {
+      "title": "Timeouts, cost & setup",
+      "items": [
+        {
+          "e": "⏳",
+          "q": "What breaks when video generation runs too long?",
+          "a": "The **main agent times out** waiting on the subflow. Workaround: **subflow-timeout-callback** — the video sub-workflow sends the final clip to Telegram directly (agent errors, but you still get the video)."
+        },
+        {
+          "e": "💵",
+          "q": "What's the rough monthly cost stack?",
+          "a": "n8n cloud ~**$27**/mo; OpenAI images ~**$0.19** each; Flux ~**$0.015**/image; ElevenLabs starter **$5**/mo; GPT-4.1 mini via Open Router for reasoning. Free **7 JSON workflows** + Sheet log + Creatomate script via AI Automation Society Skool."
+        }
+      ]
+    }
+  ]
+}

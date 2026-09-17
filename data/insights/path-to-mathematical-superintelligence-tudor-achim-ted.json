@@ -1,0 +1,35 @@
+{
+  "slug": "path-to-mathematical-superintelligence-tudor-achim-ted",
+  "sections": [
+    {
+      "title": "The 4,000-year OS is jammed",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What bottleneck is Achim actually talking about?",
+          "a": "**Human verification.** Brilliant idea → written proof → peer trust cannot keep up when AI emits thousands of attacks on Riemann / Navier–Stokes / P vs NP. Only a couple thousand qualified reviewers have day jobs. Wiles and Perelman already showed **one writer, years of checkers**."
+        },
+        {
+          "e": "⚡",
+          "q": "How fast did contest-math AI move?",
+          "a": "~2 years from brittle high-school contest AI to **2025 IMO-level** purported solutions. Automated systems solving **5/6 IMO** problems with **machine-checkable** proofs — gold-medal level with **no human review**."
+        }
+      ]
+    },
+    {
+      "title": "Lean + Mathlib + AI",
+      "items": [
+        {
+          "e": "🧮",
+          "q": "What is the formal-math upgrade path?",
+          "a": "Leibniz's trinity, now real: language (**Lean**), encyclopedia (**Mathlib**, ~**2M** lines), engine (**AI writing Lean**). A compiler check replaces multi-year mobilization. Humans keep questions and conjectures; computers **certify arrival**."
+        },
+        {
+          "e": "🛤️",
+          "q": "What is the fork if we refuse?",
+          "a": "Humans stay the bottleneck and bake **internet + RLHF biases** into discovery engines. Adopt the partnership → **mathematical superintelligence** elevates humans to explorers and question-askers, not sole checkers."
+        }
+      ]
+    }
+  ]
+}

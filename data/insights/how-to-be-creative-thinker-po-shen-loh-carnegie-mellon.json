@@ -1,0 +1,80 @@
+{
+  "slug": "how-to-be-creative-thinker-po-shen-loh-carnegie-mellon",
+  "sections": [
+    {
+      "title": "AI-era creative role",
+      "items": [
+        {
+          "e": "📝",
+          "q": "What should humans learn to do instead of \"doing the homework\"?",
+          "a": "People used to learn **how to do homework**; now everyone must learn to **grade the homework**. The first step in new work will be asking **ChatGPT** — the human job is **analytical verification** and **original approaches**, not repetitive execution."
+        },
+        {
+          "e": "🔍",
+          "q": "What is the Stack Overflow → ChatGPT workflow?",
+          "a": "Good engineers always **researched similar problems first**. Today that starts with ChatGPT, but you must **quickly judge whether the output is correct** — **knowledge is cheap, verification is expensive**."
+        }
+      ]
+    },
+    {
+      "title": "Novel problems and invention",
+      "items": [
+        {
+          "e": "🔺",
+          "q": "What does the matchstick pyramid teach about creative thinking?",
+          "a": "Six sticks making **four equilateral triangles** requires building in **3D** — a solution invisible on flat paper. Novel problems need **spatial/creative reframing**, not pattern-matching drills."
+        },
+        {
+          "e": "📚",
+          "q": "How does test-prep cramming kill invention?",
+          "a": "1980s US math competitions rewarded **unseen-problem practice**. Today's **cram industry pre-exposes every strange question**, removing surprise, killing invention, and overloading after-school hours."
+        }
+      ]
+    },
+    {
+      "title": "Education that graduates students",
+      "items": [
+        {
+          "e": "🎓",
+          "q": "What is Loh's anti-lifetime-customer-value goal for education?",
+          "a": "Success is students who **learn to learn anything** and **stop needing classes** — *\"as fast as possible, you don't need any classes from anyone ever again.\"* That deliberately **fails to maximize LTV**, which is the point."
+        },
+        {
+          "e": "🧮",
+          "q": "Why use competition math as a thinking gym?",
+          "a": "Algebra, geometry, combinatorics, and number theory problems are **deliberately absent from school** — chosen to practice **generating ideas**, not memorizing solutions."
+        }
+      ]
+    },
+    {
+      "title": "Win-win entrepreneurship",
+      "items": [
+        {
+          "e": "🎭",
+          "q": "How does the three-sided tutoring ecosystem work?",
+          "a": "It unites **middle schoolers learning to think**, **brilliant high school tutors becoming polished**, and **Broadway/Hollywood-quality drama coaches** needing flexible income. Everyone must **genuinely win**, or parents reject the model."
+        },
+        {
+          "e": "👨‍👩‍👧",
+          "q": "What parent discipline governs high-school tutor tasks?",
+          "a": "**Never ask a high schooler to do anything** unless Loh could explain to their parent why it's the **best use of their time**. Estimated US scale: **~100K HS tutors → ~1M middle schoolers** (about **1% of HS population** teaching)."
+        }
+      ]
+    },
+    {
+      "title": "Customer discovery in the wild",
+      "items": [
+        {
+          "e": "🏞️",
+          "q": "How did Loh find real customer pain points?",
+          "a": "Through **embodied discovery**: cross-country **park math talks** (50–100 attendees), overnight bus to NYC, teaching **sixth grade in disadvantaged schools**. *\"You cannot create value if you don't interact with people.\"*"
+        },
+        {
+          "e": "🚀",
+          "q": "What does \"everyone entrepreneur\" mean in the AI Wild West?",
+          "a": "Create value by understanding **diverse people's needs**; **intrapreneurship counts**. Growth of the live-math ecosystem was limited by **discovery speed**, not engineering — roughly **8 years to invent + 2 to scale** toward Twitch-quality streams."
+        }
+      ]
+    }
+  ]
+}

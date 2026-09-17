@@ -1,0 +1,75 @@
+{
+  "slug": "vibe-coding-fundamentals-tina-huang",
+  "sections": [
+    {
+      "title": "What vibe coding is",
+      "items": [
+        {
+          "e": "🌊",
+          "q": "Where did \"vibe coding\" come from?",
+          "a": "Andrej Karpathy coined it **Feb 3 2025**: fully give into the vibes, embrace exponentials, **forget that the code even exists**. Tina's course teaches principles that transfer across Replit, Windsurf, or Cursor."
+        },
+        {
+          "e": "🧠",
+          "q": "What five skills make vibe coding work?",
+          "a": "**TFCDC**: Thinking, Frameworks, Checkpoints, Debugging, Context — from the free **Vibe Coding 101 with Replit** (Replit × DeepLearning.AI)."
+        }
+      ]
+    },
+    {
+      "title": "Think before you prompt",
+      "items": [
+        {
+          "e": "📝",
+          "q": "Why write a PRD before prompting?",
+          "a": "Most vibe coders **under-specify**. Map four thinking levels into a PRD: **logical** (what), **analytical** (how/goal), **computational** (features/rules), **procedural** (how to excel) — then convert PRD + mockup into the build prompt."
+        },
+        {
+          "e": "✂️",
+          "q": "How do you keep scope sane?",
+          "a": "Drop nice-to-haves; add **measurable features** (e.g. SEO score out of 100). **MVP first** — lavish multi-feature specs cause errors; ship core, then iterate."
+        }
+      ]
+    },
+    {
+      "title": "Frameworks, checkpoints & debug",
+      "items": [
+        {
+          "e": "📚",
+          "q": "How should you use frameworks with AI?",
+          "a": "**Name stacks** (React, Tailwind, Three.js) so the model follows proven patterns; ask AI to recommend if unsure — still learn frontend/backend structure."
+        },
+        {
+          "e": "💾",
+          "q": "What counts as a checkpoint?",
+          "a": "**Git + GitHub**: init → add → commit → push. Natural-language git commands are OK (\"commit and push to main\"); commit often."
+        },
+        {
+          "e": "🐛",
+          "q": "What makes debugging work with agents?",
+          "a": "Methodical identify → fix cycles; paste **full errors and screenshots**. File-structure literacy helps when the AI loops. Change **one thing at a time**, not a laundry list."
+        }
+      ]
+    },
+    {
+      "title": "Tools, modes & rules",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "Replit vs Cursor/Windsurf for the same SEO MVP?",
+          "a": "**Replit**: fast cloud, built-in rollback, QR mobile test. **Cursor/Windsurf**: slower local setup, more control, git required — often closer to mockup on first pass. Tradeoff: **speed vs scalability**."
+        },
+        {
+          "e": "🔀",
+          "q": "What are the two vibe-coding modes?",
+          "a": "**Feature implementation**: frameworks, docs, incremental changes, checkpoints. **Error debugging**: understand structure, feed errors/screenshots/file hints — different context strategies."
+        },
+        {
+          "e": "🛡️",
+          "q": "What belongs in agent rules files?",
+          "a": "Limit **diff scope**, rate-limit APIs, **captcha on auth**, don't expose API keys; import community rules per stack."
+        }
+      ]
+    }
+  ]
+}

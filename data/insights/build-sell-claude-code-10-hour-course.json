@@ -1,0 +1,85 @@
+{
+  "slug": "build-sell-claude-code-10-hour-course",
+  "sections": [
+    {
+      "title": "WAT framework foundation",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What is the WAT framework in Claude Code?",
+          "a": "**Workflows** are natural-language markdown recipes; **Tools** are Python scripts (ingredients); the **Agent** (Claude Code) reads workflows and invokes tools in order. Both improve as the agent learns from mistakes."
+        },
+        {
+          "e": "🗺️",
+          "q": "Why start ambiguous builds in plan mode?",
+          "a": "**Plan mode** makes Claude ask clarifying questions before building. Read and **edit the plan** before auto-accepting — don't let the agent run blind on fuzzy requests."
+        },
+        {
+          "e": "🔐",
+          "q": "Where should API keys live during builds?",
+          "a": "Never paste secrets into chat. Put Perplexity, Gmail, and similar keys in **`.env` placeholders** the agent creates for you."
+        }
+      ]
+    },
+    {
+      "title": "Build vs deploy reality",
+      "items": [
+        {
+          "e": "🩹",
+          "q": "Why do live sessions feel smarter than deployed automations?",
+          "a": "Live agents can **self-heal mid-run**. Deployed systems (GitHub → trigger.dev/modal/Vercel) ship **workflows + tools only**, not the live agent — so **battle-test before shipping**."
+        },
+        {
+          "e": "🖥️",
+          "q": "What are the five Claude Code surfaces?",
+          "a": "**Terminal** (most power), **desktop app** (GUI + scheduled tasks), **web** at claude.ai/code (runs when laptop is off), and **IDE extensions** (VS Code/Cursor/Antigravity) — all wrapping the same engine."
+        }
+      ]
+    },
+    {
+      "title": "Skills, agents, and tool choice",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What are Claude Code skills actually?",
+          "a": "**Skills = loadable SOPs** (front-end design, custom infographics, etc.). The agent decides when to invoke based on **description matching** the task."
+        },
+        {
+          "e": "👥",
+          "q": "When do sub-agents and agent teams help?",
+          "a": "**Sub-agents** handle specialized subtasks; **agent teams** coordinate parallel work (CLI-only features like `/agents`)."
+        },
+        {
+          "e": "📚",
+          "q": "Why prefer saved API docs over MCP sometimes?",
+          "a": "**API reference docs often beat MCP** — research once, save endpoints locally, and burn fewer tokens than loading full MCP schemas every session."
+        }
+      ]
+    },
+    {
+      "title": "Selling the work",
+      "items": [
+        {
+          "e": "🩺",
+          "q": "How should you position Claude Code work to clients?",
+          "a": "Act as the **doctor, not the pharmacist** — sell diagnosis and ROI (**save 20 hrs/week**), not \"I build Claude Code workflows.\" Avoid hourly once value is proven."
+        },
+        {
+          "e": "💰",
+          "q": "What does value-based pricing look like in practice?",
+          "a": "If a system saves a client **$10K/month**, charge about **$5K** for the build — roughly **two-week payback** for them and strong margin for you. A **30-minute build** that saves **20 hours/week** is not a 30-minute job."
+        }
+      ]
+    },
+    {
+      "title": "Market thesis",
+      "items": [
+        {
+          "e": "📈",
+          "q": "Why still learn n8n/Zapier if agents are the future?",
+          "a": "Agentic workflows may grow from **$7B → ~$93B**, but **n8n/Zapier fundamentals** still matter — you need plumbing literacy to spot bad agent decisions. People who skip fundamentals and jump straight to Claude Code struggle."
+        }
+      ]
+    }
+  ]
+}

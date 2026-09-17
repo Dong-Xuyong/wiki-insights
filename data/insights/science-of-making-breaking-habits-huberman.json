@@ -1,0 +1,65 @@
+{
+  "slug": "science-of-making-breaking-habits-huberman",
+  "sections": [
+    {
+      "title": "What habits really are",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "How much of waking life is habitual, and are habits reflexes?",
+          "a": "Up to **~70% of waking behavior** is habitual. Habits are **learned via neuroplasticity**, not hard-wired reflexes (blink, heat withdraw). Timelines vary wildly — Lally: **18–254 days**, average ~**66**."
+        },
+        {
+          "e": "🔥",
+          "q": "What is limbic friction and why does it decide success?",
+          "a": "**Limbic friction** is the activation energy to override being too **anxious/alert** or too **tired/unmotivated**. Habit strength = **context dependence** + ongoing friction; the goal is **automaticity** in basal ganglia circuits."
+        }
+      ]
+    },
+    {
+      "title": "Linchpins and mental setup",
+      "items": [
+        {
+          "e": "⚓",
+          "q": "Which habits should you install first?",
+          "a": "**Linchpin habits** you actually enjoy — they cascade into harder ones (exercise → sleep, hydration, food). Only liked anchors reliably pull the rest."
+        },
+        {
+          "e": "🎬",
+          "q": "What should you do before executing a new habit?",
+          "a": "Use **procedural-memory visualization**: mentally walk the **full step sequence** once (Hebbian/NMDA priming). Pair with **task-bracketing** — mark the whole start/stop envelope, not just the hard middle."
+        }
+      ]
+    },
+    {
+      "title": "Phase-based habit plan",
+      "items": [
+        {
+          "e": "🌅",
+          "q": "When should you schedule high-friction habits?",
+          "a": "**Phase 1** (0–8 h after waking): elevated norepinephrine/dopamine/cortisol — put **hard habits** here. Phase 2 (9–14/15 h): mellow habits. Phase 3 (16–24 h): sleep/consolidation. **State beats clock** — rigid \"10 AM\" fails long-term."
+        },
+        {
+          "e": "✨",
+          "q": "How should you use dopamine around a habit?",
+          "a": "**Dopamine spotlighting**: treat dopamine as **motivation/drive**, not pleasure. Apply reward-prediction honesty across the **full time envelope** (before, during, after) — anticipate shoes → door → run → meal, not only the misery mid-run."
+        }
+      ]
+    },
+    {
+      "title": "21-day system and breaking bad habits",
+      "items": [
+        {
+          "e": "📅",
+          "q": "How does Huberman's 21-day habit system work?",
+          "a": "Pick **6 target habits/day for 21 days**; expect **4–5 completions** (permission to miss). Days **22–28** test without tracking. Missteps → restart the **21-day block for that habit only** — you're training the **meta-habit** of doing habits."
+        },
+        {
+          "e": "♻️",
+          "q": "What's the best way to break an unwanted habit?",
+          "a": "Use **positive cargo**: immediately after the bad habit, insert an easy **replacement positive behavior** and let **synaptic depression** weaken the old path over time. Notification reminders alone don't work."
+        }
+      ]
+    }
+  ]
+}

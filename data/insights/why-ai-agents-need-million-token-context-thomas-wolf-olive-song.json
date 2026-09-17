@@ -1,0 +1,50 @@
+{
+  "slug": "why-ai-agents-need-million-token-context-thomas-wolf-olive-song",
+  "sections": [
+    {
+      "title": "Context for agents, not novels",
+      "items": [
+        {
+          "e": "📚",
+          "q": "MiniMax already had a 10 million token window. Why bring 1 million back?",
+          "a": "M1/01 could **dump a book and review it**. That model was **not agentic**. Once the agent talks to the environment — **tool results, multi-round traces** — a short window dies. They brought **functional 1M context back for agents**."
+        },
+        {
+          "e": "🧩",
+          "q": "How is a million tokens cheap enough to ship?",
+          "a": "**MiniMax Sparse Attention**: an **index branch** picks the blocks that matter; a **sparse branch** attends only there. An **intern** designed it. Flash Attention had paused linear-attention research; this is first-principles attention again."
+        }
+      ]
+    },
+    {
+      "title": "Native multimodal, not adapters",
+      "items": [
+        {
+          "e": "👁️",
+          "q": "Why train vision from step one instead of bolting it on?",
+          "a": "**Adapters after text hurt language** and vision converges poorly. Mid-train is **recipe-fragile** and does not scale. They **interleave real images and video**, work the ViT, and avoid the usual **collapse**."
+        },
+        {
+          "e": "🎬",
+          "q": "What agent jobs does native video unlock?",
+          "a": "Read an unstructured **PowerPoint**, watch a **long video**, then **act with tools**. Wolf: the agent finally watches your YouTube tutorial. Harness support is still the gap."
+        }
+      ]
+    },
+    {
+      "title": "Lab culture and the next model",
+      "items": [
+        {
+          "e": "🏪",
+          "q": "How does MiniMax pick the next research bet?",
+          "a": "After a ship, **anyone can play, invent evals, find a weakness, and propose**. Others join for weeks or months. What works goes into the **next train**. Hugging Face **PRs and failure reports** feed later versions."
+        },
+        {
+          "e": "🔄",
+          "q": "Is M3 already building M4?",
+          "a": "No. **M3.1.** Internal **research harnesses** automate kernel work, model-on-model, and auto data. Song's excitement next: **multi-agents + model routing** — more complex tasks, and a diagnostic of what models cannot do."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "30-minute-masterclass-product-thinking-mike-krieger",
+  "sections": [
+    {
+      "title": "Problem-first product thinking",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What is Mike Krieger's core design-thinking loop?",
+          "a": "**Identify problems, research, build, then validate** you actually solved them — the Stanford Symbolic Systems through-line from Instagram through Anthropic."
+        },
+        {
+          "e": "🚀",
+          "q": "Why shouldn't you build in isolation for six months?",
+          "a": "**Prototype early and show work along the way** so you catch fundamental errors before they harden. Everything you build should **solve a problem for somebody**."
+        }
+      ]
+    },
+    {
+      "title": "Timing the tech wave",
+      "items": [
+        {
+          "e": "📱",
+          "q": "How did Instagram know photo sharing was ready?",
+          "a": "Kevin's location app Bourbon wasn't working; they stripped distractions and doubled down as **iPhone 3→4 camera jumps** and mobile networking improved — classic **technology readiness + rate of change**."
+        },
+        {
+          "e": "🌊",
+          "q": "How should you build when the next model leap is coming?",
+          "a": "**Build for today and catch the next wave** — useful now *and* architected for the next capability jump (cameras then, LLM leaps now)."
+        }
+      ]
+    },
+    {
+      "title": "Why Artifact failed",
+      "items": [
+        {
+          "e": "❄️",
+          "q": "What cold-start trap killed Artifact's personalization bet?",
+          "a": "The product was great **after many articles**, but most users left after **two**, comparing it to Apple News. You must delight **before ML personalization kicks in**."
+        },
+        {
+          "e": "🧠",
+          "q": "Why isn't smarter AI enough to win users?",
+          "a": "**Intelligence alone is not product.** Users won't adopt features just because of the tech underneath — it still has to solve the problem from day one."
+        },
+        {
+          "e": "🛑",
+          "q": "How do you know when to shut a startup down?",
+          "a": "List untried ideas, run the top three, and if trajectory is unchanged, **check in with investors** — they're often ready before founders are. Failure is baked into VC, **not a tragedy**."
+        }
+      ]
+    },
+    {
+      "title": "Shipping Claude at Anthropic",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What makes AI product management uniquely hard?",
+          "a": "**Products and models co-evolve** until about **a week before launch**. Claude's taste and artifacts shift with each model — a fundamentally dynamic stack."
+        },
+        {
+          "e": "🎭",
+          "q": "How does Anthropic shape Claude's personality?",
+          "a": "A **Claude character / vibes** team defines philosophy and tone; thumbs up/down (not conversation training) surfaces themes like verbosity for the next iteration."
+        },
+        {
+          "e": "⚠️",
+          "q": "What should onboarding make clear about AI limits?",
+          "a": "Lead with **capabilities and failure modes** — models aren't doctors. Set the correct mental model at signup so users don't over-trust."
+        }
+      ]
+    },
+    {
+      "title": "Teams and career compounding",
+      "items": [
+        {
+          "e": "🛠️",
+          "q": "What kind of team beat siloed specialists at Instagram?",
+          "a": "**Low-ego generalists** who care about the product — backend engineers ship iOS, PMs design — beat specialists waiting for strategy meetings."
+        },
+        {
+          "e": "🤝",
+          "q": "What compounds more than any single project?",
+          "a": "**Career relationships recur across decades.** Companies and projects change; the same people show up again — invest early."
+        }
+      ]
+    }
+  ]
+}

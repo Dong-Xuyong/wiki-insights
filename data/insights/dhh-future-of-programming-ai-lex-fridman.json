@@ -1,0 +1,35 @@
+{
+  "slug": "dhh-future-of-programming-ai-lex-fridman",
+  "sections": [
+    {
+      "title": "Opinions stable, mode changed",
+      "items": [
+        {
+          "e": "📅",
+          "q": "What flipped DHH from curiosity to 100% joy?",
+          "a": "Not autocomplete. **Agents.** He dates it to **Nov 24, 2025** (Opus 4.5): output close enough to his Ruby that he stopped treating them as toys. Proof: **Omarchy Quattro** — ~3 months of agents, **zero hand-written shipped code** recently, **1,000+** merged PRs, live install **<60s**."
+        },
+        {
+          "e": "🚧",
+          "q": "Where do the 10×–1000× gains actually appear?",
+          "a": "Only when a human with **taste talks to agents directly**. PM/design/VP approval layers eat the surplus. Greenfield (Omarchy, Omawrite ~20 min) works; a Basecamp designer vibe sprint **destroyed architecture** and had to be mopped by hand."
+        }
+      ]
+    },
+    {
+      "title": "GPS phases, Linux, taste",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "How can experienced programmers get worse agent results?",
+          "a": "The **overspecification trap**: prescribe **how** instead of **what**. Phases: instruct paths → steer → **state the problem**. Durable skill is **comparative taste** — pick among ~3 options — plus product sense."
+        },
+        {
+          "e": "🐧",
+          "q": "Why does Linux win this era?",
+          "a": "Everything is **files and CLIs**. Mac/Windows GUI lock-in is a caveman-click tax. Treat inbound agent PRs as **abundance**, not a curse. Vibe coding = ship **without reviewing**; programming = keep primitive understanding."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "realtime-voice-agents-frontier-intelligence-bohan-li-eliseai",
+  "sections": [
+    {
+      "title": "Keep the frontier model",
+      "items": [
+        {
+          "e": "🚗",
+          "q": "Why analogize a voice agent to a self-driving stack?",
+          "a": "**Perception** is transcription, **planning** is the LLM, **controls** is TTS. Cascaded layers let you keep **frontier intelligence** and hide latency in the harness instead of shrinking the brain."
+        },
+        {
+          "e": "🧠",
+          "q": "What is EliseAI unwilling to sacrifice for speed?",
+          "a": "**Intelligence.** The talk is a set of tricks on ASR, tools, and TTS so a **slow frontier LLM** still feels real-time."
+        }
+      ]
+    },
+    {
+      "title": "Speculative ears",
+      "items": [
+        {
+          "e": "🎙️",
+          "q": "How can transcription be both fast and accurate?",
+          "a": "A **fast streaming model** (Flux) starts the pipeline. A **slower batch model** (Scribe V2) confirms, **cancels** if new audio beats the old hypothesis, or **corrects** using the question (name vs date of birth)."
+        }
+      ]
+    },
+    {
+      "title": "Tools without a round trip",
+      "items": [
+        {
+          "e": "🧰",
+          "q": "How do they avoid an extra LLM inference for tool calling?",
+          "a": "**Background agents** extract name/DOB, including **phonetic matching**, and **inject tool traces** so the speaker thinks it made the call. Incomplete partials do not fire. A \"please spell it\" draft is **canceled** once the tools land."
+        },
+        {
+          "e": "⏸️",
+          "q": "When does the user actually hear a reply?",
+          "a": "Generation starts on **every streaming detection**. Audio is **held until the user finishes speaking**, then released — or retriggered if context changed."
+        }
+      ]
+    },
+    {
+      "title": "Cached openings",
+      "items": [
+        {
+          "e": "🔊",
+          "q": "What is a TTS prefix cache?",
+          "a": "After about **three words**, replay cached audio for common openings (**you said your name is**). **Cartesia** still synthesizes the **full sentence** for prosody; playback **suppresses the prefix already heard** and plays only the unique tail."
+        }
+      ]
+    },
+    {
+      "title": "The company bet",
+      "items": [
+        {
+          "e": "🏥",
+          "q": "Where does EliseAI apply this harness?",
+          "a": "**Housing and healthcare** — \"life's most critical areas.\" NYC HQ, Bay Area expansion, not a generic SF chatbot. The demo is an **OBGYN ultrasound scheduler**."
+        }
+      ]
+    }
+  ]
+}

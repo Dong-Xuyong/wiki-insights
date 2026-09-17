@@ -1,0 +1,75 @@
+{
+  "slug": "optimizing-workspace-productivity-focus-creativity-huberman",
+  "sections": [
+    {
+      "title": "Circadian workspace phases",
+      "items": [
+        {
+          "e": "☀️",
+          "q": "How should your workspace change across the day?",
+          "a": "**Phase 1 (0–8 h after waking):** bright overhead + forward light, screen at/above eye level, upright posture, narrow visual field for analytic work. **Phase 2 (9–16 h):** dimmer, warmer light; shift toward creative/abstract work. **Phase 3 (17–24 h):** minimal bright light to protect melatonin."
+        },
+        {
+          "e": "💡",
+          "q": "What is the Phase 1 light rule?",
+          "a": "Max safe **overhead + forward light**; an **open window beats closed glass** for blue wavelengths. By ~**4–5 PM**, reduce overhead and shift toward yellow/red."
+        }
+      ]
+    },
+    {
+      "title": "Gaze, posture & visual window",
+      "items": [
+        {
+          "e": "👀",
+          "q": "Why does screen height change focus?",
+          "a": "Looking **below nose level** inhibits locus coeruleus alertness. Put the screen at **nose level or above** (stack books if needed); lying down is anti-focus."
+        },
+        {
+          "e": "🧍",
+          "q": "What sit-stand split works best?",
+          "a": "Aim **~50/50 sit-stand** — standing > seated > reclined for alertness; feet above waist activates calming circuits. Kelly Starrett: you weren't designed to sit *or* stand all day."
+        },
+        {
+          "e": "🐴",
+          "q": "How wide should your visual work target be?",
+          "a": "Keep the target within **\"horse blinders\" width (~head width)** — too-wide monitors dilate gaze and break attention. A hoodie/hat can lower effective ceiling for analytic mode."
+        }
+      ]
+    },
+    {
+      "title": "45/5 breaks & warm-up",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "What is the 45/5 visual break protocol?",
+          "a": "Every **45 min** of vergence/narrow focus → **5+ min panoramic gaze** (horizon walk). **Do not check your phone** on the break — that is still vergence. Fits inside **90-min ultradian** blocks."
+        },
+        {
+          "e": "🕕",
+          "q": "How long before deep focus kicks in?",
+          "a": "Expect ~**6 min** neurochemical ramp-up (studies show ~**3 min** before task-switch without training). Lighting, posture, and screen height shorten that latency."
+        }
+      ]
+    },
+    {
+      "title": "Cathedral effect, sound & interruptions",
+      "items": [
+        {
+          "e": "🏛️",
+          "q": "How does ceiling height change cognition?",
+          "a": "The **cathedral effect**: **10 ft vs 8 ft** ceilings measurably shift **abstract vs detail-oriented** cognition. Use high ceilings/outdoors for Phase 2 creative work; low ceilings for Phase 1 analytics."
+        },
+        {
+          "e": "🎧",
+          "q": "Which sounds help or hurt focus?",
+          "a": "Constant **HVAC hum** increases fatigue. **40 Hz binaural beats** (±5 Hz) for ~**30 min** before/during work can improve reaction time, verbal recall, and math via striatal dopamine — pure beats beat rain overlays (**7 Hz + rain impaired** recall)."
+        },
+        {
+          "e": "🚫",
+          "q": "Why are interruptions so costly?",
+          "a": "You pay the distraction **plus** re-engagement time. Face the computer **toward a wall**; don't body-pivot to the door; phone in drawer/safe — interruptions are **deadly to focus**."
+        }
+      ]
+    }
+  ]
+}

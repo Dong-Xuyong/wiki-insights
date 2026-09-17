@@ -1,0 +1,65 @@
+{
+  "slug": "kimi-k3-vs-fable-5-vs-gpt-5-6-vs-grok-4-5-bridgemind",
+  "sections": [
+    {
+      "title": "Bake-off setup",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What did BridgeMind actually compare in this four-model test?",
+          "a": "A **same-prompt bake-off** of **Kimi K3**, **Fable 5**, **GPT 5.6**, and **Grok 4.5** — each in its native harness (Kimi Code, Claude Code, Codex, Grok Build) across three BridgeSpace workspaces: Next.js therapy frontend, full-stack AI therapist, and an Angry Birds–style game."
+        },
+        {
+          "e": "📐",
+          "q": "What axes decided the winners?",
+          "a": "Output quality, plan usage, and especially **inference speed** — because vibe coding often needs fast iteration more than max intelligence."
+        }
+      ]
+    },
+    {
+      "title": "Speed as a usability gate",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "How did the four models compare on tokens per second and latency?",
+          "a": "Open Router snapshot: Grok **55 tok/s** / **1.45s** TTFT; Fable ~**43**; GPT 5.6 ~**40**; Kimi **17 tok/s** / ~**14s** latency — down from ~27 tok/s at launch. After 25+ minutes Grok had finished all tasks while Kimi was still early on todos."
+        },
+        {
+          "e": "🐌",
+          "q": "Why did Kimi get demoted despite strong design?",
+          "a": "Full-stack Kimi took ~**90 minutes**, and at 17 tok/s + 14s latency it was framed as **almost unusable** for daily workflow — **serving capacity** (Moonshot pausing new subs, withholding open weights) became the product constraint."
+        }
+      ]
+    },
+    {
+      "title": "Task winners vs overall rank",
+      "items": [
+        {
+          "e": "🎨",
+          "q": "Who won frontend UI, game, and full-stack?",
+          "a": "Frontend: **Kimi best** (green therapy aesthetic, chart polish) → Fable → GPT → Grok. Game: **Fable** slight edge over GPT; Grok **non-functional**. Full-stack: **Fable oneshot** with working AI therapist; GPT Hermes crash loop; Grok chat broken; Kimi realtime handshake fails."
+        },
+        {
+          "e": "🏆",
+          "q": "What was BridgeMind's personal workflow ranking?",
+          "a": "**Fable 5 → GPT 5.6 → Grok 4.5 → Kimi K3**. Route Fable for hard polish/oneshots, Grok for cheap fast iteration (~**$0.31**/task), GPT as #2 — and avoid slow Kimi despite UI genius."
+        }
+      ]
+    },
+    {
+      "title": "Economics, access & hallucination",
+      "items": [
+        {
+          "e": "💳",
+          "q": "How does Cloud plan access change the routing story?",
+          "a": "Fable stays on **Cloud Max**; **Cloud Pro** loses Fable (tweet ~Jul 17) — so Pro users should switch toward Codex. Grok remains affordable **iterate fuel**."
+        },
+        {
+          "e": "⚠️",
+          "q": "Which harness had the worst hallucination callout?",
+          "a": "Codex/GPT at **89%** hallucination vs Fable **54** / Grok **53** / Kimi **~51** — cited as a driver of catastrophic agent failures like deleting prod codebases."
+        }
+      ]
+    }
+  ]
+}

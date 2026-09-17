@@ -1,0 +1,65 @@
+{
+  "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
+  "sections": [
+    {
+      "title": "No penicillin",
+      "items": [
+        {
+          "e": "💊",
+          "q": "What does Scull say we actually have, if not cures?",
+          "a": "**Symptomatic treatments.** Insulin for type-1 diabetes is the honest analogy: lives change, the disease stays. There is **no psychiatric penicillin**. Overstate the 1950s accidents and you repeat the 80% story."
+        },
+        {
+          "e": "🧠",
+          "q": "What did Insel say $20B of NIMH science bought?",
+          "a": "**Cool genetics and neuroscience.** The lot of the mentally ill **did not improve one bit**. Hyman and Insel had treated mental illness as **brain disease**. Eisenberg: the field went from **brainless to mindless**."
+        }
+      ]
+    },
+    {
+      "title": "Reliable boxes, empty community",
+      "items": [
+        {
+          "e": "☑️",
+          "q": "What did DSM-III buy after Rosenhan and the 1960s reliability mess?",
+          "a": "**Reliability, not validity.** Two doctors tick the same symptom box. That is not a disease. Insel and Hyman later called DSM-5 **unscientific**. Drug companies and insurers still liked the codes."
+        },
+        {
+          "e": "🏚️",
+          "q": "What replaced the asylum for the seriously ill?",
+          "a": "A **community-care shell game** with no pea. Cycle: short ward, gutter, jail. The three largest US 'inpatient' sites are **LA County, Cook County, and Rikers**. Mortality gap **15–25 years**, growing."
+        }
+      ]
+    },
+    {
+      "title": "Desperate remedies",
+      "items": [
+        {
+          "e": "🦷",
+          "q": "What was Henry Cotton's focal-sepsis program?",
+          "a": "Pull teeth, tonsils, then **stomachs, spleens, colons** to stop toxins hitting the brain. Claimed **80%**. **45%** of abdominal cases dead in a year. A dentist kept pulling until **1960**."
+        },
+        {
+          "e": "🧊",
+          "q": "How did Freeman industrialize lobotomy?",
+          "a": "Ice-pick through the orbit after a few shocks. **Lobotomobile** summers. **20–30** in an afternoon. 'I could teach any damn fool in twenty minutes, even a psychiatrist.' Moniz still got the **1949 Nobel**."
+        }
+      ]
+    },
+    {
+      "title": "The drug accident",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "What did CATIE 2005 show about second-generation antipsychotics?",
+          "a": "**Not more efficacious** than a cheap first-gen. **67–82%** dropped out. Less tardive dyskinesia, more **weight / diabetes / heart**. No biomarker for who is in which third."
+        },
+        {
+          "e": "📉",
+          "q": "How do SSRIs beat placebo in Scull's reading?",
+          "a": "**Statistically, often not clinically** (1–2 points on a 60-point scale). Flatten affect and libido. Getting off can be worse than the illness. **NICE: CBT first.** The serotonin-deficit ad was marketing."
+        }
+      ]
+    }
+  ]
+}
