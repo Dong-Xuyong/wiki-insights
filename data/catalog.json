@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 229,
-  "insightsCount": 224,
-  "conceptCount": 2267,
+  "videoCount": 230,
+  "insightsCount": 226,
+  "conceptCount": 2271,
   "sections": [
     {
       "id": "architecture",
@@ -55,7 +55,7 @@
     "agents": 47,
     "systems": 12,
     "build": 30,
-    "human": 10,
+    "human": 11,
     "performance": 47,
     "mind": 30,
     "relationships": 42,
@@ -268,10 +268,10 @@
         "collaboration",
         "stanford",
         "jeremy utley",
-        "ai as teammate",
-        "realization gap ai",
-        "inspiration is a discipline",
-        "creativity past first idea",
+        "AI as Teammate",
+        "Realization Gap AI",
+        "Inspiration is a Discipline",
+        "Creativity Past First Idea",
         "Creative Thinking Novel Problems",
         "Everyone Entrepreneur AI Era",
         "Grade Homework Not Do Homework"
@@ -293,9 +293,26 @@
         "Creativity = past the first idea — AI makes satisficing easier; ask for volume and variation",
         "I don't use AI — work with it"
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-as-teammate",
+          "title": "AI as Teammate"
+        },
+        {
+          "slug": "realization-gap-ai",
+          "title": "Realization Gap AI"
+        },
+        {
+          "slug": "inspiration-is-a-discipline",
+          "title": "Inspiration is a Discipline"
+        },
+        {
+          "slug": "creativity-past-first-idea",
+          "title": "Creativity Past First Idea"
+        }
+      ],
+      "conceptCount": 4
     },
     {
       "slug": "how-to-speak-so-that-people-want-to-listen-julian-treasure-ted",
@@ -819,6 +836,56 @@
       "conceptCount": 14
     },
     {
+      "slug": "survival-strategies-era-ai-stanford-aire",
+      "title": "Survival Strategies in the Era of AI Taught by Stanford | Stanford AIRE Director",
+      "video_id": "ZA9K0JMrbWg",
+      "url": "https://youtu.be/ZA9K0JMrbWg",
+      "duration_min": 10,
+      "creator": "li-jiang",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "human",
+      "tags": [
+        "education",
+        "ai",
+        "design",
+        "stanford"
+      ],
+      "keywords": [
+        "education",
+        "ai",
+        "design",
+        "stanford",
+        "li jiang",
+        "ai thinking",
+        "let machines do machine work",
+        "all design is redesign",
+        "assign ai dont ban it",
+        "Design Thinking Problem First",
+        "Grade Homework Not Do Homework",
+        "Research Then Verify (ChatGPT Workflow)"
+      ],
+      "summary": "li-jiang (~10 min, stanford-aire / stanford-university) argues the AI era has already started, school still teaches as if it has not, and avoiding the tool is how you lose. A job a human does for $1,000 becomes ~$200 for a robot because you cannot calculate faster than the machine. let-machines-do-machine-work. Fearful people try to stay away. He calls that a mistake: this is one of the most powerful tools ever invented, and if you do not use it you cannot compete.\n\nThe curriculum he wants as early as possible is ai-thinking — three abilities. First, a general picture of how AI works: old AI was human-written rules; now deep learning and reinforcement learning search for an optimized solution in data, and more data usually means a better fit. Second, tell human work from machine work. Exhibit: structural biology. Humans solved the structures of <1% of ~100–200 million proteins. alphafold (DeepMind) then predicted almost all of them and put the set in an open database. Once the machine can do the job, let it, and move to the human remainder. Third, work *with* AI. The scarce human move is 0-to-1 — invent something that did not exist — with AI supplying information, not replacing the invention.\n\nPeople say creativity cannot be taught. Stanford Design Thinking is his counter: it will not make you Jobs or Musk, but it can make you more innovative than *you*. Steps: empathize (users and their emotion) → define the problem → ideate / brainstorm → prototype → test → loop. all-design-is-redesign. A lecture or a book is not enough; you have to run the loop until you feel it. Class case: incubators for Nepal. Design-from-California assumed a shortage of expensive machines. The team flew to the mountains and found the medical centers already had them — unused, because staff could not operate them. Villages wanted cheap home units. Wrong problem, then the right one.\n\nChatGPT is the surprise that talks naturally *and* writes code. Kids will use it for essays. His move is assign-ai-dont-ban-it: yesterday's homework was write the essay *with* ChatGPT, then a short 1:1 on how they used it and how it felt. Technology is water. You cannot block it. You go with it. He still wants the dream that Optimus Prime gave him as a kid — early minds need dreams — and his long goal is the education system that fits the next generation.",
+      "key_insights": [
+        "$1,000 → ~$200 — if a human can do the job and a machine can calculate it faster, price it as machine work",
+        "Avoidance is the real risk — staying away from AI is not safety; it is falling behind people who use it",
+        "ai-thinking — how it works / human vs machine / work with it; start as early as possible",
+        "Rules → data — old AI was human rules; now DL/RL fit solutions to data",
+        "let-machines-do-machine-work — AlphaFold vs <1% human protein structures; then do the human part",
+        "0-to-1 stays human — invent what did not exist; AI feeds information",
+        "Design Thinking is teachable creativity — more innovative than yourself, not Jobs",
+        "Empathize first — who you invent for, especially their emotion",
+        "all-design-is-redesign — wrong define → go back; iterate until the invention is real",
+        "Nepal incubators — expensive unused clinic machines vs cheap home units the farmers asked for",
+        "assign-ai-dont-ban-it — essay *with* ChatGPT, then talk about the use; do not pretend you can forbid it",
+        "Water, not a wall — you cannot block the tech; go with it and study the education impact",
+        "Early dreams — Optimus Prime → robots; little minds still need a dream"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
       "slug": "the-next-outbreak-were-not-ready-bill-gates-ted",
       "title": "The next outbreak? We’re not ready | Bill Gates | TED",
       "video_id": "6Af6b_wyiwI",
@@ -1170,7 +1237,7 @@
         "Become it — repeat the talks until \"not supposed to be here\" is gone",
         "Give it away — no-resource people can do this in private"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "two-minute-power-pose",
