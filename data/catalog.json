@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 240,
-  "insightsCount": 237,
-  "conceptCount": 2401,
+  "videoCount": 241,
+  "insightsCount": 238,
+  "conceptCount": 2415,
   "sections": [
     {
       "id": "architecture",
@@ -54,7 +54,7 @@
     "architecture": 2,
     "agents": 48,
     "systems": 12,
-    "build": 39,
+    "build": 40,
     "human": 11,
     "performance": 47,
     "mind": 30,
@@ -2046,6 +2046,137 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "the-most-valuable-64-minutes-hormozi-mylett",
+      "title": "The Most Valuable 64 Minutes You'll Spend This Year (Hormozi x Mylett)",
+      "video_id": "D6EmhvQgBh4",
+      "url": "https://youtu.be/D6EmhvQgBh4",
+      "duration_min": 65,
+      "creator": "ed-mylett",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "business",
+        "entrepreneurship",
+        "leadership",
+        "ai"
+      ],
+      "keywords": [
+        "business",
+        "entrepreneurship",
+        "leadership",
+        "ai",
+        "ed mylett",
+        "Work Is the Goal",
+        "Focus Is Subtraction",
+        "$1–3M Swamp",
+        "Demand / Conversion / Delivery Leverage",
+        "Chips Back in the Middle",
+        "Assemble, Don't Build",
+        "What Changes About My Day?"
+      ],
+      "summary": "~65-minute ed-mylett-show conversation with alex-hormozi (Sep 15 2026), taped as Hormozi and leila-hormozi prepare for a first child. Companion to the DOAC operator layer (alex-hormozi-stop-chasing-ai-build-this-instead-doac) and the Jay Shetty start-today clip (alex-hormozi-if-i-started-today-jay-shetty) — not \"how to start\" or \"where AI value survives,\" but how effort, risk, and leverage have to change after you can already pay for dinner.\n\nFatherhood is already changing the chip stack: education outside a system he does not trust, and money shifting from \"chips to play the game / one check to charity\" toward something he will leave to someone. The performance half is anti-ritual. Compress wake → work; train at night when the brain is spent; know your cognitive peak. A routine must stay a preference, not a requirement — champions win despite imperfect conditions (Invictus / Mandela: no one is ever 100%). After a miserable post-exit year he adopted work-is-the-goal: the score is not the objective; only you know how hard you could have worked. Wall reminders: focus-is-subtraction, a good-day formula (workout + meal with people you like + write), empty the tank. Calendar now is mostly empty (half-day Monday meetings, one filming day) so he can take the Sunday $400M stock deal. time-horizon-foundation-design again: 24-hour horizon = stimulants; decade horizon = rest, family, seasons.\n\nThe operator half is the swamp. Entrepreneurs stall at $1–3M (swamp-one-to-three-million) because personal needs are met and the next hire or ad-spend bet is half of profit. Escape is more leverage on demand, conversion, or delivery — not AI-maxing (demand-conversion-delivery-leverage). Getty / Rockefeller / Musk keep pushing chips back in (chips-back-in-the-middle); risk tolerance has to grow with the opportunity or the game dies. Fear is still fear-lives-in-the-vague (gym-launch Plan B: Uber days, strip nights); status is only lost among people whose lives you do not want (specific-judgment-fear). After enough failed hires you stop building and assemble-not-build. AI is one toy in the box; it still sucks at decisions (ai-judgment-delegation-risk). Bezos filter: bet what will not change (cheaper, more selection, faster, food, shelter). Personal risk dial: nest egg first, then what-changes-about-my-day — a pissed wife changes the week more than most business losses. Push vs pivot stays a personal dial (thesis-invalidation-pivot-rule).",
+      "key_insights": [
+        "Fatherhood reweights the chip stack: educate the son; leave something, not one charity check",
+        "Compress wake → work; train when the brain is tired; routine is additive, never a crutch",
+        "No one is ever 100%; winners win under imperfect conditions",
+        "After you can win, effort conditional on winning is too low a bar (Frisella 100-to-0 / run up the score)",
+        "Work is the goal; you can win publicly and lose privately",
+        "Good-day formula: train + eat with people you like + write; leave nothing in the tank",
+        "Empty calendar is leverage; a booked day misses the Sunday deal",
+        "Decade output needs rest; 24-hour output does not",
+        "Startup day thirds: innovate / sell / admin; 12×6 is a season, not a brand",
+        "Dorsey: perfect the details, limit the number of details; attack the constraint",
+        "Focus is subtraction; the team should feel better because you told them what *not* to do",
+        "Anti-human trio: old stuff a long time, one thing, frustration tolerance — character, not IQ",
+        "Human behavior patterns beat market patterns; humans still unlock everything",
+        "AI is not the only leverage; a killed initiative returns more time than AI-maxing a dumb one",
+        "Leadership: define good in observable behavior, then model it (Gandhi sugar); Leila = internal / Alex = external",
+        "$1–3M swamp: comfort + next bet is half of profit; most stay stuck logically",
+        "Escape via demand / conversion / delivery leverage (content loops, 6-inch putts, async/batch/remote)",
+        "Write Plan B; vague fear is the tax; failure is an earlier exit on the same road",
+        "Collect nos; first salesperson / first manager is expensive pattern recognition",
+        "At some point you assemble businesses and deploy a Rolodex",
+        "Anticipation is leverage (first-mover on a platform); ask \"what would it take?\"",
+        "Bet what will not change; nest egg so the worst case is your day does not change",
+        "Filter: what changes about my day? Family anger > most P&L hits"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "work-is-the-goal",
+          "title": "Work Is the Goal",
+          "e": "🏋️"
+        },
+        {
+          "slug": "focus-is-subtraction",
+          "title": "Focus Is Subtraction",
+          "e": "✂️"
+        },
+        {
+          "slug": "swamp-one-to-three-million",
+          "title": "$1–3M Swamp",
+          "e": "🐊"
+        },
+        {
+          "slug": "demand-conversion-delivery-leverage",
+          "title": "Demand / Conversion / Delivery Leverage",
+          "e": "⚙️"
+        },
+        {
+          "slug": "chips-back-in-the-middle",
+          "title": "Chips Back in the Middle",
+          "e": "🎰"
+        },
+        {
+          "slug": "assemble-not-build",
+          "title": "Assemble, Don't Build",
+          "e": "🧩"
+        },
+        {
+          "slug": "what-changes-about-my-day",
+          "title": "What Changes About My Day?",
+          "e": "📅"
+        },
+        {
+          "slug": "fear-lives-in-the-vague",
+          "title": "Fear Lives in the Vague",
+          "e": "🌫️"
+        },
+        {
+          "slug": "specific-judgment-fear",
+          "title": "Specific Judgment Fear",
+          "e": "👤"
+        },
+        {
+          "slug": "time-horizon-foundation-design",
+          "title": "Time Horizon Foundation Design",
+          "e": "🏗️"
+        },
+        {
+          "slug": "ai-judgment-delegation-risk",
+          "title": "AI Judgment Delegation Risk",
+          "e": "🤔"
+        },
+        {
+          "slug": "thesis-invalidation-pivot-rule",
+          "title": "Thesis Invalidation Pivot Rule",
+          "e": "🔀"
+        },
+        {
+          "slug": "effort-outcome-detachment",
+          "title": "Effort–Outcome Detachment",
+          "e": "🕊️"
+        },
+        {
+          "slug": "snowball-risk-taking-entrepreneurship",
+          "title": "Snowball Risk Taking Entrepreneurship",
+          "e": "❄️"
+        }
+      ],
+      "conceptCount": 14
     },
     {
       "slug": "the-next-outbreak-were-not-ready-bill-gates-ted",
