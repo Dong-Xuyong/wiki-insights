@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 230,
-  "insightsCount": 226,
-  "conceptCount": 2279,
+  "videoCount": 234,
+  "insightsCount": 228,
+  "conceptCount": 2306,
   "sections": [
     {
       "id": "architecture",
@@ -52,9 +52,9 @@
   ],
   "sectionCounts": {
     "architecture": 2,
-    "agents": 47,
+    "agents": 48,
     "systems": 12,
-    "build": 30,
+    "build": 33,
     "human": 11,
     "performance": 47,
     "mind": 30,
@@ -140,6 +140,71 @@
         }
       ],
       "conceptCount": 5
+    },
+    {
+      "slug": "college-dropout-builds-30m-startup-jenni-ai-david-park",
+      "title": "College Dropout Builds $30M Startup While Fighting Cancer | Jenni AI David Park",
+      "video_id": "YN7DT39f_Ak",
+      "url": "https://www.youtube.com/watch?v=YN7DT39f_Ak",
+      "duration_min": 20,
+      "creator": "david-park",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "startups",
+        "saas",
+        "ai",
+        "fundraising",
+        "eo"
+      ],
+      "keywords": [
+        "startups",
+        "saas",
+        "ai",
+        "fundraising",
+        "eo",
+        "david park",
+        "Fail at What You Love",
+        "User Blueprint Not Gut",
+        "ask pain not praise",
+        "feature subtraction clarity",
+        "geo arbitrage runway",
+        "founder discipline over freedom"
+      ],
+      "summary": "20-minute eo-studio founder cut with david-park, 27, CEO of jenni-ai — academic AI assistant for research and writing. Official captions. YouTube title says \"$30M\"; he states ~$2.5M ARR, 2M+ users in every country, 15–20% MoM for the last ten months, checks from jason-calacanis and the Nat Friedman / Daniel Gross grant. Eight years of failed clothing, social, and dating apps; UC San Diego dropout after a three-hour plane pitch; thyroid-cancer surgery on the first growth wave.\n\nCore thesis: fail-at-what-you-love — you can fail at a job you do not love, so fail at the thing you do. The sad truth is not failure. On a long enough horizon you can probably make a living. The sad truth is startup-unsexy-boredom: most days are spreadsheets, not Theranos/Uber Netflix. Twin of i-hit-1m-arr-117-days-bootstrapped-10m-chatbase-yasser-elsaid (same GPT-2-era AI writing/support wave, opposite capital story) and if-i-had-90-days-start-business-simon-squibb (talk to users, cut burn, one sample).\n\nProduct path. Literature major + CS/NLP-PhD co-founder. Started on GPT-2 timing writers for a 10% speed-up (agency). GPT-3 made text useful → SaaS, then a general Word-with-AI, then feature-subtraction-clarity: ripping features out made the product better and the vision sharper. KPI: first autocomplete inside five minutes. Users who stayed were students and researchers, so they built for them.\n\nMoney and luck. Cold-called; gave months free (free-first-customer-strategy). Answered spam LinkedIn. Tiny podcast → Calacanis scout; missed the first email, answered the second, $100K, stared at the screenshot at grandpa's house. Booked Malaysia (one-fourth the price) so the cheque would last — geo-arbitrage-runway. Still stuck ~$2k MRR for 1.5–2 years. Korea: $250K \"done deal\" died because he stayed out late with a girl, Google-Translated a Korean legal doc until 3 a.m., and showed up late — two months of runway, engineer with a baby. Last-minute other VC. Moral: founder-discipline-over-freedom. Then a viral Twitter thread (his claim: most-viral AI/startup thread) burned their OpenAI credits in an hour; he DMed every Intercom user for emails. Growth did not die after the spike.\n\nBody. Jaw check in Korea; nurse went quiet; 50% thyroid-cancer odds, then the email. Tree-can't-reach-heaven-unless-roots-reach-hell. VCs smelled pre-surgery desperation. Fever, ice packs, mom's promised verse, Bible on the waiting-room ceiling, same verse after he woke. Not religious; files it with the plane stranger, the second email, the tweet he did not write. recipe-not-rescue-faith cousin: the verse did not skip the surgery.",
+      "key_insights": [
+        "Fail at what you love — the alternative is failing at a life you already do not want",
+        "Gut is not the blueprint — user-blueprint-not-gut: ego to believe $1B is possible, humility to keep asking",
+        "Build-it-and-they-come died at 16 — high-school clothing brand; the mall jock in his sweater was the first \"value\" hit",
+        "Plane as a three-hour prison — Coinbase tab → cashier's check → dropout",
+        "Dating-app VC reveal — they wanted users *not* to find a partner; 19–20-year-old chasm into adult VC",
+        "Dropout comparison tax — friends' gowns then Microsoft jobs vs living with parents; comparison-is-thief-of-joy he could not fully switch off",
+        "GPT-2 joke as founding myth — \"Nothing is darker than a butthole\"; do not copy the \"we got lucky\" origin",
+        "Agency → SaaS on GPT-3 — timed writers, then no writers",
+        "Subtract to see the job — first autocomplete in five minutes",
+        "Follow who already likes you — academics, not a fantasy ICP",
+        "Ask pain, not praise — ask-pain-not-praise; users lie to be polite; watch actions",
+        "Free months are cheap vs knowing what to build",
+        "Second-email luck — hackable-luck-framework plus answering spam",
+        "Malaysia extended the $100K — still two years at $2k MRR",
+        "$250K late-meeting cry — freedom requires more discipline than the 9-to-5",
+        "Raise ≠ success — the first success feeling was the tweet + Intercom triage",
+        "Cancer at first sunlight — eight years of 000, then the diagnosis",
+        "Netflix is a lie — void-stare years hurt more than today's fires"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "fail-at-what-you-love",
+          "title": "Fail at What You Love"
+        },
+        {
+          "slug": "user-blueprint-not-gut",
+          "title": "User Blueprint Not Gut"
+        }
+      ],
+      "conceptCount": 2
     },
     {
       "slug": "connect-ai-to-billions-of-legal-documents",
@@ -247,6 +312,185 @@
       "conceptCount": 10
     },
     {
+      "slug": "he-didnt-make-money-for-8-years-saeju-jeong",
+      "title": "He didn't make money for 8 years | Saeju Jeong (1/2)",
+      "video_id": "ZHRLOnGdKIA",
+      "url": "https://www.youtube.com/watch?v=ZHRLOnGdKIA",
+      "duration_min": 12,
+      "creator": "entrepreneurs-organization",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "entrepreneurship",
+        "health",
+        "startups",
+        "eo"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "health",
+        "startups",
+        "eo",
+        "entrepreneurs organization",
+        "Hobby Passion Small TAM",
+        "Immigrant Founder Self Doubt",
+        "Vulnerable Founder Not Fearless",
+        "Sunset the Hit for the Mission",
+        "Century Company Ambition",
+        "Luck from Sticking",
+        "Product Market Fit Iteration"
+      ],
+      "summary": "12-minute entrepreneurs-organization founder cut (saeju-jeong / noom, official English captions, part 1 of 2). Origin story, not a growth-hack: immigrant self-doubt, a hobby business that failed the why-and-TAM test, two years recruiting artem-petakov out of Google Maps, a Peloton-like bike with no PMF, years of zero revenue, then a hit fitness app they killed because it was not the mission.\n\nsaeju-jeong grew up in Yeosu, a small fishing town in South Korea. Father was a doctor; the college exam blocked medical school; electrical engineering was not his choice. He dropped out and at 19 started a heavy-metal record distribution company. Lesson: hobby-passion-small-tam — passion-as-hobby does not answer why you are on the planet, and Korea's metal TAM is tiny. He picked New York because it is internationally friendly and far from big Korean communities (LA / Seattle / SF). If it failed, settling into the diaspora would be harder.\n\nHe arrived speaking no English, knowing nobody, one week silent at home. As a nobody immigrant he had to be extra nice to leave an impression or he would get no chance. Network and confidence were rebuilt from fresh eyes.\n\nartem-petakov: Ukraine at 13, Princeton CS + theater, Google Maps tech lead (geo search). Met via a cousin's Princeton alumni dinner in Manhattan; clicked day one; talked until 4 a.m. two days later. Jeong spent two years pitching him out of Google into healthcare: 6–7 of 10 people sick, Silicon Valley's problem-solving barely applied. Artem convinced his parents and left. Early capital: Googler angels, Korean friends, family. Office was a Harlem apartment they lived in.\n\nFirst prototype: a smart stationary bike, ~two years to build, pitched 2008–2009, no raise, no PMF. Today's Noom rule: test the idea before you build. Broke for years, no revenue, could not raise; Jeong put in money from sisters, brothers, friends in Korea. No cash for hardware → they built Cardio Trainer (phone GPS + accelerometer for cycling/running). Mega-hit: #1, 5 million users in six months, Kleiner Perkins seed. Users wanted weight loss and holistic health, not just \"getting fit.\" They sunset the hit.\n\nFirst Noom (2014): AI-only weight guidance. May 2016 relaunch: human coaches + behavior change across diet, exercise, stress, sleep. Positioning: healthcare is optimized for sick care; they want preventative, consumer-led care. 2021: $540M led by Silver Lake; he calls Noom the largest consumer-led digital healthcare company in the US. 3,000+ US full-time employees. His job shifted from everywhere-operator to delegate, hire better domain executives, sponsor them, keep mission and strategy aligned.\n\nShared founding book: Jim Collins *Good to Great*. century-company-ambition: good company ships amazing service; great company lasts a century. Zero-to-one they did; 1-to-100 is the next hard journey. He is not a serial founder — 16 years on Noom, and he intends to stay.\n\nHardest thing is not money or roadmap. As an immigrant founder it is immigrant-founder-self-doubt: \"Am I the right person?\" Only he can answer. Managed by mission-why, the right people, early wake / exercise, and thinking the hard questions other founders skip. Advice: be honest, ask for help, admit gaps. vulnerable-founder-not-fearless — \"strong fearless leader\" is the wrong pose; you are breakable.\n\nClose: luck is necessary, but luck-from-sticking — luck shows up if you stay on one path long enough. You make your own luck.",
+      "key_insights": [
+        "Hobby-as-business fails twice: no philosophical why, and a small TAM",
+        "Choose geography that makes compromise expensive",
+        "Two-year co-founder courtship can be the real founding act",
+        "Two years on hardware with no test is the cute mistake; test first",
+        "Poverty constraint (no hardware budget) forced the app that found users",
+        "Killing a #1 / 5M-user product is allowed if it does not keep the promise",
+        "AI-only → human coach was the outcome upgrade",
+        "Good vs great = quality of service vs century durability",
+        "Zero-to-one ≠ the hard part; 1-to-100 is",
+        "Self-doubt is the immigrant-founder demon; mission + people + habits, not a fearless mask",
+        "Luck is a byproduct of staying"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "hobby-passion-small-tam",
+          "title": "Hobby Passion Small TAM"
+        },
+        {
+          "slug": "immigrant-founder-self-doubt",
+          "title": "Immigrant Founder Self-Doubt"
+        },
+        {
+          "slug": "vulnerable-founder-not-fearless",
+          "title": "Vulnerable Founder Not Fearless"
+        },
+        {
+          "slug": "sunset-the-hit-for-the-mission",
+          "title": "Sunset the Hit for the Mission"
+        },
+        {
+          "slug": "century-company-ambition",
+          "title": "Century Company Ambition"
+        },
+        {
+          "slug": "luck-from-sticking",
+          "title": "Luck from Sticking"
+        },
+        {
+          "slug": "product-market-fit-iteration",
+          "title": "Product-Market Fit Iteration",
+          "e": "🔁"
+        },
+        {
+          "slug": "early-prototyping-validation",
+          "title": "Early Prototyping Validation",
+          "e": "🧪"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "how-i-use-llms-karpathy",
+      "title": "How I use LLMs",
+      "video_id": "EWvNQjAaOHw",
+      "url": "https://youtu.be/EWvNQjAaOHw",
+      "duration_min": 132,
+      "creator": "andre-karpathy",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "agents",
+      "tags": [
+        "karpathy",
+        "llms",
+        "chatgpt",
+        "vibe-coding"
+      ],
+      "keywords": [
+        "karpathy",
+        "llms",
+        "chatgpt",
+        "vibe coding",
+        "andre karpathy",
+        "Tokenizer as Cognition",
+        "Know Which Model You're Using",
+        "Thinking Models When to Use",
+        "LLM Council",
+        "LLM tool use",
+        "Deep Research Agent",
+        "Native Audio Voice Mode"
+      ],
+      "summary": "andre-karpathy's Feb 2025 practical companion to *Deep Dive into LLMs* (~132 min, auto-captions). The earlier video is training + \"psychology.\" This one is the 2025 app ecosystem and how he actually uses the tools — settings, pricing tiers, model pickers, and personal examples (caffeine, cold meds, *White Lotus*, supplements, books, code, bloodwork, Korean).\n\nChatGPT is the incumbent. OpenAI shipped mass text chat in 2022. By 2025 it is still \"Original Gangster\" — most popular, most feature-rich. Clones: gemini, Meta, Microsoft Copilot; startups: Claude (anthropic), perplexity, Grok (xai); plus DeepSeek and Mistral Le Chat. He tracks strength on Chatbot Arena ELO and Scale SEAL. Mental model: you are talking to a lossy ~1 TB zip file (~1 trillion parameters) with a knowledge cutoff months-to-a-year old. By default: no calculator, no Python, no web. Tokens in the context window = working memory; New Chat wipes it. He pays Pro ($200/mo) gladly for coding; Plus is $20 / 80 GPT-4o messages per 3 hours. Same question often goes to several providers — his llm-council.\n\nThe rest is capabilities layered onto that zip file: thinking / RL models (o-series, DeepSeek R1, Claude 3.7 Extended); search (Perplexity habit; ChatGPT \"Search the web\"); Deep Research (ChatGPT Pro ~10 min / 27 sources on Ca-AKG); file upload (\"don't read books alone\"); Python / Advanced Data Analysis (junior analyst that plots and also lies); Claude Artifacts (React flashcards + Mermaid); cursor Composer where he mints vibe-coding; fake vs true audio; NotebookLM source-grounded podcasts; image in/out; mobile video in Advanced Voice; Memory + custom instructions + custom GPTs. Product facts are a Feb 2025 snapshot.",
+      "key_insights": [
+        "Chat UI is a lie: you and the model co-author one 1-D token stream (tokenizer-as-cognition); Tiktokenizer: 15 + 19 → 42 tokens on the haiku demo",
+        "Context window is precious working memory — new topic → new chat",
+        "know-which-model-youre-using — incognito ChatGPT hides the model (likely 4o-mini); Plus meters 4o; Pro unlocks o1 Pro + Deep Research",
+        "Knowledge-only queries: frequent + non-recent + low stakes (Americano ~63 mg caffeine; DayQuil box check; Claude + Gemini both said Zermatt)",
+        "Thinking models for hard math/code only — try fast non-thinking first; GPT-4o missed his gradient bug, o1 Pro (~1 min) and several labs found it",
+        "Search and Python are special tokens that pause sampling and inject tool output (llm-tool-use); Grok 3 had no interpreter and hallucinated a big multiply",
+        "Deep Research = many searches × thinking for tens of minutes → first draft with citations, not truth (US LLM-labs table dropped xAI)",
+        "File upload: paste the chapter you are on; Claude \"knows\" *Wealth of Nations* vaguely but not Book I ch.3",
+        "ADA is a junior, absent-minded analyst — 2015 N/A → assumed $100M; claimed $1.7T vs printed ~$20T",
+        "Professional code is Cursor, not the chat box — Composer + Claude 3.7; Ctrl-K → Cmd-L → Cmd-I; he confirms shell commands",
+        "vibe-coding coinage lives here: give Composer control, hope it works, fall back to reading files",
+        "Desktop: ~50% voice via Super Whisper F5; phone ~80% speech; Advanced Voice is native audio, not STT/TTS",
+        "NotebookLM: sources on the left → grounded chat + Deep Dive podcast; he published *Histories of Mysteries* on Spotify",
+        "Custom GPTs are saved few-shot prompts, not new models — Korean Anki extractor / translator / screenshot OCR",
+        "Daily: ChatGPT Pro, Perplexity, Cursor, Super Whisper, file-upload reading, Korean GPTs, Memory. Not daily: Artifacts (except diagrams), DALL-E, video gen, camera-pointing Advanced Voice"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "tokenizer-as-cognition",
+          "title": "Tokenizer as Cognition"
+        },
+        {
+          "slug": "know-which-model-youre-using",
+          "title": "Know Which Model You're Using"
+        },
+        {
+          "slug": "thinking-models-when-to-use",
+          "title": "Thinking Models When to Use"
+        },
+        {
+          "slug": "llm-council",
+          "title": "LLM Council"
+        },
+        {
+          "slug": "llm-tool-use",
+          "title": "LLM tool use",
+          "e": "🔧"
+        },
+        {
+          "slug": "deep-research-agent",
+          "title": "Deep Research Agent"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "native-audio-voice-mode",
+          "title": "Native Audio Voice Mode"
+        },
+        {
+          "slug": "custom-gpts-as-apps",
+          "title": "Custom GPTs as Apps"
+        },
+        {
+          "slug": "chatgpt-as-search-successor",
+          "title": "ChatGPT as Search Successor",
+          "e": "🔍"
+        }
+      ],
+      "conceptCount": 10
+    },
+    {
       "slug": "how-to-master-ai-powered-creativity-jeremy-utley",
       "title": "How to Master AI Powered Creativity in Just 13 Minutes | Jeremy Utley",
       "video_id": "wv779vmyPVY",
@@ -297,19 +541,23 @@
       "concepts": [
         {
           "slug": "ai-as-teammate",
-          "title": "AI as Teammate"
+          "title": "AI as Teammate",
+          "e": "🤝"
         },
         {
           "slug": "realization-gap-ai",
-          "title": "Realization Gap AI"
+          "title": "Realization Gap AI",
+          "e": "📉"
         },
         {
           "slug": "inspiration-is-a-discipline",
-          "title": "Inspiration is a Discipline"
+          "title": "Inspiration is a Discipline",
+          "e": "🎤"
         },
         {
           "slug": "creativity-past-first-idea",
-          "title": "Creativity Past First Idea"
+          "title": "Creativity Past First Idea",
+          "e": "📝"
         },
         {
           "slug": "creative-thinking-novel-problems",
@@ -320,9 +568,14 @@
           "slug": "everyone-entrepreneur-ai-era",
           "title": "Everyone Entrepreneur AI Era",
           "e": "🌍"
+        },
+        {
+          "slug": "grade-homework-not-do-homework",
+          "title": "Grade Homework Not Do Homework",
+          "e": "📝"
         }
       ],
-      "conceptCount": 6
+      "conceptCount": 7
     },
     {
       "slug": "how-to-speak-so-that-people-want-to-listen-julian-treasure-ted",
@@ -722,6 +975,73 @@
       "conceptCount": 10
     },
     {
+      "slug": "pivot-and-fail-fast-ses-ai-qichao-hu",
+      "title": "Pivot and Fail Fast: Most Valuable Lessons During Our 12-Year Journey to IPO  | SES AI, Qichao Hu",
+      "video_id": "9MQNO9DbaYQ",
+      "url": "https://www.youtube.com/watch?v=9MQNO9DbaYQ",
+      "duration_min": 15,
+      "creator": "qichao-hu",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "entrepreneurship",
+        "hardware",
+        "batteries",
+        "ai"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "hardware",
+        "batteries",
+        "ai",
+        "qichao hu",
+        "Let Go of Momentum to Pivot",
+        "Founder vs Professional CEO",
+        "Raise Hot Spend Cheap",
+        "Select Investors for Board Chemistry",
+        "Competitor Wreckage as Incubator",
+        "Thesis Invalidation Pivot Rule",
+        "Demand Before Infrastructure"
+      ],
+      "summary": "15-minute founder talk by qichao-hu, founder/CEO of ses-ai (YouTube auto-generated captions; names in the raw file are garbled). SES makes lithium-metal batteries for electric transport on land and in the air, and uses AI for materials discovery and EV safety. Claimed stack: 10+ years, $500M+ raised, NYSE listing, first automotive A-sample and B-sample lithium-metal cells, partners GM / Hyundai / Honda.\n\nThe regret is not \"we should have pivoted.\" It is we should have pivoted sooner. Drone cells, drone customers, and drone-team momentum felt like DNA. Switching to EVs meant dropping those people and that work. let-go-of-momentum-to-pivot: the risk of a pivot is letting go of something you are emotionally attached to.\n\nChildhood frame: universe + Transformers; MIT physics undergrad; PhD start 2007–08 while a123-systems was the US battery hero. He watched A123 miss the chemistry window (LFP vs then-popular NCM), then watched professional management take government money, hire 5,000 in 3 months for a Michigan plant, ship tab-welding defects to GM, lose the contract to LG, chase revenue for market cap at negative margin, and go bankrupt in 2012. Lesson: founder-vs-professional-ceo — founders stay on the tech baby; hired CEOs can forget who they are.\n\nSES was raising Series A with no cash. They walked into A123's emptied Waltham R&D line (peak ~200 people, then ~8), asked an engineer to run the 18650 line, and built prototypes for free. competitor-wreckage-as-incubator. Only Massachusetts battery company that did that, he says. Saved time and money. Also: do not become A123.\n\nCash rule: when the market is hot (SPAC 2021–22; also 2022–23 and \"first half of this year\"), raise as much as you can. Do not spend it on CapEx. Peers built nicer California facilities and are shutting them. $100 of CapEx later sells for less than a cent. raise-hot-spend-cheap. A lot of listed-company work is for shareholders and does not serve the mission — skip it.\n\nWorst challenge is not tech or deals. It is a bad board: an investor who does not know the work, has an exit clock, or is raising the next fund. A brand-name dollar equals a no-name dollar. Chemistry and written CEO vs board power matter more. \"If you don't give me the power, don't make me the CEO — make someone else the COO.\" Pivots need concentrated power. select-investors-for-board-chemistry.\n\nEV qualification is slow on purpose (family in the car). SES's bet: one year of field data + a model instead of ten years of waiting. Three products — AI for science, manufacturing, and safety — plus gigafactory data and new foundation models, with compute partners including nvidia. Personal bets: flying cars in ~10 years; high-altitude pseudo-satellites as flying cell towers for remote Wi-Fi; Arctic GPU clusters that later leave transportation for climate problems. SES as battery company → power company → \"brain\" for climate is a vision, not a receipt.\n\nClose: success and failure are labels on temporary states. Costs are real. He is not that bothered. \"I'm a robot.\" Same identity split as identity-beyond-success-failure, colder.",
+      "key_insights": [
+        "Pivot cost is momentum and relationships, not the slide deck",
+        "A123: too early, then too inorganic, then quality and cost both gone",
+        "Founder CEO ≠ professional CEO after government money",
+        "Use a dead competitor's line before you buy your own",
+        "Raise in heat; stay cheap on CapEx",
+        "Skip investor theatre that does not serve the product",
+        "Select the board; write the CEO's power; do not be polite about it",
+        "AI is here to compress a 10-year safety wait, not to replace the cell",
+        "Failure is a state, not a self"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "let-go-of-momentum-to-pivot",
+          "title": "Let Go of Momentum to Pivot"
+        },
+        {
+          "slug": "founder-vs-professional-ceo",
+          "title": "Founder vs Professional CEO"
+        },
+        {
+          "slug": "raise-hot-spend-cheap",
+          "title": "Raise Hot Spend Cheap"
+        },
+        {
+          "slug": "select-investors-for-board-chemistry",
+          "title": "Select Investors for Board Chemistry"
+        },
+        {
+          "slug": "competitor-wreckage-as-incubator",
+          "title": "Competitor Wreckage as Incubator"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
       "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
       "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
       "video_id": "s7d2d8FhevU",
@@ -896,23 +1216,27 @@
         "Water, not a wall — you cannot block the tech; go with it and study the education impact",
         "Early dreams — Optimus Prime → robots; little minds still need a dream"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "ai-thinking",
-          "title": "AI Thinking"
+          "title": "AI Thinking",
+          "e": "🧠"
         },
         {
           "slug": "let-machines-do-machine-work",
-          "title": "Let Machines Do Machine Work"
+          "title": "Let Machines Do Machine Work",
+          "e": "🤖"
         },
         {
           "slug": "all-design-is-redesign",
-          "title": "All Design Is Redesign"
+          "title": "All Design Is Redesign",
+          "e": "🔄"
         },
         {
           "slug": "assign-ai-dont-ban-it",
-          "title": "Assign AI Don't Ban It"
+          "title": "Assign AI Don't Ban It",
+          "e": "💧"
         },
         {
           "slug": "design-thinking-problem-first",
@@ -21252,9 +21576,14 @@
           "slug": "open-weight-vs-closed-llms",
           "title": "Open-weight vs closed LLMs",
           "e": "⚖️"
+        },
+        {
+          "slug": "llm-tool-use",
+          "title": "LLM tool use",
+          "e": "🔧"
         }
       ],
-      "conceptCount": 2
+      "conceptCount": 3
     },
     {
       "slug": "sugar-processed-foods-impact-health-robert-lustig",

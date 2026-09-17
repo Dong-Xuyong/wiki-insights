@@ -1,0 +1,70 @@
+{
+  "slug": "survival-strategies-era-ai-stanford-aire",
+  "sections": [
+    {
+      "title": "Don't race the calculator",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "What is Jiang's $1,000 / $200 split?",
+          "a": "A job a human does for **$1,000** becomes ~**$200** for a robot, because you cannot calculate faster than the machine. **Let the robot do that job.** Spend humans on what is left."
+        },
+        {
+          "e": "🧬",
+          "q": "What is the AlphaFold receipt?",
+          "a": "Structural biology: ~100–200 million proteins. Humans had structures for **<1%**. DeepMind's AlphaFold predicted **almost all** and put them in an open database. Once the machine can do the determination, stop staffing that as the career."
+        },
+        {
+          "e": "0️⃣",
+          "q": "What stays human?",
+          "a": "**0-to-1 invention** — something that did not exist. AI supplies information. It does not replace the inventing."
+        }
+      ]
+    },
+    {
+      "title": "AI Thinking, early",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What are the three parts of AI Thinking?",
+          "a": "1) **How it works** — rules-era AI vs deep learning / RL on data. 2) **Human vs machine.** 3) **Work with AI.** Start as early as possible. Avoiding the tool is how you lose."
+        },
+        {
+          "e": "🚫",
+          "q": "Why not stay away from AI?",
+          "a": "It is one of the most powerful tools ever invented. **If you do not use it, you cannot compete.** Fear is not a strategy."
+        }
+      ]
+    },
+    {
+      "title": "Design Thinking + Nepal",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "Can creativity be taught?",
+          "a": "Not to Jobs/Musk level. Stanford Design Thinking can make you **more innovative than yourself**: empathize → define → ideate → prototype → test. Phrase: **all design is redesign.** A lecture is not enough; run the loop."
+        },
+        {
+          "e": "🏔️",
+          "q": "What did the Nepal incubator team get wrong?",
+          "a": "California assumed a shortage of expensive clinic machines. They flew to the mountains: the machines were **already there, unused**. Villages wanted **cheap home units**. Wrong problem, then the right product."
+        }
+      ]
+    },
+    {
+      "title": "Assign it, don't ban it",
+      "items": [
+        {
+          "e": "📝",
+          "q": "What was yesterday's homework?",
+          "a": "Write the essay **with** ChatGPT. Then a short 1:1: how did you use it, how did it feel. **Not** 'don't use it.'"
+        },
+        {
+          "e": "💧",
+          "q": "What is the water line?",
+          "a": "The tech is happening. **You cannot block water. You go with it** and study what it does to school. Early minds still need a dream (his was Optimus Prime)."
+        }
+      ]
+    }
+  ]
+}
