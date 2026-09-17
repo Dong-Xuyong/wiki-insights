@@ -111,23 +111,28 @@
       "concepts": [
         {
           "slug": "programmable-ip",
-          "title": "Programmable IP"
+          "title": "Programmable IP",
+          "e": "📜"
         },
         {
           "slug": "ip-legos",
-          "title": "IP Legos"
+          "title": "IP Legos",
+          "e": "🧱"
         },
         {
           "slug": "ai-abundance-vs-blockchain-scarcity",
-          "title": "AI Abundance vs Blockchain Scarcity"
+          "title": "AI Abundance vs Blockchain Scarcity",
+          "e": "⚖️"
         },
         {
           "slug": "attention-monetization-dilemma",
-          "title": "Attention Monetization Dilemma"
+          "title": "Attention Monetization Dilemma",
+          "e": "🎮"
         },
         {
           "slug": "stripe-abstraction-for-ip",
-          "title": "Stripe Abstraction for IP"
+          "title": "Stripe Abstraction for IP",
+          "e": "💳"
         },
         {
           "slug": "co-founder-selection",
