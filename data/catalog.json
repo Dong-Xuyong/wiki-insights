@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 230,
   "insightsCount": 226,
-  "conceptCount": 2278,
+  "conceptCount": 2279,
   "sections": [
     {
       "id": "architecture",
@@ -918,9 +918,14 @@
           "slug": "design-thinking-problem-first",
           "title": "Design Thinking Problem-First",
           "e": "🎯"
+        },
+        {
+          "slug": "grade-homework-not-do-homework",
+          "title": "Grade Homework Not Do Homework",
+          "e": "📝"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 6
     },
     {
       "slug": "the-next-outbreak-were-not-ready-bill-gates-ted",
