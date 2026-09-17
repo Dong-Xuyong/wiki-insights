@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 234,
+  "videoCount": 237,
   "insightsCount": 228,
-  "conceptCount": 2306,
+  "conceptCount": 2321,
   "sections": [
     {
       "id": "architecture",
@@ -54,7 +54,7 @@
     "architecture": 2,
     "agents": 48,
     "systems": 12,
-    "build": 33,
+    "build": 36,
     "human": 11,
     "performance": 47,
     "mind": 30,
@@ -62,6 +62,101 @@
     "other": 9
   },
   "videos": [
+    {
+      "slug": "5-key-advice-starting-ai-business-joseph-lee",
+      "title": "5 Key Advice on Starting an AI Business | Syncly Joseph Lee",
+      "video_id": "CjTTSa33axg",
+      "url": "https://youtu.be/CjTTSa33axg",
+      "duration_min": 9,
+      "creator": "joseph-lee",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "applied-ai",
+        "startups",
+        "y-combinator",
+        "gtm"
+      ],
+      "keywords": [
+        "applied ai",
+        "startups",
+        "y combinator",
+        "gtm",
+        "joseph lee",
+        "ai as medium not product",
+        "pay what you think its worth pilot",
+        "hair on fire narrowing",
+        "sell founder not product",
+        "deliver in existing tools",
+        "Forward Deploy AI",
+        "Identifiable Pilot ROI"
+      ],
+      "summary": "9-minute y-combinator founder talk by joseph-lee, co-founder/CEO of syncly (YC; AI that turns customer feedback into product and marketing decisions). Receipt before advice: sualab (2015, post-AlphaGo) did manufacturing defect inspection, 5× yearly growth, three years to first revenue, sold in 2019 for $200M. Syncly is the second company with the same CTO, aimed at a global (not Asia-only) buyer.\n\nThe through-line is not \"build with AI.\" A customer said: \"I don't care if you use AI or not. What I want is to get my job done.\" ai-as-medium-not-product — the label is a medium; the job is the product. Trend-raise without a value prop lasts about a two-year runway, then danger.\n\nHow they sold before they had a product: fashion was the first vertical and they had no fashion network, so they called ~500 Korean fashion firms, then walked factories with a laptop and a one-pager. Offer: three months to prove value from scratch; if it fails, don't pay; if it works, pay what you think it's worth. 3 of 4 paid (pay-what-you-think-its-worth-pilot). Same motion as forward-deploy-ai, but the artifact is a founder, not a deployed agent.\n\nCustomers will not tell the real problem until they trust you. Lee's sequence: meetups and training first (value + community), social proof from school/network/prior work, then the product. Hair-on-fire search is mechanical: start from \"what does success look like this year,\" collect bullets, and let volume collapse them — 5 → 3 after ~10 customers → 1 after ~1,500 (hair-on-fire-narrowing). You cannot outbid a 10–20 year incumbent on product in week four. Early, sell-founder-not-product: use the whole founding team to solve the pain even if they never log into your app. And do not add another SaaS. Ship the first output through tools they already live in (Looker, the existing support platform); build your own dashboard only after they have felt the value (deliver-in-existing-tools).\n\nCo-founder rule is a co-founder-selection restatement: decade of shared work, complementary skills, same priority (customer-first vs deep-tech-first). Syncly's timing claim: \"what do customers want\" at consumer/e-comm scale was unsolvable until LLMs matured.",
+      "key_insights": [
+        "Job-done beats the AI label — customer quote is the strategy, not a cute anecdote",
+        "Trend money is a two-year fuse — raise on \"AI\" without a value prop and the runway just delays the crash",
+        "Three years to first dollar is allowed — $200M exit after a long find-the-vertical (fashion miss → manufacturing hit)",
+        "500 cold calls, then the factory floor — no network is not an excuse; laptop + one-pager is the deck",
+        "Prove-or-don't-pay, then they name the price — 3 months from scratch; 3/4 paid",
+        "Trust before the real problem — they have no incentive to tell you; meetups/training first",
+        "Hair-on-fire is a counting problem — 5 bullets → 3 (10 people) → 1 (~1,500)",
+        "Sell the founder in week four — you cannot out-product a 20-year incumbent",
+        "No new tech stack — first value in Looker / the tool they already open",
+        "Co-founder = marriage + complementary A/B — same values, different skills; reuse a decade-fit CTO"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
+      "slug": "advice-from-investor-who-backed-40-unicorns-elad-gil",
+      "title": "Advice from investor who backed 40 Unicorns l Elad Gil",
+      "video_id": "nLA90pa-34A",
+      "url": "https://youtu.be/nLA90pa-34A",
+      "duration_min": 30,
+      "creator": "elad-gil",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "startups",
+        "investing",
+        "silicon-valley",
+        "entrepreneurship"
+      ],
+      "keywords": [
+        "startups",
+        "investing",
+        "silicon valley",
+        "entrepreneurship",
+        "elad gil",
+        "why now statement",
+        "mercenary missionary artist",
+        "too expensive best companies",
+        "lifelong doing over learning",
+        "Co Founder Selection",
+        "Bootstrapping vs VC Raising",
+        "Build for Today Catch Next Wave"
+      ],
+      "summary": "30-minute eo-studio cut of elad-gil (YouTube auto-generated captions, published ~Sept 11 2026). Operator then investor: telecom layoffs → google 2004 (1,500 → 15,000 in ~3 years) → Mixer Labs (geo API, sold to Twitter at ~90 people) → Twitter 90 → 1,500 in 2.5 years → ~40 billion-dollar companies, ~30 at seed/A (Airbnb, Airtable, Coinbase, Figma, Gusto, Instacart, Stripe, Square, Rippling, Notion) plus early gen-AI (Perplexity, Harvey, Character, Mistral, Pika). MIT PhD track abandoned for \"useful\" company formation.\n\nHypergrowth lessons. Small networks compound (PayPal mafia, Google operator diaspora: Sandberg, Woodside, Stripe/Gusto COOs). Ambition is the filter: Larry/Sergey/Schmidt got angry if the market was $100M not $10B, or 1M users not 100M. Employee career-panic is wasted in a doubling org. Larry had just killed middle management (50–100 directs) → gray market for talent; Gil staffed early mobile by recruiting people whose managers did not know.\n\nBuild for the next era. First Mixer product was a location website (Google/SEO past). Second was a developer API (Twilio-era future). Ex-bigco teams overbuild scale with no users. Always need a why-now-statement: tech (iPhone + free GPS unlocked Uber; $1/lookup would have cost ~$30 per trip), regulation (Samsara / ELD cameras), or another shift.\n\nWhy sell to Twitter. Developer ecosystem, careers for the team, $1B Twitter made the price 10×, Arab Spring-era excitement. John Doerr missionary-vs-mercenary is too clean; mercenary-missionary-artist (Naval): early pivot to the cheque, mid career build community, late career craft. Google and Facebook both almost sold.\n\nInvesting and the CEO job. Young founders (Stripe at ~20/22) have almost no references. too-expensive-best-companies always look insane until they look cheap (Facebook $100M / Greylock $500M / Milner $5B common — he could price a social user). Luck and cargo-cult high marks sit next to that. Early company is an egg (customers, product, hire a few, don't die). Late is a chicken (i18n, multi-product, GC/CFO, M&A). Constants: set direction, allocate resources / don't run out of money, chief psychologist, manage your own energy.\n\nConventional wisdom he rejects. You do not need a co-founder (Microsoft, Amazon, unequal Apple). You do not need a good idea on day one. You do not need to learn first — lifelong-doing-over-learning. Raise only if capital helps you win the market faster (Parker Conrad / Rippling). Microsoft/Dell/Yahoo/eBay/Instagram/Midjourney were capital-light; SV raises too much on cash-flow businesses, the rest of the world bootstraps too little. COO = whatever the founder will not do.\n\nPartnership and boards. Co-founder helpful, not required. Complementary skills, one vision (compromise is reversion to the mean), at least one builder + one seller (customers, hires, investors). Early board is optional. Use the board as an operating resource, not a boss. Back-channel: how they behave when it is going badly. Founder-controlled boards still lose people to pressure (Travis, WeWork). Preferred-stock principals can be short-term vs company-long-term.\n\nWhy the Valley still wins. Self-fulfilling like Moore's Law: ambitious immigrants, pay-it-forward, know-how, ride the curve early. Technology is broader than software (agriculture, trains, electricity, vaccines) and is the progress he wants to be inside.",
+      "key_insights": [
+        "Gray market for talent — 50–100 directs meant managers lost people; mobile got staffed sideways",
+        "Think 100× bigger — $100M idea gets you yelled at; $10B is the review",
+        "Build 1–2 years ahead — first product was yesterday's Google; API was the why-now",
+        "Uber's why-now was $1 GPS — carriers priced location so a trace would cost ~$30",
+        "Mercenary is allowed early — Larry/Sergey tried to sell Google for $1M; Yahoo almost bought Facebook",
+        "Best deals look stupid — every Facebook round was \"insane\" until it was obvious",
+        "Egg then chicken — early CEO = find customers; late = feathers, beak, GC, CFO",
+        "No required co-founder — one vision beats two people compromising",
+        "Raise to win, not to raise — Zapier/Midjourney vs Rippling land-grab",
+        "Board is a tool — tasks, back-channels, not a parent you hide problems from",
+        "SV is still the hub — ambition + help + know-how + early curve"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
     {
       "slug": "ai-emergency-extinction-debate-doac",
       "title": "AI Emergency: The AI Labs Are Lying To Everyone, He Says 99% Chance Of Extinction | Roman Yampolskiy",
@@ -167,10 +262,10 @@
         "david park",
         "Fail at What You Love",
         "User Blueprint Not Gut",
-        "ask pain not praise",
-        "feature subtraction clarity",
-        "geo arbitrage runway",
-        "founder discipline over freedom"
+        "Ask Pain Not Praise",
+        "Feature Subtraction Clarity",
+        "Geo Arbitrage Runway",
+        "Founder Discipline Over Freedom"
       ],
       "summary": "20-minute eo-studio founder cut with david-park, 27, CEO of jenni-ai — academic AI assistant for research and writing. Official captions. YouTube title says \"$30M\"; he states ~$2.5M ARR, 2M+ users in every country, 15–20% MoM for the last ten months, checks from jason-calacanis and the Nat Friedman / Daniel Gross grant. Eight years of failed clothing, social, and dating apps; UC San Diego dropout after a three-hour plane pitch; thyroid-cancer surgery on the first growth wave.\n\nCore thesis: fail-at-what-you-love — you can fail at a job you do not love, so fail at the thing you do. The sad truth is not failure. On a long enough horizon you can probably make a living. The sad truth is startup-unsexy-boredom: most days are spreadsheets, not Theranos/Uber Netflix. Twin of i-hit-1m-arr-117-days-bootstrapped-10m-chatbase-yasser-elsaid (same GPT-2-era AI writing/support wave, opposite capital story) and if-i-had-90-days-start-business-simon-squibb (talk to users, cut burn, one sample).\n\nProduct path. Literature major + CS/NLP-PhD co-founder. Started on GPT-2 timing writers for a 10% speed-up (agency). GPT-3 made text useful → SaaS, then a general Word-with-AI, then feature-subtraction-clarity: ripping features out made the product better and the vision sharper. KPI: first autocomplete inside five minutes. Users who stayed were students and researchers, so they built for them.\n\nMoney and luck. Cold-called; gave months free (free-first-customer-strategy). Answered spam LinkedIn. Tiny podcast → Calacanis scout; missed the first email, answered the second, $100K, stared at the screenshot at grandpa's house. Booked Malaysia (one-fourth the price) so the cheque would last — geo-arbitrage-runway. Still stuck ~$2k MRR for 1.5–2 years. Korea: $250K \"done deal\" died because he stayed out late with a girl, Google-Translated a Korean legal doc until 3 a.m., and showed up late — two months of runway, engineer with a baby. Last-minute other VC. Moral: founder-discipline-over-freedom. Then a viral Twitter thread (his claim: most-viral AI/startup thread) burned their OpenAI credits in an hour; he DMed every Intercom user for emails. Growth did not die after the spike.\n\nBody. Jaw check in Korea; nurse went quiet; 50% thyroid-cancer odds, then the email. Tree-can't-reach-heaven-unless-roots-reach-hell. VCs smelled pre-surgery desperation. Fever, ice packs, mom's promised verse, Bible on the waiting-room ceiling, same verse after he woke. Not religious; files it with the plane stranger, the second email, the tweet he did not write. recipe-not-rescue-faith cousin: the verse did not skip the surgery.",
       "key_insights": [
@@ -202,9 +297,29 @@
         {
           "slug": "user-blueprint-not-gut",
           "title": "User Blueprint Not Gut"
+        },
+        {
+          "slug": "ask-pain-not-praise",
+          "title": "Ask Pain Not Praise"
+        },
+        {
+          "slug": "feature-subtraction-clarity",
+          "title": "Feature Subtraction Clarity"
+        },
+        {
+          "slug": "geo-arbitrage-runway",
+          "title": "Geo-Arbitrage Runway"
+        },
+        {
+          "slug": "founder-discipline-over-freedom",
+          "title": "Founder Discipline Over Freedom"
+        },
+        {
+          "slug": "startup-unsexy-boredom",
+          "title": "Startup Unsexy Boredom"
         }
       ],
-      "conceptCount": 2
+      "conceptCount": 7
     },
     {
       "slug": "connect-ai-to-billions-of-legal-documents",
@@ -390,9 +505,34 @@
           "slug": "early-prototyping-validation",
           "title": "Early Prototyping Validation",
           "e": "🧪"
+        },
+        {
+          "slug": "knowing-when-to-shutdown-startup",
+          "title": "Knowing When to Shutdown Startup",
+          "e": "🚪"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "🤝"
+        },
+        {
+          "slug": "delayed-gratification-business",
+          "title": "Delayed Gratification in Business",
+          "e": "⏳"
+        },
+        {
+          "slug": "hackable-luck-framework",
+          "title": "Hackable Luck Framework",
+          "e": "🍀"
+        },
+        {
+          "slug": "passion-over-original-idea",
+          "title": "Passion Over Original Idea",
+          "e": "🔥"
         }
       ],
-      "conceptCount": 8
+      "conceptCount": 13
     },
     {
       "slug": "how-i-use-llms-karpathy",
@@ -486,9 +626,69 @@
           "slug": "chatgpt-as-search-successor",
           "title": "ChatGPT as Search Successor",
           "e": "🔍"
+        },
+        {
+          "slug": "software-3-0",
+          "title": "Software 3.0",
+          "e": "💻"
+        },
+        {
+          "slug": "karpathy-llm-wiki",
+          "title": "Karpathy LLM Wiki",
+          "e": "📚"
         }
       ],
-      "conceptCount": 10
+      "conceptCount": 12
+    },
+    {
+      "slug": "how-to-become-great-at-startup-sales-peter-ahn",
+      "title": "How to Become Great at Startup Sales | Peter Ahn",
+      "video_id": "zFE51Sgl8hM",
+      "url": "https://youtu.be/zFE51Sgl8hM",
+      "duration_min": 17,
+      "creator": "peter-ahn",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "sales",
+        "startups",
+        "enterprise",
+        "eo"
+      ],
+      "keywords": [
+        "sales",
+        "startups",
+        "enterprise",
+        "eo",
+        "peter ahn",
+        "enterprise sales as trust exercise",
+        "seek innovator buyers",
+        "value first then ask",
+        "sales engineer product depth",
+        "weakness as sales superpower",
+        "conversation slowdown phrases",
+        "PLG + Sales Hybrid"
+      ],
+      "summary": "peter-ahn (~17 min, eo-studio) is a Korean-American tech sales coach: Google out of college, early dropbox enterprise (first ten large deals), then 100+ startups (figma at ~20 people, Elicit, Bezi, Twingate as client then full-time). The salesperson definition he repeats three times: technology from the future that solves a problem today. The motion is not spray-email credibility theater. It is enterprise-sales-as-trust-exercise.\n\nThe receipt is NBC Universal. Champion Lenny Bloom (VP Identity and Collaboration) rode the elevator after a day of vision talks with Drew and Arash and asked who the biggest customer was. Box had just marketed GE at 100k licenses. Dropbox's largest was 2,000 at National Geographic. NBC was 42,000. Ahn said the 2,000 number and that they had no Fortune 500 yet — NBC would be first. Weeks later Lenny: that was the right answer; he likes to be the first patient. The deal became the first three-year multi-million contract. Drew had been asking \"how's NBC?\" in the bathroom for 8–9 months as a joke. Close changed how the company felt about selling to businesses: consumer brand + just-launched SSO vs Box's 50-item enterprise list, and one proof point was enough. Second lesson of the same story: seek-innovator-buyers. If Lenny had wanted the 100k logo, they lose. Most buyers are followers; an underdog filters for the ones who are not.\n\nOperator month one: sales-engineer-product-depth — read docs, ask \"stupid\" engineer/PM questions, get under the hood before you put points on the board. Then outbound: value-first-then-ask (a three-mistakes guide before \"want a call?\"). PLG is the exception that still obeys the spirit: Elicit already had 2M users and had never sold enterprise — you can ask those users for a call if you lead with a new product beat or feedback, not a pitch. Founders go too broad; write company size, title, revenue, stack (AWS or not) and match it in Sales Navigator / Clay. Email is noisy, so find where people already talk about the problem (conference, LinkedIn, Reddit, Twitter, Slack).\n\nTrust/EQ stack: honesty opens honesty (confess a weak demo and they match the level); listen and follow breadcrumbs; be the expert people will actually talk to; get off Zoom — coffee, bars, dinners — and remember kids' names because you meant it. He never played ping-pong at Dropbox; fastest reply is the tell that you will be there when it breaks. weakness-as-sales-superpower: ESL + stutter became conversation-slowdown-phrases (\"let me think about that\"); being an Asian seller became Korean barbecue and karaoke instead of the steakhouse. Close: confidence + thought-leader education; sales as a noble craft that cuts wasteful tech spend, not Ferrari-bro culture.",
+      "key_insights": [
+        "Future tech, today's problem — the job is not vapor; it is a present pain with a next-gen tool",
+        "Say the 2,000 — honesty won NBC; fake GE-scale would have failed the innovator",
+        "First-patient buyers — underdogs lose the credibility shoppers and win the risk-takers",
+        "One logo rewrites the company — Drew joked for months; the close made enterprise feel possible",
+        "Month one is SE homework — docs + \"stupid\" questions before pipeline",
+        "Give the guide, then ask — value first; meeting second",
+        "PLG users still need a reason — new beat or feedback, not \"let me sell you\"",
+        "Can't sell the world — write the ICP (size / title / revenue / stack) before Clay",
+        "Find the room, not the inbox — conference / Reddit / Slack where the problem is already spoken",
+        "Confess the bad demo — vulnerability they can match",
+        "Fastest reply is the product — they are buying whether you show up when it breaks",
+        "Put the stutter in the process — buy-time phrases; Korean BBQ over steakhouse",
+        "Sales as diplomacy — best sellers are best communicators; make the craft noble"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "how-to-master-ai-powered-creativity-jeremy-utley",
@@ -1037,9 +1237,24 @@
         {
           "slug": "competitor-wreckage-as-incubator",
           "title": "Competitor Wreckage as Incubator"
+        },
+        {
+          "slug": "thesis-invalidation-pivot-rule",
+          "title": "Thesis Invalidation Pivot Rule",
+          "e": "🔀"
+        },
+        {
+          "slug": "demand-before-infrastructure",
+          "title": "Demand Before Infrastructure",
+          "e": "🏗️"
+        },
+        {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 8
     },
     {
       "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
