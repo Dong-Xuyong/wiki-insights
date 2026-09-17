@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 240,
-  "insightsCount": 233,
+  "insightsCount": 235,
   "conceptCount": 2400,
   "sections": [
     {
@@ -195,7 +195,7 @@
         "No new tech stack — first value in Looker / the tool they already open",
         "Co-founder = marriage + complementary A/B — same values, different skills; reuse a decade-fit CTO"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "ai-as-medium-not-product",
@@ -415,19 +415,23 @@
       "concepts": [
         {
           "slug": "why-now-statement",
-          "title": "Why Now Statement"
+          "title": "Why Now Statement",
+          "e": "📍"
         },
         {
           "slug": "mercenary-missionary-artist",
-          "title": "Mercenary Missionary Artist"
+          "title": "Mercenary Missionary Artist",
+          "e": "🎭"
         },
         {
           "slug": "too-expensive-best-companies",
-          "title": "Too Expensive Best Companies"
+          "title": "Too Expensive Best Companies",
+          "e": "💸"
         },
         {
           "slug": "lifelong-doing-over-learning",
-          "title": "Lifelong Doing Over Learning"
+          "title": "Lifelong Doing Over Learning",
+          "e": "🛠️"
         },
         {
           "slug": "co-founder-selection",
@@ -578,7 +582,7 @@
         "Cancer at first sunlight — eight years of 000, then the diagnosis",
         "Netflix is a lie — void-stare years hurt more than today's fires"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "fail-at-what-you-love",
