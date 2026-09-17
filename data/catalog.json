@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 237,
-  "insightsCount": 228,
-  "conceptCount": 2321,
+  "videoCount": 240,
+  "insightsCount": 232,
+  "conceptCount": 2393,
   "sections": [
     {
       "id": "architecture",
@@ -54,7 +54,7 @@
     "architecture": 2,
     "agents": 48,
     "systems": 12,
-    "build": 36,
+    "build": 39,
     "human": 11,
     "performance": 47,
     "mind": 30,
@@ -62,6 +62,81 @@
     "other": 9
   },
   "videos": [
+    {
+      "slug": "2b-web3-startup-future-of-ip-story",
+      "title": "$2B Web3 Startup Building the Future of IP in the Age of AI | Team Story Documentary",
+      "video_id": "orZUIquv09E",
+      "url": "https://youtu.be/orZUIquv09E",
+      "duration_min": 32,
+      "creator": "story-protocol",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "web3",
+        "crypto",
+        "ip",
+        "ai",
+        "startups"
+      ],
+      "keywords": [
+        "web3",
+        "crypto",
+        "ip",
+        "ai",
+        "startups",
+        "story protocol",
+        "Programmable IP",
+        "IP Legos",
+        "AI Abundance vs Blockchain Scarcity",
+        "Attention Monetization Dilemma",
+        "Stripe Abstraction for IP",
+        "Co Founder Selection"
+      ],
+      "summary": "Team documentary (~32 min) on story-protocol: an IP blockchain whose job is a programmable-ip layer, not another DeFi app. sy-lee (CEO) sold Radish serialized fiction to Kakao for ~$0.5B, then started Story because Radish was still a small fish buying ads from big tech. jason-zhao (25, youngest PM at google-deepmind) quit a dream job after DeFi summer: AI research needs compute/data/capital; blockchain white papers go live in months. His pairing: ai-abundance-vs-blockchain-scarcity — Midjourney-level content with no illustrator paycheck unless property rights sit on-chain.\n\na16z (chris-dixon) led all three rounds in the film. Dixon's objects: IP as ip-legos (character → story → game, each brick sets revenue share / geography / commercial terms) and the attention-monetization-dilemma (internet copies; media restricts; games went free-to-play + skins and grew ~$25B → ~$180B while music stayed flat). Product bet is stripe-abstraction-for-ip: Stripe hid banking; Story should hide chain + law. Demo: Sky (Kaiser, ex-Coinbase) mints worlds/characters as IP assets and sets a 50% remix cut. Magma (~2M users) uses the graph for remix attribution. Stability AI wants open models plus a creator protocol. SY's closer: social media made everyone a creator; gen AI makes everyone a studio — play offense with IP Legoland, not only defense.",
+      "key_insights": [
+        "Programmable money, then programmable IP — Ethereum made value composable; Story wants the same API for rights on every piece of content",
+        "AI abundance needs digital scarcity — infinite prompt-content kills the illustrator model unless blockchain proves ownership and splits",
+        "Don't fuck with my data — first-principles creator move: declare sovereignty, then embed license + royalty params in the asset",
+        "Code is law for licenses — hundreds of legal pages → a few parameters (rev share, geo, commercial/noncommercial)",
+        "IP Legos — anyone can fork a character or world if they accept the brick-maker's terms; attribution + money follow the graph",
+        "Attention vs restriction — copy/spread vs paywall; games solved it with free core + virtual goods; Story exports that toolkit to writers/artists",
+        "Stripe for IP — if creators or Web2 devs have to learn chain or copyright, the product failed",
+        "Incubate builders, not hunt creators — Kaiser office key, intro to a16z seed; if partners fail, Story fails",
+        "Complementary co-founders — SY = media operator + 0→1 exits; Jason = research-to-product + philosophy (Vitalik-shaped)",
+        "Athlete window — advisor: trillion-scale 0→1 in your 20s / early 30s; SY started Story at 30, one year after the Kakao sale",
+        "Offense, not only defense — protect IP from unpaid training *and* give creators the wand to remix at studio quality"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "programmable-ip",
+          "title": "Programmable IP"
+        },
+        {
+          "slug": "ip-legos",
+          "title": "IP Legos"
+        },
+        {
+          "slug": "ai-abundance-vs-blockchain-scarcity",
+          "title": "AI Abundance vs Blockchain Scarcity"
+        },
+        {
+          "slug": "attention-monetization-dilemma",
+          "title": "Attention Monetization Dilemma"
+        },
+        {
+          "slug": "stripe-abstraction-for-ip",
+          "title": "Stripe Abstraction for IP"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "🤝"
+        }
+      ],
+      "conceptCount": 6
+    },
     {
       "slug": "5-key-advice-starting-ai-business-joseph-lee",
       "title": "5 Key Advice on Starting an AI Business | Syncly Joseph Lee",
@@ -84,11 +159,11 @@
         "y combinator",
         "gtm",
         "joseph lee",
-        "ai as medium not product",
-        "pay what you think its worth pilot",
-        "hair on fire narrowing",
-        "sell founder not product",
-        "deliver in existing tools",
+        "AI as Medium Not Product",
+        "Pay What You Think Its Worth Pilot",
+        "Hair on Fire Narrowing",
+        "Sell Founder Not Product",
+        "Deliver in Existing Tools",
         "Forward Deploy AI",
         "Identifiable Pilot ROI"
       ],
@@ -106,8 +181,176 @@
         "Co-founder = marriage + complementary A/B — same values, different skills; reuse a decade-fit CTO"
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "concepts": [
+        {
+          "slug": "ai-as-medium-not-product",
+          "title": "AI as Medium Not Product"
+        },
+        {
+          "slug": "pay-what-you-think-its-worth-pilot",
+          "title": "Pay What You Think Its Worth Pilot"
+        },
+        {
+          "slug": "hair-on-fire-narrowing",
+          "title": "Hair on Fire Narrowing"
+        },
+        {
+          "slug": "sell-founder-not-product",
+          "title": "Sell Founder Not Product"
+        },
+        {
+          "slug": "deliver-in-existing-tools",
+          "title": "Deliver in Existing Tools"
+        },
+        {
+          "slug": "forward-deploy-ai",
+          "title": "Forward Deploy AI",
+          "e": "🛬"
+        },
+        {
+          "slug": "identifiable-pilot-roi",
+          "title": "Identifiable Pilot ROI",
+          "e": "📏"
+        },
+        {
+          "slug": "vertical-applied-ai",
+          "title": "Vertical Applied AI",
+          "e": "🏗️"
+        },
+        {
+          "slug": "intelligence-alone-not-product",
+          "title": "Intelligence Alone Not Product",
+          "e": "🧩"
+        },
+        {
+          "slug": "real-world-customer-discovery",
+          "title": "Real-World Customer Discovery",
+          "e": "🌍"
+        },
+        {
+          "slug": "demand-before-infrastructure",
+          "title": "Demand Before Infrastructure",
+          "e": "🏗️"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "🤝"
+        }
+      ],
+      "conceptCount": 12
+    },
+    {
+      "slug": "advice-for-the-future-entrepreneurs-saeju-jeong",
+      "title": "Advice for the future entrepreneurs | Saeju Jeong (2/2)",
+      "video_id": "PgdsItdmtMk",
+      "url": "https://www.youtube.com/watch?v=PgdsItdmtMk",
+      "duration_min": 12,
+      "creator": "entrepreneurs-organization",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "entrepreneurship",
+        "health",
+        "startups",
+        "eo"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "health",
+        "startups",
+        "eo",
+        "entrepreneurs organization",
+        "Why You Why This Company",
+        "Hard Time Is Building Time",
+        "Decade Stage Self Investment",
+        "Immigrant Outsider Problem Sight",
+        "Immigrant Founder Self Doubt",
+        "Product Market Fit Iteration",
+        "Early Prototyping Validation"
+      ],
+      "summary": "12-minute entrepreneurs-organization founder cut (saeju-jeong / noom, YouTube auto-generated captions, part 2 of 2). Part 1 (he-didnt-make-money-for-8-years-saeju-jeong) is origin and drought. This cut is the operating advice: who should found, how Noom hunts PMF, who you sit with, and what to do in your teens / 20s / 30s.\n\nsaeju-jeong still treats the US as a land of opportunity and uses himself as the receipt: fishing-town Korea, electrical engineering that was not his passion, father's death → \"how do I live a full life,\" drop out with his mother as sponsor, JFK 22 January 2005 in a snow-jammed cab to a cheap motel, no English, no network, a sublet the next day. The same immigrant start that produced the immigrant-founder-self-doubt demon in part 1 is here the immigrant-outsider-problem-sight advantage: you see broken service locals treat as normal.\n\nDo not start unless you can answer why-you-why-this-company. Nobody told you to found. When it gets lonely, nobody else can answer. If you face yourself and the answer is unclear, he \"humbly recommend[s]\" you do not start. Mission-driven is the only license: from the outside it looks like a hard time; from the inside it is hard-time-is-building-time — risk to them, opportunity to you.\n\nPMF is a long marathon, not a genius event. Being in love with a product is the wrong signal. Noom's culture is test → learn → humble: they do not wait for one savior to prove it. When the time is right they call that luck, then scale. That is product-market-fit-iteration plus early-prototyping-validation plus part 1's luck-from-sticking.\n\nPark with people who already live the next chapter. Successful / positive-mind company is contagious; bad-behaving company is too. US startup networking is part of the job: share lessons, ask mentors, keep seeking how to do better. Common habit he has seen in billionaires and executives from Korea, Japan, the US, and Europe: discipline and long-term resource allocation, not a hunt for the quick return. His ritual: early wake, exercise, daily meditation, breaks between meetings, look for the project side of a hard meeting. He does not drink to manage stress; he drinks to celebrate partnership and family.\n\nHe says he lives the lifestyle noom preaches. To teens: do not prove who you are on social media; ask family and senior community members what talent they see; students are automatically forgiven for errors, so use that window. Glamorous feeds are not reality — comparison-is-thief-of-joy. Sit alone and think, even when it is uncomfortable. decade-stage-self-investment: 20s keep learning (school taught you *how* to study) and stay in one path six months to a year before you decide you hate it; 30s disrupt yourself or the same decade repeats through 40s and 50s.\n\nClose: if the mission is real, people will gather. If you cannot live it, quit. Time flew into his 40s; he would not trade the Noom journey.",
+      "key_insights": [
+        "Mother-as-sponsor + cheap-motel arrival is the immigrant receipt, not a TED origin polish",
+        "Why-you / why-this-company is a kill-switch, not a branding exercise",
+        "Hard time vs building time is a perspective split that only mission can hold",
+        "PMF culture = test-and-learn; no one-genius-saves-us",
+        "\"Luck\" here is the moment PMF arrives after many failed tests",
+        "Networking is the US startup job, not a side quest",
+        "Billionaire common trait: discipline + long-horizon resource use",
+        "Drink to celebrate, not to anesthetize",
+        "Live the product you sell",
+        "Teens: ask seniors about talent; stop proving yourself on a highlight reel",
+        "20s: 6–12 months in one path before you switch",
+        "30s: keep disrupting or you freeze",
+        "Immigrant cost (self-doubt) and immigrant gift (see the broken thing) are the same seat"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "why-you-why-this-company",
+          "title": "Why You Why This Company"
+        },
+        {
+          "slug": "hard-time-is-building-time",
+          "title": "Hard Time Is Building Time"
+        },
+        {
+          "slug": "decade-stage-self-investment",
+          "title": "Decade Stage Self-Investment"
+        },
+        {
+          "slug": "immigrant-outsider-problem-sight",
+          "title": "Immigrant Outsider Problem Sight"
+        },
+        {
+          "slug": "immigrant-founder-self-doubt",
+          "title": "Immigrant Founder Self-Doubt",
+          "e": "😈"
+        },
+        {
+          "slug": "product-market-fit-iteration",
+          "title": "Product-Market Fit Iteration",
+          "e": "🔁"
+        },
+        {
+          "slug": "early-prototyping-validation",
+          "title": "Early Prototyping Validation",
+          "e": "🧪"
+        },
+        {
+          "slug": "luck-from-sticking",
+          "title": "Luck from Sticking",
+          "e": "🍀"
+        },
+        {
+          "slug": "discipline-as-self-trust",
+          "title": "Discipline as Self-Trust",
+          "e": "🧱"
+        },
+        {
+          "slug": "give-first-networking",
+          "title": "Give First (Networking)",
+          "e": "🤝"
+        },
+        {
+          "slug": "comparison-is-thief-of-joy",
+          "title": "Comparison Is the Thief of Joy",
+          "e": "🪞"
+        },
+        {
+          "slug": "if-why-strong-enough-how-reveals",
+          "title": "If Why Strong Enough How Reveals",
+          "e": "🎯"
+        },
+        {
+          "slug": "purpose-driven-business",
+          "title": "Purpose-Driven Business",
+          "e": "🎯"
+        }
+      ],
+      "conceptCount": 13
     },
     {
       "slug": "advice-from-investor-who-backed-40-unicorns-elad-gil",
@@ -131,10 +374,10 @@
         "silicon valley",
         "entrepreneurship",
         "elad gil",
-        "why now statement",
-        "mercenary missionary artist",
-        "too expensive best companies",
-        "lifelong doing over learning",
+        "Why Now Statement",
+        "Mercenary Missionary Artist",
+        "Too Expensive Best Companies",
+        "Lifelong Doing Over Learning",
         "Co Founder Selection",
         "Bootstrapping vs VC Raising",
         "Build for Today Catch Next Wave"
@@ -154,8 +397,40 @@
         "SV is still the hub — ambition + help + know-how + early curve"
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "concepts": [
+        {
+          "slug": "why-now-statement",
+          "title": "Why Now Statement"
+        },
+        {
+          "slug": "mercenary-missionary-artist",
+          "title": "Mercenary Missionary Artist"
+        },
+        {
+          "slug": "too-expensive-best-companies",
+          "title": "Too Expensive Best Companies"
+        },
+        {
+          "slug": "lifelong-doing-over-learning",
+          "title": "Lifelong Doing Over Learning"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "🤝"
+        },
+        {
+          "slug": "bootstrapping-vs-vc-raising",
+          "title": "Bootstrapping vs VC Raising",
+          "e": "🚀"
+        },
+        {
+          "slug": "build-for-today-catch-next-wave",
+          "title": "Build for Today Catch Next Wave",
+          "e": "🏄"
+        }
+      ],
+      "conceptCount": 7
     },
     {
       "slug": "ai-emergency-extinction-debate-doac",
@@ -267,7 +542,7 @@
         "Geo Arbitrage Runway",
         "Founder Discipline Over Freedom"
       ],
-      "summary": "20-minute eo-studio founder cut with david-park, 27, CEO of jenni-ai — academic AI assistant for research and writing. Official captions. YouTube title says \"$30M\"; he states ~$2.5M ARR, 2M+ users in every country, 15–20% MoM for the last ten months, checks from jason-calacanis and the Nat Friedman / Daniel Gross grant. Eight years of failed clothing, social, and dating apps; UC San Diego dropout after a three-hour plane pitch; thyroid-cancer surgery on the first growth wave.\n\nCore thesis: fail-at-what-you-love — you can fail at a job you do not love, so fail at the thing you do. The sad truth is not failure. On a long enough horizon you can probably make a living. The sad truth is startup-unsexy-boredom: most days are spreadsheets, not Theranos/Uber Netflix. Twin of i-hit-1m-arr-117-days-bootstrapped-10m-chatbase-yasser-elsaid (same GPT-2-era AI writing/support wave, opposite capital story) and if-i-had-90-days-start-business-simon-squibb (talk to users, cut burn, one sample).\n\nProduct path. Literature major + CS/NLP-PhD co-founder. Started on GPT-2 timing writers for a 10% speed-up (agency). GPT-3 made text useful → SaaS, then a general Word-with-AI, then feature-subtraction-clarity: ripping features out made the product better and the vision sharper. KPI: first autocomplete inside five minutes. Users who stayed were students and researchers, so they built for them.\n\nMoney and luck. Cold-called; gave months free (free-first-customer-strategy). Answered spam LinkedIn. Tiny podcast → Calacanis scout; missed the first email, answered the second, $100K, stared at the screenshot at grandpa's house. Booked Malaysia (one-fourth the price) so the cheque would last — geo-arbitrage-runway. Still stuck ~$2k MRR for 1.5–2 years. Korea: $250K \"done deal\" died because he stayed out late with a girl, Google-Translated a Korean legal doc until 3 a.m., and showed up late — two months of runway, engineer with a baby. Last-minute other VC. Moral: founder-discipline-over-freedom. Then a viral Twitter thread (his claim: most-viral AI/startup thread) burned their OpenAI credits in an hour; he DMed every Intercom user for emails. Growth did not die after the spike.\n\nBody. Jaw check in Korea; nurse went quiet; 50% thyroid-cancer odds, then the email. Tree-can't-reach-heaven-unless-roots-reach-hell. VCs smelled pre-surgery desperation. Fever, ice packs, mom's promised verse, Bible on the waiting-room ceiling, same verse after he woke. Not religious; files it with the plane stranger, the second email, the tweet he did not write. recipe-not-rescue-faith cousin: the verse did not skip the surgery.",
+      "summary": "20-minute eo-studio founder cut with david-park, 27, CEO of jenni-ai — academic AI assistant for research and writing. Official captions. YouTube title says \"$30M\"; he states ~$2.5M ARR, 2M+ users in every country, 15–20% MoM for the last ten months, checks from Jason Calacanis and the Nat Friedman / Daniel Gross grant. Eight years of failed clothing, social, and dating apps; UC San Diego dropout after a three-hour plane pitch; thyroid-cancer surgery on the first growth wave.\n\nCore thesis: fail-at-what-you-love — you can fail at a job you do not love, so fail at the thing you do. The sad truth is not failure. On a long enough horizon you can probably make a living. The sad truth is startup-unsexy-boredom: most days are spreadsheets, not Theranos/Uber Netflix. Twin of i-hit-1m-arr-117-days-bootstrapped-10m-chatbase-yasser-elsaid (same GPT-2-era AI writing/support wave, opposite capital story) and if-i-had-90-days-start-business-simon-squibb (talk to users, cut burn, one sample).\n\nProduct path. Literature major + CS/NLP-PhD co-founder. Started on GPT-2 timing writers for a 10% speed-up (agency). GPT-3 made text useful → SaaS, then a general Word-with-AI, then feature-subtraction-clarity: ripping features out made the product better and the vision sharper. KPI: first autocomplete inside five minutes. Users who stayed were students and researchers, so they built for them.\n\nMoney and luck. Cold-called; gave months free (free-first-customer-strategy). Answered spam LinkedIn. Tiny podcast → Calacanis scout; missed the first email, answered the second, $100K, stared at the screenshot at grandpa's house. Booked Malaysia (one-fourth the price) so the cheque would last — geo-arbitrage-runway. Still stuck ~$2k MRR for 1.5–2 years. Korea: $250K \"done deal\" died because he stayed out late with a girl, Google-Translated a Korean legal doc until 3 a.m., and showed up late — two months of runway, engineer with a baby. Last-minute other VC. Moral: founder-discipline-over-freedom. Then a viral Twitter thread (his claim: most-viral AI/startup thread) burned their OpenAI credits in an hour; he DMed every Intercom user for emails. Growth did not die after the spike.\n\nBody. Jaw check in Korea; nurse went quiet; 50% thyroid-cancer odds, then the email. Tree-can't-reach-heaven-unless-roots-reach-hell. VCs smelled pre-surgery desperation. Fever, ice packs, mom's promised verse, Bible on the waiting-room ceiling, same verse after he woke. Not religious; files it with the plane stranger, the second email, the tweet he did not write. recipe-not-rescue-faith cousin: the verse did not skip the surgery.",
       "key_insights": [
         "Fail at what you love — the alternative is failing at a life you already do not want",
         "Gut is not the blueprint — user-blueprint-not-gut: ego to believe $1B is possible, humility to keep asking",
@@ -317,9 +592,63 @@
         {
           "slug": "startup-unsexy-boredom",
           "title": "Startup Unsexy Boredom"
+        },
+        {
+          "slug": "product-market-fit-iteration",
+          "title": "Product-Market Fit Iteration",
+          "e": "🔁"
+        },
+        {
+          "slug": "free-first-customer-strategy",
+          "title": "Free First Customer Strategy",
+          "e": "🎁"
+        },
+        {
+          "slug": "building-in-public-organic-growth",
+          "title": "Building in Public Organic Growth",
+          "e": "🌱"
+        },
+        {
+          "slug": "hackable-luck-framework",
+          "title": "Hackable Luck Framework",
+          "e": "🍀"
+        },
+        {
+          "slug": "comparison-is-thief-of-joy",
+          "title": "Comparison Is the Thief of Joy",
+          "e": "🪞"
+        },
+        {
+          "slug": "recipe-not-rescue-faith",
+          "title": "Recipe Not Rescue Faith",
+          "e": "🍰"
+        },
+        {
+          "slug": "bootstrapping-vs-vc-raising",
+          "title": "Bootstrapping vs VC Raising",
+          "e": "🚀"
+        },
+        {
+          "slug": "delayed-gratification-business",
+          "title": "Delayed Gratification in Business",
+          "e": "⏳"
+        },
+        {
+          "slug": "learn-ai-build-fast-talk-to-customers",
+          "title": "Learn AI, Build Fast, Talk to Customers"
+        },
+        {
+          "slug": "ego-comparison-trap",
+          "title": "Ego Comparison Trap",
+          "e": "🪞"
+        },
+        {
+          "slug": "real-world-customer-discovery",
+          "title": "Real-World Customer Discovery",
+          "e": "🌍"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 18
     },
     {
       "slug": "connect-ai-to-billions-of-legal-documents",
@@ -450,13 +779,13 @@
         "entrepreneurs organization",
         "Hobby Passion Small TAM",
         "Immigrant Founder Self Doubt",
+        "Immigrant Outsider Problem Sight",
         "Vulnerable Founder Not Fearless",
+        "Ten Year Minimum Build",
         "Sunset the Hit for the Mission",
-        "Century Company Ambition",
-        "Luck from Sticking",
-        "Product Market Fit Iteration"
+        "Century Company Ambition"
       ],
-      "summary": "12-minute entrepreneurs-organization founder cut (saeju-jeong / noom, official English captions, part 1 of 2). Origin story, not a growth-hack: immigrant self-doubt, a hobby business that failed the why-and-TAM test, two years recruiting artem-petakov out of Google Maps, a Peloton-like bike with no PMF, years of zero revenue, then a hit fitness app they killed because it was not the mission.\n\nsaeju-jeong grew up in Yeosu, a small fishing town in South Korea. Father was a doctor; the college exam blocked medical school; electrical engineering was not his choice. He dropped out and at 19 started a heavy-metal record distribution company. Lesson: hobby-passion-small-tam — passion-as-hobby does not answer why you are on the planet, and Korea's metal TAM is tiny. He picked New York because it is internationally friendly and far from big Korean communities (LA / Seattle / SF). If it failed, settling into the diaspora would be harder.\n\nHe arrived speaking no English, knowing nobody, one week silent at home. As a nobody immigrant he had to be extra nice to leave an impression or he would get no chance. Network and confidence were rebuilt from fresh eyes.\n\nartem-petakov: Ukraine at 13, Princeton CS + theater, Google Maps tech lead (geo search). Met via a cousin's Princeton alumni dinner in Manhattan; clicked day one; talked until 4 a.m. two days later. Jeong spent two years pitching him out of Google into healthcare: 6–7 of 10 people sick, Silicon Valley's problem-solving barely applied. Artem convinced his parents and left. Early capital: Googler angels, Korean friends, family. Office was a Harlem apartment they lived in.\n\nFirst prototype: a smart stationary bike, ~two years to build, pitched 2008–2009, no raise, no PMF. Today's Noom rule: test the idea before you build. Broke for years, no revenue, could not raise; Jeong put in money from sisters, brothers, friends in Korea. No cash for hardware → they built Cardio Trainer (phone GPS + accelerometer for cycling/running). Mega-hit: #1, 5 million users in six months, Kleiner Perkins seed. Users wanted weight loss and holistic health, not just \"getting fit.\" They sunset the hit.\n\nFirst Noom (2014): AI-only weight guidance. May 2016 relaunch: human coaches + behavior change across diet, exercise, stress, sleep. Positioning: healthcare is optimized for sick care; they want preventative, consumer-led care. 2021: $540M led by Silver Lake; he calls Noom the largest consumer-led digital healthcare company in the US. 3,000+ US full-time employees. His job shifted from everywhere-operator to delegate, hire better domain executives, sponsor them, keep mission and strategy aligned.\n\nShared founding book: Jim Collins *Good to Great*. century-company-ambition: good company ships amazing service; great company lasts a century. Zero-to-one they did; 1-to-100 is the next hard journey. He is not a serial founder — 16 years on Noom, and he intends to stay.\n\nHardest thing is not money or roadmap. As an immigrant founder it is immigrant-founder-self-doubt: \"Am I the right person?\" Only he can answer. Managed by mission-why, the right people, early wake / exercise, and thinking the hard questions other founders skip. Advice: be honest, ask for help, admit gaps. vulnerable-founder-not-fearless — \"strong fearless leader\" is the wrong pose; you are breakable.\n\nClose: luck is necessary, but luck-from-sticking — luck shows up if you stay on one path long enough. You make your own luck.",
+      "summary": "12-minute entrepreneurs-organization founder cut (saeju-jeong / noom, official English captions, part 1 of 2). Origin story, not a growth-hack: immigrant self-doubt, a hobby business that failed the why-and-TAM test, two years recruiting artem-petakov out of Google Maps, a Peloton-like bike with no PMF, years of zero revenue, then a hit fitness app they killed because it was not the mission. Part 2: advice-for-the-future-entrepreneurs-saeju-jeong.\n\nsaeju-jeong grew up in Yeosu, a small fishing town in South Korea. Father was a doctor; the college exam blocked medical school; electrical engineering was not his choice. He dropped out and at 19 started a heavy-metal record distribution company. Lesson: hobby-passion-small-tam — passion-as-hobby does not answer why you are on the planet, and Korea's metal TAM is tiny. He picked New York because it is internationally friendly and far from big Korean communities (LA / Seattle / SF). If it failed, settling into the diaspora would be harder.\n\nHe arrived speaking no English, knowing nobody, one week silent at home. As a nobody immigrant he had to be extra nice to leave an impression or he would get no chance. Network and confidence were rebuilt from fresh eyes.\n\nartem-petakov: Ukraine at 13, Princeton CS + theater, Google Maps tech lead (geo search). Met via a cousin's Princeton alumni dinner in Manhattan; clicked day one; talked until 4 a.m. two days later. Jeong spent two years pitching him out of Google into healthcare: 6–7 of 10 people sick, Silicon Valley's problem-solving barely applied. Artem convinced his parents and left. Early capital: Googler angels, Korean friends, family. Office was a Harlem apartment they lived in.\n\nFirst prototype: a smart stationary bike, ~two years to build, pitched 2008–2009, no raise, no PMF. Today's Noom rule: test the idea before you build. Broke for years, no revenue, could not raise; Jeong put in money from sisters, brothers, friends in Korea. No cash for hardware → they built Cardio Trainer (phone GPS + accelerometer for cycling/running). Mega-hit: #1, 5 million users in six months, Kleiner Perkins seed. Users wanted weight loss and holistic health, not just \"getting fit.\" They sunset the hit.\n\nFirst Noom (2014): AI-only weight guidance. May 2016 relaunch: human coaches + behavior change across diet, exercise, stress, sleep. Positioning: healthcare is optimized for sick care; they want preventative, consumer-led care. 2021: $540M led by Silver Lake; he calls Noom the largest consumer-led digital healthcare company in the US. 3,000+ US full-time employees. His job shifted from everywhere-operator to delegate, hire better domain executives, sponsor them, keep mission and strategy aligned.\n\nShared founding book: Jim Collins *Good to Great*. century-company-ambition: good company ships amazing service; great company lasts a century. Zero-to-one they did; 1-to-100 is the next hard journey. He is not a serial founder — 16 years on Noom, and he intends to stay.\n\nHardest thing is not money or roadmap. As an immigrant founder it is immigrant-founder-self-doubt: \"Am I the right person?\" Only he can answer. Managed by mission-why, the right people, early wake / exercise, and thinking the hard questions other founders skip. Advice: be honest, ask for help, admit gaps. vulnerable-founder-not-fearless — \"strong fearless leader\" is the wrong pose; you are breakable.\n\nClose: luck is necessary, but luck-from-sticking — luck shows up if you stay on one path long enough. You make your own luck.",
       "key_insights": [
         "Hobby-as-business fails twice: no philosophical why, and a small TAM",
         "Choose geography that makes compromise expensive",
@@ -470,31 +799,37 @@
         "Self-doubt is the immigrant-founder demon; mission + people + habits, not a fearless mask",
         "Luck is a byproduct of staying"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "hobby-passion-small-tam",
-          "title": "Hobby Passion Small TAM"
+          "title": "Hobby Passion Small TAM",
+          "e": "🎸"
         },
         {
           "slug": "immigrant-founder-self-doubt",
-          "title": "Immigrant Founder Self-Doubt"
+          "title": "Immigrant Founder Self-Doubt",
+          "e": "😈"
         },
         {
           "slug": "vulnerable-founder-not-fearless",
-          "title": "Vulnerable Founder Not Fearless"
+          "title": "Vulnerable Founder Not Fearless",
+          "e": "🩹"
         },
         {
           "slug": "sunset-the-hit-for-the-mission",
-          "title": "Sunset the Hit for the Mission"
+          "title": "Sunset the Hit for the Mission",
+          "e": "🌅"
         },
         {
           "slug": "century-company-ambition",
-          "title": "Century Company Ambition"
+          "title": "Century Company Ambition",
+          "e": "🏛️"
         },
         {
           "slug": "luck-from-sticking",
-          "title": "Luck from Sticking"
+          "title": "Luck from Sticking",
+          "e": "🍀"
         },
         {
           "slug": "product-market-fit-iteration",
@@ -522,6 +857,11 @@
           "e": "⏳"
         },
         {
+          "slug": "conviction-over-idea-hopping",
+          "title": "Conviction Over Idea Hopping",
+          "e": "🎯"
+        },
+        {
           "slug": "hackable-luck-framework",
           "title": "Hackable Luck Framework",
           "e": "🍀"
@@ -530,9 +870,14 @@
           "slug": "passion-over-original-idea",
           "title": "Passion Over Original Idea",
           "e": "🔥"
+        },
+        {
+          "slug": "s-curve-zero-to-one-timing",
+          "title": "S-Curve Zero-to-One Timing",
+          "e": "📈"
         }
       ],
-      "conceptCount": 13
+      "conceptCount": 15
     },
     {
       "slug": "how-i-use-llms-karpathy",
@@ -586,19 +931,23 @@
       "concepts": [
         {
           "slug": "tokenizer-as-cognition",
-          "title": "Tokenizer as Cognition"
+          "title": "Tokenizer as Cognition",
+          "e": "🧵"
         },
         {
           "slug": "know-which-model-youre-using",
-          "title": "Know Which Model You're Using"
+          "title": "Know Which Model You're Using",
+          "e": "🎚️"
         },
         {
           "slug": "thinking-models-when-to-use",
-          "title": "Thinking Models When to Use"
+          "title": "Thinking Models When to Use",
+          "e": "🧠"
         },
         {
           "slug": "llm-council",
-          "title": "LLM Council"
+          "title": "LLM Council",
+          "e": "🗳️"
         },
         {
           "slug": "llm-tool-use",
@@ -607,7 +956,8 @@
         },
         {
           "slug": "deep-research-agent",
-          "title": "Deep Research Agent"
+          "title": "Deep Research Agent",
+          "e": "📑"
         },
         {
           "slug": "vibe-coding",
@@ -616,11 +966,13 @@
         },
         {
           "slug": "native-audio-voice-mode",
-          "title": "Native Audio Voice Mode"
+          "title": "Native Audio Voice Mode",
+          "e": "🎙️"
         },
         {
           "slug": "custom-gpts-as-apps",
-          "title": "Custom GPTs as Apps"
+          "title": "Custom GPTs as Apps",
+          "e": "🧩"
         },
         {
           "slug": "chatgpt-as-search-successor",
@@ -662,12 +1014,12 @@
         "enterprise",
         "eo",
         "peter ahn",
-        "enterprise sales as trust exercise",
-        "seek innovator buyers",
-        "value first then ask",
-        "sales engineer product depth",
-        "weakness as sales superpower",
-        "conversation slowdown phrases",
+        "Enterprise Sales as Trust Exercise",
+        "Seek Innovator Buyers",
+        "Value First, Then Ask",
+        "Sales Engineer Product Depth",
+        "Weakness as Sales Superpower",
+        "Conversation Slowdown Phrases",
         "PLG + Sales Hybrid"
       ],
       "summary": "peter-ahn (~17 min, eo-studio) is a Korean-American tech sales coach: Google out of college, early dropbox enterprise (first ten large deals), then 100+ startups (figma at ~20 people, Elicit, Bezi, Twingate as client then full-time). The salesperson definition he repeats three times: technology from the future that solves a problem today. The motion is not spray-email credibility theater. It is enterprise-sales-as-trust-exercise.\n\nThe receipt is NBC Universal. Champion Lenny Bloom (VP Identity and Collaboration) rode the elevator after a day of vision talks with Drew and Arash and asked who the biggest customer was. Box had just marketed GE at 100k licenses. Dropbox's largest was 2,000 at National Geographic. NBC was 42,000. Ahn said the 2,000 number and that they had no Fortune 500 yet — NBC would be first. Weeks later Lenny: that was the right answer; he likes to be the first patient. The deal became the first three-year multi-million contract. Drew had been asking \"how's NBC?\" in the bathroom for 8–9 months as a joke. Close changed how the company felt about selling to businesses: consumer brand + just-launched SSO vs Box's 50-item enterprise list, and one proof point was enough. Second lesson of the same story: seek-innovator-buyers. If Lenny had wanted the 100k logo, they lose. Most buyers are followers; an underdog filters for the ones who are not.\n\nOperator month one: sales-engineer-product-depth — read docs, ask \"stupid\" engineer/PM questions, get under the hood before you put points on the board. Then outbound: value-first-then-ask (a three-mistakes guide before \"want a call?\"). PLG is the exception that still obeys the spirit: Elicit already had 2M users and had never sold enterprise — you can ask those users for a call if you lead with a new product beat or feedback, not a pitch. Founders go too broad; write company size, title, revenue, stack (AWS or not) and match it in Sales Navigator / Clay. Email is noisy, so find where people already talk about the problem (conference, LinkedIn, Reddit, Twitter, Slack).\n\nTrust/EQ stack: honesty opens honesty (confess a weak demo and they match the level); listen and follow breadcrumbs; be the expert people will actually talk to; get off Zoom — coffee, bars, dinners — and remember kids' names because you meant it. He never played ping-pong at Dropbox; fastest reply is the tell that you will be there when it breaks. weakness-as-sales-superpower: ESL + stutter became conversation-slowdown-phrases (\"let me think about that\"); being an Asian seller became Korean barbecue and karaoke instead of the steakhouse. Close: confidence + thought-leader education; sales as a noble craft that cuts wasteful tech spend, not Ferrari-bro culture.",
@@ -687,8 +1039,63 @@
         "Sales as diplomacy — best sellers are best communicators; make the craft noble"
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "concepts": [
+        {
+          "slug": "enterprise-sales-as-trust-exercise",
+          "title": "Enterprise Sales as Trust Exercise"
+        },
+        {
+          "slug": "seek-innovator-buyers",
+          "title": "Seek Innovator Buyers"
+        },
+        {
+          "slug": "value-first-then-ask",
+          "title": "Value First, Then Ask"
+        },
+        {
+          "slug": "sales-engineer-product-depth",
+          "title": "Sales-Engineer Product Depth"
+        },
+        {
+          "slug": "weakness-as-sales-superpower",
+          "title": "Weakness as Sales Superpower"
+        },
+        {
+          "slug": "conversation-slowdown-phrases",
+          "title": "Conversation Slowdown Phrases"
+        },
+        {
+          "slug": "plg-sales-hybrid",
+          "title": "PLG + Sales Hybrid",
+          "e": "🚀"
+        },
+        {
+          "slug": "warm-outbound",
+          "title": "Warm Outbound",
+          "e": "📬"
+        },
+        {
+          "slug": "delayed-gratification-business",
+          "title": "Delayed Gratification in Business",
+          "e": "⏳"
+        },
+        {
+          "slug": "hail-speaking-foundations",
+          "title": "HAIL Speaking Foundations",
+          "e": "🏗️"
+        },
+        {
+          "slug": "authenticity-over-guru-cosplay",
+          "title": "Authenticity Over Guru Cosplay",
+          "e": "🏚️"
+        },
+        {
+          "slug": "vulnerability-without-need",
+          "title": "Vulnerability Without Need",
+          "e": "💬"
+        }
+      ],
+      "conceptCount": 12
     },
     {
       "slug": "how-to-master-ai-powered-creativity-jeremy-utley",
@@ -1216,27 +1623,32 @@
         "AI is here to compress a 10-year safety wait, not to replace the cell",
         "Failure is a state, not a self"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "let-go-of-momentum-to-pivot",
-          "title": "Let Go of Momentum to Pivot"
+          "title": "Let Go of Momentum to Pivot",
+          "e": "🧬"
         },
         {
           "slug": "founder-vs-professional-ceo",
-          "title": "Founder vs Professional CEO"
+          "title": "Founder vs Professional CEO",
+          "e": "👔"
         },
         {
           "slug": "raise-hot-spend-cheap",
-          "title": "Raise Hot Spend Cheap"
+          "title": "Raise Hot Spend Cheap",
+          "e": "💸"
         },
         {
           "slug": "select-investors-for-board-chemistry",
-          "title": "Select Investors for Board Chemistry"
+          "title": "Select Investors for Board Chemistry",
+          "e": "🪵"
         },
         {
           "slug": "competitor-wreckage-as-incubator",
-          "title": "Competitor Wreckage as Incubator"
+          "title": "Competitor Wreckage as Incubator",
+          "e": "🔋"
         },
         {
           "slug": "thesis-invalidation-pivot-rule",
@@ -1384,6 +1796,97 @@
         }
       ],
       "conceptCount": 14
+    },
+    {
+      "slug": "success-starts-end-comfort-zone-chartmetric-sung-cho",
+      "title": "Success Starts at the End of Your Comfort ZoneㅣChartmetric, Sung M. Cho",
+      "video_id": "RqIqlmb8BYM",
+      "url": "https://youtu.be/RqIqlmb8BYM",
+      "duration_min": 21,
+      "creator": "sung-m-cho",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "entrepreneurship",
+        "saas",
+        "music",
+        "comfort-zone"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "saas",
+        "music",
+        "comfort zone",
+        "sung m cho",
+        "One Step Per Day",
+        "Prepaid First Customer",
+        "Bakery Reciprocity (SaaS)",
+        "Sameness Then Difference",
+        "Tenth Cost Pricing",
+        "Vitamin to Indispensable",
+        "Ten Year Minimum Build"
+      ],
+      "summary": "21-minute eo-studio interview with sung-m-cho, founder/CEO of chartmetric — B2B music-data SaaS (labels + streamers; ~$7M ARR at taping, ~7 years in). Path: first engineer at gamevil → UCLA MBA → Oracle PM → walk away from vesting options approaching 30 → idea-drop depression → charge before ready → first $950 year from rene-mclean.\n\nThe comfort-zone story is the Oracle one. 100k-person family, ~$1B cash profit a month, four-hour days after 5–6 years. It felt like a tax collection agency: clients sign, then pay forever. Acquisitions brought innovation in from outside. He wanted pride that lasts more than comfort that compounds. Three things have to match before you start: passion for the problem, skill to help, people who are good at it. He dropped every idea that failed the match. Then: cafe at 9am, nobody looking for him, spam as company.\n\nA founder friend cut the load to one-step-per-day. Seed ran out at 18 months. He moved personal cash into the company instead of raising again, then put $95 / $65 paywalls on a ~100-person beta. Same morning: prepaid-first-customer — Rene McLean / RPM Group paid a year. Cho called to refund; McLean said cash is precious at the start and he would use it twelve months anyway. That is the day Cho believed it would work. First customers already know the bread is half-baked; bakery-reciprocity-saas is exceed them, ahead of schedule, so they feel they funded the better loaf.\n\nMoat talk he never answered well. Gamevil lesson: sameness-then-difference — Coke, not Cherry Coke; persist until the same product is different. Early: half competitor price. Later: more expensive, more data, partnerships. Next Big Sound (Pandora, ~$50M) sunset and pointed social-data users at Chartmetric. Pricing yardstick: tenth-cost-pricing — charge 1/10 of the cost you replace ($140 seat should save $1,400; independents $20). Vision: vitamin-to-indispensable — Bloomberg for music. Clock: ten-year-minimum-build. Seven years in; three or more still owed.",
+      "key_insights": [
+        "Now or never at 30 — walk vesting options if the Silicon Valley company is the actual goal",
+        "Oracle as tax office — mature SaaS comfort is the trap; innovation is being bought, not built",
+        "Pride over four-hour days — succeed once and keep the story; stay and collect rent",
+        "Passion + skill + people — drop ideas that miss the match; empty inbox is the cost",
+        "One step per day — trusted founder advice after idea-drop depression; still the 7–8 year rule",
+        "Prove pay, then raise — seed empty → self-fund → charge 100 betas instead of another round",
+        "First dollar as belief — $950 year from a Manhattan agency, not a $65 month",
+        "Call to refund — the annual was trust plus a better deal, not a misclick",
+        "Exceed the first two — they already priced in \"still baking\"",
+        "Bakery reciprocity — customer money → better flour → they brag they found you",
+        "Coke not Cherry Coke — sameness + time becomes difference; flavor-chase is fake moat",
+        "Half price, then premium — visible try-signal first; later you are the expensive one",
+        "Sunset as endorsement — Next Big Sound's last bullet: go to Chartmetric",
+        "1/10 of avoided cost — $140 vs engineer / $1M internal build; $20 for independents",
+        "Vitamin → Bloomberg — not indispensable yet; ten years is the floor"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "one-step-per-day",
+          "title": "One Step Per Day"
+        },
+        {
+          "slug": "prepaid-first-customer",
+          "title": "Prepaid First Customer"
+        },
+        {
+          "slug": "bakery-reciprocity-saas",
+          "title": "Bakery Reciprocity (SaaS)"
+        },
+        {
+          "slug": "sameness-then-difference",
+          "title": "Sameness Then Difference"
+        },
+        {
+          "slug": "tenth-cost-pricing",
+          "title": "Tenth-Cost Pricing"
+        },
+        {
+          "slug": "vitamin-to-indispensable",
+          "title": "Vitamin to Indispensable"
+        },
+        {
+          "slug": "ten-year-minimum-build",
+          "title": "Ten-Year Minimum Build"
+        },
+        {
+          "slug": "delayed-gratification-business",
+          "title": "Delayed Gratification in Business",
+          "e": "⏳"
+        },
+        {
+          "slug": "free-first-customer-strategy",
+          "title": "Free First Customer Strategy",
+          "e": "🎁"
+        }
+      ],
+      "conceptCount": 9
     },
     {
       "slug": "survival-strategies-era-ai-stanford-aire",
