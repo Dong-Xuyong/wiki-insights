@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 240,
-  "insightsCount": 232,
-  "conceptCount": 2393,
+  "insightsCount": 233,
+  "conceptCount": 2400,
   "sections": [
     {
       "id": "architecture",
@@ -133,9 +133,24 @@
           "slug": "co-founder-selection",
           "title": "Co-Founder Selection",
           "e": "🤝"
+        },
+        {
+          "slug": "permissionless-meritocratic-building",
+          "title": "Permissionless Meritocratic Building",
+          "e": "🏗️"
+        },
+        {
+          "slug": "real-finance-vs-casino-crypto",
+          "title": "Real Finance vs Casino Crypto",
+          "e": "🏦"
+        },
+        {
+          "slug": "traffic-as-internet-currency",
+          "title": "Traffic as Internet Currency",
+          "e": "💱"
         }
       ],
-      "conceptCount": 6
+      "conceptCount": 9
     },
     {
       "slug": "5-key-advice-starting-ai-business-joseph-lee",
@@ -396,7 +411,7 @@
         "Board is a tool — tasks, back-channels, not a parent you hide problems from",
         "SV is still the hub — ambition + help + know-how + early curve"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "why-now-statement",
@@ -1884,9 +1899,29 @@
           "slug": "free-first-customer-strategy",
           "title": "Free First Customer Strategy",
           "e": "🎁"
+        },
+        {
+          "slug": "pricing-experimentation-saas",
+          "title": "Pricing Experimentation (SaaS)",
+          "e": "🔬"
+        },
+        {
+          "slug": "bootstrapping-vs-vc-raising",
+          "title": "Bootstrapping vs VC Raising",
+          "e": "🚀"
+        },
+        {
+          "slug": "luck-from-sticking",
+          "title": "Luck from Sticking",
+          "e": "🍀"
+        },
+        {
+          "slug": "small-steps-right-direction",
+          "title": "Small Steps Right Direction",
+          "e": "🪜"
         }
       ],
-      "conceptCount": 9
+      "conceptCount": 13
     },
     {
       "slug": "survival-strategies-era-ai-stanford-aire",
