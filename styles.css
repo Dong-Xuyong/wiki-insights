@@ -694,6 +694,36 @@ html.dark .url-go { background: var(--peach); color: #1a1208; }
   color: var(--text-mute);
   margin: 0 0 0.75rem;
 }
+.video-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.55rem;
+}
+.video-card-actions .kw-row {
+  margin-top: 0;
+  flex: 1;
+  min-width: 0;
+}
+.complete-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  border: 1px solid color-mix(in srgb, var(--success) 45%, var(--border));
+  border-radius: 999px;
+  background: var(--success-soft);
+  color: var(--success);
+  padding: 0.4rem 0.75rem;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.complete-btn:hover {
+  border-color: var(--success);
+}
 .kw-row {
   display: flex;
   flex-wrap: wrap;

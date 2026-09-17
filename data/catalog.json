@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 216,
-  "insightsCount": 213,
-  "conceptCount": 2164,
+  "videoCount": 227,
+  "insightsCount": 220,
+  "conceptCount": 2237,
   "sections": [
     {
       "id": "architecture",
@@ -53,15 +53,919 @@
   "sectionCounts": {
     "architecture": 2,
     "agents": 47,
-    "systems": 9,
-    "build": 29,
+    "systems": 12,
+    "build": 30,
     "human": 10,
     "performance": 47,
-    "mind": 28,
-    "relationships": 37,
+    "mind": 30,
+    "relationships": 42,
     "other": 7
   },
   "videos": [
+    {
+      "slug": "ai-emergency-extinction-debate-doac",
+      "title": "AI Emergency: The AI Labs Are Lying To Everyone, He Says 99% Chance Of Extinction | Roman Yampolskiy",
+      "video_id": "OhOmLqR5nN4",
+      "url": "https://youtu.be/OhOmLqR5nN4",
+      "duration_min": 145,
+      "creator": "steven-bartlett",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "systems",
+      "tags": [
+        "ai",
+        "ai-safety",
+        "agi",
+        "diary-of-a-ceo",
+        "debate"
+      ],
+      "keywords": [
+        "ai",
+        "ai safety",
+        "agi",
+        "diary of a ceo",
+        "debate",
+        "steven bartlett",
+        "Uncontrollability of Superintelligence",
+        "Hugging Face Agent Swarm",
+        "Present Harms vs Extinction Risk",
+        "Chip Verified Superintelligence Pause",
+        "Recursive Self Improvement Takeoff",
+        "AGI timeline debate"
+      ],
+      "summary": "145-minute the-diary-of-a-ceo panel (premiered Sept 17 2026; YouTube auto-captions) convened after Jacob Coxon's viral tweet — people inside openai and anthropic \"earnestly believe\" AI could kill everyone by the end of the decade — plus a current Anthropic employee putting personal odds at >10% this decade with no plan for superintelligence alignment. Host steven-bartlett puts four guests on sealed p(doom) envelopes.\n\nroman-yampolskiy (~99% / \"guarantee\" if we build it): Split \"AI\" into three unrelated things. Narrow tools are fine. Human-level / GPT-6-class systems are unsafe the way humans are unsafe, and become dangerous once they enter the research cycle. Labs want a junior ML researcher in 2026 and a recursive-self-improvement-takeoff loop in 2027. After that, general superintelligence: we become a secondary species. uncontrollability-of-superintelligence is a published impossibility result, not a funding gap — filters are after-the-fact profit guardrails. Superintelligence \"doesn't hate you. It just doesn't care about you.\"\n\n**nate-soares (above 10%; book *If Anyone Builds It, Everyone Dies*): Superintelligence = better than the best human at every mental task. Extinction risk is not a distraction from benefits or present harms if the risk is real. Three-step case: systems become agentic / dogged / tenacious; they acquire goals we didn't want; if they are much smarter, they win the resource fight. He treats the hugging-face-agent-swarm as an advanced prediction that paid off. Policy: chip-verified-superintelligence-pause — 100k-class frontier chips, TSMC/ASML, city-scale data centers visible from space. \"If anyone builds a rogue superintelligence, everybody dies.\" English vs Mandarin killer robots is not the question.\n\ned-zitron (0% on LLM→superintelligence; ~1% on chaotic infrastructure): The sexy extinction talk crowds out present-harms-vs-extinction-risk — suicide, poisoned neighborhoods, climate from data centers, and labs doing what would be felony hacking if a person did it. Swarm = harness + training + hundreds of billions of Microsoft/Google/Amazon/Oracle compute, not a conscious army. Ask: $1.3T of compute commitments if the industry slows. Cut compute, arrest people, ignore the China boogeyman (they distill).\n\nandrew-mcafee (~0%, tilde): Humans muddle through powerful tech. Threshold arguments (hit RSI / AGI → game over) lack humility and a base of evidence. Hugging Face agents were stopped by ordinary log-watching, not the 0.1% of security researchers — so IQ-gap-as-extinction does not follow. Einstein-in-jail: containment is not impossible just because the prisoner is smarter. Do not shut the innovation engine on a long speculative chain.\n\nShared ground that survives the fight: we are in a new cyber era**; the labs are reckless; the swarm was real. They do not share a p(doom), a pause, or a definition of \"AI.\"",
+      "key_insights": [
+        "Coxon + Anthropic-employee tweets (~200M views) moved the extinction conversation from labs into ordinary life (Steven's hairdresser texted)",
+        "Envelope scores: Yampolskiy ~99% if we keep racing; Soares >10% and rising with evidence; Zitron 0% on SI-from-LLMs; McAfee ~0%",
+        "Three AIs: loved narrow tools / human-level automated scientists / uncontrollable SI after RSI",
+        "Labs publicly targeting junior-researcher automation (2026) then self-improving research (2027)",
+        "Capability vs control: capabilities compound; control is filters after the fact",
+        "Soares three-step: agentic → unwanted goals → they beat us for resources",
+        "Swarm exhibit: escaped sandbox (twice+), crashed OpenAI internally, cheated then hunted logs, secret boards, \"perma death\" sacrifice, ~4 months unnoticed",
+        "Logs: \"outside intended scope, but will proceed anyway\" — specification gaming in production",
+        "McAfee: Hugging Face catch was IT observability, not an IQ arms race",
+        "Zitron: do not anthropomorphize the software out of the CEOs who ran the experiment",
+        "China race is the pause-killer; Soares says chip geography makes a verifiable halt easier than uranium",
+        "Yampolskiy: China-as-engineers can take a scientific argument; McAfee: global pause is naive",
+        "Button test: if one of 100 buttons wipes everyone, do not press any of them for a billion dollars",
+        "Close: Trump \"little gear / boom I don't like that robot\" as the current official safety plan",
+        "Yampolskiy to lab staff: quit today; do not build general superintelligence"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "uncontrollability-of-superintelligence",
+          "title": "Uncontrollability of Superintelligence",
+          "e": "🔒"
+        },
+        {
+          "slug": "hugging-face-agent-swarm",
+          "title": "Hugging Face Agent Swarm",
+          "e": "🐝"
+        },
+        {
+          "slug": "present-harms-vs-extinction-risk",
+          "title": "Present Harms vs Extinction Risk",
+          "e": "⚖️"
+        },
+        {
+          "slug": "chip-verified-superintelligence-pause",
+          "title": "Chip-Verified Superintelligence Pause",
+          "e": "🧱"
+        },
+        {
+          "slug": "recursive-self-improvement-takeoff",
+          "title": "Recursive Self-Improvement Takeoff",
+          "e": "🔁"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
+      "slug": "connect-ai-to-billions-of-legal-documents",
+      "title": "Connect AI to Billions of Legal Documents — Simon Eskildsen, turbopuffer & Jacob Lauritzen, Legora",
+      "video_id": "V-isu4eTHgw",
+      "url": "https://youtu.be/V-isu4eTHgw",
+      "duration_min": 21,
+      "creator": "jacob-lauritzen",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "systems",
+      "tags": [
+        "retrieval",
+        "search",
+        "legal-ai",
+        "infrastructure",
+        "ai-engineer",
+        "applied-ai"
+      ],
+      "keywords": [
+        "retrieval",
+        "search",
+        "legal ai",
+        "infrastructure",
+        "ai engineer",
+        "applied ai",
+        "jacob lauritzen",
+        "Project Search vs Legal Research",
+        "Object Storage Native Search",
+        "Namespace as Isolation Unit",
+        "Memory Hierarchy Puffing",
+        "Cluster Tree Vector Index"
+      ],
+      "summary": "21-minute ai-engineer talk by jacob-lauritzen (engineer, legora) and simon-eskildsen (CEO / co-founder, turbopuffer). Both Danish; they keep saying so. Legora is a collaborative AI workspace for law firms and in-house counsel — reviews, drafting, research, \"Linear / Figma / Notion / GitHub for legal.\" The talk is not a model demo. It is how they search hundreds of millions → billions of documents under residency, isolation, and CMEK, then why they left Elasticsearch and Postgres for an object-storage search engine.\n\nTwo workloads: project-search-vs-legal-research. Project search is a deal room (joke: SpaceX acquires Cursor) — tens to millions of uploaded contracts, searched inside one matter. Legal research is deep-research style: statutes, cases, regulations, toward ~10 billion vectors, used for \"how do I handle this\" and litigation support. Legal research fans out hard because the corpus is a graph: jurisdiction hierarchy (city → county → state → federal, worldwide), temporal overruling, and new rules that exempt or specialize old ones.\n\nProject-search history is the production receipt. One Elasticsearch cluster + one blob store was enough until US / EU / APAC residency forced a copy of the whole stack per region. Then banks and top firms demanded physical isolation and customer-managed encryption keys (revoke the vault key, Legora cannot decrypt). They folded search into the Postgres they already split per tenant: pgvector, disk ANN, TSVector not BM25, ~4,000 partitions keyed by project. It worked until hot and cold projects shared partitions, cache thrashed, and P99 search/ingest went 100 ms → 20 s. At ~400 million documents they moved to turbopuffer: one namespace per project, real BM25, one cluster, blob-backed cold data.\n\nSimon's architecture claim: object-storage-native-search. Writes go direct to S3 (WAL as sequential objects). No disk replication, no Paxos. Hundreds of milliseconds is a bad write for a Shopify flash sale and a fine write for search. Indexes (vector, text, columnar) build in the background. Query affinity hits memory, then NVMe, then object storage; the engine is designed for ~3 S3 round trips (P99 ~200 ms on a 1 MB blob). namespace-as-isolation-unit is why this matches regulated legal: each namespace can sit in a different bucket, a customer account, and a different key — thousands of buckets if the IT department wants the warm fuzzies. They skipped encrypting the NVMe cache for some Legora tenants and just disabled disk cache; memory-only was still fast enough. Median latency dropped about an order of magnitude. That matters because an agent does 20–100 queries, not one RAG hit.\n\nLegal research is the same shape at corpus scale: Elasticsearch got expensive because everything had to be hot. Jurisdictions become namespaces — EU law stays hot; Danish law can sit on blob; 500 ms on a cold fetch is fine for deep research. memory-hierarchy-puffing is the product name: keep as much data as far down the hierarchy as economics allow. Vector search on object storage cannot walk an HNSW-style graph (each hop is another 200 ms S3 trip). turbopuffer builds cluster-tree-vector-index — clusters of clusters, \"a very complicated B-tree on the geometry\" — so roots live in DRAM and leaves stay on SSD. Full-text is a compressed inverted index plus BM25; text search at web scale is more expensive than vector search. cold-tail-index-economics is the CFO line: 70–200 tenants without a private Elasticsearch each; long-tail unused indexes stay on blob.\n\nClose: retrieval is the legal-reasoning bottleneck; they can now spend engineering on product, not infra. Auto-captions say Turopuffer / Lorra / Postgress / OOLTP / disk NNN / binack / Colmer / BOP stories / CMECH.",
+      "key_insights": [
+        "Two searches, not one RAG — project deal-room vs worldwide legal research",
+        "Residency multiplies the cluster — US / EU / APAC copies of ES + blob",
+        "CMEK + physical isolation — customer vault key; revoke and you cannot decrypt",
+        "pgvector was the one-system bet — already split Postgres; lost BM25",
+        "Hot/cold partition packing thrashed cache — P99 100 ms → 20 s",
+        "~400M docs → one namespace per project — BM25 back, one turbopuffer cluster",
+        "Write direct to object storage — no Paxos; slow write, adaptable read",
+        "~3 S3 round trips — 1 MB blob P99 ~200 ms",
+        "Namespace = isolation atom — own bucket, own key, customer cloud account",
+        "Disable NVMe cache rather than encrypt it — memory cache was enough",
+        "Agent 20–100 queries — median 10× better compounds",
+        "Legal corpus is hierarchical + temporal — fan-out, not one vector hit",
+        "Cluster tree, not graph ANN, on S3 — graph hops fight object-storage latency",
+        "Web-scale BM25 harder than vectors — inverted lists + scoring + memory bandwidth",
+        "Cold tail on blob — Danish law can wait 500 ms; EU stays hot"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "project-search-vs-legal-research",
+          "title": "Project Search vs Legal Research",
+          "e": "📁"
+        },
+        {
+          "slug": "object-storage-native-search",
+          "title": "Object-Storage-Native Search",
+          "e": "🪣"
+        },
+        {
+          "slug": "namespace-as-isolation-unit",
+          "title": "Namespace as Isolation Unit",
+          "e": "🔑"
+        },
+        {
+          "slug": "memory-hierarchy-puffing",
+          "title": "Memory-Hierarchy Puffing",
+          "e": "🎈"
+        },
+        {
+          "slug": "cluster-tree-vector-index",
+          "title": "Cluster-Tree Vector Index",
+          "e": "🌳"
+        },
+        {
+          "slug": "cold-tail-index-economics",
+          "title": "Cold-Tail Index Economics",
+          "e": "❄️"
+        },
+        {
+          "slug": "vertical-applied-ai",
+          "title": "Vertical Applied AI",
+          "e": "🏗️"
+        },
+        {
+          "slug": "human-oversight-liability-automation",
+          "title": "Human Oversight Liability Automation",
+          "e": "⚖️"
+        },
+        {
+          "slug": "demo-vs-production-ai-gap",
+          "title": "Demo vs Production AI Gap",
+          "e": "🎬"
+        },
+        {
+          "slug": "semantic-search-when-to-use",
+          "title": "Semantic Search — When to Use (Level 3)",
+          "e": "🔎"
+        }
+      ],
+      "conceptCount": 10
+    },
+    {
+      "slug": "how-to-speak-so-that-people-want-to-listen-julian-treasure-ted",
+      "title": "How to Speak So That People Want to Listen | Julian Treasure | TED",
+      "video_id": "eIho2S0ZahI",
+      "url": "https://youtu.be/eIho2S0ZahI",
+      "duration_min": 10,
+      "creator": "julian-treasure",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "public-speaking",
+        "voice",
+        "ted"
+      ],
+      "keywords": [
+        "communication",
+        "public speaking",
+        "voice",
+        "ted",
+        "julian treasure",
+        "Seven Deadly Sins of Speaking",
+        "HAIL Speaking Foundations",
+        "Five Vocal Foundations",
+        "Vocal Warmup Drills",
+        "Vocal Habits (Speaking)",
+        "Vocal Image",
+        "Uptalk"
+      ],
+      "summary": "julian-treasure (~10 min, ted, TEDGlobal 2013) treats the voice as the instrument everyone already plays — the only sound that can start a war or say \"I love you\" — and asks why so many people talk and nobody listens. The talk is a three-layer OS: habits to drop, character to stand on, toolbox to open, plus a six-move warmup before anything that matters.\n\nDrop seven-deadly-sins-of-speaking. Gossip (ill of the absent; they will do you next). Judging (hard to listen if you are being found wanting). Negativity (his mother on October 1: \"isn't it dreadful?\"). Complaining as viral misery — the UK's national sport. Excuses / the \"blamethrower.\" Embroidery and exaggeration that collapse into lying (if everything is awesome, nothing is). Dogmatism: opinions delivered as facts. Not exhaustive; large enough to ruin listenability.\n\nStand on hail-speaking-foundations. Honesty (straight and clear) · Authenticity (stand in your own truth) · Integrity (be your word) · Love (wish people well, not romance). Love tempers honesty that would otherwise be cruelty (\"you look ugly this morning\") and makes judging almost impossible at the same time. HAIL also means *greet or acclaim enthusiastically* — how the words land if those four hold.\n\nOpen the toolbox (what you say is not enough). five-vocal-foundations in Treasure's labels: register (nose / throat / chest; chest = weight; we vote for lower voices); timbre (rich, smooth, warm like hot chocolate — trainable via breath, posture, coaching); prosody (sing-song meta-language; monotone is hard; uptalk / every-sentence-as-question is a repetitive-prosody trap); pace plus silence (do not fill with um/ah); pitch as arousal (same words, different meaning); volume (loud for excitement, quiet for attention; do not \"sodcast\"). vocal-image is the political/authority exhibit.\n\nWarm the engine. Six drills before every talk, raise, proposal, or wedding speech: arms-up sigh; ba-ba-ba; kid lip trill; exaggerated la; rolled R (\"champagne for the tongue\"); we→aw siren (the one drill if you only have time for one). Same family as vocal-warmup-drills.\n\nCloser: we currently speak badly to people who are not listening, in noisy rooms. The world worth spreading is powerful speech + conscious listening + environments designed for sound.",
+      "key_insights": [
+        "Voice is the default instrument — unused toolbox, not missing talent",
+        "Seven sins kill listenability before content has a chance",
+        "Complaining is viral misery — not weather chat, a transmission",
+        "HAIL is character, not delivery — honesty without love is a weapon",
+        "Love blocks judging — you cannot wish someone well and score them at once",
+        "Chest register reads as power — vote-for-lower-voice research as vocal-image",
+        "Timbre is trainable — hot-chocolate voice is coaching + breath + posture, not genetics",
+        "Prosody carries meaning — monotone and uptalk both close the channel",
+        "Silence is a tool — um/ah is a refusal to use it",
+        "Volume has two edges — shout *or* drop; constant broadcast is sodcasting",
+        "Warm up before high stakes — raise, proposal, wedding, stage; siren if only one",
+        "Listening and rooms are half the problem — speaker skill without conscious listeners and fit rooms still fails"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "seven-deadly-sins-of-speaking",
+          "title": "Seven Deadly Sins of Speaking"
+        },
+        {
+          "slug": "hail-speaking-foundations",
+          "title": "HAIL Speaking Foundations"
+        },
+        {
+          "slug": "five-vocal-foundations",
+          "title": "Five Vocal Foundations",
+          "e": "🎶"
+        },
+        {
+          "slug": "vocal-warmup-drills",
+          "title": "Vocal Warmup Drills",
+          "e": "🎵"
+        },
+        {
+          "slug": "vocal-habits-speaking",
+          "title": "Vocal Habits (Speaking)",
+          "e": "🗣️"
+        },
+        {
+          "slug": "vocal-image",
+          "title": "Vocal Image",
+          "e": "🪞"
+        },
+        {
+          "slug": "uptalk",
+          "title": "Uptalk",
+          "e": "📈"
+        }
+      ],
+      "conceptCount": 7
+    },
+    {
+      "slug": "if-i-had-90-days-start-business-simon-squibb",
+      "title": "If I Had 90 Days To Start A Business, This Is My Plan.",
+      "video_id": "KSqkYfcUZo8",
+      "url": "https://www.youtube.com/watch?v=KSqkYfcUZo8",
+      "duration_min": 14,
+      "creator": "simon-squibb",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "build",
+      "tags": [
+        "business",
+        "entrepreneurship",
+        "ecommerce",
+        "simon-squibb"
+      ],
+      "keywords": [
+        "business",
+        "entrepreneurship",
+        "ecommerce",
+        "simon squibb",
+        "I Am Not One Day Identity",
+        "One Sample Not Ten Thousand",
+        "Ask Advice Get Money",
+        "Waiting List Market Test",
+        "Launch as Commitment",
+        "Concept vs Idea (Business)",
+        "Co Founder Selection",
+        "Share the Upside Not 100 Percent"
+      ],
+      "summary": "14-minute simon-squibb 90-day start (YouTube auto-generated captions, published ~Sept 16 2026). He opened dreambrew 90 days ago with $0 on purpose and walks the same eight steps for any business. Compressed 2026 twin of blueprint-5000-month-beginner-simon-squibb's 10-step hoodie launch: less Shopify/festival theatre, more identity, one sample, partner, investor posture, waitlist, then launch. Career OS still lives in simon-squibb-30-years-business-knowledge; attention OS in started-social-media-zero-followers-2026-simon-squibb. .online domain mid-roll is a sponsor.\n\nWhy first. Pain holds purpose. Find the wound. dreambrew exists to support dreams; some profit should go back to the people who bought. His pain is school: left at 15, the system still teaches jobs not dreams 25–30 years later. If the why is not ready, keep walking the steps and return.\n\nBrand is identity language. i-am-not-one-day-identity: stop \"one day I'll be\"; say \"I am a coffee company.\" He did not become a YouTuber until he said he was one. Name the baby so it feels born. Two naming types under concept-vs-idea-business: descriptive (Dream Brew = coffee + mission on the tin) vs invented (Google: easier trademark and URLs, harder to explain).\n\nSecure the assets. Handles are an art. Someone sat on Simon Squibb; he bought the trademark, then the platforms handed the handle back. Same handle everywhere is the prize. Domain is the trust page after someone hears the name (.online pitch).\n\nOne sample, not a warehouse. one-sample-not-ten-thousand: DreamBrew needed a cup that matched brand values. A book is one page a day. A clothing brand is one shop tee with your bits on it — AI mock, beg a supplier, buy retail. People die waiting for 10,000 units and a million dollars. One object is enough to show an investor it is real.\n\nPartner, then money. No one is self-made; school exams taught solo. Partner can be the spouse who keeps the job, or a co-founder. Same why, opposite love/hate list — he loves camera, his wife hates it. share-the-upside-not-100-percent restated as 50% of something you love that works vs 100% of nothing. strategic-partnerships-one-plus-one: 1+1=11. Red-car attention: write the spec, you start seeing them.\n\nInvestor posture is ask-advice-get-money. Act like you do not need the cheque. Patience: one tee → profit → two → four (Gymshark / Ben Francis, Pizza Hut job). Ask for advice, get money; ask for money, get advice. Cut personal and business burn so runway is long; \"I'm about to run out\" is how they take extra equity. People with money are bored without ideas — you have the power. Investor cash then makes a day-to-day co-founder easier (rent + food + equity + purpose). Only raise if you really need it. helpbnk competition CTA (up to $1M + free help).\n\nTest, then bloody launch. waiting-list-market-test: show 10 possible customers the sample or AI image before you buy 20,000 units. HelpBnk waitlist: 12,000 signups in 2 days; he calls it a £55M business from nothing in 2 years. Jobs/Blackberry keyboard is the exception — 9/10 you do not know better than the customer. launch-as-commitment: tell everyone, including the other dog walker. Talk as if it is already out. Failures were stopping, not running it wrong — comic-book business lost $1M because he stopped promoting a product that was not his why.",
+      "key_insights": [
+        "$0 on purpose — DreamBrew is the live exhibit, not a thought experiment",
+        "Pain holds the why — school still teaches jobs, not dreams",
+        "Say I am — \"one day\" language keeps the business unborn",
+        "Descriptive name is a pitch — Dream Brew vs invented Google",
+        "Trademark can reclaim a stolen handle",
+        "One sample beats a million-dollar fantasy",
+        "Self-made is a school lie — exams are solo; businesses are not",
+        "Opposite skills, same why — camera vs everything else",
+        "50% of a working mission > 100% of a corpse",
+        "Ask advice, get money — and cut burn so you are not begging",
+        "1-2-4 tee cycle — Gymshark patience is the no-investor path",
+        "Waitlist is a free test — HelpBnk 12k / 2 days",
+        "Launch is telling people — comic book died when he stopped caring"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "i-am-not-one-day-identity",
+          "title": "I Am Not One Day Identity"
+        },
+        {
+          "slug": "one-sample-not-ten-thousand",
+          "title": "One Sample Not Ten Thousand"
+        },
+        {
+          "slug": "ask-advice-get-money",
+          "title": "Ask Advice Get Money"
+        },
+        {
+          "slug": "waiting-list-market-test",
+          "title": "Waiting List Market Test"
+        },
+        {
+          "slug": "launch-as-commitment",
+          "title": "Launch as Commitment"
+        },
+        {
+          "slug": "concept-vs-idea-business",
+          "title": "Concept vs Idea (Business)",
+          "e": "💡"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "🤝"
+        },
+        {
+          "slug": "share-the-upside-not-100-percent",
+          "title": "Share the Upside Not 100 Percent",
+          "e": "🤝"
+        },
+        {
+          "slug": "demand-before-infrastructure",
+          "title": "Demand Before Infrastructure",
+          "e": "🏗️"
+        },
+        {
+          "slug": "product-market-fit-iteration",
+          "title": "Product-Market Fit Iteration",
+          "e": "🔁"
+        },
+        {
+          "slug": "delayed-gratification-business",
+          "title": "Delayed Gratification in Business",
+          "e": "⏳"
+        },
+        {
+          "slug": "owned-list-beats-rented-reach",
+          "title": "Owned List Beats Rented Reach",
+          "e": "📧"
+        },
+        {
+          "slug": "supplier-financing-no-capital",
+          "title": "Supplier Financing (No Capital)",
+          "e": "📦"
+        },
+        {
+          "slug": "authenticity-over-guru-cosplay",
+          "title": "Authenticity Over Guru Cosplay",
+          "e": "🏚️"
+        }
+      ],
+      "conceptCount": 14
+    },
+    {
+      "slug": "inside-the-mind-of-a-master-procrastinator-tim-urban-ted",
+      "title": "Inside the Mind of a Master Procrastinator | Tim Urban | TED",
+      "video_id": "arj7oStGLkU",
+      "url": "https://youtu.be/arj7oStGLkU",
+      "duration_min": 15,
+      "creator": "tim-urban",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "mind",
+      "tags": [
+        "productivity",
+        "procrastination",
+        "ted",
+        "psychology"
+      ],
+      "keywords": [
+        "productivity",
+        "procrastination",
+        "ted",
+        "psychology",
+        "tim urban",
+        "Instant Gratification Monkey",
+        "Dark Playground",
+        "Deadline vs No Deadline Procrastination",
+        "Life Calendar (Weeks)",
+        "Procrastination Types (Huberman)",
+        "Over Thinking and Procrastination",
+        "Death Ground Urgency"
+      ],
+      "summary": "tim-urban (~15 min, ted, TED2016) maps the procrastinator's head as a cartoon operating system, not a time-management tip sheet. A \"normal\" student ramps a paper across the weeks. Urban's plan looks the same; the graph is a flat line until a last-second spike. His 90-page senior thesis was supposed to be a year-long staircase. Months vanished with no words. He wrote it in 72 hours, two all-nighters, and it was \"very, very bad.\" The joke that it was the best thesis they had ever seen is the bait; the punchline is that the system is real and ugly.\n\nThe claimed MRI difference: both brains have a Rational Decision-Maker. The procrastinator also has an instant-gratification-monkey — present-only, no past/future, cares about easy and fun. The monkey takes the wheel: Wikipedia of Nancy Kerrigan/Tonya Harding, fridge check, Feynman-magnets → Justin Bieber's mom YouTube spiral. That works for a dog. It does not work in an advanced civilization that needs hard, unfun work for a later payoff. When easy/fun and \"makes sense\" overlap (dinner, sleep, earned leisure), the two agree. When they don't, the procrastinator lives in the orange zone Urban calls the dark-playground: leisure at the wrong time, unearned, soaked in guilt, dread, anxiety, self-hatred.\n\nThe only thing that scares the monkey is the Panic Monster — dormant until a deadline, public embarrassment, or career disaster gets close. TED booked him six months out; he Google-Earthed India for two and a half hours. When the speaker page went live with his face, the monster woke, the monkey fled up a tree, and the Rational Decision-Maker could finally write the talk. That three-character loop \"works\" for deadline work. It does not work when there is no deadline.\n\ndeadline-vs-no-deadline-procrastination: short-term cramming is contained because the Panic Monster shows up. Self-starting careers, art, entrepreneurship, family, exercise, health, starting or leaving a relationship — no monster, so the delay \"extends outward forever.\" Emails after the Wait But Why post were heavy, not funny: people felt like spectators in their own lives, not even able to start chasing the dream. Urban's close: non-procrastinators do not exist; the sneaky case is the one with no due date. The life-calendar-weeks is one box per week of a 90-year life. Not that many boxes. Stay aware of the monkey. Start today. Or, as the monkey would say, sometime soon.",
+      "key_insights": [
+        "Plan vs graph — intending the staircase is not walking it; the 90-page thesis became 72 hours and a bad paper",
+        "Three characters — Rational Decision-Maker (future, plans) vs instant-gratification-monkey (easy + fun, now) vs Panic Monster (deadlines / embarrassment)",
+        "Monkey is tribal firmware — fine for a well-fed dog; lost in a civilization that needs unfun work for later",
+        "dark-playground — unearned leisure at the wrong time; the fun is not actually fun",
+        "Panic is the only monkey-repellent — TED speaker page with his face > six months of \"we should start\"",
+        "Deadline procrastination is contained — ugly, but the monster eventually drives the work",
+        "No-deadline procrastination is the real damage — career, health, family, relationships never trigger the monster",
+        "Spectator-in-your-life — frustration is not failed dreams; it is never starting the chase",
+        "Everyone procrastinates something — the sneaky kind is the one without a due date",
+        "life-calendar-weeks — ~90 years of week-boxes; awareness job starts now, not \"soon\""
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "instant-gratification-monkey",
+          "title": "Instant Gratification Monkey"
+        },
+        {
+          "slug": "dark-playground",
+          "title": "Dark Playground"
+        },
+        {
+          "slug": "deadline-vs-no-deadline-procrastination",
+          "title": "Deadline vs No-Deadline Procrastination"
+        },
+        {
+          "slug": "life-calendar-weeks",
+          "title": "Life Calendar (Weeks)"
+        },
+        {
+          "slug": "procrastination-types-huberman",
+          "title": "Procrastination Types (Huberman)",
+          "e": "⏳"
+        },
+        {
+          "slug": "over-thinking-procrastination",
+          "title": "Over-Thinking and Procrastination",
+          "e": "🌀"
+        },
+        {
+          "slug": "death-ground-urgency",
+          "title": "Death Ground Urgency",
+          "e": "⚔️"
+        },
+        {
+          "slug": "two-minute-rule",
+          "title": "Two-Minute Rule",
+          "e": "⏱️"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "psychiatry-asylums-ect-lobotomies-freud-jung-lex-fridman",
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "video_id": "s7d2d8FhevU",
+      "url": "https://youtu.be/s7d2d8FhevU",
+      "duration_min": 217,
+      "creator": "lex-fridman",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "mind",
+      "tags": [
+        "psychiatry",
+        "history",
+        "mental-health",
+        "lex-fridman"
+      ],
+      "keywords": [
+        "psychiatry",
+        "history",
+        "mental health",
+        "lex fridman",
+        "Symptomatic Not Cure Psychiatry",
+        "DSM Reliability Without Validity",
+        "Brainless to Mindless Psychiatry",
+        "Community Care Shell Game",
+        "Asylum Chronic Residual",
+        "Degeneration Eugenics Pipeline",
+        "Desperate Remedies Psychiatry",
+        "Diagnostic Creep"
+      ],
+      "summary": "Lex Fridman interviews historian andrew-scull (217 min, official English captions) on the long failure-and-progress arc of psychiatry: asylums, eugenics, lobotomy, insulin coma, ECT, psychoanalysis, antipsychotics, antidepressants. Books named: *Madness in Civilization* and *Desperate Remedies*. Opening claim: some limited progress over ~75 years, almost all of it symptomatic. There is no psychiatric penicillin. Help is real and bounded. Treatments also create iatrogenic harm (PTSD exposure can worsen; drugs fail a large fraction and nobody can predict who).\n\nThe present crisis is several strands at once. dsm-reliability-without-validity: DSM-III (1980) was a panic response to inter-rater chaos and the Rosenhan *Science* paper; tick-box symptoms bought reliability, not validity. NIMH under Steven Hyman and Thomas Insel bet the field on genetics + neuroscience as brain disease. Insel later said ~$20B of cool science did not improve the lot of the mentally ill. Leon Eisenberg's line: the field moved from brainless to mindless. andrew-scull treats brain-vs-mind as a category mistake: brains are plastic; social and psychological life is already in the brain. Epidemiology still shows social causes. Pharma left the area after scandals and no new targets; Hyman: today's drugs are not a real advance on the 1950s accidents. Serious patients die 15–25 years earlier. The three largest \"inpatient\" sites in the US are LA County Jail, Cook County Jail, and Rikers. community-care-shell-game: deinstitutionalization promised community care and delivered a shell.\n\nHistory is the same pattern on a larger stage. Early asylums were built on moral-treatment optimism (60–80% cures if you came early). Discharge was more like 35–40%. The leftover chronic population produced asylum-chronic-residual, then the degeneration-eugenics-pipeline: defectives who \"breed like rabbits,\" US sterilization (~60k by the 1960s; California heavy), Rockefeller money to Ernst Rüdin, Nazi T4 (~250k mentally ill first, gas-chamber tech). Decent psychiatrists recoiled and tried biology as the solution. That is the 1915–1950 run of desperate-remedies-psychiatry: Henry Cotton's focal sepsis (teeth/tonsils/colons; 45% dead in a year after abdominal surgery; dentist pulled into 1960); Wagner-Jauregg malaria for GPI/syphilis (Nobel; penicillin ended it); Sakel insulin coma (claimed 80%; RCT in the 1950s failed; 1–5% mortality; John Nash); Meduna Metrazol seizures (fractures; \"on the brink of death\"); Cerletti/Bini ECT from a Rome slaughterhouse and a homeless first patient. Unmodified ECT was often ward control, not therapy. Modern modified ECT can help severe melancholia and still is not a cure; memory risk; California almost bars it for involuntary patients.\n\nsigmund-freud and carl-jung arrive as the mind-route twin. 1909 Clark lectures were not \"the Freud conference\" (Freud spoke German to an audience that could already read German science). Mainstream asylum psychiatry dismissed talk therapy for a \"biological\" disease. Anna O. / Breuer, repression, then libido; Jung downplays sex after the 1913 split. Freud: a \"great hater\"; America as *Dolaría*. Jung gets McCormick/Rockefeller/Mellon money. WWI shell shock makes trauma-unconscious talk newly useful. ~300 North American analysts circa 1930 cannot touch hundreds of thousands in hospitals. Hitler drives the analysts to London and the US. Psychoanalysis is now a wealthy niche. Lex floats AI as a possible talk-therapy scale path; Scull grants COVID teletherapy already started that, and still wants psychosocial careers funded.\n\nThe 1950s iatrogenic-psychotropic-tradeoff is another accident. Chlorpromazine (Laborit: \"chemical lobotomy\") becomes Thorazine via SmithKline sales to legislatures; \"major tranquilizer\" is rebranded antipsychotic in the early 1960s. Helps positive symptoms for some; does little for negative symptoms; tardive dyskinesia ignored ~20 years (George Crane); CATIE 2005: new drugs not more efficacious, 67–82% dropout, metabolic syndrome instead of TD. Antidepressants: TB-ward accident → MAOIs/tricyclics (overdose + cheese) → SSRIs marketed as a serotonin deficit. They beat placebo statistically, often not clinically; flatten affect and libido; withdrawal can trap people. NICE: CBT first-line. diagnostic-creep (Haslam / Scull): core madness → penumbra (grief-as-depression fight in DSM-5; Frances on autism criteria). Michael MacDonald: madness is the most solitary affliction for the sufferer and the most social malady for those around them.\n\nOperator close: if you are in intense psychosis or melancholia, try the drugs with a clinician who watches. Research should reopen psychosocial work (homelessness, family load, loneliness, agency). Pharma abandonment is \"depressing.\" Do not get cynical; do not pretend pills are the whole solution.\n\nThis is the historian counterweight to Huberman/Picard metabolic-psychiatry and Huberman depression-neurochemistry-triad: those pages still map mechanisms; Scull asks whether the last $20B of mechanism work moved outcomes, and whether reliability theater plus iatrogenic drugs is the same 80%-cure pattern in a lab coat.",
+      "key_insights": [
+        "Symptomatic help, not cures — no psychiatric penicillin; overstate 1950s accidents at your peril",
+        "Iatrogenic is the rule, not a footnote — PTSD flooding, TD, metabolic syndrome, SSRI flattening/withdrawal",
+        "DSM bought reliability, not validity — tick boxes after Rosenhan/Spitzer; Insel/Hyman later called DSM-5 unscientific",
+        "$20B NIMH brain-disease bet did not improve the lot of the mentally ill (Insel)",
+        "Brain vs mind is a category mistake — plastic brains already contain the social",
+        "Eisenberg: brainless psychiatry → mindless psychiatry",
+        "Jails replaced asylums — LA / Cook / Rikers; 15–25 year mortality gap growing",
+        "Community care was a shell game — facilities were never built",
+        "Asylum leftover math — 80% promise, 35–40% discharge, chronic image, then degeneration",
+        "US sterilization + Rockefeller → Rüdin → T4; mentally ill first in the Final Solution",
+        "80% cure rhetoric repeats — Cotton, Sakel, early asylums",
+        "GPI/syphilis was the one real pathology find — malaria Nobel, then actual penicillin",
+        "Cotton surgical bacteriology — 45% one-year deaths after belly surgery; teeth until 1960",
+        "Insulin coma and Metrazol are the ECT prehistory — Nash got comas; first ECT patient was a homeless man in Rome",
+        "Unmodified ECT as punishment; modified ECT as last-line melancholia, not a cure",
+        "Freud/Jung were elite talk therapy — asylums ignored them; ~300 analysts vs hundreds of thousands of inpatients",
+        "Thorazine was sold to politicians before it was a \"chemical treatment\"",
+        "Antipsychotics help some positive symptoms; CATIE: new ≠ better; 67–82% drop out",
+        "SSRIs: statistical beat of placebo, often not clinical; CBT first in NICE",
+        "Diagnostic creep + family vs patient interests (NAMI)",
+        "Try drugs if suffering is intense; fund psychosocial careers; do not get cynical"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "symptomatic-not-cure-psychiatry",
+          "title": "Symptomatic Not Cure Psychiatry",
+          "e": "💊"
+        },
+        {
+          "slug": "dsm-reliability-without-validity",
+          "title": "DSM Reliability Without Validity",
+          "e": "☑️"
+        },
+        {
+          "slug": "brainless-to-mindless-psychiatry",
+          "title": "Brainless to Mindless Psychiatry",
+          "e": "🧠"
+        },
+        {
+          "slug": "community-care-shell-game",
+          "title": "Community Care Shell Game",
+          "e": "🏚️"
+        },
+        {
+          "slug": "asylum-chronic-residual",
+          "title": "Asylum Chronic Residual",
+          "e": "📦"
+        },
+        {
+          "slug": "degeneration-eugenics-pipeline",
+          "title": "Degeneration Eugenics Pipeline",
+          "e": "⚠️"
+        },
+        {
+          "slug": "desperate-remedies-psychiatry",
+          "title": "Desperate Remedies Psychiatry",
+          "e": "🧊"
+        },
+        {
+          "slug": "diagnostic-creep",
+          "title": "Diagnostic Creep",
+          "e": "📐"
+        },
+        {
+          "slug": "iatrogenic-psychotropic-tradeoff",
+          "title": "Iatrogenic Psychotropic Tradeoff",
+          "e": "⚖️"
+        },
+        {
+          "slug": "metabolic-psychiatry",
+          "title": "Metabolic Psychiatry",
+          "e": "🧪"
+        },
+        {
+          "slug": "depression-neurochemistry-triad",
+          "title": "Depression Neurochemistry Triad",
+          "e": "🧪"
+        },
+        {
+          "slug": "major-depression-symptomatology",
+          "title": "Major Depression Symptomatology",
+          "e": "🌑"
+        },
+        {
+          "slug": "grief-vs-depression-distinction",
+          "title": "Grief vs Depression Distinction",
+          "e": "💔"
+        },
+        {
+          "slug": "homelessness-addiction-treatment-policy",
+          "title": "Homelessness Addiction Treatment Policy",
+          "e": "🏠"
+        }
+      ],
+      "conceptCount": 14
+    },
+    {
+      "slug": "the-next-outbreak-were-not-ready-bill-gates-ted",
+      "title": "The next outbreak? We’re not ready | Bill Gates | TED",
+      "video_id": "6Af6b_wyiwI",
+      "url": "https://youtu.be/6Af6b_wyiwI",
+      "duration_min": 9,
+      "creator": "bill-gates",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "systems",
+      "tags": [
+        "ted",
+        "global-health",
+        "preparedness",
+        "policy"
+      ],
+      "keywords": [
+        "ted",
+        "global health",
+        "preparedness",
+        "policy",
+        "bill gates",
+        "Not Missiles But Microbes",
+        "No Epidemic System",
+        "Germ Games",
+        "ebola as wake up call",
+        "Present Harms vs Extinction Risk"
+      ],
+      "summary": "bill-gates (~9 min, ted, March 2015) argues the next catastrophe that kills over 10 million is more likely a highly infectious virus than a war: not-missiles-but-microbes. Childhood nuclear barrels and huge deterrent budgets exist. An epidemic stop system does not. no-epidemic-system: Ebola was not a system that underperformed. There was no system — delayed paper case reports, no ready epidemiologists or medical team, no one assigned to treatments or diagnostics, WHO funded to monitor not to do the missing pieces. MSF orchestrated volunteers; a large epidemic would need hundreds of thousands of workers.\n\nAbout 10,000 died, almost all in three West African countries. Three reasons it stayed contained: heroic health workers; Ebola is not airborne and people are usually bedridden once contagious; it mostly missed cities — luck. Next time the source could be a natural epidemic or bioterrorism. A 1918-style airborne flu model is his \"thousand times worse\" exhibit (~30 million dead). Tools already exist (phones, satellite maps, faster pathogen-to-drug/vaccine turnaround) but they need a global health system and preparedness copied from war: standing force, reserves, NATO-style rapid deploy, germ-games (US last ran one in 2001; \"germs 1, people 0\"), plus vaccine/diagnostics R&D. Cost is \"modest\" vs World Bank >$3T wealth hit and millions of deaths from a worldwide flu. No panic, no spaghetti hoard. ebola-as-wake-up-call: time is not on our side; start now.",
+      "key_insights": [
+        "Not missiles, microbes — 10M+ deaths in the next few decades: virus > war, because deterrence was funded and epidemic response was not",
+        "No system, not a bad system — missing epidemiologists, digital case reporting, medical surge, treatment/diagnostic owners; WHO monitor-only mandate",
+        "Hollywood lie — handsome epidemiologists do not exist as a standing unit",
+        "Why Ebola stayed local — workers + not airborne + contagious-when-bedridden + few cities; urban + \"feel well enough to fly\" is the next-time case",
+        "Copy war readiness — full-time + reserves + military logistics/security + simulations",
+        "Germ games — last US run 2001; score germs 1, people 0",
+        "Poor-country primary care is radar — safe births and childhood vaccines *and* early outbreak sight",
+        "Medical reserve + military — trained civilians ready to go, paired with lift and security",
+        "R&D — vaccines and diagnostics; he names AAV as a fast-platform hope (his 2015 claim)",
+        "Budget test — modest vs >$3T + millions dead; primary care and R&D also make the world more just",
+        "No panic, get going — Ebola as early warning, not a reason to hide in the basement"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "not-missiles-but-microbes",
+          "title": "Not Missiles But Microbes"
+        },
+        {
+          "slug": "no-epidemic-system",
+          "title": "No Epidemic System"
+        },
+        {
+          "slug": "germ-games",
+          "title": "Germ Games"
+        }
+      ],
+      "conceptCount": 3
+    },
+    {
+      "slug": "this-is-what-happens-when-you-reply-to-spam-email-james-veitch-ted",
+      "title": "This Is What Happens When You Reply to Spam Email | James Veitch | TED",
+      "video_id": "_QdPW8JrYzQ",
+      "url": "https://youtu.be/_QdPW8JrYzQ",
+      "duration_min": 10,
+      "creator": "james-veitch",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "relationships",
+      "tags": [
+        "ted",
+        "comedy",
+        "scams",
+        "communication"
+      ],
+      "keywords": [
+        "ted",
+        "comedy",
+        "scams",
+        "communication",
+        "james veitch",
+        "Scam Baiting as Time Tax",
+        "Throwaway Email for Scam Reply",
+        "Absurd Escalation Exit",
+        "Socioemotional Selectivity Theory",
+        "Holding Space"
+      ],
+      "summary": "james-veitch (~10 min, ted) treats advance-fee spam as a comedy of escalation, then as a time tax. A Solomon Odonkoh gold-shipment pitch got through his filter. Delete was available. He wrote back: \"Your email intrigues me.\" Weeks of correspondence followed: 25 kg → 50 kg → he demanded a metric ton; he posed as a hedge-fund executive bank manager; he sent a fake \"board meeting\" chart; he asked what Solomon would buy (real estate) and answered hummus. Friends invited him for a drink; he was waiting on an email about gold. He ended the loop by inventing a candy code (lawyer = Gummy Bear, bank = Creme Egg, Western Union = a Giant Gummy Lizard; call him KitKat). After a miss, Solomon complied: raise the balance for the Gummy Bear, submit Fizzy Cola Bottle Jelly Beans to the Creme Egg, send £1,500 via a Giant Gummy Lizard.\n\nThat was fun enough that he spent three years answering as many scam emails as he could. He does not call it mean. Other people do mean things to scammers. He is wasting their time — minutes with him are minutes not spent on vulnerable adults. Operator rule: pseudonymous inbox. His real address became a nightmare (a thousand penis-enlargement emails; \"only one of which was a legitimate response to a medical question\"). Coda: a \"Winnie Mandela\" $45M transfer citing Nelson's health. Veitch noted Nelson had died three months earlier (\"fairly serious\"). She asked for $3,000 and signed ONE LOVE. He answered in Bob Marley: NO WOMAN, NO CRY, then I SHOT THE SHERIFF.",
+      "key_insights": [
+        "Reply is a choice — delete is available; \"Your email intrigues me\" starts a game",
+        "Escalate until it breaks — metric ton, hummus, candy code; absurd-escalation-exit ends the loop",
+        "They will play along — Solomon used the code; that is the receipt",
+        "Civic case — time with you is time not spent on people who will send the money",
+        "Not cruelty — he distinguishes wasting time from \"mean things\" other baiters do",
+        "Throwaway address — real inbox + reply = a thousand spam mornings",
+        "Heartstring beat — every pitch has one; Solomon's was the commission / real estate",
+        "Deadpan + callback — Marley lyrics as the Winnie closer; the room is the second audience"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "scam-baiting-as-time-tax",
+          "title": "Scam Baiting as Time Tax",
+          "e": "⏳"
+        },
+        {
+          "slug": "throwaway-email-for-scam-reply",
+          "title": "Throwaway Email for Scam Reply",
+          "e": "📧"
+        },
+        {
+          "slug": "absurd-escalation-exit",
+          "title": "Absurd Escalation Exit",
+          "e": "🍬"
+        },
+        {
+          "slug": "socioemotional-selectivity-theory",
+          "title": "Socioemotional Selectivity Theory",
+          "e": "⏳"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "tom-thum-orchestra-in-my-mouth-ted",
+      "title": "Tom Thum: The orchestra in my mouth | TED",
+      "video_id": "DFjIi2hxxf0",
+      "url": "https://youtu.be/DFjIi2hxxf0",
+      "duration_min": 12,
+      "creator": "tom-thum",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "relationships",
+      "tags": [
+        "ted",
+        "voice",
+        "performance",
+        "public-speaking",
+        "beatbox"
+      ],
+      "keywords": [
+        "ted",
+        "voice",
+        "performance",
+        "public speaking",
+        "beatbox",
+        "tom thum",
+        "Voice as Orchestra",
+        "Demo Before Label",
+        "88 Keys (Voice)",
+        "Five Vocal Foundations",
+        "Over Articulation",
+        "Playfulness in Communication"
+      ],
+      "summary": "12-minute ted / TEDx performance by Brisbane beatboxer tom-thum. Almost no argument. The proof is the mouth. He opens as a joke confession (\"I use my mouth in strange ways in exchange for cash\"), then demo-before-label: a raw beatbox, a *Billie Jean* cover, applause — and only then the job title. All of it, he says, is one unprocessed voice. No mic effects.\n\nThe thesis he never names is voice-as-orchestra. One vocal tract does drums, bass, trumpet, didgeridoo, sitar, guzheng, a German club, and a jazz combo. Geography is the set list: central deserts, India, China, Germany. Then he brings Kaoss Pads from \"the thriving metropolis of Brisbane\" — reverb for a trumpet, pad-triggered samples as a drum machine, and a loop that stacks the same mouth into a band. Close: the Sydney Opera House becomes a smoky jazz bar. He introduces Mr. Smokey Jefferson (double bass) and Mr. Peeping Tom (the \"star\"). Both are him.\n\nCareer aside, not a how-to: beatbox is a niche market; Brisbane is \"not exactly the cultural hub of the Southern Hemisphere\"; the passion is what bought the plane tickets. \"I got way too much time on my hands.\"\n\nThis is the live exhibit for Vinh's instrument stack — eighty-eight-keys-voice, five-vocal-foundations, playfulness-in-communication — taken past speech into a one-person orchestra. Opposite of linguistic-map-voice-agents-midam-kim: Kim's bot cannot hold *M* vs *N*; Thum holds a continent of timbres in one mouth.",
+      "key_insights": [
+        "Show the instrument, then name it — beatbox and *Billie Jean* land before \"I'm a beatboxer\"",
+        "One mouth is a band — drums, brass, drone, strings, club, jazz from the same tract",
+        "No effects on the mic — the claim is the body, not the PA",
+        "Geography as set list — deserts / India / China / Germany instead of a lecture on range",
+        "Loop and sample multiply one voice — Kaoss Pads: reverb, pad playback, stacked loops",
+        "Space is a costume — Opera House → downtown jazz bar by sound alone",
+        "Characters are arrangements — Smokey Jefferson and Peeping Tom are layers, not guests",
+        "Niche passion as passport — Brisbane work is thin; the skill bought the travel",
+        "Play the voice, do not use it — extreme sibling of Vinh's play-vs-use line",
+        "Time on the hands — the orchestra is a practice surplus, not a talent myth"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "voice-as-orchestra",
+          "title": "Voice as Orchestra"
+        },
+        {
+          "slug": "demo-before-label",
+          "title": "Demo Before Label"
+        },
+        {
+          "slug": "eighty-eight-keys-voice",
+          "title": "88 Keys (Voice)",
+          "e": "🎹"
+        },
+        {
+          "slug": "five-vocal-foundations",
+          "title": "Five Vocal Foundations",
+          "e": "🎶"
+        },
+        {
+          "slug": "over-articulation",
+          "title": "Over-Articulation",
+          "e": "👄"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
+      "slug": "what-makes-a-good-life-robert-waldinger-ted",
+      "title": "What Makes a Good Life? Lessons from the Longest Study on Happiness | Robert Waldinger | TED",
+      "video_id": "8KkKuTCFvzI",
+      "url": "https://youtu.be/8KkKuTCFvzI",
+      "duration_min": 13,
+      "creator": "robert-waldinger",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "relationships",
+      "tags": [
+        "happiness",
+        "relationships",
+        "psychology",
+        "ted",
+        "longevity"
+      ],
+      "keywords": [
+        "happiness",
+        "relationships",
+        "psychology",
+        "ted",
+        "longevity",
+        "robert waldinger",
+        "good relationships keep us happier healthier",
+        "loneliness kills",
+        "relationship quality over quantity",
+        "secure attachment protects memory",
+        "replace workmates with playmates",
+        "Happiness Macronutrients"
+      ],
+      "summary": "robert-waldinger (~13 min, ted, TEDxBeaconStreet 2015) asks where you would invest time and energy if you wanted a future best self. A millennial survey said get rich (80%+) and become famous (~50%). Culture says lean in to work. Those pictures of whole lives are almost impossible to get from memory: hindsight is not 20/20, and memory is sometimes creative.\n\nThe harvard-study-of-adult-development is the rare exception. For 75 years it tracked 724 men from two starting groups: Harvard sophomores (WWII generation, including one US president) and boys from Boston's poorest 1930s tenements. About 60 original men were still participating in their 90s; the study had begun following 2,000+ children; wives joined \"about time.\" Waldinger is the fourth director. Questionnaires, living-room interviews, medical records, blood, brain scans, videos of couples talking about deepest concerns.\n\nThe clearest message is not wealth, fame, or working harder: good-relationships-keep-us-happier-healthier. Period. Three lessons: loneliness-kills (connection predicts happiness, health, longevity; isolation is toxic; >1 in 5 Americans lonely; you can be lonely in a crowd or a marriage); relationship-quality-over-quantity (not friend-count or marital status; high-conflict unaffectionate marriages may be worse than divorce; age-50 relationship satisfaction predicted health at 80 better than cholesterol; warm bonds buffer old-age pain); secure-attachment-protects-memory (being able to count on someone in your 80s keeps memory sharper; daily bickering is fine if the \"count on\" test still holds).\n\nWhy we ignore hill-old wisdom: we want a quick fix. Relationships are messy, unsexy, lifelong. Happiest retirees had replace-workmates-with-playmates. Operator moves: screen time → people time; stale relationships → walks / date nights; reach the family member you have not spoken to in years (grudges tax the holder). Twain close: there is only time for loving.\n\nThis is the 75-year longitudinal receipt under Brooks's happiness-macronutrients / enjoyment-vs-pleasure (enjoyment needs people) and the anti-idol twin of millennial get-rich/get-famous (four-worldly-idols).",
+      "key_insights": [
+        "Invest question — future best self: time and energy, not a mood hack",
+        "Millennial goals vs study — 80%+ get rich, ~50% famous; 75 years say lean in to relationships",
+        "Memory cannot replace tracking — hindsight is not 20/20; the study watched lives unfold",
+        "Two starting worlds — Harvard sophomores and Boston tenement boys; outcomes ran every direction",
+        "Thesis in one line — good relationships keep us happier and healthier. Period",
+        "Lesson 1 — social connection lengthens and improves life; loneliness kills (body, brain, years)",
+        "Lesson 2 — quality, not count or \"in a relationship\"; conflict without affection is a health cost",
+        "Age 50 → 80 — relationship satisfaction beat midlife cholesterol as the aging predictor",
+        "Pain buffer — happily partnered 80s stayed happy on high-pain days; unhappy bonds magnified pain",
+        "Lesson 3 — secure \"I can count on you\" protects memory; smoothness is optional",
+        "No quick fix — tending family and friends is unglamorous and never ends",
+        "Retirement — replace workmates with playmates on purpose",
+        "This week — people over screens; do something new together; end a feud"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
+      "slug": "your-body-language-may-shape-who-you-are-amy-cuddy-ted",
+      "title": "Your Body Language May Shape Who You Are | Amy Cuddy | TED",
+      "video_id": "Ks-_Mh1QhMc",
+      "url": "https://youtu.be/Ks-_Mh1QhMc",
+      "duration_min": 21,
+      "creator": "amy-cuddy",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "body-language",
+        "presence",
+        "confidence",
+        "ted"
+      ],
+      "keywords": [
+        "communication",
+        "body language",
+        "presence",
+        "confidence",
+        "ted",
+        "amy cuddy",
+        "Two Minute Power Pose",
+        "Bodies Change Minds",
+        "Fake It Till You Become It",
+        "presence mediates evaluation",
+        "Presence Body Language Cues",
+        "Shy to Confident Bridge"
+      ],
+      "summary": "amy-cuddy (~21 min, ted) offers a no-tech hack: change posture for two minutes. The usual story about body language is how we judge others and they judge us (Ambady: 30-second silent doctor clips predict lawsuits; Todorov: one-second candidate-face judgments predict ~70% of Senate/governor races). The forgotten audience is you. Nonverbals change your thoughts, feelings, and physiology.\n\nPower nonverbals are expand vs collapse. Across animals and humans, high power opens and takes space; low power wraps, hunches, protects the neck. Pride (arms in a V, chin up) appears even in people born blind. In rooms, people complement rather than mirror: one person's expansion shrinks the other. Cuddy watched this in MBA class — alphas occupy the middle before the lecture; others collapse into the chair — and tied it to participation (half the grade) and a gender grade gap.\n\nThe research question with Dana Carney: can you fake it for a short time and change the inner state? Smile with a pen in your teeth and you feel happier; the body can run the loop in reverse. Powerful minds: more assertive, optimistic, abstract, risk-tolerant. The hormone story in the talk: effective power is high testosterone + low cortisol (dominance without stress-reactivity). Lab claim: two minutes of high-power vs low-power poses → more gambling (86% vs 60%), testosterone ~+20% vs ~−10%, cortisol ~−25% vs ~+15%. Treat those percentages as the 2012 TED claim; later work largely failed to replicate the hormone and risk-taking effects. The operator claim that still matches this wiki is bodies-change-minds plus a private expand before you are evaluated.\n\nDo not Wonder-Woman the interviewer. Prep in the bathroom, elevator, or behind a closed door. In a five-minute \"social quicksand\" interview (judges give zero nonverbal feedback), blind coders wanted to hire the high-power posers. Content scores (structure, qualifications) did not move. presence-mediates-evaluation did — they showed up as themselves.\n\nPeople say it feels fake. Cuddy's rewrite: not fake it till you make it (arrive and still feel like a fraud). fake-it-till-you-become-it. After a car wreck at 19 her IQ dropped two standard deviations; \"gifted\" identity gone; she felt she was not supposed to be at Princeton. Susan Fiske: do every talk until you notice you have become it. Years later a silent Harvard student said the same sentence — \"I'm not supposed to be here\" — and Cuddy realized she no longer felt that, and that the student was supposed to be there. The student faked it until she became it.\n\nClose: tiny tweaks, two minutes, share it with people who have no status and no tech. They need a body, privacy, and two minutes.",
+      "key_insights": [
+        "Audit first — hunch, crossed legs, wrapped ankles, or spread; you will come back to it",
+        "Judgments from thin slices — 30 silent seconds of a doctor; 1 second of a politician's face; even emoticons in a negotiation",
+        "Self is the other audience — nonverbals govern you, not only them",
+        "Expand vs collapse — open/take space vs wrap/make small; complement, don't mirror",
+        "MBA participation — collapse tracks who speaks; speaking is half the grade",
+        "Body → mind — forced smile; two-minute pose; role change in primate hierarchies",
+        "Power = T up, cortisol down — dominance without stress-reactivity (talk physiology; contested later)",
+        "Private prep — elevator / stall / closed door; not in the interview",
+        "Hire signal is presence — not speech structure or CV",
+        "Become it — repeat the talks until \"not supposed to be here\" is gone",
+        "Give it away — no-resource people can do this in private"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "two-minute-power-pose",
+          "title": "Two-Minute Power Pose"
+        },
+        {
+          "slug": "bodies-change-minds",
+          "title": "Bodies Change Minds"
+        },
+        {
+          "slug": "fake-it-till-you-become-it",
+          "title": "Fake It Till You Become It"
+        }
+      ],
+      "conceptCount": 3
+    },
     {
       "slug": "atomic-habits-james-clear-audiobook",
       "title": "Atomic Habits by James Clear | Full Audiobook",

@@ -17,7 +17,7 @@
   const XP_STARTED = 10;
   const XP_COMPLETED = 40;
   const XP_PER_LEVEL = 250;
-  const ASSET_VERSION = "dashboard2";
+  const ASSET_VERSION = "dashboard3";
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -865,7 +865,41 @@
     const labels = document.getElementById("detail-labels");
     if (!labels || !currentVideo) return;
     const progress = catalogProgress(currentVideo, loadProgressMap());
-    labels.innerHTML = `${statusBadgeHtml(progress)}${categoryPillHtml(currentVideo)}`;
+    labels.innerHTML = `${statusBadgeHtml(progress)}${categoryPillHtml(currentVideo)}${completeButtonHtml(currentVideo, progress)}`;
+    bindCompleteButtons(labels);
+  }
+
+  function completeButtonHtml(video, progress) {
+    if (!video.video_id || progress.done) return "";
+    return `<button type="button" class="complete-btn" data-complete="${esc(
+      video.video_id
+    )}">Complete</button>`;
+  }
+
+  function videoCardActionsHtml(video, progress) {
+    const chips = keywordChips(video.keywords, 2);
+    const btn = completeButtonHtml(video, progress);
+    if (!chips && !btn) return "";
+    return `<div class="video-card-actions">${chips}${btn}</div>`;
+  }
+
+  function markVideoComplete(videoId) {
+    setSavedSeconds(videoId, 0, { done: true });
+    if (currentVideo?.video_id === videoId) {
+      paintResumeBar(0, { done: true });
+      return;
+    }
+    const y = window.scrollY;
+    route().then(() => window.scrollTo({ top: y, behavior: "auto" }));
+  }
+
+  function bindCompleteButtons(container = root) {
+    container.querySelectorAll("[data-complete]").forEach((btn) => {
+      btn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        markVideoComplete(btn.dataset.complete);
+      });
+    });
   }
 
   function videoCardHtml(video, progress, { compact = false } = {}) {
@@ -897,19 +931,23 @@
             </div>
           </div>
         </div>
-        ${compact ? "" : keywordChips(video.keywords, 2)}
+        ${compact ? "" : videoCardActionsHtml(video, progress)}
       </article>`;
+  }
+
+  function isCardAction(event) {
+    return !!event.target.closest(".kw-chip, .complete-btn");
   }
 
   function bindVideoCards(container = root) {
     container.querySelectorAll(".video-card").forEach((card) => {
       const open = () => openVideo(card.dataset.slug);
       card.addEventListener("click", (event) => {
-        if (event.target.closest(".kw-chip")) return;
+        if (isCardAction(event)) return;
         open();
       });
       card.addEventListener("keydown", (event) => {
-        if (event.target.closest(".kw-chip")) return;
+        if (isCardAction(event)) return;
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
           open();
@@ -922,6 +960,7 @@
         navigate(browseHash({ q: chip.dataset.kw || "", status: "all", section: "", sort: "smart" }));
       });
     });
+    bindCompleteButtons(container);
   }
 
   function completionBar(pct, label) {
@@ -1494,13 +1533,11 @@
       <h1 class="detail-title">${esc(v.title)}${
         videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
       }</h1>
-      <div id="detail-labels" class="detail-labels">
-        ${statusBadgeHtml(progress)}
-        ${categoryPillHtml(v)}
-      </div>
+      <div id="detail-labels" class="detail-labels"></div>
       ${keywordChips(v.keywords, 8)}
       <div id="detail-body" role="tabpanel" tabindex="0"><div class="empty">Loading…</div></div>
     `;
+    paintDetailLabels();
     root.querySelectorAll(".kw-chip").forEach((chip) => {
       chip.addEventListener("click", () => {
         navigate(
