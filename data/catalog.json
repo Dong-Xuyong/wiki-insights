@@ -1,6 +1,6 @@
 {
   "generated": true,
-  "videoCount": 228,
+  "videoCount": 229,
   "insightsCount": 224,
   "conceptCount": 2267,
   "sections": [
@@ -59,7 +59,7 @@
     "performance": 47,
     "mind": 30,
     "relationships": 42,
-    "other": 8
+    "other": 9
   },
   "videos": [
     {
@@ -245,6 +245,57 @@
         }
       ],
       "conceptCount": 10
+    },
+    {
+      "slug": "how-to-master-ai-powered-creativity-jeremy-utley",
+      "title": "How to Master AI Powered Creativity in Just 13 Minutes | Jeremy Utley",
+      "video_id": "wv779vmyPVY",
+      "url": "https://youtu.be/wv779vmyPVY",
+      "duration_min": 14,
+      "creator": "jeremy-utley",
+      "updated": "2026-09-17",
+      "created": "2026-09-17",
+      "section": "other",
+      "tags": [
+        "ai",
+        "creativity",
+        "collaboration",
+        "stanford"
+      ],
+      "keywords": [
+        "ai",
+        "creativity",
+        "collaboration",
+        "stanford",
+        "jeremy utley",
+        "ai as teammate",
+        "realization gap ai",
+        "inspiration is a discipline",
+        "creativity past first idea",
+        "Creative Thinking Novel Problems",
+        "Everyone Entrepreneur AI Era",
+        "Grade Homework Not Do Homework"
+      ],
+      "summary": "14-minute eo-studio cut of jeremy-utley (Stanford adjunct, creativity + AI) arguing that most people still *use* models like Excel and therefore stay in the realization-gap-ai: published studies say AI can make people ~25% faster, +12% more work, ~40% better quality, yet <10% of working professionals get meaningful gains. His own US/Europe studies found AI often made people *less* creative. The split was orientation, not tools: underperformers treated the model as a tool; outperformers treated it as a teammate — coach it, give feedback, and let it ask you questions.\n\nThe opener is Churchill-in-the-bathtub (Gary Oldman cut): an assistant who already has context, voice, and intent. That used to be a wartime luxury. \"The poorest villager in Palo Alto\" can have it now. Operational move: do not ask \"how should I answer this?\" — ask the model to interview you one question at a time until it can give two obvious and two non-obvious ways to apply AI to *your* workflows. Unlike Excel or PowerPoint, AI can teach you how to use itself if you think to ask. Start on the work you dread. National Park Service receipt: Glen Canyon facilities manager Adam Rymer built a natural-language statement-of-work tool in 45 minutes; NPS estimates 7,000 days of labor saved across ~430 parks this year.\n\nCreativity's definition does not change. A seventh-grader's post-it is the line he keeps: creativity-past-first-idea — \"doing more than the first thing you think of\" (Einstellung / functional fixedness / Simon's satisficing). AI makes *good enough* cheaper; world-class still needs volume, variation, and time to sort. Differential output on the same ChatGPT comes from what you bring: technique plus lived inspiration-is-a-discipline (Lecrae, in a Stanford class with Utley). Only correct answer to \"how do you use AI?\": I don't. I work with it.",
+      "key_insights": [
+        "Churchill bathtub is now default — context + voice + intent available while you are not at a desk",
+        "Idea Flow, then ChatGPT — wrote the idea-generation book one month before the model; skipped the tour and sat in the front row",
+        "AI can teach you AI — Excel cannot teach Excel; ask for a consultation",
+        "Let it interview you — one question at a time until two obvious + two non-obvious recommendations",
+        "Start on dread work — \"Ah, I have to do this again\" is the first use case",
+        "Adam Rymer / NPS — 45-minute tool; ~7,000 days estimated this year",
+        "Realization gap — 25% / 12% / 40% possible vs <10% realizing it",
+        "Tool vs teammate — mediocre output: discard vs coach",
+        "Invert Q&A — \"what are ten questions I should ask?\" / \"what do you need from me?\"",
+        "Roleplay drills — interview you → profile the coworker → play them → give their feedback",
+        "Inspiration is a discipline — inputs you cultivate become the model's differential",
+        "Same ChatGPT, different you — experience and perspective, not a secret prompt",
+        "Creativity = past the first idea — AI makes satisficing easier; ask for volume and variation",
+        "I don't use AI — work with it"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "how-to-speak-so-that-people-want-to-listen-julian-treasure-ted",
