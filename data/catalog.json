@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 245,
-  "insightsCount": 239,
-  "conceptCount": 2432,
+  "insightsCount": 241,
+  "conceptCount": 2448,
   "sections": [
     {
       "id": "architecture",
@@ -573,11 +573,11 @@
         "stanford",
         "vibe coding",
         "Product Management Bottleneck",
-        "engineer pm hybrid",
-        "trusted advisor engineer",
-        "agent intent plan execute reflect",
-        "make hype mundane",
-        "big ai vs small ai",
+        "Engineer PM Hybrid",
+        "Trusted Advisor Engineer",
+        "Agent: Intent → Plan → Execute → Reflect",
+        "Make Hype Mundane",
+        "Big AI vs Small AI",
         "Learn AI, Build Fast, Talk to Customers"
       ],
       "summary": "perfology-clips upload (~105 min, Sept 9 2026) of Stanford CS230 Autumn 2025 Lecture 9 — Career Advice in AI. andrew-ng opens; laurence-moroney (invited guest; *Introduction to PyTorch*) takes the second half. Original lecture: [AuZoDsNmG_s](https://youtu.be/AuZoDsNmG_s). YouTube captions on this upload were blocked; wiki body is that lecture.\n\nNg's half is the classroom version of product-management-bottleneck. Coding sped up (GPT-5 / Gemini 3 in the room). Product spec did not. Old Silicon Valley eng:PM talk was 4–8 engineers per PM. He is seeing 2:1 or 1:1, and the faster teams collapse engineer and PM into one human who talks to users, writes the spec, and ships. METR's task-horizon doubling is the study he cites against \"is AI slowing down?\" (benchmarks cannot go past 100%). Career move: do not wait for permission. Ideas outnumber builders. A failed weekend is cheap. Pick the team you sit with, not the hottest logo — he has told the CS230 story of a student parked on Java payment processing at a brand-name company, then watched a later student repeat it.\n\nMoroney's half is the trusted-advisor-engineer. Anyone can prompt an app. The senior job is security, maintainability, and saying no to the VP who vibe-coded spaghetti over a weekend. Debt is a mortgage vs credit-card test: a house you can service is good debt; impulse shoes are not. When a client says \"build an agent,\" ask why until the sentence has no AI in it. Sales example: they wanted an agent; they needed salespeople 20% more efficient at pre-call homework. Then agent-intent-plan-execute-reflect — intent, plan with tools, execute, reflect — not a framework shopping trip. make-hype-mundane: text-to-video is next-frame prediction; once you say that, consistency bugs stop being magic. big-ai-vs-small-ai: hosted AGI race vs self-hosted open-weight models on phones / one GPU (Hollywood, law, medicine). He expects the sooner bubble on Big AI, a later one on Small AI; either way, learn to create value, not to shill. Hard work is output you measure, not 996 hours.",
@@ -595,8 +595,52 @@
         "Assume good intent, prepare for bad — the model has no choice; people do"
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "concepts": [
+        {
+          "slug": "product-management-bottleneck",
+          "title": "Product Management Bottleneck"
+        },
+        {
+          "slug": "engineer-pm-hybrid",
+          "title": "Engineer-PM Hybrid"
+        },
+        {
+          "slug": "trusted-advisor-engineer",
+          "title": "Trusted Advisor Engineer"
+        },
+        {
+          "slug": "agent-intent-plan-execute-reflect",
+          "title": "Agent: Intent → Plan → Execute → Reflect"
+        },
+        {
+          "slug": "make-hype-mundane",
+          "title": "Make Hype Mundane"
+        },
+        {
+          "slug": "big-ai-vs-small-ai",
+          "title": "Big AI vs Small AI"
+        },
+        {
+          "slug": "learn-ai-build-fast-talk-to-customers",
+          "title": "Learn AI, Build Fast, Talk to Customers"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "agentic-engineering",
+          "title": "Agentic Engineering",
+          "e": "🏗️"
+        },
+        {
+          "slug": "open-weight-vs-closed-llms",
+          "title": "Open-weight vs closed LLMs",
+          "e": "⚖️"
+        }
+      ],
+      "conceptCount": 10
     },
     {
       "slug": "are-teens-really-using-less-drugs-scott-hadland",
@@ -648,23 +692,27 @@
         "Not every sadness is GAD — function, not a label from a test week",
         "AI speeds the visit — lookup + ambient note; person still applies it"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "teen-use-down-danger-up",
-          "title": "Teen Use Down, Danger Up"
+          "title": "Teen Use Down, Danger Up",
+          "e": "📉"
         },
         {
           "slug": "dare-failed-normative-nonuse",
-          "title": "DARE Failed, Normative Non-Use"
+          "title": "DARE Failed, Normative Non-Use",
+          "e": "🚫"
         },
         {
           "slug": "confidential-teen-visit",
-          "title": "Confidential Teen Visit"
+          "title": "Confidential Teen Visit",
+          "e": "🚪"
         },
         {
           "slug": "safer-behaviors-worse-wellbeing",
-          "title": "Safer Behaviors, Worse Wellbeing"
+          "title": "Safer Behaviors, Worse Wellbeing",
+          "e": "😟"
         },
         {
           "slug": "addiction-persistence-harm-definition",
@@ -994,14 +1042,45 @@
         "Demand-as-evidence shortcut — if influencers create demand first, companies can skip trials and treat access as harm reduction. Doctor Mike: worse-than-pharma incentive (pharma at least has to prove dose and safety).",
         "Anti-Ozempic / pro-unreviewed-peptide hypocrisy — same voices call physicians drug-pushers, then attack caution on BPC."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "pcac-503a-peptide-vote",
-          "title": "PCAC 503A Peptide Vote"
+          "title": "PCAC 503A Peptide Vote",
+          "e": "🗳️"
+        },
+        {
+          "slug": "bpc-157-healing-safety",
+          "title": "BPC-157 Healing & Safety",
+          "e": "💉"
+        },
+        {
+          "slug": "peptide-sourcing-gray-market",
+          "title": "Peptide Sourcing & Gray Market",
+          "e": "⚠️"
+        },
+        {
+          "slug": "peptide-receptor-categories",
+          "title": "Peptide Receptor Categories",
+          "e": "🧪"
+        },
+        {
+          "slug": "celebrity-trinity-stack-peptides",
+          "title": "Celebrity Trinity Stack (Peptides)",
+          "e": "💉"
+        },
+        {
+          "slug": "epithalon-pineal-longevity",
+          "title": "Epithalon & Pineal Longevity",
+          "e": "🌙"
+        },
+        {
+          "slug": "bpc-157-mechanism-safety",
+          "title": "BPC-157 Mechanism & Safety",
+          "e": "🧬"
         }
       ],
-      "conceptCount": 1
+      "conceptCount": 7
     },
     {
       "slug": "he-didnt-make-money-for-8-years-saeju-jeong",
