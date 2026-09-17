@@ -1,7 +1,7 @@
 {
   "generated": true,
   "videoCount": 240,
-  "insightsCount": 236,
+  "insightsCount": 237,
   "conceptCount": 2400,
   "sections": [
     {
@@ -1073,7 +1073,7 @@
         "Put the stutter in the process — buy-time phrases; Korean BBQ over steakhouse",
         "Sales as diplomacy — best sellers are best communicators; make the craft noble"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "enterprise-sales-as-trust-exercise",
