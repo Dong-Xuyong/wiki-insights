@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 245,
-  "insightsCount": 242,
-  "conceptCount": 2448,
+  "videoCount": 250,
+  "insightsCount": 245,
+  "conceptCount": 2472,
   "sections": [
     {
       "id": "architecture",
@@ -51,17 +51,354 @@
     }
   ],
   "sectionCounts": {
-    "architecture": 2,
-    "agents": 49,
+    "architecture": 3,
+    "agents": 50,
     "systems": 12,
     "build": 40,
     "human": 11,
     "performance": 48,
     "mind": 31,
-    "relationships": 42,
-    "other": 10
+    "relationships": 43,
+    "other": 12
   },
   "videos": [
+    {
+      "slug": "did-google-just-kickstart-the-intelligence-explosion",
+      "title": "Did Google just kickstart the intelligence explosion?",
+      "video_id": "LoLYw--s-5w",
+      "url": "https://youtu.be/LoLYw--s-5w",
+      "duration_min": 5,
+      "creator": "the-code-report",
+      "updated": "2026-09-18",
+      "created": "2026-09-18",
+      "section": "other",
+      "tags": [
+        "ai",
+        "rsi",
+        "deepmind",
+        "gemini",
+        "the-code-report"
+      ],
+      "keywords": [
+        "ai",
+        "rsi",
+        "deepmind",
+        "gemini",
+        "the code report",
+        "dream rsi",
+        "Recursive Self Improvement Takeoff",
+        "Wrap Around Custom Harness",
+        "Harness Engineering",
+        "Forced vs Unforced Navier–Stokes",
+        "Mathematical Superintelligence"
+      ],
+      "summary": "the-code-report (~5 min, dated Sept 17 2026, auto-generated captions) is a satirical recap of two RSI papers from the same week. Treat claims as host-reported. Real titles: *The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement* (arXiv 2609.11873, ByteDance / Tsinghua / Shanghai AI Lab et al.) and *Dream-RSI: Recursive Self-Improvement through Evolving Worlds* (arXiv 2609.14858, Google / google-deepmind / Maryland / Virginia). The host jokes the second is \"Wet Dream RSI.\"\n\nSetup. I.J. Good (1965): the first ultra-intelligent machine is the last invention humans need, because it can improve itself. That loop is recursive-self-improvement-takeoff. The Chinese paper's five-stage map ends at the AI rewriting the process that improved it. The DeepMind-side paper claims you can get better discoveries without touching the model: turn old discovery logs into a simulator and dream thousands of new search strategies inside it.\n\nMechanism. Every recent AI-math hit used the same alpha-evolve-style loop: coding agent + problem + scoring function, propose / score / retry a few thousand times. Host cites the Jacobian conjecture (summer 2026) and openai's Navier–Stokes front-run (the-navier-stokes-situation-is-insane). The hidden knob is the exploration policy — keep going on a slightly better attempt, restart, or treat a crash as idea-fail vs implementation-fail. Until this week that policy was hardcoded. dream-rsi caches every attempt (code, score, crash) and tests new policies against the disk replay. Cheap, so thousands of policies; keep the one that would have hit the best result in the fewest tries; deploy it on the next live run; save that run; repeat. The paper calls the replay step dreaming. The coding agent (gemini) stays the same.\n\nReceipt. Host: eight algorithm / math problems vs a fixed policy. Headline: a lasso solver that beats Python's standard ML library in ~300 tries vs static ~550 vs a prior record of ~51,000. Prompt-as-punchline: read every past attempt, stop tiny tweaks, do not kill processes.\n\nVerdict. Not Good's RSI. The thing writing the next policy is still the same Gemini; it cannot find a solution it was not already capable of writing — only faster, with less waste. Same caveat as this year's math breakthroughs: static weights, custom wrap-around-custom-harness, swarms doing the lift; weights move only when a human trains the next model on what the swarm found. Cool cached search, not the last invention.",
+      "key_insights": [
+        "Two papers, one week. ByteDance/Tsinghua map L5 as rewrite-the-improver. Google/DeepMind ship a replay loop that rewrites only the exploration policy.",
+        "Policy, not weights. The interesting object in AlphaEvolve-style math is what the agent tries next, not a new Gemini.",
+        "Logs as a free simulator. Cached runs let you score thousands of policies without another expensive online rollout.",
+        "Faster search ≠ smarter model. Same weights, fewer wasted attempts. Host: 300 vs 550 vs ~51k on the lasso exhibit (host-reported).",
+        "Same pattern as NS / Jacobian / Riemann progress. Static model + harness + scoring function. Human still closes the weight loop."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
+      "slug": "how-to-build-1-person-business-claude-nate-herk",
+      "title": "Anthropic’s CEO: How to Build a 1 Person Business with Claude",
+      "video_id": "QDsenEcAJIk",
+      "url": "https://youtu.be/QDsenEcAJIk",
+      "duration_min": 12,
+      "creator": "nate-herk",
+      "updated": "2026-09-18",
+      "created": "2026-09-18",
+      "section": "agents",
+      "tags": [
+        "claude-code",
+        "startups",
+        "applied-ai",
+        "nate-herk"
+      ],
+      "keywords": [
+        "claude code",
+        "startups",
+        "applied ai",
+        "nate herk",
+        "One Person Company Filters",
+        "External Agent Eval",
+        "Pain Person Promise",
+        "Hair on Fire Narrowing",
+        "Agent Verification",
+        "Vertical Applied AI",
+        "Identifiable Pilot ROI",
+        "Human Oversight Liability Automation"
+      ],
+      "summary": "12-minute nate-herk build video (Sept 18 2026) that turns dario-amodei's \"first one-person billion-dollar company this year\" aside into a $1M software demo, not a prop desk. Nate is explicit: Dario did not publish a checklist. He answered what a one-person billion-dollar firm *could* look like. Nate turns the examples into one-person-company-filters: (1) trade or deploy your own capital, (2) software you can now ship with claude-code, (3) sales and support automated without a terrible user experience.\n\nFilter 1 is ruled out for a normal starter (money, expertise, real financial risk). Filter 2 is easy and endless, so it is not enough. Filter 3 is the squeeze: the offer must be repeatable, low-customization, and supportable by an agent. Calendarly-clone and cold-outreach writer lose a devil's-advocate panel (crowded market; emails do not prove they convert). Winner: Agent Report Card — QA / eval software for customer-support agents. An agency connects a bot; the app runs a golden set of mystery-shopper tests; failures get a diagnosis; the paid artifact is a client-ready report, not a dashboard.\n\nThe one-person company is three parts. Product: 16 tests, scores 88 → still 88 after one fix (non-deterministic drift) → 94 with a leftover data-export fail. Sales/support agent: qualifies a trial form and answers docs questions; refunds and account deletion stay with the founder. Acquisition: clay finds public agent deployers; Claude drafts the why + the message; drafts stay marked not sent. Math: $499/mo × 168 customers = $1M ARR. First milestone is five paying agencies, not 168.\n\nClose is pain-person-promise (pain, then person, then promise). \"All agents\" is too broad. Support is the wedge: refunds, billing disputes, deletion, private data, escalate-to-human. Nate's own path was services first (~$10K/mo solo) then hire; the software route is the Dario filter set.",
+      "key_insights": [
+        "Dario's examples are filters, not a recipe — capital / software / automated sales+support; he never numbered them",
+        "Software is necessary, not sufficient — if every deal needs a salesperson and custom onboarding, it is not a one-person company",
+        "Pay for proof, not a dashboard — agencies buy evidence the bot was tested before it hit real users",
+        "Non-deterministic evals regress — fix billing, another test fails; one example is not reliability",
+        "HITL is money and data — Claude can draft; it does not refund, delete, charge, or send",
+        "Draft ≠ customer — Clay + Claude automate research; sending and getting paid is still the test",
+        "168 at $499 is the ARR story; 5 is the real next step",
+        "Narrow the agent type — support risk is repeatable; \"all agents\" makes the promise vague"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "one-person-company-filters",
+          "title": "One-Person Company Filters"
+        },
+        {
+          "slug": "external-agent-eval",
+          "title": "External Agent Eval"
+        },
+        {
+          "slug": "pain-person-promise",
+          "title": "Pain Person Promise"
+        },
+        {
+          "slug": "hair-on-fire-narrowing",
+          "title": "Hair on Fire Narrowing",
+          "e": "🔥"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "vertical-applied-ai",
+          "title": "Vertical Applied AI",
+          "e": "🏗️"
+        },
+        {
+          "slug": "identifiable-pilot-roi",
+          "title": "Identifiable Pilot ROI",
+          "e": "📏"
+        },
+        {
+          "slug": "human-oversight-liability-automation",
+          "title": "Human Oversight Liability Automation",
+          "e": "⚖️"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "how-to-make-every-conversation-feel-effortless",
+      "title": "How to Make Every Conversation Feel Effortless",
+      "video_id": "nomDXFOCSdg",
+      "url": "https://youtu.be/nomDXFOCSdg",
+      "duration_min": 21,
+      "creator": "vinh-giang",
+      "updated": "2026-09-18",
+      "created": "2026-09-18",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "conversation",
+        "listening",
+        "social-skills"
+      ],
+      "keywords": [
+        "communication",
+        "conversation",
+        "listening",
+        "social skills",
+        "vinh giang",
+        "Subtext Listening",
+        "Infinite Threads",
+        "Conversational Threading",
+        "Holding Space",
+        "Emotional Reflection",
+        "Three for One Ratio",
+        "Three Second Pause"
+      ],
+      "summary": "vinh-giang 21-minute solo lesson. Effortful talk is small-talk land, overthinking the next line, unspoken awkwardness. Effortless talk flows, never runs out of things to say, and you are a little sad when it ends. The missing skill is subtext-listening: most people hear only the text (words). Every conversation also leaks through three other channels. Read all four and you unlock infinite-threads — the system behind conversations that do not die.\n\nFour channels. Brain = word choice (\"depleted\" is not \"tired\"; the big word is a thread). Ears = vocal change (pause before \"fine,\" volume drop). Eyes = body (no eye contact, crossed arms, \"fun\" soccer final that was a loss). When word + voice + body line up, that is a cluster. Heart = emotion. You cannot jump to heart. The first three train EQ so you can sense frustration (scrunched face + tense voice + sharp words) or tired/sad (slow rate + low volume + slump).\n\nThree isolation drills. (1) Friend says \"go bowling, I don't care\" about their 30th — text says fine; face + voice say disappointed/angry. Vinh's LAN-party story: he heard only \"fine, go\" from an ex and got dumped the next day. (2) \"The people are interesting\" at a new job = bad interesting once voice and face are on. (3) Andy, head of marketing, says he loves *Before We Forget How to Connect* — cluster reads fear; he has to love the book.\n\nFive steps (Peter / dad's watch). A thread is any four-channel cue that deviates from that person's norm (stoic person says \"rattled\"; bubbly voice goes flat; upright person slumps). Peter: \"I don't like watches, dad gave me this\" + quieter voice + holding the watch with both hands = cluster. Then: notice → reflect one thread (their exact words, not Sherlock) → pause / hold space → pull the next thread → share experience, not advice at a 3:1 ratio (they share three, you share one) so it does not become an interrogation. Wrong emotion-guess is useful: they correct you and your EQ sharpens on *that* person. Depth needs time. People leave thinking the talk was nourishing because nobody else listens.\n\nHomework: tomorrow, one person you care about — \"how are you *really* going?\" — listen with brain, ears, eyes, heart; pull one thread. If the door stays shut, try the next conversation.",
+      "key_insights": [
+        "Effort is a listening problem — stuck in small talk because the radar only hears words",
+        "Four channels, heart last — brain / ears / eyes first; emotion is inferred from a cluster",
+        "Thread = deviation from their norm — not a generic cue dictionary",
+        "Reflect one, don't narrate the cluster — exact words (\"Pissed off? How so?\") beat paraphrase and mind-reading",
+        "Wrong reflection is training — they clarify; you learn that person's map",
+        "Pause after reflect — hijacking the silence kills depth; depth requires time",
+        "3:1 then share experience — three of theirs, one of yours; advice is usually unwanted",
+        "Ask help vs listen — \"Do you want me to try to help or do you just want me to listen?\"",
+        "Threads were always there — you were blind, not empty"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "subtext-listening",
+          "title": "Subtext Listening",
+          "e": "👂"
+        },
+        {
+          "slug": "infinite-threads",
+          "title": "Infinite Threads",
+          "e": "🧵"
+        },
+        {
+          "slug": "conversational-threading",
+          "title": "Conversational Threading",
+          "e": "🧵"
+        },
+        {
+          "slug": "holding-space",
+          "title": "Holding Space",
+          "e": "👂"
+        },
+        {
+          "slug": "emotional-reflection",
+          "title": "Emotional Reflection",
+          "e": "🪞"
+        },
+        {
+          "slug": "three-for-one-ratio",
+          "title": "Three-for-One Ratio",
+          "e": "💬"
+        },
+        {
+          "slug": "five-vocal-foundations",
+          "title": "Five Vocal Foundations",
+          "e": "🎶"
+        },
+        {
+          "slug": "non-verbal-reading-skills",
+          "title": "Non-Verbal Reading Skills",
+          "e": "👀"
+        }
+      ],
+      "conceptCount": 8
+    },
+    {
+      "slug": "obsidian-in-24-minutes",
+      "title": "Obsidian in 24 Minutes",
+      "video_id": "4Hvkv_I8QDE",
+      "url": "https://youtu.be/4Hvkv_I8QDE",
+      "duration_min": 25,
+      "creator": "tina-huang",
+      "updated": "2026-09-18",
+      "created": "2026-09-18",
+      "section": "architecture",
+      "tags": [
+        "second-brain",
+        "knowledge-management",
+        "obsidian",
+        "agents"
+      ],
+      "keywords": [
+        "second brain",
+        "knowledge management",
+        "obsidian",
+        "agents",
+        "tina huang",
+        "Obsidian AI Three Levels",
+        "Karpathy LLM Wiki",
+        "Second Brain Five Levels",
+        "Local Open Source Models Mac Studio",
+        "Wiki Cross Source Synthesis"
+      ],
+      "summary": "tina-huang (~25 min) speedruns obsidian then demos three AI integration levels — not a note-taking aesthetic tour. She rates herself a 3/10 note-taker (learning dump goes in a Google Doc) and got into Obsidian because the vault is a local folder of markdown that any agent can read or write.\n\nLevel 1 — AI second brain: you write; AI retrieves and interprets. Traditional second brain (Tiago Forte / Nick Milo shout-out): brain thinks, notes store, you search. AI version: same notes, agent searches, analyzes, answers. Demo: Claude Cowork on her YouTube-process vault — \"how do I come up with a video concept?\" → reads the whole vault, says she does not have a concept-generation problem, walks six filter criteria already in the notes. Codex builds an \"is this worth filming?\" checklist from the same corpus. Also: Claude Code, Hermes / DeepSeek harness / OpenCode for private local, plus vault plugins (Smart Connections, Copilot).\n\nLevel 2 — AI database: the reverse. Agents write; you (or another agent) query. Lonely Octopus company docs and her personal productivity sit here. Life Bot logs a photo of unsweetened green tea (OMAD experiment). Taco Bot (COO) writes \"how the YouTube topics engine works.\" Desktop widgets dump Pomodoro logs and to-dos. Query: \"how do I improve deep work from my personal data?\" → protect hard-task hours (scripting hard, ops easy), sequence, break timing. Write bus: Obsidian Sync (E2E, paid) across personal PC, Mac Studio, and VPS. Writer models: Gemini Flash, DeepSeek V4 Pro, local Qwen 3.6 36B on Mac Studio. Health: Apple Health → third-day Oura Ring (vs Watch / Whoop). She would start here if the goal is a rich log you will not write yourself.\n\nLevel 3 — LLM wiki: AI writes, manages, and retrieves. You source, explore, and ask. Karpathy: Obsidian = IDE, LLM = programmer, vault = codebase; human is observer. Demo: Hermes Wiki Bot + Telegram ingest of a Hermes Kanban article → query \"how do I use a Hermes Kanban board?\" → lint/health check. She walks the gist: raw (immutable) / wiki (LLM-owned) / schema (CLAUDE.md / AGENTS.md); operations ingest / query / lint; index.md + log.md. Setup: new Hermes profile + LLM-wiki skill + Telegram, \"less than 5 minutes.\" Claude Code is the best-documented clone path; the gist is intentionally vague so any harness or even any database works. Exploring promotion of team docs from L2 → L3.\n\nObsidian speedrun (guess-the-three-AI-features quiz; she never names the three): vault = local folder; markdown anyone can open; Sync / Dropbox / Drive; wikilinks + stubs + local/full graph; search; community plugins + themes; embed images/PDFs/audio/tables/tweets/code; metadata → tables / Kanban / dashboards; command palette. CEO estimate 5–10 million users; they do not know download count. Mid-video GenSpark / Genmail sponsor (17k work emails). End quiz: immediate review for retention; \"your brain is the smartest.\"",
+      "key_insights": [
+        "Who writes vs who retrieves is the axis — L1 human-write/AI-read; L2 AI-write/human-or-AI-read; L3 AI owns write + maintain + read. Different from Nate's second-brain-five-levels (retrieval sophistication)",
+        "Non-note-takers start at L2 — she will not journal; agents log food, pomos, process docs; then query the pile",
+        "Existing corpus starts at L1 — years of notes + any agent pointed at the folder; Cowork for Q&A, Codex when you want an artifact",
+        "Sync is the multi-machine write bus — one of the few paid Obsidian features; E2E; PC + Mac Studio + VPS writers",
+        "Wiki is a pattern, not a product — paste the gist into Hermes, Claude Code, Codex, OpenCode; schema is the only lock-in",
+        "Telegram as ingest port — drop a source on the bot; agent files it; you do not open the vault",
+        "Implied Obsidian-for-AI features (quiz unanswered): local markdown any model can read; wikilinks/graph; folder + Sync/plugins as a shared store"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "obsidian-ai-three-levels",
+          "title": "Obsidian AI Three Levels"
+        },
+        {
+          "slug": "karpathy-llm-wiki",
+          "title": "Karpathy LLM Wiki",
+          "e": "📚"
+        },
+        {
+          "slug": "second-brain-five-levels",
+          "title": "Second Brain Five Levels",
+          "e": "🗂️"
+        },
+        {
+          "slug": "local-open-source-models-mac-studio",
+          "title": "Local Open-Source Models Mac Studio",
+          "e": "🖥️"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "the-date-hack",
+      "title": "The Date Hack",
+      "video_id": "0UiMf5dV4_Y",
+      "url": "https://youtu.be/0UiMf5dV4_Y",
+      "duration_min": 12,
+      "creator": "the-primeagen",
+      "updated": "2026-09-18",
+      "created": "2026-09-18",
+      "section": "other",
+      "tags": [
+        "theprimeagen",
+        "algorithms",
+        "dates",
+        "bitwise"
+      ],
+      "keywords": [
+        "theprimeagen",
+        "algorithms",
+        "dates",
+        "bitwise",
+        "the primeagen",
+        "Language Modulo vs Euclidean",
+        "Hinnant Weekday Algorithm",
+        "Neri Unsigned Weekday Cast",
+        "Vibe Coding"
+      ],
+      "summary": "the-primeagen (~12 min, auto-generated English captions) opens with the two hard problems in computer science: naming things, and getting a date. The date is the weekday. Database libraries and compiler authors keep asking: given a day count from the Unix epoch, what day of the week is it?\n\nSetup: Sunday = 0 … Saturday = 6. Epoch day 0 is Thursday (= 4). Day 57 should be Friday. Naive 57 % 7 is 1 (Monday). The first fix is add the Thursday offset: (N + 4) % 7 = 5. That dies on negatives: language % in C/C++ is not Euclidean remainder, so you get −1 and no weekday. The two-modulo form that works both ways is ((N % 7) + 7 + 4) % 7. Two mods is the thing he will not ship in a database.\n\nhoward-hinnant's 2014 chrono-era algorithm (captions: \"Henance\") drops the second modulo for a branch: if N >= -4 use (N + 4) % 7; else (N + 5) % 7 + 6. The + 6 slides [-6, 0] onto [0, 6]. The + 5 exists because that + 6 is −1 mod 7. It lines up with Thursday by coincidence of the cutoff, not by a new theory.\n\ncassio-neri's form is the bit he is \"glowing\" about. Reinterpret the signed day count as unsigned (U32 or U8). Positive values are unchanged. A negative two's-complement value becomes N + 2^w. 2^8 % 7 and 2^32 % 7 are both 4 — Thursday — so the unsigned % 7 already carries the epoch offset. For N >= 0 you still add 4. He points at the rest of the article and hackers-delight: multiply-and-shift remainder that, on some machines, is one operation. Aimed at vibe-coding viewers who skip binary. Linear mid-roll.",
+      "key_insights": [
+        "The date is weekday-from-epoch, not dating. Day 57 is the running example (Friday)",
+        "Sunday = 0, Thursday = 4. Naive `N % 7` misses the epoch",
+        "Language `%` is not Euclidean mod. Negatives print −1; not a weekday",
+        "Two-mod fix: `((N % 7) + 7 + 4) % 7` — correct, too slow for the library case",
+        "Hinnant 2014: one `%` plus a branch at `N >= -4`",
+        "Neri cast: signed → unsigned; `2^8` and `2^32` ≡ 4 (mod 7), so Thursday is free on negatives",
+        "Hacker's Delight is the next page: remainder by multiply/shift; claimed one machine op",
+        "Vibe-coder aside: two's complement is flip bits, add one; the sign bit is the high 1"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "language-modulo-vs-euclidean",
+          "title": "Language Modulo vs Euclidean",
+          "e": "➗"
+        },
+        {
+          "slug": "hinnant-weekday-algorithm",
+          "title": "Hinnant Weekday Algorithm",
+          "e": "🔀"
+        },
+        {
+          "slug": "neri-unsigned-weekday-cast",
+          "title": "Neri Unsigned Weekday Cast",
+          "e": "🪄"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        }
+      ],
+      "conceptCount": 4
+    },
     {
       "slug": "2b-web3-startup-future-of-ip-story",
       "title": "$2B Web3 Startup Building the Future of IP in the Age of AI | Team Story Documentary",

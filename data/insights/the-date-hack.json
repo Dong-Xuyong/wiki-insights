@@ -1,0 +1,50 @@
+{
+  "slug": "the-date-hack",
+  "sections": [
+    {
+      "title": "The date is a weekday",
+      "items": [
+        {
+          "e": "📅",
+          "q": "What two hard problems does Primeagen open with?",
+          "a": "Naming things, and **getting a date**. The date is **which weekday** a day-count from the Unix epoch falls on — a database / compiler-library question, not dating advice."
+        },
+        {
+          "e": "5️⃣",
+          "q": "Why is day 57 a Friday, not a Monday?",
+          "a": "Sunday = 0. `57 % 7` is **1** (Monday). Epoch day 0 is **Thursday = 4**, so `(57 + 4) % 7` = **5** (Friday)."
+        }
+      ]
+    },
+    {
+      "title": "Negatives break language %",
+      "items": [
+        {
+          "e": "➖",
+          "q": "What weekday is −1 under C/C++ `%`?",
+          "a": "There isn't one. Language remainder on a negative dividend is in **[−6, 0]**, not Euclidean `[0, 6]`. His line: 'What day of the week is negative 1 there, tough guy?'"
+        },
+        {
+          "e": "➗",
+          "q": "What two-mod formula fixes both signs?",
+          "a": "`((N % 7) + 7 + 4) % 7`. Adding 7 then reducing is a no-op on positives and slides negatives into range. He will **not** keep two mods in a database."
+        }
+      ]
+    },
+    {
+      "title": "Hinnant, then Neri",
+      "items": [
+        {
+          "e": "🔀",
+          "q": "What is Hinnant's 2014 weekday form?",
+          "a": "One `%` plus a branch. If `N >= -4`: `(N + 4) % 7`. Else: `(N + 5) % 7 + 6`. The `+ 6` maps `[−6, 0]` onto `[0, 6]`."
+        },
+        {
+          "e": "🪄",
+          "q": "Why does Neri's unsigned cast get Thursday for free?",
+          "a": "A negative two's-complement `N` as `U8`/`U32` is `N + 2^w`. **`256 % 7` and `2^32 % 7` are both 4** — Thursday at the epoch. For `N >= 0` you still add 4. `U64` does not get this (`2^64 % 7 = 2`)."
+        }
+      ]
+    }
+  ]
+}
