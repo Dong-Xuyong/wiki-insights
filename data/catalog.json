@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 251,
   "insightsCount": 248,
-  "conceptCount": 2484,
+  "conceptCount": 2490,
   "sections": [
     {
       "id": "architecture",
@@ -391,9 +391,39 @@
           "slug": "unconscious-helping-contract",
           "title": "Unconscious Helping Contract",
           "e": "🧾"
+        },
+        {
+          "slug": "unconditional-love-unconditional-disrespect",
+          "title": "Unconditional Love Unconditional Disrespect",
+          "e": "🚫"
+        },
+        {
+          "slug": "compassion-mistaken-for-weakness",
+          "title": "Compassion Mistaken for Weakness",
+          "e": "🏥"
+        },
+        {
+          "slug": "overgiving-to-earn-love",
+          "title": "Overgiving to Earn Love",
+          "e": "🫶"
+        },
+        {
+          "slug": "give-energy-youre-willing-to-lose",
+          "title": "Give Energy You're Willing to Lose",
+          "e": "🎰"
+        },
+        {
+          "slug": "healthy-boundaries-relationships",
+          "title": "Healthy Boundaries in Relationships",
+          "e": "🚧"
+        },
+        {
+          "slug": "feminine-masculine-communication-styles",
+          "title": "Feminine Masculine Communication Styles",
+          "e": "🔀"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 13
     },
     {
       "slug": "obsidian-in-24-minutes",
