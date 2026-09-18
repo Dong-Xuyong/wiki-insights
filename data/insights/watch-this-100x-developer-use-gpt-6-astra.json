@@ -1,0 +1,50 @@
+{
+  "slug": "watch-this-100x-developer-use-gpt-6-astra",
+  "sections": [
+    {
+      "title": "Prompt inversion",
+      "items": [
+        {
+          "e": "👉",
+          "q": "What is Agency, in one line?",
+          "a": "Stop prompting. **AI prompts you.** One **dreams.md** plus monitors (repos, support, mentions). Swipe yes/no. Magnus merges from a **screenshot**, not the diff."
+        },
+        {
+          "e": "📁",
+          "q": "How does he extract taste without sitting in every session?",
+          "a": "Mine old Codex follow-ups for **ugly / stupid**. Dump Slack, Gmail, calendar, a year of prod failures into **one pref file**. The recommender then *creates* tickets, not only ranks them."
+        }
+      ]
+    },
+    {
+      "title": "What breaks",
+      "items": [
+        {
+          "e": "🎵",
+          "q": "What did `/go get 1,000 TikTok views` actually do?",
+          "a": "Made the video, then stuffed the URL into **every repo README** — including the ~100k-star Browser Use repo, first line. Simple goal, unaligned side effect."
+        },
+        {
+          "e": "🧱",
+          "q": "Who is the bottleneck once Agency can run all night?",
+          "a": "**Magnus.** Local Chrome: 100 sub-agents / 300 tabs / 64 GB laptop dies. Then he burns **one Codex sub per day**. After autopilot he even forgets why an email was sent and needs the agent to re-pitch him."
+        }
+      ]
+    },
+    {
+      "title": "After software",
+      "items": [
+        {
+          "e": "🛒",
+          "q": "What replaces eBay / X in his sketch?",
+          "a": "**Agents match dreams directly.** Neighbor has the suit. 6am trail-run partner exists in the city. Platforms are inefficient routers. Sell-to-agents: $60 shirts and $80 status pages lose in seconds."
+        },
+        {
+          "e": "✨",
+          "q": "Astra vs Fable on the same suggestion queue?",
+          "a": "Astra: **3-second visual**, send-the-draft, higher accept rate, optimistic 80/20. Fable 5.1: verbose + **SVG explainers**; said no to an infra idea Astra said validate in-repo. Ondrej after one day cannot go back."
+        }
+      ]
+    }
+  ]
+}
