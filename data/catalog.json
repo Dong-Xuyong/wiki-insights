@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 250,
-  "insightsCount": 245,
-  "conceptCount": 2472,
+  "videoCount": 251,
+  "insightsCount": 246,
+  "conceptCount": 2473,
   "sections": [
     {
       "id": "architecture",
@@ -58,7 +58,7 @@
     "human": 11,
     "performance": 48,
     "mind": 31,
-    "relationships": 43,
+    "relationships": 44,
     "other": 12
   },
   "videos": [
@@ -85,14 +85,14 @@
         "deepmind",
         "gemini",
         "the code report",
-        "dream rsi",
+        "Dream RSI",
         "Recursive Self Improvement Takeoff",
         "Wrap Around Custom Harness",
         "Harness Engineering",
         "Forced vs Unforced Navier–Stokes",
         "Mathematical Superintelligence"
       ],
-      "summary": "the-code-report (~5 min, dated Sept 17 2026, auto-generated captions) is a satirical recap of two RSI papers from the same week. Treat claims as host-reported. Real titles: *The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement* (arXiv 2609.11873, ByteDance / Tsinghua / Shanghai AI Lab et al.) and *Dream-RSI: Recursive Self-Improvement through Evolving Worlds* (arXiv 2609.14858, Google / google-deepmind / Maryland / Virginia). The host jokes the second is \"Wet Dream RSI.\"\n\nSetup. I.J. Good (1965): the first ultra-intelligent machine is the last invention humans need, because it can improve itself. That loop is recursive-self-improvement-takeoff. The Chinese paper's five-stage map ends at the AI rewriting the process that improved it. The DeepMind-side paper claims you can get better discoveries without touching the model: turn old discovery logs into a simulator and dream thousands of new search strategies inside it.\n\nMechanism. Every recent AI-math hit used the same alpha-evolve-style loop: coding agent + problem + scoring function, propose / score / retry a few thousand times. Host cites the Jacobian conjecture (summer 2026) and openai's Navier–Stokes front-run (the-navier-stokes-situation-is-insane). The hidden knob is the exploration policy — keep going on a slightly better attempt, restart, or treat a crash as idea-fail vs implementation-fail. Until this week that policy was hardcoded. dream-rsi caches every attempt (code, score, crash) and tests new policies against the disk replay. Cheap, so thousands of policies; keep the one that would have hit the best result in the fewest tries; deploy it on the next live run; save that run; repeat. The paper calls the replay step dreaming. The coding agent (gemini) stays the same.\n\nReceipt. Host: eight algorithm / math problems vs a fixed policy. Headline: a lasso solver that beats Python's standard ML library in ~300 tries vs static ~550 vs a prior record of ~51,000. Prompt-as-punchline: read every past attempt, stop tiny tweaks, do not kill processes.\n\nVerdict. Not Good's RSI. The thing writing the next policy is still the same Gemini; it cannot find a solution it was not already capable of writing — only faster, with less waste. Same caveat as this year's math breakthroughs: static weights, custom wrap-around-custom-harness, swarms doing the lift; weights move only when a human trains the next model on what the swarm found. Cool cached search, not the last invention.",
+      "summary": "the-code-report (~5 min, dated Sept 17 2026, auto-generated captions) is a satirical recap of two RSI papers from the same week. Treat claims as host-reported. Real titles: *The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement* (arXiv 2609.11873, ByteDance / Tsinghua / Shanghai AI Lab et al.) and *Dream-RSI: Recursive Self-Improvement through Evolving Worlds* (arXiv 2609.14858, Google / google-deepmind / Maryland / Virginia). The host jokes the second is \"Wet Dream RSI.\"\n\nSetup. I.J. Good (1965): the first ultra-intelligent machine is the last invention humans need, because it can improve itself. That loop is recursive-self-improvement-takeoff. The Chinese paper's five-stage map ends at the AI rewriting the process that improved it. The DeepMind-side paper claims you can get better discoveries without touching the model: turn old discovery logs into a simulator and dream thousands of new search strategies inside it.\n\nMechanism. Every recent AI-math hit used the same AlphaEvolve-style loop: coding agent + problem + scoring function, propose / score / retry a few thousand times. Host cites the Jacobian conjecture (summer 2026) and openai's Navier–Stokes front-run (the-navier-stokes-situation-is-insane). The hidden knob is the exploration policy — keep going on a slightly better attempt, restart, or treat a crash as idea-fail vs implementation-fail. Until this week that policy was hardcoded. dream-rsi caches every attempt (code, score, crash) and tests new policies against the disk replay. Cheap, so thousands of policies; keep the one that would have hit the best result in the fewest tries; deploy it on the next live run; save that run; repeat. The paper calls the replay step dreaming. The coding agent (gemini) stays the same.\n\nReceipt. Host: eight algorithm / math problems vs a fixed policy. Headline: a lasso solver that beats Python's standard ML library in ~300 tries vs static ~550 vs a prior record of ~51,000. Prompt-as-punchline: read every past attempt, stop tiny tweaks, do not kill processes.\n\nVerdict. Not Good's RSI. The thing writing the next policy is still the same Gemini; it cannot find a solution it was not already capable of writing — only faster, with less waste. Same caveat as this year's math breakthroughs: static weights, custom wrap-around-custom-harness, swarms doing the lift; weights move only when a human trains the next model on what the swarm found. Cool cached search, not the last invention.",
       "key_insights": [
         "Two papers, one week. ByteDance/Tsinghua map L5 as rewrite-the-improver. Google/DeepMind ship a replay loop that rewrites only the exploration policy.",
         "Policy, not weights. The interesting object in AlphaEvolve-style math is what the agent tries next, not a new Gemini.",
@@ -100,9 +100,14 @@
         "Faster search ≠ smarter model. Same weights, fewer wasted attempts. Host: 300 vs 550 vs ~51k on the lasso exhibit (host-reported).",
         "Same pattern as NS / Jacobian / Riemann progress. Static model + harness + scoring function. Human still closes the weight loop."
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "dream-rsi",
+          "title": "Dream-RSI"
+        }
+      ],
+      "conceptCount": 1
     },
     {
       "slug": "how-to-build-1-person-business-claude-nate-herk",
@@ -273,6 +278,69 @@
         }
       ],
       "conceptCount": 8
+    },
+    {
+      "slug": "love-expert-what-a-man-does-when-he-truly-loves-you-stephan-speaks",
+      "title": "Love Expert: What A Man Does When He Truly Loves You | Stephan Speaks",
+      "video_id": "IBGKiE8aa_M",
+      "url": "https://youtu.be/IBGKiE8aa_M",
+      "duration_min": 36,
+      "creator": "jay-shetty",
+      "updated": "2026-09-18",
+      "created": "2026-09-18",
+      "section": "relationships",
+      "tags": [
+        "relationships",
+        "dating",
+        "attachment",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "relationships",
+        "dating",
+        "attachment",
+        "jay shetty",
+        "safe choice is wrong choice",
+        "unsustainable self presentation",
+        "loving in your masculine",
+        "light exposes fit",
+        "letter before exit",
+        "let go doesnt mean forever",
+        "Unconscious Helping Contract",
+        "Unconditional Love Unconditional Disrespect"
+      ],
+      "summary": "~36-minute jay-shetty *On Purpose* interview with relationship coach stephan-speaks — the self-honesty and energy OS beside Khan's woman-he-dates-isnt-the-woman-he-marries-sadia-khan selection stack. Not \"how to get them to love you\" but do you actually love them, can you sustain who you showed up as, and will you leave if they will not work. Opening cut: wasting-time diagnosis starts with you. If you are staying because he is nice and you do not want to start over, you are already wasting it. Observable flags on them: will not talk, will not correct what was named, not on the same page about the life. Speaks trusts women's intuition early — people stretch weeks of dating into unhappy years because they would not accept the first knowing.\n\nLove test is inverted. The first key is do you truly love them. One-sided \"they love me so much, this is safe\" is infatuation or attachment. safe-choice-is-wrong-choice: the safe pick cannot be what you need, so you cannot be what they need. Definition: God is love, then kindness, compassion, patience, understanding, selfless pour. Romance still needs other ingredients — if they have not healed, it is not time, even if love is there. Love is giving: do you know their needs and will you meet them, or did it just feel good. Connection is spirit recognizing its match, often in the first conversation or week. Recognition can be fast; cultivation should be slow.\n\nPresentation rule: unsustainable-self-presentation. Anything you cannot keep (five-star lifestyle you hate; low-text persona when you need daily talk) is a setup. The true self comes out; they did not sign up for it. Hard vs easy: true-love relationships feel hard because trauma walls come down — same walls that protect you block your blessings. Pickup-artist playbooks (Neil Strauss *The Game*) work on women in general and fail on the woman you love. Wrong relationships feel 10× harder; \"easy\" is often two people riding chemistry and not digging. Most people, he argues, are in the wrong relationship. Advice from a bitter unhealed place is bad advice. \"Don't fall in love\" is the example: falling is inevitable; the skill is loving-in-your-masculine — stay the energy they were attracted to while you pour. Dominant energy + tap the other when needed. \"Women don't like good guys\" is a misread of lost masculine; \"bad boys\" are the same energy without the goodness. Fear of losing her produces the yes-man. If they believe you will never walk away, you have lost — same walk-away as Khan's unconditional-love-unconditional-disrespect.\n\nShetty: compassion looks like weakness. Speaks: the person who brings the energy (calms the room) is in the power seat, not the person who is dictated by the room — compassion-mistaken-for-weakness. Feminine is not the wound; who you gave it to is. light-exposes-fit: you cannot expose a hurter by closing. Open light is a filter. If they cannot match it, they do not belong. The action (kind, loving) was not the problem; the person was. Separate those so you do not stop the good things. Fixer / upgrade-them is unconscious-helping-contract as leverage: more value, false security, they will not leave. Unhealthy love cycle (especially women): first love goes all-in too young, gets hurt, then picks a man who cannot take her there so he cannot hurt her that way. He is safe and unfulfilling; she cannot be what he needs either; temptation rises after she builds him up. Stay-or-go: let-go-doesnt-mean-forever — maybe the person, not the circumstances. If they will not do the work after it was clearly named, go. Relationship-without-healing is a job that hired you without the master's: they drag the degree until they are fired. letter-before-exit before you call it talked-through — verbal deep talks become rebuttal. Grow for whoever you will be with, not to win them back. If they needed a year, you probably do too.",
+      "key_insights": [
+        "Wasting-time check starts with why you are still here, not a full dossier on them",
+        "Observable waste: will not talk, will not correct, different life direction",
+        "Intuition is early; rationalizing it into years is the common failure",
+        "First love-sign is you love them too — one-sided safety is not love",
+        "Safe choice is usually the wrong choice",
+        "Love = give; know their needs or it was hype",
+        "Connection can be instant; moving forward should not be",
+        "Unsustainable presentation is a time bomb",
+        "Hard love is often walls coming down, not a bad match",
+        "Pickup tactics fail on the person you actually love",
+        "Wrong relationship feels 10× harder; easy is often shallow chemistry",
+        "Bitter people disguise unhealed advice as looking out for you",
+        "Teach men to walk in love, not to avoid falling",
+        "Dominant energy + situational tap; good guy can still be masculine",
+        "Fear of loss → yes-man → less attractive",
+        "If they think you will never leave, you have already lost",
+        "Bringing peace is power, not weakness",
+        "Light exposes fit; closed walls give both people a free pass",
+        "Kindness was not the problem; the recipient was",
+        "Fixer-upper is leverage, not love",
+        "Unhealthy cycle: all-in first love → safer man who cannot hurt or fulfill",
+        "Letting go is about this chapter, not always the person",
+        "No work after a clear ask = exit",
+        "Letter, then talk; arguing is not communication",
+        "Grow for yourself and the next bond, not as a win-them-back project",
+        "If they need a year, you need a year"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "obsidian-in-24-minutes",
