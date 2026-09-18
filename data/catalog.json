@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 251,
-  "insightsCount": 246,
-  "conceptCount": 2473,
+  "insightsCount": 248,
+  "conceptCount": 2484,
   "sections": [
     {
       "id": "architecture",
@@ -105,9 +105,29 @@
         {
           "slug": "dream-rsi",
           "title": "Dream-RSI"
+        },
+        {
+          "slug": "recursive-self-improvement-takeoff",
+          "title": "Recursive Self-Improvement Takeoff",
+          "e": "🔁"
+        },
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "mathematical-superintelligence",
+          "title": "Mathematical Superintelligence",
+          "e": "🧮"
         }
       ],
-      "conceptCount": 1
+      "conceptCount": 5
     },
     {
       "slug": "how-to-build-1-person-business-claude-nate-herk",
@@ -150,19 +170,22 @@
         "168 at $499 is the ARR story; 5 is the real next step",
         "Narrow the agent type — support risk is repeatable; \"all agents\" makes the promise vague"
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "one-person-company-filters",
-          "title": "One-Person Company Filters"
+          "title": "One-Person Company Filters",
+          "e": "👤"
         },
         {
           "slug": "external-agent-eval",
-          "title": "External Agent Eval"
+          "title": "External Agent Eval",
+          "e": "📋"
         },
         {
           "slug": "pain-person-promise",
-          "title": "Pain Person Promise"
+          "title": "Pain Person Promise",
+          "e": "🎯"
         },
         {
           "slug": "hair-on-fire-narrowing",
@@ -300,12 +323,12 @@
         "dating",
         "attachment",
         "jay shetty",
-        "safe choice is wrong choice",
-        "unsustainable self presentation",
-        "loving in your masculine",
-        "light exposes fit",
-        "letter before exit",
-        "let go doesnt mean forever",
+        "Safe Choice Is the Wrong Choice",
+        "Unsustainable Self Presentation",
+        "Loving in Your Masculine",
+        "Light Exposes Fit",
+        "Letter Before Exit",
+        "Let Go Doesn't Mean Forever",
         "Unconscious Helping Contract",
         "Unconditional Love Unconditional Disrespect"
       ],
@@ -338,9 +361,39 @@
         "Grow for yourself and the next bond, not as a win-them-back project",
         "If they need a year, you need a year"
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "safe-choice-is-wrong-choice",
+          "title": "Safe Choice Is the Wrong Choice"
+        },
+        {
+          "slug": "unsustainable-self-presentation",
+          "title": "Unsustainable Self Presentation"
+        },
+        {
+          "slug": "loving-in-your-masculine",
+          "title": "Loving in Your Masculine"
+        },
+        {
+          "slug": "light-exposes-fit",
+          "title": "Light Exposes Fit"
+        },
+        {
+          "slug": "letter-before-exit",
+          "title": "Letter Before Exit"
+        },
+        {
+          "slug": "let-go-doesnt-mean-forever",
+          "title": "Let Go Doesn't Mean Forever"
+        },
+        {
+          "slug": "unconscious-helping-contract",
+          "title": "Unconscious Helping Contract",
+          "e": "🧾"
+        }
+      ],
+      "conceptCount": 7
     },
     {
       "slug": "obsidian-in-24-minutes",
@@ -384,7 +437,8 @@
       "concepts": [
         {
           "slug": "obsidian-ai-three-levels",
-          "title": "Obsidian AI Three Levels"
+          "title": "Obsidian AI Three Levels",
+          "e": "🪜"
         },
         {
           "slug": "karpathy-llm-wiki",
