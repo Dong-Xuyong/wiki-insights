@@ -104,7 +104,8 @@
       "concepts": [
         {
           "slug": "dream-rsi",
-          "title": "Dream-RSI"
+          "title": "Dream-RSI",
+          "e": "💭"
         },
         {
           "slug": "recursive-self-improvement-takeoff",
@@ -365,27 +366,33 @@
       "concepts": [
         {
           "slug": "safe-choice-is-wrong-choice",
-          "title": "Safe Choice Is the Wrong Choice"
+          "title": "Safe Choice Is the Wrong Choice",
+          "e": "🛟"
         },
         {
           "slug": "unsustainable-self-presentation",
-          "title": "Unsustainable Self Presentation"
+          "title": "Unsustainable Self Presentation",
+          "e": "🎭"
         },
         {
           "slug": "loving-in-your-masculine",
-          "title": "Loving in Your Masculine"
+          "title": "Loving in Your Masculine",
+          "e": "🧭"
         },
         {
           "slug": "light-exposes-fit",
-          "title": "Light Exposes Fit"
+          "title": "Light Exposes Fit",
+          "e": "💡"
         },
         {
           "slug": "letter-before-exit",
-          "title": "Letter Before Exit"
+          "title": "Letter Before Exit",
+          "e": "✉️"
         },
         {
           "slug": "let-go-doesnt-mean-forever",
-          "title": "Let Go Doesn't Mean Forever"
+          "title": "Let Go Doesn't Mean Forever",
+          "e": "🌿"
         },
         {
           "slug": "unconscious-helping-contract",
