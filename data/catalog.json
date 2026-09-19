@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 283,
-  "insightsCount": 276,
-  "conceptCount": 2683,
+  "videoCount": 284,
+  "insightsCount": 277,
+  "conceptCount": 2685,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 28
+    "other": 29
   },
   "videos": [
     {
@@ -693,6 +693,62 @@
       "conceptCount": 4
     },
     {
+      "slug": "iphone-18-pro-a20-five-year-chip",
+      "title": "iPhone18 Pro性能分析：五年来最强的芯片升级！",
+      "video_id": "BV1oZeA6fERD",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1oZeA6fERD/",
+      "duration_min": 27,
+      "creator": "ji-ke-wan",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "apple",
+        "semiconductors",
+        "hardware"
+      ],
+      "keywords": [
+        "bilibili",
+        "apple",
+        "semiconductors",
+        "hardware",
+        "ji ke wan",
+        "Useful High Frequency",
+        "Shrink the Big Core",
+        "a series m series split",
+        "npu takes the die",
+        "stack the shortboards",
+        "Unbuyable Component Moat",
+        "Scale Discipline over Category Intuition"
+      ],
+      "summary": "极客湾 / 飘哥 (~27 min, Bilibili) opens two retail-looking iPhone 18 Pro / Pro Max units. Skin change vs 17 Pro is color plus a smaller Dynamic Island. Internals are a different phone: WMCM package, chip on the outside of a rebuilt board, vapor chamber ~3× last year, and an A20 Pro he calls the largest A-series jump in five years.\n\nThe package is the first secret. PoP stacked DRAM on the SoC when phones were under a watt. Burst clocks near 5 GHz make that lid a heat plug. Samsung's HPB copper slug helped Exynos 2600 and still left DRAM on part of the die. A20 Pro clears the roof: wafer-level multi-chip module (WMCM) pulls DRAM beside the compute die, then a lid. M-series sits die and DRAM side-by-side on a substrate; this one fuses them in the module. Dual-layer logic board is gone. The chip sits outboard on a chamber larger than many Android gaming phones. That stack is not for 10 W sustained — Android already does that under PoP. It is useful-high-frequency: hold 4.93 GHz for the tens-to-hundreds of milliseconds of a scroll or launch. Geekbench room-temp vs fridge is almost the same. Older iPhones and Android flagships are not.\n\nTSMC N2 (GAA, not FinFET). Density vs N3P is a shrug: HD library a hair up, performance library slightly down. They skipped N2P. The dividend is frequency, not transistors per mm². Die area ≈ A19 Pro; spec is not. CPU is 2 Super (S) + 4 E. GPU is 7 cores (first count bump since A17 Pro), Family 11, neural accelerators doubled. NPU 16 → 32 cores. Memory 64-bit LPDDR5X → 96-bit LPDDR5X, 115.2 GB/s (+50%), above a 96-bit LPDDR6-10667 part because there is no ECC.\n\nSPEC CPU 2026: biggest single-core peak since A15. Mid/high efficiency is the real jump; low-frequency S-core is only a bit ahead of A19 Pro. The surprise is shrink-the-big-core: decode 10-wide → 9-wide, shallower queues, same ALUs / FP / L1. Integer IPC +3%, FP flat. Smaller front end to hit 4.93 GHz. That S-core is A20-only. a-series-m-series-split: it is not the M6 S-core. E-core is the other scare. 2.64 vs 2.59 GHz, near a Snapdragon 8 Elite 5 mid-core on ~0.8 W vs ~2.6 W. L1 I$ 128→160K, D$ 64→96K; integer multiply 1→2; integer scheduler 33→47; 8 MB shared L2. DRAM latency: S ~70 ns (desktop DDR5 class), E ~100 ns. Last-year Android big cores sit near A17 Pro E-core efficiency.\n\nGPU 3DMark SL: 3008 → 4263, more than the official +40%, at the same power. Bandwidth near M4. FP32 2.4 → 2.8 TFLOPS. npu-takes-the-die: CPU and GPU shrink; NPU area +60%. Their own NPU test: A19 Pro FP16 24 / INT8 41 TOPS (above the old 35 TOPS slide); A20 Pro 44 / 73.\n\nSkin sensors vs OnePlus 15 and fan-on iQOO 15 Ultra, 30 min stress. iPhone front settles ~44–45 °C and still matches ~47 °C Android last-five-minute watts. Fan Ultra still wins. Games (pre-launch, unset power targets): Genshin 884P 60 fps, 18 Pro Max 3.4 W / Pro 3.3 W vs 17 Pro Max 3.9 W and Android 4.6–4.8 W; skin 38–39 °C. Arknights Endfield near-locked, Pro Max 5.9 W at 43.5 °C. 鸣潮 rain drive 792P: 17 Pro Max 5.4 W / 53.7 fps → 18 Pro Max 6.4 W / 58.9 fps at 42.6 °C (Pro 5.8 W). Second UE scene (caption 明朝, motorcycle) ~50 fps at 748P, still cooler than OnePlus, still weaker. C2 modem (ex-US 18 Pro and most 18 Pro Max) plus CN Pro Max ~4800 → ~5400 mAh: Geekbay 5G model 10h37m, ~2 h past 17 Pro Max, next to 7000–8000 mAh Androids. 18 Pro only +100 mAh / 7h50m — does not beat 17 Pro Max as the keynote said.\n\nClose: stack-the-shortboards. Cooling, battery, charge speed now look like an Android flagship. Weight (Pro Max 半斤) and QLC risk on 1 TB / 2 TB are the leftover tax. Pro is the practical phone. Air and Fold take the weird bets. 云飞 line he quotes: walk Android's road faster so Android has nowhere to go. Upload clock: 05:26. Team emptied.\n\nAI-zh is dirty: AH9/AH6/hu pro = A19 Pro; 8E5 / 8亿的正五 = Snapdragon 8 Elite 5; 1+15 / 115 = OnePlus 15; 爱酷15ultra = iQOO 15 Ultra; E环 = 鸣潮; wm cm = WMCM; JA/GA = GAA; S盒/S壳 = Super core.",
+      "key_insights": [
+        "Looks like a colorway. Is a board and package rewrite. Memory off the roof, chip on the outside, chamber 3×.",
+        "useful-high-frequency — The surgery is for a 4.93 GHz burst you can actually hold, not a 10 W game loop.",
+        "shrink-the-big-core — First time he has seen Apple's big core get smaller. Frequency, not width.",
+        "a-series-m-series-split — A20 S-core is not M6. Phone and Mac cores fork.",
+        "E-core is the sleeper — Mid-core work at one-third the watts.",
+        "npu-takes-the-die — Only IP that grew. On-device model is the area bet.",
+        "stack-the-shortboards — Pro catches Android on heat, battery, charge. Experiments stay on Air / Fold.",
+        "Keynote lie on the small cup — 18 Pro battery story does not beat 17 Pro Max in their 5G model."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "useful-high-frequency",
+          "title": "Useful High Frequency"
+        },
+        {
+          "slug": "shrink-the-big-core",
+          "title": "Shrink the Big Core"
+        }
+      ],
+      "conceptCount": 2,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/bee297258fc9a148cf0b6a8c8c646979045ff2e9.jpg"
+    },
+    {
       "slug": "iphone-review-shot-in-3-days",
       "title": "动态视频｜3天拍完？影视飓风的iPhone评测是怎么拍的？",
       "video_id": "BV1Y6eu6iEeF",
@@ -728,23 +784,27 @@
         "grip-truck-as-kit — $350/day van is the lighting department. Switch / fiber / screens are the same idea: rent the desk, do not fly the office.",
         "Permit house cooks — A shooting permit is a remote villa. Day unit, night steak. The schedule is the location."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "first-day-review-vs-slow-review",
-          "title": "First-Day Review vs Slow Review"
+          "title": "First-Day Review vs Slow Review",
+          "e": "🐢"
         },
         {
           "slug": "reproduce-the-hero-path",
-          "title": "Reproduce the Hero Path"
+          "title": "Reproduce the Hero Path",
+          "e": "🤖"
         },
         {
           "slug": "bilingual-same-day-ship",
-          "title": "Bilingual Same-Day Ship"
+          "title": "Bilingual Same-Day Ship",
+          "e": "🗣️"
         },
         {
           "slug": "grip-truck-as-kit",
-          "title": "Grip Truck as Kit"
+          "title": "Grip Truck as Kit",
+          "e": "🚚"
         }
       ],
       "conceptCount": 4,
