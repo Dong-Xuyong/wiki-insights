@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 276,
-  "insightsCount": 270,
-  "conceptCount": 2649,
+  "videoCount": 277,
+  "insightsCount": 271,
+  "conceptCount": 2655,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 23
+    "other": 24
   },
   "videos": [
     {
@@ -469,6 +469,85 @@
       ],
       "conceptCount": 4,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/87ee888ccd1844413d0eaf8d2c5a9f59d41439c7.jpg"
+    },
+    {
+      "slug": "how-many-live-until-this-clip-ends",
+      "title": "世上有几人能活到这短片结束？",
+      "video_id": "BV1z4411Y7tX",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1z4411Y7tX/",
+      "duration_min": 29,
+      "creator": "jin-zheng-mei-yong-de",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "cosmology",
+        "science",
+        "time",
+        "meaning"
+      ],
+      "keywords": [
+        "bilibili",
+        "cosmology",
+        "science",
+        "time",
+        "meaning",
+        "jin zheng mei yong de",
+        "Life as Cosmic Window",
+        "Universe Dies in Ice",
+        "Ghost Universe of Dead Stars",
+        "Universe Appreciates Itself",
+        "Cosmic Harmonic Sonification",
+        "Life Calendar (Weeks)"
+      ],
+      "summary": "尽整没用的 (~29 min, Bilibili, ~40M, May 2019) is the Chinese-sub upload of John D. Boswell / MelodySheep's *Timelapse of the Future: A Journey to the End of Time*. Not an essay: a flowmotion clock. The year counter doubles every ~5 seconds. Almost every viewer finishes the clip. Almost no one lives past the events in the first third.\n\nThe Bilibili title is the hook. The physics is the punch. Earth and the Sun are gone by year ~7.65 billion — early in a 29-minute film. Then stars wink out (last red dwarfs ~10^14 yr). What remains is a ghost-universe-of-dead-stars: white dwarfs cooling toward black dwarfs, \"zombie stars,\" then galaxies that are only black holes. If you stood near a merger, Janna Levin's line in the captions: your ear would hear spacetime ring.\n\nEven those prisons die. Hawking radiation evaporates black holes. Philosophers asked fire or ice. The film's answer is universe-dies-in-ice: dark energy (~70% of the budget, unknown stuff) keeps pushing; runaway expansion; cold, dark, empty. Brian Cox's closer in the captions: a sea of photons sliding toward absolute zero. Nothing happens, and it keeps not happening.\n\nA side door stays speculative: baby-universe \"lifeboats\" — if intelligent life can pinch a child cosmos, infertile universes have no children. The film flags it as sheer speculation. English ASR is dirty (Weasers / envy particles). Official film is English clip-collage (Cox, Krauss, Kaku, Levin, Hawking, Carroll, Tyson, Attenborough). Helen Keller frames both ends: wonders even in darkness and silence.",
+      "key_insights": [
+        "life-as-cosmic-window — The title dares you to sit 29 minutes. Life-as-we-know-it is a sliver of the clock to the last black hole.",
+        "Sun dies in act one — Red giant, then white dwarf. Hitchcock kill: the home star is gone before the film is a third done.",
+        "ghost-universe-of-dead-stars — Degenerate era: white dwarfs → black dwarfs; then \"zombie galaxies\" of holes and light.",
+        "Late-universe sound — Merging holes bang on spacetime. Twin of Whittle's early-universe sound, different instrument.",
+        "universe-dies-in-ice — Dark energy does not dilute. If it stays repulsive, heat death, not a crunch.",
+        "Unknown future until dark energy is known — 70% of the budget; until we know it, we do not know the end or the origin.",
+        "Lifeboat is optional and unproven — Child universes as selection among universes. The film does not sell it as fact.",
+        "A thought every 10 trillion years — Pace can stretch if energy is scarce. Consciousness need not run at human Hertz."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "life-as-cosmic-window",
+          "title": "Life as Cosmic Window",
+          "e": "⏱️"
+        },
+        {
+          "slug": "universe-dies-in-ice",
+          "title": "Universe Dies in Ice",
+          "e": "🧊"
+        },
+        {
+          "slug": "ghost-universe-of-dead-stars",
+          "title": "Ghost Universe of Dead Stars",
+          "e": "👻"
+        },
+        {
+          "slug": "universe-appreciates-itself",
+          "title": "Universe Appreciates Itself",
+          "e": "🧠"
+        },
+        {
+          "slug": "cosmic-harmonic-sonification",
+          "title": "Cosmic Harmonic Sonification",
+          "e": "🎹"
+        },
+        {
+          "slug": "life-calendar-weeks",
+          "title": "Life Calendar (Weeks)",
+          "e": "📦"
+        }
+      ],
+      "conceptCount": 6,
+      "thumbnail": "https://i1.hdslb.com/bfs/archive/7e4dc7bd031e5b3f7e6783273ea05f12dbff4cf3.jpg"
     },
     {
       "slug": "i-cant-believe-this-happening",
