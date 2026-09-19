@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 270,
   "insightsCount": 264,
-  "conceptCount": 2600,
+  "conceptCount": 2606,
   "sections": [
     {
       "id": "architecture",
@@ -106,22 +106,56 @@
       "concepts": [
         {
           "slug": "burden-cut-cuts-reps",
-          "title": "Burden cut cuts reps"
+          "title": "Burden cut cuts reps",
+          "e": "📏"
         },
         {
           "slug": "three-mastery-layers",
-          "title": "Three mastery layers"
+          "title": "Three mastery layers",
+          "e": "🍳"
         },
         {
           "slug": "invert-school-load",
-          "title": "Invert school load"
+          "title": "Invert school load",
+          "e": "⚖️"
         },
         {
           "slug": "fake-can-do-until-selection",
-          "title": "Fake can-do until selection"
+          "title": "Fake can-do until selection",
+          "e": "🪞"
+        },
+        {
+          "slug": "positional-competition-industry",
+          "title": "Positional competition industry",
+          "e": "🏁"
+        },
+        {
+          "slug": "test-prep-cramming-kills-invention",
+          "title": "Test Prep Cramming Kills Invention",
+          "e": "📝"
+        },
+        {
+          "slug": "education-checkbox-gpa-system",
+          "title": "Education Checkbox GPA System",
+          "e": "☑️"
+        },
+        {
+          "slug": "confucian-meritocracy-education",
+          "title": "Confucian Meritocracy and Education",
+          "e": "📜"
+        },
+        {
+          "slug": "phone-based-vs-play-based-childhood",
+          "title": "Phone-Based vs Play-Based Childhood",
+          "e": "📱"
+        },
+        {
+          "slug": "great-rewiring-childhood",
+          "title": "Great Rewiring of Childhood",
+          "e": "🧒"
         }
       ],
-      "conceptCount": 4,
+      "conceptCount": 10,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/5efc22fe9a62e404367ba73ad0728b455ae2cd2d.jpg"
     },
     {
