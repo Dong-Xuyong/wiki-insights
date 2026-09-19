@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 276,
-  "insightsCount": 268,
-  "conceptCount": 2635,
+  "insightsCount": 270,
+  "conceptCount": 2644,
   "sections": [
     {
       "id": "architecture",
@@ -101,26 +101,59 @@
         "wisdom-cheaper-than-friendship — Knowledge loses the bid. Waldinger's relationship-quality-over-quantity in a starfish mouth.",
         "buried-dream-under-the-floor — The dream is under the job. identity-beyond-success-failure is the adult patch; the cartoon just says 失败者."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "childhood-joke-adult-truth",
-          "title": "Childhood joke adult truth"
+          "title": "Childhood joke adult truth",
+          "e": "🧽"
         },
         {
           "slug": "friends-now-incompatible",
-          "title": "Friends now incompatible"
+          "title": "Friends now incompatible",
+          "e": "⭐"
         },
         {
           "slug": "wisdom-cheaper-than-friendship",
-          "title": "Wisdom cheaper than friendship"
+          "title": "Wisdom cheaper than friendship",
+          "e": "🧠"
         },
         {
           "slug": "buried-dream-under-the-floor",
-          "title": "Buried dream under the floor"
+          "title": "Buried dream under the floor",
+          "e": "🛢️"
+        },
+        {
+          "slug": "loneliness-kills",
+          "title": "Loneliness Kills",
+          "e": "☠️"
+        },
+        {
+          "slug": "relationship-quality-over-quantity",
+          "title": "Relationship Quality Over Quantity",
+          "e": "⚖️"
+        },
+        {
+          "slug": "scheduled-male-friendship",
+          "title": "Scheduled Male Friendship"
+        },
+        {
+          "slug": "identity-beyond-success-failure",
+          "title": "Identity Beyond Success Failure",
+          "e": "🪞"
+        },
+        {
+          "slug": "memory-dividend-experiences",
+          "title": "Memory dividend experiences",
+          "e": "🪀"
+        },
+        {
+          "slug": "life-error-tolerance-higher",
+          "title": "Life error tolerance higher",
+          "e": "🐦"
         }
       ],
-      "conceptCount": 4,
+      "conceptCount": 10,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg"
     },
     {
@@ -539,18 +572,36 @@
       "concepts": [
         {
           "slug": "mars-metro-gap",
-          "title": "Mars–metro gap"
+          "title": "Mars–metro gap",
+          "e": "🚀"
         },
         {
           "slug": "shout-human-to-escape-bot",
-          "title": "Shout human to escape bot"
+          "title": "Shout human to escape bot",
+          "e": "☎️"
         },
         {
           "slug": "screen-sharp-life-blur",
-          "title": "Screen sharp, life blur"
+          "title": "Screen sharp, life blur",
+          "e": "🫥"
+        },
+        {
+          "slug": "live-experience-renaissance",
+          "title": "Live Experience Renaissance",
+          "e": "🎭"
+        },
+        {
+          "slug": "loneliness-kills",
+          "title": "Loneliness Kills",
+          "e": "☠️"
+        },
+        {
+          "slug": "modern-life-disease",
+          "title": "Modern Life Disease",
+          "e": "🏎️"
         }
       ],
-      "conceptCount": 3,
+      "conceptCount": 6,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/da265d9ef49985af4f18b20727e9eaae4fcd2f15.jpg"
     },
     {
@@ -1560,19 +1611,22 @@
         "Hold the lollipop — The line he does not say to the grandson. Same window as memory-dividend-experiences.",
         "Keep the days — At the hospital the answer collapses to 把日子过下去. Pair with finite-time-resource-allocation."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "stage-bound-importance",
-          "title": "Stage-bound importance"
+          "title": "Stage-bound importance",
+          "e": "🍭"
         },
         {
           "slug": "everything-matters-nothing-indispensable",
-          "title": "Everything matters nothing indispensable"
+          "title": "Everything matters nothing indispensable",
+          "e": "📎"
         },
         {
           "slug": "regret-is-the-default",
-          "title": "Regret is the default"
+          "title": "Regret is the default",
+          "e": "📞"
         }
       ],
       "conceptCount": 3,
