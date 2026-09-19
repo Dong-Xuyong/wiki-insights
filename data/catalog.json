@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 255,
-  "insightsCount": 251,
-  "conceptCount": 2520,
+  "videoCount": 258,
+  "insightsCount": 252,
+  "conceptCount": 2538,
   "sections": [
     {
       "id": "architecture",
@@ -58,8 +58,8 @@
     "human": 12,
     "performance": 48,
     "mind": 31,
-    "relationships": 44,
-    "other": 12
+    "relationships": 45,
+    "other": 14
   },
   "videos": [
     {
@@ -121,6 +121,237 @@
         {
           "slug": "ai-fear-mongering-regulatory-capture",
           "title": "AI Fear-Mongering Regulatory Capture"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "meet-the-youngest-ever-mayor-japan-ryosuke-takashima-ted",
+      "title": "Meet the Youngest-Ever Mayor in Japan’s History | Ryosuke Takashima | TED",
+      "video_id": "X6hstmAa0cg",
+      "url": "https://youtu.be/X6hstmAa0cg",
+      "duration_min": 6,
+      "creator": "ryosuke-takashima",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "ted",
+        "leadership",
+        "civics",
+        "listening"
+      ],
+      "keywords": [
+        "ted",
+        "leadership",
+        "civics",
+        "listening",
+        "ryosuke takashima",
+        "Personal Issue Becomes Social Issue",
+        "City Is Citizens, Not Government",
+        "Casual Authority Visits",
+        "Process Legitimacy Over Gift",
+        "Holding Space",
+        "Title Role Feedback Barrier",
+        "Ecological Talent Lens"
+      ],
+      "summary": "ryosuke-takashima (~6 min, ted) is mayor of Ashiya and the youngest mayor in Japanese history. He refuses the politician pose. The city is not the government. city-is-citizens-not-government: residents wrote the town vision; city hall supported the process.\n\nOpening reframe: people swallow a complaint as \"my personal problem, a waste of time to speak up.\" That is wrong. If someone speaks and others agree, a personal-issue-becomes-social-issue. His job is to hear as many voices as possible, especially people who cannot vote. Students under 18 have no ballot, so he goes to elementary and junior high schools. A formal mayor visit freezes kids. He eats school lunch and repeats casual chats until the room is ordinary. That is casual-authority-visits. Example: gyms were too hot; they put air conditioning in every school gym. He wants schools to be where you learn and practice democracy, not only sit through a ceremony.\n\nThe main method is a dialogue meeting: mayor and citizens in a circle. Sometimes he does not speak. He listens or facilitates. Ashiya is old — about 30 percent over 65, and recently the world's oldest person. Elders said community centers were too busy to answer care questions. He wanted more centers and needed budget, so he moved a one-time monetary gift for elderly people into a new advice center. Some heard disrespect. Through the sessions he explained the trade, and he cut his own future gift so it was not \"their\" problem. They changed their minds once they saw the process. Same pattern on cherry-blossom street closures: shop plan vs resident inconvenience, until citizens proposed the plan themselves. process-legitimacy-over-gift. Close: the people who make society better are not \"the government or someone else.\" It is everyone.",
+      "key_insights": [
+        "Personal → social — speak up; agreement turns a private gripe into a public issue",
+        "City ≠ government — citizens write the vision; hall supports",
+        "Mayor, not politician — listen, especially to people with no vote",
+        "Casual beats formal — school lunch and repeat visits beat a one-off inspection",
+        "School as democracy gym — practice speaking, listening, and being reflected",
+        "Circle, then shut up — dialogue meeting; mayor may only facilitate (holding-space)",
+        "Aging city — ~30% over 65; care questions overflowing community centers",
+        "Trade the symbol — one-time cash gift → wellness advice center; shared cut of his own gift",
+        "Process changes the vote — people who felt disrespected accepted the change once they walked the reason",
+        "Citizen-authored plans survive controversy — cherry-blossom street worked when residents proposed it",
+        "Everyone, not someone else — the mindset he wants to break"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "personal-issue-becomes-social-issue",
+          "title": "Personal Issue Becomes Social Issue",
+          "e": "📣"
+        },
+        {
+          "slug": "city-is-citizens-not-government",
+          "title": "City Is Citizens, Not Government",
+          "e": "🏙️"
+        },
+        {
+          "slug": "casual-authority-visits",
+          "title": "Casual Authority Visits",
+          "e": "🍱"
+        },
+        {
+          "slug": "process-legitimacy-over-gift",
+          "title": "Process Legitimacy Over Gift",
+          "e": "🎁"
+        },
+        {
+          "slug": "holding-space",
+          "title": "Holding Space",
+          "e": "👂"
+        },
+        {
+          "slug": "title-role-feedback-barrier",
+          "title": "Title-Role Feedback Barrier"
+        },
+        {
+          "slug": "ecological-talent-lens",
+          "title": "Ecological Talent Lens",
+          "e": "🌿"
+        }
+      ],
+      "conceptCount": 7
+    },
+    {
+      "slug": "the-one-social-skill-that-beats-all-the-others",
+      "title": "The One Social Skill That Beats All The Others",
+      "video_id": "GJJhpQLDPxk",
+      "url": "https://www.youtube.com/watch?v=GJJhpQLDPxk",
+      "duration_min": 17,
+      "creator": "charisma-on-command",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "storytelling",
+        "charisma",
+        "social-skills"
+      ],
+      "keywords": [
+        "communication",
+        "storytelling",
+        "charisma",
+        "social skills",
+        "charisma on command",
+        "Storytelling Emotional Roller Coaster",
+        "False Ending Storytelling",
+        "Storytelling Opportunity Confidence",
+        "Relive vs Report Storytelling",
+        "Dialogue in Storytelling",
+        "Specificity in Storytelling",
+        "Peak Moment Storytelling"
+      ],
+      "summary": "Charisma on Command argues that storytelling is the highest-leverage social skill because it holds attention while indirectly communicating identity, values, and competence. The lesson reverse-engineers matthew-mcconaughey's nine-minute story about accepting a wrestling challenge in Mali: hook the listener, set only details that pay off, intensify the storytelling-emotional-rollercoaster, embody characters, vary pace, add a false ending, and close with a laugh or lesson.\n\nThe most useful contribution is not a rigid template but the contrast between efficient reporting and audience connection. McConaughey could have said, \"I wrestled a village champion to a draw.\" Instead, present tense, physical gestures, dialogue, internal monologue, and changes in pace let the audience experience the event (relive-vs-report-storytelling). His closing moral is that status came from accepting the challenge, not winning it.\n\nThe video ends with storytelling-opportunity-confidence: people rarely ask for a story, so the teller must recognize an ordinary question as an opening and risk taking more conversational time. Its claim that stories \"bypass\" rational evaluation is presented as persuasion language, not established neuroscience. The final section is a promotion for Charisma University.",
+      "key_insights": [
+        "Hook: a first line creates an attention contract; \"You're going to love this\" works only if the story delivers.",
+        "Scene and payoff: set the scene in under 30 seconds and keep details that later matter. Irrelevant setup creates the wrong prediction and deflates the ending.",
+        "Emotional contrast: good → bad → worse → better → amazing creates the felt arc; objective stakes matter less than how clearly the audience experiences the turns.",
+        "Embodiment: present tense, gestures, character voices, and internal monologue convert summary into lived scene.",
+        "Pacing: accelerate through loss of control; slow down before a reveal or reversal.",
+        "False ending: make the second-biggest moment feel complete, then reveal the next phase.",
+        "Close: finish with a laugh, a lesson, or both.",
+        "Confidence: answer one ordinary question with a short story instead of reducing every response to its informational minimum."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "storytelling-emotional-rollercoaster",
+          "title": "Storytelling Emotional Roller Coaster",
+          "e": "🎢"
+        },
+        {
+          "slug": "false-ending-storytelling",
+          "title": "False Ending Storytelling",
+          "e": "🔁"
+        },
+        {
+          "slug": "storytelling-opportunity-confidence",
+          "title": "Storytelling Opportunity Confidence",
+          "e": "🎤"
+        },
+        {
+          "slug": "relive-vs-report-storytelling",
+          "title": "Relive vs Report Storytelling",
+          "e": "🎭"
+        },
+        {
+          "slug": "dialogue-in-storytelling",
+          "title": "Dialogue in Storytelling",
+          "e": "🎭"
+        },
+        {
+          "slug": "specificity-in-storytelling",
+          "title": "Specificity in Storytelling",
+          "e": "🎬"
+        },
+        {
+          "slug": "peak-moment-storytelling",
+          "title": "Peak Moment Storytelling",
+          "e": "🎬"
+        }
+      ],
+      "conceptCount": 7
+    },
+    {
+      "slug": "this-is-what-the-birth-of-the-universe-sounded-like-mark-whittle-ted",
+      "title": "This Is What the Birth of the Universe Sounded Like | Mark Whittle | TED",
+      "video_id": "zc_eKn13GQU",
+      "url": "https://www.youtube.com/watch?v=zc_eKn13GQU",
+      "duration_min": 13,
+      "creator": "mark-whittle",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "cosmology",
+        "ted",
+        "science",
+        "sound"
+      ],
+      "keywords": [
+        "cosmology",
+        "ted",
+        "science",
+        "sound",
+        "mark whittle",
+        "Primordial Acoustic Era",
+        "Inflation Quantum to Cosmic",
+        "Cosmic Harmonic Sonification",
+        "Universe Appreciates Itself"
+      ],
+      "summary": "mark-whittle (~13 min, ted) kills the Alien tagline first: space is not a vacuum for pressure waves. Stars, galaxies, and the gaps between them all carry sound. The exhibit is the young universe. Looking far is looking back; past the galaxies you reach a ~400,000-year-old sky (a one-day-old human) whose leftover glow has stretched from micron light to millimeter microwaves — the cosmic microwave background.\n\nThose CMB patches are not decoration. Bright and dark are peaks and troughs of huge sound waves in the primordial gas: ~90 dB (rock-concert loud), ~50 octaves below hearing, one cycle ~50,000 years. The driver is not the bang of the Big Bang. Gravity pulls gas into denser spots; the gas compresses, bounces, falls back — spherical waves, organ pipes of many sizes, a spectrum with a fundamental plus harmonics, flute-like but broad. A physics fit to that spectrum measures the universe. Up-shifted 50 octaves and compressed 400,000 years → 10 seconds, the pitch drops as larger pipes start sounding. That is the primordial-acoustic-era.\n\nAt transparency the waves freeze. Stars and galaxies collapse out of the frozen pattern. A 4-billion-light-year map of ~100,000 galaxies still shows the same fundamental and harmonics — sound turned to stone. The proposed first cause is inflation-quantum-to-cosmic: subatomic quantum vibrations, hyperexpanded, become the tapestry. Whittle then maps the descending harmonics onto a piano (cosmic-harmonic-sonification); Ander Mikalson and Caroline Shaw turn the notes into a 10-minute choir-and-organ work (Richmond cathedral excerpt). Closer: those first-era atoms are now in your brain. Stars are not sentient. We are the rare part through which the universe-appreciates-itself.",
+      "key_insights": [
+        "Space does carry sound — \"no one can hear you scream\" is an ear limit, not a physics limit",
+        "Look far = look back — CMB is the Big Bang's stretched glow, from every direction",
+        "Patches = acoustics — temperature/pressure peaks and troughs, fist-at-arm's-length = 8 million light-years at age 400,000 years",
+        "90 dB / 50 octaves down — loud as a concert, one wave in 50,000 years",
+        "Not the bang — gravity-driven bounce in uneven matter; organ-pipe mix of scales",
+        "Flute-like spectrum — fundamental + harmonics; broad, so raw playback is noise; green-line fit measures cosmic parameters",
+        "Pitch drop — larger regions start sounding as time passes; overall pitch falls",
+        "Freeze at transparency — oscillations stop; matter collapses into stars then galaxies",
+        "Fossil in the web — today's galaxy map still carries the same harmonic series",
+        "Quantum → cosmic — inflation amplifies subatomic vibrations into the sound, then the tapestry",
+        "Sonify, then compose — 50-octave shift + piano timing → melody; Shaw / Mikalson add art in a sacred room",
+        "Ancestry in the skull — first-symphony atoms now witness themselves"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "primordial-acoustic-era",
+          "title": "Primordial Acoustic Era",
+          "e": "🌌"
+        },
+        {
+          "slug": "inflation-quantum-to-cosmic",
+          "title": "Inflation Quantum to Cosmic",
+          "e": "⚛️"
+        },
+        {
+          "slug": "cosmic-harmonic-sonification",
+          "title": "Cosmic Harmonic Sonification",
+          "e": "🎹"
+        },
+        {
+          "slug": "universe-appreciates-itself",
+          "title": "Universe Appreciates Itself",
+          "e": "🧠"
         }
       ],
       "conceptCount": 4
