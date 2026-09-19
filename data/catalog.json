@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 255,
-  "insightsCount": 250,
-  "conceptCount": 2514,
+  "insightsCount": 251,
+  "conceptCount": 2520,
   "sections": [
     {
       "id": "architecture",
@@ -147,8 +147,8 @@
         "theprimeagen",
         "jev",
         "the primeagen",
-        "system one model",
-        "hierarchical agent decisions",
+        "System One Model",
+        "Hierarchical Agent Decisions",
         "Wrap Around Custom Harness",
         "Vibe Coding",
         "AI safety security theater"
@@ -164,9 +164,40 @@
         "Vibe-coding the sidecar still bites — agent JSON.stringified both Play and Quit; \"vibed too close to the sun\"",
         "Mario/Doom tweets ≠ a Balatro win — stream ends at selecting-hand, not a cleared ante"
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "system-one-model",
+          "title": "System One Model",
+          "e": "⚡"
+        },
+        {
+          "slug": "hierarchical-agent-decisions",
+          "title": "Hierarchical Agent Decisions",
+          "e": "🌳"
+        },
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "ai-safety-security-theater",
+          "title": "AI safety security theater",
+          "e": "🎭"
+        }
+      ],
+      "conceptCount": 6
     },
     {
       "slug": "you-can-progress-more-in-6-minutes-daniel-coyle",

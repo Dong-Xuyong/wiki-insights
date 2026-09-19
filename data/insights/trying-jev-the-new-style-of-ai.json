@@ -1,0 +1,50 @@
+{
+  "slug": "trying-jev-the-new-style-of-ai",
+  "sections": [
+    {
+      "title": "New style: classify, don't chat",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What is Jev, if it is not an LLM?",
+          "a": "A **System One** model: typed questions in, **probabilities out**, ~200 ms. No strings, no chat, not multimodal in this stream. Named after **Jevons**: cheaper decisions should show up in more loops, not just cheaper chats."
+        },
+        {
+          "e": "🎮",
+          "q": "What did the Mario/Doom tweets prove vs the Balatro stream?",
+          "a": "Tweets show a real-time control loop is possible. The stream **does not win** Balatro. Menu clicks work. In-hand play stalls until the question is split."
+        }
+      ]
+    },
+    {
+      "title": "The harness is the product",
+      "items": [
+        {
+          "e": "👁️",
+          "q": "What broke Jev before the model did?",
+          "a": "**Dirty god view.** Overlay buttons marked enabled. `reason: unavailable` on enabled actions. ~21k-token dumps. He had to keep hand / score / plays / discards / chips / jokers and drop shop and deck."
+        },
+        {
+          "e": "☀️",
+          "q": "What did vibe-coding the sidecar do?",
+          "a": "The agent `JSON.stringify`'d **Play and Quit** and ran both. Primeagen: **vibed too close to the sun**. Coding model ≠ Jev."
+        }
+      ]
+    },
+    {
+      "title": "Ask smaller questions",
+      "items": [
+        {
+          "e": "🌳",
+          "q": "Why can't you ask 'win Balatro' in one call?",
+          "a": "Jev is a **classification engine**. Every prompt is **new**. High-level (play / discard / shop) then low-level (which cards, done). He calls it a **behavior tree**."
+        },
+        {
+          "e": "🧵",
+          "q": "Where does memory live?",
+          "a": "In the tree, not the model. Rules and strategy ride with the node or you resend them. History is not in the weights."
+        }
+      ]
+    }
+  ]
+}
