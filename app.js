@@ -17,7 +17,8 @@
   const XP_STARTED = 10;
   const XP_COMPLETED = 40;
   const XP_PER_LEVEL = 250;
-  const ASSET_VERSION = "dashboard5";
+  const ASSET_VERSION = "dashboard9";
+  const BILI_HOVER_RESET_KEY = "wiki-insights-bili-hover-reset-v2";
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -41,6 +42,10 @@
   let ytSaveTimer = null;
   let ytHasPlayed = false;
   let biliMsgHandler = null;
+  let biliVideo = null;
+  let biliVideoId = null;
+  let biliSaveTimer = null;
+  let biliSaveLogs = 0;
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (m) =>
@@ -86,6 +91,26 @@
       return raw && typeof raw === "object" ? raw : {};
     } catch {
       return {};
+    }
+  }
+
+  function wipeHoverBiliProgress() {
+    try {
+      if (localStorage.getItem(BILI_HOVER_RESET_KEY)) return;
+      const map = loadProgressMap();
+      const removed = [];
+      for (const id of Object.keys(map)) {
+        if (!/^BV[0-9A-Za-z]{10}$/.test(id)) continue;
+        removed.push({ id, t: map[id]?.t });
+        delete map[id];
+      }
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+      localStorage.setItem(BILI_HOVER_RESET_KEY, "1");
+      // #region agent log
+      dbgLog("R", "app.js:wipeHoverBiliProgress", "cleared hover-era bili saves", { n: removed.length, removed }, "post-fix");
+      // #endregion
+    } catch {
+      /* ignore */
     }
   }
 
@@ -183,6 +208,11 @@
   }
 
   function catalogProgress(v, progressMap) {
+    const isBilibili =
+      v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
+    if (isBilibili && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
+      return { done: false, pct: 0, started: false };
+    }
     const rec = v.video_id ? progressMap[v.video_id] : null;
     if (!rec) return { done: false, pct: 0, started: false };
     if (rec.done) return { done: true, pct: 100, started: true };
@@ -270,6 +300,32 @@
     }
   }
 
+  function persistBilibiliTime({ done = false } = {}) {
+    if (!biliVideo || !biliVideoId) return 0;
+    const t = biliVideo.currentTime;
+    const duration = biliVideo.duration || 0;
+    if (!Number.isFinite(t)) return 0;
+    const finished = done || (duration > 0 && t >= duration - RESUME_END_PAD_SEC);
+    if (finished) {
+      setSavedSeconds(biliVideoId, t, { done: true });
+      paintResumeBar(0, { done: true });
+    } else if (t >= RESUME_MIN_SEC) {
+      setSavedSeconds(biliVideoId, t);
+      paintResumeBar(t);
+    }
+    if (biliSaveLogs++ < 4) {
+      // #region agent log
+      dbgLog("AE", "app.js:persistBilibiliTime", "saved native playhead", {
+        t,
+        duration,
+        paused: biliVideo.paused,
+        finished,
+      }, "post-fix");
+      // #endregion
+    }
+    return t;
+  }
+
   function stopProgressTimer() {
     if (!ytSaveTimer) return;
     clearInterval(ytSaveTimer);
@@ -278,7 +334,13 @@
 
   function destroyPlayer() {
     persistPlayerTime();
+    persistBilibiliTime();
     stopProgressTimer();
+    if (biliSaveTimer) clearInterval(biliSaveTimer);
+    biliSaveTimer = null;
+    biliVideo = null;
+    biliVideoId = null;
+    biliSaveLogs = 0;
     if (biliMsgHandler) {
       window.removeEventListener("message", biliMsgHandler);
       biliMsgHandler = null;
@@ -327,25 +389,24 @@
     return `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
   }
 
-  function bilibiliEmbedSrc(videoId, startAt = 0) {
+  function bilibiliEmbedSrc(videoId) {
     const params = new URLSearchParams({
       bvid: videoId,
       page: "1",
       high_quality: "1",
       danmaku: "0",
     });
-    if (startAt >= RESUME_MIN_SEC) params.set("t", String(Math.floor(startAt)));
     return `https://player.bilibili.com/player.html?${params.toString()}`;
   }
 
-  function dbgLog(hypothesisId, location, message, data) {
+  function dbgLog(hypothesisId, location, message, data, runId = "pre-fix") {
     // #region agent log
     fetch("http://127.0.0.1:7351/ingest/b74f24c0-660e-41c3-b4b4-757de4864585", {
       method: "POST",
       headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "2b105f" },
       body: JSON.stringify({
         sessionId: "2b105f",
-        runId: "pre-fix",
+        runId,
         hypothesisId,
         location,
         message,
@@ -418,6 +479,9 @@
         }
         setSavedSeconds(videoId, t);
         paintResumeBar(t);
+        // #region agent log
+        dbgLog("S", "app.js:bili-scrub", "slider save", { t }, "post-fix");
+        // #endregion
       });
     }
     let msgN = 0;
@@ -491,6 +555,37 @@
     });
   }
 
+  function bindBilibiliNative(videoId, startAt) {
+    const video = document.getElementById("bili-native-player");
+    if (!video) return;
+    biliVideo = video;
+    biliVideoId = videoId;
+    video.addEventListener("loadedmetadata", () => {
+      if (startAt >= RESUME_MIN_SEC && startAt < video.duration - RESUME_END_PAD_SEC) {
+        video.currentTime = startAt;
+      }
+      // #region agent log
+      dbgLog("AF", "app.js:bindBilibiliNative", "native metadata", {
+        videoId,
+        startAt,
+        currentTime: video.currentTime,
+        duration: video.duration,
+        readyState: video.readyState,
+      }, "post-fix");
+      // #endregion
+    });
+    video.addEventListener("play", () => {
+      if (!biliSaveTimer) biliSaveTimer = setInterval(persistBilibiliTime, 5000);
+    });
+    video.addEventListener("pause", () => {
+      persistBilibiliTime();
+      if (biliSaveTimer) clearInterval(biliSaveTimer);
+      biliSaveTimer = null;
+    });
+    video.addEventListener("seeked", () => persistBilibiliTime());
+    video.addEventListener("ended", () => persistBilibiliTime({ done: true }));
+  }
+
   function bindResumeBar(videoId) {
     const restart = document.getElementById("restart-video");
     if (!restart) return;
@@ -504,6 +599,7 @@
           /* ignore */
         }
       }
+      if (biliVideo && biliVideoId === videoId) biliVideo.currentTime = 0;
       const iframe = document.getElementById("bili-player");
       if (iframe && currentVideo?.video_id === videoId) {
         iframe.src = bilibiliEmbedSrc(videoId, 0);
@@ -1670,32 +1766,40 @@
     panel = "insights";
     const startAt = v.video_id ? getSavedSeconds(v.video_id) : 0;
     const isBilibili = v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
+    const isNativeBilibili =
+      isBilibili && /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
     const durationSec = Math.max(0, Math.round((Number(v.duration_min) || 0) * 60));
     const progress = catalogProgress(v, loadProgressMap());
-    const showResumeBar = startAt >= RESUME_MIN_SEC || progress.done || isBilibili;
-    const biliScrub =
-      isBilibili && durationSec
-        ? `<input id="bili-scrub" type="range" min="0" max="${durationSec}" value="${startAt}" aria-label="Saved stop point" />`
-        : "";
+    const showResumeBar =
+      !isBilibili || isNativeBilibili
+        ? startAt >= RESUME_MIN_SEC || progress.done
+        : false;
     root.innerHTML = `
       <div class="player-wrap">
         ${
           v.video_id
-            ? `<iframe id="${isBilibili ? "bili-player" : "yt-player"}" src="${esc(
-                isBilibili ? bilibiliEmbedSrc(v.video_id, startAt) : youtubeEmbedSrc(v.video_id, startAt)
-              )}" title="${esc(
-                v.title
-              )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+            ? isNativeBilibili
+              ? `<video id="bili-native-player" src="/api/bilibili/video?bvid=${encodeURIComponent(
+                  v.video_id
+                )}" title="${esc(v.title)}" controls playsinline preload="metadata"></video>`
+              : `<iframe id="${isBilibili ? "bili-player" : "yt-player"}" src="${esc(
+                  isBilibili ? bilibiliEmbedSrc(v.video_id) : youtubeEmbedSrc(v.video_id, startAt)
+                )}" title="${esc(
+                  v.title
+                )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             : `<div class="missing-insights">No video id</div>`
         }
       </div>
-      <div id="resume-bar" class="resume-bar${showResumeBar ? "" : " hidden"}">
-        <span id="resume-label">${
-          progress.done ? "Marked completed" : startAt ? `Resuming from ${formatClock(startAt)}` : isBilibili ? "Drag to save a stop point" : ""
-        }</span>
-        ${biliScrub}
-        <button type="button" id="restart-video">Start over</button>
-      </div>
+      ${
+        isBilibili && !isNativeBilibili
+          ? ""
+          : `<div id="resume-bar" class="resume-bar${showResumeBar ? "" : " hidden"}">
+              <span id="resume-label">${
+                progress.done ? "Marked completed" : startAt ? `Resuming from ${formatClock(startAt)}` : ""
+              }</span>
+              <button type="button" id="restart-video">Start over</button>
+            </div>`
+      }
       <h1 class="detail-title">${esc(v.title)}${
         videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
       }</h1>
@@ -1712,9 +1816,23 @@
       });
     });
     if (v.video_id) {
-      bindResumeBar(v.video_id);
-      if (isBilibili) bindBilibiliProgress(v.video_id, durationSec);
-      else bindResumePlayer(v.video_id, startAt);
+      if (isNativeBilibili) {
+        bindResumeBar(v.video_id);
+        bindBilibiliNative(v.video_id, startAt);
+      } else if (isBilibili) {
+        bindBilibiliProgress(v.video_id, durationSec);
+        // #region agent log
+        dbgLog("T", "app.js:renderDetail", "using native Bilibili resume", {
+          videoId: v.video_id,
+          externalStartAtIgnored: startAt,
+          hasResumeBar: !!document.getElementById("resume-bar"),
+          iframeSrc: document.getElementById("bili-player")?.src || "",
+        }, "post-fix");
+        // #endregion
+      } else {
+        bindResumeBar(v.video_id);
+        bindResumePlayer(v.video_id, startAt);
+      }
       // #region agent log
       dbgLog("D", "app.js:renderDetail", "bind player", {
         isBilibili,
@@ -2046,12 +2164,15 @@
   window.addEventListener("hashchange", () => {
     route({ focusView: true });
   });
-  window.addEventListener("pagehide", () => persistPlayerTime());
+  window.addEventListener("pagehide", () => {
+    persistPlayerTime();
+  });
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") persistPlayerTime();
   });
 
   loadLocal();
+  wipeHoverBiliProgress();
   fetch(`data/catalog.json?v=${ASSET_VERSION}`)
     .then((r) => {
       if (!r.ok) throw new Error("catalog missing");
