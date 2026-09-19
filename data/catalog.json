@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 267,
-  "insightsCount": 260,
-  "conceptCount": 2578,
+  "insightsCount": 261,
+  "conceptCount": 2579,
   "sections": [
     {
       "id": "architecture",
@@ -375,15 +375,18 @@
       "concepts": [
         {
           "slug": "world-class-at-commodity-price",
-          "title": "World-Class at Commodity Price"
+          "title": "World-Class at Commodity Price",
+          "e": "💴"
         },
         {
           "slug": "hidden-component-as-quality-tell",
-          "title": "Hidden Component as Quality Tell"
+          "title": "Hidden Component as Quality Tell",
+          "e": "🔗"
         },
         {
           "slug": "heirloom-price-breaks-the-list",
-          "title": "Heirloom Price Breaks the List"
+          "title": "Heirloom Price Breaks the List",
+          "e": "✂️"
         }
       ],
       "conceptCount": 3
@@ -731,7 +734,7 @@
         "Fast is time, not risk — Ghost surgery; consult upsell. The industry must mint new defects to keep frequency.",
         "Want ≠ must — Voluntary upkeep is fine. Mandatory youth is a new exam."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "gangnam-face",
@@ -748,9 +751,14 @@
         {
           "slug": "medical-aesthetics-as-consumer-goods",
           "title": "Medical aesthetics as consumer goods"
+        },
+        {
+          "slug": "looksmaxxing-comparison-trap",
+          "title": "Looksmaxxing Comparison Trap",
+          "e": "🪞"
         }
       ],
-      "conceptCount": 4
+      "conceptCount": 5
     },
     {
       "slug": "uk-may-break-up-but-probably-wont",
