@@ -1,6 +1,6 @@
 {
   "generated": true,
-  "videoCount": 262,
+  "videoCount": 263,
   "insightsCount": 256,
   "conceptCount": 2559,
   "sections": [
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 31,
     "relationships": 45,
-    "other": 15
+    "other": 16
   },
   "videos": [
     {
@@ -718,6 +718,46 @@
         }
       ],
       "conceptCount": 7
+    },
+    {
+      "slug": "why-old-home-cds-wont-play",
+      "title": "家里的旧光盘，为什么播不出来了？",
+      "video_id": "BV1ymux6BEFU",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1ymux6BEFU/",
+      "duration_min": 13,
+      "creator": "yingshi-jufeng",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "media",
+        "storage",
+        "nostalgia"
+      ],
+      "keywords": [
+        "bilibili",
+        "media",
+        "storage",
+        "nostalgia",
+        "yingshi jufeng",
+        "write once is not permanence",
+        "label side data layer",
+        "obsolete medium memory object",
+        "Analog Lock In"
+      ],
+      "summary": "影视飓风 host 乐乐 opens on a 2002 home disc of himself at six, then asks why so many household CDs now refuse to play. The answer is physical, not digital: a consumer CD-R is pits and lands burned in concentric rings. You cannot \"delete the black history\" in a file manager because the data is a write-once burn, closer to oracle bones than to a hard drive.\n\nThat write-once feel is a trap. The disc is an open pizza: data sits on the printed/label face, not the shiny rainbow side people learned to protect. Signatures, paint, sun, and cloth-wiping wreck the read even when the pits survive. A Hong Kong shop owner, Kenny, shows LaserDiscs and scratch repair; after a successful copy to USB, most customers throw the original away because they no longer own a drive.\n\nThe close: optical media's tool value is ending (Sony stopping physical game discs; new PCs shipping without drives; Netflix started as DVD rental). What remains is a memory object. A 学而思学习机 T6 mid-roll compares old textbook discs to chip-and-AI lessons; treat that as sponsorship, not the argument.",
+      "key_insights": [
+        "write-once-is-not-permanence — Home CD-Rs could not be rewritten, so they felt safer than disks. Burners once cost ~¥10,000; a Sony blank ~¥90. Permanence was the wrong inference.",
+        "label-side-data-layer — The rainbow face has no data. The labeled face does. Thirty years of \"protect the shiny side\" wrecked a huge share of household archives. Marker on the shiny side can still kill the read via refraction; wiping the ink often restores it.",
+        "Pits, not files — Under a microscope the \"delete\" problem is obvious: billions of pits and lands. Odd-shaped novelty discs still play if the data rings are intact.",
+        "Repair, then migrate — Do not wipe with a shirt. Clean with dedicated fluid; deep scratches need polish (Kenny: ~20–30 minutes by hand, faster with a machine). The domestic repair load is family video, not movies.",
+        "obsolete-medium-memory-object — Once the drive disappears, the disc's job is memory. People copy out and discard. The sleeve still recalls a story even when the laser cannot."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "you-can-progress-more-in-6-minutes-daniel-coyle",
