@@ -192,12 +192,19 @@
     return { done: false, pct, started: true };
   }
 
+  function thumbSrc(v) {
+    if (v.thumbnail) return v.thumbnail;
+    if (v.video_id && v.platform !== "bilibili") {
+      return `https://i.ytimg.com/vi/${encodeURIComponent(v.video_id)}/mqdefault.jpg`;
+    }
+    return "";
+  }
+
   function thumbProgressHtml(v, progress) {
     const { done, pct, started } = progress;
-    const thumb = v.video_id
-      ? `<img class="video-card-thumb" src="https://i.ytimg.com/vi/${esc(
-          v.video_id
-        )}/mqdefault.jpg" alt="" loading="lazy" decoding="async" />`
+    const src = thumbSrc(v);
+    const thumb = src
+      ? `<img class="video-card-thumb" src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none'" />`
       : `<div class="video-card-thumb video-card-thumb-empty" aria-hidden="true"></div>`;
     const bar =
       started
