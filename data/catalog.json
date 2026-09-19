@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 284,
-  "insightsCount": 277,
-  "conceptCount": 2685,
+  "videoCount": 285,
+  "insightsCount": 278,
+  "conceptCount": 2692,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 29
+    "other": 30
   },
   "videos": [
     {
@@ -239,6 +239,58 @@
       ],
       "conceptCount": 11,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg"
+    },
+    {
+      "slug": "chongqing-nav-panic",
+      "title": "导航最慌的一集",
+      "video_id": "BV1qY9zBrE69",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1qY9zBrE69/",
+      "duration_min": 11,
+      "creator": "xingqiu-yanjiusuo",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "urban-design",
+        "chongqing",
+        "transport"
+      ],
+      "keywords": [
+        "bilibili",
+        "urban design",
+        "chongqing",
+        "transport",
+        "xingqiu yanjiusuo",
+        "Coexist, Don't Fight the Mountain",
+        "Merge Overlapping Ramps",
+        "isolate the through rail",
+        "elevator as public downhill",
+        "stacked land missions",
+        "City Is Citizens, Not Government"
+      ],
+      "summary": "星球研究所 (~11 min, Bilibili) walks 重庆 as a packing problem, not a postcard. Central-city hills are 90%+. Flat land per person: 17 m², one parking bay. Then: 10,000+ towers, ~600 km rail, 7,000 km roads. The joke title is the thesis. Navigation panics because the city folded the leftover ground.\n\nOrdinary cities meet a slope with a long approach bridge. Chongqing coils the road. One clip: a 720° spring bridge. The exam problem is 盘龙立交. A ~40 m valley already has north-south inner ring, east-west arterial, and a valley frontage road. Add an airport-only link. Eight directions. Pairwise ramps would be 48 and a knot. The method: connect one turn at a time; merge any overlap. Result: five decks, 40 m ≈ 13 floors, 18 ramps. Each ramp offers two exits. A U-turn lives on the bottom deck. 苏家坝立交 is the taller rhyme: a 360° climb of 72 m ≈ 24 floors.\n\nNo spare lot? Put the rail through the building. 李子坝: a 150 × 20 m strip, monorail Line 2, no other station site. Reserve a three-storey void. Kill vibration by isolating the guideway from the building frame. Noise: rubber tires + air springs, plus plant floor and concourse as baffles, 7–19 dB. AI-zh writes 离子坝. It is 李子坝.\n\nYuzhong's hill-to-river drop is >200 m. Old answers: stairs, escalators, cable cars. 魁星楼: roof becomes plaza, a skybridge meets a downhill tower, that tower's lifts become a public downhill. \"My 1st floor is your 22nd.\" 白象居: a ~140 m aerial corridor ties units to the street. 红岩村: miss exit 4 for exit 2 and you face 141 m ≈ five 解放碑, 860 steps. Ten lift banks already stacked metro shaft and mountain path. The last montage is the same idea at city scale: HSR + metro + mall + offices + highway + park + stadium on one plot. Mid-roll is 焕新极客 007GT / 极客辅助驾驶 through 盘龙. Skip as argument.\n\nClose is an unnamed 30-year designer who still has hair. Old 吊脚楼 hugged the two rivers. New concrete still \"跟山体依附在一起.\" Line: 没得啥子对着山. Do not reject the site. 共息, 共存, then 共生. Best design keeps the ground's charm and the assigned function. The spaghetti is not for show. It is leftover-land craft. 山地自有山地的路.",
+      "key_insights": [
+        "coexist-dont-fight-the-mountain — 对着山 is the failed move. 共息共存共生 is the brief.",
+        "merge-overlapping-ramps — 48 pairwise ramps is the naive graph. Merge the overlaps. 盘龙 is 18.",
+        "isolate-the-through-rail — Train may occupy the building. Structure may not share the shake.",
+        "elevator-as-public-downhill — A private core becomes a civic shortcut when roof and skybridge join two heights.",
+        "stacked-land-missions — One plot, many jobs. The hill looks flatter when every square metre is reused."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "coexist-dont-fight-the-mountain",
+          "title": "Coexist, Don't Fight the Mountain"
+        },
+        {
+          "slug": "merge-overlapping-ramps",
+          "title": "Merge Overlapping Ramps"
+        }
+      ],
+      "conceptCount": 2,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/5eacff5a56bb501e22d555567d10c58a9ef999e9.jpg"
     },
     {
       "slug": "compulsory-education-as-prison",
@@ -717,9 +769,9 @@
         "ji ke wan",
         "Useful High Frequency",
         "Shrink the Big Core",
-        "a series m series split",
-        "npu takes the die",
-        "stack the shortboards",
+        "A series M series Split",
+        "NPU Takes the Die",
+        "Stack the Shortboards",
         "Unbuyable Component Moat",
         "Scale Discipline over Category Intuition"
       ],
@@ -734,18 +786,45 @@
         "stack-the-shortboards — Pro catches Android on heat, battery, charge. Experiments stay on Air / Fold.",
         "Keynote lie on the small cup — 18 Pro battery story does not beat 17 Pro Max in their 5G model."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "useful-high-frequency",
-          "title": "Useful High Frequency"
+          "title": "Useful High Frequency",
+          "e": "⚡"
         },
         {
           "slug": "shrink-the-big-core",
-          "title": "Shrink the Big Core"
+          "title": "Shrink the Big Core",
+          "e": "✂️"
+        },
+        {
+          "slug": "a-series-m-series-split",
+          "title": "A-series M-series Split",
+          "e": "🍴"
+        },
+        {
+          "slug": "npu-takes-the-die",
+          "title": "NPU Takes the Die",
+          "e": "🧠"
+        },
+        {
+          "slug": "stack-the-shortboards",
+          "title": "Stack the Shortboards",
+          "e": "🧱"
+        },
+        {
+          "slug": "unbuyable-component-moat",
+          "title": "Unbuyable Component Moat",
+          "e": "🧱"
+        },
+        {
+          "slug": "scale-discipline-over-category-intuition",
+          "title": "Scale Discipline over Category Intuition",
+          "e": "📏"
         }
       ],
-      "conceptCount": 2,
+      "conceptCount": 7,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/bee297258fc9a148cf0b6a8c8c646979045ff2e9.jpg"
     },
     {
