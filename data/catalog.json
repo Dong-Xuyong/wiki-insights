@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 263,
-  "insightsCount": 256,
-  "conceptCount": 2559,
+  "videoCount": 267,
+  "insightsCount": 260,
+  "conceptCount": 2578,
   "sections": [
     {
       "id": "architecture",
@@ -53,13 +53,13 @@
   "sectionCounts": {
     "architecture": 3,
     "agents": 52,
-    "systems": 14,
+    "systems": 15,
     "build": 40,
     "human": 12,
     "performance": 50,
     "mind": 31,
     "relationships": 45,
-    "other": 16
+    "other": 19
   },
   "videos": [
     {
@@ -335,6 +335,58 @@
         }
       ],
       "conceptCount": 7
+    },
+    {
+      "slug": "tens-of-yuan-world-class-products",
+      "title": "几十块就能买到的世界顶级产品",
+      "video_id": "BV1M2gf6GELY",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1M2gf6GELY/",
+      "duration_min": 4,
+      "creator": "kan-pu-si-ji",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "consumer",
+        "products",
+        "quality"
+      ],
+      "keywords": [
+        "bilibili",
+        "consumer",
+        "products",
+        "quality",
+        "kan pu si ji",
+        "World Class at Commodity Price",
+        "Hidden Component as Quality Tell",
+        "Heirloom Price Breaks the List",
+        "Unbuyable Component Moat"
+      ],
+      "summary": "A 4-minute 侃谱斯基 countdown (10→1) of everyday objects whose category ceiling is pocket money. The claim is not \"cheap is good.\" It is that some category-defining process already scaled: Kai forging, Bic volume, Mitsubishi tip/ink, IKEA FRAKTA weave. You are not buying a luxury signal. You are buying the industrial default.\n\nYKK is the odd one out in the middle of the list: you never bought the zipper. The tell is on the clothes you already own. #1 Zwilling shears then break the title: hundreds of yuan, framed as a 传家宝. AI-zh captions garble a few words (废水 for overnight hot water; 出没 for 出墨). Treat the list as a claim, not a lab test.",
+      "key_insights": [
+        "world-class-at-commodity-price — Kai clippers, Bic (¥2–3), Mitsubishi gel, FRAKTA (a few yuan): the ceiling is often the cheap SKU, not the branded upgrade.",
+        "hidden-component-as-quality-tell — YKK: \"你可能从未刻意买过它.\" Look at the zipper on the expensive garment.",
+        "Process, not aura — Victorinox peeler, UHU, Band-Aid, Zojirushi: named process (forging, dual-ball tip, thin vacuum) plus a use test (tomato skin, drop the pen, overnight heat).",
+        "heirloom-price-breaks-the-list — #1 is Solingen kitchen shears at hundreds of yuan. The closer exits the tens-of-yuan rule."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "world-class-at-commodity-price",
+          "title": "World-Class at Commodity Price"
+        },
+        {
+          "slug": "hidden-component-as-quality-tell",
+          "title": "Hidden Component as Quality Tell"
+        },
+        {
+          "slug": "heirloom-price-breaks-the-list",
+          "title": "Heirloom Price Breaks the List"
+        }
+      ],
+      "conceptCount": 3
     },
     {
       "slug": "the-cook-era-he-tong-xue",
@@ -637,6 +689,201 @@
       "conceptCount": 6
     },
     {
+      "slug": "ugly-is-failure-korea-medical-aesthetics",
+      "title": "长得不好看也是一种失败，最焦虑的国家如何培养超级医美产业？",
+      "video_id": "BV1tMtm6nEzo",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1tMtm6nEzo/",
+      "duration_min": 27,
+      "creator": "xiao-wang-albert",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "korea",
+        "appearance",
+        "industry",
+        "competition"
+      ],
+      "keywords": [
+        "bilibili",
+        "korea",
+        "appearance",
+        "industry",
+        "competition",
+        "xiao wang albert",
+        "Gangnam face",
+        "Seoul hourglass labor market",
+        "Positional competition industry",
+        "Medical aesthetics as consumer goods",
+        "Looksmaxxing Comparison Trap",
+        "Lookism Unearned Benefits"
+      ],
+      "summary": "xiao-wang-albert (~27 min, Bilibili) treats Korean medical aesthetics as a national industry, not a beauty fad. The hook is 2026 Korea equities: young people lever years of future income into semiconductors (and earlier, crypto). Appearance is the same bet — you can stake education, a job, or a face.\n\ngangnam-face (江南脸) is the tell: post-surgery faces converge (big eyes, high nose, small jaw, pale skin) as a class badge for the Seoul workplace winner. The template tracks whoever is hot (宋慧乔 / 全智贤 → Jennie 猫系 / 柳智敏 蛇系). Beauty stops being a gift and becomes a product.\n\nThe demand side is an seoul-hourglass-labor-market. He cites KDI: large-firm job share is low among OECD peers. Korea is ~100k km² / ~50M people, half in the Seoul capital region — a city-state tournament. Chaebol are capital- and tech-heavy; value sits at HQ; SMEs are low-wage suppliers with almost no training or jump path. Success paths he names: Samsung / Hyundai / LG, civil service or finance, or doctor/lawyer. Miss the early window and re-entry is tiny. SKY (서울 / 고려 / 연세) plus years of exam prep beat a normal SME job. China still has mid-size stars and a startup lane; Korea's profitable markets are already taken, so failure is a status drop, not a retry. Everyone then buys positional-competition-industry goods — cram schools and clinics — that raise rank, not life quality. A 2020 recruiter survey he cites (372 firms): 55.6% admit looks affect hiring; top reason is \"looks like self-management\" (55.1%), then client-facing ease (43%). 2 a.m. gym is survival, not health.\n\nThe supply side is medical-aesthetics-as-consumer-goods in four steps, timed to industrialization. War repair: WWI/WWII reconstructive surgery (Harold Gillies; Ralph Millard in Korea during the Korean War — cleft repair, plus eyelid/nose work for women marrying GIs). 柳在德 opens the first plastic-surgery unit at Yonsei (1961); the society is founded 1966 as its own specialty. Consumption: 汉江奇迹 + 江南 development; clinics cluster in 狎鸥亭 / 신사; doctors brand like idols. Upstream manufacturing: 2000s shift from bone-cut / rhinoplasty to toxin, filler, laser, ultrasound, RF. Same Korea playbook as cars and chips — not first to invent, first to scale and export. He names Medytox (2000; first Korean type-A toxin 2006, then fourth globally), Hugel / 대웅, Classys (Ultraformer; CE 2014; export-tower prizes he cites at $50M then $100M). Device + cartridge is printer + ink; PwC cut he cites: ~54% platform revenue, Korea only ~1/3, rest Asia / Americas / Europe / Middle East. Clinic math flips from famous surgeon to machine count, ticket, and return frequency. Ladder: \"state management\" lasers → toxin/filler cash cow → skin booster / HIFU / RF microneedling. Mid-roll is an Estée Lauder 微雕眼霜 ad; skip the peptide claims.\n\nCultural definition rights is the last step. Korea used to import US technique; now foreigners fly in to be edited to a Korean standard. He cites a 2009 foreign-patient program, a 2016 overseas-expansion / patient-recruitment law (visa list, translation, tax refund), foreign medical visitors +60% four years after the law, 2024 plastic-surgery output $1.7B, 2025 2M+ foreign medical patients (China / Japan the big two; China +137.5% after 2025 visa-free). Weekend package: Friday Seoul, Saturday HIFU + gold microneedling, Monday back at the desk. Same gold-microneedling ticket he quotes: China ¥5–6k vs Korea ¥1–2k. Hallyu is the ad: drama / K-pop → beauty vloggers → concert + 江南 skin. He cites BTS 2026 tour hotel-search +155%.\n\nSide effects: speed ≠ safety (ghost surgery; 전다희 / 全大希 2016 contour case, ₩6.5M, 49 days then death; surgeon running multiple rooms). Light, cheap, frequent work needs new standards so people keep paying. A Business Insider piece he cites (Jane Chung): she wanted a nose tweak; the consult listed chin, eyes, bridge, jaw. Hirsch positional-competition-industry: once everyone has the degree / the face, it is table stakes. He cites Gangnam women 20–30 >60% have had 医美; 2021 8.9 surgeries per 1,000 (world #1); >40% of Korean middle-schoolers dislike their looks. Aging and inherited features get sold as defects; consumption gets sold as self-love.\n\nClose: he also trains and uses skincare. 想变好看 ≠ 必须变好看. His clothes can annoy people; they are for him and the people he loves. A healthy society does not demand everyone stay young and polished.\n\nAI-zh captions scramble 外貌→外贸, Medytox / Classys / HIFU / 狎鸥亭 / Fred Hirsch / Jane Chung. Numbers are his citations, not checked here.",
+      "key_insights": [
+        "Appearance is a levered bet — same as SKY, chaebol exams, or 2026 semis. Face is the last visible rank you can still buy.",
+        "gangnam-face — A standardized, trend-tracking workplace badge, not a personal face.",
+        "seoul-hourglass-labor-market — City-state + chaebol hourglass. Miss the early window; no China-style SME / startup buffer.",
+        "positional-competition-industry — Cram school and clinic sell rank. When everyone buys, nobody moves; not-buying becomes the loss.",
+        "Hiring is lookism-as-discipline — Survey he cites: looks = \"self-management\" more than pretty.",
+        "medical-aesthetics-as-consumer-goods — War repair → 江南 consumption → devices/consumables → Hallyu definition rights. Printer/ink, not artisan hands.",
+        "Fast is time, not risk — Ghost surgery; consult upsell. The industry must mint new defects to keep frequency.",
+        "Want ≠ must — Voluntary upkeep is fine. Mandatory youth is a new exam."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "gangnam-face",
+          "title": "Gangnam face"
+        },
+        {
+          "slug": "seoul-hourglass-labor-market",
+          "title": "Seoul hourglass labor market"
+        },
+        {
+          "slug": "positional-competition-industry",
+          "title": "Positional competition industry"
+        },
+        {
+          "slug": "medical-aesthetics-as-consumer-goods",
+          "title": "Medical aesthetics as consumer goods"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "uk-may-break-up-but-probably-wont",
+      "title": "英国可能解体又不太可能",
+      "video_id": "BV1iQeM6uEEH",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1iQeM6uEEH/",
+      "duration_min": 21,
+      "creator": "yan-san-ying-ying-ying",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "bilibili",
+        "geopolitics",
+        "uk",
+        "devolution"
+      ],
+      "keywords": [
+        "bilibili",
+        "geopolitics",
+        "uk",
+        "devolution",
+        "yan san ying ying ying",
+        "Independence Rhetoric as Bargaining",
+        "Transfer Payment Union",
+        "Westminster Veto on Secession",
+        "Dalio Big Cycle"
+      ],
+      "summary": "燕三嘤嘤嘤 (~21 min, Bilibili) uses the 14 September 2026 Cardiff meeting as a hook, then argues the title: the UK can look like it is dissolving, and will not dissolve on this memo. SNP, Plaid Cymru, and Sinn Féin signed a memorandum of understanding claiming self-determination and calling on London to prepare for constitutional change. The video treats that as a price tag, not a secession clock.\n\nThe satire opens on England as the demographic and fiscal core of the union, then a long grievance list (Wales as a conquered second-class territory; Scotland's language, dress, North Sea oil, grid pricing, and Brexit override; Ireland's famine and partition). Treat the history as polemic, not a sourced brief. Captions are AI-generated Chinese and scramble names: 苏维埃 ≈ Celtic nations; 伯纳姆 = andy-burnham; 董子 = Trump; 老莫/斯塔莫 = Starmer; 法拉奇 = Farage; 白亚兰 = Northern Ireland.\n\nThe analytic middle is three different games under one slogan. Scotland is ~50/50 on independence; the ask is more control of energy and fiscal power, with London as the backstop if the experiment fails. Wales has a thin independence base and lives on transfers after Thatcher-era deindustrialization; the video's HS2 jab is \"pay for a line that never comes.\" Northern Ireland is not a Scotland-clone: Good Friday already encodes a dual-consent path to Irish unity, Sinn Féin is in office, unionists still block a border poll, and the Protocol left NI closer to the EU than Great Britain. A \"Robinson\" who rejects Irish unity is almost certainly DUP's Gavin Robinson, not Sinn Féin — caption/script mix-up.\n\nLegal floor: the 2022 UK Supreme Court said Holyrood cannot legislate a referendum alone; Burnham's government (in office since July 2026, after Starmer) says another Scottish vote is off limits before the next general election. The video's punchline is independence-rhetoric-as-bargaining plus westminster-veto-on-secession. What could change the odds is transfer-payment-union: if London can no longer fund the periphery, younger voters (already more exit-curious under 45) stop treating the union as a living arrangement.\n\nA mid-roll 妙界 massage-device ad sits in the raw captions. The close notes Burnham's office answering the memo with cost-of-living / \"four nations together\" language while the PM was, in this telling, away after his father's death.",
+      "key_insights": [
+        "Headline ≠ legal event — A party MoU is not a referendum, not an Act, and not a breakup. Cardiff is the first time all three Celtic administrations are led by exit-or-unity parties. That is the news.",
+        "independence-rhetoric-as-bargaining — \"We will leave\" is often the opening bid for tax, energy, and spend powers. Independence is the threat; devolution is the goods.",
+        "Three files, one slogan — Scotland: close poll, energy rent, EU nostalgia. Wales: weak yes-camp, transfer dependence, resource undervaluation. NI: GFA mechanism, sectarian split, Protocol exception, unity ≠ independence.",
+        "westminster-veto-on-secession — 2022 court + manifesto \"no second referendum\" + Burnham letter. London exports breakup talk; it does not apply it at home.",
+        "transfer-payment-union — The union holds while the check clears. The video's long-run risk is fiscal, not this week's memo: if transfers fail, the under-45 split becomes a timeline.",
+        "Burnham's posture — Principle: democratic consent. Practice: high bar, no vote now. Starmer's 2026 devolved-election wipeout is framed as the reason the three parties share a table."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "independence-rhetoric-as-bargaining",
+          "title": "Independence Rhetoric as Bargaining",
+          "e": "🏷️"
+        },
+        {
+          "slug": "transfer-payment-union",
+          "title": "Transfer-Payment Union",
+          "e": "💷"
+        },
+        {
+          "slug": "westminster-veto-on-secession",
+          "title": "Westminster Veto on Secession",
+          "e": "⚖️"
+        },
+        {
+          "slug": "dalio-big-cycle",
+          "title": "Dalio Big Cycle",
+          "e": "🌀"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "unlimited-budget-shanghai-one-day",
+      "title": "预算无上限！在上海吃一天会花多少钱？是我吃过最离谱的一日三餐！",
+      "video_id": "BV12og76WESD",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV12og76WESD/",
+      "duration_min": 15,
+      "creator": "xiao-hao",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "food",
+        "pricing",
+        "luxury",
+        "shanghai"
+      ],
+      "keywords": [
+        "bilibili",
+        "food",
+        "pricing",
+        "luxury",
+        "shanghai",
+        "xiao hao",
+        "View as the product",
+        "Hidden price menu",
+        "Low yield luxury story",
+        "Becker time allocation",
+        "Memory dividend experiences"
+      ],
+      "summary": "xiao-hao (~15 min, Bilibili) spends one unconstrained day eating in Shanghai and treats the receipt as the joke. The food is often ordinary. The bill is the view, the story, and a menu that hides the price until after you point.\n\nBreakfast is a 47th-floor hotel terrace you reach through a lobby of Rolls-Royce / Maybach. A Michelin three-star Italian chef owns the morning menu. 豆浆油条 is ¥138. Street breakfast he cites is ¥20–30, so about 10×. The soy milk is just stronger beans; the congee is bland white rice with sesame oil; a Yancheng native calls the tea egg too salty. Kitchen comps a 红烧牛肉面 (the 458-yuan bowl class). Paid items — 小笼包, 豆浆油条, 牛肉粥 — total ¥458. He says you are buying the terrace, the location, and the service guarantee, and that the view would get old.\n\nLunch is a 56th-floor room. Rice is free. The tea book shows no prices on the pick page; prices sit on the back. He points at 1980s 乌龙 and draws ¥1,580 (a ¥12,800 row was on the same list). 臭豆腐 is ¥398 with crab or ¥698 with caviar. 舍得 is Shanghai-green hearts only: ten jin of greens, leaves discarded, \"有舍才有得.\" Dry-fried hairtail (East China Sea, mid-cut) and ¥198 seedless grapes sit around it. Two meats, one vegetable, one pot of tea, service included: ¥3,463.85. He packs the leftover tea to keep steeping.\n\nDinner is not a third restaurant. It is a specialty apple shop: lychee-flavor and rose-flavor cultivars, one fruit ¥399, gift boxes ¥2,772 / ¥3,591. The clerk cites New Zealand breeding, a two-minute rest after cutting for aroma, and ¥400–500k monthly revenue still losing money. Host is from Yantai. The juice is a short pour and not special: \"谁说值我揍谁.\"\n\nAI-zh captions scramble the cold-open prices and write 护臂 / 护爷 for what is almost certainly 沪爷. Treat itemized lunch/breakfast totals as the usable numbers.",
+      "key_insights": [
+        "view-as-the-product — 10× breakfast is terrace + lobby cars + a Michelin name. The 油条 is still 油条.",
+        "hidden-price-menu — Choose the tea, then learn it is ¥1,580. The book is the trap.",
+        "low-yield-luxury-story — Ten jin → one plate of hearts. Exclusive apples that \"you cannot buy in a normal shop.\" The story is the discard and the rarity.",
+        "Taste can fail the receipt — Apple juice and hotel 豆浆 do not scale with price. He is honest when they don't.",
+        "The day is content — CTA: 50k likes unlocks a Michelin three-meal follow-up. The real output is the clip, not the calories."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "view-as-the-product",
+          "title": "View as the product",
+          "e": "🏙️"
+        },
+        {
+          "slug": "hidden-price-menu",
+          "title": "Hidden price menu",
+          "e": "🍵"
+        },
+        {
+          "slug": "low-yield-luxury-story",
+          "title": "Low-yield luxury story",
+          "e": "🥬"
+        },
+        {
+          "slug": "becker-time-allocation",
+          "title": "Becker time allocation",
+          "e": "🎟️"
+        },
+        {
+          "slug": "memory-dividend-experiences",
+          "title": "Memory dividend experiences",
+          "e": "🪀"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
       "slug": "why-living-to-90-may-be-worse-than-50",
       "title": "为什么活到90岁，可能还不如只活50年？寿命经济学。【阿Test正经比比】",
       "video_id": "BV15m8F6KEXN",
@@ -742,9 +989,9 @@
         "storage",
         "nostalgia",
         "yingshi jufeng",
-        "write once is not permanence",
-        "label side data layer",
-        "obsolete medium memory object",
+        "Write Once Is Not Permanence",
+        "Label Side Data Layer",
+        "Obsolete Medium as Memory Object",
         "Analog Lock In"
       ],
       "summary": "影视飓风 host 乐乐 opens on a 2002 home disc of himself at six, then asks why so many household CDs now refuse to play. The answer is physical, not digital: a consumer CD-R is pits and lands burned in concentric rings. You cannot \"delete the black history\" in a file manager because the data is a write-once burn, closer to oracle bones than to a hard drive.\n\nThat write-once feel is a trap. The disc is an open pizza: data sits on the printed/label face, not the shiny rainbow side people learned to protect. Signatures, paint, sun, and cloth-wiping wreck the read even when the pits survive. A Hong Kong shop owner, Kenny, shows LaserDiscs and scratch repair; after a successful copy to USB, most customers throw the original away because they no longer own a drive.\n\nThe close: optical media's tool value is ending (Sony stopping physical game discs; new PCs shipping without drives; Netflix started as DVD rental). What remains is a memory object. A 学而思学习机 T6 mid-roll compares old textbook discs to chip-and-AI lessons; treat that as sponsorship, not the argument.",
@@ -755,9 +1002,25 @@
         "Repair, then migrate — Do not wipe with a shirt. Clean with dedicated fluid; deep scratches need polish (Kenny: ~20–30 minutes by hand, faster with a machine). The domestic repair load is family video, not movies.",
         "obsolete-medium-memory-object — Once the drive disappears, the disc's job is memory. People copy out and discard. The sleeve still recalls a story even when the laser cannot."
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "write-once-is-not-permanence",
+          "title": "Write-Once Is Not Permanence",
+          "e": "⏳"
+        },
+        {
+          "slug": "label-side-data-layer",
+          "title": "Label-Side Data Layer",
+          "e": "💿"
+        },
+        {
+          "slug": "obsolete-medium-memory-object",
+          "title": "Obsolete Medium as Memory Object",
+          "e": "📼"
+        }
+      ],
+      "conceptCount": 3
     },
     {
       "slug": "you-can-progress-more-in-6-minutes-daniel-coyle",

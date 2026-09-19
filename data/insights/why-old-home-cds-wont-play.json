@@ -1,0 +1,65 @@
+{
+  "slug": "why-old-home-cds-wont-play",
+  "sections": [
+    {
+      "title": "Why a home CD will not delete",
+      "items": [
+        {
+          "e": "🕳️",
+          "q": "Why can't you erase the 'black history' on a household CD in a file manager?",
+          "a": "The data is **pits and lands burned in concentric rings**, not magnetized bits. No commercial home burner rewrote that layer. Odd-shaped novelty discs still play if those rings are intact."
+        },
+        {
+          "e": "⏳",
+          "q": "Does write-once mean the files are safe for decades?",
+          "a": "**No.** Permanence was inferred from 'I cannot delete it.' Sun, scratches, ink, and a missing drive still kill the read. A 2000s burner was ~¥10,000; a Sony blank ~¥90."
+        }
+      ]
+    },
+    {
+      "title": "The wrong face",
+      "items": [
+        {
+          "e": "💿",
+          "q": "Which face of a CD actually holds the data?",
+          "a": "The **printed/label face**. The rainbow side has no pits. Storing the disc pretty-side-up puts data on the table. The video calls this 30 years of intuitive damage."
+        },
+        {
+          "e": "🖊️",
+          "q": "Why can a signature on the shiny side still make a disc unreadable?",
+          "a": "The pits can survive. The ink **refracts the laser**, so lands and pits do not return a clean signal. Wiping the marker often restores the read. Paint on the label face is worse."
+        }
+      ]
+    },
+    {
+      "title": "Repair, then leave",
+      "items": [
+        {
+          "e": "🧴",
+          "q": "What is the least-wrong way to clean a scratched home disc?",
+          "a": "**Not a shirt.** Dedicated cleaner, then polish for deep scratches (Kenny: ~20–30 minutes by hand). Domestic repair demand is family video, not movies."
+        },
+        {
+          "e": "🧳",
+          "q": "What do most of Kenny's customers do after a successful restore?",
+          "a": "They **copy to a USB stick and discard the disc**. No shelf, no player, no optical drive on the new PC."
+        }
+      ]
+    },
+    {
+      "title": "After the drive dies",
+      "items": [
+        {
+          "e": "📼",
+          "q": "What remains when optical discs lose tool value?",
+          "a": "A **memory object**. The sleeve still recalls a story when the laser cannot. Sony stopping game discs and Netflix's DVD-rental start mark the same short childhood window."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you do with a drawer of old home discs?",
+          "a": "**Protect the labeled face, clean, copy off, do not trust the original.** The 学而思 mid-roll is an ad. The argument is migrate-then-keep-the-story."
+        }
+      ]
+    }
+  ]
+}
