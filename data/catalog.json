@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 274,
-  "insightsCount": 267,
-  "conceptCount": 2627,
+  "videoCount": 276,
+  "insightsCount": 268,
+  "conceptCount": 2635,
   "sections": [
     {
       "id": "architecture",
@@ -59,9 +59,70 @@
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 21
+    "other": 23
   },
   "videos": [
+    {
+      "slug": "childhood-jokes-adult-truth",
+      "title": "小时候看笑话，长大后看真实",
+      "video_id": "BV1uf4y127Ab",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1uf4y127Ab/",
+      "duration_min": 16,
+      "creator": "xi-wa-sang",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "friendship",
+        "childhood",
+        "meaning",
+        "nostalgia"
+      ],
+      "keywords": [
+        "bilibili",
+        "friendship",
+        "childhood",
+        "meaning",
+        "nostalgia",
+        "xi wa sang",
+        "Childhood joke adult truth",
+        "Friends now incompatible",
+        "Wisdom cheaper than friendship",
+        "Buried dream under the floor",
+        "Loneliness Kills",
+        "Relationship Quality Over Quantity"
+      ],
+      "summary": "喜娃桑 (~16 min, Bilibili, May 2020, 16.9M views). Not a lecture. A *海绵宝宝* clip reel + Ken Arai *NEXT TO YOU* (Rhodes). Title is the whole claim: childhood-joke-adult-truth — the same lines that were jokes at 8 are a ledger at 28. Description closer: 道路坎坷, keep going. 你准备好了吗?\n\nThe reel walks the adult board in cartoon mouths. Life is unfair; live now; do not live in the past. Power has a bigger bill. Patrick wants a hat so he never goes back to no-hat days. Being 呆头呆脑 is sold as the no-worry setting. Grown-ups tell SpongeBob to stop acting like a kid. \"好人最后都会失败\" / \"当个坏蛋要快乐的多.\" Better to have loved and lost. Some people trip over money; others work. He would rather stay poor than forget a friend. Then the floor: buried-dream-under-the-floor — Squidward's dream is under the grease. \"我是一个失败者.\" No job, no house.\n\nThe long beat is the split: we were happy; friends-now-incompatible — 不能兼容, 分道扬镳, 这就是人生. He would give everything to get the friend back. Patrick: give up genius for that? wisdom-cheaper-than-friendship — 宁愿当个白痴. Close: days like this happen once or twice; grab the instant. Then the prep chant: 我准备好了.\n\nAI-zh captions are a scene soup (199 segs; speech clock ~8 min). Quotes below are the lines that survive the mash. Treat as fan-edit, not Nickelodeon canon.",
+      "key_insights": [
+        "childhood-joke-adult-truth — The joke did not get wiser. You did. Same bubble-text, new receipts.",
+        "friends-now-incompatible — 渐行渐远 is named as incompatibility, not a fight. Pair with loneliness-kills / scheduled-male-friendship.",
+        "wisdom-cheaper-than-friendship — Knowledge loses the bid. Waldinger's relationship-quality-over-quantity in a starfish mouth.",
+        "buried-dream-under-the-floor — The dream is under the job. identity-beyond-success-failure is the adult patch; the cartoon just says 失败者."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "childhood-joke-adult-truth",
+          "title": "Childhood joke adult truth"
+        },
+        {
+          "slug": "friends-now-incompatible",
+          "title": "Friends now incompatible"
+        },
+        {
+          "slug": "wisdom-cheaper-than-friendship",
+          "title": "Wisdom cheaper than friendship"
+        },
+        {
+          "slug": "buried-dream-under-the-floor",
+          "title": "Buried dream under the floor"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg"
+    },
     {
       "slug": "compulsory-education-as-prison",
       "title": "九年义务教育，正在变成“义务坐牢”——“减负”反变“增负”，一个小学老师发现了背后的残酷真相",
@@ -462,7 +523,7 @@
         "jiao wo si gai",
         "Mars–metro gap",
         "Shout human to escape bot",
-        "screen sharp life blur",
+        "Screen sharp, life blur",
         "Human connection economic asset",
         "Live Experience Renaissance",
         "Loneliness Kills"
@@ -474,7 +535,7 @@
         "Herd 同意 — QR dinner → phone. Next ask can be worse. He would still tap yes.",
         "screen-sharp-life-blur — Clearer pixels, blurrier people. The AI face-crop is the proof: his face is sharp on a site he did not make."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "mars-metro-gap",
@@ -483,9 +544,13 @@
         {
           "slug": "shout-human-to-escape-bot",
           "title": "Shout human to escape bot"
+        },
+        {
+          "slug": "screen-sharp-life-blur",
+          "title": "Screen sharp, life blur"
         }
       ],
-      "conceptCount": 2,
+      "conceptCount": 3,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/da265d9ef49985af4f18b20727e9eaae4fcd2f15.jpg"
     },
     {
@@ -1454,6 +1519,64 @@
       ],
       "conceptCount": 5,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/3b82aeeeb0e214b92007769636682cf8e0522461.jpg"
+    },
+    {
+      "slug": "what-is-most-important-in-a-lifetime",
+      "title": "人一辈子，最重要的到底是什么？",
+      "video_id": "BV1MvN2zCEok",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1MvN2zCEok/",
+      "duration_min": 7,
+      "creator": "ta-de-ri-chang-shi-guang",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "meaning",
+        "time",
+        "aging",
+        "regret"
+      ],
+      "keywords": [
+        "bilibili",
+        "meaning",
+        "time",
+        "aging",
+        "regret",
+        "ta de ri chang shi guang",
+        "Stage bound importance",
+        "Everything matters nothing indispensable",
+        "Regret is the default",
+        "Uneven life value curve",
+        "Memory dividend experiences",
+        "Life Calendar (Weeks)"
+      ],
+      "summary": "他的日常时光 (~7 min, Bilibili animated essay, 微触动; writer 夏虫意难平; AI-zh captions). Not an argument. An age-stamped crown: every year names a new 最重要, then loses it. Twin of why-living-to-90-may-be-worse-than-50: 阿Test prices the years; this clip walks them.\n\nDecoded walk (captions scramble 棒棒糖/蜻蜓/奖状/录取): 3 棒棒糖; 5 a whole afternoon on one 蜻蜓; 7 classmate's 奖状 + envy; 9 tree-shade 暑假; 13 重点高中通知书; 16 front-row 马尾, \"就这样一直下去也不错\"; 18 大学通知书; 22 first job; 24 wedding — the bride is not the 16-year girl, 遗憾, then she is the new most-important; 25 面子 with 狐朋狗友; 26 产房 cry; 33 房贷车贷 / 钱; 38 dad starts asking his opinion (he is old), mom nags instead of scolds, son has his own friends and will only keep leaving — 时光 is the real one; 40 messy 体检报告, he never treated himself as important; 45 工位摸鱼, the unused 梦想; 50 son's wedding, maybe not *his* 16-year girl either, son's happiness > his; 55 panting after a grandson, 平安快乐; 60 buries both parents, the old 责骂/絮叨 suddenly matters; 70 wife already gone, idle street walks, she beats the 广场舞老太太; 75 hospital, he almost tells the grandson \"if you loved a girl at 16, 握紧, like the lollipop\" — too 为老不尊, so just \"爷爷想你了\"; doctor says 问题不大; he: 人生没有大问题, 把日子过下去才是最重要的.\n\n76: grandson comes; he is thinking 后事从简 so the new job does not look bad to a boss. A wind. Young parents open their arms. He runs and shrinks 60 → 50 → 40 → 30 → 3, and they can pick him up again. He looks back: son, daughter-in-law, grandson hold the 76-year body and howl. 不舍得. They will still be fine.\n\nClose: 什么都重要, 但又不是非有不可. What you crowned will have a lose-day. 遗憾总是人生的常态.",
+      "key_insights": [
+        "stage-bound-importance — \"What matters most?\" is a bad constant. Each age crowns a new one and retires the last.",
+        "everything-matters-nothing-indispensable — All the crowns were real. None were 非有不可, because each has a lose-day.",
+        "regret-is-the-default — The 16-year girl, the unused dream, parents' scolding after they are gone. Not a bug.",
+        "Hold the lollipop — The line he does not say to the grandson. Same window as memory-dividend-experiences.",
+        "Keep the days — At the hospital the answer collapses to 把日子过下去. Pair with finite-time-resource-allocation."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "stage-bound-importance",
+          "title": "Stage-bound importance"
+        },
+        {
+          "slug": "everything-matters-nothing-indispensable",
+          "title": "Everything matters nothing indispensable"
+        },
+        {
+          "slug": "regret-is-the-default",
+          "title": "Regret is the default"
+        }
+      ],
+      "conceptCount": 3,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/269ee1b5d530c6c5b3b4c68d7e7db6db5026f0ca.jpg"
     },
     {
       "slug": "why-living-to-90-may-be-worse-than-50",
