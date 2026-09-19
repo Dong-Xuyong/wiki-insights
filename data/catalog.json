@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 260,
-  "insightsCount": 254,
-  "conceptCount": 2546,
+  "videoCount": 262,
+  "insightsCount": 256,
+  "conceptCount": 2559,
   "sections": [
     {
       "id": "architecture",
@@ -56,10 +56,10 @@
     "systems": 14,
     "build": 40,
     "human": 12,
-    "performance": 49,
+    "performance": 50,
     "mind": 31,
     "relationships": 45,
-    "other": 14
+    "other": 15
   },
   "videos": [
     {
@@ -337,6 +337,81 @@
       "conceptCount": 7
     },
     {
+      "slug": "the-cook-era-he-tong-xue",
+      "title": "【何同学】库克时代",
+      "video_id": "BV1G7tG6tEwL",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1G7tG6tEwL/",
+      "duration_min": 44,
+      "creator": "he-tong-xue",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "apple",
+        "leadership",
+        "strategy",
+        "bilibili"
+      ],
+      "keywords": [
+        "apple",
+        "leadership",
+        "strategy",
+        "bilibili",
+        "he tong xue",
+        "Scale Discipline over Category Intuition",
+        "Design over Experience Trap",
+        "Unbuyable Component Moat",
+        "Hardware then Services Lock in",
+        "Category Creation vs Joining",
+        "Install Base Moat"
+      ],
+      "summary": "何同学 uses tim-cook's September 2026 CEO exit as the frame for a 15-year Apple history: what a supply-chain operator can do after a product founder dies, and what he cannot. The video opens on 5 October 2011. Jobs is dead; Cook's first keynote (iPhone 4S / Siri) already feels smaller. The question is whether the Compaq materials VP can wear the crown.\n\nCook's actual gift, in this telling, is systems: IBM just-in-time, Compaq cost-down, then Apple inventory from 30 days to two. He later ships the commercially right calls Jobs would have refused (large iPhones after the \"Hummer\" joke; iPhone X at $999; AirPods after the headphone-jack fight). He also inherits, then over-extends, jony-ive's design-over-experience-trap — trash-can Mac Pro, fanless 2015 MacBook, butterfly keyboard — until the 2018–2019 iPhone/China crash and Ive's exit.\n\nThe recovery thesis is a deeper moat, not a new category. unbuyable-component-moat (M-series, after Intel 14 nm stall) plus hardware-then-services-lock-in (App Store take rate, iCloud, ~$20B Google default-search rent, services gross margin ~74% vs hardware ~37%) take Apple from $1T to $3T. New bets fail in the same pattern: rule-based Siri vs ChatGPT, Project Titan (2014–2024, ~2,000 people, ~$1B/year), Vision Pro. Cook can run a proven product to the limit; he does not invent the next one.\n\nThe close is scale-discipline-over-category-intuition: dull keynotes, yearly camera/chip increments, kill undifferentiated products, do not ship unfinished Siri, return nearly all net income as buybacks and dividends while peers spend hundreds of billions on AI capex. Market cap ~14× on his watch; John Ternus (M-series hardware) succeeds him with almost no stock reaction. Jobs's advice: do not ask what Jobs would do; do the right thing.",
+      "key_insights": [
+        "Operator, not inventor — Cook rebuilt production. He did not design products. The 15-year record matches that split: extreme execution on iPhone/Mac/services, weak record on cars, headset, and a truly smart assistant.",
+        "design-over-experience-trap — Curve, color, and thinness won the 2000s and then ate the 2010s. Butterfly keyboards, one-port MacBooks, and sculpture-first Mac Pros are the exhibit.",
+        "Commercially right, aesthetically ugly — iPhone 6's large screens (Jobs had mocked them) became the volume peak (~220M). iPhone 7's missing jack plus AirPods opened TWS. Taste and TAM can point opposite ways.",
+        "unbuyable-component-moat — A design lead is copyable because everyone can buy the same parts. Apple Silicon is a part competitors cannot buy. The video dates the M1 reveal loosely after the 2018 Bloomberg leak; the point is the architecture switch, not the calendar.",
+        "hardware-then-services-lock-in — Hardware gets you in; photos, IAP accounts, and default search keep you. Services scale from ~$9.3B (2011) to ~$53.8B (2020) in the video's figures.",
+        "scale-discipline-over-category-intuition — After the brand already leads, risk control and compounding beats category bets. Titan and Vision Pro are the counterexamples; iPhone 13–17 increments plus buybacks are the method.",
+        "Character as footnote, not the plot — Offered part of his liver to Jobs (refused); 2014 \"bloody ROI\" snap on accessibility; 2021 patience with a nervous student interviewer (the creator). The video argues we only know Cook through products because his public speech is boring on purpose."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "scale-discipline-over-category-intuition",
+          "title": "Scale Discipline over Category Intuition",
+          "e": "📏"
+        },
+        {
+          "slug": "design-over-experience-trap",
+          "title": "Design over Experience Trap",
+          "e": "🎨"
+        },
+        {
+          "slug": "unbuyable-component-moat",
+          "title": "Unbuyable Component Moat",
+          "e": "🧱"
+        },
+        {
+          "slug": "hardware-then-services-lock-in",
+          "title": "Hardware then Services Lock-in",
+          "e": "🔐"
+        },
+        {
+          "slug": "category-creation-vs-joining",
+          "title": "Category Creation vs Joining",
+          "e": "📂"
+        },
+        {
+          "slug": "install-base-moat",
+          "title": "Install Base Moat",
+          "e": "🏰"
+        }
+      ],
+      "conceptCount": 6
+    },
+    {
       "slug": "the-one-social-skill-that-beats-all-the-others",
       "title": "The One Social Skill That Beats All The Others",
       "video_id": "GJJhpQLDPxk",
@@ -560,6 +635,89 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "why-living-to-90-may-be-worse-than-50",
+      "title": "为什么活到90岁，可能还不如只活50年？寿命经济学。【阿Test正经比比】",
+      "video_id": "BV15m8F6KEXN",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV15m8F6KEXN/",
+      "duration_min": 21,
+      "creator": "a-test",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "performance",
+      "tags": [
+        "bilibili",
+        "longevity",
+        "economics",
+        "time",
+        "meaning"
+      ],
+      "keywords": [
+        "bilibili",
+        "longevity",
+        "economics",
+        "time",
+        "meaning",
+        "a test",
+        "Uneven life value curve",
+        "Fifty year life thought experiment",
+        "Becker time allocation",
+        "Memory dividend experiences",
+        "Finite time resource allocation",
+        "Socioemotional Selectivity Theory"
+      ],
+      "summary": "a-test (~21 min, Bilibili) argues that modern longevity mostly added old-age years, not more youth, so a longer life can still be a worse life if you spend the high-value window converting time into money and wake up at the hospital end with regret.\n\nHe opens with afterlife myths as a historical tell: people invented a second life because they \"had not lived enough.\" Mean life expectancy figures he cites (Viking ~20, Rome ~30, China at 1949 ~35) are at-birth averages; he notes that an adult who survived childhood still often died around 50 (杜甫 at 48: 访旧半为鬼). China 2024 life expectancy is ~79. The extra decades sit after 50.\n\nThe core model is an uneven-life-value-curve: dopamine peaks ~15–20, reaction time ~18, physical peak ~25–35, cognition ~40, and subjective time compresses with age (he cites 毕导). An AI-fitted composite he shows assigns ~79.2% of \"life value\" to the first 50 years and ~20.8% to ages 50–80. Treat that split as his illustration, not a measured law.\n\nA fifty-year-life-thought-experiment then changes the social clock: at 37 he would stop optimizing the channel and go to Tibet / cook; at 47 he would stop caring about hair or career; at 27 he would not quit finance for video; at 17 he would skip graduate school. Ancient careers started early (labor at 7–8, 冠礼 at 20; 李白 / Michelangelo / Mozart) because the clock did not allow a late-game build. An 80-year clock favors schooling, 复读, a master's, IB, then a late 董秘 seat — 王者荣耀 late-game heroes. He asks whether that is rational if the extra 30 years are the low-value ones.\n\nA 2004 Japanese cause-of-death list from *找死手册* is used as mood, not epidemiology: most deaths in hospital; cancer, stroke, and heart disease dominate; \"old age\" ~2.3%. His four grandparents all died in hospital (lung cancer, dementia, 20 years of diabetes then bedridden, gastric cancer in four months). The risk is boiling-frog time: follow the social clock, max the credit card of years, and close on 遗憾.\n\nbecker-time-allocation (Gary Becker 1965) prices every hour at the wage. A ¥35 movie that takes two hours at ¥100/hour costs ¥235. Forty working years × 16 hours × ¥100 = ¥23.36M and zero leisure; six-hour days yield ¥8.76M plus 146,000 leisure hours; zero work yields all the hours and no money. All-grind damages health and family so late spending buys less; all-spend leaves you 挂壁. Delayed gratification can miss the window (skipped graduation trip; childhood yo-yo 黑旋风). memory-dividend-experiences (回忆股息): a good year keeps paying in later recall, and the stacked memories can outrun the original day.\n\nHe refuses a closed-form life formula. Picasso, Joan of Arc, James Dean, 手冢治虫, and Hachiko are \"not the answer, but vivid,\" and the vivid parts were not money. Some acts have closing windows (esports, climbing, parachuting, parents still able to travel). Coco / 寻梦环游记 close: matter dissolves; the life you actually lived is what remains. Time is the asset; money is a tool; waste it on good things and the people who matter.\n\nWhisper/AI captions are messy (哈佛教→佛教, 回忆古稀→回忆股息). The file cuts off mid-final sentence.",
+      "key_insights": [
+        "Added years are old-age years — 50→79 is not more youth. Physical, hormonal, and subjective-time peaks are earlier.",
+        "uneven-life-value-curve — His composite puts ~79% of value before 50. Useful as a provocation; not a scientific allocation.",
+        "fifty-year-life-thought-experiment — A 50-year horizon front-loads living and kills long compounding. An 80-year horizon picks late-game careers.",
+        "Hospital end, not a peaceful extra 30 — Family stories + the book's Japan stats: the late years are often disease years.",
+        "becker-time-allocation — Time has a wage-equivalent price. Ticket price is not the cost of the movie.",
+        "Neither pole wins — All-work → money, no time, cheaper late experience. All-leisure → time, no money, no expensive experiences.",
+        "memory-dividend-experiences — Do the thing while the window (age, parents, graduation) is open; later recall keeps paying.",
+        "No formula — Maximize lived days, not a spreadsheet. Identity is what you actually did."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "uneven-life-value-curve",
+          "title": "Uneven life-value curve",
+          "e": "📉"
+        },
+        {
+          "slug": "fifty-year-life-thought-experiment",
+          "title": "Fifty-year life thought experiment",
+          "e": "⏰"
+        },
+        {
+          "slug": "becker-time-allocation",
+          "title": "Becker time allocation",
+          "e": "🎟️"
+        },
+        {
+          "slug": "memory-dividend-experiences",
+          "title": "Memory dividend experiences",
+          "e": "🪀"
+        },
+        {
+          "slug": "finite-time-resource-allocation",
+          "title": "Finite time resource allocation",
+          "e": "⏰"
+        },
+        {
+          "slug": "socioemotional-selectivity-theory",
+          "title": "Socioemotional Selectivity Theory",
+          "e": "⏳"
+        },
+        {
+          "slug": "life-calendar-weeks",
+          "title": "Life Calendar (Weeks)",
+          "e": "📦"
+        }
+      ],
+      "conceptCount": 7
     },
     {
       "slug": "you-can-progress-more-in-6-minutes-daniel-coyle",

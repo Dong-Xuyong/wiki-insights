@@ -1,0 +1,70 @@
+{
+  "slug": "the-cook-era-he-tong-xue",
+  "sections": [
+    {
+      "title": "What Cook could and could not do",
+      "items": [
+        {
+          "e": "🏭",
+          "q": "What was Cook actually good at when Jobs died?",
+          "a": "**Systems, not invention.** IBM just-in-time, Compaq cost-down, Apple inventory **30 days → 2 days**. He had never designed a product. The 15-year record matches that split."
+        },
+        {
+          "e": "🧭",
+          "q": "What is the video's one-line verdict on the Cook era?",
+          "a": "A mortal can wear the crown if the company already leads — **discipline then beats intuition**. Dull keynotes, yearly camera/chip increments, kill the undifferentiated bet, do not ship unfinished Siri."
+        }
+      ]
+    },
+    {
+      "title": "Design trap, then a real moat",
+      "items": [
+        {
+          "e": "🎨",
+          "q": "How did Ive's 2000s language become a 2010s trap?",
+          "a": "**Curve, color, extreme thinness** won iMac/iPod/Air, then produced the cylinder Mac Pro, the one-port fanless MacBook, and the butterfly keyboard. Looks first, week-long use second."
+        },
+        {
+          "e": "🧱",
+          "q": "Why is Apple Silicon a different kind of moat than pretty aluminum?",
+          "a": "Merchant parts are **copyable**. A chip the competitor **cannot buy** is not. M1 tiled into Pro/Max/Ultra and let Apple stop treating CNC thinness as the product."
+        },
+        {
+          "e": "🔐",
+          "q": "What does “hardware in, ecosystem out” mean?",
+          "a": "The phone is the door. **iCloud photos, IAP accounts, default Google search (~$20B/year), 15–30% store tax** are the walls. Hardware GM ~37%; services ~74%."
+        }
+      ]
+    },
+    {
+      "title": "New categories and capital",
+      "items": [
+        {
+          "e": "🚗",
+          "q": "What failed in the same pattern: car, headset, smart Siri?",
+          "a": "Cook can **max a proven category**. Titan (~2,000 people, ~$1B/year, L5 fantasy → 2024 kill), Vision Pro (best headset, no job-to-be-done), rule-based Siri vs ChatGPT. Demoed Apple Intelligence that was not on the device."
+        },
+        {
+          "e": "💰",
+          "q": "Why do near-100% buybacks matter in the AI capex race?",
+          "a": "2024–25 buybacks+dividends **≈ or above net income**. 2026 Apple capex ~$14B vs ~$650B across Meta/Google/Microsoft/Amazon. Either the profit needs no reinvestment — or the skipped AI bet is the future bill."
+        }
+      ]
+    },
+    {
+      "title": "Successor and character",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "Why did the market barely move when Cook named Ternus?",
+          "a": "John Ternus already ran the **M-series transition** — the era's biggest experience upgrade. Announcement-day stock ~**-0.58%**. The method outlived the man."
+        },
+        {
+          "e": "🫀",
+          "q": "Which three stories does 何同学 use to show who Cook is?",
+          "a": "Offered **part of his liver** to Jobs (refused). 2014 **“bloody ROI”** snap on accessibility. 2021 **patience** with a rambling student interviewer — the creator himself."
+        }
+      ]
+    }
+  ]
+}
