@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 278,
-  "insightsCount": 272,
-  "conceptCount": 2659,
+  "videoCount": 279,
+  "insightsCount": 273,
+  "conceptCount": 2663,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 24
+    "other": 25
   },
   "videos": [
     {
@@ -687,6 +687,67 @@
       ],
       "conceptCount": 6,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/da265d9ef49985af4f18b20727e9eaae4fcd2f15.jpg"
+    },
+    {
+      "slug": "lao-fanqie-hitman-episode-1",
+      "title": "【老番茄】史上最骚杀手(第一集)",
+      "video_id": "BV1Wb411v7WN",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Wb411v7WN/",
+      "duration_min": 10,
+      "creator": "lao-fanqie",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "gaming",
+        "comedy",
+        "hitman"
+      ],
+      "keywords": [
+        "bilibili",
+        "gaming",
+        "comedy",
+        "hitman",
+        "lao fanqie",
+        "Cold persona, warm player",
+        "Stealth systems as slapstick",
+        "Retry the bit",
+        "Mute the crowd to keep the hobby"
+      ],
+      "summary": "老番茄 (~10 min, Bilibili, ~33.8M, 8 Mar 2019) is the pilot of the 18-ep *史上最骚杀手* Hitman let's-play. Not an essay: a comedy cut of *HITMAN* (2016) ICA training plus *HITMAN 2* Nightcall. Caption on the upload: 试播集, 收藏到 4 万会继续做. The series kept going.\n\nThe bit is a costume. He opens as Agent 47 — no feelings, code name, kill and leave — then Diana rings and the machine becomes a roommate: 声音小一点, 莫得感情还莫得头发, 莫得兄弟莫得对象. He voices both 47 and 戴安娜. AI-zh captions are scene soup (ICA / Kalvin / Knight / Reynard names smear). The missions are still readable from the toys.\n\nThree maps, one gag. Yacht: knock out the mechanic, closet, fridge, silent pistol on 鬼手凯文 (Kalvin Ritter). Airfield: coin over the wall, steal a guard, break the ejection seat, walk 奈特 (Jasper Knight) onto the jet. House: first take is a loud stab on 雷纳德 (Alma Reynard) and a shiny-bald fail. Reset. Battery + flood + 吱吱响玩具, or wait until they sleep. Speedboat out. Closer: 没感情的光头 + 三联.",
+      "key_insights": [
+        "cold-persona-warm-player — The 47 monologue is bait. The laugh is the phone call.",
+        "stealth-systems-as-slapstick — Disguise, closets, fridge, duck, battery-in-water. IOI's sandbox is a slapstick kit.",
+        "retry-the-bit — Loud fail is take one. \"那我们再来一次\" is the punchline, not a wipe.",
+        "Pilot as a bet — 4 万收藏 to continue. The series became the channel's Hitman costume."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cold-persona-warm-player",
+          "title": "Cold persona, warm player",
+          "e": "🧊"
+        },
+        {
+          "slug": "stealth-systems-as-slapstick",
+          "title": "Stealth systems as slapstick",
+          "e": "🦆"
+        },
+        {
+          "slug": "retry-the-bit",
+          "title": "Retry the bit",
+          "e": "🔁"
+        },
+        {
+          "slug": "mute-the-crowd-to-keep-the-hobby",
+          "title": "Mute the crowd to keep the hobby",
+          "e": "🔇"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/19da21a55fe51d92a3c8d3f9b4ee7467b79257c2.jpg"
     },
     {
       "slug": "life-error-tolerance-higher-than-you-think",
