@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 270,
-  "insightsCount": 264,
-  "conceptCount": 2606,
+  "videoCount": 273,
+  "insightsCount": 267,
+  "conceptCount": 2625,
   "sections": [
     {
       "id": "architecture",
@@ -55,11 +55,11 @@
     "agents": 52,
     "systems": 16,
     "build": 40,
-    "human": 14,
+    "human": 15,
     "performance": 50,
-    "mind": 31,
+    "mind": 32,
     "relationships": 45,
-    "other": 19
+    "other": 20
   },
   "videos": [
     {
@@ -436,6 +436,79 @@
       "conceptCount": 4
     },
     {
+      "slug": "life-error-tolerance-higher-than-you-think",
+      "title": "人生的容错率比你想的高的多",
+      "video_id": "BV1mPwMeFEPX",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1mPwMeFEPX/",
+      "duration_min": 5,
+      "creator": "jiao-wo-si-gai",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "human",
+      "tags": [
+        "bilibili",
+        "career",
+        "education",
+        "china"
+      ],
+      "keywords": [
+        "bilibili",
+        "career",
+        "education",
+        "china",
+        "jiao wo si gai",
+        "Life error tolerance higher",
+        "Degree as forced gown",
+        "Industry shorter than your life",
+        "Exam only life script",
+        "Gaokao as family investment",
+        "Exam ranking mental health crisis"
+      ],
+      "summary": "叫我死盖就好 (~5 min, Bilibili) is the lived after of exam-only-life-script: not a policy essay, a 职高-to-account roast. Hook: elementary him treats 清华 vs 北大 as a font problem (清华 looks green; 北大 looks like a 刺头). Junior high he thinks university works like middle school — a nearby guaranteed 苏大. 中考 is when 职高 appears. He cries into the backpack, sure textbooks are over; the school is just worse scores, not *热血高校*.\n\nSenior year the best bachelor on the 职高 list is a name 普高 kids would not fill. He spends one semester under a dorm lamp, finishes top 10, takes that no-name 本科 + (he says) 2023 百大 UP identity. Hometown: 进出口 / 4P SWOT / Coke 营销 should print money in a third-tier county. Through relations: car-insurance 延保. Three months, no orders, fired. More sales fail. Dad's \"support\" is only 化工厂化验员. He names the costume: 这长衫是花了16年穿上的 — Kong Yiji's gown as the degree that hid 无能.\n\nFactory interview: write the English alphabet; the other guy waits to copy. HR: not a chem major, no promotion path, \"马路上随便拉一个人 只要能呼吸 就能干\" — and also: this should not be your life. He walks. A month later the account 叫我死盖就好 exists.\n\nClose: every \"天塌了\" (exams, breakup, 2万网贷, 100+ resumes) is now roast copy. life-error-tolerance-higher: the crash was real; it still passed. industry-shorter-than-your-life: the job dies first. 司马迁's 燕雀 is now a class-3 protected animal. AI-zh captions; 百大 treated as his 2023 Bilibili claim.",
+      "key_insights": [
+        "life-error-tolerance-higher — The 中考 / 职高 / 被开 / 厂门口 nights felt final. They became the bit.",
+        "degree-as-forced-gown — 16-year 长衫. Parents drove him to plants. He still would not wear it into a job anyone breathing can do.",
+        "HR as the hinge — Alphabet quiz + \"no promo\" + \"your life shouldn't be this.\" That sentence, not the offer, starts the account.",
+        "industry-shorter-than-your-life — 行业短命; 你的命还长着. Do not fuse identity to the first plant."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "life-error-tolerance-higher",
+          "title": "Life error tolerance higher",
+          "e": "🐦"
+        },
+        {
+          "slug": "degree-as-forced-gown",
+          "title": "Degree as forced gown",
+          "e": "👔"
+        },
+        {
+          "slug": "industry-shorter-than-your-life",
+          "title": "Industry shorter than your life",
+          "e": "⏳"
+        },
+        {
+          "slug": "exam-only-life-script",
+          "title": "Exam-only life script",
+          "e": "📘"
+        },
+        {
+          "slug": "gaokao-as-family-investment",
+          "title": "Gaokao as family investment",
+          "e": "💰"
+        },
+        {
+          "slug": "exam-ranking-mental-health-crisis",
+          "title": "Exam ranking mental health crisis",
+          "e": "📊"
+        }
+      ],
+      "conceptCount": 6,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/e4645f3cd1aa80bc9ad1314d57b9ad8badad833d.jpg"
+    },
+    {
       "slug": "meet-the-youngest-ever-mayor-japan-ryosuke-takashima-ted",
       "title": "Meet the Youngest-Ever Mayor in Japan’s History | Ryosuke Takashima | TED",
       "video_id": "X6hstmAa0cg",
@@ -518,6 +591,164 @@
         }
       ],
       "conceptCount": 7
+    },
+    {
+      "slug": "pressure-monster-can-die",
+      "title": "压力怪给老子死",
+      "video_id": "BV19R4y1r73j",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV19R4y1r73j/",
+      "duration_min": 4,
+      "creator": "jiao-wo-si-gai",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "mind",
+      "tags": [
+        "bilibili",
+        "leisure",
+        "stress",
+        "gaming",
+        "social-media"
+      ],
+      "keywords": [
+        "bilibili",
+        "leisure",
+        "stress",
+        "gaming",
+        "social media",
+        "jiao wo si gai",
+        "Human mediated leisure as stress",
+        "Mute the crowd to keep the hobby",
+        "Comment judges the viewer",
+        "Proper Leisure",
+        "Dark Playground",
+        "Comparison Is the Thief of Joy"
+      ],
+      "summary": "叫我死盖就好 (~4 min, Bilibili stick-figure rant, AI-zh captions). Thesis: the old destress stack — games, 综艺 — now is the pressure, because both require other humans. He clocks out, kills the phone, opens the PC to \"逃离现实.\" Lock a hero and the teammate keyboard never stops: draft, version, \"职业队\" trash talk. Caption: 青铜二, not RNG 青训. In-game they coach builds harder than he ever planned a life. \"我对我人类要是有这么清晰的规划 我还需要他妈的打游戏来解压.\" Mid-life ranked is not for the W. Hands lag eyes, eyes lag brain.\n\nAfter a tired day the other lane is worse: enemy jungler with a girl kills him ~20 times, dances on the corpse, farms nothing. Then his teammate also stops farming, stands under tower, and starts typing. Trial becomes insult. Five lines in three seconds; three+ typos and you cannot reason. Voice is worse: 阿南 is always urgent and small-vocab; accent → 地域 attack → \"绿皮火车来砍你.\" He will not give an address. \"这就是为什么阿南的医保永远不够刷.\" Senior year he failed 12 classes and the principal never said 亲妈爆炸. Ranked chat will.\n\n综艺 is the same machine on a bed. Ads, then a comic, then a danmaku: 好笑吗. The line is not about the act. It is about his laugh. He rewatches: not die-laughing; maybe less funny than his life. He closes the show to game. Loop.\n\nHe never opens mic. He never opens danmaku. As a 1.5-year blogger the line he remembers is \"长得像有头发的包贝尔\" — why the face-career plan ended in 负债. He still will not police speech, so he just leaves. No 牛逼 fix in the script: any destress that still deals with humans is already hard to destress. Caption closer: 银帕除外 (unverified: pet / person / sponsor; AI-zh).",
+      "key_insights": [
+        "human-mediated-leisure-as-stress — Ranked queue and danmaku turn rest into a second workplace. The hobby is fine. The other people are the tax.",
+        "mute-the-crowd-to-keep-the-hobby — Never open mic. Never open danmaku. Keep the game / the show; drop the chat.",
+        "comment-judges-the-viewer — \"好笑吗\" slaps the laugh, not the comic. Same shape as the 包贝尔 face line.",
+        "Ranked as stricter than school — 12 failed classes < 亲妈爆炸. Teammates plan his build harder than he planned a life. Pair with exam-only-life-script."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "human-mediated-leisure-as-stress",
+          "title": "Human-mediated leisure as stress",
+          "e": "🎮"
+        },
+        {
+          "slug": "mute-the-crowd-to-keep-the-hobby",
+          "title": "Mute the crowd to keep the hobby",
+          "e": "🔇"
+        },
+        {
+          "slug": "comment-judges-the-viewer",
+          "title": "Comment judges the viewer",
+          "e": "💬"
+        },
+        {
+          "slug": "proper-leisure",
+          "title": "Proper Leisure",
+          "e": "📚"
+        },
+        {
+          "slug": "dark-playground",
+          "title": "Dark Playground",
+          "e": "🟠"
+        },
+        {
+          "slug": "comparison-is-thief-of-joy",
+          "title": "Comparison Is the Thief of Joy",
+          "e": "🪞"
+        },
+        {
+          "slug": "exam-only-life-script",
+          "title": "Exam-only life script",
+          "e": "📘"
+        }
+      ],
+      "conceptCount": 7,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/8565b509c322ceb82ba1f2c3a7b326ef74f6e038.jpg"
+    },
+    {
+      "slug": "second-uncle-cured-jingshen-neihuo",
+      "title": "回村三天，二舅治好了我的精神内耗",
+      "video_id": "BV1MN4y177PB",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1MN4y177PB/",
+      "duration_min": 12,
+      "creator": "yi-ge-cai-xiang",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "meaning",
+        "resilience",
+        "family",
+        "rural"
+      ],
+      "keywords": [
+        "bilibili",
+        "meaning",
+        "resilience",
+        "family",
+        "rural",
+        "yi ge cai xiang",
+        "精神内耗",
+        "Play a bad hand well",
+        "Never look back person",
+        "Over Thinking and Procrastination",
+        "Doing vs Thinking Balance",
+        "Uneven life value curve"
+      ],
+      "summary": "衣戈猜想 (July 2022, ~12 min, Bilibili; later tens of millions of views) spends three days in the village and uses 二舅 as the antidote to urban 精神内耗. The piece is a nephew's portrait, not a how-to: a childhood village first-in-class who took four fever shots from a neighboring-village doctor, lost the use of his legs as a teenager, and then rebuilt a life as a carpenter who now holds an emptying village.\n\nYear one: he would not get out of bed; a 治病手册 could not heal legs that were ruined, not injured. Year two: he crawled into the courtyard and stared at the sky. Year three: he watched a carpenter for three days, told 老爷 he had learned it, and left the gate to make stools for the production team — two a day, one 毛 each, enough to feed himself. 改革开放 dissolved the team; he walked village to village. The doctor later said that today he would have been sued for life; 二舅 laughed, cursed, and went back to work. A disability certificate never came through. He went to Beijing to see Mao's memorial (改革开放很好, and Mao 也好, because 他公平), stayed with a cousin in a barracks, and made furniture for soldiers. The cousin once found a 首长 scrubbing 二舅's back in the bath. Report on the capital: 北京人搓背搓得很好.\n\nHe built both sisters' wedding furniture board by board in an 80s mountain village, then stuck Shanghai / Tianjin / Beijing / Hong Kong labels on it so the in-laws would treat the girls better. He adopted 宁宁, worked away, and later emptied half a lifetime of savings for a half-finished house. Early thirties he said he could only look after himself — a lie. A married woman from the next village became the unofficial extra at every 红白喜事, tidied the room, and took the day's wages; she never divorced; siblings flipped from support to \"she's after the money\"; 宁宁 called her 老狐狸. She and her husband later died of gas poisoning on a worksite. 二舅 never married. The narrator cannot classify it as today's affair or that era's 拉帮套. Decades later it is a scab he will not pick.\n\n姥姥 is 88 and no longer wants to live (once hung a rope on the doorframe). Rural pensions are rising; 二舅 still wants extra 养老钱 so he will not burden 宁宁. The video's mercy claim: 老病 is the necessary rehearsal between life and death — if everyone died at 70–80 still vigorous, the world would be crueler. He stopped paid carpentry to do full-time care. A 66-year-old son and an 88-year-old mother walk in lockstep: she rests ten seconds every twenty steps; he falls three meters behind and closes the gap in those ten seconds. Last time the narrator saw that timing was Jordan and Pippen. Jordan sent supercars; 二舅 makes noodles with tomato and egg.\n\nIn three days he fixes what the village still has: power strips, stoves, flashlights, toy cars, hoes, washers, taps, locks, induction cookers that were just a switched-off strip, feature phones, radios, acupuncture for 姥姥's stomach, painted beams, temple dragons, homemade fortune kit, even a homemade 二胡 (phone-wire strings; snakeskin from the mountain; later smashed when 姥姥 let a \"fool younger brother\" use it as a hammer). He cannot fix smartphones, cars, or computers because he does not own them — until 宁宁 buys a phone. Young people left; 野猪 came back; a few hundred old people remain. Town repair is 30 里 of mountain. He says he can barely hold himself. He holds the village. They joke-call him 矮子 (Whisper: 外子). They cannot do without him.\n\n1977 restored the 高考 when he was 18–19. Without the four shots he might have become the neighbor who did go to university: unit flat, state pension, 老顽童. A garbled movie line (Whisper: 电影期望) calls that 生不逢时. 二舅 says he has never thought it. That stance makes him the village's second happiest person. Happiest is the village fool (Whisper: 树先生): no one to be responsible for. Second: the person who never looks back. In movies, regret is the eve of the rise. In life it is what sinks you. The narrator, 北漂九年, has met 人中龙凤; from 二舅 he reads the nation's ordinary toughness. The thesis is play-a-bad-hand-well: not 胡一把好牌, 打好一把烂牌. Under the bed, a decades-old notebook's first page: 下定决心，不怕牺牲，排除万难，去争取胜利. The road, he says, leads to victory.\n\nOfficial Bilibili captions are a follow-me line. This file is Whisper (base). Dirty map: 二舊→二舅, 老老→姥姥, 块了→快乐, 外子→矮子, 树先生→傻先生, 还处万来→排除万难.",
+      "key_insights": [
+        "jingshen-neihuo is a city product — The nephew arrives with unused limbs, a degree, and an era of opportunity, and still feels poorer than the man with the ruined legs. The cure on offer is not a technique. It is three days of watching someone *do*.",
+        "play-a-bad-hand-well — 人生最重要的不是胡一把好牌，而是打好一把烂牌. The four shots, the missing certificate, the unofficial love that ended in a 烂账, the 6688 care walk: he plays the hand he was dealt.",
+        "never-look-back-person — Village ranking: first happiest = no one to be responsible for (the fool). Second = never look back. Life's worst regret is regretting past regrets.",
+        "He says he can only hold himself — Then he holds sisters' marriages, 宁宁's house, 姥姥's face-and-feet, and every broken tap in a village of old people. Chinese-style parent: 可敬又可怜, 卑微地伟大着.",
+        "uneven-life-value-curve from the other end — 老病 is framed as mercy, a rehearsal before death, not a bug in longevity. Twin of 阿Test's \"extra years are old-age years,\" without the spreadsheet.",
+        "Filial is copied, not taught — 二舅 had no education method for 宁宁. 宁宁 became the village's most 孝顺 child. Best method: silently 孝顺 your own parents. 小孩是效，不是小.",
+        "1977 as the missed fork — Same exam OS as gaokao-as-family-investment. The neighbor who studied worse got the unit and the pension. 二舅 refuses the counterfactual."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "jingshen-neihuo",
+          "title": "精神内耗",
+          "e": "🧠"
+        },
+        {
+          "slug": "play-a-bad-hand-well",
+          "title": "Play a bad hand well",
+          "e": "🃏"
+        },
+        {
+          "slug": "never-look-back-person",
+          "title": "Never-look-back person",
+          "e": "🙂"
+        },
+        {
+          "slug": "over-thinking-procrastination",
+          "title": "Over-Thinking and Procrastination",
+          "e": "🌀"
+        },
+        {
+          "slug": "doing-vs-thinking-balance",
+          "title": "Doing vs Thinking Balance",
+          "e": "☯️"
+        },
+        {
+          "slug": "uneven-life-value-curve",
+          "title": "Uneven life-value curve",
+          "e": "📉"
+        }
+      ],
+      "conceptCount": 6,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/349d11af2161fd4d734540df5206c66242b5e975.jpg"
     },
     {
       "slug": "sino-vietnamese-war-secrets-episode-1",
