@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 268,
-  "insightsCount": 262,
-  "conceptCount": 2588,
+  "videoCount": 270,
+  "insightsCount": 264,
+  "conceptCount": 2600,
   "sections": [
     {
       "id": "architecture",
@@ -55,13 +55,75 @@
     "agents": 52,
     "systems": 16,
     "build": 40,
-    "human": 12,
+    "human": 14,
     "performance": 50,
     "mind": 31,
     "relationships": 45,
     "other": 19
   },
   "videos": [
+    {
+      "slug": "compulsory-education-as-prison",
+      "title": "九年义务教育，正在变成“义务坐牢”——“减负”反变“增负”，一个小学老师发现了背后的残酷真相",
+      "video_id": "BV132tB6YExQ",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV132tB6YExQ/",
+      "duration_min": 15,
+      "creator": "yinghe-xuezhang-2077",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "human",
+      "tags": [
+        "bilibili",
+        "education",
+        "china",
+        "childhood"
+      ],
+      "keywords": [
+        "bilibili",
+        "education",
+        "china",
+        "childhood",
+        "yinghe xuezhang 2077",
+        "Burden cut cuts reps",
+        "Three mastery layers",
+        "Invert school load",
+        "Fake can do until selection",
+        "Positional competition industry",
+        "Test Prep Cramming Kills Invention",
+        "Education Checkbox GPA System"
+      ],
+      "summary": "yinghe-xuezhang-2077 (~15 min, Bilibili) starts from a grade-3 teacher's post: current 小初 reform is mass-producing 温吞 kids. The teacher planned 4 periods (160 min) for long division (除法竖式). It took ~20 periods to get 80–95% to mastery — 5× the plan. Then burden-cut-cuts-reps arrived: no extra 自习, no extra exams, must finish in the official 4. The pace, he says, was written by people who were once the top 10%. The other ~90% are not lazy; they need a dozen reps while thinking is still growing. Teachers used to stretch to 20. Now a parent report stops extra drills. Kids who miss grade 3 sit at the edge by grade 6. Nine-year school becomes 义务坐牢. Tutoring + 大招 can still fake a 中考; high-school density drops them by October. They look \"dumb.\" They were never fluent.\n\nHe is not anti-减负 and not asking for more homework. Real cut is every minute landing on the work. A daze period is torture. Midnight homework because every step is fog is not effort.\n\nHe splits \"变蠢\" into two kids. Both need three-mastery-layers: (1) 能做会做 — follow the recipe; (2) 快准狠 — no book, fast and clean; (3) 带着方法论快准狠 — write the recipe (why ginger, why no chili). Layers stack. Thinking grows as time × think × iterate.\n\nBottom ~70%: never lock layer 1. 4 periods cut the last chance to get fluent on basics. Fix is invert-school-load: when school cuts foundations, add time on lifetime skills (竖式 through 高考); when homework piles, cut volume, repeat the key items to layer 3, even dump the rule into DeepSeek to check holes. No repetition, no thinking. Young kids feel that in sport first. Raise like a plant: water, sun, weed — do not measure height daily.\n\nTop ~30%: fake-can-do-until-selection. Talent carries layer 1 through 小初. Nobody names layers 2–3. Two pulls backward: short-video 即时反馈 (app founders sell delayed gratification; the feed denies it; a 20-minute problem gets a strike) and tutoring 大招 that skip the method. Play / neighbors / sport used to train the brain for free; screens scatter 知觉. High school is selective; the fake 会 shows. Fix: name the layers early; weekly boredom with no phone — sport, real talk, hands — so the brain leaves instant-reward mode. A study he cites: boredom without a phone forces you to invent a use; that skill transfers.\n\nClose: his 1–2 teacher jumped and sang math; his grade-3 teacher banned skipped steps. Slow made later years easy. Education's fear is not slowness. It is no chance to be slow. 慢会产生快.\n\nAI-zh captions scramble 竖式, 课时, 变蠢, 知觉, DeepSeek, 姓周 / 姓何. Numbers and the 4-vs-20 story are his, not checked here.",
+      "key_insights": [
+        "burden-cut-cuts-reps — Official 4 periods is a top-10% pace. The cut is the bottom 70%'s last fluency window, not the load.",
+        "Daze is the new prison — Weak grade-3 竖式 → grade-6 fog → \"compulsory jail.\" Midnight homework is fog, not grit.",
+        "three-mastery-layers — 会做 → 快准狠 → method. Stay at 1 and thinking never trains.",
+        "invert-school-load — School cuts basics → you add. School piles work → you cut to the few items that can reach layer 3.",
+        "fake-can-do-until-selection — Top 30% look fine until 高考 density. Screens + 大招 keep them at layer 1.",
+        "Slow is the method — Repeat the simple until it is light. 举重若轻，举轻若重."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "burden-cut-cuts-reps",
+          "title": "Burden cut cuts reps"
+        },
+        {
+          "slug": "three-mastery-layers",
+          "title": "Three mastery layers"
+        },
+        {
+          "slug": "invert-school-load",
+          "title": "Invert school load"
+        },
+        {
+          "slug": "fake-can-do-until-selection",
+          "title": "Fake can-do until selection"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/5efc22fe9a62e404367ba73ad0728b455ae2cd2d.jpg"
+    },
     {
       "slug": "cursors-github-replacement",
       "title": "Cursor's Github Replacement",
@@ -125,6 +187,92 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "education-involution-must-end",
+      "title": "教育内卷，已经到了必须要结束的时候了",
+      "video_id": "BV1mE7WzuEvN",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1mE7WzuEvN/",
+      "duration_min": 11,
+      "creator": "yinghe-ziben-lun",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "human",
+      "tags": [
+        "bilibili",
+        "education",
+        "china",
+        "exams"
+      ],
+      "keywords": [
+        "bilibili",
+        "education",
+        "china",
+        "exams",
+        "yinghe ziben lun",
+        "Keju selection inertia",
+        "Gaokao as family investment",
+        "Exam only life script",
+        "Catch up exam vs frontier education",
+        "Confucian Meritocracy and Education",
+        "Positional competition industry",
+        "Exam ranking mental health crisis"
+      ],
+      "summary": "yinghe-ziben-lun (~11 min, Bilibili) treats Chinese exam mania as a selection OS leftover, not a parenting fad. Hook: a foreigner sees a building lit at 21:20 and asks if it is a factory. It is a school. US high school he cites ends ~14:20; elementary 09:00–15:30. The outsider cannot parse 十余年 + half a family's wealth riding on one exam.\n\nHe then cites 2023 China depression 95M, 30.28% under 18 → ~28.76M minors; school-age pop ~200–300M → 1 in 10 junior/senior-high. Chicken-parenting: millions for a tiny city-center 老破小; 100㎡ left empty for <40㎡; human walls in exam week; deaths hidden; frogs poisoned for noise. Caption \"乘风飞翔\" is the suicide euphemism. His line: if you cannot study to death, study until you do.\n\nThesis: today's 应试 is not a sudden policy. It is how China picked talent. keju-selection-inertia: 世卿世禄 (son inherits office) → Qin opens the pool → Han 察举 / 举孝廉 (local recommend) → 九品中正 (士族 grade you; 曹丕, captions: 曹培) → Sui–Tang 科举 so commoners can sit the exam. Li Shimin finds the Li house is only a fourth-rank 门阀; 清河崔氏 still looks down. 科举 looks backward now; then it was the unlock. 中举 bought three things: a post and pay, tax-exempt land, and clan cover from corvée. 范进中举 is the status flip. Abolished 1905 — about three generations. Two leftovers: education as a bet, and a student who only knows the test.\n\ngaokao-as-family-investment: 15–20 years, tens/hundreds of thousands RMB, harvest at 高考. When the harvest is ¥4,000/month or 家里蹲, parents and kids both eat the loss. Chicken-parenting is loss-protection.\n\nexam-only-life-script: his West cartoon is preschool life-skills → primary environment → middle dreams → high-school choice → college practice. His China cartoon is exam from kindergarten to 高中, then a 22-year-old who cannot join a club, date, or earn. \"清澈而愚蠢\" = no street knowledge. Grad school / 家里蹲 as a hide. Not their fault — ages 3–22 nobody taught the rest. Then society calls them 眼高手低.\n\nHe does not dump 应试 for US 快乐教育. 应试 still beats that, and it staffed the catch-up. catch-up-exam-vs-frontier-education: a latecomer can copy a mapped job list. A would-be leader cannot, because anything off the paper (games, sport, interest) is treated as 洪水猛兽. Loop: study → exam → sleep. That lock is the 内卷 he wants ended.\n\nAI-zh captions scramble 曹丕, 科举, 轻生. Depression / 1-in-10 / US bell times are his citations, not checked here.",
+      "key_insights": [
+        "Night school as factory — The foreigner's shock is the tell: they never ran a 科举 OS.",
+        "keju-selection-inertia — 1905 is three generations ago. The exam is still how a family thinks a child rises.",
+        "gaokao-as-family-investment — 高考 is the harvest. Chicken-parenting is how you refuse a write-off.",
+        "exam-only-life-script — K–12 only the paper. College shock is a syllabus gap, not a character gap.",
+        "catch-up-exam-vs-frontier-education — Copy-the-West jobs: exam works. Lead: exam-only kills the try.",
+        "应试 ≠ 快乐教育 — He keeps the filter. He drops the monopoly."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "keju-selection-inertia",
+          "title": "Keju selection inertia",
+          "e": "📜"
+        },
+        {
+          "slug": "gaokao-as-family-investment",
+          "title": "Gaokao as family investment",
+          "e": "💰"
+        },
+        {
+          "slug": "exam-only-life-script",
+          "title": "Exam-only life script",
+          "e": "📘"
+        },
+        {
+          "slug": "catch-up-exam-vs-frontier-education",
+          "title": "Catch-up exam vs frontier education",
+          "e": "🚀"
+        },
+        {
+          "slug": "confucian-meritocracy-education",
+          "title": "Confucian Meritocracy and Education",
+          "e": "📜"
+        },
+        {
+          "slug": "positional-competition-industry",
+          "title": "Positional competition industry",
+          "e": "🏁"
+        },
+        {
+          "slug": "exam-ranking-mental-health-crisis",
+          "title": "Exam ranking mental health crisis",
+          "e": "📊"
+        },
+        {
+          "slug": "education-checkbox-gpa-system",
+          "title": "Education Checkbox GPA System",
+          "e": "☑️"
+        }
+      ],
+      "conceptCount": 8,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/f34881ae68528340b76d111d1417df99ad08334d.jpg"
     },
     {
       "slug": "high-sugar-vs-no-added-sugar-14-day-challenge",
