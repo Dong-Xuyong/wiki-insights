@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 290,
-  "insightsCount": 282,
-  "conceptCount": 2718,
+  "videoCount": 292,
+  "insightsCount": 283,
+  "conceptCount": 2738,
   "sections": [
     {
       "id": "architecture",
@@ -55,13 +55,80 @@
     "agents": 52,
     "systems": 20,
     "build": 40,
-    "human": 15,
+    "human": 17,
     "performance": 50,
     "mind": 32,
     "relationships": 47,
     "other": 31
   },
   "videos": [
+    {
+      "slug": "ai-three-side-jobs-challenge",
+      "title": "兼职挑战！！挑战AI让我尝试的3个职业！！",
+      "video_id": "BV1vybN6UEaX",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1vybN6UEaX/",
+      "duration_min": 17,
+      "creator": "yu-ge-dao-chu-pao",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "human",
+      "tags": [
+        "bilibili",
+        "comedy",
+        "side-hustle",
+        "ai"
+      ],
+      "keywords": [
+        "bilibili",
+        "comedy",
+        "side hustle",
+        "ai",
+        "yu ge dao chu pao",
+        "Friend as the Gig",
+        "Comment Constraints as Prompt",
+        "AI as Gig Playbook",
+        "Seven Hall Loop"
+      ],
+      "summary": "雨哥到处跑 (~17 min, Bilibili, ~2.58M, 8 Sept 2026) asks 阿宝 to pick three Shanghai side jobs, then films them. Caption: the gigs are friends helping. The ask is a demo, not a labor-market find. AI-zh smears 雨/宇, 陈泽宇/陈正宇, 密室逃脱NPC. The three clocks stay readable.\n\nCold open is his own college ledger: band bar gigs, 建筑效果图, a design scheme. He polls comments. Three wishes: no strangers, interest-aligned, time-free. Those three lines become the prompt. 阿宝 returns warehouse QC, pet-wash, cinema backstage. He steers to 收纳师 (¥100–200/hr), then 喂猫遛狗 (¥30–60, holiday double), then rejects 保安 so he can staff a movie 路演 instead.\n\nThree houses. 陈泽宇: Chiikawa doll pit; 阿宝's playbook is a transparent beanbag stuffed as furniture. Pay is Macau coins. 老番茄: Siamese pair 皮旦 / 椰保; krill freeze-dry; pay is ¥0.11 plus 蚂蚁森林 energy. Premiere: 惠英红 / 黄子弘凡 / 法老 (保安 cameo) / 小精灵陈正宇. Seven halls. Same intro. He calls it 恐怖游轮. 阿宝's star brief: treat the celebrity as a special client, keep one fallback line.\n\nCloser: the three \"impossible\" constraints are not impossible. Then 阿宝 offers 剧本杀编剧 — 下一个世界 horror. Chen opens the sofa. 我只负责收纳, 不负责还原.",
+      "key_insights": [
+        "friend-as-the-gig — \"No strangers\" is solved by filming people you already have. The caption says it first.",
+        "comment-constraints-as-prompt — Danmaku wishes become the model brief. The match is the bit.",
+        "ai-as-gig-playbook — 阿宝 is a job board plus SOP: doll sofa, Siamese diet, one-line star talk.",
+        "seven-hall-loop — Roadshow labor is the same sentence until the halls run out."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "friend-as-the-gig",
+          "title": "Friend as the Gig"
+        },
+        {
+          "slug": "comment-constraints-as-prompt",
+          "title": "Comment Constraints as Prompt"
+        },
+        {
+          "slug": "ai-as-gig-playbook",
+          "title": "AI as Gig Playbook"
+        },
+        {
+          "slug": "seven-hall-loop",
+          "title": "Seven-Hall Loop"
+        },
+        {
+          "slug": "retry-the-bit",
+          "title": "Retry the bit",
+          "e": "🔁"
+        },
+        {
+          "slug": "scalable-side-hustle-vs-time-trade",
+          "title": "Scalable Side Hustle vs Time-Trade",
+          "e": "⏳"
+        }
+      ],
+      "conceptCount": 6,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/05d5e0617cc44058bb9e501177060e33c17afd13.jpg"
+    },
     {
       "slug": "become-the-dragon-ai-giants",
       "title": "终成恶龙？AI巨头之间的爱恨情仇……【星之光01】",
@@ -295,9 +362,24 @@
         {
           "slug": "dont-know-the-uniform",
           "title": "Don't know the uniform"
+        },
+        {
+          "slug": "uneven-life-value-curve",
+          "title": "Uneven life-value curve",
+          "e": "📉"
+        },
+        {
+          "slug": "life-calendar-weeks",
+          "title": "Life Calendar (Weeks)",
+          "e": "📦"
+        },
+        {
+          "slug": "stage-bound-importance",
+          "title": "Stage-bound importance",
+          "e": "🍭"
         }
       ],
-      "conceptCount": 4,
+      "conceptCount": 7,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/776d5257ff06fa8108d8cef409edb624b93c6aaa.jpg"
     },
     {
@@ -1402,6 +1484,69 @@
       "conceptCount": 7
     },
     {
+      "slug": "part-time-challenge-ai-three-jobs",
+      "title": "兼职挑战！！挑战AI让我尝试的3个职业！！",
+      "video_id": "BV1vybN6UEaX",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1vybN6UEaX/",
+      "duration_min": 17,
+      "creator": "yu-ge-dao-chu-pao",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "human",
+      "tags": [
+        "bilibili",
+        "ai",
+        "side-hustle",
+        "comedy"
+      ],
+      "keywords": [
+        "bilibili",
+        "ai",
+        "side hustle",
+        "comedy",
+        "yu ge dao chu pao",
+        "Three Constraint Job Prompt",
+        "Model as Side Job Broker",
+        "Friend Graph as Job Sandbox",
+        "Joke Wage Is the Receipt",
+        "roadshow loop as job",
+        "AI as Teammate",
+        "Scalable Side Hustle vs Time Trade"
+      ],
+      "summary": "雨哥到处跑 (~17 min, Bilibili, ~2.58M, 8 Sept 2026) is a constraint-to-gig vlog, not a hiring proof. College tape first: band gigs, architectural renders, a design scheme. Then the room votes. He collapses the comments into three wishes — no stranger contact, interest-adjacent, time free, nobody managing you — and pastes that into 阿宝 / 豆包. The model returns a Shanghai menu (warehouse QC, pet-wash, cinema backstage, organizer at ¥100–200/hr, walk-and-feed ¥30–60). He picks three. Official desc tells on the bit: 都是找的自己的朋友帮忙. 开拓思路.\n\nJob one is friend-graph-as-job-sandbox at 陈泽宇's. Dolls, wigs, leftover takeout. 豆包's keepers: clear bins, grid wall, hang rods, then the one he buys — stuff 奇卡瓦 into a clear lazy sofa so it is both display and seat. He restacks bags, parks the mail, will not say where the rest went. Pay is a Macau gold-coin box (joke-wage-is-the-receipt). Job two is Siamese feed (皮旦 / 椰保). Model line: 猫中之狗, high protein, low allergen, krill floss. They eat his hand clean. Invoice: ¥0.11 plus 蚂蚁森林 energy. Job three is staff on the *数到三* roadshow (惠英红 / 张宥浩 / 李健 / 黄子弘凡; 法老 as 保安). Seven halls. Same intro every door. He calls it 恐怖游轮 (roadshow-loop-as-job). 豆包: treat the star as a special client; keep one backup line. He Qs a leftover mobile-game meet with 黄子弘凡. 黄: one word and I will talk for an hour.\n\nClose is the tell. The three constraints are not impossible. Ask 阿宝. Next suggestion is 剧本杀编剧 (下一个世界 horror reel). Then he dumps the sofa: 只负责收纳, 不负责还原. AI-zh smears 阿宝, 收纳湿, 陈振宇/陈正宇, 仙罗猫, 张永浩→张宥浩.",
+      "key_insights": [
+        "three-constraint-job-prompt — Title is not the ask. The three audience wishes *are* the prompt.",
+        "model-as-side-job-broker — 豆包 as menu plus how-to: sofa, Siamese diet, star-as-client.",
+        "friend-graph-as-job-sandbox — First clients are already in the WeChat. The clip is a thought-opener, not a shift.",
+        "joke-wage-is-the-receipt — Macau coins / ¥0.11 / ant-forest. Comedy pay. The channel is the wage.",
+        "roadshow-loop-as-job — Same two sentences, next hall. Escape the loop by changing rooms, not lines.",
+        "Inverse of scalable-side-hustle-vs-time-trade — the three gigs are hourly. The upload is the uncapped product.",
+        "Same coach-the-model move as ai-as-teammate, used on a job list."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "three-constraint-job-prompt",
+          "title": "Three-Constraint Job Prompt"
+        },
+        {
+          "slug": "model-as-side-job-broker",
+          "title": "Model as Side-Job Broker"
+        },
+        {
+          "slug": "friend-graph-as-job-sandbox",
+          "title": "Friend Graph as Job Sandbox"
+        },
+        {
+          "slug": "joke-wage-is-the-receipt",
+          "title": "Joke Wage Is the Receipt"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/05d5e0617cc44058bb9e501177060e33c17afd13.jpg"
+    },
+    {
       "slug": "pressure-monster-can-die",
       "title": "压力怪给老子死",
       "video_id": "BV19R4y1r73j",
@@ -1506,10 +1651,10 @@
         "reaction",
         "singer",
         "rozette",
-        "audience vote is the rubric",
-        "hold the signature color",
-        "live is the risk",
-        "taste gap not skill gap",
+        "Audience Vote Is the Rubric",
+        "Hold the Signature Color",
+        "Live Is the Risk",
+        "Taste Gap Not Skill Gap",
         "Live Unassisted as Compliment",
         "Voice Is Tissue"
       ],
@@ -1522,9 +1667,45 @@
         "taste-gap-not-skill-gap — Chinese ballots still ranked Western #1–2. Taste arrived. The training OS did not.",
         "Strip extras to hear the person — Coach bias: fewer effects, more honest sound. She names it as preference."
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0,
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "audience-vote-is-the-rubric",
+          "title": "Audience Vote Is the Rubric",
+          "e": "🗳️"
+        },
+        {
+          "slug": "hold-the-signature-color",
+          "title": "Hold the Signature Color",
+          "e": "🎹"
+        },
+        {
+          "slug": "live-is-the-risk",
+          "title": "Live Is the Risk",
+          "e": "🎤"
+        },
+        {
+          "slug": "taste-gap-not-skill-gap",
+          "title": "Taste Gap Not Skill Gap",
+          "e": "🌍"
+        },
+        {
+          "slug": "live-unassisted-as-compliment",
+          "title": "Live Unassisted as Compliment",
+          "e": "🎤"
+        },
+        {
+          "slug": "voice-is-tissue",
+          "title": "Voice Is Tissue",
+          "e": "🩸"
+        },
+        {
+          "slug": "five-vocal-foundations",
+          "title": "Five Vocal Foundations",
+          "e": "🎶"
+        }
+      ],
+      "conceptCount": 7,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/5ba80e396bfbf925bb99809d557aac71aaf23273.jpg"
     },
     {
