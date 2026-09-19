@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 258,
-  "insightsCount": 252,
-  "conceptCount": 2538,
+  "videoCount": 259,
+  "insightsCount": 253,
+  "conceptCount": 2542,
   "sections": [
     {
       "id": "architecture",
@@ -53,7 +53,7 @@
   "sectionCounts": {
     "architecture": 3,
     "agents": 52,
-    "systems": 13,
+    "systems": 14,
     "build": 40,
     "human": 12,
     "performance": 48,
@@ -62,6 +62,69 @@
     "other": 14
   },
   "videos": [
+    {
+      "slug": "cursors-github-replacement",
+      "title": "Cursor's Github Replacement",
+      "video_id": "AFQW-b2WaRU",
+      "url": "https://youtu.be/AFQW-b2WaRU",
+      "duration_min": 13,
+      "creator": "the-primeagen",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "theprimeagen",
+        "git",
+        "cursor",
+        "infrastructure"
+      ],
+      "keywords": [
+        "theprimeagen",
+        "git",
+        "cursor",
+        "infrastructure",
+        "the primeagen",
+        "Packfile Hosting Tax",
+        "Spokes Three Phase Replication",
+        "Tail at Scale Writes",
+        "WAL as Git Truth"
+      ],
+      "summary": "the-primeagen (~13 min, auto-generated English captions) recaps vicent-marti's Cursor blog *Git at any scale* (Aug 18 2026). Opener is Git's first-commit tagline: \"the information manager from hell.\" The question is not \"can I host Git\" but why every engineer who thinks they can is wrong. Disclosure: Cursor live events and free tokens; this recap is not a paid ask. Linear mid-roll.\n\nGit objects: a commit SHA points at a tree (directory); trees point at trees and blobs (files). Package them and you have a packfile — the wire format for fetch/push/pull. To know \"this file at this commit\" you walk commit → root → subtree → blob. A Git server must speak packfiles to clients.\n\nThe obvious fix is a KV store (SHA → object). That dies on the DAG: each hop is a round trip, and a big repo can do thousands just to materialize a commit. google tried it (Shawn Pearce / JGit DHT). Clone was too slow. They abandoned it. Distributed filesystems (NFS, GFS, DRBD) hit the same wall: packfiles are delta-packed with no DAG-to-disk locality.\n\ngithub's 2013 answer is spokes-three-phase-replication: keep real Git repos on local NVMe, replicate at the packfile layer, stay fully consistent. Minimum three machines per repo plus a routing table. Reads go to any replica. Writes: fan out the pack, then prepare / lock / commit (three-phase). That is the industry standard. It makes CI reads easy and writes worse as the repo gets popular.\n\ntail-at-scale-writes is the math. Four requests per node. Five replicas → 20 waits → ~18% chance of hitting a P99 on the path. A viral repo (he uses DeepSeek) with many replicas can be 200 waits → ~86% chance of a long path. Reads stay fast. Writes get slower the more you scale them.\n\nCursor's engine is Continuity behind the Origin host. Source of truth is a wal-as-git-truth on S3, not the disks. Any node can rebuild from the log. Rendezvous hashing picks a preferred machine; if that machine is gone, the next one materializes the repo. No quorum vote. No three idle replicas for every new repo. He says 25M repos/month do not need three machines each — they can have one, or zero, until someone fetches. Compaction (many packfiles → one) is Git maintenance he did not know existed. He quotes ~16k commits/min; Martí's post is 120 pushes/s on S3 Standard and 300+ on S3 Express One Zone. Close: he feels smarter and still thinks he could build it. \"Truly the problem of confidence.\"",
+      "key_insights": [
+        "Hosting Git is hard because of packfiles, not because SHA lookup is hard",
+        "Commit → tree → blob is a walk. You cannot random-access a file at a commit",
+        "KV-by-SHA fails. Sequential DAG hops × network = clone death; Google abandoned it",
+        "Spokes is the industry default. NVMe copies + 3PC + routing table; reads cheap, writes scale badly",
+        "Tail at scale is the write tax. More replicas → more waits → P99 becomes the common path",
+        "Continuity flips truth to S3. WAL + rendezvous hash; disks are a warm cache",
+        "Idle repos can have zero replicas. Materialize on fetch; no three-machine floor",
+        "Origin is the product; Continuity is the storage. The video title is the GitHub replacement; the blog name is *Git at any scale*"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "packfile-hosting-tax",
+          "title": "Packfile Hosting Tax",
+          "e": "📦"
+        },
+        {
+          "slug": "spokes-three-phase-replication",
+          "title": "Spokes Three-Phase Replication",
+          "e": "🔱"
+        },
+        {
+          "slug": "tail-at-scale-writes",
+          "title": "Tail at Scale Writes",
+          "e": "🐢"
+        },
+        {
+          "slug": "wal-as-git-truth",
+          "title": "WAL as Git Truth",
+          "e": "🪵"
+        }
+      ],
+      "conceptCount": 4
+    },
     {
       "slug": "i-cant-believe-this-happening",
       "title": "I can’t believe this happening",
