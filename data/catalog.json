@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 267,
+  "videoCount": 268,
   "insightsCount": 261,
-  "conceptCount": 2579,
+  "conceptCount": 2583,
   "sections": [
     {
       "id": "architecture",
@@ -53,7 +53,7 @@
   "sectionCounts": {
     "architecture": 3,
     "agents": 52,
-    "systems": 15,
+    "systems": 16,
     "build": 40,
     "human": 12,
     "performance": 50,
@@ -335,6 +335,47 @@
         }
       ],
       "conceptCount": 7
+    },
+    {
+      "slug": "sino-vietnamese-war-secrets-episode-1",
+      "title": "爆肝六个月！40万字详解对越自卫反击战秘闻，我们对越南都做了什么？【对越自卫反击战第1期】",
+      "video_id": "BV1WnbG6EENE",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1WnbG6EENE/",
+      "duration_min": 50,
+      "creator": "yinghe-qidian",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "bilibili",
+        "history",
+        "geopolitics",
+        "sino-vietnamese-war"
+      ],
+      "keywords": [
+        "bilibili",
+        "history",
+        "geopolitics",
+        "sino vietnamese war",
+        "yinghe qidian",
+        "aid then enmity reversal",
+        "soviet vietnam treaty encirclement",
+        "limited punitive war",
+        "sino vietnamese war 1979"
+      ],
+      "summary": "应合起点 / 老奇 opens a planned 27-episode series on the 1979 Sino-Vietnamese War. This episode is the prelude through first barrage, not the 17–28 day campaign. Frame: 1978 China is encircled (Soviet troops in the north, Korea swing, India border, Diaoyu C2 even as the Japan treaty is signed) and Vietnam is the southern threat after ~30 years of Chinese aid.\n\nThe middle third is an aid-history brief: Stalin (1950) refuses Ho Chi Minh a Soviet advisory group and assigns Vietnam to China; Mao, four months after founding the PRC, agrees to unconditional aid; Chen Geng and later Wei Guoqing advise the anti-French war through Đông Khê and Dien Bien Phu; 1965–73 China sends air-defense, engineering, railway, minesweeping, and logistics units. After 1975 and Ho's death, Le Duan's line treats China as the main enemy, expels Hoa, and crowds the Guangxi–Yunnan border.\n\nThe close is the video's casus belli and launch: the 1 November 1978 Tinghao Mountain shooting, the 3 November Soviet–Vietnamese treaty, Deng's US/Japan signaling, Xu Shiyou's Guangxi plan, and the 17 February 1979 04:05 opening fire. The creator states ~400k characters of script and ~one year of research. Raw captions are Whisper; names below use standard historical forms.\n\nThis page records the video's narrative, not an independent military history.",
+      "key_insights": [
+        "aid-then-enmity-reversal — The episode's moral plot: China as sole large timely donor in the anti-French war (citing Hoàng Văn Hoan), then 320k+ Chinese personnel in the US war, then a postwar Vietnam that calls China the most dangerous enemy.",
+        "Advisor, not just crates — Chen Geng's Đông Khê / 围点打援 call and Wei Guoqing's Dien Bien Phu trench + AA package are the video's proof that the aid included command method, not only rifles.",
+        "soviet-vietnam-treaty-encirclement — 1978 is drawn as a north–south squeeze: ~500k Soviet troops / 54 divisions on the northern borders plus a 25-year Soviet–Vietnamese mutual-defense treaty and Cam Ranh as the southern base.",
+        "Tinghao as the filmed trigger — March 1978: marker 63 smashed; Vietnamese positions ~400 m into Chinese territory. 1 Nov: militia clash, then a planned volley from heights 1–2. Video numbers: 12 wounded, 6 killed on the spot, captives later executed; 47 prior protests that year.",
+        "limited-punitive-war — Deng's rule in this telling: hit, then withdraw; no occupation; a month-scale raid so a Soviet answer that needs ~six months of prep arrives late. Carter is told in the closed-door US visit; the public line in Japan is that China will teach a lesson.",
+        "Episode 1 stops at the first shell — Xu Shiyou's four Guangxi groups (41 / 42 / 55 / 43) and the Cao Bang / Lang Son arrows are shown; combat results are left for later episodes. The closer says the fighting lasted ten years and cost more than 10k Chinese lives (1979 campaign plus the 1979–89 border war, not separated here)."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "tens-of-yuan-world-class-products",
@@ -756,9 +797,29 @@
           "slug": "looksmaxxing-comparison-trap",
           "title": "Looksmaxxing Comparison Trap",
           "e": "🪞"
+        },
+        {
+          "slug": "lookism-unearned-benefits",
+          "title": "Lookism Unearned Benefits",
+          "e": "🚓"
+        },
+        {
+          "slug": "constructed-fashion-image",
+          "title": "Constructed Fashion Image",
+          "e": "📸"
+        },
+        {
+          "slug": "comparison-is-thief-of-joy",
+          "title": "Comparison Is the Thief of Joy",
+          "e": "🪞"
+        },
+        {
+          "slug": "image-powerful-and-superficial",
+          "title": "Image Powerful and Superficial",
+          "e": "👗"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 9
     },
     {
       "slug": "uk-may-break-up-but-probably-wont",
