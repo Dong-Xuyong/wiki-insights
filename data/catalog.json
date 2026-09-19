@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 289,
+  "videoCount": 290,
   "insightsCount": 282,
-  "conceptCount": 2716,
+  "conceptCount": 2718,
   "sections": [
     {
       "id": "architecture",
@@ -58,7 +58,7 @@
     "human": 15,
     "performance": 50,
     "mind": 32,
-    "relationships": 46,
+    "relationships": 47,
     "other": 31
   },
   "videos": [
@@ -1482,6 +1482,52 @@
       "thumbnail": "https://i2.hdslb.com/bfs/archive/8565b509c322ceb82ba1f2c3a7b326ef74f6e038.jpg"
     },
     {
+      "slug": "rozette-singer-2024-archive",
+      "title": "橘老师锐评《歌手2024》全系列终极补档！",
+      "video_id": "BV1g4V8zWERM",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1g4V8zWERM/",
+      "duration_min": 1097,
+      "creator": "rozette",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "relationships",
+      "tags": [
+        "bilibili",
+        "music",
+        "voice",
+        "reaction",
+        "singer"
+      ],
+      "keywords": [
+        "bilibili",
+        "music",
+        "voice",
+        "reaction",
+        "singer",
+        "rozette",
+        "audience vote is the rubric",
+        "hold the signature color",
+        "live is the risk",
+        "taste gap not skill gap",
+        "Live Unassisted as Compliment",
+        "Voice Is Tissue"
+      ],
+      "summary": "JKAI杰凯 (~18h17m, Bilibili, ~2.25M, May 2025) dumps the whole 橘老师 / Club Zero 歌手2024 run. AI-zh only covers the opening ~81 min (first-night watch with two sidekicks). English is the argument. Names smear: Foia/foo = 凡希亚; Shante/Shanay/Shantaio = 香缇莫; 光头男 is a prior grade, not a new ID.\n\nCold open is a member masterclass plug, then the room asks what the show even scores. Answer: 1,000 votes (500 in hall, 500 cloud). No head judge. audience-vote-is-the-rubric: apples and oranges. You pick three of seven after the last song.\n\nfaouzia sits at the piano. They like the humanity and the unexpected choices. The famous thick/agile color does not show. Song pick feels wrong for what she can do. Read: hold-the-signature-color — save it for later rounds. One of them calls the opera/key-change/bridge the house trick: study how this stage works, not what the market asked for.\n\nThe Douyin-viral original man (blue-collar grain, whisper then shout, still in tune) does not move them. Texture, not a song they can hold. After faouzia it feels small. Credit for staying on a hard effect; no charge. A mid-pack Chinese woman does the simple line: no agility, sloppy phrase ends, head voice instead of belt. Pitch is fine. \"This is what 90% of Chinese singers do.\" She would take extras off an artist to find the honest sound. That is a coach preference, not a verdict.\n\nAutotune fight: she hears a little live tuning as a safety net on a just-broadcast tape. She does not want to say it. She says it anyway. Commenters will pile on. Inverse of live-unassisted-as-compliment.\n\nchante-moore flips the room. Rich R&B, \"chocolate,\" whistle, hair flying. She retracts the lukewarm take. live-is-the-risk: a live set is a string of bets; a good singer lands almost all of them; a miss is still the point. \"I hope I'm there at 50.\" All three vote her #1. faouzia #2. Third is the person they least knew (no expectations, so no disappointment) — a protest vote, and they say so.\n\nClose is the gap, not the ranking. Chinese voters put two Western singers on top. taste-gap-not-skill-gap: what each market calls a \"prolific\" singer is not the same OS. Ears still want the Western color; the training path is the hole. Popularity is not technique. 韩红 saying she will \"defend honor\" is a category error if you send China's best at someone who is not America's best. Adam Lambert / Charlie Puth are named as incoming. JJ / 周深 / 何方 / Sophie / A-Lin are the Chinese names they would actually send. Every singer did the job. They do not like everyone.",
+      "key_insights": [
+        "audience-vote-is-the-rubric — 1,000 votes, no judge. Metric is \"did it move you.\"",
+        "hold-the-signature-color — faouzia kept the famous voice in the bag. That is a round strategy, not a miss they will forgive twice.",
+        "live-is-the-risk — chante-moore wins the room by betting. Perfect is the enemy of live.",
+        "Live tuning is the opposite compliment — A little auto on a \"just live\" upload breaks the trust live-unassisted-as-compliment was built on.",
+        "taste-gap-not-skill-gap — Chinese ballots still ranked Western #1–2. Taste arrived. The training OS did not.",
+        "Strip extras to hear the person — Coach bias: fewer effects, more honest sound. She names it as preference."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/5ba80e396bfbf925bb99809d557aac71aaf23273.jpg"
+    },
+    {
       "slug": "rozette-tao-zhe-what-happened",
       "title": "【高能泪目】国外声乐老师Reaction特别篇：陶喆怎么了？",
       "video_id": "BV1Wm4y1879u",
@@ -1522,31 +1568,46 @@
       "concepts": [
         {
           "slug": "live-unassisted-as-compliment",
-          "title": "Live Unassisted as Compliment"
+          "title": "Live Unassisted as Compliment",
+          "e": "🎤"
         },
         {
           "slug": "falsetto-on-purpose-not-failure",
-          "title": "Falsetto on Purpose, Not Failure"
+          "title": "Falsetto on Purpose, Not Failure",
+          "e": "🪶"
         },
         {
           "slug": "same-song-years-apart",
-          "title": "Same Song, Years Apart"
+          "title": "Same Song, Years Apart",
+          "e": "⏪"
         },
         {
           "slug": "voice-is-tissue",
-          "title": "Voice Is Tissue"
+          "title": "Voice Is Tissue",
+          "e": "🩸"
         },
         {
           "slug": "lower-the-key-serve-the-song",
-          "title": "Lower the Key, Serve the Song"
+          "title": "Lower the Key, Serve the Song",
+          "e": "🎹"
         },
         {
           "slug": "eighty-eight-keys-voice",
           "title": "88 Keys (Voice)",
           "e": "🎹"
+        },
+        {
+          "slug": "five-vocal-foundations",
+          "title": "Five Vocal Foundations",
+          "e": "🎶"
+        },
+        {
+          "slug": "uneven-life-value-curve",
+          "title": "Uneven life-value curve",
+          "e": "📉"
         }
       ],
-      "conceptCount": 6,
+      "conceptCount": 8,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/744ecfd91255d52527e0fb3289b89bc4bc531f02.jpg"
     },
     {
