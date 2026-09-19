@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 287,
+  "videoCount": 288,
   "insightsCount": 280,
-  "conceptCount": 2700,
+  "conceptCount": 2709,
   "sections": [
     {
       "id": "architecture",
@@ -58,7 +58,7 @@
     "human": 15,
     "performance": 50,
     "mind": 32,
-    "relationships": 45,
+    "relationships": 46,
     "other": 31
   },
   "videos": [
@@ -510,15 +510,18 @@
       "concepts": [
         {
           "slug": "inland-not-geographic-destiny",
-          "title": "Inland Not Geographic Destiny"
+          "title": "Inland Not Geographic Destiny",
+          "e": "🗺️"
         },
         {
           "slug": "spoil-as-new-plain",
-          "title": "Spoil as New Plain"
+          "title": "Spoil as New Plain",
+          "e": "🌾"
         },
         {
           "slug": "water-saving-lock-stack",
-          "title": "Water-Saving Lock Stack"
+          "title": "Water-Saving Lock Stack",
+          "e": "💧"
         },
         {
           "slug": "china-infrastructure-outbuilding-us",
@@ -643,14 +646,14 @@
         "openai",
         "number theory",
         "li yong le",
-        "finite gap not twin",
-        "polymath gap compression",
-        "follow the new road",
-        "wait for the deer",
+        "Finite Gap, Not Twin",
+        "Polymath Gap Compression",
+        "Follow the New Road",
+        "Wait for the Deer",
         "Mathematical Superintelligence",
         "Play a bad hand well"
       ],
-      "summary": "李永乐 (~21 min, Bilibili) uses an OpenAI headline as the classroom door, then spends the hour on what the headline is not. Claim: GPT-6 proved there are infinitely many adjacent primes with gap ≤ 186. Twin prime wants gap 2. The 186 is a smaller *finite* ceiling, not the conjecture. AI-zh smears 张义堂 / 张一堂 / 张玉堂 → 张益唐; 施泰德尔曼 → julia-stadlmann; 普通大学 → Purdue; 等录来 → 等鹿来; 余信 → 庾信.\n\nCold open is the 2026 week. Zhang (2013): gap ≤ 70 million. 陶哲轩 Polymath + james-maynard (he names 梅纳德): 70M → 4680 → 600 → 246, then years of stall. Aug 31: Stadlmann opens a new road to 240. \"仅仅三天后\" the model follows to 186. (OpenAI's writeup dates 30 Aug and calls Stadlmann concurrent. File 李's clock; do not flatten the papers.)\n\nThe lecture is the stack under the news. Euclid: infinitely many primes. Twin: infinitely many p, p+2. Polignac: any even 2k. Hardy–Littlewood: a counting formula that would imply twins if true. GPY (2005) is the first *theorem*: gaps grow slower than c log p for any c > 0. Classroom line: one hair from twins. Then: that method is a dead end. You have to change the tool.\n\nSecond half is the life that produced the finite number. Cultural Revolution, Jiangxi labor, 1978 PKU, Purdue under 莫宗坚, Jacobi paper on a bad lemma, no recommendation letter, eight years of dishes / motel / car. 1999: Intel friend → UNH lecturer. Backyard: no deer, a GPY tweak. *Annals* 17 Apr 2013; editor thought 民科; three-week accept (usual: a year). MacArthur. Closer: Tao's olympiad clock vs Zhang at 58 still a lecturer. Du Fu: 庾信平生最萧瑟，暮年诗赋动江关. Next tape: Landau–Siegel zeros.",
+      "summary": "李永乐 (~21 min, Bilibili) uses an OpenAI headline as the classroom door, then spends the hour on what the headline is not. Claim: GPT-6 proved there are infinitely many adjacent primes with gap ≤ 186. Twin prime wants gap 2. The 186 is a smaller *finite* ceiling, not the conjecture. AI-zh smears 张义堂 / 张一堂 / 张玉堂 → 张益唐; 施泰德尔曼 → julia-stadlmann; 普通大学 → Purdue; 等录来 → 等鹿来; 余信 → 庾信.\n\nCold open is the 2026 week. Zhang (2013): gap ≤ 70 million. 陶哲轩 Polymath + Maynard (梅纳德): 70M → 4680 → 600 → 246, then years of stall. Aug 31: Stadlmann opens a new road to 240. \"仅仅三天后\" the model follows to 186. (OpenAI's writeup dates 30 Aug and calls Stadlmann concurrent. File 李's clock; do not flatten the papers.)\n\nThe lecture is the stack under the news. Euclid: infinitely many primes. Twin: infinitely many p, p+2. Polignac: any even 2k. Hardy–Littlewood: a counting formula that would imply twins if true. GPY (2005) is the first *theorem*: gaps grow slower than c log p for any c > 0. Classroom line: one hair from twins. Then: that method is a dead end. You have to change the tool.\n\nSecond half is the life that produced the finite number. Cultural Revolution, Jiangxi labor, 1978 PKU, Purdue under 莫宗坚, Jacobi paper on a bad lemma, no recommendation letter, eight years of dishes / motel / car. 1999: Intel friend → UNH lecturer. Backyard: no deer, a GPY tweak. *Annals* 17 Apr 2013; editor thought 民科; three-week accept (usual: a year). MacArthur. Closer: Tao's olympiad clock vs Zhang at 58 still a lecturer. Du Fu: 庾信平生最萧瑟，暮年诗赋动江关. Next tape: Landau–Siegel zeros.",
       "key_insights": [
         "finite-gap-not-twin — 186 / 240 / 70M are the same *kind* of theorem. Twin prime is still open.",
         "polymath-gap-compression — After Zhang, the work is squeezing N. 246 held for years.",
@@ -659,8 +662,35 @@
         "GPY hair — Bounded by c log p felt one step from 2. The method was already maxed."
       ],
       "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0,
+      "concepts": [
+        {
+          "slug": "finite-gap-not-twin",
+          "title": "Finite Gap, Not Twin"
+        },
+        {
+          "slug": "polymath-gap-compression",
+          "title": "Polymath Gap Compression"
+        },
+        {
+          "slug": "follow-the-new-road",
+          "title": "Follow the New Road"
+        },
+        {
+          "slug": "wait-for-the-deer",
+          "title": "Wait for the Deer"
+        },
+        {
+          "slug": "mathematical-superintelligence",
+          "title": "Mathematical Superintelligence",
+          "e": "🧮"
+        },
+        {
+          "slug": "play-a-bad-hand-well",
+          "title": "Play a bad hand well",
+          "e": "🃏"
+        }
+      ],
+      "conceptCount": 6,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/204a9fab63c3d00159e4bbca33399d642fe832a1.jpg"
     },
     {
@@ -1386,6 +1416,61 @@
       ],
       "conceptCount": 7,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/8565b509c322ceb82ba1f2c3a7b326ef74f6e038.jpg"
+    },
+    {
+      "slug": "rozette-tao-zhe-what-happened",
+      "title": "【高能泪目】国外声乐老师Reaction特别篇：陶喆怎么了？",
+      "video_id": "BV1Wm4y1879u",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Wm4y1879u/",
+      "duration_min": 41,
+      "creator": "rozette",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "relationships",
+      "tags": [
+        "bilibili",
+        "music",
+        "voice",
+        "reaction"
+      ],
+      "keywords": [
+        "bilibili",
+        "music",
+        "voice",
+        "reaction",
+        "rozette",
+        "Live Unassisted as Compliment",
+        "Falsetto on Purpose, Not Failure",
+        "Same Song, Years Apart",
+        "voice is tissue",
+        "lower the key serve the song"
+      ],
+      "summary": "Rozette / 橘老师 (~41 min, Bilibili, May 2023, ~4.4M) is shown 陶喆 clips newest first. She does not know the catalog. She hears one man get younger. AI-zh captions smear lyrics; her English is the argument.\n\nCold open is later tao-zhe: voice is beautiful, a few notes sit slightly off. That is the compliment. Off-pitch means live-unassisted-as-compliment — live, no track holding him. Skills are obvious. Riffs and landings are not. The body is doing more than the voice. Spaces a singer could fill with runs stay empty.\n\nThe tape walks back. Mid clips already sit higher, freer, more sparkle. He seems to sing live every time. Imperfect over fake. Then the same song younger: full voice stays connected; no flip; pitch is stabler. A later clip used falsetto because the thick place failed. A younger clip uses the thin place on purpose. That split is falsetto-on-purpose-not-failure. Blue-note bends stay; the ear was always good.\n\nsame-song-years-apart is the sobering machine. Same melody, years between. She gets afraid of aging as a singer. Sleep. Do not yell. The industry is hard on tissue. Younger tao-zhe is relaxed: details hide inside a simple line; vibrato is a decision; register changes you cannot hear; guitar in hand. She guesses songwriter from how he moves with the other player.\n\nClose is the coach talking to herself. Voice is voice-is-tissue. Years take the sparkly top even if you were careful. Touring makes water / no-scream / sleep hard. Ego wants the old key. She dropped Beyoncé *Listen* one semitone so the take stayed bold. That is lower-the-key-serve-the-song. Talent did not leave. The body changed. Serve the song, not the memory of the note.",
+      "key_insights": [
+        "live-unassisted-as-compliment — A little sharp/flat is the receipt that nobody is holding the pitch.",
+        "falsetto-on-purpose-not-failure — Thin place is legal only as art. Illegal as escape.",
+        "same-song-years-apart — One chart, two ages. The delta is the lesson.",
+        "voice-is-tissue — Blood and muscle. The top notes go. Care delays; it does not cancel.",
+        "lower-the-key-serve-the-song — One semitone is not surrender. Ego is."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "live-unassisted-as-compliment",
+          "title": "Live Unassisted as Compliment"
+        },
+        {
+          "slug": "falsetto-on-purpose-not-failure",
+          "title": "Falsetto on Purpose, Not Failure"
+        },
+        {
+          "slug": "same-song-years-apart",
+          "title": "Same Song, Years Apart"
+        }
+      ],
+      "conceptCount": 3,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/744ecfd91255d52527e0fb3289b89bc4bc531f02.jpg"
     },
     {
       "slug": "second-uncle-cured-jingshen-neihuo",
