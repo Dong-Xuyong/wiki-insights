@@ -56,11 +56,16 @@ page in the vault — the same rule Wiki Flashcards uses — so both apps always
 which concepts belong to which video. The build prints concepts a source page claims
 under `## Concepts` that do not link back, so gaps get fixed in the vault.
 
-### Permanently ingest a new YouTube URL into the wiki
+### Permanently ingest a YouTube or Bilibili URL into the wiki
 
 ```bash
 python scripts/create_wiki_insights_from_url.py "https://youtu.be/VIDEO_ID" --sync
+python scripts/create_wiki_insights_from_url.py "https://www.bilibili.com/video/BV..." --sync
 ```
+
+Bilibili ingestion uses official captions when available, then downloads audio and
+transcribes it with `faster-whisper`. A logged-in Firefox profile (or
+`BILIBILI_SESSDATA` in `.env`) is required.
 
 ## Run locally
 

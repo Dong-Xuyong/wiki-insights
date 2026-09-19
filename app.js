@@ -314,6 +314,16 @@
     return `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
   }
 
+  function bilibiliEmbedSrc(videoId) {
+    const params = new URLSearchParams({
+      bvid: videoId,
+      page: "1",
+      high_quality: "1",
+      danmaku: "0",
+    });
+    return `https://player.bilibili.com/player.html?${params.toString()}`;
+  }
+
   function bindResumePlayer(videoId, startAt) {
     ytPlayerVideoId = videoId;
     ensureYouTubeAPI().then((YT) => {
@@ -655,8 +665,17 @@
     return null;
   }
 
+  function extractBilibiliId(input) {
+    const match = String(input || "").trim().match(/BV[0-9A-Za-z]{10}/);
+    return match ? match[0] : null;
+  }
+
+  function extractAnyVideoId(input) {
+    return extractVideoId(input) || extractBilibiliId(input);
+  }
+
   function findByUrlOrId(input) {
-    const id = extractVideoId(input);
+    const id = extractAnyVideoId(input);
     const videos = allVideos();
     if (id) {
       const hit = videos.find((v) => v.video_id === id);
@@ -1269,7 +1288,7 @@
     });
     input.addEventListener("keydown", (e) => {
       if (e.key !== "Enter") return;
-      const id = extractVideoId(input.value);
+      const id = extractAnyVideoId(input.value);
       if (id) {
         e.preventDefault();
         handleIncomingUrl(input.value);
@@ -1512,13 +1531,16 @@
     currentVideo = v;
     panel = "insights";
     const startAt = v.video_id ? getSavedSeconds(v.video_id) : 0;
+    const isBilibili = v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
     const progress = catalogProgress(v, loadProgressMap());
     const showResumeBar = startAt >= RESUME_MIN_SEC || progress.done;
     root.innerHTML = `
       <div class="player-wrap">
         ${
           v.video_id
-            ? `<iframe id="yt-player" src="${esc(youtubeEmbedSrc(v.video_id, startAt))}" title="${esc(
+            ? `<iframe ${isBilibili ? "" : 'id="yt-player"'} src="${esc(
+                isBilibili ? bilibiliEmbedSrc(v.video_id) : youtubeEmbedSrc(v.video_id, startAt)
+              )}" title="${esc(
                 v.title
               )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             : `<div class="missing-insights">No video id</div>`
@@ -1545,7 +1567,7 @@
         );
       });
     });
-    if (v.video_id) {
+    if (v.video_id && !isBilibili) {
       bindResumeBar(v.video_id);
       bindResumePlayer(v.video_id, startAt);
     }
@@ -1773,7 +1795,14 @@
       await createFromYoutube(value);
       return;
     }
-    toast("Paste a YouTube URL");
+    const bvid = extractBilibiliId(value);
+    if (bvid) {
+      root.innerHTML = `<div class="empty">Bilibili transcription runs in the vault so it can use browser cookies and Whisper.<br/><br/><code>python scripts/create_wiki_insights_from_url.py "https://www.bilibili.com/video/${esc(
+        bvid
+      )}/" --sync</code></div>`;
+      return;
+    }
+    toast("Paste a YouTube or Bilibili URL");
   }
 
   async function route({ focusView = false } = {}) {
