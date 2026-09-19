@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 273,
+  "videoCount": 274,
   "insightsCount": 267,
-  "conceptCount": 2625,
+  "conceptCount": 2627,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 20
+    "other": 21
   },
   "videos": [
     {
@@ -434,6 +434,59 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "is-tech-developing-too-fast",
+      "title": "只有我一个人觉得科技发展有点太快了吗",
+      "video_id": "BV1fP411Y7gs",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1fP411Y7gs/",
+      "duration_min": 4,
+      "creator": "jiao-wo-si-gai",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "tech",
+        "daily-life",
+        "ai",
+        "privacy"
+      ],
+      "keywords": [
+        "bilibili",
+        "tech",
+        "daily life",
+        "ai",
+        "privacy",
+        "jiao wo si gai",
+        "Mars–metro gap",
+        "Shout human to escape bot",
+        "screen sharp life blur",
+        "Human connection economic asset",
+        "Live Experience Renaissance",
+        "Loneliness Kills"
+      ],
+      "summary": "叫我死盖就好 (~4 min, Bilibili, ~10M views, AI-zh captions). Thesis: headline tech and lived life are not on the same planet. Musk sells Mars 2026. Chengdu promises a metro in 2026. He still cannot tell Bitcoin from Q-coin, or 5G from 4G except \"faster, more expensive.\" Tech did not make him freer. It made him busier.\n\nCustomer service is the demo. He begs AI to replace \"废物\" jobs first, not CS. Every line is a bot: speak the problem, pick a card that does not fix it. Operator move: ignore the menu, shout 人工 until transfer, or tap 投诉. iPhone 14 Pro is 装逼; he already fears the day he cannot work a phone. Dinner QR wants a phone number; the room already agreed, so he agrees. Punchline: if the next scan wants an ID plus a nude selfie, he would still tap 同意.\n\nThe \"benefit\" bit is a joke: late-night Douyin → Quark → WeChat pay, and 流畅播 as \"21st-century greatest invention\" (until the app flags 违规 and he threatens to cancel auto-renew). Then the real cost: someone AI-swapped his face onto adult content (as the woman). Copy-upload plus 国产自拍; he is the 韭菜. He reports it. Close: screens get sharper; faces in life get blurrier. Scan-to-order and robot waiters raise speed and cut distance. Ask: if you see \"him\" on those sites, report it — he cannot explain that clip to his parents.\n\nAI-zh garbles a few punchlines (流畅波 / 流畅博). Numbers and the Mars/metro gag are his.",
+      "key_insights": [
+        "mars-metro-gap — Mars 2026 vs 成都地铁 2026. Same year, not the same planet. BTC/Q-coin and 5G/4G are the same gap.",
+        "shout-human-to-escape-bot — Bot CS is busywork. Shout 人工 or hit 投诉. Don't replace the one job that still needs a person.",
+        "Herd 同意 — QR dinner → phone. Next ask can be worse. He would still tap yes.",
+        "screen-sharp-life-blur — Clearer pixels, blurrier people. The AI face-crop is the proof: his face is sharp on a site he did not make."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "mars-metro-gap",
+          "title": "Mars–metro gap"
+        },
+        {
+          "slug": "shout-human-to-escape-bot",
+          "title": "Shout human to escape bot"
+        }
+      ],
+      "conceptCount": 2,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/da265d9ef49985af4f18b20727e9eaae4fcd2f15.jpg"
     },
     {
       "slug": "life-error-tolerance-higher-than-you-think",
