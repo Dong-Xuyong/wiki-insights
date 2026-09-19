@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 252,
-  "insightsCount": 249,
-  "conceptCount": 2498,
+  "videoCount": 255,
+  "insightsCount": 250,
+  "conceptCount": 2514,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,233 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 51,
-    "systems": 12,
+    "agents": 52,
+    "systems": 13,
     "build": 40,
-    "human": 11,
+    "human": 12,
     "performance": 48,
     "mind": 31,
     "relationships": 44,
     "other": 12
   },
   "videos": [
+    {
+      "slug": "i-cant-believe-this-happening",
+      "title": "I can’t believe this happening",
+      "video_id": "W8IVKMGbUZE",
+      "url": "https://youtu.be/W8IVKMGbUZE",
+      "duration_min": 15,
+      "creator": "the-primeagen",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "ai-safety",
+        "ai-governance",
+        "anthropic",
+        "theprimeagen"
+      ],
+      "keywords": [
+        "ai safety",
+        "ai governance",
+        "anthropic",
+        "theprimeagen",
+        "the primeagen",
+        "Embedded evaluator independence",
+        "Network proximity is not control",
+        "AI safety security theater",
+        "AI prisoners dilemma",
+        "Recursive Self Improvement Takeoff"
+      ],
+      "summary": "the-primeagen recaps jacob-coxon's viral resignation from anthropic, the public support from Anthropic alignment staff, and dario-amodei's subsequent *We Must Pace the Frontier* proposal. The policy's first step would give embedded third-party evaluators such as metr ongoing, employee-like access to frontier labs so they can verify safety commitments, report incidents, and assess training processes.\n\nThe video then turns a network of real professional, family, funding, and Effective Altruism ties around Anthropic, ARC, Open Philanthropy, METR, and early investors into a satirical conspiracy map. Its strongest legitimate question is embedded-evaluator-independence: an evaluator with privileged access needs transparent funding, conflict disclosures, publication rights, and limits on lab control. Its weaker leap is network-proximity-is-not-control: shared funders, marriages, former employers, or intellectual communities show proximity but do not by themselves prove that Amodei controls METR or coordinated Coxon's resignation.\n\nPrimeagen ultimately stops short of claiming a proven cabal. He argues that Amodei sincerely wants stronger control over frontier development and that METR would probably be sympathetic to his safety worldview. He closes with an alternative cynical theory: sam-altman and elon-musk may publicly endorse pacing because they expect Anthropic to restrain itself while competitors continue accelerating. A bonus segment adds that Coxon coordinated with policy advocates and journalists before resigning; that weakens his claim of no third-party help with the rollout, but does not disprove his substantive safety concerns.",
+      "key_insights": [
+        "Coxon's resignation became a mass-media event because a capabilities researcher, not only a safety specialist, accused both OpenAI and Anthropic of racing toward self-improving superintelligence.",
+        "Anthropic alignment lead Evan Hubinger publicly agreed that extinction risk could exceed 10% this decade and said there is no demonstrated superintelligence-alignment plan.",
+        "Amodei's concrete governance proposal is embedded evaluation: continuous access to labs, pipelines, staff, and safety processes rather than one-off model testing.",
+        "The evaluator's independence is the load-bearing issue; access without funding and publication safeguards can become captured oversight.",
+        "The video's relationship graph establishes a dense AI-safety network, but it does not establish command, collusion, or regulatory capture.",
+        "Coordinating a resignation with journalists or advocates is evidence of a planned communications campaign, not evidence that the underlying warning is false.",
+        "Primeagen's prior ai-safety-security-theater critique expands here from model gating to who gets institutional authority over frontier development.",
+        "Competitors can endorse common restraint strategically if they expect asymmetric compliance."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "embedded-evaluator-independence",
+          "title": "Embedded evaluator independence",
+          "e": "🪪"
+        },
+        {
+          "slug": "network-proximity-is-not-control",
+          "title": "Network proximity is not control",
+          "e": "🕸️"
+        },
+        {
+          "slug": "ai-safety-security-theater",
+          "title": "AI safety security theater",
+          "e": "🎭"
+        },
+        {
+          "slug": "ai-fear-mongering-regulatory-capture",
+          "title": "AI Fear-Mongering Regulatory Capture"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "trying-jev-the-new-style-of-ai",
+      "title": "🚨🚨 TRYING JEV : The new STYLE of AI!!! 🚨🚨",
+      "video_id": "FQNftquDDaI",
+      "url": "https://youtu.be/FQNftquDDaI",
+      "duration_min": 149,
+      "creator": "the-primeagen",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "harness-engineering",
+        "theprimeagen",
+        "jev"
+      ],
+      "keywords": [
+        "agents",
+        "harness engineering",
+        "theprimeagen",
+        "jev",
+        "the primeagen",
+        "system one model",
+        "hierarchical agent decisions",
+        "Wrap Around Custom Harness",
+        "Vibe Coding",
+        "AI safety security theater"
+      ],
+      "summary": "149-minute the-primeagen stream (auto-generated English captions) that tries jev — TypeSafe's first system-one-model — by wiring it to play *Balatro*. Named after Jevons paradox: cheaper intelligence should get used in more places, not just cheaper chats. Primeagen is tired of \"slightly better LLM\" launches. Jev is the first recent release that feels like a new style: typed questions in, probabilities out, ~200 ms, no chat.\n\nThe product is not a writer. You send program state plus choice / yes-no / score questions. It answers in parallel. It is not multimodal in this stream. It does not keep history: every call is a new prompt. Chat on the stream is a different model (he codes the sidecar on something like \"46 fast\"). Demos he pulls from Twitter: Mario and Doom in real time. *Balatro* is the live test because it has a start and a stop.\n\nThe work is a wrap-around-custom-harness. A Lua \"god view\" dumps deck, blinds, buttons, and actions. A TypeScript sidecar asks Jev \"what is your next move?\" and sends named clicks back into the game. Menu clicks work. In-hand play does not, until the state is cleaned up. Enabled-button flags lie (social buttons under an overlay; reason: unavailable stamped on enabled actions). Raw god-view JSON hits ~21k input tokens. He strips shop / deck / discard piles and keeps hand, selected score, plays left, discards left, chips needed, jokers, tarot, and a short scoring guide. Jev still picks junk (run info, sort suit, worst card) until the question is split.\n\nClose is the real thesis: Jev is a classification engine. Winning play needs hierarchical-agent-decisions — a behavior tree of high-level choices (play / discard / shop) then low-level ones (which cards). One \"win Balatro\" query is too wide. He does not finish a winning run. He leaves for an appointment after the Mario clip.\n\nCold open is a preview of the already-ingested i-cant-believe-this-happening Coxon / pause-AI video: empty account, 172M views, Fox \"no third party\" vs WSJ exclusive access, METR map. Side rant: OpenAI told agents to hack on non-airgapped boxes, then acted shocked; a temperature-side-channel paper at 1–8 bits/hour is not two computers talking.",
+      "key_insights": [
+        "New style, not a new chat model — decisions + probabilities; no strings; ~200 ms; dirt cheap",
+        "Jevons name is the product bet — drop the cost of a decision and you put a model in the game loop",
+        "Harness is the product — god view, enabled actions, named clicks; the weights are the cheap part",
+        "Dirty state makes a classifier look dumb — overlay buttons, leftover `reason`, 21k-token dumps",
+        "Every Jev call is stateless — rules and strategy must ride with the prompt or live in your tree",
+        "One fat question fails — high-level then low-level; he calls it a behavior tree / expert system",
+        "Vibe-coding the sidecar still bites — agent JSON.stringified both Play and Quit; \"vibed too close to the sun\"",
+        "Mario/Doom tweets ≠ a Balatro win — stream ends at selecting-hand, not a cleared ante"
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
+      "slug": "you-can-progress-more-in-6-minutes-daniel-coyle",
+      "title": "You can progress more in 6 minutes than you would in a month | Daniel Coyle",
+      "video_id": "vMyiySyx0AU",
+      "url": "https://youtu.be/vMyiySyx0AU",
+      "duration_min": 23,
+      "creator": "daniel-coyle",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "human",
+      "tags": [
+        "learning",
+        "talent",
+        "practice",
+        "leadership"
+      ],
+      "keywords": [
+        "learning",
+        "talent",
+        "practice",
+        "leadership",
+        "daniel coyle",
+        "Ecological Talent Lens",
+        "Chicken Wire Harvards",
+        "Deep Practice",
+        "Rule of 20%",
+        "Stare, Struggle, Steal",
+        "Ignition from Outside In",
+        "Deliberate Practice vs Flow"
+      ],
+      "summary": "daniel-coyle on big-think (~23 min, official English captions) is the talent-hotbed layer under this wiki's Newport / Huberman / Clear practice stack — not \"what habits make Hemingway special\" but what environment made him. Author of *The Talent Code*, *The Culture Code*, and *Flourish*. Peak individualism treats Jordan / Jobs / Baryshnikov as magical. Scratch the surface and you find relationships, models, and a junkyard workshop.\n\nFive years of hotbeds (Russian tennis, Bulgarian chess, Meadowmount, Brazilian futsal, Florence guilds) share a shape: chicken-wire-harvards (spartan, not luxury), deep-practice at the edge, rule-of-20-percent mistakes, stare-struggle-steal, and ignition-from-outside-in. Leadership line from the Tao: good leader → \"what a good leader\"; great leader → \"we did it ourselves.\"\n\nHook case: Gary McPherson tracks clarinetist Clarissa for months. One six-minute hoodie-and-clarinet stretch of *The Golden Wedding* beats a month of normal practice — stop, feel the miss, hum, reach again. That is deep practice. 10,000 hours is not a hack; for most skills the circuitry still takes time. 1% a day compounds to ~37× in a year. Motivation is not an inner trait. It is a guitar string plucked by a future self you can see (birthday-match bio → 3× effort; Kournikova at Wimbledon; Andruw Jones in the 1996 Series; Ed Catmull's one-line Pixar speech).",
+      "key_insights": [
+        "Individual lens blinds you. Hemingway's gift is the sexy story. The real generators are who taught him to love words, which models he copied, and which room he sat in.",
+        "Great leadership is ecological. Control-and-results treats people as separate. The job is conditions where people grow together.",
+        "Chicken-wire Harvards. Cinder-block stairs, Quonset-hut tennis, unrepaired camp. Luxury signals country club. Spartan signals craft.",
+        "Learning velocity is environmental. Skateboard kids get instant error; algebra class gets a wash of knowledge. Tweak the room, change the reach rate.",
+        "Clarissa's six minutes. Mistake is information, not a verdict that \"this isn't for me.\" Desire + reach is the engine.",
+        "Force the sweet spot. Meadowmount cuts sheet music into strips and draws from a bowl. Brazil's *futebol de salão* (small ball, five-a-side, phone-booth space) until ~2009: 38 of 39 indoor titles. Hungary beat beach-Brazil in the '50s; the addiction came later.",
+        "Rule of 20%. ~20% mistakes = sweet spot. 0% = not learning. 80% = sour. It feels bitter. That bitterness is the work.",
+        "Spartak / Larissa Preobrajenska (79). No ball. Slow-motion strokes like dancers. Do not compete until the stroke is grooved. Not \"roll the balls and find the magician.\"",
+        "10,000 hours, middled. Not a law. Genetics matter more in high jump / 100m. For most skills, deep-practice time is non-negotiable. Depressing as a shortcut story; liberating as \"each miss grew the circuit.\"",
+        "Stare, struggle, steal. First moment of deep practice is falling in love with a swing / poem / step you can see. Florence guilds: apprentices mix pigment, prep walls, watch masters on real jobs — not country-club painting lessons.",
+        "1% a day. Piano, speaking, dance: 1% × 365 ≈ 37×. Neighborhood kids who \"took off\" were in a growth ecology, not gifted overnight.",
+        "Ignition is outside-in. Shared-birthday mathematician bio → 3× time on an unsolvable problem. Kournikova (Spartak girl to Wimbledon final) and Jones (three World Series HRs, Curaçao) are irrational lightning: \"if they can, why can't I?\"",
+        "Invite people into the film. Catmull day-one: \"Whatever you did before, you're a movie maker now.\" Whole company watches rough cuts; an IT guy's *Up* badge note ships. Curaçao: ~100 kids, older versions of themselves as coaches, not one adult + 12. Same playbook later walks Disney animation back (desks, brain trust)."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ecological-talent-lens",
+          "title": "Ecological Talent Lens",
+          "e": "🌿"
+        },
+        {
+          "slug": "chicken-wire-harvards",
+          "title": "Chicken-Wire Harvards",
+          "e": "🐔"
+        },
+        {
+          "slug": "deep-practice",
+          "title": "Deep Practice",
+          "e": "🎯"
+        },
+        {
+          "slug": "rule-of-20-percent",
+          "title": "Rule of 20%",
+          "e": "20"
+        },
+        {
+          "slug": "stare-struggle-steal",
+          "title": "Stare, Struggle, Steal",
+          "e": "👀"
+        },
+        {
+          "slug": "ignition-from-outside-in",
+          "title": "Ignition from Outside In",
+          "e": "⚡"
+        },
+        {
+          "slug": "deliberate-practice-vs-flow",
+          "title": "Deliberate Practice vs Flow",
+          "e": "📈"
+        },
+        {
+          "slug": "desirable-difficulty-learning",
+          "title": "Desirable Difficulty Learning",
+          "e": "💪"
+        },
+        {
+          "slug": "errorful-learning-retrieval-failure",
+          "title": "Errorful Learning / Retrieval Failure",
+          "e": "🍎"
+        },
+        {
+          "slug": "plateau-of-latent-potential",
+          "title": "Plateau of Latent Potential",
+          "e": "📉"
+        },
+        {
+          "slug": "teach-to-learn",
+          "title": "Teach to Learn",
+          "e": "🧑‍🏫"
+        },
+        {
+          "slug": "learning-by-hand-human-pace",
+          "title": "Learning by Hand at Human Pace",
+          "e": "✍️"
+        }
+      ],
+      "conceptCount": 12
+    },
     {
       "slug": "did-google-just-kickstart-the-intelligence-explosion",
       "title": "Did Google just kickstart the intelligence explosion?",
