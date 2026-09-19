@@ -104,19 +104,23 @@
       "concepts": [
         {
           "slug": "become-the-dragon",
-          "title": "Become the Dragon"
+          "title": "Become the Dragon",
+          "e": "🐉"
         },
         {
           "slug": "safety-as-lead-time",
-          "title": "Safety as Lead Time"
+          "title": "Safety as Lead Time",
+          "e": "🏃"
         },
         {
           "slug": "scaling-law-as-self-fulfilling",
-          "title": "Scaling Law as Self-Fulfilling"
+          "title": "Scaling Law as Self-Fulfilling",
+          "e": "📉"
         },
         {
           "slug": "humanity-has-borders",
-          "title": "Humanity Has Borders"
+          "title": "Humanity Has Borders",
+          "e": "🛂"
         },
         {
           "slug": "ai-safety-security-theater",
