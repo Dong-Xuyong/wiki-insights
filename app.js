@@ -17,8 +17,10 @@
   const XP_STARTED = 10;
   const XP_COMPLETED = 40;
   const XP_PER_LEVEL = 250;
-  const ASSET_VERSION = "dashboard9";
+  const ASSET_VERSION = "dashboard10";
   const BILI_HOVER_RESET_KEY = "wiki-insights-bili-hover-reset-v2";
+  const BILI_PROXY =
+    "https://wiki-insights-bilibili-proxy.dong-xuyong.workers.dev/video";
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -208,11 +210,6 @@
   }
 
   function catalogProgress(v, progressMap) {
-    const isBilibili =
-      v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
-    if (isBilibili && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
-      return { done: false, pct: 0, started: false };
-    }
     const rec = v.video_id ? progressMap[v.video_id] : null;
     if (!rec) return { done: false, pct: 0, started: false };
     if (rec.done) return { done: true, pct: 100, started: true };
@@ -584,6 +581,15 @@
     });
     video.addEventListener("seeked", () => persistBilibiliTime());
     video.addEventListener("ended", () => persistBilibiliTime({ done: true }));
+    video.addEventListener("error", () => {
+      const wrap = video.closest(".player-wrap");
+      if (!wrap) return;
+      wrap.innerHTML = `<iframe id="bili-player" src="${esc(
+        bilibiliEmbedSrc(videoId)
+      )}" title="Bilibili" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+      biliVideo = null;
+      biliVideoId = null;
+    });
   }
 
   function bindResumeBar(videoId) {
@@ -1766,40 +1772,31 @@
     panel = "insights";
     const startAt = v.video_id ? getSavedSeconds(v.video_id) : 0;
     const isBilibili = v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
-    const isNativeBilibili =
-      isBilibili && /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
     const durationSec = Math.max(0, Math.round((Number(v.duration_min) || 0) * 60));
     const progress = catalogProgress(v, loadProgressMap());
-    const showResumeBar =
-      !isBilibili || isNativeBilibili
-        ? startAt >= RESUME_MIN_SEC || progress.done
-        : false;
+    const showResumeBar = startAt >= RESUME_MIN_SEC || progress.done;
     root.innerHTML = `
       <div class="player-wrap">
         ${
           v.video_id
-            ? isNativeBilibili
-              ? `<video id="bili-native-player" src="/api/bilibili/video?bvid=${encodeURIComponent(
+            ? isBilibili
+              ? `<video id="bili-native-player" src="${BILI_PROXY}?bvid=${encodeURIComponent(
                   v.video_id
-                )}" title="${esc(v.title)}" controls playsinline preload="metadata"></video>`
-              : `<iframe id="${isBilibili ? "bili-player" : "yt-player"}" src="${esc(
-                  isBilibili ? bilibiliEmbedSrc(v.video_id) : youtubeEmbedSrc(v.video_id, startAt)
+                )}" title="${esc(v.title)}" controls playsinline preload="metadata" crossorigin="anonymous"></video>`
+              : `<iframe id="yt-player" src="${esc(
+                  youtubeEmbedSrc(v.video_id, startAt)
                 )}" title="${esc(
                   v.title
                 )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             : `<div class="missing-insights">No video id</div>`
         }
       </div>
-      ${
-        isBilibili && !isNativeBilibili
-          ? ""
-          : `<div id="resume-bar" class="resume-bar${showResumeBar ? "" : " hidden"}">
-              <span id="resume-label">${
-                progress.done ? "Marked completed" : startAt ? `Resuming from ${formatClock(startAt)}` : ""
-              }</span>
-              <button type="button" id="restart-video">Start over</button>
-            </div>`
-      }
+      <div id="resume-bar" class="resume-bar${showResumeBar ? "" : " hidden"}">
+        <span id="resume-label">${
+          progress.done ? "Marked completed" : startAt ? `Resuming from ${formatClock(startAt)}` : ""
+        }</span>
+        <button type="button" id="restart-video">Start over</button>
+      </div>
       <h1 class="detail-title">${esc(v.title)}${
         videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
       }</h1>
@@ -1816,19 +1813,9 @@
       });
     });
     if (v.video_id) {
-      if (isNativeBilibili) {
+      if (isBilibili) {
         bindResumeBar(v.video_id);
         bindBilibiliNative(v.video_id, startAt);
-      } else if (isBilibili) {
-        bindBilibiliProgress(v.video_id, durationSec);
-        // #region agent log
-        dbgLog("T", "app.js:renderDetail", "using native Bilibili resume", {
-          videoId: v.video_id,
-          externalStartAtIgnored: startAt,
-          hasResumeBar: !!document.getElementById("resume-bar"),
-          iframeSrc: document.getElementById("bili-player")?.src || "",
-        }, "post-fix");
-        // #endregion
       } else {
         bindResumeBar(v.video_id);
         bindResumePlayer(v.video_id, startAt);
