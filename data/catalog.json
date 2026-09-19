@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 276,
   "insightsCount": 270,
-  "conceptCount": 2644,
+  "conceptCount": 2649,
   "sections": [
     {
       "id": "architecture",
@@ -151,9 +151,14 @@
           "slug": "life-error-tolerance-higher",
           "title": "Life error tolerance higher",
           "e": "🐦"
+        },
+        {
+          "slug": "stage-bound-importance",
+          "title": "Stage-bound importance",
+          "e": "🍭"
         }
       ],
-      "conceptCount": 10,
+      "conceptCount": 11,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/6d792b21efd828d498424acdc75e63fb4f0e16da.jpg"
     },
     {
@@ -1627,9 +1632,29 @@
           "slug": "regret-is-the-default",
           "title": "Regret is the default",
           "e": "📞"
+        },
+        {
+          "slug": "uneven-life-value-curve",
+          "title": "Uneven life-value curve",
+          "e": "📉"
+        },
+        {
+          "slug": "memory-dividend-experiences",
+          "title": "Memory dividend experiences",
+          "e": "🪀"
+        },
+        {
+          "slug": "life-calendar-weeks",
+          "title": "Life Calendar (Weeks)",
+          "e": "📦"
+        },
+        {
+          "slug": "exam-only-life-script",
+          "title": "Exam-only life script",
+          "e": "📘"
         }
       ],
-      "conceptCount": 3,
+      "conceptCount": 7,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/269ee1b5d530c6c5b3b4c68d7e7db6db5026f0ca.jpg"
     },
     {
