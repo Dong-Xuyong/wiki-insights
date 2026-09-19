@@ -1,0 +1,65 @@
+{
+  "slug": "chongqing-nav-panic",
+  "sections": [
+    {
+      "title": "A parking bay of flat land",
+      "items": [
+        {
+          "e": "🅿️",
+          "q": "What is Chongqing actually short of?",
+          "a": "Not towers. **Flat ground.** Central hills **90%+**. **17 m²** per person — one parking bay. Then 10,000+ towers, **~600 km** rail, **7,000 km** roads."
+        },
+        {
+          "e": "🌀",
+          "q": "What do ordinary cities do with a steep slope?",
+          "a": "A long approach bridge. Chongqing **coils the road**. One clip is a **720°** spring bridge. The title joke is the packing problem."
+        }
+      ]
+    },
+    {
+      "title": "Merge, don't spaghetti",
+      "items": [
+        {
+          "e": "🛣️",
+          "q": "Why would 盘龙 need 48 ramps?",
+          "a": "Eight directions, pairwise links. [[merge-overlapping-ramps]]: connect one turn, **merge any overlap**. Result: five decks, **40 m ≈ 13 floors**, **18** ramps. Two exits each. U-turn on the bottom."
+        },
+        {
+          "e": "🎡",
+          "q": "What is 苏家坝 if 盘龙 is the merge exam?",
+          "a": "The height rhyme. A **360°** climb of **72 m ≈ 24 floors**. Same leftover-land craft, taller stack."
+        }
+      ]
+    },
+    {
+      "title": "Occupy the building, isolate the shake",
+      "items": [
+        {
+          "e": "🚇",
+          "q": "How does a monorail go through 李子坝?",
+          "a": "[[isolate-the-through-rail]]. **150 × 20 m** leftover. Three-storey void. **Guideway off the building frame.** Rubber tires + air springs. Plant + concourse: **7–19 dB**."
+        },
+        {
+          "e": "🛗",
+          "q": "What does 'my 1st floor is your 22nd' mean?",
+          "a": "[[elevator-as-public-downhill]]. 魁星楼: roof plaza + skybridge. A private core becomes a **civic downhill** on the **>200 m** 渝中 drop."
+        }
+      ]
+    },
+    {
+      "title": "Don't fight the slope",
+      "items": [
+        {
+          "e": "⛰️",
+          "q": "What is the designer's one-liner?",
+          "a": "[[coexist-dont-fight-the-mountain]]. **没得啥子对着山.** 共息, 共存, then 共生. Keep the site's charm and the assigned function."
+        },
+        {
+          "e": "🧱",
+          "q": "How does the hill look flatter without being cut down?",
+          "a": "[[stacked-land-missions]]. One plot, many jobs — hub + mall + office + highway + park. **Every inch reused.** 山地自有山地的路."
+        }
+      ]
+    }
+  ]
+}

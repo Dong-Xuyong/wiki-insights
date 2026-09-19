@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 285,
-  "insightsCount": 278,
-  "conceptCount": 2692,
+  "videoCount": 287,
+  "insightsCount": 280,
+  "conceptCount": 2700,
   "sections": [
     {
       "id": "architecture",
@@ -53,13 +53,13 @@
   "sectionCounts": {
     "architecture": 3,
     "agents": 52,
-    "systems": 18,
+    "systems": 19,
     "build": 40,
     "human": 15,
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 30
+    "other": 31
   },
   "videos": [
     {
@@ -265,9 +265,9 @@
         "xingqiu yanjiusuo",
         "Coexist, Don't Fight the Mountain",
         "Merge Overlapping Ramps",
-        "isolate the through rail",
-        "elevator as public downhill",
-        "stacked land missions",
+        "Isolate the Through Rail",
+        "Elevator as Public Downhill",
+        "Stacked Land Missions",
         "City Is Citizens, Not Government"
       ],
       "summary": "星球研究所 (~11 min, Bilibili) walks 重庆 as a packing problem, not a postcard. Central-city hills are 90%+. Flat land per person: 17 m², one parking bay. Then: 10,000+ towers, ~600 km rail, 7,000 km roads. The joke title is the thesis. Navigation panics because the city folded the leftover ground.\n\nOrdinary cities meet a slope with a long approach bridge. Chongqing coils the road. One clip: a 720° spring bridge. The exam problem is 盘龙立交. A ~40 m valley already has north-south inner ring, east-west arterial, and a valley frontage road. Add an airport-only link. Eight directions. Pairwise ramps would be 48 and a knot. The method: connect one turn at a time; merge any overlap. Result: five decks, 40 m ≈ 13 floors, 18 ramps. Each ramp offers two exits. A U-turn lives on the bottom deck. 苏家坝立交 is the taller rhyme: a 360° climb of 72 m ≈ 24 floors.\n\nNo spare lot? Put the rail through the building. 李子坝: a 150 × 20 m strip, monorail Line 2, no other station site. Reserve a three-storey void. Kill vibration by isolating the guideway from the building frame. Noise: rubber tires + air springs, plus plant floor and concourse as baffles, 7–19 dB. AI-zh writes 离子坝. It is 李子坝.\n\nYuzhong's hill-to-river drop is >200 m. Old answers: stairs, escalators, cable cars. 魁星楼: roof becomes plaza, a skybridge meets a downhill tower, that tower's lifts become a public downhill. \"My 1st floor is your 22nd.\" 白象居: a ~140 m aerial corridor ties units to the street. 红岩村: miss exit 4 for exit 2 and you face 141 m ≈ five 解放碑, 860 steps. Ten lift banks already stacked metro shaft and mountain path. The last montage is the same idea at city scale: HSR + metro + mall + offices + highway + park + stadium on one plot. Mid-roll is 焕新极客 007GT / 极客辅助驾驶 through 盘龙. Skip as argument.\n\nClose is an unnamed 30-year designer who still has hair. Old 吊脚楼 hugged the two rivers. New concrete still \"跟山体依附在一起.\" Line: 没得啥子对着山. Do not reject the site. 共息, 共存, then 共生. Best design keeps the ground's charm and the assigned function. The spaghetti is not for show. It is leftover-land craft. 山地自有山地的路.",
@@ -278,18 +278,35 @@
         "elevator-as-public-downhill — A private core becomes a civic shortcut when roof and skybridge join two heights.",
         "stacked-land-missions — One plot, many jobs. The hill looks flatter when every square metre is reused."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "coexist-dont-fight-the-mountain",
-          "title": "Coexist, Don't Fight the Mountain"
+          "title": "Coexist, Don't Fight the Mountain",
+          "e": "⛰️"
         },
         {
           "slug": "merge-overlapping-ramps",
-          "title": "Merge Overlapping Ramps"
+          "title": "Merge Overlapping Ramps",
+          "e": "🛣️"
+        },
+        {
+          "slug": "isolate-the-through-rail",
+          "title": "Isolate the Through-Rail",
+          "e": "🚇"
+        },
+        {
+          "slug": "elevator-as-public-downhill",
+          "title": "Elevator as Public Downhill",
+          "e": "🛗"
+        },
+        {
+          "slug": "stacked-land-missions",
+          "title": "Stacked Land Missions",
+          "e": "🧱"
         }
       ],
-      "conceptCount": 2,
+      "conceptCount": 5,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/5eacff5a56bb501e22d555567d10c58a9ef999e9.jpg"
     },
     {
@@ -453,6 +470,71 @@
       "conceptCount": 4
     },
     {
+      "slug": "dayu-silent-yugong-wept",
+      "title": "大禹看了沉默，愚公看了流泪",
+      "video_id": "BV1fYes6xEmq",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1fYes6xEmq/",
+      "duration_min": 17,
+      "creator": "xingqiu-yanjiusuo",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "bilibili",
+        "china",
+        "infrastructure",
+        "canal"
+      ],
+      "keywords": [
+        "bilibili",
+        "china",
+        "infrastructure",
+        "canal",
+        "xingqiu yanjiusuo",
+        "Inland Not Geographic Destiny",
+        "Spoil as New Plain",
+        "Water Saving Lock Stack",
+        "China Infrastructure Outbuilding US",
+        "Engineering State vs Social Engineering"
+      ],
+      "summary": "星球研究所's 《新天工开物》 cut on 平陆运河 opening 16 Sept 2026. China already has the world's longest inland waterway (~130,000 km), but only the Yangtze and the Pearl could take a stable 5,000-ton ship. Pinglu is the third: 134.2 km through Guangxi, mid-Pearl to the sea at Qinzhou. ~20,000 people, 48 months. The title is the joke. The file is a lock staircase plus a spoil-to-field ledger.\n\nThe why is congestion, not romance. The Yangtze moves 80%+ of inland freight; Three Gorges peak waits hit 200+ hours. The Pearl's busiest hub: 100+. A 5,000-ton two-way cut needs roughly 3× an eight-lane highway in width, draft deep enough for a laden hull, and ≥360 m bend radius. The route reuses 沙坪河 and 清江, then widens, dredges, and straightens. The ridge between two basins 10 km apart still had to move. Earthwork: 315 million m³ (~120 Great Pyramids), larger than any current domestic transport job. Tianjin Hao, the South China Sea island-maker, shows up in the cut.\n\nSpoil is the second job. ~9% goes to fill, pits, and the works. The rest lifts ravines into plains and is farmed again. Net arable +835.7 ha. Then the slope: 65 m drop in 134 km (~5× lower Pearl, ~10× Grand Canal). Three two-way lock hubs — 马道, 企石 (AI-zh: 起时/砌石), 青年 — each chamber 300 × 34 × 40 m. One lock dump ≥300,000 tons of water; only 1.8% of headwater can be spared (Pearl ecology + salt push). Stacked save-pools reuse ~60% (马道/企石); twin locks as each other's tanks ~50% (青年). Claimed save: 1 billion tons/year. Fill/empty target: 16 minutes. 27 bridges, 18 m air draft, animal and fish crossings, a digital twin.\n\nThe close is inland-not-geographic-destiny: 560 km shorter than the old Guangxi sea route, ¥5B+ freight/year, ~two weeks off a Southwest Yangtze haul. Sun Yat-sen's 建国方略 is the statue at the mouth. 湘桂 and the rest are named as the next stitches. AI-zh smears 省水→神水, 吃水→池水, 企石. B-roll coda: reclaimed cane, drone fertilizer, wind on the same field.",
+      "key_insights": [
+        "Third 5,000-ton river — Inland length was already #1. Draft was the bottleneck. Pinglu is a third trunk, not a scenic ditch.",
+        "spoil-as-new-plain — 315 million m³ cannot vanish. Raise the ravines, re-farm them. Occupied land went up as fields, not down.",
+        "water-saving-lock-stack — The 65 m drop is a stair. Water is the scarce input (1.8%). Pools and twin-lock pairing are the save; 16 minutes is the clock.",
+        "inland-not-geographic-destiny — Guangxi 50M, Southwest 250M. The canal is a sea door, not a provincial trophy. Future 湘桂 stitches make one net with rail and road.",
+        "Physical exhibit of china-infrastructure-outbuilding-us / engineering-state-vs-social-engineering — 48 months, ridge gone, locks stacked. Wang's \"engineers build\" clip without the AI slide."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "inland-not-geographic-destiny",
+          "title": "Inland Not Geographic Destiny"
+        },
+        {
+          "slug": "spoil-as-new-plain",
+          "title": "Spoil as New Plain"
+        },
+        {
+          "slug": "water-saving-lock-stack",
+          "title": "Water-Saving Lock Stack"
+        },
+        {
+          "slug": "china-infrastructure-outbuilding-us",
+          "title": "China Infrastructure Outbuilding US",
+          "e": "⚡"
+        },
+        {
+          "slug": "engineering-state-vs-social-engineering",
+          "title": "Engineering State vs Social Engineering",
+          "e": "🏗️"
+        }
+      ],
+      "conceptCount": 5,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/97de2c245b622baa1d0392779b9dacc670d29ef4.jpg"
+    },
+    {
       "slug": "education-involution-must-end",
       "title": "教育内卷，已经到了必须要结束的时候了",
       "video_id": "BV1mE7WzuEvN",
@@ -537,6 +619,49 @@
       ],
       "conceptCount": 8,
       "thumbnail": "https://i0.hdslb.com/bfs/archive/f34881ae68528340b76d111d1417df99ad08334d.jpg"
+    },
+    {
+      "slug": "gpt-6-twin-prime-zhang-yitang",
+      "title": "GPT-6取得重大数学突破！孪生素数猜想和张益唐的故事",
+      "video_id": "BV16vbN6RE1a",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV16vbN6RE1a/",
+      "duration_min": 21,
+      "creator": "li-yong-le",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "math",
+        "openai",
+        "number-theory"
+      ],
+      "keywords": [
+        "bilibili",
+        "math",
+        "openai",
+        "number theory",
+        "li yong le",
+        "finite gap not twin",
+        "polymath gap compression",
+        "follow the new road",
+        "wait for the deer",
+        "Mathematical Superintelligence",
+        "Play a bad hand well"
+      ],
+      "summary": "李永乐 (~21 min, Bilibili) uses an OpenAI headline as the classroom door, then spends the hour on what the headline is not. Claim: GPT-6 proved there are infinitely many adjacent primes with gap ≤ 186. Twin prime wants gap 2. The 186 is a smaller *finite* ceiling, not the conjecture. AI-zh smears 张义堂 / 张一堂 / 张玉堂 → 张益唐; 施泰德尔曼 → julia-stadlmann; 普通大学 → Purdue; 等录来 → 等鹿来; 余信 → 庾信.\n\nCold open is the 2026 week. Zhang (2013): gap ≤ 70 million. 陶哲轩 Polymath + james-maynard (he names 梅纳德): 70M → 4680 → 600 → 246, then years of stall. Aug 31: Stadlmann opens a new road to 240. \"仅仅三天后\" the model follows to 186. (OpenAI's writeup dates 30 Aug and calls Stadlmann concurrent. File 李's clock; do not flatten the papers.)\n\nThe lecture is the stack under the news. Euclid: infinitely many primes. Twin: infinitely many p, p+2. Polignac: any even 2k. Hardy–Littlewood: a counting formula that would imply twins if true. GPY (2005) is the first *theorem*: gaps grow slower than c log p for any c > 0. Classroom line: one hair from twins. Then: that method is a dead end. You have to change the tool.\n\nSecond half is the life that produced the finite number. Cultural Revolution, Jiangxi labor, 1978 PKU, Purdue under 莫宗坚, Jacobi paper on a bad lemma, no recommendation letter, eight years of dishes / motel / car. 1999: Intel friend → UNH lecturer. Backyard: no deer, a GPY tweak. *Annals* 17 Apr 2013; editor thought 民科; three-week accept (usual: a year). MacArthur. Closer: Tao's olympiad clock vs Zhang at 58 still a lecturer. Du Fu: 庾信平生最萧瑟，暮年诗赋动江关. Next tape: Landau–Siegel zeros.",
+      "key_insights": [
+        "finite-gap-not-twin — 186 / 240 / 70M are the same *kind* of theorem. Twin prime is still open.",
+        "polymath-gap-compression — After Zhang, the work is squeezing N. 246 held for years.",
+        "follow-the-new-road — Human opens the method (240). Model walks it in days (186).",
+        "wait-for-the-deer — 等鹿来: the backyard, not the appointment. 58-year lecturer, *Annals* in three weeks.",
+        "GPY hair — Bounded by c log p felt one step from 2. The method was already maxed."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/204a9fab63c3d00159e4bbca33399d642fe832a1.jpg"
     },
     {
       "slug": "high-sugar-vs-no-added-sugar-14-day-challenge",
