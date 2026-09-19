@@ -17,7 +17,7 @@
   const XP_STARTED = 10;
   const XP_COMPLETED = 40;
   const XP_PER_LEVEL = 250;
-  const ASSET_VERSION = "dashboard4";
+  const ASSET_VERSION = "dashboard5";
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -338,6 +338,24 @@
     return `https://player.bilibili.com/player.html?${params.toString()}`;
   }
 
+  function dbgLog(hypothesisId, location, message, data) {
+    // #region agent log
+    fetch("http://127.0.0.1:7351/ingest/b74f24c0-660e-41c3-b4b4-757de4864585", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "2b105f" },
+      body: JSON.stringify({
+        sessionId: "2b105f",
+        runId: "pre-fix",
+        hypothesisId,
+        location,
+        message,
+        data,
+        timestamp: Date.now(),
+      }),
+    }).catch(() => {});
+    // #endregion
+  }
+
   function biliSecondsFromMessage(data) {
     if (data == null) return null;
     if (typeof data === "string") {
@@ -360,17 +378,36 @@
 
   function bindBilibiliProgress(videoId, durationSec) {
     const scrub = document.getElementById("bili-scrub");
+    // #region agent log
+    dbgLog("D", "app.js:bindBilibiliProgress", "listener attach", {
+      videoId,
+      durationSec,
+      hasScrub: !!scrub,
+      hasIframe: !!document.getElementById("bili-player"),
+    });
+    // #endregion
     const save = (seconds, { done = false } = {}) => {
       if (done) {
         setSavedSeconds(videoId, seconds, { done: true });
         paintResumeBar(0, { done: true });
         if (scrub) scrub.value = String(Math.floor(seconds));
+        // #region agent log
+        dbgLog("E", "app.js:bindBilibiliProgress.save", "saved done", { seconds });
+        // #endregion
         return;
       }
-      if (seconds < RESUME_MIN_SEC) return;
+      if (seconds < RESUME_MIN_SEC) {
+        // #region agent log
+        dbgLog("E", "app.js:bindBilibiliProgress.save", "rejected below min", { seconds });
+        // #endregion
+        return;
+      }
       setSavedSeconds(videoId, seconds);
       paintResumeBar(seconds);
       if (scrub) scrub.value = String(Math.floor(seconds));
+      // #region agent log
+      dbgLog("E", "app.js:bindBilibiliProgress.save", "saved t", { seconds });
+      // #endregion
     };
     if (scrub) {
       scrub.addEventListener("input", () => {
@@ -383,9 +420,34 @@
         paintResumeBar(t);
       });
     }
+    let msgN = 0;
     const onMsg = (e) => {
-      if (!String(e.origin || "").includes("bilibili.com")) return;
+      msgN += 1;
+      const origin = String(e.origin || "");
+      const pass = origin.includes("bilibili.com");
       const t = biliSecondsFromMessage(e.data);
+      let shape = "";
+      try {
+        shape =
+          typeof e.data === "string"
+            ? e.data.slice(0, 160)
+            : JSON.stringify(e.data, Object.keys(e.data || {}).slice(0, 12)).slice(0, 200);
+      } catch {
+        shape = typeof e.data;
+      }
+      // #region agent log
+      if (msgN <= 25) {
+        dbgLog(pass ? (t == null ? "B" : "A") : "C", "app.js:onMsg", "postMessage", {
+          origin,
+          pass,
+          t,
+          shape,
+          n: msgN,
+          dataType: typeof e.data,
+        });
+      }
+      // #endregion
+      if (!pass) return;
       if (t == null) return;
       if (durationSec && t >= durationSec - RESUME_END_PAD_SEC) save(t, { done: true });
       else save(t);
@@ -1653,6 +1715,15 @@
       bindResumeBar(v.video_id);
       if (isBilibili) bindBilibiliProgress(v.video_id, durationSec);
       else bindResumePlayer(v.video_id, startAt);
+      // #region agent log
+      dbgLog("D", "app.js:renderDetail", "bind player", {
+        isBilibili,
+        videoId: v.video_id,
+        startAt,
+        durationSec,
+        slug: v.slug,
+      });
+      // #endregion
     }
     const insights = await loadInsights(slug);
     const activeRoute = parseRoute();
