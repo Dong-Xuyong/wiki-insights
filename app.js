@@ -17,7 +17,7 @@
   const XP_STARTED = 10;
   const XP_COMPLETED = 40;
   const XP_PER_LEVEL = 250;
-  const ASSET_VERSION = "dashboard3";
+  const ASSET_VERSION = "dashboard4";
   // Sibling app; relative when serving the repo root locally.
   const FLASHCARDS_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
     ? "../wiki-flashcards/"
@@ -40,6 +40,7 @@
   let ytPlayerVideoId = null;
   let ytSaveTimer = null;
   let ytHasPlayed = false;
+  let biliMsgHandler = null;
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (m) =>
@@ -239,7 +240,8 @@
       return;
     }
     if (seconds < RESUME_MIN_SEC) {
-      bar.classList.add("hidden");
+      label.textContent = document.getElementById("bili-scrub") ? "Drag to save a stop point" : "";
+      bar.classList.toggle("hidden", !document.getElementById("bili-scrub"));
       return;
     }
     label.textContent = `Resuming from ${formatClock(seconds)}`;
@@ -277,6 +279,10 @@
   function destroyPlayer() {
     persistPlayerTime();
     stopProgressTimer();
+    if (biliMsgHandler) {
+      window.removeEventListener("message", biliMsgHandler);
+      biliMsgHandler = null;
+    }
     if (ytPlayer) {
       try {
         ytPlayer.destroy();
@@ -321,14 +327,71 @@
     return `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
   }
 
-  function bilibiliEmbedSrc(videoId) {
+  function bilibiliEmbedSrc(videoId, startAt = 0) {
     const params = new URLSearchParams({
       bvid: videoId,
       page: "1",
       high_quality: "1",
       danmaku: "0",
     });
+    if (startAt >= RESUME_MIN_SEC) params.set("t", String(Math.floor(startAt)));
     return `https://player.bilibili.com/player.html?${params.toString()}`;
+  }
+
+  function biliSecondsFromMessage(data) {
+    if (data == null) return null;
+    if (typeof data === "string") {
+      const raw = data.startsWith("playerOperation-") ? data.slice(16) : data;
+      try {
+        data = JSON.parse(raw);
+      } catch {
+        return null;
+      }
+    }
+    if (typeof data !== "object") return null;
+    const t =
+      data.currentTime ??
+      data.current_time ??
+      data.data?.currentTime ??
+      data.value?.currentTime ??
+      data.value?.time;
+    return typeof t === "number" && Number.isFinite(t) && t >= 0 && t < 86400 ? t : null;
+  }
+
+  function bindBilibiliProgress(videoId, durationSec) {
+    const scrub = document.getElementById("bili-scrub");
+    const save = (seconds, { done = false } = {}) => {
+      if (done) {
+        setSavedSeconds(videoId, seconds, { done: true });
+        paintResumeBar(0, { done: true });
+        if (scrub) scrub.value = String(Math.floor(seconds));
+        return;
+      }
+      if (seconds < RESUME_MIN_SEC) return;
+      setSavedSeconds(videoId, seconds);
+      paintResumeBar(seconds);
+      if (scrub) scrub.value = String(Math.floor(seconds));
+    };
+    if (scrub) {
+      scrub.addEventListener("input", () => {
+        const t = Number(scrub.value) || 0;
+        if (t < RESUME_MIN_SEC) {
+          paintResumeBar(0);
+          return;
+        }
+        setSavedSeconds(videoId, t);
+        paintResumeBar(t);
+      });
+    }
+    const onMsg = (e) => {
+      if (!String(e.origin || "").includes("bilibili.com")) return;
+      const t = biliSecondsFromMessage(e.data);
+      if (t == null) return;
+      if (durationSec && t >= durationSec - RESUME_END_PAD_SEC) save(t, { done: true });
+      else save(t);
+    };
+    biliMsgHandler = onMsg;
+    window.addEventListener("message", onMsg);
   }
 
   function bindResumePlayer(videoId, startAt) {
@@ -379,6 +442,12 @@
           /* ignore */
         }
       }
+      const iframe = document.getElementById("bili-player");
+      if (iframe && currentVideo?.video_id === videoId) {
+        iframe.src = bilibiliEmbedSrc(videoId, 0);
+      }
+      const scrub = document.getElementById("bili-scrub");
+      if (scrub) scrub.value = "0";
     });
   }
 
@@ -1539,14 +1608,19 @@
     panel = "insights";
     const startAt = v.video_id ? getSavedSeconds(v.video_id) : 0;
     const isBilibili = v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
+    const durationSec = Math.max(0, Math.round((Number(v.duration_min) || 0) * 60));
     const progress = catalogProgress(v, loadProgressMap());
-    const showResumeBar = startAt >= RESUME_MIN_SEC || progress.done;
+    const showResumeBar = startAt >= RESUME_MIN_SEC || progress.done || isBilibili;
+    const biliScrub =
+      isBilibili && durationSec
+        ? `<input id="bili-scrub" type="range" min="0" max="${durationSec}" value="${startAt}" aria-label="Saved stop point" />`
+        : "";
     root.innerHTML = `
       <div class="player-wrap">
         ${
           v.video_id
-            ? `<iframe ${isBilibili ? "" : 'id="yt-player"'} src="${esc(
-                isBilibili ? bilibiliEmbedSrc(v.video_id) : youtubeEmbedSrc(v.video_id, startAt)
+            ? `<iframe id="${isBilibili ? "bili-player" : "yt-player"}" src="${esc(
+                isBilibili ? bilibiliEmbedSrc(v.video_id, startAt) : youtubeEmbedSrc(v.video_id, startAt)
               )}" title="${esc(
                 v.title
               )}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
@@ -1555,8 +1629,9 @@
       </div>
       <div id="resume-bar" class="resume-bar${showResumeBar ? "" : " hidden"}">
         <span id="resume-label">${
-          progress.done ? "Marked completed" : startAt ? `Resuming from ${formatClock(startAt)}` : ""
+          progress.done ? "Marked completed" : startAt ? `Resuming from ${formatClock(startAt)}` : isBilibili ? "Drag to save a stop point" : ""
         }</span>
+        ${biliScrub}
         <button type="button" id="restart-video">Start over</button>
       </div>
       <h1 class="detail-title">${esc(v.title)}${
@@ -1574,9 +1649,10 @@
         );
       });
     });
-    if (v.video_id && !isBilibili) {
+    if (v.video_id) {
       bindResumeBar(v.video_id);
-      bindResumePlayer(v.video_id, startAt);
+      if (isBilibili) bindBilibiliProgress(v.video_id, durationSec);
+      else bindResumePlayer(v.video_id, startAt);
     }
     const insights = await loadInsights(slug);
     const activeRoute = parseRoute();

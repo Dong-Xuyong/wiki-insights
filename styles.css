@@ -1185,6 +1185,11 @@ html.dark .video-card-watch.is-done { color: #5ed392; }
   font-size: 0.82rem;
   color: var(--text-dim);
 }
+.resume-bar #bili-scrub {
+  flex: 1;
+  min-width: 80px;
+  accent-color: var(--accent);
+}
 .resume-bar #restart-video {
   min-height: 44px;
   border: none;
