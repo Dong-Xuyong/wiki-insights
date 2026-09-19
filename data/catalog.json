@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 279,
-  "insightsCount": 273,
-  "conceptCount": 2663,
+  "videoCount": 283,
+  "insightsCount": 276,
+  "conceptCount": 2683,
   "sections": [
     {
       "id": "architecture",
@@ -53,15 +53,90 @@
   "sectionCounts": {
     "architecture": 3,
     "agents": 52,
-    "systems": 17,
+    "systems": 18,
     "build": 40,
     "human": 15,
     "performance": 50,
     "mind": 32,
     "relationships": 45,
-    "other": 25
+    "other": 28
   },
   "videos": [
+    {
+      "slug": "become-the-dragon-ai-giants",
+      "title": "终成恶龙？AI巨头之间的爱恨情仇……【星之光01】",
+      "video_id": "BV1zCYR6MEsV",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1zCYR6MEsV/",
+      "duration_min": 24,
+      "creator": "mu-yu-shui-xin",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "bilibili",
+        "anthropic",
+        "openai",
+        "ai-safety"
+      ],
+      "keywords": [
+        "bilibili",
+        "anthropic",
+        "openai",
+        "ai safety",
+        "mu yu shui xin",
+        "Become the Dragon",
+        "Safety as Lead Time",
+        "Scaling Law as Self Fulfilling",
+        "Humanity Has Borders",
+        "AI safety security theater",
+        "Lab Rivalry as Research Driver",
+        "China US AI race"
+      ],
+      "summary": "木鱼水心 (~24 min, Bilibili, 星之光01) is the founding-story layer under Primeagen's safety-as-control clips — not \"is Dario Daddy\" but how the safety exit became a second OpenAI. Reads Karen Hao *Empire of AI* (郝克林 in the AI-zh). Captions smear names (欧珀莱雅 / Skating law / 苏兹科维). The plot is still readable.\n\nCold open is the 2020 all-hands. dario-amodei and daniela-amodei walk off the call: 我和丹尼拉还有几位核心研究员正式离开OpenAI. Option value on the table. GPT-3 already trained. Then the tape rewinds to the 2015 Rosewood dinner (elon-musk + sam-altman, 造福全人类), the 2016 office interview (Altman's \"do the best thing\" is too vague; Dario joins anyway because only openai can fund safety), Karnofsky / Open Philanthropy $30M, and the split: Thiel 10× vs safety-first.\n\nThe cut is the scaling-law trap. Baidu 2017 already had the curve; Dario brings the intuition; GPT-2 \"don't ship\" loses to two grad-student replicas; then he inverts. safety-as-lead-time: scale first, withhold, use the lead to align — or you lose the right to do safety. GPT-3 + Microsoft $1B, then a deeper $2B license the safety team sees last. Slack goes quiet. They leave. May 2021: anthropic. Mantra: 不像山姆, 不像OpenAI.\n\nThe second half is the rhyme. SBF $500M of the $580M seed is stolen customer cash. ChatGPT ships in two weeks because OpenAI *thinks* Anthropic is about to drop a chatbot — on the GPT-3 line Dario trained. Amazon $13B + a nine-figure cloud bill is Microsoft with a new logo. Stanford transparency scores: both labs fail. Billboard: *no one without all the drama*, timed to OpenAI resignations. ~$1T Anthropic / ~$2T the pair. 2025 China bans + Sept ToS (50%+ Chinese capital). 19 Sept: 姚舜禹 quits, 40% the \"enemy country\" line. RSP \"won't scale if safety misses\" is deleted Feb 2026.\n\nThesis: no dragon-slayer. become-the-dragon. Tech law + capital gravity rewrite the person. 2015 humanity had no border. 2026 it does.",
+      "key_insights": [
+        "become-the-dragon — The exit slogan is 不像他们. The 2025 balance sheet is them.",
+        "safety-as-lead-time — After GPT-2 leaks, safety *is* a race. Slow is how you lose the lab.",
+        "scaling-law-as-self-fulfilling — Moore was an economic target people executed. Skating law same.",
+        "humanity-has-borders — 造福全人类 → chips-as-nukes + China ToS. The set shrunk."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "become-the-dragon",
+          "title": "Become the Dragon"
+        },
+        {
+          "slug": "safety-as-lead-time",
+          "title": "Safety as Lead Time"
+        },
+        {
+          "slug": "scaling-law-as-self-fulfilling",
+          "title": "Scaling Law as Self-Fulfilling"
+        },
+        {
+          "slug": "humanity-has-borders",
+          "title": "Humanity Has Borders"
+        },
+        {
+          "slug": "ai-safety-security-theater",
+          "title": "AI safety security theater",
+          "e": "🎭"
+        },
+        {
+          "slug": "lab-rivalry-as-research-driver",
+          "title": "Lab Rivalry as Research Driver",
+          "e": "📏"
+        },
+        {
+          "slug": "china-us-ai-race",
+          "title": "China-US AI race",
+          "e": "🏁"
+        }
+      ],
+      "conceptCount": 7,
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/da5b2c913110107e630456a6ab036adbadd5e1b7.jpg"
+    },
     {
       "slug": "childhood-jokes-adult-truth",
       "title": "小时候看笑话，长大后看真实",
@@ -612,6 +687,64 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "iphone-review-shot-in-3-days",
+      "title": "动态视频｜3天拍完？影视飓风的iPhone评测是怎么拍的？",
+      "video_id": "BV1Y6eu6iEeF",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Y6eu6iEeF/",
+      "duration_min": 6,
+      "creator": "yingshi-jufeng",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "production",
+        "apple",
+        "reviews"
+      ],
+      "keywords": [
+        "bilibili",
+        "production",
+        "apple",
+        "reviews",
+        "yingshi jufeng",
+        "First Day Review vs Slow Review",
+        "Reproduce the Hero Path",
+        "Bilingual Same Day Ship",
+        "Grip Truck as Kit"
+      ],
+      "summary": "影视飓风 host TIM (~6 min, Bilibili, 动态视频) walks the US set of this year's iPhone review. Not the review. The room is not the Hangzhou office. The team flew the workflow. Claim: zero to cut in three days. AI-zh smears SKUs (IPHONEDOO / iPhone度 / 18 Pro). The toys stay readable.\n\nCold open is a packing problem. Hero shots were plotted in Hangzhou. Talking-head could not go back, so a small arm that packs in a case rematches the same path in a US room that is too small to walk normally. Gear pile needs an ATA carnet or it does not leave China. Edit bay and device-test bench share one table: rented switch, fiber, screens. TIM did not expect the US rental stack to be this complete.\n\nTax on the same clock: Chinese and English ship together. One show, two recordings. Translators sit in the villa. Director and producer cook at night because the house with a shooting permit is on a mountain, not near dinner. Mid-roll is 天猫 for the new iPhone. The object he actually wants to show is a grip truck — a lighting-assistant van, $350 / ~¥2,000 a day, sky cloths and stands already in the bay. Cheaper than he budgeted. Nancy (producer): six films this trip, three or four on location.\n\nThe only argument is the last walk. Overseas reviewers wait two to three months and ship a deep cut. This crew stacks everything so the first-week video is already \"全面.\" He is not sure that is the better product. Maybe a thin first-look, then the long one. Not decided. Hangzhou tag: after a long fight, the review hit the date. Tmall outro (official store / 闪购 30 min) is the sponsor, not the thesis.",
+      "key_insights": [
+        "first-day-review-vs-slow-review — Same-week \"全面\" vs a 2–3 month deep cut. He names the overseas habit and does not pick yet.",
+        "reproduce-the-hero-path — Plan the move in Hangzhou. Replay it with a travel arm so US A-roll matches the pre-shot.",
+        "bilingual-same-day-ship — ZH + EN on one clock. Record twice. Bring the translator.",
+        "grip-truck-as-kit — $350/day van is the lighting department. Switch / fiber / screens are the same idea: rent the desk, do not fly the office.",
+        "Permit house cooks — A shooting permit is a remote villa. Day unit, night steak. The schedule is the location."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "first-day-review-vs-slow-review",
+          "title": "First-Day Review vs Slow Review"
+        },
+        {
+          "slug": "reproduce-the-hero-path",
+          "title": "Reproduce the Hero Path"
+        },
+        {
+          "slug": "bilingual-same-day-ship",
+          "title": "Bilingual Same-Day Ship"
+        },
+        {
+          "slug": "grip-truck-as-kit",
+          "title": "Grip Truck as Kit"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/361973f89c84437de521a33b0a6ce2a27fe4845e.jpg"
     },
     {
       "slug": "is-tech-developing-too-fast",
@@ -1647,6 +1780,72 @@
       "thumbnail": "https://i0.hdslb.com/bfs/archive/a90b0b00760a582f6ea5270cd2c98a490dddf72e.jpg"
     },
     {
+      "slug": "understand-nolan-odyssey",
+      "title": "诺兰2.5亿巨制！看懂奥德赛",
+      "video_id": "BV1qnuq6dEga",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1qnuq6dEga/",
+      "duration_min": 26,
+      "creator": "mu-yu-shui-xin",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "film",
+        "nolan",
+        "homer",
+        "odyssey"
+      ],
+      "keywords": [
+        "bilibili",
+        "film",
+        "nolan",
+        "homer",
+        "odyssey",
+        "mu yu shui xin",
+        "Analog IMAX bet",
+        "In medias res",
+        "Kleos vs nostos",
+        "Recognition by private detail",
+        "Stage bound importance"
+      ],
+      "summary": "木鱼水心 (~26 min, Bilibili, ~5.2M, 11 Aug 2026) is a pre-watch brief for Nolan's *The Odyssey*, not a recap. Series tag: 看电影我们有备而来. Caption: 不剧透. AI-zh smears names (特勒马克思, 克里夫, ZIA, immediate Rest). The toys stay readable.\n\nCold open is a method bet. 41 70mm IMAX screens on earth, none in Asia. 610 km of film. $250M. No VFX: real seas, real stock, in a year everyone says the stream should replace the room. Then the 3,000-year hook: 千寻's parents eat and become pigs — Circe already wrote it. Matt Damon, as lead, first line on the book: *I haven't read that*. Fine. The story was never a king. The last few years already use 奥德赛时期 for a lost 20s. A man who took 20 years to get home became the word for not knowing where home is.\n\nFrame first, names second. *Iliad* = 封神 / war picture. *Odyssey* = 西游 / road picture. Upper book: 10-year war. Lower book: 10-year walk back. Helen is the oath; the strait is the bill. Gods split: Hera / Athena / Poseidon vs Aphrodite / Ares / Apollo; the apple is the locker-room fight, mortals take the field. The horse is not in the *Iliad*. Homer stops before the gate. The *Odyssey* tells it from the side. The man who thought of it is the man who least wanted the war: faked madness, salted the field, dropped the plow when they put his infant in the furrow. He also wrote the Helen-oath that bound him there.\n\nThree faces. Agamemnon: command, not ideas. Achilles: force; dies young; the *Iliad* is his. Odysseus: brains. Cast the video names: Hathaway = Penelope (weave by day, unpick by night, three years). Holland = Telemachus (never saw the face). Zendaya = Athena (teaches him to lie). Pattinson = Antinous, first of 108. Charlize = Calypso. Elliot Page = Sinon — Virgil, not Homer. Schliemann dug nine stacked cities on the Dardanelles; one layer burned ~1200 BCE. The man Odysseus has no paper.\n\nThe walk home is a camp map: who blocks, who helps, who waits, who ate the house. Xenia is Zeus's law — feed the stranger first; guests may not eat the host poor. Suitors fail the second clause. Kleos is \"that which is heard\": no tape, so to be told is to stay alive. Cyclops: he lives by the name Nobody, then shouts 伊萨卡的奥德修斯 off the boat because living was not enough. That shout hands Poseidon the address (the same Poseidon who backed the Greeks — here he is a father). Sirens do not sing a love song. They sing *we know what happened under Troy*. He plugs the crew and keeps his own ears. The underworld: Agamemnon died in his own hall; Achilles would rather be a live slave than king of the dead. Calypso offers forever. He wants the door.\n\nHomer is already in-medias-res: war year 10, raft year 10, hero absent until book 5, the missing decade told at a banquet. Horace named the cut. Virgil copied it. Nolan inherited it. The private test: Penelope asks the servants to move the bed. He snaps — the post is a living olive, roots still in the yard. Only two people know that. That, 木鱼 says, is almost the whole *Odyssey*. *Iliad* and *Odyssey* are one question, two answers. Achilles picks a short name. Odysseus picks a long way home. Nolan, age five or six, watched a school play and kept the man tied to the mast. He says every film he has made comes from this one.",
+      "key_insights": [
+        "analog-imax-bet — 41 screens, 0 in Asia, 610 km, $250M, no VFX. The expensive dumb way is the point.",
+        "in-medias-res — Homer cuts year 10. Horace named it. Nolan's non-linear is not a trick he invented.",
+        "kleos-vs-nostos — Be heard, or get home. Achilles vs Odysseus. The sequel overrules the first book's god.",
+        "recognition-by-private-detail — The bed that cannot move. A fact only a household can check.",
+        "Nobody, then the name — Fake name saves the body. Real name buys the 10-year storm. Same man.",
+        "Helen / strait — Oath on the face; trade on the water. Gods pick sides over an apple."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "analog-imax-bet",
+          "title": "Analog IMAX bet",
+          "e": "🎞️"
+        },
+        {
+          "slug": "in-medias-res",
+          "title": "In medias res",
+          "e": "✂️"
+        },
+        {
+          "slug": "kleos-vs-nostos",
+          "title": "Kleos vs nostos",
+          "e": "🏠"
+        },
+        {
+          "slug": "recognition-by-private-detail",
+          "title": "Recognition by private detail",
+          "e": "🫒"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/a5054769e6a1b99ff9488f22cfd8274688e13427.jpg"
+    },
+    {
       "slug": "unlimited-budget-shanghai-one-day",
       "title": "预算无上限！在上海吃一天会花多少钱？是我吃过最离谱的一日三餐！",
       "video_id": "BV12og76WESD",
@@ -1937,6 +2136,78 @@
       ],
       "conceptCount": 3,
       "thumbnail": "https://i2.hdslb.com/bfs/archive/763937480eca8f21b6149c2239769c07200d24df.jpg"
+    },
+    {
+      "slug": "yes-minister-party-games-hacker-pm",
+      "title": "极限上位！最终试炼！他如何用魔法打败魔法？",
+      "video_id": "BV1jzjw6GEWY",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1jzjw6GEWY/",
+      "duration_min": 65,
+      "creator": "mu-yu-shui-xin",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "other",
+      "tags": [
+        "bilibili",
+        "uk",
+        "politics",
+        "satire"
+      ],
+      "keywords": [
+        "bilibili",
+        "uk",
+        "politics",
+        "satire",
+        "mu yu shui xin",
+        "Sound as Civil Service Virtue",
+        "Information Control as Power",
+        "Disaster Today, Triumph Tomorrow",
+        "Unopposed Coronation",
+        "Procedure Correct Decay",
+        "Westminster Veto on Secession",
+        "Independence Rhetoric as Bargaining"
+      ],
+      "summary": "mu-yu-shui-xin (~65 min, Bilibili, ~1.39M, June 2026) closes the yes-minister walk on the 1984 Christmas special *Party Games*: jim-hacker goes from department minister to No. 10. The title is the method. He does not beat Whitehall. He learns its tricks and spends them on the public.\n\nCold open is Christmas-card triage. Bernard sorts Jim / Jim Hacker / Jim and Annie / printed stacks. A Brussels card names Maurice, the EC man standardising the British sausage into an \"emulsified high-fat offal tube\" (script meat share: ~26%, rest rusk, water, rind). Same hour: office gifts (sherry, Commons mints) and Bernard's requested \"surprise\" (champagne).\n\nThe real deal is off-camera. Cabinet Secretary Arnold is retiring. He wants a successor who is firm with \"political masters,\" tactful, and above all sound. Humphrey finds the question, not the answer: *What will you be doing when you retire?* Price list: Security Commission, Anglo-Canadian association, a run at Commonwealth Secretary-General. Arnold's own files must stay shut: armed troops in strikes (machine guns out of context) and a Simonstown talk with apartheid South Africa. Last card: he takes the Campaign for Freedom of Information. Official line is \"freedom not abused.\" Subtext: leak the system if Humphrey forgets the bargain. That is information-control-as-power.\n\nHumphrey tells Hacker he is leaving in Shakespeare fog. Hacker hears a death sentence, then hears Cabinet Secretary, then starts sucking up. Christmas party. Home Secretary Ray is nicked for drink-drive after a nuclear-waste lorry and a local editor; he resigns. The PM, who hated Ray as heir, resigns once the deputy is burned. Eric (Exchequer) and Duncan (FO) both bid for Hacker, the unthreatening party chairman. Civil service wants the third man: malleable, no firm opinions, \"intellectually committed without the strength to change anything.\"\n\nArnold sends for MI5 cabinet files \"if you enjoy a good laugh.\" Bernard is told to keep Hacker from doing anything incisive. Humphrey plus Chief Whip Jeffrey: Eric splits the party in three months, Duncan in three weeks. They dump the files on Hacker. Eric: \"horizontal jogging\" with South African and Argentine women. Duncan: nominee companies and offshore paper around a company collapse. Humphrey: if Hacker sits on it, that would be \"very courageous.\" Killer instinct is the last PM quality. Hacker walks both men out.\n\nA file win is not a public win. Maurice is stuck in London. Humphrey and Hacker squeeze the EC (pay farmers to grow surplus, pay the next office to destroy it; threaten to rename salami). Maurice yields: call it the British sausage. Hacker, old journalist, will not announce the fix. disaster-today-triumph-tomorrow: leak a fake ban today, TV speech tomorrow. Luther pastiche: pints and yards already gone; they will not take the sausage. \"Up while I'm here.\" Interview: no ambitions, unless colleagues insist.\n\nWait for the phone, same as the first ministerial call. Unopposed recommendation → kiss hands at 5. Palace rings. Then: *Yes, Prime Minister.* Civil service gets continuity. Hacker gets the country and the strings.\n\n木鱼's close: three machines (civil service / party / Crown). Cabinet Secretary is one name from an \"independent\" board; the dinner already picked 上道, not KPI. Lifetime glue is Lords and boards. unopposed-coronation is the back door (Theresa May 2016). Kissing hands: monarch reigns, does not rule, except a hung parliament. Why the show lasts: English self-mockery; class fight (Humphrey born to manage, Hacker climbed and polls); comedy that lets you swallow procedure-correct-decay (empty hospital, arms-to-terrorists, no one needs to be a villain). Last ask: spectator, fatalist, or join the machine like Hacker. No answer. Sun under the sun.\n\nAI-zh is dirty: 士大臣 = 是大臣; 汉服来 = 汉弗莱; 文首礼 = 吻手礼; 党编 = 党鞭; 军情武术 = 军情五处. Plot names decoded from the series, not the captions.",
+      "key_insights": [
+        "Magic vs magic — Hacker does not smash the system. He spends its tools (files, FOI threat, press timing) on a sausage that was already fixed.",
+        "sound-as-civil-service-virtue — The job interview is one question. Sound means you will keep the club's files and the club's pensions.",
+        "information-control-as-power — Arnold's FOI chair, MI5 folders, and \"I cannot show you this\" are the same lever.",
+        "disaster-today-triumph-tomorrow — A solved problem is not a story. Stage the wound, then the bandage.",
+        "unopposed-coronation — Win by emptying the ballot. 2016 is the real-world rhyme he cites.",
+        "procedure-correct-decay — The hospital has staff and no patients. Nobody plotted the rot.",
+        "Three cores — Civil service runs the country. Party picks the face. Crown stamps it."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "sound-as-civil-service-virtue",
+          "title": "Sound as Civil Service Virtue",
+          "e": "🎩"
+        },
+        {
+          "slug": "information-control-as-power",
+          "title": "Information Control as Power",
+          "e": "📁"
+        },
+        {
+          "slug": "disaster-today-triumph-tomorrow",
+          "title": "Disaster Today, Triumph Tomorrow",
+          "e": "📺"
+        },
+        {
+          "slug": "unopposed-coronation",
+          "title": "Unopposed Coronation",
+          "e": "👑"
+        },
+        {
+          "slug": "procedure-correct-decay",
+          "title": "Procedure-Correct Decay",
+          "e": "🏥"
+        }
+      ],
+      "conceptCount": 5,
+      "thumbnail": "https://i1.hdslb.com/bfs/archive/e10bbd72e5130b1246dd5c362e5949c7e2c1bd2d.jpg"
     },
     {
       "slug": "you-can-progress-more-in-6-minutes-daniel-coyle",

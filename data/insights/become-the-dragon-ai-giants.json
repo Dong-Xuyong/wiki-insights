@@ -1,0 +1,50 @@
+{
+  "slug": "become-the-dragon-ai-giants",
+  "sections": [
+    {
+      "title": "The exit",
+      "items": [
+        {
+          "e": "🚪",
+          "q": "What did Dario actually say on the 2020 call?",
+          "a": "我和丹尼拉还有几位核心研究员正式离开OpenAI. Everyone else who is leaving, leave the meeting. Option value on the table. GPT-3 already trained."
+        },
+        {
+          "e": "🌹",
+          "q": "What was the Rosewood dinner for?",
+          "a": "2015. Musk + Altman. 造福全人类. Dario did not sit down that night. He joined in 2016 because only OpenAI could fund safety."
+        }
+      ]
+    },
+    {
+      "title": "Safety is a race",
+      "items": [
+        {
+          "e": "📈",
+          "q": "Why did 'don't ship GPT-2' flip into accelerate?",
+          "a": "Two students cloned it. [[safety-as-lead-time]]: if you are not in front, you lose the vote. Scale, withhold, align in the lead."
+        },
+        {
+          "e": "🧾",
+          "q": "When did trust actually break?",
+          "a": "The Microsoft license the safety team saw last. 我们交易了一个我们自己都不完全理解的东西. Slack went quiet. They left."
+        }
+      ]
+    },
+    {
+      "title": "Same dragon",
+      "items": [
+        {
+          "e": "🐉",
+          "q": "What does 不像山姆 become by 2026?",
+          "a": "[[become-the-dragon]]. Amazon $13B is Microsoft. RSP deleted Feb 2026. Billboard: no drama — timed to OpenAI resignations."
+        },
+        {
+          "e": "🛂",
+          "q": "What happened to 全人类?",
+          "a": "[[humanity-has-borders]]. China bans. 50%+ Chinese capital ToS. Chips as nukes. 姚舜禹: 40% the enemy-country line."
+        }
+      ]
+    }
+  ]
+}
