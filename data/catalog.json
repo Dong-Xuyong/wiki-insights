@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 277,
-  "insightsCount": 271,
-  "conceptCount": 2655,
+  "videoCount": 278,
+  "insightsCount": 272,
+  "conceptCount": 2659,
   "sections": [
     {
       "id": "architecture",
@@ -53,7 +53,7 @@
   "sectionCounts": {
     "architecture": 3,
     "agents": 52,
-    "systems": 16,
+    "systems": 17,
     "build": 40,
     "human": 15,
     "performance": 50,
@@ -1988,6 +1988,70 @@
         }
       ],
       "conceptCount": 12
+    },
+    {
+      "slug": "zhongqi-county-court-death-sentence",
+      "title": "【罗翔】重器拍错了？县法院也能判死刑？",
+      "video_id": "BV1FLex6ZEaA",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1FLex6ZEaA/",
+      "duration_min": 20,
+      "creator": "luo-xiang",
+      "updated": "2026-09-19",
+      "created": "2026-09-19",
+      "section": "systems",
+      "tags": [
+        "bilibili",
+        "law",
+        "china",
+        "criminal-procedure"
+      ],
+      "keywords": [
+        "bilibili",
+        "law",
+        "china",
+        "criminal procedure",
+        "luo xiang",
+        "Strike Hard Procedure Override",
+        "Wrongful Conviction Needs Miracle",
+        "Death Review Twenty Year Loan",
+        "Means Are the Seed"
+      ],
+      "summary": "luo-xiang (~20 min, Bilibili) answers a classroom question: did the drama *重器* botch death-penalty procedure when a county court sentenced 乔治梁 to death with a three-day appeal? Students who opened the 1979 Criminal Procedure Law (art. 15: intermediate court for death / life; art. 131: ten-day appeal) think yes. The show is set in the 1983 strike-hard-procedure-override. Both the students and the drama can be right.\n\nThe 1983 严打 rewrote the statute without waiting for the legislature. 16 Aug 1983 notice: an intermediate court may send some death-eligible public-security cases to a grassroots court. 2 Sept 1983 NPC decision: for murder / rape / robbery / explosion and like, if facts are \"clear\" and 民愤极大, skip 刑诉法 art. 110 service deadlines; appeal / protest drops from ten days to three. Odd result: a lighter sentence keeps ten days; death gets three. He says death was then abused. Jurisdiction was pulled back on 2 Dec 1983 (under four months). A 26 Mar 1987 SPC note still found 30+ grassroots courts in one province trying death / life as first instance.\n\nThe drama's \"王者归来\" plot (虞山花 \"corpse,\" husband tortured into a 留有余地 死缓) is the TV shadow of two real files. 滕兴善 (麻阳, Hunan; butcher): 1987 dismemberment, blood-type ID, upstream body vs downstream dump, villagers swore 石小荣 was alive; executed; she resurfaced in 1993 after trafficking; no office started a retrial; 2006 Hunan High Court not-guilty, family ~¥666,660. 佘祥林 (Hubei): wife 张某 vanished; unnamed female corpse; first-instance death, High Court remand, then 15 years at the county court; she walked back in 2005; 3,995 days detained; ~¥700,000; ten-day-and-night interrogation, no DNA, 指供诱供. A 2007 study of 20 wrongful cases: 85% cleared because the real killer appeared, 15% because the \"victim\" returned. That is wrongful-conviction-needs-miracle.\n\nThe institutional fix he tracks is death-review-twenty-year-loan. 1979 刑诉法 and Court Organization Law put immediate-execution review at the SPC. A month into 1980 the power was already lent to provincial high courts for the 严打 crimes; 1983 organization-law amendment made the loan a written exception; it lasted 20+ years. 1996/97 rewrites restated SPC review; a 26 Sept 1997 notice (six days before the new Criminal Law) kept the old art. 13 authorization. Classroom shock case: 董伟 2002 枪下留人 — stay, rehear, still execute. Organization law changed 2006; 1 Jan 2007 SPC took immediate-execution review back.\n\nSecond fix: illegal-evidence rules (2010 two SPC+ joint provisions; 2012 刑诉法). means-are-the-seed: 手段是种子, 目的是树. Criminal Law 247 (刑讯逼供) and his personal reads of the conversion clause, suicide-under-torture as murder, and art. 88(2) limitation-clock stop if a courtroom torture claim is ignored. Close: 学院路 法治天下; shame; remember the road so it is not reused.\n\nAI-zh captions mash names (滕/腾讯, 佘/涉/麝, 石小荣/石小龙). Dates and statutes above follow the lecture, not the ASR spelling.",
+      "key_insights": [
+        "The drama is 1983, not 1979 — County death + three-day appeal match 严打 notices, not the code students opened.",
+        "strike-hard-procedure-override — Judicial/admin notices overrode 刑诉法. Lighter sentence, longer appeal.",
+        "Pullback was paper — Dec 1983 reclaim; 1987 still 30+ county courts on death files.",
+        "wrongful-conviction-needs-miracle — 滕兴善 dead; 佘祥林 3,995 days. 20-case study: killer or \"corpse\" must walk in.",
+        "death-review-twenty-year-loan — \"Temporary\" SPC delegation ran 1980–2006. 董伟 is the classroom scar.",
+        "means-are-the-seed — Unjust means cannot grow just ends. 2010/2012 exclusion is the statute version of that line.",
+        "His 247 reads are labeled opinion — Conversion = negligent death under torture; ignored in-court torture claim extends the clock."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "strike-hard-procedure-override",
+          "title": "Strike Hard Procedure Override",
+          "e": "⚡"
+        },
+        {
+          "slug": "wrongful-conviction-needs-miracle",
+          "title": "Wrongful Conviction Needs Miracle",
+          "e": "👻"
+        },
+        {
+          "slug": "death-review-twenty-year-loan",
+          "title": "Death Review Twenty-Year Loan",
+          "e": "🏦"
+        },
+        {
+          "slug": "means-are-the-seed",
+          "title": "Means Are the Seed",
+          "e": "🌱"
+        }
+      ],
+      "conceptCount": 4,
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/e0be9650af398a4efc8e5c85ad8066b3936dd560.jpg"
     },
     {
       "slug": "did-google-just-kickstart-the-intelligence-explosion",
