@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 291,
-  "insightsCount": 285,
-  "conceptCount": 2735,
+  "videoCount": 296,
+  "insightsCount": 288,
+  "conceptCount": 2760,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,354 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 52,
+    "agents": 54,
     "systems": 20,
-    "build": 40,
+    "build": 41,
     "human": 16,
     "performance": 50,
-    "mind": 32,
-    "relationships": 47,
+    "mind": 33,
+    "relationships": 48,
     "other": 31
   },
   "videos": [
+    {
+      "slug": "did-a-50-year-old-military-secret-just-solve-agent-prompt-injection",
+      "title": "Did a 50 year old military secret just solve agent prompt injection?",
+      "video_id": "I_KVMFrUtPk",
+      "platform": "youtube",
+      "url": "https://youtu.be/I_KVMFrUtPk",
+      "duration_min": 6,
+      "creator": "the-code-report",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "ai",
+        "security",
+        "agents",
+        "the-code-report",
+        "prompt-injection"
+      ],
+      "keywords": [
+        "ai",
+        "security",
+        "agents",
+        "the code report",
+        "prompt injection",
+        "Session taint classification",
+        "Outside the loop guard",
+        "Permission Layer: Keys Not Prompts",
+        "Wrap Around Custom Harness",
+        "Dedicated Machine Agent Sandbox",
+        "Hugging Face Agent Swarm"
+      ],
+      "summary": "the-code-report (~6 min, dated Sept 30 2026, auto-generated captions) is a sponsor recap of openapa (Archestra): a tool proxy that taints an agent session after it reads private data. Treat the news hook and the head-to-head numbers as host-reported. Captions smear names (Jensen Huang as \"Wong\", the launcher as \"Clappa\", the product as OpenAppa / Open APA / Open Appa).\n\nHook. Host bit, not a sourced incident: Australia's prime minister at the UN, an OpenAI agent in a Medicare database that would not accept \"no\", disclosed months later. Punchline: labs are racing agents that do not take no for an answer. Two answers the same week. nvidia (host: Jensen): a monitor agent on a separate processor that quarantines the primary the moment it leaves its sandbox, claimed to have stopped every breakout so far. Archestra: same quarantine idea, no chip.\n\nWhy the usual fixes fail. Models do not cleanly split \"your instruction\" from \"someone else's.\" (1) A command blocklist: block one verb, the agent finds another. (2) A second LLM babysitter, already what claude-code and Codex do. The babysitter is dumb in the same way. Anthropic hides from it whatever the worker has read. Host: still about 99%, fine for spam, not for a database on a leak site.\n\nOpenAPA. Military room rule: classified material stays in a room rated for it, and nothing read in that room leaves. Applied to a session (session-taint-classification): the moment the agent reads private data, the session is private, and later actions cannot send to a lower level. Demo (comedy, \"Horse Tinder\"): a file marked private; ask Claude to open a public GitHub issue explaining the matching rule; a normal session uploads the file; under the proxy, opening the file labels the session private, the public repo is a lower level, the request stops until a human signs off. Refusal is deterministic because the proxy does not score the prompt. It sits between Claude Code and its tools (outside-the-loop-guard). Nvidia did this with a processor. Archestra did it with a TOML file.\n\nVerdict. Promising, not solved. Host head-to-head vs Claude Code auto mode: the proxy stopped the exfil, finished 75% of jobs vs auto mode up to 96%, and burned more tokens. Still preview. MIT. Few stars. First time, in the host's line, an MIT tool stands between the agent and the felony.",
+      "key_insights": [
+        "Instruction confusion is the bug. The model cannot reliably tell the user's order from text it just read.",
+        "Blocklist and babysitter share a hole. Another command, or another LLM that fails the same way. 99% is a spam number.",
+        "Taint the session, then block write-down. Private read raises the session. A public GitHub issue is a lower room. The call dies before the prompt's persuasiveness matters.",
+        "The guard is not in the loop. Tool proxy (or a second processor) the agent cannot argue with.",
+        "Security tax is real. Host: 75% task completion vs up to 96%, plus extra tokens. Preview software."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "session-taint-classification",
+          "title": "Session taint classification"
+        },
+        {
+          "slug": "outside-the-loop-guard",
+          "title": "Outside-the-loop guard"
+        }
+      ],
+      "conceptCount": 2
+    },
+    {
+      "slug": "doctor-reacts-strange-addictions",
+      "title": "Doctor Reacts To \\\"Strange Addictions\\",
+      "video_id": "1-Skt7coSZ4",
+      "platform": "youtube",
+      "url": "https://youtu.be/1-Skt7coSZ4",
+      "duration_min": 25,
+      "creator": "doctor-mike",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "mind",
+      "tags": [
+        "medicine",
+        "addiction",
+        "mental-health",
+        "doctor-mike"
+      ],
+      "keywords": [
+        "medicine",
+        "addiction",
+        "mental health",
+        "doctor mike",
+        "Compulsion vs Addiction",
+        "Pica and Bezoar",
+        "Match the Sensation",
+        "Reality Show Forced Disclosure",
+        "Caffeine Toxicity Ceiling",
+        "Cholesterol Silent Until Clot",
+        "Addiction Persistence Despite Harm",
+        "Motivational Interviewing Addiction"
+      ],
+      "summary": "doctor-mike (~25 min, English auto-captions) watches clips from my-strange-addiction and keeps one rule: lead with empathy, then name the mechanism. The show's title says addiction. He splits most of the cases into something else.\n\nFive usable segments, plus a caption scrap that says \"addicted to doing burpees\" and never returns. Treat that line as an ASR splice.\n\n1. Furniture sponge (Ron, ~25 years). Non-food eating is pica-and-bezoar. Foam has no calories. Hair, gum, and polyurethane can pack into a bezoar and obstruct the bowel. He already had a lower-intestine blockage and still eats it, using psyllium to \"fight the sponge.\" Treated foam may also be absorbable and toxic. The on-screen clinician jumps to a replacement and tastes the foam for the camera. Mike wants match-the-sensation: ask what the cue does, then build a safer version of that cue.\n2. Dad's underwear. She started around 9–10, after her parents split, when laundry was her chore. A decade later she cannot go ~25 minutes without a sniff, including at work. Mike reads compulsion, not fetish: the act turns anxiety down. Pheromone science is unfinished. STI transmission is unlikely without fluid exposure. Skin risk is real (oils, sweat, folliculitis, gut bacteria such as E. coli). The show then films the confession to her father with no clinician in the room (reality-show-forced-disclosure). The hypnotherapist calls it an addiction and \"subconscious programming.\" Mike wants CBT from someone with an MD, DO, or PhD, and he is glad she says she will look it up herself.\n3. Coffee (Angela, 45, Jersey Shore). This one he does call an addiction: excitement, withdrawal, and harm. Usual safe band he cites is under 400 mg (~four cups at ~100 mg). Past about a gram he calls toxicity: arrhythmia, kidney strain, electrolyte trouble from the fluid load, wrecked sleep and appetite. She talks about 100 cups and a figure over 5 g (about 50 cups). He hopes the show is exaggerating. Tolerance covers jitters, not poisoning. Wean, do not cold-turkey. Get labs. One reading of 160/90 is high and is not a hypertension diagnosis. Stopping after 8 p.m. is a win. Forty cups a day is still a loss. She says she can fall asleep. He says sleep quality still suffers.\n4. Thumb sucking (Taja, 35, since age 5). Self-soothe when tired or anxious: compulsion, not addiction. Thirty years can change palate, jaw, teeth, breathing, and eating. Mouth is polymicrobial. The thumb is dirty. Callus where the teeth land. Nail chemicals go in the mouth. Paronychia and cellulitis are the skin bill. She skipped buck teeth and treats that as permission. Her gums are already affected. Treat the anxiety and the thumb may stop wanting the job.\n5. Butter (James, 38, Fort Lauderdale, sports marketing). $40–50 a week, a fridge of blocks, \"investment in my health.\" Mike: calorie-dense, raises ApoB and LDL, atherosclerosis over years, not days. Liking a food is not yet an addiction. He had been overweight with prediabetes, anxiety, and depression. Mike refuses to call anxiety and depression metabolic diseases, while granting metabolism can worsen them. \"Don't hide from fat\" is fair for healthy fats, not a license for saturated butter. Cholesterol was high eight months ago. He smiles because he feels great. cholesterol-silent-until-clot: you feel fine until a blockage or a ruptured plaque throws a clot. The doctor's job is to name the risk. An adult with capacity decides whether to act.\n\nCloser is the usual \"stay happy and healthy,\" plus a tease of celebrity deaths that this wiki already has as what-killed-every-movie-star-doctor-mike. Staten Island aside confirms the host.",
+      "key_insights": [
+        "The show's word \"addiction\" fails compulsion-vs-addiction on underwear and thumb (anxiety off-switch) and fails addiction-persistence-harm-definition on butter (a preference). Coffee clears both bars: reward plus harm.",
+        "Sponge is a surgical problem (bezoar, obstruction) sitting on top of a psychiatric one (pica). Fiber is damage control.",
+        "Replacement works when it copies the sensation. A lecture, or a host bite of foam, does not.",
+        "A filmed family reveal without a clinician is the car crash the edit wants.",
+        "Caffeine has a dose ceiling. Feeling the jitters less is not being safe.",
+        "High cholesterol is silent. Feeling great is not a lipid panel."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "compulsion-vs-addiction",
+          "title": "Compulsion vs Addiction"
+        },
+        {
+          "slug": "pica-and-bezoar",
+          "title": "Pica and Bezoar"
+        },
+        {
+          "slug": "match-the-sensation",
+          "title": "Match the Sensation"
+        },
+        {
+          "slug": "reality-show-forced-disclosure",
+          "title": "Reality-Show Forced Disclosure"
+        },
+        {
+          "slug": "caffeine-toxicity-ceiling",
+          "title": "Caffeine Toxicity Ceiling"
+        },
+        {
+          "slug": "cholesterol-silent-until-clot",
+          "title": "Cholesterol Silent Until Clot"
+        },
+        {
+          "slug": "addiction-persistence-harm-definition",
+          "title": "Addiction Persistence Despite Harm",
+          "e": "🔁"
+        },
+        {
+          "slug": "motivational-interviewing-addiction",
+          "title": "Motivational Interviewing Addiction",
+          "e": "🗣️"
+        },
+        {
+          "slug": "how-to-talk-someone-with-addiction",
+          "title": "How to Talk to Someone With Addiction",
+          "e": "🗣️"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
+      "slug": "how-to-invest-for-beginners-2026-mark-tilbury",
+      "title": "How to Invest for Beginners (in 2026)",
+      "video_id": "MC7k4ruZD5c",
+      "platform": "youtube",
+      "url": "https://youtu.be/MC7k4ruZD5c",
+      "duration_min": 76,
+      "creator": "mark-tilbury",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "build",
+      "tags": [
+        "business",
+        "personal-finance",
+        "investing",
+        "mark-tilbury"
+      ],
+      "keywords": [
+        "business",
+        "personal finance",
+        "investing",
+        "mark tilbury",
+        "25 15 50 10 Rule",
+        "Stability Fund (Tilbury)",
+        "Tax Advantaged Investing Accounts",
+        "Income to Wealth Investing Ladder",
+        "Growth Assets Risk Scale",
+        "Dollar Cost Averaging Investing",
+        "Index Funds — Investing Has Been Solved",
+        "cap weight index bet"
+      ],
+      "summary": "mark-tilbury (~76 min, manual English captions) gives an A-to-Z beginner investing walkthrough: why cash loses to inflation, the 25-15-50-10-rule, a broker checklist, tax wrappers with 2026 contribution figures, index funds vs stock-picking, how to read a business, orders and auto-invest, then bonds, gold, REITs, dividends, and crypto as seasoning. The close is portfolio construction, drift, three-reasons-to-sell, tax, cap-weight-index-bet, five mistakes, and a 30-day start list.\n\nThis is the execution layer under how-to-manage-money-like-the-1-percent-mark-tilbury. The paycheck split and VW Golf story are restated, not new. What this tape adds is the buy button, the research filter, and when to sell. eToro sponsors the account demo (free share after a ~£100 deposit). He says he is not a financial advisor.",
+      "key_insights": [
+        "The expensive mistake is investing money you will need for a bill, then selling at the worst moment and blaming the market.",
+        "One index is good; three funds (home, world, bonds) is the portfolio he would hand a beginner.",
+        "Charts are a job. Fundamentals plus being a customer are the long-term filter.",
+        "Auto-invest is the behavior system. Compounding pays consistency, not clever timing.",
+        "Diversification fails when every line is the same sector, and a cap-weighted S&P is still a mega-cap bet.",
+        "Sell on a broken thesis, not on a red day and not out of loyalty.",
+        "Tax wrappers and contribution steering beat clever loss-harvesting."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "three-reasons-to-sell",
+          "title": "Three Reasons to Sell"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "i-tested-chatgpt-dot-vs-grokbot",
+      "title": "I Tested ChatGPT Dot vs GrokBot (Not Even Close)",
+      "video_id": "lQU5RX8EyWw",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=lQU5RX8EyWw",
+      "duration_min": 21,
+      "creator": "jack-roberts",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "youtube",
+        "agents",
+        "comparison",
+        "personal-assistant"
+      ],
+      "keywords": [
+        "youtube",
+        "agents",
+        "comparison",
+        "personal assistant",
+        "jack roberts",
+        "Thin Prompt as the Test",
+        "Same Model, Memory Wins",
+        "Hands Off Cloud vs Own Metal",
+        "Builder Desk vs Pocket Assistant",
+        "Agent Heartbeat (Proactive Wake up)",
+        "Self Hosted Cloud Agents"
+      ],
+      "summary": "jack-roberts (~21 min, YouTube, auto English) runs the same thin jobs through three personal assistants: chatgpt-dot, grokbot, and hermes-agent. The title says one winner. The close is a split: beginners take Grokbot or Dot; cash takes the $20 Grok plan; ChatGPT-native users can start on Dot; tinkerers take Hermes. Auto captions smear Grok/Grock, Higgsfield/Higsfield, Zapier/Zapia, and \"EA\" in the geo line.\n\nAccess. Dot sits above chats in the ChatGPT app (browser or updated desktop, top left) and needs ChatGPT Pro. He names $100, then $100 / $200 / $500 a month, one Dot per plan, usage inside that plan. Grokbot is a download from $20. Hermes runs on your machine, a terminal, or a VPS, and can be reached from WhatsApp or Telegram. Computers: Dot is an OpenAI cloud machine (phone messages; he first says \"your computer,\" then corrects that it is not local). Grokbot is one shared Grok cloud, 24/7. Hermes dies when the laptop dies unless a VPS or a Mac Mini stays up, and can run offline. Models: Dot is gpt-6-astra (he says GPT 6.1 Astra) and model-locked, still \"slightly behind Opus 5.5\" on his read. Grokbot has no model picker; he thinks it is just Grok. Hermes takes any model, including that same Astra and local open weights. Software price for Hermes is $0; you pay for models, or for hardware and time if you stay local.\n\nFour jobs, instruction kept thin (thin-prompt-as-the-test). Creative: one higgsfield key, image plus video for his Skool, \"AI Automations with Jack,\" full autonomy. Dot animates a \"build what's next\" still; the audio is a track. Grokbot: coffee, laptop, slow zoom. Hermes on the same Astra pulls memory: blueprints and the brand brain, plus a 15-second explainer. Podcast: grab *The Stack* (with Nick) and return a usable cut. Dot's layout is off but the logo lands. Grokbot is traditional and drops bottom text. Hermes has the logo and still does not impress. He says that miss is the prompt, not the harness, because none of them used a different model. Tools: zapier as one auth layer, then \"draft a reply to my last email.\" All three do it. Strategy: Dot browses each competitor in its own browser and returns about five pages of text. Grok is more visual. Hermes goes longer on ideas.\n\nLearning and nagging. Dot learns from feedback and reaches ChatGPT, Slack, and Teams. Grokbot can be taught by screen recording and can keep several agents that argue (his finance bot vs his fun bot). Hermes writes tasks into a memory you can edit. All three can message first. His Grok weight bot asks every morning. Hermes only does that after he schedules 10:00. Limits he flags: Dot still rolling out, caption \"not yet for Pro in the EA, UK, or Switzerland,\" one Dot when he wanted many. Grok's wall is the allowance. Hermes means install, updates, and tokens.\n\nCloser (builder-desk-vs-pocket-assistant): laptop work that builds software stays in ChatGPT, Claude, or his agentic OS. The assistant is the on-the-go layer (ideas, messages, a morning weigh-in), his Knight Rider / mini-Siri split. Hands-off plugin-and-go is Dot or Grokbot. Control, any model, own metal is Hermes. He thinks Dot is a couple of weeks behind Grokbot and will grow because OpenAI is the giant.",
+      "key_insights": [
+        "thin-prompt-as-the-test — Score the assistant on a one-shot with almost no brief. Follow-ups would hide the product.",
+        "same-model-memory-wins — Astra on Dot and on Hermes. The brain in the image came from Hermes memory. The weak podcast cut is blamed on the prompt.",
+        "hands-off-cloud-vs-own-metal — $100 locked Dot or $20 locked Grok, laptop-off. Hermes is $0 software, any model, and dies with the lid unless you host it.",
+        "builder-desk-vs-pocket-assistant — Building software and keeping a personal assistant are different jobs. Mixing them is the confusion."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "thin-prompt-as-the-test",
+          "title": "Thin Prompt as the Test",
+          "e": "🎯"
+        },
+        {
+          "slug": "same-model-memory-wins",
+          "title": "Same Model, Memory Wins",
+          "e": "🧠"
+        },
+        {
+          "slug": "hands-off-cloud-vs-own-metal",
+          "title": "Hands-Off Cloud vs Own Metal",
+          "e": "💸"
+        },
+        {
+          "slug": "builder-desk-vs-pocket-assistant",
+          "title": "Builder Desk vs Pocket Assistant",
+          "e": "🪜"
+        },
+        {
+          "slug": "agent-heartbeat-proactive",
+          "title": "Agent Heartbeat (Proactive Wake-up)",
+          "e": "💓"
+        },
+        {
+          "slug": "self-hosted-cloud-agents",
+          "title": "Self-Hosted Cloud Agents",
+          "e": "🖥️"
+        }
+      ],
+      "conceptCount": 6
+    },
+    {
+      "slug": "why-talking-to-people-feels-harder-now",
+      "title": "Why Talking to People Feels Harder Now",
+      "video_id": "guZRP6lgRYE",
+      "platform": "youtube",
+      "url": "https://youtu.be/guZRP6lgRYE",
+      "duration_min": 8,
+      "creator": "vanessa-van-edwards",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "social-skills",
+        "ai",
+        "relationships"
+      ],
+      "keywords": [
+        "communication",
+        "social skills",
+        "ai",
+        "relationships",
+        "vanessa van edwards",
+        "Social Reps",
+        "Accidental Conversation Decline",
+        "AI Warmup Then Live Rep",
+        "Real Exposure Therapy for Social Anxiety",
+        "Social Exposure Ladder",
+        "Three Hellos Daily",
+        "Small Moments Connection Wellbeing"
+      ],
+      "summary": "vanessa-van-edwards and scott-edwards (~8 min, her channel, auto-captions, speakers unlabeled) argue people are getting socially flabby because daily talk has moved to AI. They cite a new MIT report (unnamed in the captions) that students do fewer study groups, ask fewer questions in class, skip office hours, and lose the hallway talks before and after class. Those clumsy, accidental conversations are how people learn both the material and how to be with other people. Vanessa and Scott met that way in college. Their first talks were awkward. That was the point.\n\nThe prescription is a social gym. You do not enjoy every set. You do them because each social rep keeps the next hard conversation from feeling like game day with no practice. An interview, a raise ask, or eye contact plus a handshake feels harder when the last face-to-face was months ago and the only rehearsal was a mirror. Fewer live talks also raise the stakes of each one. What used to happen by default (campus, team, line at the store) now has to be scheduled. She floats a half-joke job title, chief conversation officer, and says she is already hired to facilitate conversation inside companies.\n\nSecond track: live talk is scary, so practice somewhere low-stakes first. prosocial (People Skills Index, seven skills) is the product pitch: private role-play for boss talks, feedback, interviews, and raise asks; it can read email, messages, and calendar and call a rep when a line will not land. AI is allowed as brainstorm, role-play, and coach. The transfer is mandatory. The remembered line in the real room is \"last time ProSocial told me to flex differently.\" This sits in tension with real-exposure-therapy-social-anxiety: Hofmann's claim is that simulated audiences do not update the threat model. Vanessa's claim is that the sim is a warmup, not the workout.\n\nClose: end-of-life pride is relationships, not biceps or a job well done. Challenge is casual reps with the phone away: the line, the barista, the hairdresser, the barber. Outro sells *Conversation* and its nine power questions (pre-order).",
+      "key_insights": [
+        "Awkward counts — a clumsy first conversation is a successful rep. Quality is optional. Occurrence is not.",
+        "Default became optional — hallway, study group, and office-hour talk used to happen without a syllabus line. Now someone has to put interaction time on the calendar.",
+        "Scarcity raises stakes — skip daily practice and the interview is the first live set in months.",
+        "AI is the warmup — brainstorm and role-play are fine. The rep is unfinished until it happens with a person.",
+        "Safe before live — private low-pressure practice is how you get the weirdness out before the room that matters.",
+        "Casual is the gym — no headphones, nothing in your hands, say something to the person already next to you."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "social-reps",
+          "title": "Social Reps",
+          "e": "🏋️"
+        },
+        {
+          "slug": "accidental-conversation-decline",
+          "title": "Accidental Conversation Decline",
+          "e": "🚪"
+        },
+        {
+          "slug": "ai-warmup-then-live-rep",
+          "title": "AI Warmup Then Live Rep",
+          "e": "🗣️"
+        },
+        {
+          "slug": "real-exposure-therapy-social-anxiety",
+          "title": "Real Exposure Therapy for Social Anxiety",
+          "e": "🫂"
+        },
+        {
+          "slug": "social-exposure-ladder",
+          "title": "Social Exposure Ladder",
+          "e": "🪜"
+        },
+        {
+          "slug": "three-hellos-daily",
+          "title": "Three Hellos Daily",
+          "e": "👋"
+        },
+        {
+          "slug": "small-moments-connection-wellbeing",
+          "title": "Small Moments Connection Wellbeing",
+          "e": "💫"
+        }
+      ],
+      "conceptCount": 7
+    },
     {
       "slug": "ai-three-side-jobs-challenge",
       "title": "兼职挑战！！挑战AI让我尝试的3个职业！！",

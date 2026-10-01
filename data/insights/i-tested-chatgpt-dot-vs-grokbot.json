@@ -1,0 +1,50 @@
+{
+  "slug": "i-tested-chatgpt-dot-vs-grokbot",
+  "sections": [
+    {
+      "title": "The empty brief",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "How does he score an assistant?",
+          "a": "[[thin-prompt-as-the-test]]. One shot, almost no instructions. Follow-ups would score him."
+        },
+        {
+          "e": "🧠",
+          "q": "Why did Hermes draw the brand brain?",
+          "a": "[[same-model-memory-wins]]. Same [[gpt-6-astra]] as Dot. Memory had the blueprints. Dot animated a generic still. The bad podcast cut is the prompt."
+        }
+      ]
+    },
+    {
+      "title": "Three bills",
+      "items": [
+        {
+          "e": "💸",
+          "q": "What does each one cost to start?",
+          "a": "[[hands-off-cloud-vs-own-metal]]. Dot: ChatGPT Pro, he says $100 then $100/$200/$500, one Dot. Grokbot: $20. Hermes: $0 software, you pay models or hardware and time."
+        },
+        {
+          "e": "🌙",
+          "q": "Which ones work with the laptop shut?",
+          "a": "Dot and Grokbot. Hermes only if a VPS or a Mac Mini stays on. It can also run offline."
+        }
+      ]
+    },
+    {
+      "title": "Who should pick which",
+      "items": [
+        {
+          "e": "🪜",
+          "q": "What does he tell a beginner?",
+          "a": "Grokbot or Dot. Tight budget: Grokbot. Already living in ChatGPT: Dot. He thinks Dot is a couple of weeks behind and will catch up."
+        },
+        {
+          "e": "🛠️",
+          "q": "What is the pocket for?",
+          "a": "[[builder-desk-vs-pocket-assistant]]. Desk builds the software. The assistant is ideas, messages, the morning weight ping."
+        }
+      ]
+    }
+  ]
+}
