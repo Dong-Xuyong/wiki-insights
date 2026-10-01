@@ -495,6 +495,61 @@
       : [{ id: "other", title: "Other", color: "#9a948a" }];
   }
 
+  function creatorLabel(slug) {
+    return String(slug || "Unknown")
+      .split("-")
+      .filter(Boolean)
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  }
+
+  function subscriptionOptions(videos) {
+    const counts = new Map();
+    for (const video of videos) {
+      const id = video.creator || "";
+      if (!id) continue;
+      counts.set(id, (counts.get(id) || 0) + 1);
+    }
+    return [...counts]
+      .map(([id, count]) => ({ id, count, label: creatorLabel(id) }))
+      .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+  }
+
+  function knownSubscription(sub, videos) {
+    if (!sub) return "";
+    return videos.some((video) => video.creator === sub) ? sub : "";
+  }
+
+  function bySubscription(videos, sub) {
+    if (!sub) return videos;
+    return videos.filter((video) => video.creator === sub);
+  }
+
+  function subscriptionSelectHtml(videos, sub) {
+    const options = subscriptionOptions(videos)
+      .map(
+        (option) =>
+          `<option value="${esc(option.id)}"${option.id === sub ? " selected" : ""}>${esc(
+            option.label
+          )} (${option.count})</option>`
+      )
+      .join("");
+    return `
+      <label class="sub-filter">
+        <span>Subscription</span>
+        <select id="sub-select">
+          <option value="">All</option>
+          ${options}
+        </select>
+      </label>`;
+  }
+
+  function bindSubscriptionSelect(onChange) {
+    document.getElementById("sub-select")?.addEventListener("change", (event) => {
+      onChange(event.target.value);
+    });
+  }
+
   function sectionOf(id) {
     return (
       sections().find((section) => section.id === id) ||
@@ -791,12 +846,16 @@
         status: statusValues.has(status) ? status : "all",
         section: params.get("section") || "",
         sort: sortValues.has(sort) ? sort : "smart",
+        sub: params.get("sub") || "",
       };
     }
     if (/^\/progress\/?$/.test(path)) return { name: "progress" };
     const create = path.match(/^\/create\/?/);
     if (create) return { name: "create" };
-    return { name: "home" };
+    if (path === "/" || path === "") {
+      return { name: "home", sub: new URLSearchParams(query).get("sub") || "" };
+    }
+    return { name: "home", sub: "" };
   }
 
   function queryUrlParam() {
@@ -814,6 +873,7 @@
     if (state.status && state.status !== "all") params.set("status", state.status);
     if (state.section) params.set("section", state.section);
     if (state.sort && state.sort !== "smart") params.set("sort", state.sort);
+    if (state.sub) params.set("sub", state.sub);
     const query = params.toString();
     return `#/browse${query ? `?${query}` : ""}`;
   }
@@ -823,7 +883,7 @@
     const current =
       routeState.name === "browse"
         ? routeState
-        : { q: "", status: "all", section: "", sort: "smart" };
+        : { q: "", status: "all", section: "", sort: "smart", sub: "" };
     const hash = browseHash({ ...current, ...changes });
     if (!replace) {
       navigate(hash);
@@ -1098,7 +1158,7 @@
       </button>`;
   }
 
-  function renderHome() {
+  function renderHome(state = {}) {
     destroyPlayer();
     setChrome({
       title: "Wiki Insights",
@@ -1109,11 +1169,15 @@
     });
     currentVideo = null;
     currentInsights = null;
-    const videos = allVideos();
+    const library = allVideos();
+    const sub = knownSubscription(state.sub, library);
+    const videos = bySubscription(library, sub);
+    const scopeLabel = sub ? creatorLabel(sub) : "your library";
     const progressMap = loadProgressMap();
     const game = loadGameStore();
-    const summary = learningSummary(videos, progressMap, game);
-    const badges = achievements(summary);
+    const account = learningSummary(library, progressMap, game);
+    const summary = sub ? learningSummary(videos, progressMap, game) : account;
+    const badges = achievements(account);
     const nextBadge = badges.find((badge) => !badge.unlocked);
     const inProgress = videos
       .filter((video) => watchState(catalogProgress(video, progressMap)) === "in-progress")
@@ -1132,14 +1196,19 @@
         : "Start learning"
       : "Review completed videos";
 
+    const visibleSections = sections().filter(
+      (section) => !sub || categoryProgress(videos, progressMap, section.id).total
+    );
+
     root.innerHTML = `
+      ${subscriptionSelectHtml(library, sub)}
       <section class="learning-hero" aria-labelledby="learning-title">
         <div class="hero-topline">
-          <span class="eyebrow">Level ${summary.level}</span>
-          <span class="hero-xp">${summary.xp} XP</span>
+          <span class="eyebrow">Level ${account.level}</span>
+          <span class="hero-xp">${account.xp} XP</span>
         </div>
-        <h2 id="learning-title">${summary.completionPct}% of your library completed</h2>
-        ${completionBar(summary.completionPct, `${summary.completionPct}% of library completed`)}
+        <h2 id="learning-title">${summary.completionPct}% of ${esc(scopeLabel)} completed</h2>
+        ${completionBar(summary.completionPct, `${summary.completionPct}% of ${scopeLabel} completed`)}
         <div class="status-stats">
           <button type="button" data-home-status="not-started">
             <strong>${summary.notStarted}</strong><span>Not started</span>
@@ -1186,7 +1255,7 @@
           <button type="button" class="text-action" id="browse-all">Browse all</button>
         </div>
         <div class="category-list">
-          ${sections()
+          ${visibleSections
             .map((section) =>
               categoryRowHtml(section, categoryProgress(videos, progressMap, section.id))
             )
@@ -1209,6 +1278,7 @@
       </section>
     `;
 
+    bindSubscriptionSelect((next) => navigate(next ? `#/?sub=${encodeURIComponent(next)}` : "#/"));
     root.querySelectorAll("[data-home-status]").forEach((button) => {
       button.addEventListener("click", () =>
         navigate(
@@ -1217,16 +1287,21 @@
             status: button.dataset.homeStatus,
             section: "all",
             sort: "smart",
+            sub,
           })
         )
       );
     });
     root.querySelectorAll(".category-row").forEach((button) => {
       button.addEventListener("click", () =>
-        navigate(browseHash({ q: "", status: "all", section: button.dataset.section, sort: "smart" }))
+        navigate(
+          browseHash({ q: "", status: "all", section: button.dataset.section, sort: "smart", sub })
+        )
       );
     });
-    document.getElementById("browse-all").addEventListener("click", () => navigate("#/browse"));
+    document.getElementById("browse-all").addEventListener("click", () =>
+      navigate(browseHash({ sub }))
+    );
     document.getElementById("view-progress").addEventListener("click", () => navigate("#/progress"));
     document.getElementById("home-primary").addEventListener("click", () => {
       if (primaryVideo) openVideo(primaryVideo.slug);
@@ -1247,7 +1322,9 @@
     });
     currentVideo = null;
     currentInsights = null;
-    const videos = allVideos();
+    const library = allVideos();
+    const sub = knownSubscription(state.sub, library);
+    const videos = bySubscription(library, sub);
     const progressMap = loadProgressMap();
     const validSections = new Set(["all", ...sections().map((section) => section.id)]);
     if (state.section && !validSections.has(state.section)) state.section = "";
@@ -1288,6 +1365,7 @@
           <input id="browse-search" type="search" placeholder="Search title, creator, or keyword"
             value="${esc(state.q)}" autocomplete="off" />
         </div>
+        ${subscriptionSelectHtml(library, sub)}
         <div class="filter-row" aria-label="Watch status">
           ${statusOptions
             .map(
@@ -1353,6 +1431,7 @@
                 <span class="category-chevron" aria-hidden="true">›</span>
               </button>
               ${sections()
+                .filter((section) => !sub || categoryProgress(videos, progressMap, section.id).total)
                 .map((section) => {
                   const stats = categoryProgress(videos, progressMap, section.id);
                   const visible =
@@ -1370,6 +1449,7 @@
       }
     `;
 
+    bindSubscriptionSelect((next) => updateBrowseState({ sub: next }));
     const input = document.getElementById("browse-search");
     input.addEventListener("input", () => {
       updateBrowseState({ q: input.value }, { replace: true, focusSearch: true });
@@ -1919,7 +1999,7 @@
     if (r.name === "detail") await renderDetail(r.slug);
     else if (r.name === "browse") renderBrowse(r);
     else if (r.name === "progress") renderProgress();
-    else renderHome();
+    else renderHome(r);
     if (focusView) requestAnimationFrame(() => root.focus({ preventScroll: true }));
   }
 
@@ -1927,7 +2007,12 @@
   tabbar?.addEventListener("click", (event) => {
     const button = event.target.closest(".nav-tab");
     if (!button) return;
-    const routes = { home: "#/", browse: "#/browse", progress: "#/progress" };
+    const sub = parseRoute().sub || "";
+    const routes = {
+      home: sub ? `#/?sub=${encodeURIComponent(sub)}` : "#/",
+      browse: browseHash({ sub }),
+      progress: "#/progress",
+    };
     navigate(routes[button.dataset.tab] || "#/");
   });
   tabToggle.addEventListener("click", (e) => {

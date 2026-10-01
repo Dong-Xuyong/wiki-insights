@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 324,
-  "insightsCount": 308,
-  "conceptCount": 2901,
+  "videoCount": 334,
+  "insightsCount": 309,
+  "conceptCount": 2920,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,97 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 62,
+    "agents": 64,
     "systems": 21,
-    "build": 44,
-    "human": 18,
+    "build": 45,
+    "human": 19,
     "performance": 52,
-    "mind": 37,
-    "relationships": 52,
-    "other": 35
+    "mind": 38,
+    "relationships": 53,
+    "other": 39
   },
   "videos": [
+    {
+      "slug": "6-mindsets-respect-during-conflict",
+      "title": "6 Mindsets That Make People Respect You During Conflict",
+      "video_id": "2-BjkO6Br_E",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=2-BjkO6Br_E",
+      "duration_min": 10,
+      "creator": "charisma-on-command",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "conflict",
+        "apology"
+      ],
+      "keywords": [
+        "communication",
+        "conflict",
+        "apology",
+        "charisma on command",
+        "Six Conflict Mindsets"
+      ],
+      "summary": "charisma-on-command (~10 min, auto English) reads a film scene. Captions call the actor Colin Frell. A boxing coach walks into a criminal outfit to apologize because his students robbed their farm. He has almost no leverage. In under a minute he hits five of six mindsets the channel teaches. The sixth shows up in a later scene where he has the power.\n\nThe six, in the order the scene teaches them. No matter what, I will be okay. That flips a threat into a challenge so you walk in and say the thing instead of dancing around it. I care more about my character than my reputation. An excuse uses the reason to dodge. An explanation names the reason and still takes the blame (\"they're my lads, my responsibility\"). I have impeccable honesty. Return the goods and still name the inconvenience, the time, and the headache. Shrinking the problem makes the apology feel like a dodge. I go first in humanizing the interaction. \"Leave my lads alone\" shows what he actually cares about, so the motive is readable. Warmth and competence together. I don't need to convince anyone. When the other man does not forgive him and asks how the boys found the farm, the coach does not beg. joe-hudson's upright apology: neither begging for forgiveness nor escaping blame. He had already started the repair by finding who leaked the location. I proactively share my purpose. In the gym scene he tells the boys what a grown-up fight is: heads, not stabbing, shooting, or punching.\n\nThe close is that conflict gets easier when you believe you will be okay if they stay angry, if you were wrong, and if the talk does not end as you hoped. The last stretch is a pitch for Charisma University, a 30-day daily drill.",
+      "key_insights": [
+        "six-conflict-mindsets. Okay, character over reputation, full honesty, humanize first, stop convincing, share the purpose.",
+        "An explanation still owns the act. An excuse spends the reason to get out of it.",
+        "Name the inconvenience, not only the thing you can give back.",
+        "Start the repair before the apology. Then you are not asking them to believe a promise.",
+        "An upright apology does not require them to forgive you on the spot."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "six-conflict-mindsets",
+          "title": "Six Conflict Mindsets",
+          "e": "🤝"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "ai-generated-code-vs-human-code-greptile",
+      "title": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
+      "video_id": "474j-n1Ltxc",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=474j-n1Ltxc",
+      "duration_min": 13,
+      "creator": "ai-engineer",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "ai",
+        "code-review",
+        "agents"
+      ],
+      "keywords": [
+        "ai",
+        "code review",
+        "agents",
+        "ai engineer",
+        "Three questions before merge"
+      ],
+      "summary": "daksh-gupta (~13 min, auto English; captions garble his name as Du and the company as Gravile, Graptile, and Grubile) is a co-founder of greptile. The product reviews a pull request with a swarm that reads the changed files and related files, then spins the app up in a sandbox, installs dependencies, and clicks around. This talk is about something else: fully autonomous coding agents.\n\nHe moved to San Francisco three years ago after GPT-3.5. Tab complete was the paradigm, then multifile edits in 2024, then agents that open a whole pull request. December of last year is his watershed: agents that stay autonomous, and Twitter stories of a hundred pull requests a day. He did not believe companies with real customers could work that way. Greptile reviews more than a million pull requests a month for enterprises including Nvidia, Coinbase, Scale, Datadog, and American Express.\n\nGitHub's author field showed Codex, Claude, or Cursor on under 1% of pull requests. Co-author footers and agent branch-name prefixes raised the count. About a quarter of the pull requests they reviewed in a given month looked largely or fully AI-generated, up from under 1% early the prior year. The chart does not jump when a new model ships.\n\nRevert rate: Codex about 1 in 1,000, humans about 2.5 in 1,000, Devin about 3.5 in 1,000. Pull-request size did not explain it. Three of four agents produced fewer P0 findings than humans. Review rounds to merge: Devin 2.1, Codex 2.45, humans in the middle. Failure types differ. Against a human baseline of 1x, Claude comments were about 1.5x as likely to mention SQL injection, and Devin about half as likely to hit an auth-bypass issue. Greptile averages about four comments per pull request.\n\nAmong their users the median engineer opens about 50 pull requests a month, the 90th percentile about 500, the 99th percentile thousands. Almost a fifth of reviewed pull requests merge with no human review and no human testing. three-questions-before-merge: does the change break the user contract, does it raise the chance of a future break, and did it do what the author asked.",
+      "key_insights": [
+        "Author field undercounts agents. Footers and branch prefixes are how he got to about a quarter of pull requests.",
+        "On reverts, P0s, and review rounds, agent pull requests in this set were about as good as human ones.",
+        "The failures are not the same failures. Claude leaned toward SQL injection. Devin leaned away from auth bypass.",
+        "The median and the 99th percentile are not the same job. Manual review does not scale to thousands of pull requests a month."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "three-questions-before-merge",
+          "title": "Three questions before merge",
+          "e": "🔍"
+        }
+      ],
+      "conceptCount": 1
+    },
     {
       "slug": "an-ex-openai-researcher-just-deleted-language-from-the-llm",
       "title": "An ex-OpenAI researcher just deleted language from the LLM...",
@@ -317,6 +398,41 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "dhh-has-gone-completely-off-the-rails",
+      "title": "DHH has gone completely off the rails...",
+      "video_id": "OuNKBjuV7A4",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=OuNKBjuV7A4",
+      "duration_min": 7,
+      "creator": "fireship",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "programming",
+        "ai",
+        "rails"
+      ],
+      "keywords": [
+        "programming",
+        "ai",
+        "rails",
+        "fireship",
+        "Derived demand labor"
+      ],
+      "summary": "fireship Code Report, dated in the video as 28 September 2026 (~7 min, auto English). david-heinemeier-hansson keynoted Rails World in Austin and, on this telling, told a room of over 1,000 Rails developers that writing Rails or any source code by hand is over, no longer economically viable. The line Fireship keeps: \"The black pill is for losers. Don't be a loser.\" He frames AI-generated Rust from the Rails creator as the Pope preaching atheism, and says Rails was his first framework.\n\nKeyboard mastery (Neovim, shortcut configs) becomes a party trick if an agent makes most edits. DHH still wants a CLI for every app, and the CLI is for agents, not for a human at the keyboard: \"use your application without actually ever having to touch it.\" Frameworks built for programmer happiness (Rails, and he lists React, Svelte, Angular, Tailwind) lose if the buyer is tokens and performance. He says DHH used to call Rust awful for humans and now says Rust is amazing if you never look at it. Hey is being rewritten in AI-generated Rust, with a claimed 95% cut in server CPU and memory. The frameworks that survive, on this argument, are the ones that use the fewest tokens or run the fastest. He guesses languages converge toward one token-optimized language no human needs to read.\n\nDHH's volume claim, as reported: about 30,000 lines of Ruby a year by hand, about 150,000 lines a month with agents. A show of hands in a room Fireship puts at 1,200: about five people still spend a material amount of time writing code each week, which he calls a trust-me-bro poll under 1%. He does not believe coding is dead, and asks why there have not been mass layoffs if it is. The skill he says was always the valuable one: define the problem, then design a system that solves it securely and efficiently. Agents make that faster. The \"loser\" line, in his reading, is about pessimism, not about still loving Rails. The Donker / Horse Tinder funding bit with named investors is a joke in the script, not a company report. Sponsor segment: Code Rabbit PR triage.",
+      "key_insights": [
+        "The keynote claim, as Fireship reports it: hand-written source is no longer the economic way to ship.",
+        "CLIs stay, as the interface agents use.",
+        "Hey's Rust rewrite is the proof he cites: 95% less CPU and memory, and a language humans are not meant to read.",
+        "A room poll of about 5 in 1,200 is presented as a vibe, and he tells you not to trust it.",
+        "What he keeps: problem definition and system design. Typing was never the scarce skill."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "did-a-50-year-old-military-secret-just-solve-agent-prompt-injection",
@@ -672,6 +788,46 @@
       "conceptCount": 5
     },
     {
+      "slug": "he-realized-his-mistake",
+      "title": "He Realized his Mistake",
+      "video_id": "jF3W7EkXd4k",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=jF3W7EkXd4k",
+      "duration_min": 13,
+      "creator": "the-primeagen",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "programming",
+        "history",
+        "algorithms"
+      ],
+      "keywords": [
+        "programming",
+        "history",
+        "algorithms",
+        "the primeagen",
+        "Null reference billion dollar mistake"
+      ],
+      "summary": "the-primeagen (~13 min, auto English) names tony-hoare programmer of the month. Captions bleep the surname. The biography he gives is Hoare's: born 11 January 1934 in what is now Sri Lanka, Dragon School and King's School Canterbury, Merton College Oxford in 1952, then 18 months of Russian for the Royal Navy, including Moscow State University. The video says he died in March of this year. Knighted by Elizabeth II. More than 21 honors, including the Turing Award, which the host ranks below the joke title.\n\nQuicksort, invented on paper in Moscow with no computer and no language that had recursion yet. Pick an element, smaller on one side, larger on the other, repeat. He states n log n time and low memory, and prices 1960 magnetic-core RAM at $5,000 a kilobyte, about $50,000 in today's dollars on his figure. At Elliott Brothers in 1960 his first task was Shell sort. He bet his boss Pat six pence that he could do better, drew the boxes, Pat implemented it and paid. He also pushed ALGOL 60 over a proprietary language. With Niklaus Wirth (captions: Nicholas Worth) he worked on ALGOL W.\n\nThe mistake is the null reference, 1965, which Hoare later called his billion-dollar mistake. He was building a type system so every reference use would be safe, then added null because it was easy. The host's claim: 70% of logged enterprise Java errors trace to that decision. His outage example is Google Cloud on 12 June 2025: a skipped null check, about 7.5 hours until the fix was fully rolled out, Spotify among the services hit. He says someone else would have invented it anyway.\n\nCommunicating sequential processes, shown as a Go channel. Communication is a synchronous handshake. Processes are units of behavior and do not share variables. He nods at the actor pattern in Elixir and skips the calculus. Quotes he reads: ALGOL 60 was so far ahead it improved on its successors, and there are two ways to design software, so simple there are obviously no deficiencies, or so complicated there are no obvious deficiencies. The first is harder. Sponsor segment is Namespace CI.",
+      "key_insights": [
+        "Quicksort was a thought on paper before it was code, won as a six-pence bet against Shell sort.",
+        "null-reference-billion-dollar-mistake. Safety was the goal. Null was the easy hole.",
+        "CSP's practical core, as he teaches it: synchronous handshake, no shared variables.",
+        "The design line he wants remembered: obvious absence of deficiencies, not absence of obvious deficiencies."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "null-reference-billion-dollar-mistake",
+          "title": "Null reference billion-dollar mistake",
+          "e": "∅"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
       "slug": "how-to-build-codex-skills-better-than-99-percent",
       "title": "How to Build Codex Skills Better than 99% of People",
       "video_id": "9KOtMsZ9I28",
@@ -959,6 +1115,39 @@
       "conceptCount": 1
     },
     {
+      "slug": "i-gave-gpt-6-astra-10000-to-trade-stocks",
+      "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+      "video_id": "eg_1NXDcoPk",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
+      "duration_min": 19,
+      "creator": "nate-herk",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "ai",
+        "trading",
+        "automation"
+      ],
+      "keywords": [
+        "ai",
+        "trading",
+        "automation",
+        "nate herk"
+      ],
+      "summary": "nate-herk (~19 min, auto English) gives Codex on GPT-6 Astra $10,000 of real money and seven trading days to beat the S&P 500. He may change the setup up to twice a day. He cannot shut trading off if the money is lost. If he loses, one viewer gets a free VIP ticket to AIS Live on 17 and 18 October, by commenting on the post in his free community about a week after the video. He had run a similar test on OpenClaw with a hands-off rule. This time he is allowed to touch it.\n\nThe bot wakes on one Codex thread: before the open (news, account, watchlist), about an hour in (first trade), midday (review and a possible last new trade), afternoon (manage positions), 2:15 (close remaining positions), then confirm and log. Clocks he shows are 7:45, 9:30, 11:00, 1:00, 2:15, 2:45, and 3:15. Each run leaves a handoff note so the next wake-up is not stateless.\n\nDay 1, a Wednesday he later dates as 9 September, closed at $9,991. It bought about nine shares of Tesla, a bit over $3,000, and the stop was hit immediately. He cut the reward-to-risk filter from 2:1 to 1.5:1 and loosened the entry filters. On day 2 Astra would still only strategize. A Grok bot named Trader reads Astra's email and places the Alpaca trades. That day the account moved $0.21. The day-3 check-in, shown on a Sunday, was $10,018, with about $2,000 in HPE, $1,200 in Exxon Mobil, and $1,000 in Apple, and roughly 60% still in cash.\n\nDay 4 closed down a little over $200, about 2.26%, versus the S&P about 0.5%. He names CrowdStrike among the losers, and notes the agent also bought an S&P ETF. Day 5, Tuesday 15 September, closed at $9,832.58, up about $36 while the S&P was down 0.45%. A buy-and-hold S&P from day one would have been about $9,925. Day 6: he says the Fed raised rates 25 basis points, from 3.75% to 4%. Close $9,759, down $85 and 0.87%, versus the S&P down 0.45%. The bot sold into that drop. Day 7 closed at $9,900, up $182 and 1.87% that day versus the S&P up 1.14%. From day one, the S&P path would have been $9,980. The index beat the bot by about 0.8%. He gives away the VIP pass and says seven days is too short to judge the strategy. He plans to keep it running toward day 30. Last time, a 30-day stock-only run did beat the S&P.",
+      "key_insights": [
+        "The win condition is the index, not a dollar target. Down less than the S&P would have counted.",
+        "Astra refused to place orders. Execution moved to a Grok bot on email, then Alpaca.",
+        "The first two days were almost flat because the filters rejected trades. Loosening them is what put cash to work.",
+        "Seven days of stock ownership did not swing the account. He ended $100 down, and $80 behind buy-and-hold."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
       "slug": "i-tested-chatgpt-dot-vs-grokbot",
       "title": "I Tested ChatGPT Dot vs GrokBot (Not Even Close)",
       "video_id": "lQU5RX8EyWw",
@@ -1209,6 +1398,46 @@
           "slug": "you-get-what-you-accept",
           "title": "You Get What You Accept",
           "e": "🚧"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "im-betting-against-supermarkets",
+      "title": "I'm Betting Against Supermarkets",
+      "video_id": "jAPhgk1iRSM",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=jAPhgk1iRSM",
+      "duration_min": 5,
+      "creator": "simon-squibb",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "build",
+      "tags": [
+        "business",
+        "dtc",
+        "coffee"
+      ],
+      "keywords": [
+        "business",
+        "dtc",
+        "coffee",
+        "simon squibb",
+        "Sell Direct Keep the Margin"
+      ],
+      "summary": "simon-squibb (~5 min, auto English) films outside a Waitrose that will not let his dog in, and uses that as the aside, not the reason. He says he has invested in 87 businesses and that the common mistake, once money shows up, is go big or go home. dreambrew could sit in Waitrose or Tesco. He is not putting it there.\n\nTwo reasons. He would not know who bought it, so he could not hear the problem, invite them to events, or give them free stuff. And the margin goes to the supermarket. He says dairy farmers near him work every day and are happy if they can cover cow medical bills and living costs, because the supermarket owns the customer and the distribution. He wants the profit so Dream Brew can fund free stuff, events, and more dreams. He says 400 subscribers in 6 weeks, people he knows, beat an ego play that hopes for profit later. He names Poppy, Pip and Nut, and Trip as brands that raised heavily. He does not want to raise 100 million. He wants to make the money and show that persistence, one can then the next, is enough. Direct to consumer on social is the bet. People told him to go straight to supermarkets. He is treating the next stretch as the experiment. Site he names: dreambrew.com.",
+      "key_insights": [
+        "Shelf space hides the customer. Direct sale is how he learns and invites.",
+        "sell-direct-keep-the-margin. Supermarket distribution spends the profit he wants for community and dreams.",
+        "400 known subscribers in 6 weeks is the number he prefers to a national listing.",
+        "He is explicit that this might be wrong. The point is to learn, not to look big."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "sell-direct-keep-the-margin",
+          "title": "Sell Direct Keep the Margin",
+          "e": "🛒"
         }
       ],
       "conceptCount": 1
@@ -1690,6 +1919,53 @@
       "conceptCount": 5
     },
     {
+      "slug": "post-labor-economics-explained-in-10-minutes",
+      "title": "Post-Labor Economics explained in 10 minutes",
+      "video_id": "_Ey6fWliRXc",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=_Ey6fWliRXc",
+      "duration_min": 11,
+      "creator": "david-shapiro",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "human",
+      "tags": [
+        "economics",
+        "labor",
+        "ai"
+      ],
+      "keywords": [
+        "economics",
+        "labor",
+        "ai",
+        "david shapiro",
+        "Derived demand labor",
+        "Essential demand"
+      ],
+      "summary": "david-shapiro (~11 min, auto English, heavy music beds) compresses the post-labor argument. For 200 years the deal was time for money. Every task faces the same test: better, faster, cheaper, safer. When a machine wins all four, the human has to justify a premium. Automation takes a job one task at a time. AI takes thinking. Robots take physical work. Farm jobs: 4 in 10 Americans in 1900, fewer than 2 in 100 by 2000. The work still gets done. The usual reply is that technology creates new jobs. He says nobody wanted the job. They wanted health, working software, or a place to live. Labor is four things: strength, dexterity, cognition, empathy. Engines took strength. Robots are learning dexterity. AI is learning to reason and to comfort.\n\nderived-demand-labor: you want the house, the builder is the means. essential-demand: the person is part of the purchase. Massage, children, a painting you never see the maker of, someone you can fire, sue, or jail, or one particular person. He says that demand is real and narrow. It will not employ everyone. For most families a paycheck is the only link to the wealth they help create. After the war, productivity and pay rose together. Since 1979, productivity about 94%, typical pay about 33%. Income is what you do, what you receive, and what you own. Transfers can bridge a gap. Permanent dependence makes people clients of the state. What remains is ownership. Income is half the problem. The other half is power. Workers had power because the world could not run without them. Rights are won by making refusal cost more than giving in. The Gulf is his picture of a state that no longer needs taxes or labor: oil pays, wealth is shared, quiet is the price. Comfort is not control. Leverage that does not depend on a job still has to be able to say no and make it stick.",
+      "key_insights": [
+        "The substitution test is four words: better, faster, cheaper, safer.",
+        "Farm employment is the historical picture of work leaving the human while the output stays.",
+        "essential-demand is real and too thin to hire everyone the machines displace.",
+        "Since 1979 he cites productivity +94% and typical pay +33%. Ownership is what he leaves standing.",
+        "A state that does not need your labor can buy quiet. Power is the ability to impose a cost."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "derived-demand-labor",
+          "title": "Derived demand labor",
+          "e": "🏠"
+        },
+        {
+          "slug": "essential-demand",
+          "title": "Essential demand",
+          "e": "🎤"
+        }
+      ],
+      "conceptCount": 2
+    },
+    {
       "slug": "ranking-fast-food-protein-slop-worst-to-best",
       "title": "Ranking fast food \\\"protein slop\\\" worst to best",
       "video_id": "i43EZw8A3Eo",
@@ -1995,6 +2271,37 @@
       "conceptCount": 5
     },
     {
+      "slug": "this-15-year-old-is-stronger-than-world-champions",
+      "title": "This 15-Year-Old Is Stronger Than World Champions",
+      "video_id": "tcDTdFKOXno",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=tcDTdFKOXno",
+      "duration_min": 16,
+      "creator": "andry-strong",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "calisthenics",
+        "training"
+      ],
+      "keywords": [
+        "calisthenics",
+        "training",
+        "andry strong"
+      ],
+      "summary": "andry-strong (~16 min, auto English; captions render planche as PLCH) flies to the US and gives 15-year-old Jonah 30 minutes, no second attempts, to beat three push records. A year earlier at the same spot Jonah did 10 of the first movement. He breaks two records and misses the middle one because the first attempt spent him.\n\nFirst: most planche push-ups in one minute. The mark was 47, held by Malvin of France. Jonah does 45, rests, adds 5, then 1. 51. The host accepts every rep as below 90 degrees at the bottom and locked out at the top. Jonah's account of the year: a different push-up technique, and training nearly every day. About 4 hours a day during school, 6 to 10 hours in summer. Recovery was sleep and a lot of whatever food was in front of him. He gained about 20 lb, which the host converts to about 9 kg. He listens to med-student athletes (Sasa, and Muhammad from Egypt) because they are less opinionated about form. The athletes he wanted to combine were Valentine and Eric Barci: clean skill and power. At 25 he wants no office job, only training. He stopped drinking when he started calisthenics at 16.\n\nSecond: full planche press to handstand. The record is 17, set about nine years earlier by two-time world champion Victor Kamino. Jonah stops at 11. He thought he had 14. The host says the technique was fine and the push-ups took the energy. Third: full-range 90 degree handstand push-ups, all the way down and up. The record was 16, Willie Wens of France, set in Paris in 2014. Jonah's target going in was about 17, with 20 as his max. He hits 22.",
+      "key_insights": [
+        "Two records in 30 minutes, no retries: 51 planche push-ups in a minute, and 22 full-range handstand push-ups.",
+        "The missed record is the one that needed the energy the first record spent. He stopped at 11 of 17.",
+        "The year of progress, on his telling, is technique plus nearly daily hours, not a secret method.",
+        "He treats form debates as taste. The people he listens to are med students who stay less certain."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
+    },
+    {
       "slug": "this-is-the-brutal-truth-about-your-business",
       "title": "This Is The Brutal Truth About Your Business",
       "video_id": "2j0fVg6Bu9E",
@@ -2049,6 +2356,46 @@
         }
       ],
       "conceptCount": 3
+    },
+    {
+      "slug": "this-will-keep-happening",
+      "title": "This will keep happening",
+      "video_id": "w1qb3fMiE7s",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=w1qb3fMiE7s",
+      "duration_min": 9,
+      "creator": "david-shapiro",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "ai",
+        "economics",
+        "doomerism"
+      ],
+      "keywords": [
+        "ai",
+        "economics",
+        "doomerism",
+        "david shapiro",
+        "Capability spillover"
+      ],
+      "summary": "david-shapiro (~9 min, auto English, filmed on a walk with his dog Mandy) says the tone around AI shifted with GPT-6 Astra and Opus 5.5. He uses the Russian word vranyo (captions say \"brano\"): the open lie, where everyone knows the claim is theater and proceeds anyway. He aims that at AI x-risk people. His charge is that they have no experimental evidence, only a chain of logic about a future system they cannot describe, and that the prescribed response is still to stop everything. He says even the doomers look giddy rather than calling to bomb data centers, which he treats as evidence they do not believe their own bit. He allows gallows humor as a possible reading, then rejects it.\n\nThe technical point is spillover, or a threshold effect. A smooth capability curve fills a cup. Nothing visible happens until it spills. Computers started as battleship firing solutions, and \"computer\" was a job title before it was a device. The internet spilled from text into images, video, and live streams. Opus 5.5, for him, is a spill in animation, CGI, and 3D. Older models already made games and demos. This one, he says, has subsumed the skill of most median professionals in that work, and it feels discontinuous even if the underlying curve is a step from Opus 5 to 5.5. He expects these spills to keep happening. GPT-2 and GPT-3 were not particularly useful. ChatGPT was a spill. Each later step cleared a known failure (hallucination, sycophancy, counting letters, math) and added code and math he puts above 99.99% of humans. The world is slow to notice what a model can already do. Someone in 2024 told him ChatGPT's uses were figured out. He said they were not.",
+      "key_insights": [
+        "Vranyo is his name for treating an unevidenced x-risk script as a serious conversation.",
+        "A spillover is a threshold: the curve can be smooth and the job effect still looks like a jump.",
+        "Opus 5.5 is his current example, aimed at animation, CGI, and 3D, not at chat.",
+        "Each model step retires a previous public failure mode. The next use is not obvious at the moment of release."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "capability-spillover",
+          "title": "Capability spillover",
+          "e": "🥤"
+        }
+      ],
+      "conceptCount": 1
     },
     {
       "slug": "total-recall-agent-memory-harness-engineering",
@@ -2217,6 +2564,114 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "watch-these-18-minutes-you-will-never-be-lazy-again",
+      "title": "Watch These 18 Minutes & You Will Never Be Lazy Again",
+      "video_id": "eEvsYIXaPgU",
+      "platform": "youtube",
+      "url": "https://youtu.be/eEvsYIXaPgU",
+      "duration_min": 19,
+      "creator": "jay-shetty",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "mind",
+      "tags": [
+        "habits",
+        "attention",
+        "dopamine",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "habits",
+        "attention",
+        "dopamine",
+        "jay shetty",
+        "Activation Barrier",
+        "Ritual, Not Routine",
+        "Beat the Algorithm by Distance",
+        "Ten Minute Boredom",
+        "Two Minute Rule",
+        "Dopamine From Effort",
+        "Identity Votes from Habits",
+        "Environment Design for Habits"
+      ],
+      "summary": "19-minute jay-shetty solo clip (Jay Shetty Podcast, published 19 Sept 2026). The title says laziness. The argument says the feed. You are not lazy, unmotivated, or broken. Attention is being farmed, and you are the product. Willpower was never going to win that fight. Ownership is a stack of smaller moves: lower the first step, keep a five-minute permission to quit, swap willpower routines for a cue, cut cheap dopamine only if you replace it, put distance between you and the phone, practice boredom, reward the effort, and close the day by noticing what you did right.\n\nThe start is activation-barrier. Behavioral science, in his telling, says the first moment costs the most mental energy. A perfect plan, a perfect morning, and a perfect burst of motivation are how people never begin. The bar goes so low it feels ridiculous not to clear it: shoes, not an hour; open the document, not ten pages; one glass of water, not \"eat healthy forever.\" Once you are moving, effort itself pays dopamine, so action creates motivation. james-clear's two-minute-rule is the cousin. Shetty's timed version is five minutes with full permission to stop when the alarm rings. He says you almost never stop, because the brain resists starting, not continuing, and an unfinished task pulls you back (he names the Zeigarnik effect; the local transcript hears \"zygonic\"). Confidence, here, is not a big win. It is micro promises kept, which is identity-votes-from-habits in his words: \"I can rely on me.\" Lowering the bar is care. Raising it to impress people is performance.\n\nThen the cue. A routine still needs willpower, and he remembers days when willpower was already gone before the start. A ritual-not-routine is the same cue before the same task: meditation music from the moment he wakes, then meditation after the shower, then the workout while the body is already pointed at it. Classical conditioning. Pavlov's dog, and you are the dog. A candle before writing, jazz when you walk in the door, a yoga mat already unrolled, running shoes by the door, vitamins next to breakfast. Friction runs the other way for the phone: another room, apps deleted for a day (not the accounts), notifications off, logged out at night. His deep-work setup is a laptop with none of the apps, phone left in the bedroom.\n\nCheap rewards are the third step. Scrolling, snacking, and streaming feel good first and terrible after. He maps that to *rajas*, the mode of passion in the Bhagavad Gita. A 24-hour detox (no endless scroll, junk food, or background noise) is how real work stops feeling like a rock uphill, and he says a week without sugar changes what food tastes like. The diagnostic question: what do you reach for when you are bored, anxious, or tired? Cutting the bad hit without a replacement fails. Move, cook, walk, call someone. Activities that feel good after, not before. That is dopamine-from-effort in plain clothes. You do not beat the algorithm with willpower. beat-the-algorithm-by-distance: its goal is to keep you glued, not to make you happy or successful. You would not let a hundred people into the bedroom before you had washed your face. The phone lets them into the bedroom of your mind.\n\nten-minute-boredom is the reset: ten minutes a day of nothing. No phone, music, book, or TV. Day one is uncomfortable, day two worse, then ideas. Reward the effort, not the outcome, because negativity-bias keeps the traffic jam and forgets the smooth road, and a good thing gets one night while a bad one gets a month (the same cry-one-night beat as cry-celebrate-one-night-training). Protect the first and last 60 minutes, which is first-hour-last-hour-meals-no-phone without the meal rule. Accountability that hurts: tell a friend, post the day, bet $20 on who gets to the gym. He cites loss aversion at about 2.5 times reward-seeking. The local transcript smears that phrase (\"loss of version\"). The close is a three-minute nightly review of three things you did right, which he says trains the reticular activating system (heard as \"particular activating system\") to notice progress. Progress, dopamine, momentum, motivation. One percent, not perfection. The last lines are the channel handoff.",
+      "key_insights": [
+        "You are the product — not lazy, not broken; attention is the crop",
+        "Lower the bar until starting is ridiculous — shoes, one document, one glass of water",
+        "Five minutes, and you may quit — the brain resists the start, not the continuation",
+        "Micro promises are the confidence — \"I can rely on me\"",
+        "Ritual, not routine — a cue does the work willpower cannot",
+        "Replace the cheap hit — cutting without a substitute fails; *rajas* feels good first",
+        "Distance, not willpower — the algorithm's job is glue",
+        "Ten minutes of nothing — boredom is where focus comes back",
+        "Three things you did right — the day should not close on the miss list"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "activation-barrier",
+          "title": "Activation Barrier",
+          "e": "👟"
+        },
+        {
+          "slug": "ritual-not-routine",
+          "title": "Ritual, Not Routine",
+          "e": "🕯️"
+        },
+        {
+          "slug": "beat-the-algorithm-by-distance",
+          "title": "Beat the Algorithm by Distance",
+          "e": "🛏️"
+        },
+        {
+          "slug": "ten-minute-boredom",
+          "title": "Ten-Minute Boredom",
+          "e": "🤫"
+        },
+        {
+          "slug": "two-minute-rule",
+          "title": "Two-Minute Rule",
+          "e": "⏱️"
+        },
+        {
+          "slug": "dopamine-from-effort",
+          "title": "Dopamine From Effort",
+          "e": "🔥"
+        },
+        {
+          "slug": "identity-votes-from-habits",
+          "title": "Identity Votes from Habits",
+          "e": "🗳️"
+        },
+        {
+          "slug": "environment-design-habits",
+          "title": "Environment Design for Habits",
+          "e": "🏠"
+        },
+        {
+          "slug": "smartphone-attention-erosion",
+          "title": "Smartphone Attention Erosion",
+          "e": "📱"
+        },
+        {
+          "slug": "first-hour-last-hour-meals-no-phone",
+          "title": "First Hour, Last Hour, Meals, No Phone",
+          "e": "📵"
+        },
+        {
+          "slug": "negativity-bias",
+          "title": "Negativity Bias",
+          "e": "3️⃣"
+        },
+        {
+          "slug": "shutdown-ritual-productivity",
+          "title": "Shutdown Ritual Productivity",
+          "e": "🚪"
+        }
+      ],
+      "conceptCount": 12
     },
     {
       "slug": "what-every-parent-should-fix-daniel-amen",
