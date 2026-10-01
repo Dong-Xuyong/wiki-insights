@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 317,
-  "insightsCount": 306,
-  "conceptCount": 2882,
+  "videoCount": 320,
+  "insightsCount": 307,
+  "conceptCount": 2896,
   "sections": [
     {
       "id": "architecture",
@@ -52,11 +52,11 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 60,
+    "agents": 61,
     "systems": 21,
-    "build": 43,
+    "build": 44,
     "human": 18,
-    "performance": 51,
+    "performance": 52,
     "mind": 37,
     "relationships": 49,
     "other": 35
@@ -175,6 +175,76 @@
           "slug": "vendor-vs-independent-benchmarks",
           "title": "Vendor vs Independent Benchmarks",
           "e": "🧪"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "best-tools-gut-health-weight-loss-chris-thompson",
+      "title": "Best Tools for Gut Health & Weight Loss | Dr. Chris Thompson",
+      "video_id": "ecjEM3NJ0lU",
+      "platform": "youtube",
+      "url": "https://youtu.be/ecjEM3NJ0lU",
+      "duration_min": 148,
+      "creator": "andrew-huberman",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "performance",
+      "tags": [
+        "health",
+        "gut",
+        "metabolism",
+        "huberman-lab",
+        "weight-loss"
+      ],
+      "keywords": [
+        "health",
+        "gut",
+        "metabolism",
+        "huberman lab",
+        "weight loss",
+        "andrew huberman",
+        "Fiber microbiome diversity prerequisite",
+        "Fermented food inflammation study",
+        "GLP 1 Semaglutide Caution",
+        "Leaky Gut Fructose Inflammation",
+        "Metabolic dysregulation sequence",
+        "Defended weight range"
+      ],
+      "summary": "andrew-huberman hosts chris-thompson (~148 min, 21 Sept 2026). Thompson is a professor of medicine at Harvard, chief of interventional gastroenterology at Mass General Brigham, and co-director of the Center for Weight Management and Wellness. YouTube blocked captions on this machine. The raw file is local Whisper (small) on the Megaphone audio. Treat name slips as slips: Cologuard, scybalous, psyllium, Lovaza, Ozempic, Mounjaro, retatrutide, semaglutide.\n\nThesis: the gut is a compartmentalized endocrine organ, not a tube. Feed it fiber and low-sugar ferments or the microbes eat the mucus layer. GLP-1 drugs are worth having and incomplete alone. Procedures should hit the smallest set of levers (stretch, ghrelin, foregut exclusion, hindgut GLP-1), then the diet and training that the drug or the operation does not fix.\n\nMap of the tract. Esophagus moves the bolus. Stomach (fundus) holds the meal and makes ghrelin. Small bowel absorbs calories across a one-cell barrier and, in his view, sits in the middle of obesity and diabetes. Colon absorbs water, hosts the microbiome, makes short-chain fatty acids (mostly butyrate), and has GLP-1-producing cells. Colon cancer is what his service sees most. Start screening at 45; family history means 40, or 10 years before the relative's diagnosis. Cologuard every few years, colonoscopy every 10 years if normal. He wants stool or blood tests for screening and the scope for removing early lesions (organ-sparing). Zenker diverticulum is a mucosal pocket that traps food and can aspirate into the lung. He takes the septum down through the mouth.\n\nStool and fiber. Rule of thumb he gives: not more than three formed movements a day, and not longer than three days without one. Pebbles mean constipation and, for him, not enough fiber. Tarry shiny stool means blood. Men about 35 g fiber a day, women about 25 g (Huberman's recall; Thompson agrees, quality matters). He cites resistant starch (RS2, raw potato-type powder, he thinks ~40 g) improving fatty liver and, in a clamp study, insulin sensitivity. Constipation is the early window. If you do not feed the microbes fiber, they eat the mucus layer, butyrate falls, and tight junctions fail. Huberman's psyllium did not bloat him. Time-restricted eating: a Yale colleague told Huberman the fasting microbiome eats the lining, then rebounds. Thompson still skips breakfast. He thinks the insulin-downside of frequent eating outweighs that risk, and that an earlier eating window may be better than a morning fast. Doing a window beats no window.\n\nFerments and ulcers. He reads the fermented-food-inflammation-study the same way the Gardner episode does: ferments restored diversity and lowered inflammatory markers; the fiber arm did not. He still wants both. Kimchi, sauerkraut, kefir, yogurt. Not beer. They are partly pre-digested fiber and partly live cultures (Bifidobacterium, Lactobacillus). Swallowed butyrate does not reach the colon. First bacteria make acetate and lactate; later ones make butyrate. The acid lumen makes it harder for organisms he does not want. Barry Marshall proved H. pylori by drinking it. Stress, acid, smoking, and diabetes-related ischemia also ulcerate. After gastric bypass, a large pouch can acid-burn jejunum that has no pancreatic bicarbonate. Ötzi had H. pylori. One cause is not the only cause.\n\nGLP-1. He is grateful. Obesity was not being treated. They are not a perfect solution. He says on the order of a million people a month come off, about 30% in the first month and about 50% by a year, in line with other chronic drugs. Nausea, the weekly injection, dose ramps, and unknown long-term effects of super-physiologic doses all contribute. In his endoscopic practice, over 85% have already been on a GLP-1 and are struggling or off. Approved doses are a regulatory artifact. A physician-patient split a pen into a vial and used an insulin syringe. Thompson uses that microdose as maintenance instead of stopping. These are lifelong medicines. On the earlier drugs (semaglutide in the captions), about a third of weight lost is lean mass. Cycle off and the regain is fat, not muscle, so composition worsens each loop. Come off only with a microdose or a bridge to a procedure. Resistance training is how the body keeps muscle in a deficit. He is not citing one trial where that was the primary outcome. Muscle loss and nausea are the reasons patients give him. Some lose nothing on the low dose and cannot tolerate the high dose. Get a DEXA if muscle is already low. Huberman's apathy / \"appetite for life\" coverage and the blindness scare: Thompson treats the eye risk as a rare optic-nerve ischemia, not a general effect. Food-noise and apathy stories get amplified. He does not confirm them as the main signal.\n\nHormones. Ghrelin from the fundus, up when hungry, down after a meal. Smell and sight raise insulin a little and the stomach starts to stretch before a swallow. CCK from the proximal duodenum dumps bile and signals satiety. GIP from K cells is the weaker partner (\"Robin\" to GLP-1). PYY and GLP-1 from L cells in the distal small bowel and colon: glucose leans GLP-1, protein and fat lean PYY. Retatrutide (captions smear the name) is GLP-1 + GIP + glucagon. Huberman cites a Lilly trial around 30% weight loss. Thompson: GIP lets you push GLP-1 with less nausea; glucagon says burn fat and may spare muscle. Leptin from fat is the thermostat for defended-weight-range. Leptin drugs failed because the hypothalamus was already resistant. Incretin history, as he tells it: 1930s London, emulsified duodenum dropped blood glucose; Sheila Sherlock's lab later. Ultra-processed food: he cites the inpatient crossover (about 20 people, whole food vs processed, about 500 kcal/day more on the processed arm), easier digestion, bigger glucose spikes, lower thermic effect, less fiber.\n\nSequence before A1C. metabolic-dysregulation-sequence: excess calories (usually glucose) → CGM spikes → high fasting insulin (Whitehall II: he says detectable on the order of 10–15 years before diabetes) → ectopic fat in liver, muscle, pancreas (waist, DEXA, ALT) → insulin resistance (fasting glucose × fasting insulin, divided by a constant, flag above 2) → metabolic inflexibility (respiratory exchange ~0.7 fat, ~1.0 carb) → weight gain and beta-cell loss. Wear a CGM for a month or two, not forever. He cites an UNC/NHANES read: under a third of lean people metabolically healthy, and about 12% of the whole population. Medicine wants more trials before it changes the guideline. Patients want the data now.\n\nPermeability. Increased gut permeability is real and tied to metabolic disease. It is not a license to blame every symptom. Overfed mice grow longer, heavier bowel and longer villi. Human resections in obesity or type 2 diabetes show the same plus inflammation (he cites natural killer cells up about eightfold, macrophages about 1.5-fold) and disorganized tight-junction proteins. MASH organoids from last year made less tight-junction RNA. Chromium-EDTA crossed in MASH and fatty liver, not in treated celiac. LPS through the barrier hits the liver via the portal vein (fat goes to lymph), TLR4, NF-κB. A Duke study he cites injected LPS into healthy people and induced inflammatory markers and insulin resistance on clamp studies. Butyrate, the mucus layer, and the microbiome are what keep the lining and teach the innate immune system what to ignore. This is the same phrase doctor-mike refuses as a TV diagnosis and the cascade robert-lustig describes. Thompson keeps the mechanism and drops the catch-all.\n\nFood arguments. Artificial sweeteners beat high-fructose corn syrup. Fruit fructose is fine because of the matrix. Liquid fructose and juice are not. Sweeteners travel inside ultra-processed food, which is why they got blamed, same pattern as seed oils. Polyunsaturated fats have outcome data. Oxidized oil and repeated deep-frying (trans fats) are the problem. Olive oil first, small amounts of butter, saturated fat is a dose problem. He does not chase an omega-3:omega-6 ratio. A minimum of omega-3, fish a couple of times a week, or algae. Supplement a measured deficit. He thinks the omega-3 data are stronger for Alzheimer's than for universal metabolic use. Huberman takes pharmaceutical Lovaza.\n\nTraining and the defended range. Every patient: resistance training before the weight comes off, zone 2, and HIIT to mobilize visceral fat (beta-adrenergic receptors). The fat is mobilized during HIIT and burned later. Diet and exercise alone fight defended-weight-range. After a crash diet the body is smaller, satiety hormones fall, ghrelin rises, and he says you get about 25% more efficient at the same work, with NEAT and basal metabolic rate down. Biggest Loser follow-up, as he cites it: about 500 kcal/day less. Look AHEAD: about 6% loss at 10 years and no heart-disease improvement. GLP-1 replaces one missing hormone. It does not fix ghrelin. The fundamentals (fiber, fewer spikes, training) still decide whether the drug, the scope, or the surgery holds.\n\nProcedures he wants instead of one giant operation. Endoscopic sleeve gastroplasty (he dates his version to 2012): fold the stomach through the mouth so it stretches sooner (vagal \"full\") and food stays longer (ghrelin down). About 18% weight loss at a top center. Argon ablation of fundal ghrelin cells (they live in the mucosa and grow back thin) pushes that toward 20–25%. No good ghrelin drug. Magnetic rings, published about 10 years ago from work in the Czech Republic, join proximal jejunum to ileum and spike GLP-1. Combined with suturing, that is a bypass built from parts. He is conflicted out of doing that combination. Foregut exclusion: Francesco Rubino's diabetic rats improved only when the duodenum was excluded, not when food was merely dumped downstream. Thompson's fistula closures: diabetes resolved in about 60% if the fistula was closed, in none if it stayed open. A duodenal liner (food inside, enzymes outside) gave about 1 point of A1C and about 7% weight loss, then has to come out. Duodenal ablation resets the lining: A1C down more than a point, little weight loss. He says unpublished work suggests it limits regain after stopping a GLP-1. Phenotype which lever, then do the least.\n\nGene therapy. A viral vector carries GLP-1 under the insulin promoter. Endoscopic ultrasound injects it into the pancreatic tail so beta cells release GLP-1 with insulin, nutrient-responsive, at the pancreas rather than from distant L cells. Episomal, not integrated into host DNA. Beta cells are terminally differentiated, so it is meant to stay. He was in the early animal work. Mice on the transgene lost a bit more than high-dose semaglutide and then stopped. Semaglutide animals that then got the transgene returned to that same settling weight. Animals that got nothing regained. Trials, he thinks, just opened in the Netherlands. More obviously a diabetes tool than a weight-loss tool this early. Huberman raises Prader-Willi. Thompson does not claim the construct treats it.",
+      "key_insights": [
+        "Feed the microbes fiber (about 25 g women, 35 g men) or they eat the mucus layer and butyrate-dependent tight junctions fail.",
+        "Low-sugar ferments and fiber do different jobs. The Sonnenburg trial's fiber arm did not restore diversity. Thompson still wants both. Do not swallow butyrate and expect it in the colon.",
+        "Three movements a day is the loose side. Three days without one is the bound side. Pebbles are a fiber signal. Tarry stool is blood.",
+        "GLP-1s are a real treatment and a poor solo plan. Stopping without a bridge trades muscle for fat on the way back up. Lift before and during. Microdose is his maintenance idea, not a stop.",
+        "About a third of early-GLP-1 weight loss, as he states it, is lean mass. Cycling on and off makes that worse.",
+        "Catch metabolic disease before A1C: CGM spikes, fasting insulin, ectopic fat, a glucose×insulin index above 2, then a breath test for flexibility.",
+        "\"Leaky gut\" is increased permeability with MASH and LPS evidence. It is not a diagnosis for every symptom.",
+        "Liquid fructose is the problem. Fruit is not. Sweeteners and seed oils got blamed for the ultra-processed foods they ride in.",
+        "The body defends a weight range. Crash diets raise ghrelin and cut burn. Drugs and scopes fail if fiber, spikes, and training never change.",
+        "Build the bypass out of separate levers: stomach fold, fundus ablation, duodenal exclusion or ablation, magnetic hindgut hook, maybe nutrient-timed GLP-1 from the beta cell."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "glp1-semaglutide-caution",
+          "title": "GLP-1 Semaglutide Caution",
+          "e": "⚠️"
+        },
+        {
+          "slug": "leaky-gut-fructose-inflammation",
+          "title": "Leaky Gut Fructose Inflammation",
+          "e": "🦠"
+        },
+        {
+          "slug": "metabolic-dysregulation-sequence",
+          "title": "Metabolic dysregulation sequence",
+          "e": "📈"
+        },
+        {
+          "slug": "defended-weight-range",
+          "title": "Defended weight range",
+          "e": "⚖️"
         }
       ],
       "conceptCount": 4
@@ -687,6 +757,74 @@
       "conceptCount": 8
     },
     {
+      "slug": "how-to-decide-what-company-to-build",
+      "title": "How To Decide What Company To Build",
+      "video_id": "uAqMIdrb_AQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/uAqMIdrb_AQ",
+      "duration_min": 6,
+      "creator": "dan-martell",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "build",
+      "tags": [
+        "entrepreneurship",
+        "validation",
+        "dan-martell"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "validation",
+        "dan martell",
+        "Pitch Deck North Star",
+        "Ten Person Money Proof",
+        "Don't Reshape for the Yes",
+        "Decide Then Make It Right",
+        "Make It Exist First",
+        "Business Runs Without You"
+      ],
+      "summary": "Six-minute dan-martell clip on Dan Martell Daily. The office plaque lists 15 or 16 companies, and he says more than 20 launched in the last year and a half. The question he answers is how he decides what to build. The method is a spec he will not edit on the first pass, then cash from people who already have the problem.\n\nThe spec is a pitch-deck-north-star: a clear customer, a clear problem, three features with benefits, and a marketing plan, written up as a pitch deck. He talks to at least ten people he thinks have that problem. The filter is blunt. If the customer is a mother and the person is not, he thanks them and leaves. He does not sell them on having the problem. dont-reshape-for-the-yes is the mistake he names: anyone who answers the phone feels like a win, so you change the product to fit them, then change it again for the next caller, and you never have one thing. ten-person-money-proof is the only evidence he accepts. No money, no proof. He says he has run some version of this since he was 17, at Champlain Mall with his brother Pierre, a clipboard, and wireframes for a property-management product he calls Manage Street: rent or own, next person.\n\nAfter the money, he builds. Development, he says, is almost free now, so the deck becomes the product, he shows it, and he iterates. Then another ten, more money, more validation. The parable is a carbon-fiber flap so rocks stop flying off rear tires. Believing the problem, spending $100,000 of savings on a prototype, and hiring people to build it in China is the trap: nobody in that chain is paid to stop you. His version is an AI sales page, then the Dieppe farmer's market, writing down the objections, taking deposits, and only then talking to a vendor. Unit economics come after the deposits. Sold at $20 and made for $18 is not a business. The close on choosing among ideas is decide-then-make-it-right: about fourteen of them in your head; the job is not the perfect pick, it is picking and then running this process. The last forty seconds is the same free Scale Workbook pitch as this-is-the-brutal-truth-about-your-business.\n\nYouTube's caption track came back empty and the transcript API was IP-blocked. The raw text is local Whisper (small) on normal-speed audio. Whisper heard \"shelf help\" in the CTA, the same smear as the other clip's captions, and \"pitch dock\" before he corrects it to deck.\n\nThis is the selection step before make-it-exist-first and before business-runs-without-you. Exist the offer and the deposits. Do not exist a $100,000 prototype. The handoff ladder is a later tape.",
+      "key_insights": [
+        "The deck is the spec, and the spec does not move. Customer, problem, three features with benefits, marketing plan",
+        "Disqualify in one question. Wrong person gets a thank-you, not a pitch",
+        "A yes that changes the product is not traction. Excitement that anyone answered is the trap",
+        "Proof is a payment. Conversations without dollars do not count",
+        "Build after the money. Show the thing, iterate, then find the next ten",
+        "Vendors are paid to say yes. The farmer's market and the deposits are the stop sign",
+        "Check the spread after the deposits. $20 sold, $18 to make, walk away",
+        "Fourteen ideas is normal. Make a decision, then make it right"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "pitch-deck-north-star",
+          "title": "Pitch Deck North Star",
+          "e": "🗺️"
+        },
+        {
+          "slug": "ten-person-money-proof",
+          "title": "Ten Person Money Proof",
+          "e": "💵"
+        },
+        {
+          "slug": "dont-reshape-for-the-yes",
+          "title": "Don't Reshape for the Yes",
+          "e": "📵"
+        },
+        {
+          "slug": "decide-then-make-it-right",
+          "title": "Decide Then Make It Right",
+          "e": "✅"
+        },
+        {
+          "slug": "make-it-exist-first",
+          "title": "Make It Exist First",
+          "e": "🔨"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
       "slug": "how-to-invest-for-beginners-2026-mark-tilbury",
       "title": "How to Invest for Beginners (in 2026)",
       "video_id": "MC7k4ruZD5c",
@@ -848,6 +986,75 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "i-tested-jev-on-12-real-use-cases",
+      "title": "I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
+      "video_id": "ymgH8jS6Wb8",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=ymgH8jS6Wb8",
+      "duration_min": 16,
+      "creator": "nate-herk",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "jev",
+        "nate-herk",
+        "automation"
+      ],
+      "keywords": [
+        "agents",
+        "jev",
+        "nate herk",
+        "automation",
+        "System One Model",
+        "RLCD (calibrated decisions)",
+        "Questions Are the Analysis",
+        "Thin LLM Slot Replacement",
+        "Hierarchical Agent Decisions"
+      ],
+      "summary": "16-minute nate-herk bench of jev (auto English from the player overlay; the caption API returned an empty body). The title says 12 use cases. The tape never counts to 12. It shows one playground running the same three shapes — yes/no (\"a null\"), choice, and score — across a corpus, then a live X extension and a paper-trading sketch.\n\ndiogo-almeida's claim, read off the announcement: rlcd-calibrated-decisions, 20–200× faster, 40–400× cheaper, output tokens free. Nate's own limit line: Jev does not write, summarize, find themes, or do deep analysis, and the input window is 64k tokens against the million-token chat models. It is not in the bucket with Astra or Fable. Stay on ChatGPT for a handful of items, a reason, a brainstorm, or a chat.\n\nThe number he wants remembered is the email bench. 1,000 emails, seven questions (invoice, brand deal, phishing, type, urgency, sponsor fit, and one more on the card). Jev, not parallelized: ~70 seconds, 9 cents. GPT 5.6 Luna: 5 minutes, 62 cents. After he batches bigger payloads in parallel: 6 seconds, still 9 cents. He calls Luna 12× the cost and 46× the time. 46× fits 5 minutes against the 6-second run. 62 cents is about 7× 9 cents, not 12×. Invoice-only, yes at ≥50% confidence: 4 seconds, 5 cents, 763 no / 237 yes. Sponsor-fit score: 942 on the bottom rung, none a strong fit (captions say \"won\"). Urgency average 2.8 / 5.\n\nSame playground on 1,000 YouTube comments: 5 seconds, 5 cents. Skool posts get churn, help, testimonial strength. His Jev console on camera: 85 cents, almost 20,000 requests. Speed, he says, often does not matter in a production automation. Cost does, once the corpus is thousands of rows. The route is thin-llm-slot-replacement: Jev labels \"needs a reply / wants to buy,\" then ChatGPT only reads that slice.\n\nWhere speed does matter he built Jev Judged, a Chrome extension that tags the X feed as breaking, golden nugget, or AI slop as the post hits the screen. He says the first hour was not doing very well. Meetings (Fireflies or Granola) and clips (Astra cuts, Jev scores hook, standalone, screen, quotable line) are the lecture: you cannot ask \"what should I do better.\" You declare the questions and read the histogram. That is questions-are-the-analysis.\n\nBefore trusting it: a golden set of 100 with correct answers, then Jev vs Opus vs Soul on accuracy, cost, and speed if speed matters. Sketches after that: contract clauses, job and lead red flags, a brain-dump router (idea / task / journal, deadline, life area), customer-support routing. The paper trader is a POC he calls unvetted. Every second: up, unclear, or down, then a buy or sell. Exchange fees cost more than the model. Jev at about $2/day to run 24/7; Soul, Opus, and Fable \"significantly more.\" Browser-use clips he has seen decide, then fail to type. The handoff is the product: Jev on the decision, another model on the act.\n\nAccess: TypeSafe waitlist, plus Vercel AI Gateway and openrouter if you are not in yet. Sponsor read is the free first-client SOP.",
+      "key_insights": [
+        "Three shapes, you write the rubric — null (yes/no), choice, score; 50% confidence was his yes-bar on invoices",
+        "64k in, no prose out — cannot write, summarize, or find themes; not Astra, not Fable",
+        "Same 9 cents, 70s then 6s — 1,000 emails × 7 questions; parallel payloads, not a new model, made it fast; Luna was 5 min / 62¢",
+        "20k requests for 85¢ — his console figure; comments were 5s / 5¢ per thousand",
+        "The histogram is the analysis — meetings and clips: pre-declare questions, then read the counts",
+        "Golden 100 before you route — Jev vs Opus vs Soul on accuracy and cost",
+        "Fees ate the trader — ~$2/day for the model, 24/7; the exchange fee was the real bill",
+        "Decision, then a typer — browser use could choose and could not type; hand off to a model that acts"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "system-one-model",
+          "title": "System One Model",
+          "e": "⚡"
+        },
+        {
+          "slug": "rlcd-calibrated-decisions",
+          "title": "RLCD (calibrated decisions)",
+          "e": "🎯"
+        },
+        {
+          "slug": "questions-are-the-analysis",
+          "title": "Questions Are the Analysis",
+          "e": "📊"
+        },
+        {
+          "slug": "thin-llm-slot-replacement",
+          "title": "Thin LLM Slot Replacement",
+          "e": "🔀"
+        },
+        {
+          "slug": "hierarchical-agent-decisions",
+          "title": "Hierarchical Agent Decisions",
+          "e": "🌳"
+        }
+      ],
+      "conceptCount": 5
     },
     {
       "slug": "i-tested-openai-dots-vs-meta-muse",

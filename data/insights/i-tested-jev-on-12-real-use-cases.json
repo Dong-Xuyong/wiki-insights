@@ -1,0 +1,50 @@
+{
+  "slug": "i-tested-jev-on-12-real-use-cases",
+  "sections": [
+    {
+      "title": "Decisions, not prose",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What does Nate say Jev actually returns?",
+          "a": "Three shapes: yes/no (he calls it a **null**), a **choice**, and a **score**, each with a confidence. It does not write, summarize, or find themes. Input cap on this tape: **64k** tokens. [[i-tested-jev-on-12-real-use-cases]]"
+        },
+        {
+          "e": "💸",
+          "q": "What were the 1,000-email numbers?",
+          "a": "Seven questions. Jev **~70 seconds and 9 cents**, then **6 seconds and 9 cents** after parallel payloads. Luna: **5 minutes and 62 cents**. He says 12× cost and 46× time. 46× matches the 6-second run."
+        }
+      ]
+    },
+    {
+      "title": "The histogram is the report",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Why can't he ask Jev what his meetings mean?",
+          "a": "Open themes are a chat job. He pre-declares questions (owned next step, tension, waiting on Nate) and reads the counts. [[questions-are-the-analysis]]"
+        },
+        {
+          "e": "🧪",
+          "q": "What does he require before routing production to Jev?",
+          "a": "A **golden set of 100** with known answers. Run Jev, Opus, and Soul. Keep the one that wins accuracy and cost, plus speed if the loop is live."
+        }
+      ]
+    },
+    {
+      "title": "Live loops",
+      "items": [
+        {
+          "e": "🐦",
+          "q": "What is Jev Judged?",
+          "a": "His Chrome extension. As an X post hits the screen, Jev tags it breaking, golden nugget, or AI slop. He says the first hour was weak."
+        },
+        {
+          "e": "📉",
+          "q": "Why does the paper trader fail the bill?",
+          "a": "The model is about **$2/day** at one decision a second, 24/7. The exchange **fees cost more than Jev**. He calls the POC unvetted. Browser-use clips decide, then a second model has to type."
+        }
+      ]
+    }
+  ]
+}
