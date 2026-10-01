@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 314,
-  "insightsCount": 304,
-  "conceptCount": 2861,
+  "insightsCount": 305,
+  "conceptCount": 2869,
   "sections": [
     {
       "id": "architecture",
@@ -237,11 +237,13 @@
         },
         {
           "slug": "thin-llm-slot-replacement",
-          "title": "Thin LLM Slot Replacement"
+          "title": "Thin LLM Slot Replacement",
+          "e": "🔀"
         },
         {
           "slug": "one-vps-coolify-stack",
-          "title": "One VPS Coolify Stack"
+          "title": "One VPS Coolify Stack",
+          "e": "🖥️"
         }
       ],
       "conceptCount": 4
@@ -573,11 +575,13 @@
       "concepts": [
         {
           "slug": "perfection-is-procrastination-with-branding",
-          "title": "Perfection Is Procrastination With Better Branding"
+          "title": "Perfection Is Procrastination With Better Branding",
+          "e": "🏷️"
         },
         {
           "slug": "make-it-exist-first",
-          "title": "Make It Exist First"
+          "title": "Make It Exist First",
+          "e": "🔨"
         },
         {
           "slug": "over-thinking-procrastination",
@@ -1022,27 +1026,43 @@
       "concepts": [
         {
           "slug": "active-vs-passive-meditation",
-          "title": "Active vs Passive Meditation"
+          "title": "Active vs Passive Meditation",
+          "e": "☕"
         },
         {
           "slug": "compassion-is-for-yourself",
-          "title": "Compassion Is for Yourself"
+          "title": "Compassion Is for Yourself",
+          "e": "💛"
         },
         {
           "slug": "blissipline",
-          "title": "Blissipline"
+          "title": "Blissipline",
+          "e": "🌧️"
         },
         {
           "slug": "destiny-is-a-highway",
-          "title": "Destiny Is a Highway"
+          "title": "Destiny Is a Highway",
+          "e": "🛣️"
         },
         {
           "slug": "quality-of-life-before-the-job",
-          "title": "Quality of Life Before the Job"
+          "title": "Quality of Life Before the Job",
+          "e": "📓"
         },
         {
           "slug": "six-questions-for-a-good-meditation",
-          "title": "Six Questions for a Good Meditation"
+          "title": "Six Questions for a Good Meditation",
+          "e": "🌙"
+        },
+        {
+          "slug": "enter-the-operating-system",
+          "title": "Enter the Operating System",
+          "e": "💻"
+        },
+        {
+          "slug": "follow-your-passion-myth",
+          "title": "Follow Your Passion Myth",
+          "e": "🔥"
         },
         {
           "slug": "happiness-as-present-contentment",
@@ -1055,7 +1075,7 @@
           "e": "🎯"
         }
       ],
-      "conceptCount": 8
+      "conceptCount": 10
     },
     {
       "slug": "modern-life-is-a-disease",
@@ -1704,11 +1724,11 @@
         "psychology",
         "jay shetty",
         "daniel amen",
-        "seven out of ten first ask",
-        "rescue robs agency",
-        "special time no commands",
-        "praise the work not the trait",
-        "respect gates the extra"
+        "Seven out of Ten, First Ask",
+        "Rescue Robs Agency",
+        "Special Time, No Commands",
+        "Praise the Work, Not the Trait",
+        "Respect Gates the Extra"
       ],
       "summary": "daniel-amen on the jay-shetty podcast (~35 min) argues that the parent goal comes before the child goal. Mentally strong kids are modeled, not downloaded. Amen Clinics' first value, he says, is authenticity. His own map: third of seven, dad gone, bitterness from absence, so presence is the target. Attachment is the neuroscience he cites against later mental health problems. Solving every problem is the wrong kind of bonding. It buys the parent self-esteem and leaves the child entitled.\n\nThe test and the homework. Ask how often, out of ten, the child does the thing the first time without a fight. He puts healthy kids at seven. The kids in his office are zero to three. They cannot explain it because it is brain-driven, not a will speech. Ignore the miss, or repeat the ask, and you teach the miss. The brain is lazy. jay-shetty asks whether first-time obedience kills free thought. Amen points at Love and Logic, the book he co-wrote with Charles Fay. His wife Tana told second-grader Chloe she had already done second grade. Forgot homework, sweater, or lunch: nobody brings it. Chloe stormed off and came back in twenty minutes. Amen's claim: she graduates Chapman in business because she could not push the problem back onto her mother. Start around four to six, with bumper guards. Mistakes while the bill is still small.\n\nSelf-esteem and the bank account. He says a 70-year Harvard follow of inner-city Boston kids found one correlate of self-esteem: the child worked. Paper route, chore, job. Affluent homes that do everything set up later struggle. Treat that as his telling of the study. The famous Harvard adult-development work is usually cited for relationships, and this clip does not name the paper. Shetty's own paper round at 14 is the agreeing story. Watching a child be uncomfortable is the hard part. The long game is independent, competent, strong. His 1972 vote for McGovern was a way to spite a father he was not bonded to. Influence needs the relationship.\n\nTwenty minutes, then words. Special time: twenty minutes a day, something the child wants that fits in twenty minutes, no commands, no questions, no directions. His agent Carl's two-year-old grabbed his leg after three weeks. Then shut up. Active listening repeats the line and the feeling. \"I want blue hair\" is not a fight opener. \"You want blue hair\" lets the real sentence out (\"I don't fit in\"). He still says no at the end if the look will sort the child into the wrong crowd. Games (cards, Chutes and Ladders, a one-sentence-each story) open kids who freeze at \"tell me your problem.\"\n\nStrong, not smart. A strong child still has automatic negative thoughts and questions them. He will not say \"mentally weak.\" Vulnerable kids mind-read, fortune-tell, and stare at what is wrong. Blame is the worst ant: it makes a victim. His kids' book is *Captain Snout and the Superpower Questions*. Special time stays twenty minutes, not a second life of soccer, dance, and music. Schools want the child to do the homework. Prestige, he says, comes from a French word for deceit. He went to Orange Coast, a community college, and is in its hall of fame. Never tell a child they are smart. Say they work hard. Smart plus a hard problem drops self-esteem. Effort plus a hard problem raises the work. Strong people ask questions. He learned that in the army, including asking a second person after a no.\n\nPhrases that steal the job. \"It'll be okay\" and \"I'll take care of it\" send the parent to the principal for an ordinary peer problem. Dangerous bullying and abuse are the exception. Otherwise: how do you think you can handle that? \"I'm rooting for you,\" not \"that's a dumb decision,\" and not the story of what you did at their age. A TikTok line he says hit about 7 million views: I don't do nice things for people who do not treat me with respect. You still feed them. You do not add the store trip. Families need rules. \"Do what mom and dad say the first time\" is his favorite, because repeating an ask five times raises the chance you will hurt the child. Offer a choice, then follow through. Empty threats teach them that only anger works. After-dinner dishes can be a rhythm, not a lecture. Notice what you like. By 14, friends replace a parent who was never there.\n\nLove is the boundary. Kids do not sit still for adult meditation. Myelin finishes toward the front of the brain around 25. A myelinated neuron, he says, runs 10 to 100 times faster. Expecting adult behavior is the mistake. From about four, a slow breath is a tool. Love is not the homework delivery. Love is the phone in another room, the no to a ten-year-old's phone, and firm plus kind at the same time. The clip ends on a channel subscribe bumper.",
       "key_insights": [
@@ -1720,9 +1740,35 @@
         "Respect gates the extra. Feed them. Skip the nice trip when they treat you badly. Follow through once.",
         "Love is the long game. The rescue feels like love and blocks the strength."
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "seven-out-of-ten-first-ask",
+          "title": "Seven out of Ten, First Ask"
+        },
+        {
+          "slug": "rescue-robs-agency",
+          "title": "Rescue Robs Agency"
+        },
+        {
+          "slug": "special-time-no-commands",
+          "title": "Special Time, No Commands"
+        },
+        {
+          "slug": "praise-the-work-not-the-trait",
+          "title": "Praise the Work, Not the Trait"
+        },
+        {
+          "slug": "respect-gates-the-extra",
+          "title": "Respect Gates the Extra"
+        },
+        {
+          "slug": "dopamine-from-effort",
+          "title": "Dopamine From Effort",
+          "e": "🔥"
+        }
+      ],
+      "conceptCount": 6
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",
