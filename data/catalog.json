@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 314,
-  "insightsCount": 305,
-  "conceptCount": 2869,
+  "videoCount": 317,
+  "insightsCount": 306,
+  "conceptCount": 2882,
   "sections": [
     {
       "id": "architecture",
@@ -54,11 +54,11 @@
     "architecture": 3,
     "agents": 60,
     "systems": 21,
-    "build": 42,
-    "human": 17,
+    "build": 43,
+    "human": 18,
     "performance": 51,
     "mind": 37,
-    "relationships": 48,
+    "relationships": 49,
     "other": 35
   },
   "videos": [
@@ -1218,6 +1218,73 @@
       "conceptCount": 18
     },
     {
+      "slug": "most-jobs-are-going-away",
+      "title": "Most jobs are going away",
+      "video_id": "kBZNi8zPUTQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/kBZNi8zPUTQ",
+      "duration_min": 36,
+      "creator": "david-shapiro",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "human",
+      "tags": [
+        "economics",
+        "labor",
+        "ai",
+        "david-shapiro"
+      ],
+      "keywords": [
+        "economics",
+        "labor",
+        "ai",
+        "david shapiro",
+        "Derived demand labor",
+        "Essential demand",
+        "Essential labor thin slice",
+        "Attention caps essential demand",
+        "Positional competition industry"
+      ],
+      "summary": "david-shapiro (~36 min, his channel, 20 Sept 2026, auto English) argues the moat around paying a human is shallow. The deck is post-labor economics: most jobs are derived-demand-labor, and the slice that is essential-demand will not grow enough to replace them. Description links a *Labor Zero* Amazon preorder. He is answering alex-imas (captions say \"Immerman\" and \"post-AGI\"; the public title is Director of AGI Economics at google-deepmind).\n\nLabor's share of US national income sat around 63–64%, peaked in the late 1950s or early 1960s, bumped around 2000, and is now below 53%, with the same slide in other rich economies. New jobs can appear and GDP can grow while the money still goes to capital. That share is his main metric that a post-labor economy has been under construction for decades.\n\nderived-demand-labor is Alfred Marshall, 1890: demand for an input comes from demand for the outcome. You want the house, not the painter. Health is the same shape. Nurses and doctors are the current means. A flat intake nurse made him prefer a robot. The substitution test he says has spread is better, faster, cheaper, safer. He puts labor at 30–50% of the cost of a house. A general contractor \"on the hook\" is the thin exception.\n\nessential-demand is his name for the complement: the human is what you are buying, so swapping the human changes the product. He says the word is his, and that it sits upstream of the meaning economy, Imas's relational economy, the experience and attention economies, and what he has called the statutory economy. A pedigree slide (attention economy, experience economy, relational goods, the handmade effect, commercial friendships) is there to show the idea is old. Four parts: presence (cute barista, massage, a trip sitter; fungible), provenance (a human made it; his researcher retitles herself \"artisanal researcher\"), liability (a person you can fire or jail; judges, CEOs, elected officials; doctors may become approval theater, like a rubber-stamp physician in Illinois), affinity (this name: Taylor Swift, Robert Downey Jr., his own channel). One job can mix them. A CTO keeps liability, some affinity, and showing up to meetings, while provenance thins because every CTO uses AI. One essential task does not save the rest of the bundle.\n\nHe had ChatGPT Astra (ultra) walk 831 BLS occupation categories, about 99.9% of US paid work, and split tasks into derived vs essential. Caption buckets: 0.3% of jobs where the human is central, 3.8% relationship-intensive, 16% mixed, almost 50% niche preference, just over 31% with no essential channel. Employment-weighted, he calls about 5.5% of work today essential at the median, and 15% the high-water mark. That high-water line is the \"85% unemployment\" beat, immediately caveated: people would reallocate time and money, and future demand can expand. See essential-labor-thin-slice.\n\nThe fight with Imas is whether that expansion is large. Both grant that richer societies spend more on luxuries and experiences. Shapiro says a fancier car, a nicer house, or a new Xbox is luxury and still needs no human. Memetic desire (wanting it because others have it) and positional goods (a Malibu house) ratchet appetites without hiring. Leisure time is the other cap: about 5 hours a day now for Americans 15+, about 8.5 if work disappeared, about 10.5 if chores did too. Doubling the 15% high-water figure is 30% of today's jobs; he thinks the real number is closer to 11%. Herbert Simon, 1971: a wealth of information creates a poverty of attention. One therapist, one client. One yoga teacher, about 20 students, and you only take one class. Four musicians, about 70 people. A film shot for months plays for millions at near-zero copy cost. Office workers pushed into massage still compete with each other. Creators up 183%, creator revenue up 60%, median creator about $300 a month including OnlyFans, and he puts a living at roughly the top 5%. He says he is in the top 1% at 30–50,000 hours of attention a month and is pivoting back to consulting because YouTube and Patreon are getting harder. Extra leisure can be unpaid: trails, friends, partners. Wanting a human there is not a paycheck. Close: in the automated economy, demand for human presence falls off a cliff.",
+      "key_insights": [
+        "The share is the tell — jobs can be created while labor's cut of income keeps falling. He treats the drop from the mid-60s toward the low 50s as the post-labor chart.",
+        "Most labor is a means — if the outcome is the house or getting well, the human is incidental and fails the better-faster-cheaper-safer test.",
+        "Essential means the human is the product — presence, provenance, liability, affinity. Remove the person and it is a different purchase.",
+        "One kept task does not keep the job — the bundle compresses. The CTO who signs and shows up is the illustration.",
+        "5.5% now, 15% as a ceiling on today's mix — Astra over 831 BLS categories. The 85% line is a held-fixed thought experiment, and he says so.",
+        "Richer does not mean more human jobs — luxury spend includes cars and houses. Attention and one-to-many delivery cap how many people those jobs can employ. Unpaid leisure absorbs time without a wage."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "derived-demand-labor",
+          "title": "Derived demand labor",
+          "e": "🏠"
+        },
+        {
+          "slug": "essential-demand",
+          "title": "Essential demand",
+          "e": "🎤"
+        },
+        {
+          "slug": "essential-labor-thin-slice",
+          "title": "Essential labor thin slice",
+          "e": "📉"
+        },
+        {
+          "slug": "attention-caps-essential-demand",
+          "title": "Attention caps essential demand",
+          "e": "⏳"
+        },
+        {
+          "slug": "positional-competition-industry",
+          "title": "Positional competition industry",
+          "e": "🏁"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
       "slug": "operating-distributed-inference-systems-at-scale",
       "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
       "video_id": "7c9FSUVcXR0",
@@ -1343,6 +1410,75 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "the-real-secret-to-having-aura",
+      "title": "The Real Secret to Having Aura (It's Not What You Think)",
+      "video_id": "-xzt4zaWbYY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=-xzt4zaWbYY",
+      "duration_min": 10,
+      "creator": "charisma-on-command",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "relationships",
+      "tags": [
+        "charisma",
+        "communication",
+        "psychology",
+        "presence"
+      ],
+      "keywords": [
+        "charisma",
+        "communication",
+        "psychology",
+        "presence",
+        "charisma on command",
+        "Aura Is Safety Under Threat",
+        "Comfort With Being Seen",
+        "Local Status",
+        "Composure Under Fire",
+        "Grounded Charisma"
+      ],
+      "summary": "charisma-on-command (~10 min, 21 Sept 2026, ~181k views) says aura is not the speedboat dance or the posed photo. It is how you handle fear. People who feel present broadcast one signal: they are totally safe under threat, so in a room of fearful people they seem fearless. He has studied charisma for 20 years and cites 30,000 students. English auto-captions via yt-dlp (en-orig); the caption API returned an empty body. Treat ASR slips as slips (\"people with a broadcast\", \"aura 2\", \"Matthew McConna\", \"Colbear\", \"Ysef\", \"straight in the hole\").\n\nNot height. Size reads as dominance, which is why boots and lifts get noticed. Height can help. It does not supply the missing piece, comfort-with-being-seen. A 6'5 friend hunched, hid his hands, and looked unsafe being seen. The host's name for him flickers (Michael / \"my friend\"). matthew-mcconaughey on the Colbert clip does the opposite: invited to a seat, he takes his time, clocks the band and the room, and is not afraid of being read wrong. Safety looks slow. Legs out. Spotlight welcome. Humans evolved where being seen was a threat. The modern fear is shame, not a predator at the watering hole. He says 99.99% of the time you are safe to be seen. Rushing is the tell that aura is off. Slow down, pause, don't rush the answer, open your vitals. About 90 seconds later the body catches up.\n\nLocal status. People move toward whoever seems to offer safety. A nice car is the clip joke (\"you should see my other one\"). Real status here is comfort breaking social norms while being seen doing it, not ethical norms. The hoodie-and-flip-flops CEO, Johnny Depp's look. You do not need that fame. Stop scanning the room for the next conversation and the temperature of what will be accepted. Stay in the one you are in, and have fun without checking if it is allowed. In New York, broke, he and his co-founder skipped a club line because a friend bought a table. On the way out they stopped, thanked the doorman, and got his name. Next time, no table: they greeted him, he lifted the rope, and that lasted months. \"Who do you know?\" The guy outside. Same move at the gym desk, the office cleaning crew, the barista. Comfort without climbing is the aura.\n\nComposure under fire. Skill makes you calm in a hostile or high-pressure room. Athletes are the obvious case. The \"aura farming\" boat clip is not a kid performing for the camera. Ryan's job, in a 300-year Indonesian festival, is to hype the rowers. Copies missed the reps. The 2024 Olympic shooter (captions smear Ysef / Yousef; the public figure is Yusuf Dikeç) wore a plain t-shirt, no glasses, no special gear, and won silver because the reps were already in. Stop trying to look cool. Do the reps until confidence is who you are. The evidence is not \"I always win.\" It is \"I fall short and I still thrive.\" The close is Charisma University: a 30-day daily-rep program, refund from inside the course, two student stories (six weeks to \"life of every event\"; day one, then a salsa partner who said she had never seen him).",
+      "key_insights": [
+        "Aura is the fear response. Safe under threat, not a pose.",
+        "Height is a notice, not the aura. The 6'5 friend still shrank.",
+        "Rushing means the aura is off. Slow down, pause, open the vitals; he gives the body about 90 seconds.",
+        "99.99% safe to be seen. The leftover fear is shame, not a predator.",
+        "Local status is the rope. Thank the person everyone walks past. Stay in the conversation instead of scanning.",
+        "Reps, then the silver. The boat dance and the plain-shirt shooter are evidence, not a costume.",
+        "The course is the last minute. Theory is not the reps. The refund line and the two student quotes are the pitch."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "aura-is-safety-under-threat",
+          "title": "Aura Is Safety Under Threat",
+          "e": "🦁"
+        },
+        {
+          "slug": "comfort-with-being-seen",
+          "title": "Comfort With Being Seen",
+          "e": "👀"
+        },
+        {
+          "slug": "local-status",
+          "title": "Local Status",
+          "e": "🚪"
+        },
+        {
+          "slug": "composure-under-fire",
+          "title": "Composure Under Fire",
+          "e": "🎯"
+        },
+        {
+          "slug": "grounded-charisma",
+          "title": "Grounded Charisma",
+          "e": "🪨"
+        }
+      ],
+      "conceptCount": 5
     },
     {
       "slug": "the-wiggly-wonder-of-music-jacob-collier-ted",
@@ -1774,6 +1910,66 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "what-i-actually-do-when-im-not-making-youtube-videos",
+      "title": "What I Actually Do When I’m Not Making YouTube Videos",
+      "video_id": "J5U3t6-zVz0",
+      "platform": "youtube",
+      "url": "https://youtu.be/J5U3t6-zVz0",
+      "duration_min": 18,
+      "creator": "ali-abdaal",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "build",
+      "tags": [
+        "business",
+        "entrepreneurship",
+        "productivity",
+        "lifestyle-business",
+        "ali-abdaal"
+      ],
+      "keywords": [
+        "business",
+        "entrepreneurship",
+        "productivity",
+        "lifestyle business",
+        "ali abdaal",
+        "Splurge method",
+        "Student roadmap",
+        "Weight of running a business",
+        "Six figure lifestyle business",
+        "Magnetic marketing"
+      ],
+      "summary": "ali-abdaal (~18 min, ~162K views, 21 Sep 2026) films a Friday at the Hong Kong office: the work of running the business, not a YouTube production day. His description names the beats. Two Friday firesides for Lifestyle Business Academy students. A coaching call with Nathan that turns into new curriculum. This week's LifeNotes, written with a technique he calls the splurge. An unplanned DJI store trip. Then an on-camera conversation he says he usually avoids: what it has felt like to carry a business for 14 years.\n\nCaptions could not be fetched (YouTube returned an empty timedtext body, and get_transcript failed with 400 even from the watch page). The chapter unpacking below follows his description and chapter titles. Detail that only appears in public summaries is marked as such.",
+      "key_insights": [
+        "Friday fireside (0:25) — casual student Q&A for the academy, distinct from a Monday masterclass. Public summaries describe idea, offer, and sales-page feedback in a small group.",
+        "Old vlog, on purpose (1:12) — bring back the short self-shot med-school vlog. The point is to film the work (landing page, ads) instead of only talking about it. Public summaries call this a \"study with me\" day, with polished-to-camera days kept separate.",
+        "Student roadmap (2:29) — one visual of the student journey so coaching, ops, and the student see the same next step. See student-roadmap.",
+        "Splurge, then stop letting AI find the voice (3:37, 8:35) — LifeNotes (weekly since 2018) starts as a timed dump with no backspace. He still wants the first draft from his own fingers. See splurge-method.",
+        "Nathan call becomes curriculum (4:52) — outreach coach; the call was training and then turned into module material. His description says this outright.",
+        "Superfocus marketing (10:24) — afternoon block on the productivity app. Public summaries describe a founding-member offer (discount, guarantee, feedback community) aimed at the right buyers. Fits magnetic-marketing more than a hard sell.",
+        "Angus, then the weight (12:16, 13:42) — one-on-one with the general manager on academy operations, then the 14-year load. See weight-of-running-a-business."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "splurge-method",
+          "title": "Splurge method",
+          "e": "⏱️"
+        },
+        {
+          "slug": "student-roadmap",
+          "title": "Student roadmap",
+          "e": "🗺️"
+        },
+        {
+          "slug": "weight-of-running-a-business",
+          "title": "Weight of running a business",
+          "e": "⚖️"
+        }
+      ],
+      "conceptCount": 3
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",
