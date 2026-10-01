@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 320,
-  "insightsCount": 307,
-  "conceptCount": 2896,
+  "videoCount": 324,
+  "insightsCount": 308,
+  "conceptCount": 2901,
   "sections": [
     {
       "id": "architecture",
@@ -52,13 +52,13 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 61,
+    "agents": 62,
     "systems": 21,
     "build": 44,
     "human": 18,
     "performance": 52,
     "mind": 37,
-    "relationships": 49,
+    "relationships": 52,
     "other": 35
   },
   "videos": [
@@ -916,6 +916,49 @@
       "conceptCount": 9
     },
     {
+      "slug": "how-to-make-ai-sound-exactly-like-you",
+      "title": "How to Make AI Sound EXACTLY Like you",
+      "video_id": "wtaRjOFqdyU",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=wtaRjOFqdyU",
+      "duration_min": 19,
+      "creator": "dan-martell",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "relationships",
+      "tags": [
+        "ai",
+        "writing",
+        "voice",
+        "personal-knowledge"
+      ],
+      "keywords": [
+        "ai",
+        "writing",
+        "voice",
+        "personal knowledge",
+        "dan martell",
+        "Pull From You Not Push"
+      ],
+      "summary": "dan-martell (~19 min, auto English) says everyone can hear AI slop (delve, quietly, \"not this, but that\") and that the fix is not to stop using AI. Feed it captured thinking and a separate voice guide so drafts sound like you. You still stay at the start of every idea and review the output.\n\nBuild a brain first. Record meetings, calls, decisions, and AI chats. Tools he names: Granola, Pocket, Whisper Flow, iPhone voice memos. A 27-minute drive dump with his wife Renee was split into two task lists. One home: Obsidian, Notion, or Drive. Then connectors: Gmail, Drive, Notion, Slack, Granola. He says a third of 40 eight-figure CEOs in the room had never connected email to their AI chat. Prompt: interview at least four rounds on points of view, contrarian takes, and stories, then save a \"brain system\" doc.\n\nVoice is separate from thinking. Pull the 20 most recent sent emails, Slack messages, and documents. Keep each medium separate (sentence length, words used and never used, open, close, sign-off). He bans delve, leverage, robust, quietly, and the \"not this, but that\" pattern. Both docs go into every chat. He still reviews. A marketing survey he cites: heavy AI use made 20% trust a brand less in 2025 and 40% in 2026, and 54% of Gen Z. Nobody is mad you used AI. They are mad it sounds like AI.\n\nThe danger is deferring the thinking. He cites an MIT essay study of 54 students: the AI group had the weakest brain activity, and 83% could not quote their own essay minutes later. pull-from-you-not-push: you name the topic, the model gathers context and interviews you, you decide what you can back. Same tools for everyone. What is left is what you think. Banned-word list: Instagram DM \"YouTube human\" after a follow.",
+      "key_insights": [
+        "Capture into one home before you ask the model to sound like you.",
+        "Brain system (how you think) and voice style guide (how you write per medium) stay separate.",
+        "If a sample does not contain a pattern, the model should ask, not guess.",
+        "Review every draft. Faster drafts are the point. Unreviewed output is not.",
+        "pull-from-you-not-push. You pick the idea. The model does not tell you what to publish."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "pull-from-you-not-push",
+          "title": "Pull From You Not Push",
+          "e": "🧲"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
       "slug": "i-tested-chatgpt-dot-vs-grokbot",
       "title": "I Tested ChatGPT Dot vs GrokBot (Not Even Close)",
       "video_id": "lQU5RX8EyWw",
@@ -1127,6 +1170,95 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "if-youre-in-your-20s-watch-this-before-its-too-late",
+      "title": "If You're in Your 20s, Watch This BEFORE It's Too Late",
+      "video_id": "_Do899touE8",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=_Do899touE8",
+      "duration_min": 33,
+      "creator": "jay-shetty",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "relationships",
+      "tags": [
+        "relationships",
+        "communication",
+        "boundaries"
+      ],
+      "keywords": [
+        "relationships",
+        "communication",
+        "boundaries",
+        "jay shetty",
+        "You Get What You Accept"
+      ],
+      "summary": "jay-shetty (~33 min, auto English) says school never taught the habits that change relationships, work, and how fast you find purpose. The episode is for people struggling to make an impact or dealing with anxiety. He walks seven lessons he wishes he had learned in his teens and 20s. Each one ends with a small habit. He closes by saying the point is clearer judgment and deeper relationships, not labeling anyone as a bad person.\n\nSpeak less so words carry weight. Silence lets you listen and ask better questions. A 2014 Harvard figure he cites: people remember only 17 to 25% of what they hear. Habit: decide the one or two sentences you want remembered before the conversation. Let go or be dragged. Holding a person, grudge, or fantasy does not stop them moving. He uses the two-monks story (set her down hours ago; why are you still carrying her?). Habit: write one thing you are clinging to and imagine setting it down. Talk to the person you are in the relationship with, not about them. He wants about 80% of the talk with them and 20% with others for counsel. Venting can feel rewarding and still create triangulation. Habit: share one appreciation, where you want the relationship to go, and what you will change.\n\nYou learn who someone is under stress, not only on a good day, including how they treat a waiter. Wayne Dyer's orange: squeeze it and you get what is inside. The goal is not to abandon someone who struggles. It is to stop assuming one good mood is the whole person. You get what you accept, not what you deserve. A boundary is a promise about how you will act if the behavior continues, not an attack. He cites a 2021 APA claim that people who tolerate small boundary violations were 62% more likely to end up in emotionally exhausting relationships. Some people miss the smaller version of you they could control. A 2022 survey he cites: 58% felt uncomfortable when a close friend or partner leveled up. \"I'm just bad at texting\" is code for \"you're not a priority.\" Pew: 89% of people 18 to 49 check their phones multiple times an hour, so reach is a choice. Habit: notice who reaches out without prompting and put energy there.",
+      "key_insights": [
+        "Speak less. Decide the essential message in one or two sentences before you talk.",
+        "Let go or be dragged. Write one grudge, disappointment, or fantasy and imagine setting it down.",
+        "About 80% of relationship talk belongs with the person involved, not with friends.",
+        "Character shows under a small inconvenience. Notice it without using one good day as the whole picture.",
+        "you-get-what-you-accept. A boundary is what you will do, not a demand that they change.",
+        "Vague excuses (\"bad at texting\") are translations. Believe the pattern."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "you-get-what-you-accept",
+          "title": "You Get What You Accept",
+          "e": "🚧"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "jev-just-solved-gpt-6-astras-1-problem",
+      "title": "Jev Just Solved GPT-6 Astra's #1 Problem",
+      "video_id": "9C8opPBjAIk",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=9C8opPBjAIk",
+      "duration_min": 12,
+      "creator": "jack-roberts",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "youtube",
+        "agents",
+        "jev",
+        "comparison"
+      ],
+      "keywords": [
+        "youtube",
+        "agents",
+        "jev",
+        "comparison",
+        "jack roberts",
+        "System One Model",
+        "Thin LLM Slot Replacement"
+      ],
+      "summary": "jack-roberts (~12 min, YouTube, English auto-captions) runs jev against gpt-6-astra on five filters he already has a rubric for. The oembed title is \"Jev AI Just Dropped, And.…\". The watch-page title is the Astra problem. The cold open says Jev is the world's fastest model and 400 times cheaper than Astra. That 400× matches the vendor multiple already in an-ex-openai-researcher-just-deleted-language-from-the-llm. His own email card is the number to keep: 3.41 seconds and about 1 cent per 1,000 emails, versus Astra at 9.93 seconds and just under $5.\n\nWhat it is. Three typed outputs: yes or no, a choice from options you preload, a score from 1 to 100. Parallel questions, a certainty reading, and he says the outputs are free. Not a writer. He says it was built by one of the co-founders of ChatGPT at typesafe-ai, after a couple of years behind locked doors. The corpus bio is tighter: diogo-almeida did the instruction-following work that became ChatGPT. Jack's \"co-founder\" line is his, and the description repeats it.\n\nFive levels, same jobs, both models.\n\n1. Spam and scam on 20 emails. Jev 3.41s / ~1¢ per 1,000. Astra 9.93s / just under $5. He also says about $7.50 on another Astra pass. Urgency and buying signal: 2.57s, still a cent per 1,000.\n2. Churn. CRM and member posts. A score for who is about to leave or resign. Fictitious lines. 2.82 seconds. No Astra dollar figure in the recovered captions.\n3. Tickets. Triage (\"this is a billing question\") and intake forms. He calls it the time saver. The reason, said out loud: Astra is built for language. Jev is not optimized that way.\n4. Slop. slop-monster, his free detector, through openrouter. Words, phrases, punctuation. One run is 4 cents. \"Reads as slop\" on his slopology framework. A second sample he calls likely AI-assisted, and he says Astra can't tell.\n5. Design pick. A site Astra already built, a brief, 300+ design systems. Jev at $1.94 per thousand. He says Jev found the match the same second while Astra was still going. The Astra price on this card did not survive the caption sample.\n\nThe wiring is the same slot as thin-llm-slot-replacement: rules plus a free skill, Jev decides, Astra or Claude Fable 5.1 writes. Beginners go through OpenRouter. The close is a Claude Code and Astra masterclass. Captions froze there.",
+      "key_insights": [
+        "Same job, two clocks — 3.41s / ~1¢ vs 9.93s / ~$5 on the email filter. The 400× line is the vendor hook. The card is the evidence.",
+        "Typed, not written — Yes/no, preloaded choice, or 1–100. Language stays on Astra or Fable.",
+        "Cheap enough to run on everything — Slop on a feed, churn on every member post, a design pick across 300 pages. A frontier call is too expensive to put on each item."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "system-one-model",
+          "title": "System One Model",
+          "e": "⚡"
+        },
+        {
+          "slug": "thin-llm-slot-replacement",
+          "title": "Thin LLM Slot Replacement",
+          "e": "🔀"
+        }
+      ],
+      "conceptCount": 2
     },
     {
       "slug": "laziest-way-to-make-money-with-ai-mark-tilbury",
@@ -1617,6 +1749,48 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "science-of-communication-connect-with-anyone",
+      "title": "The Science of Communication: How to Connect with Anyone | Vanessa Van Edwards",
+      "video_id": "guLyqijPrkw",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=guLyqijPrkw",
+      "duration_min": 82,
+      "creator": "lewis-howes",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "charisma",
+        "conversation"
+      ],
+      "keywords": [
+        "communication",
+        "charisma",
+        "conversation",
+        "lewis howes",
+        "Three Levels of Connection"
+      ],
+      "summary": "lewis-howes interviews vanessa-van-edwards (~82 min, auto English) about her book *Conversation*. She argues live talk now competes with the phone and with AI, and that synchronous talk with a person (phone and FaceTime included, voice notes and talking to AI excluded) is what produces oxytocin and dopamine. AI can feel relatable. It cannot make you feel understood, chosen, or loved. Her book subtitle changed from \"instantly likable\" to how to connect with anyone and make every interaction count, because likability is not always the goal.\n\n\"Been busy\" is the worst question: the brain searches for stress, or the person sounds like they have nothing going on. \"What do you do\" is next because it triggers a script. If asked, answer with a label, who it is for, and why, so you are easy to follow. Ask for stories and emotions (excited about, grateful for, challenged by), not facts. \"Tell me more\" only works after a story question.\n\nthree-levels-of-connection, from Dan McAdams. Level one, general traits, through story, not a fact checklist. You cannot process someone's why before their what. Level two, personal concerns: what gets them up and what keeps them up. Dream builders add curiosity. Dream killers subtract, often by fact-checking while trying to help. Gut-check before you fact-check. \"Tell me something good\" is her team opener. Level three, self-narrative, is usually only for a few close people. Work narratives are the safer version (\"there's never enough time\"). Questions that set someone up to fail: why are you single, greatest weakness, how old are you, what's your story. CANDOR corpus turn length she cites: 15 to 30 seconds. Past about 45 seconds it feels like conversational narcissism.\n\nCharisma, in her research definition, is warmth plus competence: can I trust you, and can I rely on you. Smart warm people still get overlooked if they do not signal it through words, body, voice, and surroundings. Confidence is feeling awkward and continuing. Two challenges: a cornerstone conversation up the three levels with someone who matters, and a one-take 60-second \"yap\" of an idea you believe in, posted with no re-record. Three truths she would leave: ask for stories not facts, connection is as good as the gym, if you are lonely you are not alone. She says one in six people worldwide are affected by loneliness.",
+      "key_insights": [
+        "Synchronous human talk still produces oxytocin and dopamine. Voice notes and talking to AI do not.",
+        "Swap \"been busy\" and \"what do you do\" for story and emotion questions.",
+        "three-levels-of-connection. Do not skip level one. Level three is rare.",
+        "Dream builders add. Dream killers subtract, including helpful fact-checks.",
+        "Charisma here means signaling warmth and competence, not performing.",
+        "Social reps are the practice: cornerstone conversation, or one 60-second take."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "three-levels-of-connection",
+          "title": "Three Levels of Connection",
+          "e": "🪜"
+        }
+      ],
+      "conceptCount": 1
     },
     {
       "slug": "the-real-secret-to-having-aura",

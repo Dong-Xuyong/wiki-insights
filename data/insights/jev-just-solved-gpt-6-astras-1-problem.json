@@ -1,0 +1,35 @@
+{
+  "slug": "jev-just-solved-gpt-6-astras-1-problem",
+  "sections": [
+    {
+      "title": "The email card",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "What did the 20-email filter actually cost?",
+          "a": "Jev: 3.41 seconds, about 1 cent per 1,000 emails. Astra: 9.93 seconds, just under $5. The cold open's 400× is the vendor hook. This card is the measurement."
+        },
+        {
+          "e": "🚫",
+          "q": "What is Jev not for?",
+          "a": "Language. He says Astra is built for that and Jev is not. Yes/no, a preloaded choice, or a score from 1 to 100. [[system-one-model]]."
+        }
+      ]
+    },
+    {
+      "title": "Who writes",
+      "items": [
+        {
+          "e": "🔀",
+          "q": "How does he wire Jev to Astra?",
+          "a": "[[thin-llm-slot-replacement]]. Rules plus a free skill. Jev decides. Astra or Fable 5.1 writes. Beginners call Jev through OpenRouter."
+        },
+        {
+          "e": "🧹",
+          "q": "Why run it on every post?",
+          "a": "Slop Monster is a keep-or-drop. Four cents on his illustrative run. A frontier call is too expensive to put on each item."
+        }
+      ]
+    }
+  ]
+}
