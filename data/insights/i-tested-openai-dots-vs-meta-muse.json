@@ -1,0 +1,50 @@
+{
+  "slug": "i-tested-openai-dots-vs-meta-muse",
+  "sections": [
+    {
+      "title": "Rushed shell, stronger brain",
+      "items": [
+        {
+          "e": "🐛",
+          "q": "Why does Nate say Dots should have been called Bugs?",
+          "a": "About a day in, the shell feels unfinished. The DevDay **call demo failed** (muted on the stream; the room saw it). Phone and desktop were broken the night before. He still thinks **Astra is the better model** than Muse Spark. [[i-tested-openai-dots-vs-meta-muse]]."
+        },
+        {
+          "e": "📞",
+          "q": "What can Dots do that Muse cannot?",
+          "a": "He can **call** the Dot. Voice and latency are fine. That is the demo that died on stage. Muse does not have the call."
+        }
+      ]
+    },
+    {
+      "title": "One thread, two stacks",
+      "items": [
+        {
+          "e": "🧵",
+          "q": "Why isn't this a Grokbot clone?",
+          "a": "He wanted many bots that talk. Muse and Dots are **one agent** plus side chats. Grokbot stays the fleet. Average users prefer the one assistant. [[one-thread-vs-bot-fleet]]."
+        },
+        {
+          "e": "🧲",
+          "q": "So which one does he actually pick?",
+          "a": "**Dots for himself**, because he already lives in Codex, Claude Code, and Slack. **Muse for his parents.** The stack you are already in picks the product. [[ecosystem-gravity-picks-the-agent]]."
+        }
+      ]
+    },
+    {
+      "title": "Memory you can edit",
+      "items": [
+        {
+          "e": "🪞",
+          "q": "What is Muse's real UI wedge?",
+          "a": "An identity tab: **soul** (persona) and **editable memory** (facts, preferences, commitments), plus a 30-minute heartbeat over Docs and email. Dot inherits old ChatGPT memory and cannot show where schedules live. [[editable-soul-and-memory]]."
+        },
+        {
+          "e": "❓",
+          "q": "Why does he stop trusting the Dot?",
+          "a": "Asked how to manage schedules, it pointed at a Profile control that is not there. Codex threads it starts miss the Herk2 project. The manual is wrong. [[agent-that-misdescribes-itself]]."
+        }
+      ]
+    }
+  ]
+}

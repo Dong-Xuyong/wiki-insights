@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 296,
-  "insightsCount": 289,
-  "conceptCount": 2769,
+  "videoCount": 297,
+  "insightsCount": 290,
+  "conceptCount": 2775,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 54,
+    "agents": 55,
     "systems": 20,
     "build": 41,
     "human": 16,
@@ -370,6 +370,78 @@
           "slug": "self-hosted-cloud-agents",
           "title": "Self-Hosted Cloud Agents",
           "e": "🖥️"
+        }
+      ],
+      "conceptCount": 6
+    },
+    {
+      "slug": "i-tested-openai-dots-vs-meta-muse",
+      "title": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "video_id": "BvvfZKKz4Yo",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=BvvfZKKz4Yo",
+      "duration_min": 17,
+      "creator": "nate-herk",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "youtube",
+        "agents",
+        "comparison",
+        "personal-assistant"
+      ],
+      "keywords": [
+        "youtube",
+        "agents",
+        "comparison",
+        "personal assistant",
+        "nate herk",
+        "Ecosystem Gravity Picks the Agent",
+        "One Thread vs Bot Fleet",
+        "Editable Soul and Memory",
+        "Agent That Misdescribes Itself",
+        "Agent Heartbeat (Proactive Wake up)",
+        "Builder Desk vs Pocket Assistant"
+      ],
+      "summary": "nate-herk (~17 min, YouTube, DevDay week) compares chatgpt-dot and meta-muse after about a day on each. No English caption track was available. Raw text is a German auto-translation, so names are smeared: \"GBD-6\" is gpt-6-astra, \"Herk too\" is his Herk2 Codex project, \"Anydyne\" is an unidentified daily tool, \"Slot-Verbindung\" is the cloud-computer connection. Treat numbers as host-reported.\n\nHis first read is that Dots is a rushed catch-up. Muse hit number one in the Apple App Store. OpenAI already had the stronger model and the ChatGPT install base, so they shipped a Muse-shaped assistant inside that ecosystem. The day-before DevDay call demo failed on stage. The host said the Dot was having a slow day. The livestream was muted. The room still saw it.\n\nShape. He expected a grokbot fleet, many bots that talk to each other. Both products are one persistent cloud agent with its own computer, a schedule, and connectors that are one-click SSO rather than API keys. Both can still run scripts and call APIs that have no native connector. Both store docs, decks, and dashboards. Dots is reached from the ChatGPT or Codex desktop app and can use ChatGPT memory plus Codex if you allow it. Muse is a separate app. His is named Charlie.\n\nMemory. Dot woke up already knowing his company from old ChatGPT memory, which he called stale. He wanted local files and Codex memory for current priorities. Muse has an identity tab: an editable memory file (facts, preferences, commitments) and a soul file (persona). That is the Hermes / OpenClaw shape, drawn as a UI. He says the Muse surface is the better experience, especially for people who are not technical.\n\nChannels. Dot joins Slack in three clicks, including a channel, so a team can message it and the reply lands in the thread. Muse has a main chat, side chats, and a native WhatsApp thread that is view-only inside the Muse app. He expects Muse to add Slack, Teams, and Discord later. Muse also sits on Instagram, Facebook, and Marketplace, and feels farther from coding work.\n\nModels and price. Dots runs Astra. Muse runs Muse Spark 1.3. Astra is a bit smarter and clearly better when the job is apps, scripts, or dashboards. Spark is faster and, for him, enough for email, reminders, and coordinating a team. Muse Free is how he is still using it. The caption says up to 100 million tokens a week, then paid tiers raise the cap. Dots needs a paid ChatGPT plan before the first Dot exists. Dot usage is not currently counted against the weekly plan limit. He thinks that is a launch promo and will be metered.\n\nUI. Muse has today, approvals, a schedule, and a heartbeat every 30 minutes that scans Google Docs and email, then nudges him to set something up. Goals (sleep, health, relationships, career, interests), a likeable feed, and artifacts that include a 3-minute morning podcast. Dots can be called. Voice and latency are fine. That call is what died at DevDay. Schedules are hard to find: the Dot told him to open Profile, then Scheduled, and that control is not there. The real list is ChatGPT or Codex scheduled tasks. It also starts Codex threads that show up as sent by him, but not inside the Herk2 project, so he loses them. Asking the Dot how it works produces instructions that do not match the product. That is agent-that-misdescribes-itself.\n\nClose. He will keep both. For himself he picks Dots, because he already lives in Codex and Claude Code and does not need the polished shell. If he were handing this to his parents, he would pick Muse. He expects OpenAI to copy the Muse ideas tab and artifact layout (Spaces was announced). Muse, Grokbot, and Dots will look alike. What stays different is the native connection, the model, and the price. He tweeted that Dots should have been called Bugs. Phone and desktop were broken the night before. Today is a bit better. Still limited, given Muse was a clear template.\n\nA mid-roll pitches a free AIS SOP for a first automation client. Not part of the comparison.",
+      "key_insights": [
+        "ecosystem-gravity-picks-the-agent — Already in Codex and Slack, take Dots. Already in WhatsApp and Meta, or not technical, take Muse.",
+        "one-thread-vs-bot-fleet — Muse and Dots are one assistant plus side chats. Grokbot is many bots. The average user wants the one thread.",
+        "editable-soul-and-memory — Muse shows soul and an editable memory. Dot inherits opaque ChatGPT memory and calls it current.",
+        "agent-that-misdescribes-itself — The Dot's own how-to does not match the UI. Schedules and Codex filing are the evidence."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ecosystem-gravity-picks-the-agent",
+          "title": "Ecosystem Gravity Picks the Agent",
+          "e": "🧲"
+        },
+        {
+          "slug": "one-thread-vs-bot-fleet",
+          "title": "One Thread vs Bot Fleet",
+          "e": "🧵"
+        },
+        {
+          "slug": "editable-soul-and-memory",
+          "title": "Editable Soul and Memory",
+          "e": "🪞"
+        },
+        {
+          "slug": "agent-that-misdescribes-itself",
+          "title": "Agent That Misdescribes Itself",
+          "e": "❓"
+        },
+        {
+          "slug": "agent-heartbeat-proactive",
+          "title": "Agent Heartbeat (Proactive Wake-up)",
+          "e": "💓"
+        },
+        {
+          "slug": "builder-desk-vs-pocket-assistant",
+          "title": "Builder Desk vs Pocket Assistant",
+          "e": "🪜"
         }
       ],
       "conceptCount": 6
