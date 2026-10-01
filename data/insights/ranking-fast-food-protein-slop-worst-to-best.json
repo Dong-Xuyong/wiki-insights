@@ -1,0 +1,35 @@
+{
+  "slug": "ranking-fast-food-protein-slop-worst-to-best",
+  "sections": [
+    {
+      "title": "The board",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What is he actually scoring?",
+          "a": "Cost, macros, and taste, S through D. A store on every corner can buy a letter. He is fasted, and he says that hunger flatters the quarter pounder."
+        }
+      ]
+    },
+    {
+      "title": "The letters",
+      "items": [
+        {
+          "e": "🥇",
+          "q": "What lands in S?",
+          "a": "Chipotle's double-protein bowl (~$18–20, 990 kcal, 79 g protein; halve it). Chick-fil-A grilled sandwich (390 kcal, 28 g, $7.24). Panda triple teriyaki (1,540 kcal, 136 g, ~450 g chicken, $16, two meals)."
+        },
+        {
+          "e": "🥪",
+          "q": "Why are the nuggets only an A?",
+          "a": "200 kcal and 38 g protein, about $9, and not dry. A snack is not a meal, and a shake is cheaper for the same macros."
+        },
+        {
+          "e": "🌮",
+          "q": "Where do the rest land?",
+          "a": "Taco Bell cantina chicken is an A (109 g weighed, guac is the flavor, his stomach objects). Cane's four-finger box is a B (leg-day cheat, 1,250 kcal). Quarter pounder is a C ($6, was a D). McDonald's strips are a D (dry, 23 g, $7.20)."
+        }
+      ]
+    }
+  ]
+}

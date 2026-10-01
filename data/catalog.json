@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 301,
-  "insightsCount": 294,
-  "conceptCount": 2792,
+  "videoCount": 303,
+  "insightsCount": 296,
+  "conceptCount": 2802,
   "sections": [
     {
       "id": "architecture",
@@ -52,11 +52,11 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 56,
+    "agents": 57,
     "systems": 21,
     "build": 41,
     "human": 16,
-    "performance": 50,
+    "performance": 51,
     "mind": 33,
     "relationships": 48,
     "other": 33
@@ -104,15 +104,18 @@
       "concepts": [
         {
           "slug": "benchmark-harness-is-the-bottleneck",
-          "title": "Benchmark Harness Is the Bottleneck"
+          "title": "Benchmark Harness Is the Bottleneck",
+          "e": "📉"
         },
         {
           "slug": "workload-is-not-the-dataset",
-          "title": "Workload Is Not the Dataset"
+          "title": "Workload Is Not the Dataset",
+          "e": "🌡️"
         },
         {
           "slug": "planned-vs-delivered-load",
-          "title": "Planned vs Delivered Load"
+          "title": "Planned vs Delivered Load",
+          "e": "📐"
         },
         {
           "slug": "vendor-vs-independent-benchmarks",
@@ -633,6 +636,63 @@
       "conceptCount": 5
     },
     {
+      "slug": "ranking-fast-food-protein-slop-worst-to-best",
+      "title": "Ranking fast food \\\"protein slop\\\" worst to best",
+      "video_id": "i43EZw8A3Eo",
+      "platform": "youtube",
+      "url": "https://youtu.be/i43EZw8A3Eo",
+      "duration_min": 15,
+      "creator": "noel-deyzel",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "performance",
+      "tags": [
+        "fitness",
+        "nutrition",
+        "fast-food",
+        "bodybuilding"
+      ],
+      "keywords": [
+        "fitness",
+        "nutrition",
+        "fast food",
+        "bodybuilding",
+        "noel deyzel",
+        "Three Axis Fast Food Tier",
+        "Hunger Inflates the Bite",
+        "Sauce Is the Real Macro",
+        "Weigh the Chicken"
+      ],
+      "summary": "noel-deyzel (~15 min, auto English captions, published 19 Sept 2026) eats eight fast-food orders fasted and scores each S through D on cost, macros, and taste. The title says worst to best. The tape is pickup order, Panda last. He has not eaten. He says that hunger is why the quarter pounder tastes better than it should.\n\nHis reads, not a lab: McDonald's quarter pounder, ordered as a double and served as a single, 520 kcal, 30 g protein, 42 g carbs, 26 g fat, $6. Extra onion. Nostalgia. D on the food, bumped to C because it is cheap and on every corner. Chipotle's menu double-protein bowl, about $17.38 with tax (he rounds to $20), 990 kcal, 79 g protein, 65 g carbs, 40 g fat. Taste 9.7. S, and he says halving it still looks fine. The price is high and, in his words, justified. Captions glued the price as \"$1,738\" and dropped a \"2 minutos\" into the item name. Both are ASR.\n\nRaising Cane's four-finger combo, slaw swapped for a second toast, 1,250 kcal, 61 g protein, 101 g carbs, 62 g fat, and that fat line is with the slaw, before the extra toast. About $14.50 with tax (captions: \"$1,450\"). Sauce stays. Fries are chewy. Toast is the win. Leg-day cheat, not daily. B tier (captions: \"BTL\").\n\nChick-fil-A grilled chicken sandwich looks dry. Bread is dry. Chicken is moist enough to eat plain, better with the sauce. 390 kcal, 28 g protein, 44 g carbs, 12 g fat, $7.24. He calls this the first S, after he already called Chipotle S. Grilled nuggets: 200 kcal, 38 g protein, 2 g carbs, 4.5 g fat, about $9 (captions: \"almost n bucks\"). Not dry. A cutting snack, not a meal, and a shake beats the price for similar macros, so A, not S. Sauce still \"makes it so much better.\"\n\nTaco Bell chicken cantina bowl. Nuggets are gone. Menu says 25 g protein. He pays $8.49, weighs 109 g of chicken, and treats that as the 25 g. About 500 kcal. Flavorless except the guacamole. Everywhere, including Wisconsin at 2 a.m. He parks between A and B because it will wreck his stomach, then gives it an A and blames his own intolerance.\n\nMcDonald's chicken strips: 360 kcal, 23 g protein, $7.20, macros without sauce. He says that is the same money, double the calories, and half the protein of the nuggets. The arithmetic is loose (nuggets were ~$9, 200 kcal, 38 g). Dry like jerky. He will not add sauce. Highest-protein item on their menu, he says, and still D. He calls it the first D after the quarter pounder already started as a D.\n\nPanda Express triple teriyaki chicken bowl: 1,540 kcal, 136 g protein, $16. He weighs about 450 g of cooked chicken (a first dump of 158 g, then the pile). No broccoli. Empty fortune cookie. Rice is dry. Chicken is the point. Two meals, about $8 each. S, no hedge. Then legs.",
+      "key_insights": [
+        "The score is three axes: cost, macros, taste. Ubiquity can move a letter (quarter pounder D to C; Taco Bell stays A because it is open).",
+        "Hunger is a confound he names out loud. The quarter pounder gets a nostalgia bonus he does not trust.",
+        "The macro on the board is not the macro in the bag. Sauce, a second toast, and \"every gym bro eats it this way\" are the real plate.",
+        "A snack with elite protein per calorie (grilled nuggets) still loses S, because it is not a meal and a shake is cheaper.",
+        "He checks two chicken portions on a scale: Taco Bell's 109 g matches the claimed 25 g; Panda's ~450 g is the S-tier argument."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "three-axis-fast-food-tier",
+          "title": "Three-Axis Fast-Food Tier"
+        },
+        {
+          "slug": "hunger-inflates-the-bite",
+          "title": "Hunger Inflates the Bite"
+        },
+        {
+          "slug": "sauce-is-the-real-macro",
+          "title": "Sauce Is the Real Macro"
+        },
+        {
+          "slug": "weigh-the-chicken",
+          "title": "Weigh the Chicken"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
       "slug": "the-wiggly-wonder-of-music-jacob-collier-ted",
       "title": "The Wiggly Wonder of Music | Jacob Collier | TED",
       "video_id": "e0Q_TcQUCks",
@@ -692,6 +752,80 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "total-recall-agent-memory-harness-engineering",
+      "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
+      "video_id": "xs-ob87TTzg",
+      "platform": "youtube",
+      "url": "https://youtu.be/xs-ob87TTzg",
+      "duration_min": 61,
+      "creator": "ignacio-martinez",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "harness-engineering",
+        "memory",
+        "oracle"
+      ],
+      "keywords": [
+        "agents",
+        "harness engineering",
+        "memory",
+        "oracle",
+        "ignacio martinez",
+        "Model Harness AI Product",
+        "Git Worktrees for Agents",
+        "Dumb Zone",
+        "Context Card",
+        "Umwelt as Agent Lens",
+        "Skill Promotion",
+        "Hysteresis Patience Budget"
+      ],
+      "summary": "ignacio-martinez (~61 min, ai-engineer, English auto-captions via the conference transcript) runs a Monday 9 a.m. workshop. The recording is the lecture plus the start of the lab, not the full hour-and-a-half of exercises. He registered workshopwaitingroom.com the Saturday before. Attendees get a GitHub invite, then a Codespace he is paying for. He asks them not to pick 8- or 16-core machines.\n\nThe claim: a language model is the frozen part of the reasoning. You rent it. Weights almost never change unless you have the money and the GPUs. An agent is that model plus a harness. Harness engineering is how you get repeatable output from a component that can answer the same input differently each time. Swap the model through an OpenAI-compatible protocol or the Anthropic API spec. Keep the harness.\n\nHe draws a five-layer stack: application, data, model, infrastructure, compute. Application, model, infrastructure, and compute are being commoditized. Data is where he says builders still have control: memory, knowledge, encoding, search, retrieval. A gateway and MCP sit on that data layer and connect the model to the outside (his example is Outlook). Applications then take four shapes: passive chatbots, semi-passive RAG, automated LLM workflows, and autonomous agents. Claude Code and Codex are the last two at once. Automation buys reliability. Autonomy buys flexibility.\n\nHe names seven harness layers and then walks five of them. Storage is where memory physically lives. Memory engineering is encode, search, retrieve. The semantic layer is the vocabulary the company never says out loud. The agent loop is observe, reason, act, and it is supposed to survive a failed action. Context engineering keeps the current task in a small window. The other two layer names are on the slides, not in the speech.\n\nStorage is the files-versus-databases fight. Files match the model's instincts, append easily, and speak POSIX. They have no transactional consistency. He asks how parallel agents avoid trampling one file. The room says worktrees: do the work on a copy, merge to main later. That moves the collision. It is not a transaction. Databases already had ACID, replication, vector search, and backups, \"35, 40 years ago.\" His hybrid: short-term memory in files, promote lasting facts such as user preferences into a database. Oracle DBFS is the pitch for a file interface stored inside the database. The three-agent counter-file exercise is assigned. The outcome is not in this recording.\n\nRetrieval: LangChain Oracle DB, in-database embeddings so the vectors never leave for a third-party call, bi-encoder then cross-encoder rerank. Chunking, redaction, JSON metadata, and dense vectors multiply the data you have to keep in sync. He calls Oracle the converged database (relational, JSON, spatial, graph, vector) and says one engine means one attack surface. That is a vendor claim. It does not prove the application has one attack path.\n\nAgent memory is retain, recall, reuse, refine, so a three-hour problem is easier the next time. Short-term is today's to-do list. Episodic is past conversations. Procedural is a workflow that worked, such as a front-end the user liked. Shared memory is parent and subagent, or two agents on one problem. A huge context window is still short-term memory. Stuffing it causes context rot: thirty minutes of attention versus eight hours, and an attention matrix that grows in both rows and columns.\n\noracle-agent-memory (OAMP) is his managed answer to the decisions you otherwise make by hand: when to compact, how to summarize, what to keep, what to extract, how many tokens. One Python call builds a context-card: topics, summary and current intent, facts/preferences/memories, the unanswered question, recent messages. An audience member checks that this card is harness input, not a weight update. He agrees.\n\nThe semantic layer is umwelt-as-agent-lens: Jakob von Uexküll's claim that an organism only perceives what its senses allow. Colleagues skip the terms they share. A newcomer, or an agent, needs that institutional knowledge written down: how data is modeled, how queries run, what the metadata means.\n\nContinual learning, in his split, can touch weights, embedding/rerank representations, or the context you supply. The workshop stays on context because it is the cheap one. He and Cassius are about to record a DeepLearning.AI course with andrew-ng on continual learning. He already shipped one with Ng on agent memory. skill-promotion is the context version: store the session that produced a design the user liked, distill a better skill.md, retire the old file, and put preferences in (a library's look, a database that was easier, a tone).\n\nThe lab is a student notebook plus an AppBook, both on Codespaces, models via OCI Generative AI (he calls it an enterprise OpenRouter: Google, Meta, OpenAI, xAI). Nineteen to-dos. The first cell is a bare OpenAI Completions call with no harness. His Codespace had already died from inactivity. He sets the Total Recall port to public and asks for total revenue by product category. Mission control shows the tools loaded, the schema, and traces. The run errors, the loop keeps going, and he says it took sixteen steps, then later that a similar ask finished in two. No revenue figures are spoken. Token use and a context-card view are on screen.\n\nQuestions: thousands of tools go through a toolbox pattern and an HNSW index, which he says belongs in a database. He tells the room not to worry until millions of users, and that everyday tools (read, write, grep) stay in the hundreds or low thousands, not five million. Overlapping descriptions from two business units: enrich the docstring with an LLM so vector search can tell them apart. He does not say how confidential-table permissions are enforced. Stopping a loop that is hallucinating: a hysteresis-patience-budget, eight to twelve tool calls for Grok 4.1 fast reasoning, the model in this workshop. Too little patience drops recoverable work. Too much burns money. Hard problems route to a frontier model. Easy ones can take an open-weight small model. His forecast is a mixture of small experts, on the order of one hundred million parameters, with an orchestrator. Some companies, he says, charge ten percent of the tokens they save. That is a market aside, not a measured bill.\n\nHe points at Python 3.12, a docs folder, and the solutions. Staff are in the room. Wi-Fi named AI.engineer is down. Slides will land on the AI Engineer session page, or via Discord or LinkedIn. The Oracle booth is open all week.",
+      "key_insights": [
+        "You rent the weights. The harness is the part you can change, and it is what turns a nondeterministic model into something you can run twice.",
+        "Worktrees are the file-world patch for missing transactions. They isolate. They do not commit atomically.",
+        "Keep the to-do in a file. Promote the preference into a database.",
+        "A bigger window is not memory. It is a shorter attention span with a quadratic bill.",
+        "The context card is for the harness. It does not train the model.",
+        "Write down the terms colleagues never say. That page is the agent's lens.",
+        "A finished session should become a revised `skill.md`, and the old skill should be retired.",
+        "Give the loop a patience number. His for Grok 4.1 fast is eight to twelve tool calls.",
+        "Better tool descriptions separate lookalikes. They do not decide who may see confidential tables."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "git-worktrees-for-agents",
+          "title": "Git Worktrees for Agents",
+          "e": "🌳"
+        },
+        {
+          "slug": "context-card",
+          "title": "Context Card"
+        },
+        {
+          "slug": "umwelt-as-agent-lens",
+          "title": "Umwelt as Agent Lens"
+        },
+        {
+          "slug": "skill-promotion",
+          "title": "Skill Promotion"
+        },
+        {
+          "slug": "hysteresis-patience-budget",
+          "title": "Hysteresis Patience Budget"
+        }
+      ],
+      "conceptCount": 6
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",

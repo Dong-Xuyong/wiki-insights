@@ -1,0 +1,50 @@
+{
+  "slug": "total-recall-agent-memory-harness-engineering",
+  "sections": [
+    {
+      "title": "The rented part",
+      "items": [
+        {
+          "e": "🧊",
+          "q": "What does he mean by the frozen part of the reasoning?",
+          "a": "The language model. You rent the weights. They almost never change. An agent is that model plus a harness, and the harness is what you can make repeatable."
+        },
+        {
+          "e": "🗂️",
+          "q": "Why does the room shout worktrees?",
+          "a": "Files have no transactions. Parallel agents each get a copy, then merge to main. That isolates the write. It does not commit it atomically. His hybrid keeps the to-do in a file and promotes a preference into a database."
+        }
+      ]
+    },
+    {
+      "title": "What the harness remembers",
+      "items": [
+        {
+          "e": "🃏",
+          "q": "What is on the context card?",
+          "a": "Topics, a summary of current intent, facts and preferences, the question still open, and the recent turns. The harness builds it. The weights do not."
+        },
+        {
+          "e": "🔭",
+          "q": "What is the agent's Umwelt?",
+          "a": "The institutional terms colleagues never say out loud. If that page is missing, the model answers through a lens that does not include the company."
+        },
+        {
+          "e": "📈",
+          "q": "How does a good session become a skill?",
+          "a": "Store it, distill a better skill.md, retire the old file. A library's look or a preferred database can ride along. He gives no test that the new skill is better."
+        }
+      ]
+    },
+    {
+      "title": "When to stop",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "How much patience does this workshop's model get?",
+          "a": "Eight to twelve tool calls on Grok 4.1 fast, then stop. Hard problems route to a frontier model. Easy ones can take a small open-weight model. Better tool blurbs separate lookalikes. They do not grant access to confidential tables."
+        }
+      ]
+    }
+  ]
+}
