@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 307,
   "insightsCount": 299,
-  "conceptCount": 2830,
+  "conceptCount": 2831,
   "sections": [
     {
       "id": "architecture",
@@ -704,9 +704,14 @@
         {
           "slug": "workbook-not-ebook",
           "title": "Workbook Not Ebook"
+        },
+        {
+          "slug": "faceless-short-form-content",
+          "title": "Faceless Short-Form Content",
+          "e": "🎬"
         }
       ],
-      "conceptCount": 3
+      "conceptCount": 4
     },
     {
       "slug": "operating-distributed-inference-systems-at-scale",
