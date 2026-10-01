@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 296,
-  "insightsCount": 288,
-  "conceptCount": 2760,
+  "insightsCount": 289,
+  "conceptCount": 2767,
   "sections": [
     {
       "id": "architecture",
@@ -105,14 +105,21 @@
       "concepts": [
         {
           "slug": "session-taint-classification",
-          "title": "Session taint classification"
+          "title": "Session taint classification",
+          "e": "🏷️"
         },
         {
           "slug": "outside-the-loop-guard",
-          "title": "Outside-the-loop guard"
+          "title": "Outside-the-loop guard",
+          "e": "🚪"
+        },
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
         }
       ],
-      "conceptCount": 2
+      "conceptCount": 3
     },
     {
       "slug": "doctor-reacts-strange-addictions",
@@ -158,27 +165,33 @@
       "concepts": [
         {
           "slug": "compulsion-vs-addiction",
-          "title": "Compulsion vs Addiction"
+          "title": "Compulsion vs Addiction",
+          "e": "🔀"
         },
         {
           "slug": "pica-and-bezoar",
-          "title": "Pica and Bezoar"
+          "title": "Pica and Bezoar",
+          "e": "🧽"
         },
         {
           "slug": "match-the-sensation",
-          "title": "Match the Sensation"
+          "title": "Match the Sensation",
+          "e": "🎯"
         },
         {
           "slug": "reality-show-forced-disclosure",
-          "title": "Reality-Show Forced Disclosure"
+          "title": "Reality-Show Forced Disclosure",
+          "e": "🎥"
         },
         {
           "slug": "caffeine-toxicity-ceiling",
-          "title": "Caffeine Toxicity Ceiling"
+          "title": "Caffeine Toxicity Ceiling",
+          "e": "☕"
         },
         {
           "slug": "cholesterol-silent-until-clot",
-          "title": "Cholesterol Silent Until Clot"
+          "title": "Cholesterol Silent Until Clot",
+          "e": "🫀"
         },
         {
           "slug": "addiction-persistence-harm-definition",
@@ -227,7 +240,7 @@
         "Growth Assets Risk Scale",
         "Dollar Cost Averaging Investing",
         "Index Funds — Investing Has Been Solved",
-        "cap weight index bet"
+        "Cap Weight Index Bet"
       ],
       "summary": "mark-tilbury (~76 min, manual English captions) gives an A-to-Z beginner investing walkthrough: why cash loses to inflation, the 25-15-50-10-rule, a broker checklist, tax wrappers with 2026 contribution figures, index funds vs stock-picking, how to read a business, orders and auto-invest, then bonds, gold, REITs, dividends, and crypto as seasoning. The close is portfolio construction, drift, three-reasons-to-sell, tax, cap-weight-index-bet, five mistakes, and a 30-day start list.\n\nThis is the execution layer under how-to-manage-money-like-the-1-percent-mark-tilbury. The paycheck split and VW Golf story are restated, not new. What this tape adds is the buy button, the research filter, and when to sell. eToro sponsors the account demo (free share after a ~£100 deposit). He says he is not a financial advisor.",
       "key_insights": [
@@ -239,14 +252,42 @@
         "Sell on a broken thesis, not on a red day and not out of loyalty.",
         "Tax wrappers and contribution steering beat clever loss-harvesting."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
+        {
+          "slug": "25-15-50-10-rule",
+          "title": "25-15-50-10 Rule",
+          "e": "💰"
+        },
+        {
+          "slug": "income-to-wealth-investing-ladder",
+          "title": "Income-to-Wealth Investing Ladder",
+          "e": "💰"
+        },
+        {
+          "slug": "growth-assets-risk-scale",
+          "title": "Growth Assets Risk Scale",
+          "e": "📈"
+        },
+        {
+          "slug": "dollar-cost-averaging-investing",
+          "title": "Dollar-Cost Averaging Investing",
+          "e": "📉"
+        },
+        {
+          "slug": "cap-weight-index-bet",
+          "title": "Cap-Weight Index Bet"
+        },
+        {
+          "slug": "dividend-total-return",
+          "title": "Dividend Total Return"
+        },
         {
           "slug": "three-reasons-to-sell",
           "title": "Three Reasons to Sell"
         }
       ],
-      "conceptCount": 1
+      "conceptCount": 7
     },
     {
       "slug": "i-tested-chatgpt-dot-vs-grokbot",
