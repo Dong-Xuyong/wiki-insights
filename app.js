@@ -1584,6 +1584,8 @@
         <p class="local-note">Export here, then Import on your other device. Import only adds completions, it never un-completes a video.</p>
         <button type="button" class="secondary-action" id="export-completed">Export completed</button>
         <button type="button" class="secondary-action" id="import-completed">Import completed</button>
+        <button type="button" class="secondary-action" id="github-save">Save to GitHub</button>
+        <button type="button" class="secondary-action" id="github-load">Import from GitHub</button>
         <input type="file" id="import-completed-file" accept=".json,application/json" hidden>
       </section>
 
@@ -1592,6 +1594,8 @@
     const importFile = root.querySelector("#import-completed-file");
     root.querySelector("#export-completed").addEventListener("click", exportCompleted);
     root.querySelector("#import-completed").addEventListener("click", () => importFile.click());
+    root.querySelector("#github-save").addEventListener("click", () => githubSync("save"));
+    root.querySelector("#github-load").addEventListener("click", () => githubSync("load"));
     importFile.addEventListener("change", () => {
       const file = importFile.files && importFile.files[0];
       if (file) file.text().then(importCompleted);
@@ -1612,29 +1616,26 @@
     restoreReturnScroll();
   }
 
-  function exportCompleted() {
+  function completedPayload() {
     const completed = {};
     for (const [id, rec] of Object.entries(loadProgressMap())) if (rec?.done) completed[id] = rec;
-    const payload = { app: "wiki-insights", version: 1, exportedAt: new Date().toISOString(), completed };
+    return { app: "wiki-insights", version: 1, exportedAt: new Date().toISOString(), completed };
+  }
+
+  function exportCompleted() {
+    const payload = completedPayload();
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([JSON.stringify(payload)], { type: "application/json" }));
     a.download = `wiki-insights-completed-${localDateKey()}.json`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    toast(`Exported ${Object.keys(completed).length} completed videos`);
+    toast(`Exported ${Object.keys(payload.completed).length} completed videos`);
   }
 
-  function importCompleted(text) {
-    let data;
-    try {
-      data = JSON.parse(text);
-    } catch {
-      toast("Not a valid JSON file");
-      return;
-    }
+  /** Adds completions from a backup; never un-completes. Returns how many were new. */
+  function applyCompleted(data) {
     if (!data || data.app !== "wiki-insights" || !data.completed || typeof data.completed !== "object") {
-      toast("This file is not a Wiki Insights backup");
-      return;
+      throw new Error("This file is not a Wiki Insights backup");
     }
     const map = loadProgressMap();
     let added = 0;
@@ -1644,8 +1645,26 @@
       added += 1;
     }
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
-    toast(`Imported ${added} new completed video${added === 1 ? "" : "s"}`);
+    return added;
+  }
+
+  function importCompleted(text) {
+    try {
+      const added = applyCompleted(JSON.parse(text));
+      toast(`Imported ${added} new completed video${added === 1 ? "" : "s"}`);
+    } catch (e) {
+      toast(e instanceof SyntaxError ? "Not a valid JSON file" : e.message);
+      return;
+    }
     renderProgress();
+  }
+
+  function githubSync(mode) {
+    if (!window.GhSync) return toast("GitHub sync unavailable");
+    const run = mode === "save"
+      ? GhSync.save("wiki-insights", completedPayload, applyCompleted)
+      : GhSync.load("wiki-insights", applyCompleted);
+    run.then((msg) => { toast(msg); renderProgress(); }, (e) => toast(e.message));
   }
 
   function renderInsightsHtml(pack) {
