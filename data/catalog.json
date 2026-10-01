@@ -675,19 +675,23 @@
       "concepts": [
         {
           "slug": "three-axis-fast-food-tier",
-          "title": "Three-Axis Fast-Food Tier"
+          "title": "Three-Axis Fast-Food Tier",
+          "e": "🥇"
         },
         {
           "slug": "hunger-inflates-the-bite",
-          "title": "Hunger Inflates the Bite"
+          "title": "Hunger Inflates the Bite",
+          "e": "🍽️"
         },
         {
           "slug": "sauce-is-the-real-macro",
-          "title": "Sauce Is the Real Macro"
+          "title": "Sauce Is the Real Macro",
+          "e": "🥫"
         },
         {
           "slug": "weigh-the-chicken",
-          "title": "Weigh the Chicken"
+          "title": "Weigh the Chicken",
+          "e": "⚖️"
         }
       ],
       "conceptCount": 4
@@ -820,19 +824,23 @@
         },
         {
           "slug": "context-card",
-          "title": "Context Card"
+          "title": "Context Card",
+          "e": "🃏"
         },
         {
           "slug": "umwelt-as-agent-lens",
-          "title": "Umwelt as Agent Lens"
+          "title": "Umwelt as Agent Lens",
+          "e": "🔭"
         },
         {
           "slug": "skill-promotion",
-          "title": "Skill Promotion"
+          "title": "Skill Promotion",
+          "e": "📈"
         },
         {
           "slug": "hysteresis-patience-budget",
-          "title": "Hysteresis Patience Budget"
+          "title": "Hysteresis Patience Budget",
+          "e": "⏱️"
         },
         {
           "slug": "agent-memory-markdown",
