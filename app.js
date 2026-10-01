@@ -43,11 +43,9 @@
   let ytPlayerVideoId = null;
   let ytSaveTimer = null;
   let ytHasPlayed = false;
-  let biliMsgHandler = null;
   let biliVideo = null;
   let biliVideoId = null;
   let biliSaveTimer = null;
-  let biliSaveLogs = 0;
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (m) =>
@@ -108,9 +106,6 @@
       }
       localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
       localStorage.setItem(BILI_HOVER_RESET_KEY, "1");
-      // #region agent log
-      dbgLog("R", "app.js:wipeHoverBiliProgress", "cleared hover-era bili saves", { n: removed.length, removed }, "post-fix");
-      // #endregion
     } catch {
       /* ignore */
     }
@@ -267,8 +262,8 @@
       return;
     }
     if (seconds < RESUME_MIN_SEC) {
-      label.textContent = document.getElementById("bili-scrub") ? "Drag to save a stop point" : "";
-      bar.classList.toggle("hidden", !document.getElementById("bili-scrub"));
+      label.textContent = "";
+      bar.classList.add("hidden");
       return;
     }
     label.textContent = `Resuming from ${formatClock(seconds)}`;
@@ -310,16 +305,6 @@
       setSavedSeconds(biliVideoId, t);
       paintResumeBar(t);
     }
-    if (biliSaveLogs++ < 4) {
-      // #region agent log
-      dbgLog("AE", "app.js:persistBilibiliTime", "saved native playhead", {
-        t,
-        duration,
-        paused: biliVideo.paused,
-        finished,
-      }, "post-fix");
-      // #endregion
-    }
     return t;
   }
 
@@ -337,11 +322,6 @@
     biliSaveTimer = null;
     biliVideo = null;
     biliVideoId = null;
-    biliSaveLogs = 0;
-    if (biliMsgHandler) {
-      window.removeEventListener("message", biliMsgHandler);
-      biliMsgHandler = null;
-    }
     if (ytPlayer) {
       try {
         ytPlayer.destroy();
@@ -396,127 +376,6 @@
     return `https://player.bilibili.com/player.html?${params.toString()}`;
   }
 
-  function dbgLog(hypothesisId, location, message, data, runId = "pre-fix") {
-    // #region agent log
-    fetch("http://127.0.0.1:7351/ingest/b74f24c0-660e-41c3-b4b4-757de4864585", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "2b105f" },
-      body: JSON.stringify({
-        sessionId: "2b105f",
-        runId,
-        hypothesisId,
-        location,
-        message,
-        data,
-        timestamp: Date.now(),
-      }),
-    }).catch(() => {});
-    // #endregion
-  }
-
-  function biliSecondsFromMessage(data) {
-    if (data == null) return null;
-    if (typeof data === "string") {
-      const raw = data.startsWith("playerOperation-") ? data.slice(16) : data;
-      try {
-        data = JSON.parse(raw);
-      } catch {
-        return null;
-      }
-    }
-    if (typeof data !== "object") return null;
-    const t =
-      data.currentTime ??
-      data.current_time ??
-      data.data?.currentTime ??
-      data.value?.currentTime ??
-      data.value?.time;
-    return typeof t === "number" && Number.isFinite(t) && t >= 0 && t < 86400 ? t : null;
-  }
-
-  function bindBilibiliProgress(videoId, durationSec) {
-    const scrub = document.getElementById("bili-scrub");
-    // #region agent log
-    dbgLog("D", "app.js:bindBilibiliProgress", "listener attach", {
-      videoId,
-      durationSec,
-      hasScrub: !!scrub,
-      hasIframe: !!document.getElementById("bili-player"),
-    });
-    // #endregion
-    const save = (seconds, { done = false } = {}) => {
-      if (done) {
-        setSavedSeconds(videoId, seconds, { done: true });
-        paintResumeBar(0, { done: true });
-        if (scrub) scrub.value = String(Math.floor(seconds));
-        // #region agent log
-        dbgLog("E", "app.js:bindBilibiliProgress.save", "saved done", { seconds });
-        // #endregion
-        return;
-      }
-      if (seconds < RESUME_MIN_SEC) {
-        // #region agent log
-        dbgLog("E", "app.js:bindBilibiliProgress.save", "rejected below min", { seconds });
-        // #endregion
-        return;
-      }
-      setSavedSeconds(videoId, seconds);
-      paintResumeBar(seconds);
-      if (scrub) scrub.value = String(Math.floor(seconds));
-      // #region agent log
-      dbgLog("E", "app.js:bindBilibiliProgress.save", "saved t", { seconds });
-      // #endregion
-    };
-    if (scrub) {
-      scrub.addEventListener("input", () => {
-        const t = Number(scrub.value) || 0;
-        if (t < RESUME_MIN_SEC) {
-          paintResumeBar(0);
-          return;
-        }
-        setSavedSeconds(videoId, t);
-        paintResumeBar(t);
-        // #region agent log
-        dbgLog("S", "app.js:bili-scrub", "slider save", { t }, "post-fix");
-        // #endregion
-      });
-    }
-    let msgN = 0;
-    const onMsg = (e) => {
-      msgN += 1;
-      const origin = String(e.origin || "");
-      const pass = origin.includes("bilibili.com");
-      const t = biliSecondsFromMessage(e.data);
-      let shape = "";
-      try {
-        shape =
-          typeof e.data === "string"
-            ? e.data.slice(0, 160)
-            : JSON.stringify(e.data, Object.keys(e.data || {}).slice(0, 12)).slice(0, 200);
-      } catch {
-        shape = typeof e.data;
-      }
-      // #region agent log
-      if (msgN <= 25) {
-        dbgLog(pass ? (t == null ? "B" : "A") : "C", "app.js:onMsg", "postMessage", {
-          origin,
-          pass,
-          t,
-          shape,
-          n: msgN,
-          dataType: typeof e.data,
-        });
-      }
-      // #endregion
-      if (!pass) return;
-      if (t == null) return;
-      if (durationSec && t >= durationSec - RESUME_END_PAD_SEC) save(t, { done: true });
-      else save(t);
-    };
-    biliMsgHandler = onMsg;
-    window.addEventListener("message", onMsg);
-  }
-
   function bindResumePlayer(videoId, startAt) {
     ytPlayerVideoId = videoId;
     ensureYouTubeAPI().then((YT) => {
@@ -561,15 +420,6 @@
       if (startAt >= RESUME_MIN_SEC && startAt < video.duration - RESUME_END_PAD_SEC) {
         video.currentTime = startAt;
       }
-      // #region agent log
-      dbgLog("AF", "app.js:bindBilibiliNative", "native metadata", {
-        videoId,
-        startAt,
-        currentTime: video.currentTime,
-        duration: video.duration,
-        readyState: video.readyState,
-      }, "post-fix");
-      // #endregion
     });
     video.addEventListener("play", () => {
       if (!biliSaveTimer) biliSaveTimer = setInterval(persistBilibiliTime, 5000);
@@ -610,8 +460,6 @@
       if (iframe && currentVideo?.video_id === videoId) {
         iframe.src = bilibiliEmbedSrc(videoId, 0);
       }
-      const scrub = document.getElementById("bili-scrub");
-      if (scrub) scrub.value = "0";
     });
   }
 
@@ -1772,7 +1620,6 @@
     panel = "insights";
     const startAt = v.video_id ? getSavedSeconds(v.video_id) : 0;
     const isBilibili = v.platform === "bilibili" || /^BV[0-9A-Za-z]{10}$/.test(v.video_id || "");
-    const durationSec = Math.max(0, Math.round((Number(v.duration_min) || 0) * 60));
     const progress = catalogProgress(v, loadProgressMap());
     const showResumeBar = startAt >= RESUME_MIN_SEC || progress.done;
     root.innerHTML = `
@@ -1820,15 +1667,6 @@
         bindResumeBar(v.video_id);
         bindResumePlayer(v.video_id, startAt);
       }
-      // #region agent log
-      dbgLog("D", "app.js:renderDetail", "bind player", {
-        isBilibili,
-        videoId: v.video_id,
-        startAt,
-        durationSec,
-        slug: v.slug,
-      });
-      // #endregion
     }
     const insights = await loadInsights(slug);
     const activeRoute = parseRoute();

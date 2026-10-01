@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 297,
-  "insightsCount": 290,
-  "conceptCount": 2775,
+  "videoCount": 298,
+  "insightsCount": 291,
+  "conceptCount": 2779,
   "sections": [
     {
       "id": "architecture",
@@ -59,7 +59,7 @@
     "performance": 50,
     "mind": 33,
     "relationships": 48,
-    "other": 31
+    "other": 32
   },
   "videos": [
     {
@@ -120,6 +120,66 @@
         }
       ],
       "conceptCount": 3
+    },
+    {
+      "slug": "doctor-mike-hot-ones-game-night",
+      "title": "Doctor Mike | Hot Ones Game Night",
+      "video_id": "Z5OX-o3ytWc",
+      "platform": "youtube",
+      "url": "https://youtu.be/Z5OX-o3ytWc",
+      "duration_min": 30,
+      "creator": "joe-santagato",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "medicine",
+        "doctor-mike",
+        "entertainment"
+      ],
+      "keywords": [
+        "medicine",
+        "doctor mike",
+        "entertainment",
+        "joe santagato",
+        "Medical Drama Realism Ladder",
+        "NG Tube for Small Bowel Obstruction",
+        "Capsaicin Is a Fire Drill",
+        "Family Medicine Span"
+      ],
+      "summary": "First episode of hot-ones Game Night (~30 min, official English captions). joe-santagato and doctor-mike share a board, twelve rolls, and wings up Mount Scoville. They win. The medical payload is the cards, not the sauce ladder.\n\nMike ranks medical dramas: *The Pitt*, then *ER* (Noah Wyle \"killing you with accuracy\"), then *Scrubs* (dark humor that still shows the job), then *Grey's Anatomy* on the floor. He says the show has never done a chest compression. Treat that as his joke-register claim on this tape, not a checked episode guide. Hospital romance, he says, is \"the furthest from the truth.\" Joe's label: fake horny.\n\nHis ick is small-bowel obstruction, because the fix is an NG tube: nose to stomach, suck out fluid so the patient stops vomiting it, patient awake, swallow through a straw, and a bad pass can coil. He would rather eat the wing. Separate gag story: throat cultures. His free hack for Joe is pant like a dog, tongue out, fast. He does not say that trick is how you pass an NG tube.\n\nCapsaicin, mid-wing: it binds the pain receptors that would fire if the mouth were actually on fire. A fire drill, not a burn.\n\nCoolest doctor, he says, is family medicine, and he does it. He assisted a delivery (the woman delivered; he did prenatal care, the neonatal phase, and still sees that child at 12, plus the parents and the grandparents). Lamest, on this card: radiology, because the doctor reads a screen and the tech usually wears the vest. The card's \"over 200 specialties\" is the card's number. He does not confirm it.\n\nBlowing into exam gloves is \"the mistake.\" He does not say why. Operator comfort still matters. Joe's pet peeve is freezing hands on a testicular exam. Mike's bit is warm the hands first.\n\nPersonal asides, not medicine: came to the US in 1995 (Levain, and he says he had never dunked cookies in milk). Ferrari about $350k, crashed twice, repairs about $200k, cold tires, a little downhill, 70 mph, straight into the wall. He says he has never had Botox. Closer: \"Don't find me. Go Hot Ones.\"",
+      "key_insights": [
+        "TV realism, his order: *The Pitt*, *ER*, *Scrubs*, *Grey's*. Romance on the ward is the part he calls fake.",
+        "Small-bowel obstruction's bedside fix is an NG tube, and that tube is his clinical ick.",
+        "Panting blunts a throat-swab gag. It is a swab hack on this tape, not an NG protocol.",
+        "Capsaicin trips pain receptors. The mouth is not on fire.",
+        "Family medicine, in his telling, is one household across generations. Radiology, in his telling, is the room with no patient.",
+        "Do not inflate gloves by blowing into them. He flags it and moves on."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "medical-drama-realism-ladder",
+          "title": "Medical Drama Realism Ladder",
+          "e": "📺"
+        },
+        {
+          "slug": "ng-tube-for-sbo",
+          "title": "NG Tube for Small-Bowel Obstruction",
+          "e": "🩺"
+        },
+        {
+          "slug": "capsaicin-is-a-fire-drill",
+          "title": "Capsaicin Is a Fire Drill",
+          "e": "🌶️"
+        },
+        {
+          "slug": "family-medicine-span",
+          "title": "Family Medicine Span",
+          "e": "👨‍⚕️"
+        }
+      ],
+      "conceptCount": 4
     },
     {
       "slug": "doctor-reacts-strange-addictions",
