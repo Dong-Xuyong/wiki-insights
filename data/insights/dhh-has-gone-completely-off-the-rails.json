@@ -1,0 +1,45 @@
+{
+  "slug": "dhh-has-gone-completely-off-the-rails",
+  "sections": [
+    {
+      "title": "DHH has gone completely off the rails...",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about the keynote claim, as Fireship reports it?",
+          "a": "**hand-written source is no** longer the economic way to ship."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about cLIs stay, as the interface agents use.?",
+          "a": "**CLIs stay, as the interface agents use.**"
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about hey's Rust rewrite is the proof he cites?",
+          "a": "**95% less CPU and** memory, and a language humans are not meant to read."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about a room poll of about 5 in 1,200 is presented as a vibe, and he tells you not to trust it.?",
+          "a": "**A room poll of about 5 in** 1,200 is presented as a vibe, and he tells you not to trust it."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about what he keeps?",
+          "a": "**problem definition and system** design. Typing was never the scarce skill."
+        }
+      ]
+    }
+  ]
+}

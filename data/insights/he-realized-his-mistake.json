@@ -1,0 +1,35 @@
+{
+  "slug": "he-realized-his-mistake",
+  "sections": [
+    {
+      "title": "He Realized his Mistake",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about quicksort was a thought on paper before it was code, won as a six-pence bet against Shell sort.?",
+          "a": "**Quicksort was a thought on paper** before it was code, won as a six-pence bet against Shell sort."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about null reference billion dollar mistake. Safety was the goal. Null was the easy hole.?",
+          "a": "**null reference billion dollar** mistake. Safety was the goal. Null was the easy hole."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about cSP's practical core, as he teaches it?",
+          "a": "**synchronous handshake, no shared variables.**"
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about the design line he wants remembered?",
+          "a": "**obvious absence of deficiencies,** not absence of obvious deficiencies."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "i-gave-gpt-6-astra-10000-to-trade-stocks",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about the win condition is the index, not a dollar target. Down less than the S&P would have counted.?",
+          "a": "**The win condition is the index,** not a dollar target. Down less than the S&P would have counted."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about astra refused to place orders. Execution moved to a Grok bot on email, then Alpaca.?",
+          "a": "**Astra refused to place orders.** Execution moved to a Grok bot on email, then Alpaca."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Why does this matter: The first two days were almost flat because the filters rejected trades. Loosening them is what put cash to wo?",
+          "a": "**The first two days were almost** flat because the filters rejected trades. Loosening them is what put cash to work."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about seven days of stock ownership did not swing the account. He ended $100 down, and $80 behind buy-and-hold.?",
+          "a": "**Seven days of stock ownership did** not swing the account. He ended $100 down, and $80 behind buy-and-hold."
+        }
+      ]
+    }
+  ]
+}

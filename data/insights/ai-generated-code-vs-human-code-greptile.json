@@ -1,0 +1,35 @@
+{
+  "slug": "ai-generated-code-vs-human-code-greptile",
+  "sections": [
+    {
+      "title": "Core insights",
+      "items": [
+        {
+          "e": "💡",
+          "q": "Why does this matter: Author field undercounts agents. Footers and branch prefixes are how he got to about a quarter of pull request?",
+          "a": "**Author field undercounts agents. Footers and** branch prefixes are how he got to about a quarter of pull requests."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about on reverts, P0s, and review rounds, agent pull requests in this set were about as good as human ones.?",
+          "a": "**On reverts, P0s, and review rounds,** agent pull requests in this set were about as good as human ones."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Why does this matter: The failures are not the same failures. Claude leaned toward SQL injection. Devin leaned away from auth bypass?",
+          "a": "**The failures are not the same** failures. Claude leaned toward SQL injection. Devin leaned away from auth bypass."
+        },
+        {
+          "e": "🎯",
+          "q": "Why does this matter: The median and the 99th percentile are not the same job. Manual review does not scale to thousands of pull req?",
+          "a": "**The median and the 99th percentile are** not the same job. Manual review does not scale to thousands of pull requests a month."
+        }
+      ]
+    }
+  ]
+}

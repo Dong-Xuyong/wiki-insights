@@ -1,8 +1,8 @@
 {
   "generated": true,
   "videoCount": 334,
-  "insightsCount": 309,
-  "conceptCount": 2920,
+  "insightsCount": 321,
+  "conceptCount": 2922,
   "sections": [
     {
       "id": "architecture",
@@ -93,7 +93,7 @@
         "Start the repair before the apology. Then you are not asking them to believe a promise.",
         "An upright apology does not require them to forgive you on the spot."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "six-conflict-mindsets",
@@ -133,7 +133,7 @@
         "The failures are not the same failures. Claude leaned toward SQL injection. Devin leaned away from auth bypass.",
         "The median and the 99th percentile are not the same job. Manual review does not scale to thousands of pull requests a month."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "three-questions-before-merge",
@@ -430,7 +430,7 @@
         "A room poll of about 5 in 1,200 is presented as a vibe, and he tells you not to trust it.",
         "What he keeps: problem definition and system design. Typing was never the scarce skill."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [],
       "conceptCount": 0
     },
@@ -817,7 +817,7 @@
         "CSP's practical core, as he teaches it: synchronous handshake, no shared variables.",
         "The design line he wants remembered: obvious absence of deficiencies, not absence of obvious deficiencies."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "null-reference-billion-dollar-mistake",
@@ -1104,7 +1104,7 @@
         "Review every draft. Faster drafts are the point. Unreviewed output is not.",
         "pull-from-you-not-push. You pick the idea. The model does not tell you what to publish."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "pull-from-you-not-push",
@@ -1134,7 +1134,8 @@
         "ai",
         "trading",
         "automation",
-        "nate herk"
+        "nate herk",
+        "Beat the index"
       ],
       "summary": "nate-herk (~19 min, auto English) gives Codex on GPT-6 Astra $10,000 of real money and seven trading days to beat the S&P 500. He may change the setup up to twice a day. He cannot shut trading off if the money is lost. If he loses, one viewer gets a free VIP ticket to AIS Live on 17 and 18 October, by commenting on the post in his free community about a week after the video. He had run a similar test on OpenClaw with a hands-off rule. This time he is allowed to touch it.\n\nThe bot wakes on one Codex thread: before the open (news, account, watchlist), about an hour in (first trade), midday (review and a possible last new trade), afternoon (manage positions), 2:15 (close remaining positions), then confirm and log. Clocks he shows are 7:45, 9:30, 11:00, 1:00, 2:15, 2:45, and 3:15. Each run leaves a handoff note so the next wake-up is not stateless.\n\nDay 1, a Wednesday he later dates as 9 September, closed at $9,991. It bought about nine shares of Tesla, a bit over $3,000, and the stop was hit immediately. He cut the reward-to-risk filter from 2:1 to 1.5:1 and loosened the entry filters. On day 2 Astra would still only strategize. A Grok bot named Trader reads Astra's email and places the Alpaca trades. That day the account moved $0.21. The day-3 check-in, shown on a Sunday, was $10,018, with about $2,000 in HPE, $1,200 in Exxon Mobil, and $1,000 in Apple, and roughly 60% still in cash.\n\nDay 4 closed down a little over $200, about 2.26%, versus the S&P about 0.5%. He names CrowdStrike among the losers, and notes the agent also bought an S&P ETF. Day 5, Tuesday 15 September, closed at $9,832.58, up about $36 while the S&P was down 0.45%. A buy-and-hold S&P from day one would have been about $9,925. Day 6: he says the Fed raised rates 25 basis points, from 3.75% to 4%. Close $9,759, down $85 and 0.87%, versus the S&P down 0.45%. The bot sold into that drop. Day 7 closed at $9,900, up $182 and 1.87% that day versus the S&P up 1.14%. From day one, the S&P path would have been $9,980. The index beat the bot by about 0.8%. He gives away the VIP pass and says seven days is too short to judge the strategy. He plans to keep it running toward day 30. Last time, a 30-day stock-only run did beat the S&P.",
       "key_insights": [
@@ -1143,9 +1144,15 @@
         "The first two days were almost flat because the filters rejected trades. Loosening them is what put cash to work.",
         "Seven days of stock ownership did not swing the account. He ended $100 down, and $80 behind buy-and-hold."
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "beat-the-index",
+          "title": "Beat the index",
+          "e": "📉"
+        }
+      ],
+      "conceptCount": 1
     },
     {
       "slug": "i-tested-chatgpt-dot-vs-grokbot",
@@ -1392,7 +1399,7 @@
         "you-get-what-you-accept. A boundary is what you will do, not a demand that they change.",
         "Vague excuses (\"bad at texting\") are translations. Believe the pattern."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "you-get-what-you-accept",
@@ -1432,7 +1439,7 @@
         "400 known subscribers in 6 weeks is the number he prefers to a national listing.",
         "He is explicit that this might be wrong. The point is to learn, not to look big."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "sell-direct-keep-the-margin",
@@ -1950,7 +1957,7 @@
         "Since 1979 he cites productivity +94% and typical pay +33%. Ownership is what he leaves standing.",
         "A state that does not need your labor can buy quiet. Power is the ability to impose a cost."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "derived-demand-labor",
@@ -2058,7 +2065,7 @@
         "Charisma here means signaling warmth and competence, not performing.",
         "Social reps are the practice: cornerstone conversation, or one 60-second take."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "three-levels-of-connection",
@@ -2288,7 +2295,8 @@
       "keywords": [
         "calisthenics",
         "training",
-        "andry strong"
+        "andry strong",
+        "No second attempts"
       ],
       "summary": "andry-strong (~16 min, auto English; captions render planche as PLCH) flies to the US and gives 15-year-old Jonah 30 minutes, no second attempts, to beat three push records. A year earlier at the same spot Jonah did 10 of the first movement. He breaks two records and misses the middle one because the first attempt spent him.\n\nFirst: most planche push-ups in one minute. The mark was 47, held by Malvin of France. Jonah does 45, rests, adds 5, then 1. 51. The host accepts every rep as below 90 degrees at the bottom and locked out at the top. Jonah's account of the year: a different push-up technique, and training nearly every day. About 4 hours a day during school, 6 to 10 hours in summer. Recovery was sleep and a lot of whatever food was in front of him. He gained about 20 lb, which the host converts to about 9 kg. He listens to med-student athletes (Sasa, and Muhammad from Egypt) because they are less opinionated about form. The athletes he wanted to combine were Valentine and Eric Barci: clean skill and power. At 25 he wants no office job, only training. He stopped drinking when he started calisthenics at 16.\n\nSecond: full planche press to handstand. The record is 17, set about nine years earlier by two-time world champion Victor Kamino. Jonah stops at 11. He thought he had 14. The host says the technique was fine and the push-ups took the energy. Third: full-range 90 degree handstand push-ups, all the way down and up. The record was 16, Willie Wens of France, set in Paris in 2014. Jonah's target going in was about 17, with 20 as his max. He hits 22.",
       "key_insights": [
@@ -2297,9 +2305,15 @@
         "The year of progress, on his telling, is technique plus nearly daily hours, not a secret method.",
         "He treats form debates as taste. The people he listens to are med students who stay less certain."
       ],
-      "has_insights": false,
-      "concepts": [],
-      "conceptCount": 0
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "no-second-attempts",
+          "title": "No second attempts",
+          "e": "⏱️"
+        }
+      ],
+      "conceptCount": 1
     },
     {
       "slug": "this-is-the-brutal-truth-about-your-business",
@@ -2387,7 +2401,7 @@
         "Opus 5.5 is his current example, aimed at animation, CGI, and 3D, not at chat.",
         "Each model step retires a previous public failure mode. The next use is not obvious at the moment of release."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "capability-spillover",

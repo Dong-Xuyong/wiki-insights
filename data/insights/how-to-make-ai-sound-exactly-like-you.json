@@ -1,0 +1,45 @@
+{
+  "slug": "how-to-make-ai-sound-exactly-like-you",
+  "sections": [
+    {
+      "title": "How to Make AI Sound EXACTLY Like you",
+      "items": [
+        {
+          "e": "💡",
+          "q": "What should you remember about capture into one home before you ask the model to sound like you.?",
+          "a": "**Capture into one home** before you ask the model to sound like you."
+        },
+        {
+          "e": "🔑",
+          "q": "What should you remember about brain system (how you think) and voice style guide (how you write per medium) stay separate.?",
+          "a": "**Brain system (how you think)** and voice style guide (how you write per medium) stay separate."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 2",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What should you remember about if a sample does not contain a pattern, the model should ask, not guess.?",
+          "a": "**If a sample does** not contain a pattern, the model should ask, not guess."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you remember about review every draft. Faster drafts are the point. Unreviewed output is not.?",
+          "a": "**Review every draft. Faster** drafts are the point. Unreviewed output is not."
+        }
+      ]
+    },
+    {
+      "title": "Further takeaways 3",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What should you remember about pull from you not push. You pick the idea. The model does not tell you what to publish.?",
+          "a": "**pull from you not push. You** pick the idea. The model does not tell you what to publish."
+        }
+      ]
+    }
+  ]
+}
