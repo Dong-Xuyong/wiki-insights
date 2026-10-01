@@ -511,13 +511,14 @@
       counts.set(id, (counts.get(id) || 0) + 1);
     }
     return [...counts]
+      .filter(([, count]) => count > 1)
       .map(([id, count]) => ({ id, count, label: creatorLabel(id) }))
       .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
   }
 
   function knownSubscription(sub, videos) {
     if (!sub) return "";
-    return videos.some((video) => video.creator === sub) ? sub : "";
+    return subscriptionOptions(videos).some((option) => option.id === sub) ? sub : "";
   }
 
   function bySubscription(videos, sub) {

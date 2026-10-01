@@ -303,3 +303,27 @@ html.dark .dong-theme-toggle__knob {
 .dong-topbar .dong-theme-toggle {
   position: static;
 }
+
+.dong-home-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 44px;
+  margin-left: auto;
+  padding: 0 0.5rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dong-home-link:hover,
+.dong-home-link:focus-visible {
+  color: hsl(var(--foreground));
+}
+
+/* App headers often push the toggle right with an auto margin; the link takes that role. */
+.dong-home-link + .dong-theme-toggle {
+  margin-left: 0 !important;
+}
