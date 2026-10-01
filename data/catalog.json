@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 307,
-  "insightsCount": 299,
-  "conceptCount": 2831,
+  "videoCount": 311,
+  "insightsCount": 302,
+  "conceptCount": 2846,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,64 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 58,
+    "agents": 60,
     "systems": 21,
     "build": 42,
-    "human": 16,
+    "human": 17,
     "performance": 51,
-    "mind": 34,
+    "mind": 35,
     "relationships": 48,
     "other": 34
   },
   "videos": [
+    {
+      "slug": "an-ex-openai-researcher-just-deleted-language-from-the-llm",
+      "title": "An ex-OpenAI researcher just deleted language from the LLM...",
+      "video_id": "TbkUKCm3CHQ",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=TbkUKCm3CHQ",
+      "duration_min": 6,
+      "creator": "the-code-report",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "ai",
+        "agents",
+        "jev",
+        "the-code-report"
+      ],
+      "keywords": [
+        "ai",
+        "agents",
+        "jev",
+        "the code report",
+        "System One Model",
+        "Type safe is not correct",
+        "RLCD (calibrated decisions)"
+      ],
+      "summary": "the-code-report (~6 min, dated Sept 21 2026, English subs) is a satirical pitch-and-undercut of jev. Treat the speed, price, and \"zero hallucinations\" lines as host-reported. The operator primary in this wiki is still trying-jev-the-new-style-of-ai. This clip is the product claim plus the objection.\n\nThe pitch. diogo-almeida, an ex-OpenAI researcher on the instruction-following work that became ChatGPT, shipped Jev after two years in stealth. typesafe-ai raised $40 million. Host frame: a model that cannot talk, write code, write an essay, or tell you that you are absolutely right. LLMs will not shut up. Give Fable or Astra \"return true or false\" and it invents a third option after 4,000 tokens and bills 11 cents. Jev \"deleted language.\" Host numbers: 200 times faster, 400 times cheaper, free output tokens, then later 440 times cheaper than a big-brand model. Use cases he names: Horse Tinder banning a donkey with a null on \"is this a horse?\", NPC behavior, a real-time AI calculator.\n\nThe type. You send unstructured context plus a question that must return one of three shapes: a choice, a score, or a null (yes or no). He says schema match is guaranteed and a type error is mathematically impossible. They call it a system-one-model from Kahneman: gut instinct, against system-two models (GPT-6, Fable) that burn 40,000 tokens to name a variable.\n\nThe catch. type-safe-is-not-correct. Same question, same context, different answers. Confidence is a number from rlcd-calibrated-decisions: 60% means right about 60% of the time, not a vibe. Chat models are trained to sound sure. Architecture stays unpublished. A paper is \"maybe.\" Host-reported doubters: this is a zero-shot classifier, and the company does not credit pioneers he names as \"Jin Yang\" from over a decade ago (keep that name as heard). Someone's year-old paper is \"the same thing.\" openjev copies the interface by reading option probabilities off a frozen Qwen-4B in one forward pass, no new training, a 3090, and a browser WebGPU demo.\n\nMux sponsor block sits in the middle (transcripts, storyboards, hosted workflows). Not the story.",
+      "key_insights": [
+        "Language was the bug they removed. No strings out, so it cannot talk its way into a third answer.",
+        "Three shapes only. Choice, score, or null. A type error is the claim they say is impossible.",
+        "Type-safe is not true. Same input can disagree with itself. The schema does not pick the right label.",
+        "Confidence is a rate. RLCD is their name for a number that is supposed to match how often it is right.",
+        "The weights may not be the moat. OpenJev reads a frozen 4B. The API is the product until a paper shows up."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "system-one-model",
+          "title": "System One Model",
+          "e": "⚡"
+        },
+        {
+          "slug": "type-safe-is-not-correct",
+          "title": "Type-safe is not correct"
+        }
+      ],
+      "conceptCount": 2
+    },
     {
       "slug": "are-llm-performance-benchmarks-reliable",
       "title": "Are LLM Performance Benchmarks Reliable?",
@@ -124,6 +172,67 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "build-anything-with-jev-heres-how",
+      "title": "Build Anything with Jev, Here’s How",
+      "video_id": "f6We53TnkbU",
+      "platform": "youtube",
+      "url": "https://youtu.be/f6We53TnkbU",
+      "duration_min": 32,
+      "creator": "david-ondrej",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "jev",
+        "typesafe",
+        "david-ondrej"
+      ],
+      "keywords": [
+        "agents",
+        "jev",
+        "typesafe",
+        "david ondrej",
+        "System One Model",
+        "RLCD (calibrated decisions)",
+        "Thin LLM Slot Replacement",
+        "One VPS Coolify Stack",
+        "Hierarchical Agent Decisions",
+        "Linux Agent Advantage",
+        "Vendor vs Independent Benchmarks",
+        "Ask Then Build"
+      ],
+      "summary": "32-minute david-ondrej walkthrough (English auto-captions, 19 Sept 2026, ~238k views) that sells jev as a business layer, then builds one app on camera. This is the product pitch next to trying-jev-the-new-style-of-ai: Primeagen wired the classifier into *Balatro*; Ondrej explains the API, shows other people's demos, and ships a Typeform-style form.\n\njev is typesafe-ai's system-one-model. It returns decisions as probabilities. It does not chat, write sentences, explain itself, write code, or reason step by step. One call has three blocks: a choice (which department), a score (how frustrated), a probability (refund). He says you list the criteria and skip a separate classifier per task. Mattia's invoice clip is the explainer: a chat model takes ~8.5 seconds, token by token; Jev scores the same prompt in ~100 ms (88% clean / 7% fraud / 5% review in his retelling). Latency band he states: 70–500 ms, usually 100–150. The live form later shows 488 ms round trip.\n\nArchitecture claim: one parallel pass, no output tokens, so a bad first token cannot drag the answer. Training name: rlcd-calibrated-decisions (an 80% call should happen about 80% of the time). Price he lands on: output free, $0.042 per million input tokens, so 1 million calls at 1,000 tokens is $42. The same sentence first says \"per million output tokens,\" then corrects to input. Charts are TypeSafe's own: structured-output error ~1% / 0.8% for Sol and Astra, 0% for Jev; tool-call misses still happen on chat models (he names ~1.3% on Anthropic). The Astra miss rate is 16% in this caption file and 60% in another ASR pass of the same video. Treat that percent as unheard. He says Jev and gpt-6-astra are different categories, and Astra is the smarter one.\n\nDemos he narrates, not builds: Nader / cognition spreadsheet that labels hundreds of rows as you type \"urgency\"; a self-driving clip that maps a few sensor numbers to accelerate / stop / turn (presented as real-time, not as a tested car); a flight-booking computer-use run he prices at $0.004 and 7 seconds. Rafal's adversarial QA bot clicks a release for pennies, which he says is cheap enough for CI where a chat agent would cost minutes and dollars. He also floats a trading bot, then says Wall Street still wins.\n\nThe build is three steps (thin-llm-slot-replacement, then one-vps-coolify-stack). Idea: a form that ranks an applicant as highly qualified / qualified / mediocre / disqualified before a Calendly link. Host: one Hostinger VPS (sponsor; he names KVM 2, 24 months, coupon \"David\") with a one-click coolify preset on Ubuntu 24.04. Builder: gpt-6-astra on medium inside bb, empty folder, dictation. TypeSafe's own API is waitlisted, so he routes Jev through openrouter (or vercel AI Gateway). Astra names the app Signal, invents \"business automation\" criteria because he never specified the job, and he has it strip helper text. Tiers move as he changes answers. Deploy: private GitHub repo Jeff demo, Dockerfile, env vars, volume /app/data, HTTPS, then a rejected admin password and a redeploy. A troll submission stays \"mediocre.\" He says he never wrote the Jev prompt himself.\n\nClose: Discord server \"Humans,\" Hostinger again, and a claim that hosting and inference are the two software markets as models improve. He says agents prefer Linux, and that more people will run Linux because agents are how we use computers (linux-agent-advantage).",
+      "key_insights": [
+        "Decision layer, not a writer — choice, score, probability; cannot replace Astra or Fable",
+        "One call, many criteria — department, urgency, and refund odds in the same request",
+        "Parallel pass is the architecture claim — no output tokens; a bad first token cannot steer the rest",
+        "RLCD is the calibration story — 80% should mean about 80%, on their telling",
+        "$42 for a million small calls — output free; $0.042 / million input tokens; he slips \"output\" once in the sentence",
+        "Charts are the vendor's — 0% structured-output and tool-call error for Jev; Astra's tool-miss percent is caption-unstable (16% vs 60%)",
+        "Replace the thin slot — if-else products and limited LLM calls, not full agents",
+        "Waitlist workaround — TypeSafe API closed; OpenRouter or Vercel AI Gateway already lists Jev",
+        "Signal is the proof — four tiers, 488 ms round trip, Astra wrote the criteria, password reset on deploy",
+        "Sponsor block is long — Hostinger checkout, KVM 2, coupon, Coolify preset; the app is the second half"
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "rlcd-calibrated-decisions",
+          "title": "RLCD (calibrated decisions)"
+        },
+        {
+          "slug": "thin-llm-slot-replacement",
+          "title": "Thin LLM Slot Replacement"
+        },
+        {
+          "slug": "one-vps-coolify-stack",
+          "title": "One VPS Coolify Stack"
+        }
+      ],
+      "conceptCount": 3
     },
     {
       "slug": "did-a-50-year-old-military-secret-just-solve-agent-prompt-injection",
@@ -333,6 +442,85 @@
         }
       ],
       "conceptCount": 9
+    },
+    {
+      "slug": "escape-obsession-with-productivity-mcmackin-price",
+      "title": "How to Escape Your Obsession with Productivity | TED Intersections",
+      "video_id": "Zgu97mCGS74",
+      "platform": "youtube",
+      "url": "https://youtu.be/Zgu97mCGS74",
+      "duration_min": 27,
+      "creator": "rebecca-mcmackin",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "mind",
+      "tags": [
+        "ted",
+        "productivity",
+        "habits",
+        "nature"
+      ],
+      "keywords": [
+        "ted",
+        "productivity",
+        "habits",
+        "nature",
+        "rebecca mcmackin",
+        "Fun as Playful Connected Flow",
+        "Hobby without an Output",
+        "Easy Is the Screen",
+        "Lawn as Area Rug"
+      ],
+      "summary": "rebecca-mcmackin and catherine-price (~27 min, ted Intersections, English auto-captions, published 25 Sept 2026). McMackin is the horticulturist who wants a corner of the lawn given back. Price wrote *The Power of Fun* and the phone-breakup advice. The tape opens mid-sentence. Captions call Price \"Katherine\" once, then \"Catherine\" at the close.\n\nPrice's complaint is the definition. Productive, she says, has been narrowed to money and a countable output. A long talk with a friend fails that test and should not. Latin *producere* is \"to lead forth.\" The caption hears \"producco.\" She is tired of the rule that something needs an output before it counts.\n\nMcMackin gardens as a break from that culture, closer to yoga than to the biggest pumpkin. Price will not call her own work anti-productivity. Fun is a respite, and it also feeds the serious goals. The trap is the side hustle: adults who love playing music immediately ask what the show is. Her example of a ritual that already works is taco Tuesday, which a listener only later saw as the hour she drops her guard.\n\nAsked for one healthier habit, McMackin says grow tomatoes and milkweed. Tomatoes you cannot buy. Milkweed is a gift to organisms that are struggling, a small activism. The bumper sticker she likes: planting a garden means believing in tomorrow. Price's matching move is to treat fun as fuel. Doomscrolling the news fills the head with things you cannot steer, and then you never plant the milkweed. Stay informed, she says, then notice when it becomes obsession.\n\nFun, for Price, is a feeling, not an activity: playfulness, connection, and flow together. Two ways in. Find your fun magnets (the activity, the room, the person) and put them on the calendar. Or add a little of one factor to a situation you are already in, including a Zoom call. The story she keeps is a man and his nephew catching falling leaves for 45 minutes. Fun that requires a purchase is the wrong picture.\n\nControl is the shared relief. McMackin: we are not that important; we are in an ecosystem. Her practice is a 400-year-old white oak in a Bronx cemetery. Standing under it is like a mountain or the sky. Price's most fun hours are the ones where she is not organizing anyone. She is conscientious all the time and wants a pocket where she is not.\n\nPlay, Price says, is doing a thing for the sake of doing it, and playfulness is the attitude that can turn a situation into play. Research for the book also said a play space has rules. Sports and theater work because everyone knows the boundary, so they can loosen. McMackin's version is kids roughhousing once they have a stop-word. Across animals, play shows up from insects up. Younger bumblebees leave the path to sugar water to roll wooden balls. Puzzle flowers (pea, gentian, orchid) need a lock picked. She says bumblebees can work out how to unscrew a bottle. That curiosity is an advantage, and it is also fun.\n\nOn friction, Price rejects the premise that life is designed to be easy. Friends, and kids playing without an adult, are hard. What is easy is a product whose maker is paid when you stay. Her phone advice: get it out of the bedroom and buy an alarm clock, which adds friction to the scroll, and put the book you miss on the nightstand, which removes friction from the thing you wanted. People tell her that swap \"changed their lives.\" They had the time. The phone was simply closer. McMackin agrees the premise is off: planes, groceries, and invented fees have gotten harder, not easier.\n\nWildness, for McMackin, is still a plant: houseplant, windowsill, stoop, milkweed and goldenrod, an excuse to stare at a flower. For Price it is a small rebellion against responsible adulthood. A different walk home. Phone left behind. The song you loved at 17, sung out loud on the commute instead of the news. McMackin hears the same move as aliveness, and she thinks a lot of loneliness is environmental: you do not know the birds already talking outside. A lawn is a crew cut and a habitat for people (picnic, cartwheels, flag football). Treat it as an area rug, not wall-to-wall carpet. \"Kill your lawn\" is a punk line she supports and does not claim. People fear that if they stop mowing, snakes arrive.\n\nThey trade the homework. Price will plant a tomato and milkweed. McMackin will try the phone out of the bedroom.",
+      "key_insights": [
+        "Productive has been shrunk to a billable output. A conversation can lead something forth and still fail the spreadsheet.",
+        "The side hustle is how a hobby dies. Music for its own sake becomes \"what is the show?\"",
+        "Fun is three factors at once: playfulness, connection, flow. The activity is optional. The purchase is a distraction.",
+        "Easy and valuable are not the same list. Screens had their friction removed on purpose. Friends did not.",
+        "Put the phone in another room and the book on the table. Friction is a placement, not a speech.",
+        "A tomato is for your people. Milkweed is for everything else. The garden is a bet that tomorrow happens.",
+        "A lawn is a habitat for humans. Keep a rug of it. Give the rest back.",
+        "Rules are what let play get wild. A stop-word, a sport, a game. Without the boundary it stops being play."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "fun-as-playful-connected-flow",
+          "title": "Fun as Playful Connected Flow",
+          "e": "🍃"
+        },
+        {
+          "slug": "hobby-without-an-output",
+          "title": "Hobby without an Output",
+          "e": "🎸"
+        },
+        {
+          "slug": "easy-is-the-screen",
+          "title": "Easy Is the Screen",
+          "e": "📱"
+        },
+        {
+          "slug": "lawn-as-area-rug",
+          "title": "Lawn as Area Rug",
+          "e": "🌿"
+        },
+        {
+          "slug": "four-laws-of-behavior-change",
+          "title": "Four Laws of Behavior Change",
+          "e": "4️⃣"
+        },
+        {
+          "slug": "phone-based-vs-play-based-childhood",
+          "title": "Phone-Based vs Play-Based Childhood",
+          "e": "📱"
+        },
+        {
+          "slug": "pseudo-productivity",
+          "title": "Pseudo Productivity",
+          "e": "🎭"
+        }
+      ],
+      "conceptCount": 7
     },
     {
       "slug": "how-to-build-codex-skills-better-than-99-percent",
@@ -691,19 +879,22 @@
         "\"Lazy\" here still means ten videos per account, a product read-through, and a checkout. The $99 cap is Higgsfield, counted at list price.",
         "One monetization path on one winner is the whole test. Brand deals, physical goods, and TikTok Shop never got a turn."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "crown-the-early-winner",
-          "title": "Crown the Early Winner"
+          "title": "Crown the Early Winner",
+          "e": "👑"
         },
         {
           "slug": "label-the-synthetic-account",
-          "title": "Label the Synthetic Account"
+          "title": "Label the Synthetic Account",
+          "e": "🏷️"
         },
         {
           "slug": "workbook-not-ebook",
-          "title": "Workbook Not Ebook"
+          "title": "Workbook Not Ebook",
+          "e": "📒"
         },
         {
           "slug": "faceless-short-form-content",
@@ -712,6 +903,146 @@
         }
       ],
       "conceptCount": 4
+    },
+    {
+      "slug": "modern-life-is-a-disease",
+      "title": "Modern Life is a Disease",
+      "video_id": "_rBsOP658YA",
+      "platform": "youtube",
+      "url": "https://youtu.be/_rBsOP658YA",
+      "duration_min": 31,
+      "creator": "dan-martell",
+      "updated": "2026-10-01",
+      "created": "2026-09-16",
+      "section": "build",
+      "tags": [
+        "personal-growth",
+        "habits",
+        "entrepreneurship",
+        "dan-martell"
+      ],
+      "keywords": [
+        "personal growth",
+        "habits",
+        "entrepreneurship",
+        "dan martell",
+        "Modern Life Disease",
+        "Seven Life Pillars",
+        "WHO Test Mission",
+        "SMS Health System",
+        "Preloaded Year",
+        "Friend Inventory",
+        "Three Fs Hobbies",
+        "Attract Money by Becoming"
+      ],
+      "summary": "31-minute dan-martell operating talk (YouTube auto-generated captions). Thesis: modern-life-disease is not hard work. Seasons of grind are real. The disease is when that season becomes a year, then two, then identity — you wake up rich, empty, and unchanged. Hook: a hundred supercars with every loved person gone would be traded back in a heartbeat. Counterexamples at the top of the money game (Gary Vee showing up for family, Jesse Itzler as \"grown camp counselor,\" Mark Cuban courtside) are growing every pillar, not just the bank account. Martell says the other pillars sped up the business, not the reverse.\n\nHe orders seven-life-pillars so money is last: mission, health, love, friends, hobbies, spirituality, finances. After three company exits people told him he had won; he still felt a hole, went to Peru (orphanages, mountains, three days of silence), and landed a mission of helping young people not feel broken. who-test-mission (Human / Wound / Outcome) is the finder: purpose sits next to the worst thing you will share. Health is sms-health-system (sweat / meals / sleep) plus Clear's cousin never-miss-twice (never two training days in a row). Love is spelled TIME — private-jet story of not hearing his son ask to play three times — operationalized as preloaded-year (people first, work fills the rest). Friends get a 90-day friend-inventory and \"want more for you than from you.\" Fun is scheduled three-fs-hobbies after a shingles warning at 31. Spirituality is presence plus ordinary gratitude (Five-Minute Journal; 60 seconds sitting with the list). Money is attracted by character (attract-money-by-becoming), measured with a daily cash report, scored last. Close: Sunday weekly-pillar-scorecard (1–5, two lowest, two actions) so nothing goes to zero.\n\nComplements atomic-habits-james-clear-audiobook (systems, environment, never miss twice), rewarded-workaholism / busyness-as-unhappiness-outrun (grind as identity), life-task-childhood-seed (purpose archaeology via wound, not childhood seed), and Huberman faith-as-infrared-goggles (bring faith into the work, not only the weekend).",
+      "key_insights": [
+        "Grind seasons are fine; grind-as-norm is the disease. Ten-year \"nothing changed\" is the failure mode",
+        "Mission before money. If money is the reason, you quit when it gets hard or slow",
+        "WHO test. Human you help, Wound you will share, Outcome you want for them — one sentence",
+        "Mess is the message. Purpose sits next to the worst thing that happened to you",
+        "Health first each day. SMS: 45 min sweat, remove food decisions, bedtime alarm not wake alarm (his: 9pm / 4am)",
+        "Never miss two days. One skip is life; two is a trend",
+        "Love = time. Kids do not care about the plane; preload the year with people first",
+        "Friends are environment. 90-day inventory; create space without a breakup speech; put 2–3 growers in the calendar",
+        "Schedule fun. Fun / Frequent / Friends; hobbies are a business investment (shingles as the body veto)",
+        "You attract money. Character, time, interesting life — then a daily cash report so money is a tool",
+        "Weekly exam. Score seven pillars 1–5; two lowest get two actions. A great life is a life well examined"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "modern-life-disease",
+          "title": "Modern Life Disease",
+          "e": "🏎️"
+        },
+        {
+          "slug": "seven-life-pillars",
+          "title": "Seven Life Pillars",
+          "e": "🏛️"
+        },
+        {
+          "slug": "who-test-mission",
+          "title": "WHO Test Mission",
+          "e": "🧭"
+        },
+        {
+          "slug": "sms-health-system",
+          "title": "SMS Health System",
+          "e": "💧"
+        },
+        {
+          "slug": "preloaded-year",
+          "title": "Preloaded Year",
+          "e": "📅"
+        },
+        {
+          "slug": "friend-inventory",
+          "title": "Friend Inventory",
+          "e": "👥"
+        },
+        {
+          "slug": "three-fs-hobbies",
+          "title": "Three Fs Hobbies",
+          "e": "🎯"
+        },
+        {
+          "slug": "attract-money-by-becoming",
+          "title": "Attract Money by Becoming",
+          "e": "🧲"
+        },
+        {
+          "slug": "weekly-pillar-scorecard",
+          "title": "Weekly Pillar Scorecard",
+          "e": "📊"
+        },
+        {
+          "slug": "never-miss-twice",
+          "title": "Never Miss Twice",
+          "e": "2️⃣"
+        },
+        {
+          "slug": "environment-design-habits",
+          "title": "Environment Design for Habits",
+          "e": "🏠"
+        },
+        {
+          "slug": "life-task-childhood-seed",
+          "title": "Life Task Childhood Seed",
+          "e": "🌱"
+        },
+        {
+          "slug": "rewarded-workaholism",
+          "title": "Rewarded Workaholism",
+          "e": "💼"
+        },
+        {
+          "slug": "busyness-as-unhappiness-outrun",
+          "title": "Busyness as Unhappiness Outrun",
+          "e": "🏃"
+        },
+        {
+          "slug": "faith-as-infrared-goggles",
+          "title": "Faith as Infrared Goggles",
+          "e": "🙏"
+        },
+        {
+          "slug": "agency-and-gratitude",
+          "title": "Agency and Gratitude",
+          "e": "🙌"
+        },
+        {
+          "slug": "systems-over-goals",
+          "title": "Systems Over Goals",
+          "e": "⚙️"
+        },
+        {
+          "slug": "identity-votes-from-habits",
+          "title": "Identity Votes from Habits",
+          "e": "🗳️"
+        }
+      ],
+      "conceptCount": 18
     },
     {
       "slug": "operating-distributed-inference-systems-at-scale",
@@ -974,6 +1305,60 @@
       "conceptCount": 5
     },
     {
+      "slug": "this-is-the-brutal-truth-about-your-business",
+      "title": "This Is The Brutal Truth About Your Business",
+      "video_id": "2j0fVg6Bu9E",
+      "platform": "youtube",
+      "url": "https://youtu.be/2j0fVg6Bu9E",
+      "duration_min": 2,
+      "creator": "dan-martell",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "human",
+      "tags": [
+        "entrepreneurship",
+        "hiring",
+        "dan-martell"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "hiring",
+        "dan martell",
+        "Business Runs Without You",
+        "Replacement Ladder",
+        "Assemble, Don't Build",
+        "Modern Life Disease",
+        "Attract Money by Becoming",
+        "Finite time resource allocation"
+      ],
+      "summary": "Two-minute dan-martell clip on Dan Martell Daily (22 Sept 2026, English captions). Someone off-camera says \"Yes\" and \"Mhm.\" The argument is a definition, then a hire order. Under about a million in revenue you do not have a business, you have a hobby. A business makes money whether you are there. If the owner has to cook every day, the restaurant is a job. Honesty about that fact, he says, makes people move faster. He hedges the number: usually closer to two million, and a million can still be enough.\n\nThe method is the replacement-ladder: admin, then delivery, then marketing, then sales, then leadership. Five hires. At a million in revenue those five should cover audience, the sales conversation, and onboarding so the owner can leave and the company still sells. That vacation is his test for business-runs-without-you. The last forty seconds is a free Scale Workbook pitch (link and on-screen QR). Captions smear \"restaurant\" into \"I don't have a rest\" and \"self-help\" into \"shelf help.\" The lead sentence about a conversation that \"didn't come into your life\" is the same smear: someone else ran the sale.\n\nThis is the operator twin of modern-life-is-a-disease. That talk says the grind must not become the person. This clip says the person must not stay the only operator. It sits next to Hormozi's assemble-not-build (known roles, not a new invention every hire) and against the one-person software path in how-to-build-1-person-business-claude-nate-herk, where agents take the seats this ladder still gives to people.",
+      "key_insights": [
+        "The line is a definition, not a trophy. No revenue without you means a job that you own",
+        "A million is the floor he will say out loud. He thinks the real handoff is often closer to two million",
+        "Honesty is the accelerant. People who admit they have a job move faster toward a business",
+        "Replacement ladder, five rungs. Admin, delivery, marketing, sales, leadership",
+        "Vacation is the exam. Audience, conversation, and onboarding happen while you are gone",
+        "The close is a lead magnet. Scale Workbook, free, same document he says he uses with founders"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "business-runs-without-you",
+          "title": "Business Runs Without You"
+        },
+        {
+          "slug": "replacement-ladder",
+          "title": "Replacement Ladder"
+        },
+        {
+          "slug": "finite-time-resource-allocation",
+          "title": "Finite time resource allocation",
+          "e": "⏰"
+        }
+      ],
+      "conceptCount": 3
+    },
+    {
       "slug": "total-recall-agent-memory-harness-engineering",
       "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
       "video_id": "xs-ob87TTzg",
@@ -1065,6 +1450,81 @@
         }
       ],
       "conceptCount": 9
+    },
+    {
+      "slug": "trying-jev-the-new-style-of-ai",
+      "title": "🚨🚨 TRYING JEV : The new STYLE of AI!!! 🚨🚨",
+      "video_id": "FQNftquDDaI",
+      "platform": "youtube",
+      "url": "https://youtu.be/FQNftquDDaI",
+      "duration_min": 149,
+      "creator": "the-primeagen",
+      "updated": "2026-10-01",
+      "created": "2026-09-19",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "harness-engineering",
+        "theprimeagen",
+        "jev"
+      ],
+      "keywords": [
+        "agents",
+        "harness engineering",
+        "theprimeagen",
+        "jev",
+        "the primeagen",
+        "System One Model",
+        "Hierarchical Agent Decisions",
+        "Wrap Around Custom Harness",
+        "Vibe Coding",
+        "AI safety security theater"
+      ],
+      "summary": "149-minute the-primeagen stream (auto-generated English captions) that tries jev — TypeSafe's first system-one-model — by wiring it to play *Balatro*. Named after Jevons paradox: cheaper intelligence should get used in more places, not just cheaper chats. Primeagen is tired of \"slightly better LLM\" launches. Jev is the first recent release that feels like a new style: typed questions in, probabilities out, ~200 ms, no chat.\n\nThe product is not a writer. You send program state plus choice / yes-no / score questions. It answers in parallel. It is not multimodal in this stream. It does not keep history: every call is a new prompt. Chat on the stream is a different model (he codes the sidecar on something like \"46 fast\"). Demos he pulls from Twitter: Mario and Doom in real time. *Balatro* is the live test because it has a start and a stop.\n\nThe work is a wrap-around-custom-harness. A Lua \"god view\" dumps deck, blinds, buttons, and actions. A TypeScript sidecar asks Jev \"what is your next move?\" and sends named clicks back into the game. Menu clicks work. In-hand play does not, until the state is cleaned up. Enabled-button flags lie (social buttons under an overlay; reason: unavailable stamped on enabled actions). Raw god-view JSON hits ~21k input tokens. He strips shop / deck / discard piles and keeps hand, selected score, plays left, discards left, chips needed, jokers, tarot, and a short scoring guide. Jev still picks junk (run info, sort suit, worst card) until the question is split.\n\nClose is the real thesis: Jev is a classification engine. Winning play needs hierarchical-agent-decisions — a behavior tree of high-level choices (play / discard / shop) then low-level ones (which cards). One \"win Balatro\" query is too wide. He does not finish a winning run. He leaves for an appointment after the Mario clip.\n\nCold open is a preview of the already-ingested i-cant-believe-this-happening Coxon / pause-AI video: empty account, 172M views, Fox \"no third party\" vs WSJ exclusive access, METR map. Side rant: OpenAI told agents to hack on non-airgapped boxes, then acted shocked; a temperature-side-channel paper at 1–8 bits/hour is not two computers talking.",
+      "key_insights": [
+        "New style, not a new chat model — decisions + probabilities; no strings; ~200 ms; dirt cheap",
+        "Jevons name is the product bet — drop the cost of a decision and you put a model in the game loop",
+        "Harness is the product — god view, enabled actions, named clicks; the weights are the cheap part",
+        "Dirty state makes a classifier look dumb — overlay buttons, leftover `reason`, 21k-token dumps",
+        "Every Jev call is stateless — rules and strategy must ride with the prompt or live in your tree",
+        "One fat question fails — high-level then low-level; he calls it a behavior tree / expert system",
+        "Vibe-coding the sidecar still bites — agent JSON.stringified both Play and Quit; \"vibed too close to the sun\"",
+        "Mario/Doom tweets ≠ a Balatro win — stream ends at selecting-hand, not a cleared ante"
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "system-one-model",
+          "title": "System One Model",
+          "e": "⚡"
+        },
+        {
+          "slug": "hierarchical-agent-decisions",
+          "title": "Hierarchical Agent Decisions",
+          "e": "🌳"
+        },
+        {
+          "slug": "wrap-around-custom-harness",
+          "title": "Wrap-Around Custom Harness",
+          "e": "🧰"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🛠️"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "✨"
+        },
+        {
+          "slug": "ai-safety-security-theater",
+          "title": "AI safety security theater",
+          "e": "🎭"
+        }
+      ],
+      "conceptCount": 6
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",
@@ -3342,81 +3802,6 @@
         }
       ],
       "conceptCount": 4
-    },
-    {
-      "slug": "trying-jev-the-new-style-of-ai",
-      "title": "🚨🚨 TRYING JEV : The new STYLE of AI!!! 🚨🚨",
-      "video_id": "FQNftquDDaI",
-      "platform": "youtube",
-      "url": "https://youtu.be/FQNftquDDaI",
-      "duration_min": 149,
-      "creator": "the-primeagen",
-      "updated": "2026-09-19",
-      "created": "2026-09-19",
-      "section": "agents",
-      "tags": [
-        "agents",
-        "harness-engineering",
-        "theprimeagen",
-        "jev"
-      ],
-      "keywords": [
-        "agents",
-        "harness engineering",
-        "theprimeagen",
-        "jev",
-        "the primeagen",
-        "System One Model",
-        "Hierarchical Agent Decisions",
-        "Wrap Around Custom Harness",
-        "Vibe Coding",
-        "AI safety security theater"
-      ],
-      "summary": "149-minute the-primeagen stream (auto-generated English captions) that tries jev — TypeSafe's first system-one-model — by wiring it to play *Balatro*. Named after Jevons paradox: cheaper intelligence should get used in more places, not just cheaper chats. Primeagen is tired of \"slightly better LLM\" launches. Jev is the first recent release that feels like a new style: typed questions in, probabilities out, ~200 ms, no chat.\n\nThe product is not a writer. You send program state plus choice / yes-no / score questions. It answers in parallel. It is not multimodal in this stream. It does not keep history: every call is a new prompt. Chat on the stream is a different model (he codes the sidecar on something like \"46 fast\"). Demos he pulls from Twitter: Mario and Doom in real time. *Balatro* is the live test because it has a start and a stop.\n\nThe work is a wrap-around-custom-harness. A Lua \"god view\" dumps deck, blinds, buttons, and actions. A TypeScript sidecar asks Jev \"what is your next move?\" and sends named clicks back into the game. Menu clicks work. In-hand play does not, until the state is cleaned up. Enabled-button flags lie (social buttons under an overlay; reason: unavailable stamped on enabled actions). Raw god-view JSON hits ~21k input tokens. He strips shop / deck / discard piles and keeps hand, selected score, plays left, discards left, chips needed, jokers, tarot, and a short scoring guide. Jev still picks junk (run info, sort suit, worst card) until the question is split.\n\nClose is the real thesis: Jev is a classification engine. Winning play needs hierarchical-agent-decisions — a behavior tree of high-level choices (play / discard / shop) then low-level ones (which cards). One \"win Balatro\" query is too wide. He does not finish a winning run. He leaves for an appointment after the Mario clip.\n\nCold open is a preview of the already-ingested i-cant-believe-this-happening Coxon / pause-AI video: empty account, 172M views, Fox \"no third party\" vs WSJ exclusive access, METR map. Side rant: OpenAI told agents to hack on non-airgapped boxes, then acted shocked; a temperature-side-channel paper at 1–8 bits/hour is not two computers talking.",
-      "key_insights": [
-        "New style, not a new chat model — decisions + probabilities; no strings; ~200 ms; dirt cheap",
-        "Jevons name is the product bet — drop the cost of a decision and you put a model in the game loop",
-        "Harness is the product — god view, enabled actions, named clicks; the weights are the cheap part",
-        "Dirty state makes a classifier look dumb — overlay buttons, leftover `reason`, 21k-token dumps",
-        "Every Jev call is stateless — rules and strategy must ride with the prompt or live in your tree",
-        "One fat question fails — high-level then low-level; he calls it a behavior tree / expert system",
-        "Vibe-coding the sidecar still bites — agent JSON.stringified both Play and Quit; \"vibed too close to the sun\"",
-        "Mario/Doom tweets ≠ a Balatro win — stream ends at selecting-hand, not a cleared ante"
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "system-one-model",
-          "title": "System One Model",
-          "e": "⚡"
-        },
-        {
-          "slug": "hierarchical-agent-decisions",
-          "title": "Hierarchical Agent Decisions",
-          "e": "🌳"
-        },
-        {
-          "slug": "wrap-around-custom-harness",
-          "title": "Wrap-Around Custom Harness",
-          "e": "🧰"
-        },
-        {
-          "slug": "harness-engineering",
-          "title": "Harness Engineering",
-          "e": "🛠️"
-        },
-        {
-          "slug": "vibe-coding",
-          "title": "Vibe Coding",
-          "e": "✨"
-        },
-        {
-          "slug": "ai-safety-security-theater",
-          "title": "AI safety security theater",
-          "e": "🎭"
-        }
-      ],
-      "conceptCount": 6
     },
     {
       "slug": "ugly-is-failure-korea-medical-aesthetics",
@@ -8465,146 +8850,6 @@
         }
       ],
       "conceptCount": 10
-    },
-    {
-      "slug": "modern-life-is-a-disease",
-      "title": "Modern Life is a Disease",
-      "video_id": "_rBsOP658YA",
-      "platform": "youtube",
-      "url": "https://youtu.be/_rBsOP658YA",
-      "duration_min": 31,
-      "creator": "dan-martell",
-      "updated": "2026-09-16",
-      "created": "2026-09-16",
-      "section": "build",
-      "tags": [
-        "personal-growth",
-        "habits",
-        "entrepreneurship",
-        "dan-martell"
-      ],
-      "keywords": [
-        "personal growth",
-        "habits",
-        "entrepreneurship",
-        "dan martell",
-        "Modern Life Disease",
-        "Seven Life Pillars",
-        "WHO Test Mission",
-        "SMS Health System",
-        "Preloaded Year",
-        "Friend Inventory",
-        "Three Fs Hobbies",
-        "Attract Money by Becoming"
-      ],
-      "summary": "31-minute dan-martell operating talk (YouTube auto-generated captions). Thesis: modern-life-disease is not hard work. Seasons of grind are real. The disease is when that season becomes a year, then two, then identity — you wake up rich, empty, and unchanged. Hook: a hundred supercars with every loved person gone would be traded back in a heartbeat. Counterexamples at the top of the money game (Gary Vee showing up for family, Jesse Itzler as \"grown camp counselor,\" Mark Cuban courtside) are growing every pillar, not just the bank account. Martell says the other pillars sped up the business, not the reverse.\n\nHe orders seven-life-pillars so money is last: mission, health, love, friends, hobbies, spirituality, finances. After three company exits people told him he had won; he still felt a hole, went to Peru (orphanages, mountains, three days of silence), and landed a mission of helping young people not feel broken. who-test-mission (Human / Wound / Outcome) is the finder: purpose sits next to the worst thing you will share. Health is sms-health-system (sweat / meals / sleep) plus Clear's cousin never-miss-twice (never two training days in a row). Love is spelled TIME — private-jet story of not hearing his son ask to play three times — operationalized as preloaded-year (people first, work fills the rest). Friends get a 90-day friend-inventory and \"want more for you than from you.\" Fun is scheduled three-fs-hobbies after a shingles warning at 31. Spirituality is presence plus ordinary gratitude (Five-Minute Journal; 60 seconds sitting with the list). Money is attracted by character (attract-money-by-becoming), measured with a daily cash report, scored last. Close: Sunday weekly-pillar-scorecard (1–5, two lowest, two actions) so nothing goes to zero.\n\nComplements atomic-habits-james-clear-audiobook (systems, environment, never miss twice), rewarded-workaholism / busyness-as-unhappiness-outrun (grind as identity), life-task-childhood-seed (purpose archaeology via wound, not childhood seed), and Huberman faith-as-infrared-goggles (bring faith into the work, not only the weekend).",
-      "key_insights": [
-        "Grind seasons are fine; grind-as-norm is the disease. Ten-year \"nothing changed\" is the failure mode",
-        "Mission before money. If money is the reason, you quit when it gets hard or slow",
-        "WHO test. Human you help, Wound you will share, Outcome you want for them — one sentence",
-        "Mess is the message. Purpose sits next to the worst thing that happened to you",
-        "Health first each day. SMS: 45 min sweat, remove food decisions, bedtime alarm not wake alarm (his: 9pm / 4am)",
-        "Never miss two days. One skip is life; two is a trend",
-        "Love = time. Kids do not care about the plane; preload the year with people first",
-        "Friends are environment. 90-day inventory; create space without a breakup speech; put 2–3 growers in the calendar",
-        "Schedule fun. Fun / Frequent / Friends; hobbies are a business investment (shingles as the body veto)",
-        "You attract money. Character, time, interesting life — then a daily cash report so money is a tool",
-        "Weekly exam. Score seven pillars 1–5; two lowest get two actions. A great life is a life well examined"
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "modern-life-disease",
-          "title": "Modern Life Disease",
-          "e": "🏎️"
-        },
-        {
-          "slug": "seven-life-pillars",
-          "title": "Seven Life Pillars",
-          "e": "🏛️"
-        },
-        {
-          "slug": "who-test-mission",
-          "title": "WHO Test Mission",
-          "e": "🧭"
-        },
-        {
-          "slug": "sms-health-system",
-          "title": "SMS Health System",
-          "e": "💧"
-        },
-        {
-          "slug": "preloaded-year",
-          "title": "Preloaded Year",
-          "e": "📅"
-        },
-        {
-          "slug": "friend-inventory",
-          "title": "Friend Inventory",
-          "e": "👥"
-        },
-        {
-          "slug": "three-fs-hobbies",
-          "title": "Three Fs Hobbies",
-          "e": "🎯"
-        },
-        {
-          "slug": "attract-money-by-becoming",
-          "title": "Attract Money by Becoming",
-          "e": "🧲"
-        },
-        {
-          "slug": "weekly-pillar-scorecard",
-          "title": "Weekly Pillar Scorecard",
-          "e": "📊"
-        },
-        {
-          "slug": "never-miss-twice",
-          "title": "Never Miss Twice",
-          "e": "2️⃣"
-        },
-        {
-          "slug": "environment-design-habits",
-          "title": "Environment Design for Habits",
-          "e": "🏠"
-        },
-        {
-          "slug": "life-task-childhood-seed",
-          "title": "Life Task Childhood Seed",
-          "e": "🌱"
-        },
-        {
-          "slug": "rewarded-workaholism",
-          "title": "Rewarded Workaholism",
-          "e": "💼"
-        },
-        {
-          "slug": "busyness-as-unhappiness-outrun",
-          "title": "Busyness as Unhappiness Outrun",
-          "e": "🏃"
-        },
-        {
-          "slug": "faith-as-infrared-goggles",
-          "title": "Faith as Infrared Goggles",
-          "e": "🙏"
-        },
-        {
-          "slug": "agency-and-gratitude",
-          "title": "Agency and Gratitude",
-          "e": "🙌"
-        },
-        {
-          "slug": "systems-over-goals",
-          "title": "Systems Over Goals",
-          "e": "⚙️"
-        },
-        {
-          "slug": "identity-votes-from-habits",
-          "title": "Identity Votes from Habits",
-          "e": "🗳️"
-        }
-      ],
-      "conceptCount": 18
     },
     {
       "slug": "pi-agent-dev-reveals-agentic-engineering-workflow",
