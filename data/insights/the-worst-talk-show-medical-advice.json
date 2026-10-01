@@ -1,0 +1,45 @@
+{
+  "slug": "the-worst-talk-show-medical-advice",
+  "sections": [
+    {
+      "title": "The test",
+      "items": [
+        {
+          "e": "📄",
+          "q": "What makes a health claim on this channel checkable?",
+          "a": "It points at a study you can open and argue with. \"It penetrates the cancerian shell\" does not. A confident fake pH is the demo. [[fact-check-needs-a-study]]."
+        }
+      ]
+    },
+    {
+      "title": "Silver and the bean",
+      "items": [
+        {
+          "e": "✈️",
+          "q": "What does he say colloidal silver does?",
+          "a": "Nothing useful. HHS: no benefits, real risks, including skin turned blue. Airplane spray and a family throat spray are still exposure. [[colloidal-silver-no-benefit]]."
+        },
+        {
+          "e": "☕",
+          "q": "Why is \"eat 2,400, burn 400, therefore gain\" wrong?",
+          "a": "Exercise is not the whole burn. You burn calories while alive. He says that green-coffee study was retracted and the FTC followed. [[basal-burn-is-the-budget]]."
+        }
+      ]
+    },
+    {
+      "title": "The set",
+      "items": [
+        {
+          "e": "📺",
+          "q": "When has a talk show started doing a doctor's job?",
+          "a": "When it names the disease and the drug. Plavix with no exam. A past-life witch trial for anxiety. Leave. A Springer reunion can still be how a family finally got a diagnosis, and that is the failure. [[talk-show-is-not-a-clinic]]."
+        },
+        {
+          "e": "🧪",
+          "q": "Why is \"not found in nature\" not a safety test?",
+          "a": "Folic acid prevents neural tube defects. Cyanide is natural. The guest already said he is not a doctor. That ends the segment."
+        }
+      ]
+    }
+  ]
+}

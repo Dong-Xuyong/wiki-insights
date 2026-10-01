@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 306,
-  "insightsCount": 298,
-  "conceptCount": 2826,
+  "videoCount": 307,
+  "insightsCount": 299,
+  "conceptCount": 2830,
   "sections": [
     {
       "id": "architecture",
@@ -54,7 +54,7 @@
     "architecture": 3,
     "agents": 58,
     "systems": 21,
-    "build": 41,
+    "build": 42,
     "human": 16,
     "performance": 51,
     "mind": 34,
@@ -655,6 +655,60 @@
       "conceptCount": 6
     },
     {
+      "slug": "laziest-way-to-make-money-with-ai-mark-tilbury",
+      "title": "I Tried The LAZIEST Way to Make Money With AI",
+      "video_id": "LlhTEttKcwQ",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=LlhTEttKcwQ",
+      "duration_min": 34,
+      "creator": "mark-tilbury",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "build",
+      "tags": [
+        "business",
+        "monetization",
+        "side-hustle",
+        "mark-tilbury",
+        "ai"
+      ],
+      "keywords": [
+        "business",
+        "monetization",
+        "side hustle",
+        "mark tilbury",
+        "ai",
+        "Crown the Early Winner",
+        "Label the Synthetic Account",
+        "Workbook Not Ebook",
+        "Faceless Short Form Content"
+      ],
+      "summary": "mark-tilbury (~34 min, player 33:19) runs a live 7-day test of the \"laziest\" AI side hustle: synthetic influencers, no face and no voice of his own, startup spend capped at $99. The bet is $1,000 profit or he pays a commenter $1,000. He misses. The ledger he shows is 23 sales × $12 = $276 revenue, minus a $99 higgsfield Ultra plan (he used code TILBURY, then counted the full list price) and $19.52 PayPal, for about $157 profit.\n\nThe useful result is not the $157. He launched three accounts, crowned the early leader, and watched the account he abandoned go viral on the last day. A third-party listing dates the upload 21 Sept 2026. YouTube blocked the caption API; raw text is a public English transcript mirror. Captions smear Higgsfield, Stan Store, Vivian, Calvin Klein, and the dollar figures ($118.52 heard as $11,852; $157.48 heard as $15748).",
+      "key_insights": [
+        "A 7-day crown can pick the account that is merely ahead, not the one that will hit. Vivian was last, then one clip passed 250k.",
+        "Label the account in the bio. Comments can still treat the person as real.",
+        "The paid file has to be a filled-in challenge. A generic PDF is what the chatbots already give away.",
+        "\"Lazy\" here still means ten videos per account, a product read-through, and a checkout. The $99 cap is Higgsfield, counted at list price.",
+        "One monetization path on one winner is the whole test. Brand deals, physical goods, and TikTok Shop never got a turn."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "crown-the-early-winner",
+          "title": "Crown the Early Winner"
+        },
+        {
+          "slug": "label-the-synthetic-account",
+          "title": "Label the Synthetic Account"
+        },
+        {
+          "slug": "workbook-not-ebook",
+          "title": "Workbook Not Ebook"
+        }
+      ],
+      "conceptCount": 3
+    },
+    {
       "slug": "operating-distributed-inference-systems-at-scale",
       "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
       "video_id": "7c9FSUVcXR0",
@@ -884,26 +938,35 @@
         "Chronic disease — He grants crisis medicine (heart attack, stroke, fracture). The chronic load is people who survived the acute event, plus desks and less time outside. Medicine did not invent that. Societal fixes first; then drugs. GLP-1s help many and do not solve the pile.",
         "Folic acid — Prevents neural tube defects; the evidence is global. \"Not found in nature\" is not a safety test. Cyanide is natural. The guest already said \"I am not a doctor.\" That is the end of the segment."
       ],
-      "has_insights": false,
+      "has_insights": true,
       "concepts": [
         {
           "slug": "fact-check-needs-a-study",
-          "title": "Fact Check Needs a Study"
+          "title": "Fact Check Needs a Study",
+          "e": "📄"
         },
         {
           "slug": "colloidal-silver-no-benefit",
-          "title": "Colloidal Silver No Benefit"
+          "title": "Colloidal Silver No Benefit",
+          "e": "✈️"
         },
         {
           "slug": "basal-burn-is-the-budget",
-          "title": "Basal Burn Is the Budget"
+          "title": "Basal Burn Is the Budget",
+          "e": "🔥"
         },
         {
           "slug": "talk-show-is-not-a-clinic",
-          "title": "Talk Show Is Not a Clinic"
+          "title": "Talk Show Is Not a Clinic",
+          "e": "📺"
+        },
+        {
+          "slug": "leaky-gut-fructose-inflammation",
+          "title": "Leaky Gut Fructose Inflammation",
+          "e": "🦠"
         }
       ],
-      "conceptCount": 4
+      "conceptCount": 5
     },
     {
       "slug": "total-recall-agent-memory-harness-engineering",
@@ -1127,35 +1190,43 @@
       "concepts": [
         {
           "slug": "certain-pain-beats-uncertain-pain",
-          "title": "Certain Pain Beats Uncertain Pain"
+          "title": "Certain Pain Beats Uncertain Pain",
+          "e": "⚡"
         },
         {
           "slug": "anchor-identity-in-the-why",
-          "title": "Anchor Identity In The Why"
+          "title": "Anchor Identity In The Why",
+          "e": "🎻"
         },
         {
           "slug": "keep-rowing-in-the-fog",
-          "title": "Keep Rowing In The Fog"
+          "title": "Keep Rowing In The Fog",
+          "e": "🚣"
         },
         {
           "slug": "moral-elevation",
-          "title": "Moral Elevation"
+          "title": "Moral Elevation",
+          "e": "📖"
         },
         {
           "slug": "three-questions-before-the-choice",
-          "title": "Three Questions Before The Choice"
+          "title": "Three Questions Before The Choice",
+          "e": "❓"
         },
         {
           "slug": "apocalypse-as-revelation",
-          "title": "Apocalypse As Revelation"
+          "title": "Apocalypse As Revelation",
+          "e": "🌊"
         },
         {
           "slug": "ghost-ships",
-          "title": "Ghost Ships"
+          "title": "Ghost Ships",
+          "e": "🚢"
         },
         {
           "slug": "trust-the-future-self",
-          "title": "Trust The Future Self"
+          "title": "Trust The Future Self",
+          "e": "🌅"
         },
         {
           "slug": "intolerance-of-uncertainty-mental-health",
