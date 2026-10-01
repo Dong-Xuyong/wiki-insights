@@ -286,15 +286,18 @@
         },
         {
           "slug": "cap-weight-index-bet",
-          "title": "Cap-Weight Index Bet"
+          "title": "Cap-Weight Index Bet",
+          "e": "⚖️"
         },
         {
           "slug": "dividend-total-return",
-          "title": "Dividend Total Return"
+          "title": "Dividend Total Return",
+          "e": "💸"
         },
         {
           "slug": "three-reasons-to-sell",
-          "title": "Three Reasons to Sell"
+          "title": "Three Reasons to Sell",
+          "e": "🚪"
         }
       ],
       "conceptCount": 9
