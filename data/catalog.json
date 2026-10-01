@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 303,
   "insightsCount": 296,
-  "conceptCount": 2802,
+  "conceptCount": 2805,
   "sections": [
     {
       "id": "architecture",
@@ -804,9 +804,19 @@
           "e": "🛠️"
         },
         {
+          "slug": "model-harness-ai-product",
+          "title": "Model Harness AI Product",
+          "e": "🧰"
+        },
+        {
           "slug": "git-worktrees-for-agents",
           "title": "Git Worktrees for Agents",
           "e": "🌳"
+        },
+        {
+          "slug": "dumb-zone",
+          "title": "Dumb Zone",
+          "e": "🧠"
         },
         {
           "slug": "context-card",
@@ -823,9 +833,14 @@
         {
           "slug": "hysteresis-patience-budget",
           "title": "Hysteresis Patience Budget"
+        },
+        {
+          "slug": "agent-memory-markdown",
+          "title": "Agent Memory Markdown",
+          "e": "📝"
         }
       ],
-      "conceptCount": 6
+      "conceptCount": 9
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",
