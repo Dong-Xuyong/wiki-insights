@@ -1577,8 +1577,26 @@
         </div>
       </section>
 
+      <section class="home-section" aria-labelledby="sync-title">
+        <div class="section-heading">
+          <div><span class="eyebrow">Backup</span><h2 id="sync-title">Sync completed videos</h2></div>
+        </div>
+        <p class="local-note">Export here, then Import on your other device. Import only adds completions, it never un-completes a video.</p>
+        <button type="button" class="secondary-action" id="export-completed">Export completed</button>
+        <button type="button" class="secondary-action" id="import-completed">Import completed</button>
+        <input type="file" id="import-completed-file" accept=".json,application/json" hidden>
+      </section>
+
       <p class="local-note">Progress, XP, streaks, and badges are stored only in this browser.</p>
     `;
+    const importFile = root.querySelector("#import-completed-file");
+    root.querySelector("#export-completed").addEventListener("click", exportCompleted);
+    root.querySelector("#import-completed").addEventListener("click", () => importFile.click());
+    importFile.addEventListener("change", () => {
+      const file = importFile.files && importFile.files[0];
+      if (file) file.text().then(importCompleted);
+      importFile.value = "";
+    });
     root.querySelectorAll("[data-progress-status]").forEach((button) => {
       button.addEventListener("click", () =>
         navigate(
@@ -1592,6 +1610,42 @@
       );
     });
     restoreReturnScroll();
+  }
+
+  function exportCompleted() {
+    const completed = {};
+    for (const [id, rec] of Object.entries(loadProgressMap())) if (rec?.done) completed[id] = rec;
+    const payload = { app: "wiki-insights", version: 1, exportedAt: new Date().toISOString(), completed };
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(payload)], { type: "application/json" }));
+    a.download = `wiki-insights-completed-${localDateKey()}.json`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast(`Exported ${Object.keys(completed).length} completed videos`);
+  }
+
+  function importCompleted(text) {
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch {
+      toast("Not a valid JSON file");
+      return;
+    }
+    if (!data || data.app !== "wiki-insights" || !data.completed || typeof data.completed !== "object") {
+      toast("This file is not a Wiki Insights backup");
+      return;
+    }
+    const map = loadProgressMap();
+    let added = 0;
+    for (const [id, rec] of Object.entries(data.completed)) {
+      if (!rec?.done || map[id]?.done) continue;
+      map[id] = { t: Number(rec.t) || 0, updated: Number(rec.updated) || Date.now(), done: true };
+      added += 1;
+    }
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+    toast(`Imported ${added} new completed video${added === 1 ? "" : "s"}`);
+    renderProgress();
   }
 
   function renderInsightsHtml(pack) {
