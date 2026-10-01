@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 298,
-  "insightsCount": 291,
-  "conceptCount": 2779,
+  "videoCount": 301,
+  "insightsCount": 294,
+  "conceptCount": 2792,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,76 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 55,
-    "systems": 20,
+    "agents": 56,
+    "systems": 21,
     "build": 41,
     "human": 16,
     "performance": 50,
     "mind": 33,
     "relationships": 48,
-    "other": 32
+    "other": 33
   },
   "videos": [
+    {
+      "slug": "are-llm-performance-benchmarks-reliable",
+      "title": "Are LLM Performance Benchmarks Reliable?",
+      "video_id": "l1-D89bAuOA",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=l1-D89bAuOA",
+      "duration_min": 17,
+      "creator": "ashok-chandrasekar",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "benchmarks",
+        "inference",
+        "google",
+        "llm"
+      ],
+      "keywords": [
+        "benchmarks",
+        "inference",
+        "google",
+        "llm",
+        "ashok chandrasekar",
+        "Benchmark Harness Is the Bottleneck",
+        "Workload Is Not the Dataset",
+        "Planned vs Delivered Load",
+        "Vendor vs Independent Benchmarks"
+      ],
+      "summary": "ashok-chandrasekar and jason-kramberger (Google, AI Engineer World's Fair, ~16 min) argue that a throughput table does not tell you which experiment ran. YouTube's caption API was blocked from this machine, so the raw text is the talk page's auto-caption transcript. Treat ASR slips as slips (\"small chat code mission\", \"Kubernetes service incentive\", \"spanned out\").\n\nThe table. A harness takes a model, a prompt count, input and output lengths, and a requested load. It prints input-token throughput, output-token throughput, time to first token, and time per output token. They could not reproduce other people's numbers. The ecosystem they sketch: model-server scripts (vLLM, SGLang), chip comparisons (MLPerf, SemiAnalysis, Artificial Analysis), HTTP load tools (Locust, Grafana k6), and production inference benchmarks. The last one is the talk. A tool that drives one server fails when the target is an llm-d pool with prefill/decode split and autoscaling.\n\nThe client. Asked for 200 QPS, a small machine delivered 38. A bigger machine still left some single-process harnesses near 170. They blame Python's GIL. The harness still prints \"I ran it.\" Collecting streaming tokens inflated latency by up to 58 seconds, so a healthy server looked saturated. A 1,000 QPS run against a simulated zero-latency server stayed flat once the client could scale out. A claimed 20% throughput win was temperature 0 against a ~0.7 workload. The same ChatGPT dataset produced different input tokens because two harnesses sampled and truncated differently. Also unnamed unless you look: generate-to-EOS, prefix-cache rate, multi-turn replay.\n\nThe fix. inference-perf, which they call a CNCF project out of Kubernetes WG Serving, is a declarative config plus a multiprocess load generator. A main process queues requests at planned times (Poisson, constant rate, or fixed concurrency). Workers record when they actually fired. Client metrics sit next to server metrics. They say it kept up at 5,000 QPS and reported that it kept up. A workload catalog names multi-turn, tree of thought, agentic generation, and batch summarization in plain language and in tool-neutral config. llm-d Prism shows an agentic code-generation sweep on TPUs, eight replicas: combined optimizations versus a plain Kubernetes service in front of model servers, green line into the hundreds of thousands of tokens per second. They do not list the optimization bundle.",
+      "key_insights": [
+        "Diagnose the harness before the server. Low QPS and high latency can be the client.",
+        "200 requested is not 200 delivered. 38 QPS on a small box; ~170 cap for some single-process tools on a bigger one.",
+        "58 seconds can be the collector. Streaming-token intake, not the model, made the server look slow.",
+        "Temperature 0 is a different job. A 20% \"win\" was determinism, not a better stack. Their real-workload temperature is about 0.7.",
+        "The dataset name is not the request. Sampling, truncation, EOS, prefix cache, and multi-turn replay change the work.",
+        "Report planned time versus fire time. InferencePerf's claim at 5,000 QPS is that it kept up and said so.",
+        "Sweep load against an SLO. Find saturation, then check time-to-first-token P90. One QPS number is not an operating point."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "benchmark-harness-is-the-bottleneck",
+          "title": "Benchmark Harness Is the Bottleneck"
+        },
+        {
+          "slug": "workload-is-not-the-dataset",
+          "title": "Workload Is Not the Dataset"
+        },
+        {
+          "slug": "planned-vs-delivered-load",
+          "title": "Planned vs Delivered Load"
+        },
+        {
+          "slug": "vendor-vs-independent-benchmarks",
+          "title": "Vendor vs Independent Benchmarks",
+          "e": "🧪"
+        }
+      ],
+      "conceptCount": 4
+    },
     {
       "slug": "did-a-50-year-old-military-secret-just-solve-agent-prompt-injection",
       "title": "Did a 50 year old military secret just solve agent prompt injection?",
@@ -505,6 +565,133 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "operating-distributed-inference-systems-at-scale",
+      "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+      "video_id": "7c9FSUVcXR0",
+      "platform": "youtube",
+      "url": "https://youtu.be/7c9FSUVcXR0",
+      "duration_min": 20,
+      "creator": "nishant-gupta",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "systems",
+      "tags": [
+        "inference",
+        "infrastructure",
+        "meta"
+      ],
+      "keywords": [
+        "inference",
+        "infrastructure",
+        "meta",
+        "nishant gupta",
+        "Agentic Demand Multipliers",
+        "Routing Reaches the Autoscaler",
+        "Avoid, Share, Move, Delay",
+        "Cost per Successful Task",
+        "Inference Control Plane"
+      ],
+      "summary": "ai-engineer World's Fair talk, about 20 minutes. nishant-gupta and naman-ahuja work on efficiency, training, and inference infrastructure at Meta. YouTube captions are unavailable on this video. The notes below follow the conference talk page, a timestamped reconstruction, not a caption track.\n\nThe claim: inference traffic already exceeds their largest microservices, and one user action now starts many model calls. Capacity is no longer users times queries per second. It is that, times calls per user, times tokens per call. Their examples, not sizing rules: one call for a chatbot turn, ten to twenty for a copilot, fifty for a research agent, thousands for an autonomous workload. Requests in their fleet run from about fifty tokens to about a hundred thousand, so a request count hides the work.\n\nThey walk the cloud rhyme from about 2008. VMs, then Borg / Kubernetes / Mesos, then meshes and autoscalers. Inference, compressed: models on GPUs, then vLLM / TorchServe / Triton, then a layer that owns routing, cache, and many models. Prefill builds state. Decode spends it. The KV cache is the expensive state. Splitting the two phases adds placement decisions.\n\nThe coupling is the operating problem. A routing change hits a different cache, which changes the batch, which changes GPU use, which changes what the autoscaler does next. A capacity regression can start far from the GPU. Streaming makes a simple retry the wrong recovery: two hundred tokens may already be on the screen when the host is preempted. The page names the need for a control plane that sees the whole workflow. It does not specify how to continue a stream.\n\nPlacement, in their list, has seven axes: GPU type, HBM headroom, KV cache state, warm weights, tenant priority, where the workflow already is, and the latency budget left. Their example request is on step three of five. Steps one and two already spent X and Y. Killing step three throws that spend away. That is an illustration, not a rule that later steps always jump the queue.\n\nOptimizations sort into four moves. Avoid the work (prefix, response, or semantic cache). Share it (batching; chunked prefill and speculative decoding are named, not derived). Move it (smaller model, cheaper region, closer to the user). Delay it (admission, queues, deadlines). The denominator they want is cost per successful task. Cost per token can fall while the task fails. Gupta's \"order of magnitude\" throughput loss without continuous batching is stated without the comparison's conditions.\n\nFailure amplifies. A sick GPU slows responses, clients retry, queues grow, healthy GPUs fill, retries spread. A cold spare is not capacity until it is warm, and the KV cache does not move for free. Break the loop with circuit breakers, admission, load shedding on queue depth, and retry budgets. CPU utilization does not tell you how much unfinished work is waiting.\n\nAhuja takes the second half: telemetry, then a decision, then a new trace. Time to first token, whether memory or compute is the constraint, success per dollar, and where time goes on the full path. Bigger batches help cost and hurt the tail. Speculative decoding buys latency with extra compute. A smaller model is cheaper until a bad answer is retried. He likens the tension to CAP. The page says that is an analogy, not a theorem.\n\nThe layer that owns those choices is what they call an inference control plane. Build it, adopt it, or buy it. Adding GPUs can hide a bad scheduler. The close: models got smarter, then inference got faster, and the next job is orchestration.",
+      "key_insights": [
+        "Agentic load multiplies twice: calls per user, and tokens per call. User count is the old forecast.",
+        "A routing change can move the autoscaler. Cache hit, batch shape, and GPU use sit in between.",
+        "Schedule the workflow. Step three can waste what steps one and two already spent.",
+        "Four moves: avoid, share, move, delay. Score them by cost per successful task.",
+        "Retries turn one sick GPU into a regional queue. Cold machines are not warm capacity.",
+        "The control plane is the product. Same GPUs, different scheduling, different result."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agentic-demand-multipliers",
+          "title": "Agentic Demand Multipliers",
+          "e": "📈"
+        },
+        {
+          "slug": "routing-reaches-the-autoscaler",
+          "title": "Routing Reaches the Autoscaler",
+          "e": "🔀"
+        },
+        {
+          "slug": "avoid-share-move-delay",
+          "title": "Avoid, Share, Move, Delay",
+          "e": "🧩"
+        },
+        {
+          "slug": "cost-per-successful-task",
+          "title": "Cost per Successful Task",
+          "e": "💸"
+        },
+        {
+          "slug": "inference-control-plane",
+          "title": "Inference Control Plane",
+          "e": "🎛️"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
+      "slug": "the-wiggly-wonder-of-music-jacob-collier-ted",
+      "title": "The Wiggly Wonder of Music | Jacob Collier | TED",
+      "video_id": "e0Q_TcQUCks",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=e0Q_TcQUCks",
+      "duration_min": 11,
+      "creator": "jacob-collier",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "music",
+        "ted",
+        "creativity"
+      ],
+      "keywords": [
+        "music",
+        "ted",
+        "creativity",
+        "jacob collier",
+        "The Wiggle",
+        "Three Musical Wiggles",
+        "Harmony Recolors a Held Note",
+        "Be a Wiggler"
+      ],
+      "summary": "jacob-collier at TED2026 (~11 min, recorded 14 Apr 2026, official English transcript). He opens at the piano on louis-armstrong's \"What a Wonderful World,\" then names the feeling that moves a room: the wiggle. A straight line is a Roman road or a clock hand: set, certain, brittle. A wiggle is water. It changes shape and still holds. He quotes alan-watts: there are no straight lines in nature. Music, he says, is wiggling air, and it is learned through play. High to low, loud to quiet, thick to thin.\n\nThree wiggles. Melody draws a line and tells a story on the way. Armstrong does not flatten \"I see trees of green.\" The contour is the tree, the sky, the little cloud, the sun going down. Rhythm is time in the body. The even reading gets a no. He sings the pocket, and he says he just watched the room do it with him. Space, form, proportion, dynamics. Harmony is his favorite: the wiggles between the wiggles. Chords decide how the line feels. The song starts home, moves somewhere warm, picks up darkness, lightens, saddens. Then one melody note on \"And I think to myself\" stays put while the chord that could have stayed moves. The note changes color. With a chord he can squint, reassure, enchant, purify, or terrify. Home at the end is more beautiful because the line traveled.\n\nThe close is the life translation, not a second theory. Harmony with the world is not everyone on the same note. Time with the world is not stepping into line. Being in tune is not being perfect. Life is curveballs. Yield, bend, soften, or stiffen and break. When the world feels like a straight line, be a wiggler. He says you already know how. The room sings the last \"wonderful world\" with him.",
+      "key_insights": [
+        "The wiggle is the feeling that moves people. A straight line is rigid and brittle. Water keeps changing shape.",
+        "Watts, in his mouth: no straight lines in nature. Music is wiggling air, learned by play.",
+        "Melody is a story-shaped line. Armstrong's contour is the picture, not a flat reading.",
+        "Rhythm puts that line in the body. The room moved when he left the even syllables.",
+        "Harmony recolors a held note. \"And I think to myself\" stays one pitch. The chord does not.",
+        "Home matters more after the trip: tension, release, dissonance, consonance.",
+        "Life copy: harmony is not unison, time is not lockstep, tune is not perfection. Bend, or break."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "the-wiggle",
+          "title": "The Wiggle",
+          "e": "〰️"
+        },
+        {
+          "slug": "three-musical-wiggles",
+          "title": "Three Musical Wiggles",
+          "e": "🎵"
+        },
+        {
+          "slug": "harmony-recolors-a-held-note",
+          "title": "Harmony Recolors a Held Note",
+          "e": "🎹"
+        },
+        {
+          "slug": "be-a-wiggler",
+          "title": "Be a Wiggler",
+          "e": "🌿"
+        }
+      ],
+      "conceptCount": 4
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",

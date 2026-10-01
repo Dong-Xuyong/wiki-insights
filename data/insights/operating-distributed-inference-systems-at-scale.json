@@ -1,0 +1,45 @@
+{
+  "slug": "operating-distributed-inference-systems-at-scale",
+  "sections": [
+    {
+      "title": "The forecast",
+      "items": [
+        {
+          "e": "📈",
+          "q": "Why is user count the wrong capacity plan?",
+          "a": "One action can start many model calls, and each call can be huge. Their examples: 1 call for a chatbot turn, 10–20 for a copilot, ~50 for a research agent, thousands for an autonomous job. Requests in their fleet run from ~50 tokens to ~100,000. Those are examples, not a sizing formula."
+        }
+      ]
+    },
+    {
+      "title": "The cascade",
+      "items": [
+        {
+          "e": "🔀",
+          "q": "How can a router make the fleet look out of GPUs?",
+          "a": "Routing picks the cache. The hit rate picks the batch. The batch picks utilization. The autoscaler reads utilization. A capacity scare can start several hops away from the card."
+        },
+        {
+          "e": "🔁",
+          "q": "Why is retry the wrong fix after 200 tokens?",
+          "a": "The user already has them. Preempting the GPU mid-stream does not say what to do with output already shown. A cold spare is not capacity until it is warm, and the KV cache does not come along for free."
+        }
+      ]
+    },
+    {
+      "title": "The score",
+      "items": [
+        {
+          "e": "💸",
+          "q": "What should the optimization be measured against?",
+          "a": "Cost per successful task. Avoid, share, move, or delay the work. Cost per token can fall while step three of five aborts the spend from steps one and two."
+        },
+        {
+          "e": "🎛️",
+          "q": "What is the inference control plane?",
+          "a": "The layer that picks the model, the batch, the cache, and the recovery together. Same GPUs, different scheduling, different result. Adding cards can hide a bad scheduler. Captions are missing; this is the conference page's reconstruction."
+        }
+      ]
+    }
+  ]
+}
