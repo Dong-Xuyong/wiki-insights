@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 303,
-  "insightsCount": 296,
-  "conceptCount": 2805,
+  "videoCount": 306,
+  "insightsCount": 298,
+  "conceptCount": 2826,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 57,
+    "agents": 58,
     "systems": 21,
     "build": 41,
     "human": 16,
     "performance": 51,
-    "mind": 33,
+    "mind": 34,
     "relationships": 48,
-    "other": 33
+    "other": 34
   },
   "videos": [
     {
@@ -333,6 +333,91 @@
         }
       ],
       "conceptCount": 9
+    },
+    {
+      "slug": "how-to-build-codex-skills-better-than-99-percent",
+      "title": "How to Build Codex Skills Better than 99% of People",
+      "video_id": "9KOtMsZ9I28",
+      "platform": "youtube",
+      "url": "https://youtu.be/9KOtMsZ9I28",
+      "duration_min": 27,
+      "creator": "nate-herk",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "agents",
+      "tags": [
+        "nate-herk",
+        "codex",
+        "skills",
+        "agents"
+      ],
+      "keywords": [
+        "nate herk",
+        "codex",
+        "skills",
+        "agents",
+        "Reverse Engineer the Output",
+        "One Job, One Trigger",
+        "Skill Freedom Level",
+        "Agent Verification",
+        "Walk Down the Model List",
+        "Bike Method",
+        "Claude Code Skills",
+        "Skill Promotion"
+      ],
+      "summary": "nate-herk (~27 min, English auto-captions, 19 Sept 2026, ~45k views). A skill is a recipe: the chef's pancakes are the output, the recipe is SKILL.md, and the agent follows it so the next request does not invent a different pancake. Captions hear \"codec\" and skill.mmd. He means Codex and a markdown skill file.\n\nSix steps, then a live walk inside codex.\n\n1. reverse-engineer-the-output. \"Chicken\" can come back as a sandwich or as thighs. Start from chicken parmesan, or from the end-of-week Excel that is already good, and walk the agent backward: what data, where from, how calculated, how formatted. \"Build me a skill for a YouTube dashboard\" lets the agent keep a different picture of done.\n\n2. one-job-one-trigger. YAML front matter (three dashes) holds the name and when to use it. His example is an X-article skill: a YouTube URL in, a long X post out, argument hint is the URL, iterated 25+ times. \"Run the marketing team\" is too wide. In *Becoming AI Native* he calls the split a tree: trunks, branches, leaves. Skills are the leaves, and leaves can chain.\n\n3. skill-freedom-level. Deterministic work (Excel cells into a CRM) wants step one, step two, exactly. Judgment work (every YouTube video is a different X article) breaks if you lock screenshots to minute 1, minute 2, and line 400.\n\n4. Verification, which he calls the most important piece. The builder should not hand you V1. The same agent or a sub-agent checks, and he has seen that loop reach V15 or V16. Objective checks can be counted: 500 sources cut to 250, every fact checked by a second agent, 10 screenshots. Subjective checks (\"does it sound like Nate\", is the crop right) need an LLM as judge told what good feels like. His test: if you assigned the task to a person, what would earn the stamp, then say that to the agent. He puts the lift at about 95% versus a first pass around 75–80. See agent-verification.\n\n5. walk-down-the-model-list. Astra costs more than Soul, Soul more than Terra, Terra more than Luna. A YouTube description and timestamps can be Luna. The X-article skill, with browser use and crops, he still runs on Soul or Astra. Then walk effort: high, then medium, if quality holds. Captions say \"GBD6 Astra\" once. Same ladder as gpt-6-astra.\n\n6. bike-method. Almost every run, he says what he liked and what he did not, and tells the agent to update the skill. Training wheels come off. The helmet stays on. He does not call a judgment-heavy skill finished. New models and a changed process keep the feedback coming. Cousin of skill-promotion, which retires the old file. Here the same file gets the note.\n\nWhere they live: in his AIOS, Codex skills sit under .agents/skills. Claude Code uses .claude/skills. Captions smear both paths (aagents, aclad, calledkills). Globals sit across Codex projects. He duplicates rather than picking one tree, and will ask Codex for the path if he forgets it.\n\nLive test: the X-article skill already published on Astra (low, fast mode is his usual). He reruns the same prompt on Soul, Terra, and Luna, all on high. Luna ~28 min 33 sec: title repeats the opening line, odd spacing, first screenshot matches the three idea types, the 88 score is visible, spotlight on pricing. He is impressed. Terra ~26 min: same thumbnail, a cropped opening image, a zoom on 88→94, redaction blocks he likes, then four images in a row and a frame mid-animation. He ranks Luna above Terra on this one run. Soul ~38 min: more zoomed frames, redacts a demo receipt, highlights \"14 tests pass and two failed\" instead of the 88. All three emit a QA report (title, body, text blocks, inline screenshots, H2s, visual review, privacy). He says that report is why screenshots land. One run is not a winner. Across other videos he still keeps Astra on low.\n\nHe closes by applying the six steps to that skill, then dictating Terra's bad crops and the four-image stack back into the file so the next run does not repeat them. A short plug for a second channel. A sponsor line between the freedom section and verification is missing: the caption mirror inserted its own promo and the speech resumes at \"video.\"",
+      "key_insights": [
+        "Start from an output you already like, then walk backward. A vague noun is not a definition of done.",
+        "One skill, one trigger, in the YAML. Split the job tree down to leaves.",
+        "Lock the steps when the work is rules. Leave room when every input is different.",
+        "Objective checks are counts. Subjective checks are a judge with a picture of good. Do not accept V1.",
+        "Walk the same skill down cheaper models, then down effort. Keep the cheapest that still hits the bar.",
+        "Every run updates the skill. A judgment skill is not a finished product."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "reverse-engineer-the-output",
+          "title": "Reverse Engineer the Output",
+          "e": "🥞"
+        },
+        {
+          "slug": "one-job-one-trigger",
+          "title": "One Job, One Trigger",
+          "e": "🎯"
+        },
+        {
+          "slug": "skill-freedom-level",
+          "title": "Skill Freedom Level",
+          "e": "🎚️"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "walk-down-the-model-list",
+          "title": "Walk Down the Model List",
+          "e": "📉"
+        },
+        {
+          "slug": "bike-method",
+          "title": "Bike Method",
+          "e": "🚲"
+        },
+        {
+          "slug": "claude-code-skills",
+          "title": "Claude Code Skills",
+          "e": "🛠️"
+        },
+        {
+          "slug": "skill-promotion",
+          "title": "Skill Promotion",
+          "e": "📈"
+        }
+      ],
+      "conceptCount": 8
     },
     {
       "slug": "how-to-invest-for-beginners-2026-mark-tilbury",
@@ -758,6 +843,69 @@
       "conceptCount": 4
     },
     {
+      "slug": "the-worst-talk-show-medical-advice",
+      "title": "The WORST Talk Show Medical Advice",
+      "video_id": "LaY5XSBaM-E",
+      "platform": "youtube",
+      "url": "https://youtu.be/LaY5XSBaM-E",
+      "duration_min": 25,
+      "creator": "doctor-mike",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "other",
+      "tags": [
+        "medicine",
+        "misinformation",
+        "doctor-mike"
+      ],
+      "keywords": [
+        "medicine",
+        "misinformation",
+        "doctor mike",
+        "Fact Check Needs a Study",
+        "Colloidal Silver No Benefit",
+        "Basal Burn Is the Budget",
+        "Talk Show Is Not a Clinic",
+        "Leaky Gut Fructose Inflammation"
+      ],
+      "summary": "doctor-mike (~25 min, English auto-captions, published 20 Sept 2026) fact-checks daytime talk-show health segments. The rule he keeps repeating is fact-check-needs-a-study: a claim on this channel has to point at a paper you can open. \"It penetrates the shell\" does not.\n\nThe reel runs astrology (Cancer as a chest shell, peppermint scrub), colloidal-silver-no-benefit, a retracted green-coffee weight-loss study, vaccines and mercury, a Jerry Springer reunion, Montel Williams, a stage diagnosis of peripheral artery disease, mammograms, leaky gut on Tamron Hall, and folic acid. Closer is the usual \"stay happy and healthy,\" plus a tease of him playing Dr. Bill.\n\nASR garbles a few names. Hippocrates is \"Hypocrates.\" Meningitis, rotavirus, and varicella are \"menitis,\" \"roto virus,\" and \"vericella.\" Simpson-Golabi-Behmel syndrome is \"Simpson globby bentel\"; he does say SGBS. Gadolinium is \"gatalinium.\" A wellness name next to RFK Jr. comes out \"Gary Brea.\" A breast-ultrasound product comes out \"sonocininei.\" Zach's birth weight in the clip (\"about 106\") is not a usable number.",
+      "key_insights": [
+        "Astrology — Birth-season health claims have \"zero tie to actual science.\" A peppermint scrub for Cancers fails the allergy test and the fact-check test. A confident fake (Scorpio water at a pH with five decimals) is the demonstration.",
+        "Colloidal silver — Sprayed on airplane seats and under the tongue as a \"viral repellent.\" He cites HHS: no benefits, real risks. Prior reaction on this channel: skin turned blue. He thinks Dr. Oz interviewed that man on Oprah, then sold the family throat spray anyway.",
+        "Green coffee — \"Breaking news\" weight-loss pill. Nobody in medicine was buzzing except the sellers. The clip's calorie line (eat 2,400, burn 400 exercising, therefore gain) ignores basal-burn-is-the-budget. He says the study was retracted and the FTC and lawsuits followed.",
+        "Vaccines — Chickenpox as \"a parent's choice\" is a feeling, not a reason. Rotavirus vaccine prevents hospitalizations. Mercury left the childhood schedule; autism rates still rose, so the mercury book did not describe the cause. Timing is not causation (stock market up, autism up). Under-5 mortality ranks are not a schedule score: populations, immigration, and density differ. Vaccines for Children pays for kids who cannot. Most schedules look similar; flu, rotavirus, and varicella are the ones only a few countries picked up.",
+        "Jerry Springer — Zach, on at about age 3 as a very large child, back at 23 with Simpson-Golabi-Behmel (overgrowth), now a competitive gamer. A stage exam makes him uncomfortable. The anger is that a talk show found the doctor. Same anger as Mr. Beast restoring sight.",
+        "Montel — Social anxiety, then a past-life witch trial. Leave that office.",
+        "PAD — Peripheral artery disease and Plavix named with no exam and no location of the pain. Knee arthritis would fit the same complaint. \"I'm not a doctor\" after a diagnosis and a drug name is still playing one. He flags possible pharma payment.",
+        "Dizzy spells — Labyrinthitis (spinning, one ear's signal vs the other, unilateral sensorineural hearing loss), then \"water in your ears.\" Ten diagnoses because she does not know.",
+        "Grief — A dying father repeating a name, then \"get your thyroid checked.\" He calls that the most vulnerable moment on the show.",
+        "Mammograms — Radiation is real and low; screen or diagnose, do not scan for fun. Compression is for the image. It does not burst a tumor into metastasis. Feeling a mass once is enough; it is not a cyst you can pop. ACOG: start at 40, often yearly, some say every two years, shared decision; again after 75. Ultrasound is an adjunct, especially dense breasts, not a replacement. MRI comes after a finding. Gadolinium is not for fun; healthy kidneys have not shown him a problem. A CTC blood test does not find tumors \"anywhere in your body.\" Markers exist for suspected cancers. Commercial tests have false positives and overdiagnosis. Mammograms have the same fight, and the answer is nuance.",
+        "Leaky gut — On Tamron Hall, a cardiothoracic surgeon with an intestine model. Not a diagnosis you can run the same way twice. Natural-medicine catch-all for any belly pain. Clinics also dismiss hard abdominal cases. A fake label is not the fix. Depression is not a leaking water balloon. The clip's own disclaimer: lay term, more research. That is not leaky-gut-fructose-inflammation.",
+        "Chronic disease — He grants crisis medicine (heart attack, stroke, fracture). The chronic load is people who survived the acute event, plus desks and less time outside. Medicine did not invent that. Societal fixes first; then drugs. GLP-1s help many and do not solve the pile.",
+        "Folic acid — Prevents neural tube defects; the evidence is global. \"Not found in nature\" is not a safety test. Cyanide is natural. The guest already said \"I am not a doctor.\" That is the end of the segment."
+      ],
+      "has_insights": false,
+      "concepts": [
+        {
+          "slug": "fact-check-needs-a-study",
+          "title": "Fact Check Needs a Study"
+        },
+        {
+          "slug": "colloidal-silver-no-benefit",
+          "title": "Colloidal Silver No Benefit"
+        },
+        {
+          "slug": "basal-burn-is-the-budget",
+          "title": "Basal Burn Is the Budget"
+        },
+        {
+          "slug": "talk-show-is-not-a-clinic",
+          "title": "Talk Show Is Not a Clinic"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
       "slug": "total-recall-agent-memory-harness-engineering",
       "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
       "video_id": "xs-ob87TTzg",
@@ -929,6 +1077,93 @@
         }
       ],
       "conceptCount": 7
+    },
+    {
+      "slug": "why-you-fear-the-unknown-maya-shankar-simone-stolzoff",
+      "title": "Why You Fear the Unknown — and What It Can Teach You | Maya Shankar and Simone Stolzoff | TED",
+      "video_id": "SD1MypHgAwc",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=SD1MypHgAwc",
+      "duration_min": 52,
+      "creator": "maya-shankar",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "mind",
+      "tags": [
+        "psychology",
+        "uncertainty",
+        "identity",
+        "ted"
+      ],
+      "keywords": [
+        "psychology",
+        "uncertainty",
+        "identity",
+        "ted",
+        "maya shankar",
+        "Certain Pain Beats Uncertain Pain",
+        "Anchor Identity In The Why",
+        "Keep Rowing In The Fog",
+        "Moral Elevation",
+        "Three Questions Before The Choice",
+        "Apocalypse As Revelation",
+        "Ghost Ships"
+      ],
+      "summary": "maya-shankar and simone-stolzoff at a TED membership event in 2026 (~52 min). The usable text is the TED Talks Daily cut (5 July 2026, Elise Hu frame). YouTube captions were IP-blocked. TED.com credits Whitney Pennington Rodgers on the same conversation. They draw on Maya's *The Other Side of Change* and Simone's *How to Not Know* (and his earlier *The Good Enough Job*).\n\nThe open is a University College London shock study, as Simone tells it: people given a 50% chance of a painful shock were more anxious than people told the shock was certain. A certain bad outcome beats an ambiguous one. Maya maps that onto waiting for a medical result, which she says is worse than hearing the disease. Simone adds the biopsy-to-diagnosis window in breast cancer, often harder than chemo or surgery, and the evolutionary reason: a rustle in the bushes that might be fatal. The cost of that wiring is a narrowed mind. People stay in a job or a relationship that is not working because leaving is uncertain.\n\nChange is scary because it threatens identity. Maya's *A Slight Change of Plans* turned out to be a show about identity. She was an aspiring concert violinist from age six, Juilliard, Itzhak Perlman, then a career-ending injury. She grieved the instrument and herself. She had been bullied at school and found refuge in the music school. The move she wishes she had known: anchor identity in why you do the thing, not in the thing. For her the why was human connection, which survived as cognitive science, the podcast, and the book. Simone's Liz was a two-sport D1 athlete, Teach for America, then law school, then a chronic illness that ended the accomplishment ladder. She rebuilt on evergreen traits (a generous friend) that no employer can take.\n\nPossibility sits on the far side of the fog. Stuart Butterfield shut Tiny Speck's game Glitch down near its peak ($17 million raised, New York Times launch) and the internal chat tool became Slack. Rollo May, via Simone: commitment is healthiest in spite of doubt, not in the absence of it. \"Embrace uncertainty\" still feels like gaslighting. Simone's replacement is anchors plus rowing: IDEO's fogged lake. You cannot see the shore. Two jobs: faith that you are on a lake, so land exists, and keep rowing. Action is what makes the staircase show up. He cites a climate psychologist: the one string you can pull is the same move that treats the anxiety.\n\nMoral elevation is Maya's mechanism for a feared self. Reginald Dwayne Betts, sentenced at 16 to nine years for a carjacking, was less afraid of the lost prom and Georgia Tech than of who he might become inside. Expected selves, hoped-for selves, feared selves. A prisoner named Bilal (ironed uniform, 250 push-ups, coaching younger men to box) broke the stereotype. Weeks later, poetry in solitary, books bound with pillowcase thread. Yale Law, a MacArthur fellowship. Witnessing moral beauty cracks open what you think a human, including you, can be. Maya adds the reverse duty: be that moment for someone else.\n\nMember questions. Ira Bedzow (Emory, rabbi and hospital ethicist) asks students three things: what do you want, do you want to want that, and what does this choice say about who you are. The third is the one you can stand on when the outcome is unknowable. Kim's chaos/opportunity question sends Maya to the Greek: apocalypse is *apokalypsis*, revelation. Change shows beliefs you inherited and never interrogated. She had placed her worth as a woman in having children. After losing identical twin girls, she is child-free and, she says, unexpectedly the happiest she has been. Simone and his wife lost a pregnancy they had named Poppy, then had Luca. Grief hurt in proportion to care. Cheryl Strayed's ghost ships: every boarding leaves a fleet of unlived lives, and the work is to wave as they fade.\n\nTools at the close. Affect labeling: name anger, envy, grief, so you have the emotion instead of being it. Five minutes of self-affirmation on identities the change cannot touch. Trust the future self. A family friend, an oncologist named Bill, told therapist Emily that the version of her who would face her mother's death would be born in that moment, with more information than the person worrying today. Her mother recovered. Simone's three to carry out: constants, name the feeling, trust the future self.",
+      "key_insights": [
+        "A certain bad shock beat a 50% shock. Waiting on the result is often worse than the result.",
+        "Certainty narrows. People grit through a bad job or relationship to avoid the fog of leaving.",
+        "Anchor identity in the why, not the role. The violin ended. Human connection did not.",
+        "Evergreen traits outlast the résumé. Liz could not swim or collect A's. Generous friend still fit.",
+        "Turn toward the fog. Butterfield shut Glitch down and found Slack on the other side.",
+        "\"Embrace it\" is a platitude. Anchors plus one next stroke. Faith you are on a lake, then row.",
+        "Feared selves slam doors. Moral elevation (Bilal for Betts) reopens what a person in that spot can be.",
+        "Three questions before a choice: what do you want, do you want to want it, what does it say about you.",
+        "Apocalypse means revelation. The rubble shows a belief you never chose, including worth-as-mother.",
+        "Ghost ships are the lives you did not board. Wave. Do not chase them.",
+        "Name the feeling. List the identities this change cannot take. Trust the self who will meet the day."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "certain-pain-beats-uncertain-pain",
+          "title": "Certain Pain Beats Uncertain Pain"
+        },
+        {
+          "slug": "anchor-identity-in-the-why",
+          "title": "Anchor Identity In The Why"
+        },
+        {
+          "slug": "keep-rowing-in-the-fog",
+          "title": "Keep Rowing In The Fog"
+        },
+        {
+          "slug": "moral-elevation",
+          "title": "Moral Elevation"
+        },
+        {
+          "slug": "three-questions-before-the-choice",
+          "title": "Three Questions Before The Choice"
+        },
+        {
+          "slug": "apocalypse-as-revelation",
+          "title": "Apocalypse As Revelation"
+        },
+        {
+          "slug": "ghost-ships",
+          "title": "Ghost Ships"
+        },
+        {
+          "slug": "trust-the-future-self",
+          "title": "Trust The Future Self"
+        },
+        {
+          "slug": "intolerance-of-uncertainty-mental-health",
+          "title": "Intolerance Of Uncertainty Mental Health",
+          "e": "❓"
+        }
+      ],
+      "conceptCount": 9
     },
     {
       "slug": "ai-three-side-jobs-challenge",
