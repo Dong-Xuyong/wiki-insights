@@ -1744,23 +1744,28 @@
       "concepts": [
         {
           "slug": "seven-out-of-ten-first-ask",
-          "title": "Seven out of Ten, First Ask"
+          "title": "Seven out of Ten, First Ask",
+          "e": "7️⃣"
         },
         {
           "slug": "rescue-robs-agency",
-          "title": "Rescue Robs Agency"
+          "title": "Rescue Robs Agency",
+          "e": "🎒"
         },
         {
           "slug": "special-time-no-commands",
-          "title": "Special Time, No Commands"
+          "title": "Special Time, No Commands",
+          "e": "⏱️"
         },
         {
           "slug": "praise-the-work-not-the-trait",
-          "title": "Praise the Work, Not the Trait"
+          "title": "Praise the Work, Not the Trait",
+          "e": "💪"
         },
         {
           "slug": "respect-gates-the-extra",
-          "title": "Respect Gates the Extra"
+          "title": "Respect Gates the Extra",
+          "e": "🍽️"
         },
         {
           "slug": "dopamine-from-effort",
