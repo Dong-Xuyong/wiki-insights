@@ -1,0 +1,55 @@
+{
+  "slug": "obsidian-in-24-minutes",
+  "sections": [
+    {
+      "title": "Three levels, one axis",
+      "items": [
+        {
+          "e": "🪜",
+          "q": "What are Tina Huang's three Obsidian + AI levels?",
+          "a": "**L1 AI second brain** — you write, AI retrieves and interprets. **L2 AI database** — agents write, you or another agent query. **L3 LLM wiki** — AI writes, maintains, and retrieves; you source and ask. Axis is **who writes vs who retrieves**, not vector/graph sophistication."
+        },
+        {
+          "e": "🧭",
+          "q": "Which level should a non-note-taker start at?",
+          "a": "**Level 2.** Tina is a self-rated **3/10** note-taker. Life Bot logs food photos, Taco Bot writes process docs, widgets dump pomodoros — then she asks how to sequence deep work from that pile."
+        }
+      ]
+    },
+    {
+      "title": "How she runs each level",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What does Level 1 look like on her YouTube vault?",
+          "a": "**Claude Cowork** reads the whole vault: she does not have a concept-generation problem; six filter criteria already live in the notes. **Codex** turns the same corpus into an \"is this worth filming?\" checklist. Private path: Hermes / DeepSeek harness / OpenCode."
+        },
+        {
+          "e": "🚌",
+          "q": "What is the Level 2 write bus?",
+          "a": "**Obsidian Sync** (E2E, one of the few paid features) so agents on a PC, Mac Studio, and VPS write the same vault. Writer models: Gemini Flash, DeepSeek V4 Pro, local **Qwen 3.6 36B**."
+        },
+        {
+          "e": "📚",
+          "q": "How does she stand up a Level 3 wiki in practice?",
+          "a": "New Hermes profile + **LLM wiki skill** + Telegram as ingest port — she claims **under 5 minutes**. Same Karpathy pattern: raw / wiki / schema; ingest, query, lint; `index.md` + `log.md`. Claude Code has the most clone-ready repos; the gist is intentionally vague."
+        }
+      ]
+    },
+    {
+      "title": "Vs Nate and vs the quiz",
+      "items": [
+        {
+          "e": "↔️",
+          "q": "How does this differ from Nate's five second-brain levels?",
+          "a": "Nate's ladder is **retrieval sophistication** (router → wiki → vectors → graphs → always-on). Tina's is **authorship**. Her L3 is roughly Nate L2 plus always-on ingest/lint. Her L2 (agents logging into markdown) is a write-side pattern Nate does not name."
+        },
+        {
+          "e": "❓",
+          "q": "What three Obsidian features make it AI-friendly?",
+          "a": "She quizzes and never answers. Implied from the demo: **local markdown** any model can open; **wikilinks/graph**; **folder + Sync/plugins** as a shared store. Vault = IDE, LLM = programmer, files = codebase."
+        }
+      ]
+    }
+  ]
+}

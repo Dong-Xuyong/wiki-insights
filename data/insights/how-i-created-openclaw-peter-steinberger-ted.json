@@ -1,0 +1,80 @@
+{
+  "slug": "how-i-created-openclaw-peter-steinberger-ted",
+  "sections": [
+    {
+      "title": "Agents vs chatbots",
+      "items": [
+        {
+          "e": "🦞",
+          "q": "What crystallized the difference between chatbots and agents for Steinberger?",
+          "a": "In Marrakesh, a **voice message** arrived with no built-in voice support. The agent **inspected the file, converted audio, found an API key, transcribed, and replied in ~9 seconds** — then joked *\"The mad lad figured it out on its own.\"* His line: **chatbots give up, agents improvise**."
+        },
+        {
+          "e": "💬",
+          "q": "How did WhatsApp UX turn the bot from tool into companion?",
+          "a": "He told the model to **stop bullet-pointing and talk like WhatsApp**. That shift made the agent feel like a **travel companion**, not a report generator."
+        }
+      ]
+    },
+    {
+      "title": "Burnout to building again",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "How did AI agents rekindle a burnt-out founder?",
+          "a": "After selling his bootstrapped company, Steinberger felt **nothing for three years**. Agents removed plumbing so **thinking became the bottleneck** again — building felt like a **video game**, and he shipped **44 projects in months**."
+        },
+        {
+          "e": "🚪",
+          "q": "What transformation matters more than speed for experts?",
+          "a": "He argues the real shift is **access**: agents change **who can build**, not just how fast experts ship. Retirees automate groceries; teens launch tutoring businesses; **prompt-a-prototype-in-an-hour** opens the door — and *\"that door is not closing again.\"*"
+        }
+      ]
+    },
+    {
+      "title": "Growth, risk, and rebrand",
+      "items": [
+        {
+          "e": "⚠️",
+          "q": "What went wrong with the public Discord experiment?",
+          "a": "**Default power = default risk**: the agent can do **anything you can on your machine**. A reckless public Discord run hit **~800 overnight messages** — no leak, but there could have been — while resilience **auto-restarted while he slept**."
+        },
+        {
+          "e": "🏷️",
+          "q": "What forced OpenClaw's mid-flight rename?",
+          "a": "A **trademark claim from the dominant model provider** forced a rebrand. They also tried to **kill the lobster mascot** and **cut off the preferred model** — still, *\"the lobster is loose, and it's not going back into the tank.\"*"
+        }
+      ]
+    },
+    {
+      "title": "Who can build now",
+      "items": [
+        {
+          "e": "🍺",
+          "q": "What does the Gerhard story show about non-programmer builders?",
+          "a": "**Gerhard (60, beer sommelier)** ran a **90-minute brew via Bluetooth + one prompt**, then added **website + payments** — mostly from a **phone**. Vienna beer brewing and Shenzhen *\"raising lobsters\"* both show agents democratizing builders."
+        },
+        {
+          "e": "🌏",
+          "q": "How extreme did China adoption get?",
+          "a": "At **Tencent Shenzhen**, people *\"raised lobsters\"* with **government subsidies** for OpenClaw businesses, plus spreadsheets tracking **daily automation per employee** — including being **fired for using or not using**."
+        }
+      ]
+    },
+    {
+      "title": "Heartbeat, foundation, sandbox",
+      "items": [
+        {
+          "e": "💓",
+          "q": "What is the heartbeat / \"surprise me\" feature?",
+          "a": "**Periodic proactive wake-ups** check email, calendar, and loose ends — an intentionally scary **sandbox** feature **no big corp would ship**, framed as a **sandcastle experiment**."
+        },
+        {
+          "e": "🏰",
+          "q": "How should you isolate a powerful agent for safety?",
+          "a": "TED's Chris Anderson pressed on safety; Steinberger points to **sandbox layers** and the community pattern of dedicated **Mac mini / Mac Studio** isolation (*\"The Castle\"*) — **don't run default OpenClaw on your work laptop**. He also founded the **OpenClaw Foundation** so it stays **nonprofit, open-source forever**."
+        }
+      ]
+    }
+  ]
+}

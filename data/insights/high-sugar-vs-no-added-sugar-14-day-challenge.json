@@ -1,0 +1,65 @@
+{
+  "slug": "high-sugar-vs-no-added-sugar-14-day-challenge",
+  "sections": [
+    {
+      "title": "What the 14-day comparison actually tested",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "Was this a clean experiment on added sugar alone?",
+          "a": "**No. Multiple variables changed together.** The controlled participant removed added sugar, refined starches, snacks, and many rich sauces; the comparison participant ate more sugar **and about 900 g more fat**. It is an illustrative self-experiment, not causal proof."
+        },
+        {
+          "e": "⚖️",
+          "q": "What body-composition changes were reported after 14 days?",
+          "a": "The controlled-diet participant reportedly **lost 2 kg, including 0.8 kg fat**, while the high-sugar participant **gained 1.1 kg**. Their visceral-fat indices changed by **-5 versus +5.2**."
+        }
+      ]
+    },
+    {
+      "title": "Hidden sugar and glucose spikes",
+      "items": [
+        {
+          "e": "🧋",
+          "q": "Why can “less sugar” or “no added sugar” drink labels mislead?",
+          "a": "Sweetness settings do not necessarily scale linearly with total sugar. The tested fruit drink labeled no added sugar still contained about **4.28 g/100 ml**, or nearly **18 g in a 400+ ml serving**."
+        },
+        {
+          "e": "🍚",
+          "q": "Why did the controlled diet also remove white rice?",
+          "a": "**Refined starch is rapidly broken into glucose.** It may contain no added sugar yet still produce a sharp glucose rise. Pairing grains with fiber can slow absorption, but this also means the challenge tested more than sugar removal."
+        }
+      ]
+    },
+    {
+      "title": "Cravings, skin, and interpretation",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "How did sweet-food cravings change during the challenge?",
+          "a": "Cravings intensified early when habitual reward was removed, then reportedly weakened after roughly **ten days**. That pattern is compatible with adaptation, but one participant cannot establish a universal timeline."
+        },
+        {
+          "e": "🧴",
+          "q": "Did removing sugar prove that skin would improve?",
+          "a": "**No.** Skin imaging and self-reports suggested less redness, oiliness, and new acne in the controlled group, but skincare, stress, sleep, total diet, and natural variation were uncontrolled. The creators explicitly call the challenge non-rigorous."
+        }
+      ]
+    },
+    {
+      "title": "A sustainable takeaway",
+      "items": [
+        {
+          "e": "🪜",
+          "q": "What does the nutritionist mean by a “small cut” strategy?",
+          "a": "Make **one manageable reduction at a time**: for example, move from full-sugar to half-sugar milk tea for a week before making another change. This avoids turning a useful reduction into an unsustainable all-or-nothing rule."
+        },
+        {
+          "e": "🎯",
+          "q": "What is the most defensible conclusion from the video?",
+          "a": "**Track the whole dietary change, not just the sugar label.** Liquid sugar, refined starch, fat, fiber, portions, and adherence all matter. Use the video to generate a testable personal habit, not to claim that 14 sugar-free days guarantee its reported results."
+        }
+      ]
+    }
+  ]
+}

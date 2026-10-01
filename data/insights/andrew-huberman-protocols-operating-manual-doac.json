@@ -1,0 +1,80 @@
+{
+  "slug": "andrew-huberman-protocols-operating-manual-doac",
+  "sections": [
+    {
+      "title": "Gears on the cortisol curve",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "Why does Huberman sequence ten protocols through the day instead of offering a buffet of hacks?",
+          "a": "They **ratchet together**. Last night's sleep sets this morning's **cortisol awakening response**; that **peak buys the nighttime trough**. Zero or existing-budget cost. One rest day on training."
+        },
+        {
+          "e": "📈",
+          "q": "Is high morning cortisol the problem?",
+          "a": "No. You want the peak **as high as possible in the first 60 minutes**. A **flat morning curve** means longer daytime stress, worse recovery, shorter life. Cortisol **mobilizes energy**; Huberman bets **2027** closes the coffin on cortisol-is-bad."
+        }
+      ]
+    },
+    {
+      "title": "Light, night shift, Netflix",
+      "items": [
+        {
+          "e": "☀️",
+          "q": "What is the morning light rule if you live under UK cloud?",
+          "a": "**Daylight in the eyes** in hour one, **not through glass**. Overcast still counts. Miss a day → **twice as long** next day. **10,000 lux** if you wake before the sun. Skin long-wavelength light can cut a glucose peak **>25%**."
+        },
+        {
+          "e": "🌙",
+          "q": "What does 'bright days and dark nights' actually change?",
+          "a": "UK Biobank: they are **additive**. Bright nights raise **early-death** risk. After **6pm LED work at home counts as night shift**. Afternoon daylight is **Netflix inoculation** — buffers adult night screens; **it does not buffer adolescents**."
+        }
+      ]
+    },
+    {
+      "title": "Stress, focus, errors",
+      "items": [
+        {
+          "e": "😮‍💨",
+          "q": "What real-time tool beat meditation, box breathing, and Wim Hof-style breathing?",
+          "a": "The **physiological sigh** (double inhale, long exhale). **Once** is enough in the moment. **10 long exhales** if you wake at 3am. First **20–30 seconds** of stress your prefrontal cortex is offline — wait before you text."
+        },
+        {
+          "e": "📱",
+          "q": "Does turning the phone face-down fix focus?",
+          "a": "You can still focus. **Cognitive flexibility** drops if the phone is **anywhere in the room**, even off. Get it **out of the room** for a **90–120 min** effortful bout. Adult brains rewire on **genuine ~15% errors**, not every experience."
+        }
+      ]
+    },
+    {
+      "title": "Roles, calling, faith",
+      "items": [
+        {
+          "e": "🧳",
+          "q": "What is Hollis's daily triad, and why is it not enough?",
+          "a": "**Shut up** (gratitude), **suit up** (prepare), **show up** (fulfill roles). Do only that for decades and you can still be **miserable**. Once a day **exit stimulus-response**. You find a calling **while working something else**."
+        },
+        {
+          "e": "🙏",
+          "q": "How does Huberman talk about God without a proof?",
+          "a": "Faith as **infrared goggles** — pit vipers see IR; we don't, because we lack the sensors. **Thirst proves water**. He has not missed nightly prayer in nearly **3 years**. Ask for energy to do the right things, not for a cosmic favor."
+        }
+      ]
+    },
+    {
+      "title": "Walks and five-if-you-must",
+      "items": [
+        {
+          "e": "🚶",
+          "q": "Why walk 5–10 minutes after a meal?",
+          "a": "The **soleus** is ~**1%** of muscle with **outsized glucose use**. Low-level contractions **flatten the glucose peak**. Target **7–8k steps/day**, not a 10k religion. Aging metabolism 'slowdown' is often **people moving less**."
+        },
+        {
+          "e": "💊",
+          "q": "If he could keep only five supplements?",
+          "a": "**Magnesium** threonate/bisglycinate (if sleep is not already great), **≥1 g EPA** (Lovaza), **vitamin D 5–10k IU**, **alpha-GPC 600–900 mg** plus garlic for TMAO, **creatine 5–10 g**. Behavior is the foundation; peptides sit on top."
+        }
+      ]
+    }
+  ]
+}

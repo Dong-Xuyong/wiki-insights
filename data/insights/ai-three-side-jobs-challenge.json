@@ -1,0 +1,50 @@
+{
+  "slug": "ai-three-side-jobs-challenge",
+  "sections": [
+    {
+      "title": "Friends are the labor market",
+      "items": [
+        {
+          "e": "📱",
+          "q": "What does the caption admit before the cut starts?",
+          "a": "[[friend-as-the-gig]]. The three jobs are **自己的朋友帮忙**. The ask is a demo: 开拓一下思路. Not a stranger on a job board."
+        },
+        {
+          "e": "💬",
+          "q": "What three comment wishes become the prompt?",
+          "a": "[[comment-constraints-as-prompt]]. No strangers. Interest-aligned. Time-free. Paste that. 阿宝 still returns warehouse QC, pet-wash, cinema backstage."
+        }
+      ]
+    },
+    {
+      "title": "阿宝 as the shift lead",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "What is 阿宝 actually doing here?",
+          "a": "[[ai-as-gig-playbook]]. Job board plus SOP. 收纳师 ¥100–200/hr. 喂猫 ¥30–60. Doll sofa as furniture. Siamese = 猫中之狗. Star = special client + one 万能台词."
+        },
+        {
+          "e": "🛋️",
+          "q": "Where did 陈泽宇's dolls go?",
+          "a": "A transparent beanbag. Furniture is storage. **你其他东西去哪了 你别管.** He does not unpack. 我只负责收纳, 不负责还原."
+        }
+      ]
+    },
+    {
+      "title": "The invoice and the loop",
+      "items": [
+        {
+          "e": "🪙",
+          "q": "What do the two houses pay?",
+          "a": "Macau coins. Then **¥0.11** plus 蚂蚁森林 energy. The real product is the cut."
+        },
+        {
+          "e": "🚢",
+          "q": "Why does he call the premiere 恐怖游轮?",
+          "a": "[[seven-hall-loop]]. Seven halls. Same intro. 法老 stays the 保安. 陈正宇 stays the friend. The job is not getting a new line."
+        }
+      ]
+    }
+  ]
+}

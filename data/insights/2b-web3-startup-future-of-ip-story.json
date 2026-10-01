@@ -1,0 +1,40 @@
+{
+  "slug": "2b-web3-startup-future-of-ip-story",
+  "sections": [
+    {
+      "title": "Why Story exists",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "Why did Jason quit DeepMind, and what pairing is the company?",
+          "a": "Dream PM job translating AlphaGo-class research. DeFi summer felt more **open and fast**. Culture (TikTok/Netflix) is where time goes. **AI = infinite content. Chain = scarce rights.** Without the second, Midjourney deletes the illustrator bill."
+        },
+        {
+          "e": "🧱",
+          "q": "What is an IP Lego, and who sets the money?",
+          "a": "A character, world, or dataset is a **brick**. Maker sets cut / geo / commercial terms. Anyone can snap on a story or game **if they comply**. Graph + copyright enforce. Single artist can license without a studio legal team."
+        },
+        {
+          "e": "🎮",
+          "q": "What is the attention monetization dilemma?",
+          "a": "Internet **copies**; media **restricts**. Games picked spread: free-to-play + skins. Film: games and music both ~$25B early; games ~$180B, music still ~$25B. Story exports that toolkit past studios."
+        }
+      ]
+    },
+    {
+      "title": "How they ship it",
+      "items": [
+        {
+          "e": "💳",
+          "q": "What does Stripe-for-IP mean?",
+          "a": "Checkout hides banking. Story should hide **chain and law**. If a creator or Web2 dev has to learn either, the product failed."
+        },
+        {
+          "e": "🤝",
+          "q": "Who did SY pick, and what is the GTM?",
+          "a": "Media operator (Byline → Radish → ~$0.5B Kakao) × research translator who writes the white paper. GTM: **incubate builders** (Kaiser office key, a16z intro), not hunt creators. Offense: everyone is now a studio."
+        }
+      ]
+    }
+  ]
+}

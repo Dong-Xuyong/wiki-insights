@@ -1,0 +1,70 @@
+{
+  "slug": "build-muscle-strength-recovery-huberman-essentials",
+  "sections": [
+    {
+      "title": "How muscle actually adapts",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "Who really controls muscle growth and strength?",
+          "a": "The **nervous system** — upper motor neurons for deliberate effort, lower motor neurons releasing acetylcholine for contraction, and **central pattern generators** for rhythmic movement. Adaptation happens **after training**, not during it."
+        },
+        {
+          "e": "⚖️",
+          "q": "Do you need heavy weights to build muscle?",
+          "a": "No. **Henneman's size principle** recruits motor units from low to high threshold, so **30–80% of 1RM** is enough for most strength and hypertrophy. Extreme strength may still need heavier loads."
+        }
+      ]
+    },
+    {
+      "title": "Training intent and volume",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "How should strength and hypertrophy training feel different?",
+          "a": "**Strength** = move load as a whole-body system with progressive overload. **Hypertrophy** = isolate hard local contractions (**mind-muscle intentionality**). Better isolation means fewer sets needed."
+        },
+        {
+          "e": "📊",
+          "q": "How many sets per muscle per week do you need?",
+          "a": "**≥5 sets/week** at 30–80% 1RM just to **maintain**; **5–15 sets** to improve; advanced trainees can push **25–30** if recovery allows."
+        },
+        {
+          "e": "🔥",
+          "q": "How often should you train to failure?",
+          "a": "Only about **~10% of sets** to failure (**eighty-twenty exercise rule**). Keep most volume **sub-maximal** so you can still accumulate enough weekly work."
+        }
+      ]
+    },
+    {
+      "title": "Rest, recovery, and timing traps",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "What rest intervals should you use between sets?",
+          "a": "About **2 minutes** for Duncan French–style testosterone protocol work; **2–6 minutes** for hypertrophy and strength sets. Explosiveness work sits around **60–75% 1RM** with a fast concentric."
+        },
+        {
+          "e": "✋",
+          "q": "How can you check recovery for free each morning?",
+          "a": "**Grip strength** drop of **≥10–20%** signals systemic nerve-to-muscle fatigue. **CO2 discard rate**: under **25–30 s** = not recovered; **30–60 s** = green zone; **65–120 s** = nervous system ready."
+        },
+        {
+          "e": "🧊",
+          "q": "Why avoid ice baths and NSAIDs right around lifting?",
+          "a": "Post-lift **ice baths** and **NSAIDs within ±4 hours** blunt inflammation-driven repair via the **mTOR pathway**, short-circuiting the gains you just trained for."
+        }
+      ]
+    },
+    {
+      "title": "Nutrition levers",
+      "items": [
+        {
+          "e": "🧂",
+          "q": "Which supplements and nutrients matter most here?",
+          "a": "**Salt/electrolytes** enable nerve firing; **creatine monohydrate ~5 g/day** (studies show **12–20%** power gains); **leucine** from protein-dense meals (**700–3,000 mg** per meal, roughly **2–4 meals/day**)."
+        }
+      ]
+    }
+  ]
+}

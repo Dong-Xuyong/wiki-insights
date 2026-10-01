@@ -1,0 +1,60 @@
+{
+  "slug": "iphone-18-pro-a20-five-year-chip",
+  "sections": [
+    {
+      "title": "The package is the product",
+      "items": [
+        {
+          "e": "📦",
+          "q": "Why move DRAM off the top of the A20 Pro?",
+          "a": "PoP was a space hack from the sub-watt era. Near **5 GHz** the DRAM lid is a heat plug. WMCM parks memory beside the die and puts a lid on the compute. That is [[useful-high-frequency]], not a 10 W game loop."
+        },
+        {
+          "e": "🌡️",
+          "q": "What does room-temp vs fridge Geekbench tell you?",
+          "a": "On 18 Pro they almost match. Older iPhones and Android flagships do not. The 4.93 GHz burst is holdable without a freezer."
+        }
+      ]
+    },
+    {
+      "title": "Smaller Super core, fatter NPU",
+      "items": [
+        {
+          "e": "✂️",
+          "q": "How did the Super core get faster by getting smaller?",
+          "a": "[[shrink-the-big-core]]: 10-wide → 9-wide, shallower queues, same ALUs, integer IPC **+3%** at 4.93 GHz. Frequency, not width."
+        },
+        {
+          "e": "🧠",
+          "q": "Which IP actually grew on a same-size die?",
+          "a": "[[npu-takes-the-die]]. CPU/GPU shrink. NPU 16 → 32 cores, area **+60%**. Their INT8: 41 → 73 TOPS."
+        },
+        {
+          "e": "🍴",
+          "q": "Is the A20 Super core just a tiny M6?",
+          "a": "No. [[a-series-m-series-split]]. Phone S-core is A20-only. M6 is a later tape."
+        }
+      ]
+    },
+    {
+      "title": "Catch Android, leave the experiments",
+      "items": [
+        {
+          "e": "🎮",
+          "q": "Did the 3× vapor chamber matter in games?",
+          "a": "Genshin 3.4 W / 38–39 °C. 鸣潮 6.4 W / 58.9 fps at 42.6 °C — watts he had never seen on an iPhone. Fan iQOO still wins. UE titles still like Android more."
+        },
+        {
+          "e": "🔋",
+          "q": "Does the 18 Pro beat the 17 Pro Max on battery like the keynote said?",
+          "a": "Pro Max yes: **10h37m** 5G, ~2 h past 17 Pro Max on ~5400 mAh. Small Pro no: +100 mAh, **7h50m**, does not catch last year's Max."
+        },
+        {
+          "e": "🧱",
+          "q": "What is [[stack-the-shortboards]]?",
+          "a": "Pro fills heat / battery / charge. Air and Fold take the weird bets. 云飞: walk Android's road faster so Android has nowhere to go. Tax: 半斤 Pro Max, QLC risk on 1–2 TB."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "gpt-6-twin-prime-zhang-yitang",
+  "sections": [
+    {
+      "title": "186 is not 2",
+      "items": [
+        {
+          "e": "2️⃣",
+          "q": "Did GPT-6 prove the twin-prime conjecture?",
+          "a": "No. [[finite-gap-not-twin]]. Infinitely many adjacent primes with gap **≤ 186**. Twin prime wants **2**. Same *kind* of theorem as Zhang's 70 million."
+        },
+        {
+          "e": "🧵",
+          "q": "What did GPY already have, and why did it stall?",
+          "a": "Gaps grow slower than **c log p** for any c > 0. Felt one hair from twins. Classroom: that method was already a **dead end**."
+        }
+      ]
+    },
+    {
+      "title": "Squeeze, then a new road",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What happened to 70 million after 2013?",
+          "a": "[[polymath-gap-compression]]. Tao's 博学者计划 + Maynard: **70M → 4680 → 600 → 246**. Then years of stall."
+        },
+        {
+          "e": "🛣️",
+          "q": "What is the 2026 news, if not gap 2?",
+          "a": "[[follow-the-new-road]]. [[julia-stadlmann]] 246 → **240** (31 Aug). Classroom clock: three days later GPT-6 → **186**. A paper unlock, not a rumor sprint."
+        }
+      ]
+    },
+    {
+      "title": "Wait for the deer",
+      "items": [
+        {
+          "e": "🦌",
+          "q": "What is 等鹿来?",
+          "a": "[[wait-for-the-deer]]. Zhang walks a backyard for a deer. No deer. A GPY tweak arrives. Eight years of dishes. Lecturer at 58. *Annals* in three weeks."
+        },
+        {
+          "e": "🃏",
+          "q": "Why pair Zhang with 二舅?",
+          "a": "[[play-a-bad-hand-well]]. Tao is the gifted-life foil. Most lives, 李 says, are 平凡而又充满波折. Du Fu: 庾信平生最萧瑟，暮年诗赋动江关."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "david-eagleman-dreams-brain-plasticity-doac",
+  "sections": [
+    {
+      "title": "Team of rivals & plasticity",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What does Eagleman mean by a \"team of rivals\" brain?",
+          "a": "You are not one rational self — **competing neural networks** whose \"vote\" changes by context. Retrospective regret often means a **different neural party** was driving."
+        },
+        {
+          "e": "🔄",
+          "q": "When does the brain stop changing?",
+          "a": "**Neuroplasticity never fully shuts off** — the brain mainly stops changing when it thinks it already has the world modeled (**crystallized** over fluid). Growth needs attention-intense challenges in the **frustrating-but-achievable** zone."
+        },
+        {
+          "e": "⛪",
+          "q": "What did the Religious Orders Study show about cognitive reserve?",
+          "a": "Nuns with Alzheimer's pathology but **no symptoms** had built **cognitive reserve** from lifelong social/chore challenge. Retirement that shrinks circles and stops pathway-building raises decline risk."
+        }
+      ]
+    },
+    {
+      "title": "Why we dream",
+      "items": [
+        {
+          "e": "💭",
+          "q": "What is Eagleman's lab theory of REM dreaming?",
+          "a": "**Dream visual-cortex defense** — REM blasts random activity into visual cortex every ~**90 min** to defend visual territory from hearing/touch takeover during darkness. Harvard blindfold: takeover begins in ~**60 min**."
+        },
+        {
+          "e": "🐒",
+          "q": "Do more plastic brains dream more?",
+          "a": "Across **25 primate species**, more plastic brains correlate with **more dream sleep**. Most dream content is noise; meaning is often **post-hoc**, like a random bookshelf sentence."
+        }
+      ]
+    },
+    {
+      "title": "Habits, willpower & friction",
+      "items": [
+        {
+          "e": "⚓",
+          "q": "How do Ulysses contracts change future-you?",
+          "a": "**Constrain future-you** — clear alcohol from the house, commit to **7 AM** runs with Bob — instead of relying on in-the-moment willpower."
+        },
+        {
+          "e": "🏋️",
+          "q": "What enlarges the anterior mid-cingulate (willpower) circuit?",
+          "a": "A history of **hard unwanted work** — not extending tasks you already enjoy. Novice juggling lights up the whole brain; experts show less activity because the brain's goal is **efficiency**."
+        },
+        {
+          "e": "⚙️",
+          "q": "What friction should you keep when using AI?",
+          "a": "Outsource **busywork** (vicious friction); never outsource **thinking through novel problems** (virtuous friction). Copy-paste AI answers = no learning plus **effort-phenomenon** red flags."
+        }
+      ]
+    },
+    {
+      "title": "AI, creativity & live experience",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "How should kids use AI for learning?",
+          "a": "Curiosity-driven Q&A sticks via the plasticity cocktail better than \"just in case\" schooling. Use AI as **Aristotle-in-pocket**; ask **\"why am I wrong?\"** — humans still own selection; AI is weak at humor punchlines."
+        },
+        {
+          "e": "🎭",
+          "q": "What renaissance does Eagleman expect post-AI?",
+          "a": "Rising demand for **live theater, live music, in-person talks**, and human care — **live experience** and human connection become economic assets as digital answers get cheap."
+        }
+      ]
+    }
+  ]
+}

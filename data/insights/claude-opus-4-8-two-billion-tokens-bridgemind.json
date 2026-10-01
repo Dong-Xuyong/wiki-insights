@@ -1,0 +1,70 @@
+{
+  "slug": "claude-opus-4-8-two-billion-tokens-bridgemind",
+  "sections": [
+    {
+      "title": "Release pressure & market context",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "How fast did Opus 4.8 follow 4.7, and why does that matter?",
+          "a": "It shipped **six weeks after 4.7** — the fastest Opus cadence ever — amid Claude Code search volume falling (~8.8M → under 6M) while Codex rose (~1.8M → 3M). BridgeMind frames it as Anthropic rushing to win back share after a 4.7 miss."
+        },
+        {
+          "e": "📊",
+          "q": "What stayed the same as 4.7 under the hood?",
+          "a": "Same **Jan 2026 knowledge cutoff**, same hallucination rate, and same output-token profile — signals **incremental tuning**, not a new frontier model."
+        }
+      ]
+    },
+    {
+      "title": "Benchmarks vs real workflows",
+      "items": [
+        {
+          "e": "🏆",
+          "q": "Where did official scores look good, and where did they regress?",
+          "a": "Anthropic claims ~**5% SWE-Bench Pro** jump and **#1 intelligence index** on Artificial Analysis, but coding index still trails GPT 5.5 Extra High (**56.7 vs 59**). **CursorBench regressed**, and BridgeBench worsened on lava lamp, security, refactoring, and debugging."
+        },
+        {
+          "e": "🎮",
+          "q": "Does a better HTML FPS demo prove production readiness?",
+          "a": "A single-shot HTML FPS (map, kill feed, RPG effects) improved over prior Opus, but BridgeMind calls that **\"not real software\"** — the real test is production with subscribers."
+        }
+      ]
+    },
+    {
+      "title": "UltraCode at production scale",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "How token-hungry was the Opus 4.8 stress test?",
+          "a": "BridgeMind burned **2B+ tokens in two days** — 480M fast mode, **973M + 655M** in Claude Code — plus a third Claude Max for UltraCode. One day alone used **1.6B tokens** via UltraCode."
+        },
+        {
+          "e": "💥",
+          "q": "What happened when 105 agents shipped a BridgeSpace update?",
+          "a": "They introduced a **terminal text-rendering bug** (v3.0.78). Opus 4.8 failed **8 fix attempts**; GPT 5.5, UltraCode, and Cursor Opus 4.8 Fast also failed — full rollback to a safe commit was required."
+        },
+        {
+          "e": "💸",
+          "q": "How expensive can parallel UltraCode get mid-video?",
+          "a": "During filming, **15 agents** ran a classify phase; **two agents** alone used **~9% of one $200 Max plan** in about 14 minutes."
+        }
+      ]
+    },
+    {
+      "title": "Verdict & Mythos horizon",
+      "items": [
+        {
+          "e": "✅",
+          "q": "Did BridgeMind approve Opus 4.8 anyway?",
+          "a": "Yes — **stamp of approval** as best current coding model and better than 4.7 in many areas — but the creator is disappointed: **incremental not leap**, hype-driven cadence, Anthropic's own phrasing of a **\"modest but tangible improvement.\""
+        },
+        {
+          "e": "🔮",
+          "q": "What is BridgeMind waiting for next?",
+          "a": "A **Claude Mythos** leap that fixes hard production bugs, not just pretty demos. Polymarket odds for Mythos by end of June jumped ~**10% → ~40%**."
+        }
+      ]
+    }
+  ]
+}

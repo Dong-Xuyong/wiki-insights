@@ -1,0 +1,50 @@
+{
+  "slug": "how-to-build-1-person-business-claude-nate-herk",
+  "sections": [
+    {
+      "title": "Dario's filters, not a recipe",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What three filters does Nate extract from Dario?",
+          "a": "Dario did **not** publish a checklist. Nate turns the interview examples into: **own-capital loop**, **software**, **automated sales+support without a terrible UX**. He drops capital so a normal starter is not underwriting a book."
+        },
+        {
+          "e": "🧰",
+          "q": "Why isn't 'I can build software' enough?",
+          "a": "If every deal needs custom onboarding and a salesperson, it is still a team business. Repeatable offer, agent-answerable support. File converter / ad reviewer pass. Calendarly-clone and unproven outreach writer lose the panel."
+        }
+      ]
+    },
+    {
+      "title": "Agent Report Card",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What is the customer actually paying for?",
+          "a": "**Proof**, not a dashboard. Mystery-shopper golden set → score, fails, diagnosis, client-ready report. One patched example is not reliability: 88 stayed 88 after a billing fix (non-deterministic drift), then 94 with a leftover data-export fail."
+        },
+        {
+          "e": "🧑‍⚖️",
+          "q": "What does the founder still own?",
+          "a": "Money and data. Claude qualifies the trial form and answers docs. It does **not** send, charge, refund, or delete. Clay drafts stay **marked not sent**."
+        }
+      ]
+    },
+    {
+      "title": "3Ps and the $1M math",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "What is pain → person → promise for this product?",
+          "a": "Agencies still test support bots by hand. Buyer = AI automation agency. Promise = 16+ high-risk scenarios + fail locations + a client-ready report. 'All agents' is too broad."
+        },
+        {
+          "e": "💵",
+          "q": "What number is the headline vs the next step?",
+          "a": "**$499/mo × 168** = $1M ARR. First milestone is **five paying agencies** that connect a real agent, use the report, and pay."
+        }
+      ]
+    }
+  ]
+}

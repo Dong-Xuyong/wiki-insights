@@ -1,0 +1,45 @@
+{
+  "slug": "cursors-github-replacement",
+  "sections": [
+    {
+      "title": "Why hosting Git is hard",
+      "items": [
+        {
+          "e": "📦",
+          "q": "What makes hosting Git hard if every object already has a SHA?",
+          "a": "**Packfiles.** Clients speak packs. A file-at-commit is a **walk** (commit → tree → blob), often through **deltas** with no DAG-to-disk locality. A KV store (SHA → object) dies on those hops. Google's JGit DHT **abandoned** it because clone was too slow."
+        },
+        {
+          "e": "🧭",
+          "q": "What did GitHub's Spokes keep that the KV approach threw away?",
+          "a": "A **real Git repo on local NVMe**, replicated at the packfile layer, kept **fully consistent**. Industry default since ~2013. Reads go to any of ≥3 machines. Writes do **prepare / lock / commit**."
+        }
+      ]
+    },
+    {
+      "title": "Reads scale; writes don't",
+      "items": [
+        {
+          "e": "🐢",
+          "q": "What is the tail-at-scale write tax?",
+          "a": "Four waits **per replica** on 3PC. Five nodes → 20 waits → ~**18%** chance of a P99 on the path. A viral repo (~200 waits) → ~**86%**. Add replicas for CI and **pushes get slower**."
+        }
+      ]
+    },
+    {
+      "title": "S3 is the repo; disks are cache",
+      "items": [
+        {
+          "e": "🪵",
+          "q": "What is Continuity's source of truth?",
+          "a": "A **write-ahead log on S3**, not the NVMe copy. Ack after persist. **Rendezvous hashing** picks a preferred node; any node can rebuild in milliseconds. Idle repos can have **zero** replicas. Origin is the product."
+        },
+        {
+          "e": "😎",
+          "q": "What did Primeagen still feel after the recap?",
+          "a": "Smarter, and still sure he could build it. **The problem of confidence.**"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "my-agentic-engineering-workflow-david-ondrej",
+  "sections": [
+    {
+      "title": "Stack after 6,775 sessions",
+      "items": [
+        {
+          "e": "🖥️",
+          "q": "What is the spine of Ondrej's current setup?",
+          "a": "**Interfaces → subscriptions → self-hosted cloud agents → harnesses → skills → rapid-fire ops.** Main UI is **BB**; daily terminal is Ghostty + **Herder**. Never pay **API list price** — stack OpenCode Go ($10) plus Codex / Claude / Cursor by budget."
+        },
+        {
+          "e": "☁️",
+          "q": "Why own a cheap VPS instead of vendor cloud agents?",
+          "a": "Local agents die on laptop close. Vendor cloud = **lock-in + data exposure**. Cited Cursor share of *merged* PRs from cloud agents: ~**10–15%** → approaching **~60%** in H2 2026. First local agent does the DevOps in **plain English**."
+        }
+      ]
+    },
+    {
+      "title": "Taste, not syntax",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is the human job in this workflow?",
+          "a": "**Taste and decisions** (ask-then-build, ADRs), not typing. One **cross-model review**, never recursive. Sub-agents only when **you** pick the model. Worktrees only at **15–30+** parallel agents. YOLO only behind **guardrails**."
+        },
+        {
+          "e": "🎯",
+          "q": "How does he route models from use, not Twitter?",
+          "a": "**Plan / new project: Fable.** Nasty bug: **GPT 5.6 Soul**. Default chat: **Grok 4.6**. Frontend: **Kimi K3**. Build with Fable, review with Soul, fix the worst, push. Recursive Fable→GPT→Fable **invents imaginary bugs**."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "keyu-jin-china-economy-lex-fridman",
+  "sections": [
+    {
+      "title": "Mayor economy under centralization",
+      "items": [
+        {
+          "e": "🏛️",
+          "q": "What is the West's biggest misunderstanding about China's economy?",
+          "a": "\"The biggest misunderstanding is somehow that a group of people, or even just one person, **runs the entire Chinese economy**.\" Beneath political centralization sits the **mayor economy** — local prefects competing on GDP (and shifting yardsticks like environment). Keyu says it's \"more **decentralized** than the US's.\""
+        },
+        {
+          "e": "🐱",
+          "q": "Why did Deng-era reforms work when Soviet planning failed?",
+          "a": "Local officials were **incentivized to experiment** (SEZs, surplus retention, WTO 2001): success rolled out nationally, failure stayed contained — \"cat black or white\" pragmatism, not one leader's decree or a Soviet ministry model."
+        }
+      ]
+    },
+    {
+      "title": "Capitalism, socialism, and entrepreneurs",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "Is China communist or capitalist in practice?",
+          "a": "Economically **hyper-capitalist** (ferocious competition, replication over differentiation); socially **socialist-communal** (SOEs, state banks, common prosperity rhetoric). Private firms aren't uniformly suppressed — local governments help promising ones (**DeepSeek is private**)."
+        },
+        {
+          "e": "🌳",
+          "q": "What is the \"tallest tree\" rule for Chinese founders?",
+          "a": "\"The tallest tree gets the **most wind**.\" Jack Ma / Ant Group lesson: don't be colorful politically; **capital stays subordinate to politics**. Pros: speed and market feedback. Cons: weak bankruptcy/IP and \"evil competitors.\""
+        }
+      ]
+    },
+    {
+      "title": "Innovation and export controls",
+      "items": [
+        {
+          "e": "🔬",
+          "q": "How does China innovate differently from the US or Europe?",
+          "a": "**Innovate first, regulate after** (vs Europe's regulate-first). US leads **zero-to-one** breakthroughs; China leads **diffusion**, scale, and cost-cutting (DeepSeek, Xiaomi EVs)."
+        },
+        {
+          "e": "🔌",
+          "q": "Did US chip sanctions slow China down?",
+          "a": "Keyu argues they **backfired** as crisis innovation: Huawei/DeepSeek domestic capacity accelerated under a \"whole-of-nation\" Olympic-gold mentality. \"When the Chinese were comfortably importing chips… the whole industry **stalled for 20 years**.\" Comfort breeds complacency."
+        }
+      ]
+    },
+    {
+      "title": "Trade, tariffs, and deals",
+      "items": [
+        {
+          "e": "🚢",
+          "q": "How does China approach Trump-era tariffs?",
+          "a": "Principles: **equivalence, reciprocity, realism**. Red lines on mixing Hong Kong/Taiwan with trade; **face-saving** is essential. Tariffs hurt US, China, and the intermediate-goods chain — better to strengthen domestic competitiveness (1980s US-Japan semiconductor analogy)."
+        },
+        {
+          "e": "🤝",
+          "q": "What would a realistic US-China deal look like?",
+          "a": "**US goods purchases + market access + IP protection** — not forcing political model change. China prepared ~**5 years** for tariff rounds with calibrated assertiveness."
+        }
+      ]
+    },
+    {
+      "title": "Demographics and the collapse narrative",
+      "items": [
+        {
+          "e": "👶",
+          "q": "How did the one-child policy reshape the economy?",
+          "a": "It drove **high savings**, six-wallet housing, inverted family hierarchy, and gender education gains — but fertility is now **too low**. Aging is less catastrophic than **skill-gap mismatch**; post-1990 aging societies got richer via automation."
+        },
+        {
+          "e": "📉",
+          "q": "Why do \"China collapse\" predictions keep failing?",
+          "a": "\"**Collapse** is such a strong word\" — repeated ~**4–6 times** since the 1980s during the fastest growth. Expect **slowdown**, not collapse. Bottleneck: the **consumption gap**. Advice: \"Go dig deep and don't just go to **Beijing and Shanghai**.\""
+        }
+      ]
+    }
+  ]
+}

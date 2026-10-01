@@ -1,0 +1,65 @@
+{
+  "slug": "diets-impact-health-christopher-gardner-huberman",
+  "sections": [
+    {
+      "title": "Food quality over tribalism",
+      "items": [
+        {
+          "e": "🥗",
+          "q": "Is there one best diet for human health?",
+          "a": "Gardner argues **there isn't one best diet** — humans are resilient (Tarahumara on corn/beans, Inuit on whale/blubber both thrived). The diet that fails is the **standard American diet** built on ultra-processed, hyper-palatable food. Shared basics: cut processed food, prioritize fiber, consider low-sugar fermented foods, and fix the **food supply**, not just labels."
+        },
+        {
+          "e": "🏭",
+          "q": "Why doesn't banning all cosmetic additives fix the grocery aisle?",
+          "a": "NOVA notes **150+ cosmetic additive molecules** may add harm beyond macros, but isolating single dyes in human RCTs is nearly impossible. A blanket ban would remove **~60% of grocery items** without replacements — cruel for time-poor families. The policy lever Gardner favors is **industry reformulation** (US vs Europe same brands, different formulas), not consumer label literacy alone."
+        }
+      ]
+    },
+    {
+      "title": "DIETFITS and equipoise",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "What did DIETFITS find when low-carb and low-fat were both made healthy?",
+          "a": "**600 people, 1 year**, healthy low-carb vs healthy low-fat (no added sugar/refined grain in either arm): **no average weight-loss difference**, but huge within-group variance (**–60 to +20 lb**). Insulin-resistance and a **3-SNP genotype** did not predict who lost more. Kick-ass diet A vs crappy diet B is what creates nutrition \"contradictions.\""
+        },
+        {
+          "e": "🥑",
+          "q": "What does Gardner mean by whole-food plant-based?",
+          "a": "His synthesis is a **mostly-plants pattern** that can still include **10–30% animal products** — not synonymous with vegan. Recent popular usage of \"plant-based\" as vegan is polarizing and not what he intends."
+        }
+      ]
+    },
+    {
+      "title": "Protein myths",
+      "items": [
+        {
+          "e": "💪",
+          "q": "Are popular protein targets much higher than what people need?",
+          "a": "Huberman cites ~**1 g/lb lean mass**; Gardner notes the RDA **0.8 g/kg** is already **2 SD above** nitrogen-balance average, and Americans already get ~**1.2 g/kg** from food. There is **no storage depot for protein** — excess is deaminated toward glucose. Plants contain **all 20 amino acids**; complementarity myths matter mainly at extreme low intake."
+        }
+      ]
+    },
+    {
+      "title": "Twins, fermented foods, and systems",
+      "items": [
+        {
+          "e": "🧬",
+          "q": "What did Gardner's twin vegan-vs-omnivore study show?",
+          "a": "**22 pairs, 8 weeks** (fed 4 wk then cook-at-home): vegans saw **↓ LDL, ↓ fasting insulin**, slight weight loss; exploratory epigenetic clocks, telomeres, and microbiome favored vegan. Documentary DEXA lean-mass loss was **n=4 pairs**, not in the JAMA paper. Pattern trials must differ in fiber, B12, saturated fat, etc."
+        },
+        {
+          "e": "🦠",
+          "q": "How do fermented foods compare to fiber for inflammation?",
+          "a": "**6 servings/day** of low-sugar fermented food for **10 weeks** raised microbiome diversity and dropped **20 of 90** inflammatory markers. The high-fiber arm showed **no average diversity gain**; in people with **low baseline diversity**, fiber can worsen inflammation (exploratory **n=18**)."
+        },
+        {
+          "e": "🏫",
+          "q": "Where does Gardner think food-system change scales?",
+          "a": "Through **chefs in schools** (Eat REAL, ~**1M kids**), CIA Menus of Change (**24 principles**), the **protein flip**, mid-size diverse farms, and taste-first institutional menus — because **50%+ of US meals** are eaten outside the home."
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 313,
+  "videoCount": 314,
   "insightsCount": 304,
-  "conceptCount": 2856,
+  "conceptCount": 2861,
   "sections": [
     {
       "id": "architecture",
@@ -57,7 +57,7 @@
     "build": 42,
     "human": 17,
     "performance": 51,
-    "mind": 36,
+    "mind": 37,
     "relationships": 48,
     "other": 35
   },
@@ -583,9 +583,19 @@
           "slug": "over-thinking-procrastination",
           "title": "Over-Thinking and Procrastination",
           "e": "🌀"
+        },
+        {
+          "slug": "show-yourself",
+          "title": "Show Yourself",
+          "e": "📣"
+        },
+        {
+          "slug": "theater-mistake-rule",
+          "title": "Theater Mistake Rule",
+          "e": "🎭"
         }
       ],
-      "conceptCount": 3
+      "conceptCount": 5
     },
     {
       "slug": "how-to-build-codex-skills-better-than-99-percent",
@@ -997,7 +1007,7 @@
         "Blissipline",
         "Destiny Is a Highway",
         "Quality of Life Before the Job",
-        "six questions for a good meditation"
+        "Six Questions for a Good Meditation"
       ],
       "summary": "vishen-lakhiani on jay-shetty's channel (~36 min, published 22 Sept 2026, auto English) argues meditation is a tool for life, not a skill you get good at sitting still. He grew up in a dogmatic Hindu family in Malaysia, quit the religion at 19 after a Gandhi line about being Hindu, Muslim, Christian, Jew, and Buddhist, and got hooked on American spirituality because jose-silva turned it into steps: drop to alpha, drop to theta, eye position, reprogram, manifest, heal. Silva and Osho both call that active meditation. Passive sit-and-breathe still has a use. Active meditation turns the problem into a project.\n\nThe house metaphor is the split. A coffee maker runs every morning. An electric drill comes out when there is a hole. The Silva method on mindvalley is the drill (healing imagery he attributes to O. Carl Simonton, a migraine, a business goal). The six-phase practice he built is the coffee maker: daily, even when life is already good, so work, connection, and mood start from a peak state. Emily Fletcher's line, which he borrows: the point is not to get good at meditation. It is to get good at life. He says Silicon Valley promotions, two jobs, and a VP title at 26 came from the method, and a quarter-million-dollar degree did not. He quit to teach it.\n\nThe six phases, about two minutes each: (1) compassion, a circle from someone you love out to the world, via Zen and HeartMath; (2) gratitude, including what you love about yourself; (3) forgiveness, an eight-step protocol for your own guilt and for other people; (4) a future vision that states the what and the why and parks the how, the when, and the who; (5) commanding a perfect day; (6) a blessing, the sense that something larger has your back. Compassion comes first so self-love in phases two and three does not become narcissism. A good session is not a feeling on the cushion. At night he asks six questions, one per phase.",
       "key_insights": [
@@ -1029,9 +1039,23 @@
         {
           "slug": "quality-of-life-before-the-job",
           "title": "Quality of Life Before the Job"
+        },
+        {
+          "slug": "six-questions-for-a-good-meditation",
+          "title": "Six Questions for a Good Meditation"
+        },
+        {
+          "slug": "happiness-as-present-contentment",
+          "title": "Happiness as Present Contentment",
+          "e": "😌"
+        },
+        {
+          "slug": "if-why-strong-enough-how-reveals",
+          "title": "If Why Strong Enough How Reveals",
+          "e": "🎯"
         }
       ],
-      "conceptCount": 5
+      "conceptCount": 8
     },
     {
       "slug": "modern-life-is-a-disease",
@@ -1656,6 +1680,49 @@
         }
       ],
       "conceptCount": 6
+    },
+    {
+      "slug": "what-every-parent-should-fix-daniel-amen",
+      "title": "What Every Parent Should Fix While They Still Can (According to Science) | Dr. Daniel Amen",
+      "video_id": "1PNqoHNJwew",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=1PNqoHNJwew",
+      "duration_min": 35,
+      "creator": "daniel-amen",
+      "updated": "2026-10-01",
+      "created": "2026-10-01",
+      "section": "mind",
+      "tags": [
+        "parenting",
+        "self-esteem",
+        "psychology",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "parenting",
+        "self esteem",
+        "psychology",
+        "jay shetty",
+        "daniel amen",
+        "seven out of ten first ask",
+        "rescue robs agency",
+        "special time no commands",
+        "praise the work not the trait",
+        "respect gates the extra"
+      ],
+      "summary": "daniel-amen on the jay-shetty podcast (~35 min) argues that the parent goal comes before the child goal. Mentally strong kids are modeled, not downloaded. Amen Clinics' first value, he says, is authenticity. His own map: third of seven, dad gone, bitterness from absence, so presence is the target. Attachment is the neuroscience he cites against later mental health problems. Solving every problem is the wrong kind of bonding. It buys the parent self-esteem and leaves the child entitled.\n\nThe test and the homework. Ask how often, out of ten, the child does the thing the first time without a fight. He puts healthy kids at seven. The kids in his office are zero to three. They cannot explain it because it is brain-driven, not a will speech. Ignore the miss, or repeat the ask, and you teach the miss. The brain is lazy. jay-shetty asks whether first-time obedience kills free thought. Amen points at Love and Logic, the book he co-wrote with Charles Fay. His wife Tana told second-grader Chloe she had already done second grade. Forgot homework, sweater, or lunch: nobody brings it. Chloe stormed off and came back in twenty minutes. Amen's claim: she graduates Chapman in business because she could not push the problem back onto her mother. Start around four to six, with bumper guards. Mistakes while the bill is still small.\n\nSelf-esteem and the bank account. He says a 70-year Harvard follow of inner-city Boston kids found one correlate of self-esteem: the child worked. Paper route, chore, job. Affluent homes that do everything set up later struggle. Treat that as his telling of the study. The famous Harvard adult-development work is usually cited for relationships, and this clip does not name the paper. Shetty's own paper round at 14 is the agreeing story. Watching a child be uncomfortable is the hard part. The long game is independent, competent, strong. His 1972 vote for McGovern was a way to spite a father he was not bonded to. Influence needs the relationship.\n\nTwenty minutes, then words. Special time: twenty minutes a day, something the child wants that fits in twenty minutes, no commands, no questions, no directions. His agent Carl's two-year-old grabbed his leg after three weeks. Then shut up. Active listening repeats the line and the feeling. \"I want blue hair\" is not a fight opener. \"You want blue hair\" lets the real sentence out (\"I don't fit in\"). He still says no at the end if the look will sort the child into the wrong crowd. Games (cards, Chutes and Ladders, a one-sentence-each story) open kids who freeze at \"tell me your problem.\"\n\nStrong, not smart. A strong child still has automatic negative thoughts and questions them. He will not say \"mentally weak.\" Vulnerable kids mind-read, fortune-tell, and stare at what is wrong. Blame is the worst ant: it makes a victim. His kids' book is *Captain Snout and the Superpower Questions*. Special time stays twenty minutes, not a second life of soccer, dance, and music. Schools want the child to do the homework. Prestige, he says, comes from a French word for deceit. He went to Orange Coast, a community college, and is in its hall of fame. Never tell a child they are smart. Say they work hard. Smart plus a hard problem drops self-esteem. Effort plus a hard problem raises the work. Strong people ask questions. He learned that in the army, including asking a second person after a no.\n\nPhrases that steal the job. \"It'll be okay\" and \"I'll take care of it\" send the parent to the principal for an ordinary peer problem. Dangerous bullying and abuse are the exception. Otherwise: how do you think you can handle that? \"I'm rooting for you,\" not \"that's a dumb decision,\" and not the story of what you did at their age. A TikTok line he says hit about 7 million views: I don't do nice things for people who do not treat me with respect. You still feed them. You do not add the store trip. Families need rules. \"Do what mom and dad say the first time\" is his favorite, because repeating an ask five times raises the chance you will hurt the child. Offer a choice, then follow through. Empty threats teach them that only anger works. After-dinner dishes can be a rhythm, not a lecture. Notice what you like. By 14, friends replace a parent who was never there.\n\nLove is the boundary. Kids do not sit still for adult meditation. Myelin finishes toward the front of the brain around 25. A myelinated neuron, he says, runs 10 to 100 times faster. Expecting adult behavior is the mistake. From about four, a slow breath is a tool. Love is not the homework delivery. Love is the phone in another room, the no to a ten-year-old's phone, and firm plus kind at the same time. The clip ends on a channel subscribe bumper.",
+      "key_insights": [
+        "The parent goal is first. What kind of parent, then what kind of child. Model it.",
+        "Seven out of ten, first time. Below that, repeating or ignoring the miss trains it.",
+        "Do not deliver the forgotten thing. Homework, sweater, lunch. Affordable consequences build agency.",
+        "Twenty minutes with no agenda. Their activity. No commands, questions, or directions. Then repeat what you heard.",
+        "Praise the work. \"You work hard,\" not \"you're smart.\"",
+        "Respect gates the extra. Feed them. Skip the nice trip when they treat you badly. Follow through once.",
+        "Love is the long game. The rescue feels like love and blocks the strength."
+      ],
+      "has_insights": false,
+      "concepts": [],
+      "conceptCount": 0
     },
     {
       "slug": "why-talking-to-people-feels-harder-now",

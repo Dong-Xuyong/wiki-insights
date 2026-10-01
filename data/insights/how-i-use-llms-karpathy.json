@@ -1,0 +1,85 @@
+{
+  "slug": "how-i-use-llms-karpathy",
+  "sections": [
+    {
+      "title": "Talking to a zip file",
+      "items": [
+        {
+          "e": "🗜️",
+          "q": "What is Karpathy's mental model of ChatGPT?",
+          "a": "A **lossy ~1 TB zip file** (~1 trillion parameters) of the internet, cutoff months-to-a-year old, plus a post-trained 'smiley face.' By default: **no calculator, no Python, no web.**"
+        },
+        {
+          "e": "🧵",
+          "q": "What are the chat bubbles actually doing?",
+          "a": "You and the model **co-author one 1-D token stream**. Tiktokenizer: haiku prompt **15 tokens**, reply **19**, two bubbles with special tokens **42**. New Chat wipes working memory."
+        }
+      ]
+    },
+    {
+      "title": "Pick the model, then the tool",
+      "items": [
+        {
+          "e": "🎚️",
+          "q": "Why does he say 'know which model you are using'?",
+          "a": "Incognito ChatGPT **hides the model** (likely 4o-mini). Plus: **80 × GPT-4o / 3 hours**. Pro $200: o1 Pro + Deep Research. Don't ask Grok 2 if Grok 3 exists."
+        },
+        {
+          "e": "🧠",
+          "q": "When do thinking models earn the extra minute?",
+          "a": "**Hard math/code only.** Try fast non-thinking first. GPT-4o missed his gradient bug; **o1 Pro thought ~1 minute** and found the param mismatch. Travel advice does not need a think bubble."
+        },
+        {
+          "e": "🗳️",
+          "q": "What is the LLM Council?",
+          "a": "He **pays several labs** and asks all of them the same question — vacation, the gradient bug, anything he will not trust from one zip file."
+        }
+      ]
+    },
+    {
+      "title": "Search, research, files, code",
+      "items": [
+        {
+          "e": "🔎",
+          "q": "What does search actually do under the hood?",
+          "a": "The model emits a **search token**, the app fetches pages, **thousands of tokens** land in the window, then it answers with citations. Perplexity was his habit; Claude had **no search** at filming."
+        },
+        {
+          "e": "📑",
+          "q": "How should you treat Deep Research?",
+          "a": "As a **first draft with citations**, not truth. Ca-AKG: 5 min / 27 sources. His US LLM-labs table **dropped xAI** and wrongly listed Hugging Face."
+        },
+        {
+          "e": "📖",
+          "q": "How does he read books with an LLM?",
+          "a": "**Don't read books alone.** Paste the **chapter you are on**. Claude 'knows' *Wealth of Nations* vaguely but **not Book I ch.3**."
+        },
+        {
+          "e": "🐍",
+          "q": "What is Advanced Data Analysis actually like?",
+          "a": "A **junior, absent-minded analyst**. It plots OpenAI valuations, then silently maps 2015 N/A → $100M and claims $1.7T vs a printed ~$20T. Read the code."
+        }
+      ]
+    },
+    {
+      "title": "Vibe coding, voice, GPTs",
+      "items": [
+        {
+          "e": "🎹",
+          "q": "Where does 'vibe coding' get minted?",
+          "a": "In **Cursor Composer** with Claude 3.7: empty project → React tic-tac-toe from ~five sentences. 'Giving control to Composer and **hoping that it works**.' He still confirms shell commands."
+        },
+        {
+          "e": "🎙️",
+          "q": "What is Advanced Voice vs the mic button?",
+          "a": "Mic = **fake audio** (STT → text). Advanced Voice = **true audio** (~100k spectrogram chunks, no text in the loop). Desktop: Super Whisper F5. Phone: ~80% speech."
+        },
+        {
+          "e": "🧩",
+          "q": "What is a custom GPT?",
+          "a": "**Not a new model** — a saved few-shot prompt. Korean Anki extractor, translator, screenshot OCR. 'There's nothing new and special going on.'"
+        }
+      ]
+    }
+  ]
+}

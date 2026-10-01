@@ -1,0 +1,50 @@
+{
+  "slug": "an-ex-openai-researcher-just-deleted-language-from-the-llm",
+  "sections": [
+    {
+      "title": "They deleted the talking",
+      "items": [
+        {
+          "e": "🤐",
+          "q": "What did Jev actually remove?",
+          "a": "**Language.** No chat, no code, no essay, no \"you're absolutely right.\" A true/false for Fable or Astra can wander for **4,000 tokens** and cost **11 cents**. Jev has to come back as a **choice, a score, or a null**."
+        },
+        {
+          "e": "🏷️",
+          "q": "Who shipped it, and for how much?",
+          "a": "**Diogo Almeida**, ex-OpenAI instruction-following, two years in stealth. **TypeSafe**, **$40 million**. Host speed: **200× faster**, then **400×** and later **440×** cheaper, output tokens free. Those are his lines."
+        }
+      ]
+    },
+    {
+      "title": "The type is not the truth",
+      "items": [
+        {
+          "e": "🎲",
+          "q": "If a type error is impossible, why can it still be wrong?",
+          "a": "The **shape is guaranteed**. The **label is not**. Same question, same context, **different answers**. A null on \"is this a horse?\" can still ban the wrong account."
+        },
+        {
+          "e": "🎯",
+          "q": "What is a 60% from Jev supposed to mean?",
+          "a": "**RLCD**: a hit rate, not a vibe. 60% means right about **60% of the time**. Chat models are trained to sound sure. The Anchorman line is the joke on top of that claim."
+        }
+      ]
+    },
+    {
+      "title": "The weights might not be the product",
+      "items": [
+        {
+          "e": "🧊",
+          "q": "What is OpenJev?",
+          "a": "A frozen **Qwen-4B**, **one forward pass**, no new training, a **3090**, plus a **browser demo**. It copies the interface. The CEO has not published the architecture. A paper is maybe."
+        },
+        {
+          "e": "🕹️",
+          "q": "Where does this sit next to the Balatro stream?",
+          "a": "This clip is the **pitch and the objection**. Primeagen's stream is the **loop**: typed questions, dirty state, a behavior tree. Menu clicks there. This video never plays the game."
+        }
+      ]
+    }
+  ]
+}

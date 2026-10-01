@@ -1,0 +1,45 @@
+{
+  "slug": "did-openai-actually-build-agi-gpt-6-astra-first-look",
+  "sections": [
+    {
+      "title": "Three labs, three days",
+      "items": [
+        {
+          "e": "📰",
+          "q": "Is Astra one AGI event, or a news dump?",
+          "a": "A **satirical recap** of the first week of Sept 2026: **Fable/Mythos 5.1 → Muse Spark 1.3 → GPT-6 Astra** in three days. Treat claims as **host-reported**. The story is cadence and rollout chaos as much as capability."
+        },
+        {
+          "e": "🧬",
+          "q": "What is actually interesting about Fable 5.1 vs Mythos?",
+          "a": "Same weights: **Fable is public**, Mythos is **Glass Wing / you can't use it**. The case study: Millennium crash dump → vendor binary → **assembly**. Protein-binder hit rate cited **~10% → ~50%** on the gated twin."
+        }
+      ]
+    },
+    {
+      "title": "Price vs computer use",
+      "items": [
+        {
+          "e": "🏷️",
+          "q": "How is Meta competing if not on benches?",
+          "a": "Muse Spark **contributor tier $0.10 / $0.20** vs standard **$1.25 / $4.25** — a huge discount if Meta **trains on your traffic**. Alexander Wang: a **double-digit** share of developers pick the cheap meter."
+        },
+        {
+          "e": "🖱️",
+          "q": "What does OpenAI actually pitch Astra as?",
+          "a": "**Computer-use agents** (forms, KiCad, Blender): OSWorld **73% in ~40 min** vs Soul **65% in ~75 min**. First OpenAI model over the **critical cyber threshold** (autonomous zero-days). List price matches Fable: **$10 / $50**."
+        }
+      ]
+    },
+    {
+      "title": "Vendor theater vs independent score",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "Why does the host say something doesn't add up?",
+          "a": "Vendor numbers: Exploit Bench **100%**, ARC-AGI 3 **99%**. Artificial Analysis Independent Intelligence Index: **61** — **tied with GPT 5.6 Soul, 5 points behind Fable 5.1**. That is the **vendor-vs-independent** gap."
+        }
+      ]
+    }
+  ]
+}

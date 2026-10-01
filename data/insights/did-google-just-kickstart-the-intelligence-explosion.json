@@ -1,0 +1,40 @@
+{
+  "slug": "did-google-just-kickstart-the-intelligence-explosion",
+  "sections": [
+    {
+      "title": "Two papers, one week",
+      "items": [
+        {
+          "e": "📜",
+          "q": "What two RSI papers did Code Report recap?",
+          "a": "*The Last AI Built by Humans* (ByteDance / Tsinghua et al.) maps five stages ending at the AI rewriting its own improver. *Dream-RSI* (Google / DeepMind / Maryland) claims better discoveries **without touching the model** by dreaming new search policies over old logs."
+        }
+      ]
+    },
+    {
+      "title": "What actually changes",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is an exploration policy in the AlphaEvolve loop?",
+          "a": "At each propose / score / retry step: keep going on a slightly better attempt, restart, or treat a crash as idea-fail vs implementation-fail. Until this paper that knob was **hardcoded**."
+        },
+        {
+          "e": "💭",
+          "q": "How does Dream-RSI test a new policy for free?",
+          "a": "Cache every attempt (code, score, crash). Replay the disk log as a simulator. Score thousands of policies. Keep the one that would have hit the best result in the fewest tries. Deploy it on the next live run."
+        }
+      ]
+    },
+    {
+      "title": "Not Good's RSI",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "Why is this not recursive self-improvement?",
+          "a": "The model writing each new policy is still the **same Gemini**. It finds things it could already write, just faster. Weights move only when a **human** trains the next model on the swarm's finds."
+        }
+      ]
+    }
+  ]
+}

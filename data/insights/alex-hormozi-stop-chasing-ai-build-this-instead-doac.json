@@ -1,0 +1,80 @@
+{
+  "slug": "alex-hormozi-stop-chasing-ai-build-this-instead-doac",
+  "sections": [
+    {
+      "title": "Where AI actually helps",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "Should founders chase AI products or use AI for something else?",
+          "a": "Hormozi is an AI advocate who says most founders use it wrong: building products the models will swallow, **automating non-constraints** (e.g. $350K to replace $11K/mo VAs when the business is demand-constrained), and **outsourcing hard thinking**. Use AI for **execution speed**; compare Claude/OpenAI on the same decision, then **own the call**."
+        },
+        {
+          "e": "🧠",
+          "q": "Why is delegating hard judgment to models so dangerous?",
+          "a": "\"Do not delegate the hardest thinking work you have, because you will just get so **weak so fast**.\" Outsourcing thinking causes **atrophy**. A simple filter for AI-maxing founders: **are you making more money?**"
+        }
+      ]
+    },
+    {
+      "title": "The content and product moat",
+      "items": [
+        {
+          "e": "🏔️",
+          "q": "What still wins when AI floods content supply?",
+          "a": "**Reality is the moat.** As AI floods supply against stagnant demand, **brand, reputation, live/IRL proof, and track record** beat polished generic output. Advertise the **customer outcome**, not \"we're an AI company.\""
+        },
+        {
+          "e": "🚌",
+          "q": "Why fix retention before pouring money into distribution?",
+          "a": "Two $3M businesses look the same until one must **replace all customers yearly** — a \"hole in the back of the bus.\" **Retention before distribution**; sticky revenue compounds when distribution arrives. Strong marketing **amplifies product flaws**."
+        }
+      ]
+    },
+    {
+      "title": "Foundation design by time horizon",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "Why isn't the fastest path to $10M the same as $100M?",
+          "a": "**Time-horizon foundation design**: the fastest path to $1M / $10M / $100M are **different builds** (block-tower exercise). \"The fastest way to build a $10 million business is not the fastest way to build a **$100 million business**.\""
+        },
+        {
+          "e": "💵",
+          "q": "What does \"starting\" actually look like?",
+          "a": "Concrete start: **LLC, bank, payments**, then ask a stranger for money — the **first-dollar identity shift**. Early fear is usually **specific judgment fear** (name the 1–2 people), not amorphous \"people.\""
+        }
+      ]
+    },
+    {
+      "title": "Pricing, demand, and pivots",
+      "items": [
+        {
+          "e": "📐",
+          "q": "How does Hormozi think about value and pricing?",
+          "a": "Value equation: **outcome × perceived likelihood / time delay × effort/sacrifice**. Use **Van Westendorp** four-question pricing before launch; in services, **price is a capability signal**. Price up when demand exceeds supply while still over-delivering."
+        },
+        {
+          "e": "🎯",
+          "q": "When should you pivot vs push through?",
+          "a": "**Thesis-invalidation pivot rule**: pivot when a **core assumption is disproven**; push when the thesis holds but progress is slow. Channel existing desire — \"We don't want to create demand. We want to **channel it**.\" Specialize after survival (~$1–3M), not before."
+        }
+      ]
+    },
+    {
+      "title": "Adversity and what business can't buy",
+      "items": [
+        {
+          "e": "⚔️",
+          "q": "How should you respond when adversity hits?",
+          "a": "Map **adversity-response vectors**: tolerance depth, fall depth, recovery speed, adaptation direction. \"My **emotional discomfort** is not an adequate reason to change what I'm doing.\" Reject performative grief — suffering intensity is **not proof of love**."
+        },
+        {
+          "e": "💍",
+          "q": "Does Hormozi sell entrepreneurship as a happiness path?",
+          "a": "No — he sells **quantitative business outcomes**, not happiness from success. Best financial decision he names: marrying **Leila Hormozi**."
+        }
+      ]
+    }
+  ]
+}

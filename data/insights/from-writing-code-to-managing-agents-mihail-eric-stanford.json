@@ -1,0 +1,65 @@
+{
+  "slug": "from-writing-code-to-managing-agents-mihail-eric-stanford",
+  "sections": [
+    {
+      "title": "The AI-native engineer",
+      "items": [
+        {
+          "e": "🧑‍💻",
+          "q": "What defines an AI-native engineer?",
+          "a": "Strong **CS fundamentals** (programming, system design, algorithms) **plus fluent agentic workflows** — not vibe-coding alone. A single developer increasingly becomes a **manager of agents**."
+        },
+        {
+          "e": "🎮",
+          "q": "Why is multi-agent orchestration the \"last boss\"?",
+          "a": "Handling multiple agents well puts you in the **top ~0.1% of users today**. More agents does **not** mean better systems — undirected sprawl can make things worse."
+        }
+      ]
+    },
+    {
+      "title": "Scale agents piecemeal",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "Should you run 10 agents on day one like Boris?",
+          "a": "No — that's the **wrong outcome to emphasize**. Master **one agent workflow**, then add isolated tasks (logo fix, header copy) **one agent at a time**."
+        },
+        {
+          "e": "🔄",
+          "q": "What human-management skill transfers to agents?",
+          "a": "**Context switching**. Agents are eager interns — you watch terminals and jump between stuck tasks, the same skill as managing human developers with **isolated task boundaries**."
+        }
+      ]
+    },
+    {
+      "title": "Agent-friendly codebases",
+      "items": [
+        {
+          "e": "📜",
+          "q": "What do agents need to operate safely?",
+          "a": "Agents operate on **explicitly defined contracts**. **Tests = contracts** agents can verify; no tests = no contracts. Stale READMEs and inconsistent design patterns confuse agents the way they confuse humans."
+        },
+        {
+          "e": "💥",
+          "q": "Why do agent errors get so bad so fast?",
+          "a": "**Error compounding**: one misunderstanding in step 1 gets **doubled down in step 2**. The foundation must be airtight before you delegate."
+        }
+      ]
+    },
+    {
+      "title": "Hiring storm and taste",
+      "items": [
+        {
+          "e": "📉",
+          "q": "Why is the junior market so brutal right now?",
+          "a": "Three forces: post-COVID **over-hiring then layoffs**, CS grads **~2–3×** since Eric's cohort, and employers preferring fewer **AI-native** hires. Anecdote: Berkeley grad, **~1,000 apps → ~2 replies**."
+        },
+        {
+          "e": "🧽",
+          "q": "Can juniors still outpace seniors?",
+          "a": "Yes — **sponge-like adoption** vs senior stubbornness, plus \"good naivety\" for hard problems. **Software taste** is practiced via extra-mile work; even Anthropic **rewrites Claude weekly with Claude** — experiment personally."
+        }
+      ]
+    }
+  ]
+}

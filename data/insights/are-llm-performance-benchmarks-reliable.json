@@ -1,0 +1,40 @@
+{
+  "slug": "are-llm-performance-benchmarks-reliable",
+  "sections": [
+    {
+      "title": "The client",
+      "items": [
+        {
+          "e": "📉",
+          "q": "They asked for 200 QPS. What arrived?",
+          "a": "38 on a small machine. Some single-process harnesses still topped out near 170 on a bigger one. The table still said the run happened. Ashok blames Python's GIL."
+        },
+        {
+          "e": "⏱️",
+          "q": "Where did 58 seconds of latency come from?",
+          "a": "The benchmark client, thrashing while it collected streaming tokens. A 1,000 QPS run against a simulated server with no serving delay stayed flat once the client could scale out."
+        }
+      ]
+    },
+    {
+      "title": "The job",
+      "items": [
+        {
+          "e": "🌡️",
+          "q": "Why did one harness look 20% faster?",
+          "a": "Temperature was 0. Their real workload sits near 0.7. The same ChatGPT dataset also produced different input-token counts because two tools sampled and truncated differently."
+        }
+      ]
+    },
+    {
+      "title": "The check",
+      "items": [
+        {
+          "e": "📐",
+          "q": "What does InferencePerf add beside server metrics?",
+          "a": "Planned send time versus when the worker actually sent. They say it held 5,000 QPS and reported that it held. Prism then shows the sweep, not one QPS cell."
+        }
+      ]
+    }
+  ]
+}
