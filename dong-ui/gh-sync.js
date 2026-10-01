@@ -67,6 +67,12 @@
 
   function save(appId, getPayload, applyPayload) {
     var cfg;
+    if (
+      !global.confirm("Save " + appId + " progress to GitHub?") ||
+      !global.confirm("Are you sure? This updates the copy your other devices load.")
+    ) {
+      return Promise.reject(new Error("Save cancelled"));
+    }
     try {
       cfg = getConfig();
     } catch (e) {
