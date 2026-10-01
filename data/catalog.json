@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 296,
   "insightsCount": 289,
-  "conceptCount": 2767,
+  "conceptCount": 2769,
   "sections": [
     {
       "id": "architecture",
@@ -260,6 +260,11 @@
           "e": "💰"
         },
         {
+          "slug": "tax-advantaged-investing-accounts",
+          "title": "Tax-Advantaged Investing Accounts",
+          "e": "🏦"
+        },
+        {
           "slug": "income-to-wealth-investing-ladder",
           "title": "Income-to-Wealth Investing Ladder",
           "e": "💰"
@@ -275,6 +280,11 @@
           "e": "📉"
         },
         {
+          "slug": "index-funds-investing-solved",
+          "title": "Index Funds — Investing Has Been Solved",
+          "e": "📦"
+        },
+        {
           "slug": "cap-weight-index-bet",
           "title": "Cap-Weight Index Bet"
         },
@@ -287,7 +297,7 @@
           "title": "Three Reasons to Sell"
         }
       ],
-      "conceptCount": 7
+      "conceptCount": 9
     },
     {
       "slug": "i-tested-chatgpt-dot-vs-grokbot",
