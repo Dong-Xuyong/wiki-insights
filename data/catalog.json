@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 334,
-  "insightsCount": 321,
-  "conceptCount": 2922,
+  "videoCount": 345,
+  "insightsCount": 332,
+  "conceptCount": 2937,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,478 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 64,
-    "systems": 21,
-    "build": 45,
+    "agents": 66,
+    "systems": 22,
+    "build": 47,
     "human": 19,
     "performance": 52,
-    "mind": 38,
-    "relationships": 53,
-    "other": 39
+    "mind": 39,
+    "relationships": 54,
+    "other": 43
   },
   "videos": [
+    {
+      "slug": "3-speaking-habits-stop-interrupting",
+      "title": "3 Speaking Habits That Stop People From Interrupting You",
+      "video_id": "1rldib3f5yA",
+      "platform": "youtube",
+      "url": "https://youtu.be/1rldib3f5yA",
+      "duration_min": 8,
+      "creator": "vinh-giang",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "speaking"
+      ],
+      "keywords": [
+        "communication",
+        "speaking",
+        "vinh giang",
+        "Pause Then Reclaim"
+      ],
+      "summary": "vinh-giang (~8 min, auto English). People interrupt you, he says, because low vocal presence and low visual presence make you look finished. He gives the benefit of the doubt: most interrupters are trying to add a thought they fear they will forget. The response starts with kindness, then a sequence.\n\nFirst, pause. If they cut in, look at them, hold about 3–4 seconds, and stay paused after they finish, calm, so they feel the interruption. Then acknowledge and take the turn back with less melody: thank them, ask to finish the thought, and say you will hand the conversation over. Melody, in his telling, softens the boundary. Less melody still keeps kindness.\n\nPrevention is standing, plus stronger voice and body. A quiet person who stays seated is easy to cut off. A standing speaker with presence is harder, and many people will not try. If a strong presence still does not stop a repeat interrupter, leave the room and say it one-on-one: you know they did not mean disrespect, it undermined your credibility with the team, and it hurt. He prefers that to telling other colleagues, which he says spreads the complaint around the office. The close is a pitch for a free two-hour training on freezing when asked a question.",
+      "key_insights": [
+        "The pause is the first move. The sentence comes after they have felt it.",
+        "Less melody is how he reclaims the floor without a joke voice.",
+        "Standing is the prevention. The private conversation is the bonus step for the person who still cuts in.",
+        "Complaining to the rest of the team is the move he tells you not to make."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "pause-then-reclaim",
+          "title": "Pause Then Reclaim",
+          "e": "⏸️"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "5-money-rules-nobody-taught-you",
+      "title": "5 Money Rules Nobody Taught You in School | Money & Business Expert Codie Sanchez",
+      "video_id": "8kAW1LyaAUI",
+      "platform": "youtube",
+      "url": "https://youtu.be/8kAW1LyaAUI",
+      "duration_min": 58,
+      "creator": "codie-sanchez",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "build",
+      "tags": [
+        "money",
+        "business",
+        "podcast"
+      ],
+      "keywords": [
+        "money",
+        "business",
+        "podcast",
+        "codie sanchez",
+        "Inherited Money Rules"
+      ],
+      "summary": "jay-shetty with codie-sanchez (~58 min, auto English). The inherited rule she attacks first is \"buy a house.\" She respects dave-ramsey and says that advice fit his lifetime: wages up about 2×, housing up about 9×, so the old normal is not this generation's normal. The counter-rule is Buffett's: be greedy when others are fearful. Austin housing, on her figure, is down about 30% since she bought a year ago. She cites Rothschild's \"buy when there's blood in the streets,\" and an NFT that fell from $60 million to $19,000 as the warning about buying the expensive version of an asset.\n\nLiteracy, before more money. A test she offers: know why a paid-off credit card beats a debit card. Cards are bad if you carry interest or buy wants. Debit, she says, is worse on the protections and the record. The richest people use debt on assets. You suffer from not knowing the rules, not only from not having cash.\n\nDo not quit to go all in. She calls that survivorship bias and cites about 90% of startups failing over five years. A side income, on the study she cites, meant about a 33% higher chance the startup succeeded, because decisions are better outside fight-or-flight. Hard work is not wealth: the person who runs her laundromat does not make what Jeff Bezos makes in a factory walk. \"Passive income\" as money for doing nothing is a lie. The tax category is real. The promise is not. Even a simple machine breaks.\n\nShe walks a staged path and names stage four as buying the business outright or raising for your own. For a beginner she points at Vanguard, no fees on their platform in her telling, a low-cost fund that does not trade a lot, the S&P 500 inside a diversified portfolio. She says avoid Robinhood and avoid single stocks until you know what you are doing. She worked at Vanguard. Captions smear several numbers. The 2× / 9× and the Austin 30% are her comparisons, not a housing index printout.",
+      "key_insights": [
+        "A bad tape is when assets go on sale. The house-as-default rule is the one she says expired.",
+        "Paid-off credit builds the record. Debit does not do that job.",
+        "Keep the paycheck while you test. She cites 33% better odds with an income, and 90% failure over five years without promising those are the same study.",
+        "Low-cost index funds at Vanguard are the beginner allocation. Ownership of a business is the later stage."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "inherited-money-rules",
+          "title": "Inherited Money Rules",
+          "e": "🏠"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "computer-use-is-solved",
+      "title": "Computer Use is Solved?",
+      "video_id": "BHPDsGVciDk",
+      "platform": "youtube",
+      "url": "https://youtu.be/BHPDsGVciDk",
+      "duration_min": 13,
+      "creator": "the-primeagen",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "jev",
+        "programming"
+      ],
+      "keywords": [
+        "agents",
+        "jev",
+        "programming",
+        "the primeagen",
+        "System One Model",
+        "Computer Use as Classification"
+      ],
+      "summary": "the-primeagen (~13 min, auto English). The cold open is an AI drawing boxes and arrows in real time, plus Mario and Doom. It is not a chatbot. It will not write quicksort. It is a decision bot, his System 1: the ball is coming at your face and you dodge, you do not narrate the physics. He reads the Jev manifesto line \"composable AI, build prod not God,\" and a roughly 190× speed claim, and says he does not know which model that comparison uses.\n\nYou pass a state and a set of questions. They run in parallel. Three shapes on the demo: choice (one option, with a confidence), score, and what he calls a nual, a 0–1 he ties to a Bernoulli. The joke state is an accident at a weightlifting meet. The useful one is Super Smash Bros. chat: is this message appropriate, and does it help Donkey Kong? At a live event, about 2,000 people sent moves for four characters. A slow agent took about a minute and a half to strip bad messages. He wanted that judgment as each message arrived so the rest of the pipeline was not idle.\n\nBalatro, live: it commits to a plan such as pair scaling, takes matching jokers, and he says it wins about 30% of runs. He is annoyed when it skips a joker and still shows a hand that clears. Doom is the same pattern as several questions at once: dodge or stand still, fire or hold. On a remote QEMU screenshot loop he is spinning up, he bets Jev plus a weak model could go about 100 times faster, and he would also use it to drop irrelevant context before a normal agent sees it.\n\nPricing on stream is input tokens only. One Smash Bros. question was 345 input tokens, which he figures is about 3 million calls for $44. An \"if this email feels urgent\" branch is about 100 ms and $42 per billion tokens. The name is Jevons: cheaper decisions mean you run more of them. Forms and Playwright-style checks, he says, are classification, and he shows Jev driving a UI. Sponsor block is WorkOS. Captions say Jeff for Jev. He mentions Soul 6 and Opus 5.5 shipping the same day and says he has not tried them.",
+      "key_insights": [
+        "Computer use, on this tape, is a pile of yes/no and multiple-choice calls, not a chat transcript.",
+        "Parallel questions are how the Smash Bros. filter and the Doom loop stay real-time.",
+        "He prices one question at 345 input tokens and about 3 million of those for $44.",
+        "A weak model can still act if Jev has already thrown away the irrelevant state."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "system-one-model",
+          "title": "System One Model",
+          "e": "⚡"
+        },
+        {
+          "slug": "computer-use-as-classification",
+          "title": "Computer Use as Classification",
+          "e": "🖱️"
+        }
+      ],
+      "conceptCount": 2
+    },
+    {
+      "slug": "how-ai-unleashed-not-replaced-my-creativity",
+      "title": "How AI Unleashed (Not Replaced) My Creativity | Kelly A. Boesch | TED",
+      "video_id": "Hd8npxrnpuo",
+      "platform": "youtube",
+      "url": "https://youtu.be/Hd8npxrnpuo",
+      "duration_min": 8,
+      "creator": "kelly-boesch",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "other",
+      "tags": [
+        "ai",
+        "art",
+        "ted"
+      ],
+      "keywords": [
+        "ai",
+        "art",
+        "ted",
+        "kelly boesch",
+        "Strange as the Style"
+      ],
+      "summary": "ted talk by visual artist kelly-boesch (~8 min, official English). The subscription title was \"The Joy of Making Something Strange with AI.\" The transcript title is the unleashed-not-replaced line. She says she was working on AI in the art while others chased productivity: a paintbrush, a canvas, a camera, a music studio, a doorway. Film, fashion, and graphic design did not spark her the way AI did. Early images drew \"What is that?\" She leaned into the strangeness until it became the style, and says the gap between what she imagined and what she could make closed.\n\nAI video let her animate stills into short films. She wrote lyrics so the music matched the pictures, used AI on the instrumentation, and says she landed a record deal. The clip from \"Quiet Rebellion\" is about living as your authentic self and wearing your strange like a crown.\n\nTwo questions she keeps getting. Is it art? She notes the fight, including training on other artists' work, and says that when she sits down there is no other artist's work on her screen. References are nature, patterns, fashion, and ideas from her own head. Art, for her, is personal joy, and maybe someone else's. How do you do it? The same Midjourney prompt (\"A character in a fairy tale scene in a marketplace, enchanted and cinematic\") looks generic until her personalization and style-reference codes, built by trial and error on her own aesthetic.\n\nHuman feeling, empathy, and intention are what she says turn the output into something else. She calls this the best work of her life, with AI as a co-creator, and says people who never felt creative are trying it. The ask: play, make something beautiful or strange, be surprised, find your joy.",
+      "key_insights": [
+        "She treats strangeness as the style, not a defect to sand off.",
+        "The generic prompt is the before. Personalization and a style reference are the after.",
+        "\"Is it art?\" is answered as joy plus intention, with the training debate named and not resolved.",
+        "The invitation is to play, not to optimize."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "strange-as-the-style",
+          "title": "Strange as the Style",
+          "e": "🎨"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "if-you-have-a-9-to-5-start-a-business-with-ai",
+      "title": "If You Have a 9 to 5, Start a Business With AI ASAP",
+      "video_id": "MqiomQx3ZAY",
+      "platform": "youtube",
+      "url": "https://youtu.be/MqiomQx3ZAY",
+      "duration_min": 16,
+      "creator": "simon-squibb",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "build",
+      "tags": [
+        "business",
+        "ai",
+        "entrepreneurship"
+      ],
+      "keywords": [
+        "business",
+        "ai",
+        "entrepreneurship",
+        "simon squibb",
+        "Ten Times Waitlist"
+      ],
+      "summary": "simon-squibb interviews daniel-priestley (~16 min, auto English). The frame is jobs built for the industrial age, and AI plus digital tools disrupting that system the way a tractor disrupted farm work. Priestley says the school and job system will not turn in a year or two. He puts the change on about 20 years, so people have to upskill themselves. Employees he knows are scared of AI. Entrepreneurs are excited. A student chasing a job that may not exist should start something, including with two or three friends over a pizza box. He says he is not pro-entrepreneur in the abstract. He is telling people to surf the wave in front of them.\n\nDo not quit reckless. Keep about six months of savings and a backup. Someone who tries for six months can probably still get a job. The test is a waitlist. His example: you earn 60 grand, you hate it, you do not throw it away. If you need 15 or 20 clients and 400 people join, that is data. His own recent launch used a threshold of more than 750 signups. About 4,500 joined. A business, he says, is demand, not the thing you are ready to supply. Leave when the list is about 10 times the clients you need and the answers show real price intent. Need 30, have 300.\n\nThe page states the offer, what is different, the value, and proof, then early access, discounts, and bonuses. Signup is name, email, and five questions: current situation, desired outcome, what already failed, which price option fits, and an open \"anything else.\" Export the sheet to Claude and ask for the typical customer. With no audience: short-form every day, one long-form explainer of about 6–60 minutes, then the waitlist. Once a short piece works, turn it into an ad. Offline, sign people up before you buy equipment. At 15 he knocked on doors for lawns before he bought a mower. Squibb adds an iPad mockup of the cleaned house.\n\nAI, on Priestley's account, is general-purpose legal, marketing, copy, and landing-page help. ScoreApp, which captions hear as School App, can build the waitlist page in a few minutes. The London Marathon close: AI-powered businesses are cars in a race that used to be on foot. A Dream Brew competition plug sits in the middle of the tape.",
+      "key_insights": [
+        "Do not quit on a feeling. Quit when the waitlist is about 10× the clients you need and the prices are real.",
+        "Demand is the business. The landing page and five questions are the test.",
+        "No audience: short form points at one long form, which points at the list. Then boost the winner.",
+        "AI cuts the cost of the test. It does not replace the list."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ten-times-waitlist",
+          "title": "Ten Times Waitlist",
+          "e": "📋"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "meta-is-pivoting-again-connect-2026",
+      "title": "Meta is pivoting again... everything you missed from Connect 2026",
+      "video_id": "c1rPlzxSZ8E",
+      "platform": "youtube",
+      "url": "https://youtu.be/c1rPlzxSZ8E",
+      "duration_min": 6,
+      "creator": "fireship",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "other",
+      "tags": [
+        "ai",
+        "meta",
+        "programming"
+      ],
+      "keywords": [
+        "ai",
+        "meta",
+        "programming",
+        "fireship",
+        "Sentinel Swaps the Token"
+      ],
+      "summary": "fireship Code Report, dated in the video as 25 September 2026 (~6 min, auto English). The frame is a joke certification in metaverse real estate, then Zuckerberg at Meta Connect spending 90 minutes saying the metaverse was never the plan. The plan is meta-muse, a personal agent in glasses, on a Mac, in email, and on a keychain. Free, if you accept a cut of purchases it makes. The privacy pitch is an isolated Linux VM that even Meta cannot see.\n\nThis is the second assistant attempt. M in Messenger (2015) could book a table or send flowers, and he says it was shut down in 2018 once the \"AI\" was people. Muse Spark 1.3, the model from earlier that month, browses, uses your computer, and has an email address you can CC. Connectors are open to developers. He names Alexander Wang calling it a generational platform.\n\nThe mechanism, as he tells it: sign up and you get a cloud Linux VM with a browser, storage, and a Rust harness called Hatch that runs the agent loop. The agent is sandboxed. Passwords sit in a separate process. A gatekeeper called Sentinel swaps a fake token for the real credential, so a prompt-injected login page only receives a worthless token. Meta offers up to $130,000 to anyone who can break that. He then says the private VM is still in testing, and by default what you say and do with Muse can train future models. Captions hear Mews and \"rest harness.\"\n\nHardware: VR glasses around 100 g, 5K micro OLED, IMAX enhanced, next spring, $1,300. The celebrity reel includes James Cameron and Palmer Luckey. Ray-Ban Meta Gen 3 with a dedicated AI button, $449. An audio-only model, $349. Muse Charm is a small silver device with a fingerprint sensor, its own 5G connection, and a touchscreen face, promised for the holiday season. The sponsor block is Hyper Agent.",
+      "key_insights": [
+        "Connect 2026, on this report, is Muse, not another metaverse pitch.",
+        "Sentinel is the prompt-injection story: a fake token, swapped at the edge.",
+        "The VM that would hide you from Meta is still in testing. Training on your activity is the default he states.",
+        "The hardware slate is glasses at $1,300 and $449 and $349, plus a Charm for the holidays."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "sentinel-swaps-the-token",
+          "title": "Sentinel Swaps the Token",
+          "e": "🛡️"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "openai-dev-day-was-meh",
+      "title": "OpenAI Dev Day was... meh",
+      "video_id": "Pafx-wIwALM",
+      "platform": "youtube",
+      "url": "https://youtu.be/Pafx-wIwALM",
+      "duration_min": 11,
+      "creator": "david-shapiro",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "other",
+      "tags": [
+        "ai",
+        "openai",
+        "economics"
+      ],
+      "keywords": [
+        "ai",
+        "openai",
+        "economics",
+        "david shapiro",
+        "Token Rent Is a Middleman"
+      ],
+      "summary": "david-shapiro recorded the day after OpenAI Dev Day (~11 min, auto English). He calls it less fraught than last year and more polished, and not impressive. He names Soul 6.1, Ultra Fast mode, Dots, a promised slate of about 20 launches, and developer improvements, and says none of it felt new.\n\nHis read is that openai and Anthropic are under pressure. Right after the event, lab leaders signed a self-regulation pledge with the Trump administration. He calls that the safety side losing: no new regulation, with the market, the Department of Justice, and the courts left to sort it out while the labs go fast. He does not expect regulatory capture. He lists competition: Chinese open-source models, Grok, meta-muse, a possible Gemini 4 Pro that might pass Astra, and Jev. Claude, he says, is higher in enterprise adoption than in ordinary subscriptions. He piles on a ChatGPT Pro change that gives less for the same price, the same move he attributes to Anthropic, then says both labs lose money and the tokens are subsidized. Paying true cost could make AI less affordable. He does not call a bubble about to pop.\n\nA circulating \"$6 trillion a year by 2030\" data-center figure does not scare him, because he treats most of it as business, government, military, and power-user spend, not household subscriptions. He guesses paid AI subscriptions in America are a small share and says he does not know the number. Investment chatter, as he relays it: Anthropic's revenue jumped and it still shows about a $46 billion operating loss. Losing money at a huge valuation is not unique. The margins still look unsustainable to him.\n\nSelling tokens, on his account, is renting a GPU, so the labs are middlemen. The hinge is hardware: Nvidia, TSMC, ASML, Intel, Qualcomm, AMD. He expects local GPUs to commoditize models. He floats absorption into a larger company, or an Nvidia open-weight model that runs on its own chips. He will not bet on implosion. He cites earlier failed collapse calls, including Gary Marcus, and notes Tesla and SpaceX lost money for many years. The close is his dog Mandy, half Carolina dog and half husky, and a joke that controlling her is not a model of controlling superintelligence. Captions smear Soul, Grok, and Anthropic.",
+      "key_insights": [
+        "Dev Day, on this tape, was polish. The argument is about who captures the margin.",
+        "Subsidized tokens are the product. True cost would make the same usage less affordable.",
+        "He treats chip companies as the economic hinge and token sellers as middlemen.",
+        "He states the implosion hypothesis and refuses to bet it, because it has already been wrong."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "token-rent-is-a-middleman",
+          "title": "Token Rent Is a Middleman",
+          "e": "🪙"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "shawn-ryan-battle-for-your-soul",
+      "title": "Shawn Ryan: There's A Battle For Your Soul, It's Happening Right Now",
+      "video_id": "UQ3O04Wtqa4",
+      "platform": "youtube",
+      "url": "https://youtu.be/UQ3O04Wtqa4",
+      "duration_min": 100,
+      "creator": "shawn-ryan",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "systems",
+      "tags": [
+        "geopolitics",
+        "faith",
+        "podcast"
+      ],
+      "keywords": [
+        "geopolitics",
+        "faith",
+        "podcast",
+        "shawn ryan",
+        "Planted Clip Ready Line"
+      ],
+      "summary": "the-diary-of-a-ceo with shawn-ryan and steven-bartlett (~100 min, auto English). The subscription title was the superpower line. The transcript title is the soul line. The open is a second experience he calls more real than anything else: the most fear of his life, his body contorting in ways he says a body should not. Bartlett asks if he was possessed. Ryan says he has had several exorcisms and that what is happening is undeniable. The interview then leaves that story and comes back to faith later.\n\nHe is a former Navy SEAL who went to Iraq, Haiti, and Afghanistan, then CIA contracting, then Medellín. He says he was around drug networks and did not deal. He wanted Trump to win and says that was not a formal endorsement. He now says he has changed his view. On Iran he does not buy a nuclear-weapons rationale and says anything further would be speculation about another country's interests. Asked if Democrats winning would have been better, he treats the parties as converged. He will likely sit out unless a third party appears.\n\nHe thinks America may already be losing superpower status. China is going nuclear while the US still debates nuclear power and the grid. He points at the petrodollar and \"Professor Chung.\" His Canada example is Keystone: they wanted to pipe oil in, Biden said no, Canada dealt with China, and he recalls Trump's tariffs climbing from around 25% to 50% to 100%. He does not remember the exact schedule.\n\nOn podcasts, he claims guests and hosts can be planted so one line can travel. He names Blair Skoro as a former asset whose predictions then got a \"told you so\" text, and says ICE may be trying to deport him. He never aired a COVID-vaccine guest whose story, after the fact, did not hold up for him. He turns down White House and public photo invites because the picture captures you into a tribe. He says the show does about 150–200 million views a month and still does not appear in YouTube's popular-podcasts shelf, and he speculates about people inside platforms without claiming the companies know.\n\nHe has read maybe half the Bible and understands a small slice of it. He wants a multi-year series breaking down every book, using access he says almost nobody gets. Captions smear Medellín and several names. The hell sequence is his report, not a clinical finding.",
+      "key_insights": [
+        "The title fight is personal (fear, exorcisms, a Bible series) and political (superpower, parties, planted clips) on the same tape.",
+        "He wanted Trump to win, then says he is unhappy with the result, and he will not pick a party for 2028 unless a third one shows up.",
+        "Photo-op invites are capture. He says he declines them.",
+        "150–200 million views a month, on his number, still does not get the popular-podcasts shelf."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "planted-clip-ready-line",
+          "title": "Planted Clip-Ready Line",
+          "e": "🎙️"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "stop-renting-your-ais-memory",
+      "title": "Stop Renting Your AI's Memory — Dylan Couzon, Qdrant",
+      "video_id": "apyrzaWj0Z4",
+      "platform": "youtube",
+      "url": "https://youtu.be/apyrzaWj0Z4",
+      "duration_min": 16,
+      "creator": "dylan-couzon",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "memory",
+        "privacy"
+      ],
+      "keywords": [
+        "agents",
+        "memory",
+        "privacy",
+        "dylan couzon",
+        "Memory as Owned Disk",
+        "Agent Memory Markdown"
+      ],
+      "summary": "ai-engineer talk by dylan-couzon, developer relations at qdrant (~16 min, auto English). The on-screen title is about renting memory. The spoken title is \"the frontier is coming home.\" He says a model under about $2,500 can run close to last year's frontier, and open weights are closing, but a local model is still a stranger if its memory lives in someone else's cloud. Compute, the model, the harness, and the record of you are all rented.\n\nRenting the model, on his account: a government order pulled Fable and Mythos 5 for every customer; providers retire or throttle versions; agent loops burn tokens, and some developers spend over $5,000 a month on a $200 plan. Weights on your machine stay unless you change them. Owning inference is autonomy. Memory is continuity. Every frontier lab shipped a memory feature last year because the model starts from zero each session.\n\nMemory is three verbs: write, retrieve, and forget. A folder of markdown is not enough, because retrieval lets you filter by topic and decay by recency and frequency. He says HNSW (2016) and local embeddings (since 2019) were ready before models could use them at scale. He uses andrej-karpathy's frame: the model is the CPU, the context window is RAM, and memory is the disk. That disk is currently in someone else's data center.\n\nqdrant Edge is the piece he works on: an in-process vector store, embeddings plus payloads, offline sub-millisecond queries, the same Rust core as the cloud product. With quantization, a million memories fit under a gigabyte. Live drone demo, fully offline, YOLO labels turned into embeddings: 92 objects, over 300 vectors, 15 MB. A coffee-table search returns in under a millisecond with timestamps and counts. Optional cloud sync is a hive mind for a swarm, a family, or a team, and he says sharing must be opt-in. The store moves with you if the embedding model stays the same. Glasses-style queries (badge, a name, a whiteboard, a song) are retrieval, not a smarter you. Captions smear his surname (Kuzan) and the company (Quadrant).",
+      "key_insights": [
+        "A local model without a store you own is still rented continuity.",
+        "Memory is write, retrieve, and forget. Dumping markdown is not retrieval.",
+        "Qdrant Edge keeps that disk in-process and offline. A million memories, under a gigabyte, on his numbers.",
+        "Sync is allowed. Default sharing is not. He wants the index of you to start local."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "memory-as-owned-disk",
+          "title": "Memory as Owned Disk",
+          "e": "💾"
+        },
+        {
+          "slug": "agent-memory-markdown",
+          "title": "Agent Memory Markdown",
+          "e": "📝"
+        }
+      ],
+      "conceptCount": 2
+    },
+    {
+      "slug": "the-most-satisfying-journaling-process",
+      "title": "The Most Satisfying Journaling Process",
+      "video_id": "UFHCdXwldAI",
+      "platform": "youtube",
+      "url": "https://youtu.be/UFHCdXwldAI",
+      "duration_min": 20,
+      "creator": "peter-mckinnon",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "other",
+      "tags": [
+        "journaling",
+        "analog",
+        "creativity"
+      ],
+      "keywords": [
+        "journaling",
+        "analog",
+        "creativity",
+        "peter mckinnon",
+        "Second Pass Stamp"
+      ],
+      "summary": "peter-mckinnon (~20 min, auto English). Viewers asked for stamps after the journal videos: the collection, the habit-tracker stamp, the inks, the wax. The why is that he flips back through entries, and a stamp makes a page worth rereading. The how is a joke demo. Rubber on ink, press, done. Ford blue and Chevy red are the bit.\n\nHe likes passport and postage marks because his 2016 passport, the one that held the YouTube trips, expired, and many borders no longer stamp. A basic black Trodat pad works. He prefers vintage Japanese reds and blues (he says Sachi Iro) and Tim Holtz distressed, tea-stained pads. Captions hear \"Jim Holtz.\" Layering is the point. Stamp again over the first impression, including a half-inked second pass, the way a typewriter's mistakes beat a clean print. He stains paper, writes a short note, and says that stack lifts a thank-you from a two to an eight.\n\nCustom stamps with Pete's Pirate Life mimic airmail, a Kenya entry stamp, \"received,\" and \"burn after reading.\" They go on journal pages, field-notes covers and inside pages, letters, and merch envelopes. A half-month habit tracker, 15 by 15, sized for a Post-it, was the most requested file. The PNG is in the description. Signature stamps and pre-made checkbox layouts are the same idea. A friend in Mexico makes denser packs. He does not know if that shop ships internationally.\n\nWax is the closer. Melt a stick, pour more than you think, press a skull or a crest, hold still. He says a sealed handwritten note does more for him than a new phone. Storage is a vintage letterpress drawer, or a steel Toyo box if he were organizing from scratch. Every page gets a date stamp. Squarespace is the sponsor. He may sell a pirate stamp pack because he wants one.",
+      "key_insights": [
+        "The second, incomplete impression is the look he wants. Perfect is the version he does not keep.",
+        "The habit-tracker stamp is a 15-by-15 Post-it grid. The file is in the description.",
+        "Wax plus a handwritten line is the object he says beats a new phone.",
+        "Date every page. The rest of the stamps can be nonsense and still work."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "second-pass-stamp",
+          "title": "Second Pass Stamp",
+          "e": "📮"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "tools-to-improve-focus-and-concentration",
+      "title": "Tools to Improve Your Focus & Concentration | Huberman Lab Essentials",
+      "video_id": "8e3RC1L5V_Y",
+      "platform": "youtube",
+      "url": "https://youtu.be/8e3RC1L5V_Y",
+      "duration_min": 38,
+      "creator": "andrew-huberman",
+      "updated": "2026-10-02",
+      "created": "2026-10-02",
+      "section": "mind",
+      "tags": [
+        "focus",
+        "neuroscience",
+        "huberman"
+      ],
+      "keywords": [
+        "focus",
+        "neuroscience",
+        "huberman",
+        "andrew huberman",
+        "Ultradian Work Blocks",
+        "Visual Focus → Mental Focus",
+        "Focus Arrow Three Chemicals"
+      ],
+      "summary": "andrew-huberman Lab Essentials (~38 min, auto English). Focus is an arrow. Epinephrine, from locus coeruleus and the adrenals, is the shaft: alertness, necessary and not sufficient. Acetylcholine is the arrowhead, a spotlight on the neurons that should be more active. Dopamine is the motivation to keep narrowing that spotlight. The bout is dynamic. It is not a step from unfocused to locked.\n\nSleep well on about 80% of nights. White or pink noise, and to some extent brown noise, shortens the transition into focus and can amplify prefrontal activity. He does not expect you to drop straight into focus. The warm-up is the first 5–10 minutes of an about 90-minute ultradian bout, and he counts the warm-up inside the 90. How many bouts depends on sleep, food, and training. These are deep bouts, not a claim that you cannot think for more than 90 minutes a day.\n\nA Neuron paper, as he tells it: neurons represent the world more precisely when glucose is adequate. A very full gut, especially a large or high-carb meal, shifts toward rest-and-digest and blunts focus. He does a fasted morning bout on water and electrolytes, eats, accepts a dip, then does an afternoon bout if lunch was not huge. Caffeine in the 100–400 mg range can help. Most people, he says, do well at 100–200 mg. Anxiety or panic plus 400 mg is a bad idea. Stop caffeine 8–12 hours before bed. Sleep architecture suffers even if you fall asleep.\n\nAcute stress can sharpen focus. He cites a 2020 Experimental Psychology paper (first author he renders as Degrroot) in which a simulated job interview plus arithmetic more than doubled concentration performance by raising epinephrine and cortisol modestly and narrowing vision. Deliberate cold, 1–5 minutes, uncomfortably cold but safe, is his controlled version. He says a European Journal of Physiology study found large, hours-long dopamine increases from cold water, plus epinephrine.\n\nwendy-suzuki's lab: about 13 minutes a day of eyes-closed nasal breathing, awareness about an inch inside the forehead, for about 8 weeks, improved focus, mood, stress, sleep, and memory. Drift is the rep. The return is the training. A second drill is holding gaze on one point, blinking allowed, from 30 seconds toward 3 minutes, at the start of a work bout and again if attention slips. He would rather you do that than open the phone.\n\nCompounds, as support rather than a direct spotlight: 1–3 g EPA a day for mood and cognition. 5 g creatine monohydrate a day, which he takes for prefrontal networks, not only muscle. Alpha-GPC at 300–600 mg before work. He uses it about 4 days a week and pairs 600 mg garlic because of an inconclusive stroke and TMAO concern. He has not seen his own TMAO spike. 500 mg L-tyrosine with 300 mg alpha-GPC and coffee is one stack he names. Use at most two or three tools at once. ADHD stimulants can help clinically diagnosed people under a prescriber by teaching circuits to engage. He puts behavior, nutrition, and sleep first, then supplements, then prescription drugs. Deliberate defocus, a walk without the phone, is part of the next bout working. Captions smear ultradian, acetylcholine, and the drug names.",
+      "key_insights": [
+        "Epinephrine alerts. Acetylcholine points. Dopamine keeps the point narrowing.",
+        "A 90-minute bout includes a 5–10 minute warm-up. Refocus is the skill, not unbroken stare.",
+        "Glucose helps precision. A stuffed meal fights the afternoon bout.",
+        "Cold and a short daily meditation are the behavioral levers he puts ahead of pills."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ultradian-work-blocks",
+          "title": "Ultradian Work Blocks",
+          "e": "⏰"
+        },
+        {
+          "slug": "visual-focus-mental-focus",
+          "title": "Visual Focus → Mental Focus",
+          "e": "👁️"
+        },
+        {
+          "slug": "focus-arrow-three-chemicals",
+          "title": "Focus Arrow Three Chemicals",
+          "e": "🏹"
+        }
+      ],
+      "conceptCount": 3
+    },
     {
       "slug": "6-mindsets-respect-during-conflict",
       "title": "6 Mindsets That Make People Respect You During Conflict",

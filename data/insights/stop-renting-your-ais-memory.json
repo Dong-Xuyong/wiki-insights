@@ -1,0 +1,45 @@
+{
+  "slug": "stop-renting-your-ais-memory",
+  "sections": [
+    {
+      "title": "Rent versus home",
+      "items": [
+        {
+          "e": "🏠",
+          "q": "What is still rented after the model is local?",
+          "a": "Continuity. A machine under **$2,500** can run close to last year's frontier, and the weights stay unless you change them. The record of you is still in **someone else's data center**."
+        },
+        {
+          "e": "💸",
+          "q": "What does renting the model cost on this tape?",
+          "a": "A government order pulled **Fable and Mythos 5**. Providers retire or throttle versions. Some developers burn **over $5,000 a month** on a **$200 plan**."
+        }
+      ]
+    },
+    {
+      "title": "Three verbs",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What is memory, if it is not a bigger prompt?",
+          "a": "**Write, retrieve, and forget.** A markdown folder cannot filter by topic or decay by recency and frequency. Karpathy's frame: model is CPU, context is RAM, **memory is the disk**."
+        }
+      ]
+    },
+    {
+      "title": "The disk he demos",
+      "items": [
+        {
+          "e": "🚁",
+          "q": "What did the offline drone demo store?",
+          "a": "**92 objects**, over **300 vectors**, **15 MB**. A coffee-table search came back in **under a millisecond**. A million memories, with quantization, fit **under a gigabyte**."
+        },
+        {
+          "e": "🔒",
+          "q": "When is sharing allowed?",
+          "a": "When you opt in. A family or a drone swarm can sync a hive mind. **Default sharing is the failure.** The store moves if the **embedding model stays the same**."
+        }
+      ]
+    }
+  ]
+}

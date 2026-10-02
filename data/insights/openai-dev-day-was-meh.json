@@ -1,0 +1,40 @@
+{
+  "slug": "openai-dev-day-was-meh",
+  "sections": [
+    {
+      "title": "The keynote",
+      "items": [
+        {
+          "e": "😐",
+          "q": "What did Dev Day add, on this telling?",
+          "a": "Polish. He names **Soul 6.1**, **Ultra Fast**, **Dots**, and about **20 launches**, and says none of it felt new. It was less fraught than last year."
+        }
+      ]
+    },
+    {
+      "title": "The subsidy",
+      "items": [
+        {
+          "e": "🎟️",
+          "q": "Why can the same plan suddenly buy less?",
+          "a": "The tokens are **subsidized**. OpenAI and Anthropic are **losing money**. Paying true cost would make AI **less affordable**. He does not call a bubble about to pop."
+        },
+        {
+          "e": "📉",
+          "q": "What Anthropic figure does he relay?",
+          "a": "Revenue up, and about a **$46 billion operating loss**. A **$6 trillion by 2030** data-center number does not scare him, because he treats most of it as **business, government, and military** spend."
+        }
+      ]
+    },
+    {
+      "title": "The hinge",
+      "items": [
+        {
+          "e": "🪙",
+          "q": "Who does he think keeps the margin?",
+          "a": "**Chip companies**, not token sellers. Selling tokens is **renting a GPU**. He names Nvidia, TSMC, ASML, Intel, Qualcomm, and AMD, and he **will not bet on implosion**."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "computer-use-is-solved",
+  "sections": [
+    {
+      "title": "Not a chatbot",
+      "items": [
+        {
+          "e": "⚽",
+          "q": "What kind of model is Jev, on this tape?",
+          "a": "A **decision bot**. State in, questions out, in parallel. Choice, score, and a **0–1** he calls a nual. It will not write quicksort. The manifesto line is **build prod not God**."
+        }
+      ]
+    },
+    {
+      "title": "Real time",
+      "items": [
+        {
+          "e": "🎮",
+          "q": "Where does he show it in a loop?",
+          "a": "Smash Bros. chat for **2,000 people** and four characters. A slow agent took **a minute and a half**. Balatro wins about **30%** of runs. Doom is dodge-or-not and fire-or-not **at the same time**."
+        }
+      ]
+    },
+    {
+      "title": "The bill",
+      "items": [
+        {
+          "e": "💲",
+          "q": "What does one question cost?",
+          "a": "Input tokens only. One Smash question was **345 tokens**, about **3 million calls for $44**. An urgent-email branch is about **100 ms** and **$42 per billion tokens**."
+        }
+      ]
+    }
+  ]
+}

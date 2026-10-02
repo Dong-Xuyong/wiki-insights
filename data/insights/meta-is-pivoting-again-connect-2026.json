@@ -1,0 +1,40 @@
+{
+  "slug": "meta-is-pivoting-again-connect-2026",
+  "sections": [
+    {
+      "title": "The pivot",
+      "items": [
+        {
+          "e": "👓",
+          "q": "What did Connect 2026 actually ship, on this report?",
+          "a": "**Muse**, not another metaverse. It lives in glasses, on a Mac, in email, and on a keychain. **Free**, plus a **cut of purchases**. The model is **Muse Spark 1.3**."
+        }
+      ]
+    },
+    {
+      "title": "The sandbox",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "How does Sentinel stop a poisoned login?",
+          "a": "You get a cloud **Linux VM**. **Hatch** runs the loop. Passwords sit in another process. Sentinel hands the agent a **fake token** and swaps the real one. The bounty is up to **$130,000**."
+        },
+        {
+          "e": "👁️",
+          "q": "What still sees your data?",
+          "a": "The VM that would hide you from **Meta is still in testing**. By default, what you say and do **can train future models**."
+        }
+      ]
+    },
+    {
+      "title": "The hardware",
+      "items": [
+        {
+          "e": "🕶️",
+          "q": "What are the prices he quotes?",
+          "a": "VR glasses about **100 g**, **5K** micro OLED, next spring, **$1,300**. Ray-Ban Gen 3 **$449**. Audio-only **$349**. **Muse Charm** for the holidays."
+        }
+      ]
+    }
+  ]
+}
