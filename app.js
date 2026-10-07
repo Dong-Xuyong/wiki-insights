@@ -46,6 +46,10 @@
   let biliVideo = null;
   let biliVideoId = null;
   let biliSaveTimer = null;
+  let syncTimer = null;
+  let syncing = false;
+  let syncQueued = false;
+  let mergedAdded = 0;
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (m) =>
@@ -189,6 +193,7 @@
     if (!videoId) return;
     const map = loadProgressMap();
     const previous = map[videoId];
+    const hadDone = !!previous?.done;
     if (clear) delete map[videoId];
     else if (done) {
       map[videoId] = { t: Math.floor(seconds || 0), updated: Date.now(), done: true };
@@ -202,6 +207,7 @@
       celebrateNewAchievements();
     }
     paintDetailLabels();
+    if (hadDone !== !!map[videoId]?.done) scheduleSync();
   }
 
   function catalogProgress(v, progressMap) {
@@ -1577,30 +1583,8 @@
         </div>
       </section>
 
-      <section class="home-section" aria-labelledby="sync-title">
-        <div class="section-heading">
-          <div><span class="eyebrow">Backup</span><h2 id="sync-title">Sync completed videos</h2></div>
-        </div>
-        <p class="local-note">Export here, then Import on your other device. Import only adds completions, it never un-completes a video.</p>
-        <button type="button" class="secondary-action" id="export-completed">Export completed</button>
-        <button type="button" class="secondary-action" id="import-completed">Import completed</button>
-        <button type="button" class="secondary-action" id="github-save">Save to GitHub</button>
-        <button type="button" class="secondary-action" id="github-load">Import from GitHub</button>
-        <input type="file" id="import-completed-file" accept=".json,application/json" hidden>
-      </section>
-
-      <p class="local-note">Progress, XP, streaks, and badges are stored only in this browser.</p>
+      <p class="local-note">XP, streaks, and badges stay in this browser. Completed videos sync automatically.</p>
     `;
-    const importFile = root.querySelector("#import-completed-file");
-    root.querySelector("#export-completed").addEventListener("click", exportCompleted);
-    root.querySelector("#import-completed").addEventListener("click", () => importFile.click());
-    root.querySelector("#github-save").addEventListener("click", () => githubSync("save"));
-    root.querySelector("#github-load").addEventListener("click", () => githubSync("load"));
-    importFile.addEventListener("change", () => {
-      const file = importFile.files && importFile.files[0];
-      if (file) file.text().then(importCompleted);
-      importFile.value = "";
-    });
     root.querySelectorAll("[data-progress-status]").forEach((button) => {
       button.addEventListener("click", () =>
         navigate(
@@ -1622,17 +1606,7 @@
     return { app: "wiki-insights", version: 1, exportedAt: new Date().toISOString(), completed };
   }
 
-  function exportCompleted() {
-    const payload = completedPayload();
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([JSON.stringify(payload)], { type: "application/json" }));
-    a.download = `wiki-insights-completed-${localDateKey()}.json`;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    toast(`Exported ${Object.keys(payload.completed).length} completed videos`);
-  }
-
-  /** Adds completions from a backup; never un-completes. Returns how many were new. */
+  /** Adds remote completions; never un-completes a video already stored here. */
   function applyCompleted(data) {
     if (!data || data.app !== "wiki-insights" || !data.completed || typeof data.completed !== "object") {
       throw new Error("This file is not a Wiki Insights backup");
@@ -1645,26 +1619,99 @@
       added += 1;
     }
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+    mergedAdded += added;
     return added;
   }
 
-  function importCompleted(text) {
-    try {
-      const added = applyCompleted(JSON.parse(text));
-      toast(`Imported ${added} new completed video${added === 1 ? "" : "s"}`);
-    } catch (e) {
-      toast(e instanceof SyntaxError ? "Not a valid JSON file" : e.message);
-      return;
-    }
-    renderProgress();
+  function completedIds(data) {
+    const completed = data && data.completed;
+    if (!completed || typeof completed !== "object") return [];
+    return Object.keys(completed)
+      .filter((id) => completed[id]?.done)
+      .sort();
   }
 
-  function githubSync(mode) {
-    if (!window.GhSync) return toast("GitHub sync unavailable");
-    const run = mode === "save"
-      ? GhSync.save("wiki-insights", completedPayload, applyCompleted)
-      : GhSync.load("wiki-insights", applyCompleted);
-    run.then((msg) => { toast(msg); renderProgress(); }, (e) => toast(e.message));
+  function completedDiffer(remoteData, localPayload) {
+    const remoteIds = completedIds(remoteData);
+    const localIds = completedIds(localPayload);
+    if (remoteIds.length !== localIds.length) return true;
+    return remoteIds.some((id, index) => id !== localIds[index]);
+  }
+
+  function hhmm() {
+    const now = new Date();
+    return `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}`;
+  }
+
+  function setSyncStatus(text) {
+    const label = document.getElementById("sync-label");
+    if (label) label.textContent = text;
+  }
+
+  function showConnect() {
+    const needs = !(window.GhSync && GhSync.hasToken());
+    const connect = document.getElementById("sync-connect");
+    if (connect) connect.hidden = !needs;
+    document.body.classList.toggle("needs-sync-connect", needs);
+  }
+
+  function refreshMergedProgress() {
+    const current = parseRoute();
+    if (current.name === "detail") {
+      paintDetailLabels();
+      if (currentVideo?.video_id && loadProgressMap()[currentVideo.video_id]?.done) {
+        paintResumeBar(0, { done: true });
+      }
+      return;
+    }
+    const y = window.scrollY;
+    route().then(() => window.scrollTo({ top: y, behavior: "auto" }));
+  }
+
+  function scheduleSync() {
+    if (!window.GhSync || !GhSync.hasToken()) return;
+    if (syncing) {
+      syncQueued = true;
+      return;
+    }
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(runSync, 1000);
+  }
+
+  function runSync() {
+    clearTimeout(syncTimer);
+    syncTimer = null;
+    showConnect();
+    if (!window.GhSync || typeof GhSync.sync !== "function") {
+      setSyncStatus("GitHub sync failed to load.");
+      return;
+    }
+    if (!GhSync.hasToken()) {
+      setSyncStatus("Not synced");
+      return;
+    }
+    if (syncing) {
+      syncQueued = true;
+      return;
+    }
+    syncing = true;
+    mergedAdded = 0;
+    setSyncStatus("Syncing…");
+    GhSync.sync("wiki-insights", completedPayload, applyCompleted, completedDiffer).then(
+      () => setSyncStatus(`Synced ${hhmm()}`),
+      (err) => {
+        if (err && err.code === "NOT_SYNCED") setSyncStatus("Not synced");
+        else setSyncStatus(err && err.message ? err.message : "Sync failed");
+      }
+    ).then(() => {
+      syncing = false;
+      showConnect();
+      if (mergedAdded > 0) refreshMergedProgress();
+      if (syncQueued) {
+        syncQueued = false;
+        runSync();
+      }
+    });
   }
 
   function renderInsightsHtml(pack) {
@@ -2153,7 +2200,29 @@
   });
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") persistPlayerTime();
+    else runSync();
   });
+
+  const connectBtn = document.getElementById("btn-connect");
+  if (connectBtn) {
+    connectBtn.addEventListener("click", () => {
+      if (!window.GhSync) {
+        setSyncStatus("GitHub sync failed to load.");
+        return;
+      }
+      try {
+        GhSync.connect();
+      } catch (err) {
+        setSyncStatus("Not synced");
+        return;
+      }
+      showConnect();
+      runSync();
+    });
+  }
+  showConnect();
+  if (!window.GhSync || typeof GhSync.sync !== "function") setSyncStatus("GitHub sync failed to load.");
+  else if (!GhSync.hasToken()) setSyncStatus("Not synced");
 
   loadLocal();
   wipeHoverBiliProgress();
@@ -2166,6 +2235,10 @@
       CATALOG = data;
       bootstrapGamification();
       return route();
+    })
+    .then(() => {
+      runSync();
+      setInterval(runSync, 60000);
     })
     .catch((err) => {
       root.innerHTML = `<div class="empty">Failed to load catalog.<br/>${esc(err.message)}</div>`;

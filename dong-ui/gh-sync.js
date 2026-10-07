@@ -4,6 +4,12 @@
  *
  *   GhSync.save(appId, getPayload, applyPayload) -> Promise<message>
  *   GhSync.load(appId, applyPayload)             -> Promise<message>
+ *   GhSync.hasToken()                            -> boolean
+ *   GhSync.connect()                             -> config, prompting once
+ *   GhSync.sync(appId, getPayload, applyPayload, differ)
+ *       Merges the remote file through applyPayload, then writes the merged
+ *       payload when differ(remoteData, localPayload) is true. Uses the file
+ *       sha and retries a 409 once. Does not prompt or confirm.
  */
 (function (global) {
   "use strict";
@@ -12,12 +18,21 @@
   var DEFAULT_REPO = "Dong-Xuyong/progress-sync";
   var API = "https://api.github.com/repos/";
 
-  function getConfig() {
-    var cfg = null;
+  function peekConfig() {
     try {
-      cfg = JSON.parse(localStorage.getItem(CONFIG_KEY) || "null");
+      var cfg = JSON.parse(localStorage.getItem(CONFIG_KEY) || "null");
+      if (cfg && cfg.token) return cfg;
     } catch (e) {}
-    if (cfg && cfg.token) return cfg;
+    return null;
+  }
+
+  function hasToken() {
+    return !!peekConfig();
+  }
+
+  function getConfig() {
+    var cfg = peekConfig();
+    if (cfg) return cfg;
     var token = global.prompt(
       "Paste a GitHub fine-grained token with Contents read/write on " +
         DEFAULT_REPO +
@@ -27,6 +42,10 @@
     cfg = { token: token.trim(), repo: DEFAULT_REPO };
     localStorage.setItem(CONFIG_KEY, JSON.stringify(cfg));
     return cfg;
+  }
+
+  function connect() {
+    return getConfig();
   }
 
   function toBase64(str) {
@@ -52,7 +71,11 @@
         throw new Error("GitHub token rejected; you will be asked for a new one");
       }
       if (res.status === 404 && method === "GET") return null;
-      if (res.status === 409) throw new Error("Saved from another device meanwhile; try again");
+      if (res.status === 409) {
+        var conflict = new Error("Saved from another device meanwhile; try again");
+        conflict.status = 409;
+        throw conflict;
+      }
       if (!res.ok) throw new Error("GitHub error " + res.status);
       return res.json();
     });
@@ -105,5 +128,52 @@
     });
   }
 
-  global.GhSync = { save: save, load: load };
+  function needsWrite(remote, payload, differ) {
+    if (typeof differ === "function") return !!differ(remote ? remote.data : null, payload);
+    return true;
+  }
+
+  function writeMerged(cfg, appId, remote, getPayload, applyPayload, differ, allowRetry) {
+    if (remote && remote.data) applyPayload(remote.data);
+    var payload = getPayload();
+    if (!needsWrite(remote, payload, differ)) return Promise.resolve("Synced");
+    var body = {
+      message: "Save " + appId + " progress",
+      content: toBase64(JSON.stringify(payload)),
+    };
+    if (remote && remote.sha) body.sha = remote.sha;
+    return request(cfg, "PUT", appId + ".json", body).then(
+      function () {
+        return "Synced";
+      },
+      function (err) {
+        if (allowRetry && err && err.status === 409) {
+          return fetchRemote(cfg, appId).then(function (again) {
+            return writeMerged(cfg, appId, again, getPayload, applyPayload, differ, false);
+          });
+        }
+        throw err;
+      }
+    );
+  }
+
+  function sync(appId, getPayload, applyPayload, differ) {
+    var cfg = peekConfig();
+    if (!cfg) {
+      var missing = new Error("NOT_SYNCED");
+      missing.code = "NOT_SYNCED";
+      return Promise.reject(missing);
+    }
+    return fetchRemote(cfg, appId).then(function (remote) {
+      return writeMerged(cfg, appId, remote, getPayload, applyPayload, differ, true);
+    });
+  }
+
+  global.GhSync = {
+    save: save,
+    load: load,
+    hasToken: hasToken,
+    connect: connect,
+    sync: sync,
+  };
 })(typeof window !== "undefined" ? window : globalThis);
