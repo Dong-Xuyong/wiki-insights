@@ -953,7 +953,7 @@
   }
 
   function setChrome({ title, showBack, showTabs, activeTab = "", showNav = true }) {
-    topTitle.textContent = title || "Wiki Insights";
+    topTitle.textContent = title || "YouTube Wiki Insights";
     topTitle.classList.toggle("hidden", !!showTabs);
     backBtn.classList.toggle("hidden", !showBack);
     tabToggle.classList.toggle("hidden", !showTabs);
@@ -1162,7 +1162,7 @@
   function renderHome(state = {}) {
     destroyPlayer();
     setChrome({
-      title: "Wiki Insights",
+      title: "YouTube Wiki Insights",
       showBack: false,
       showTabs: false,
       activeTab: "home",
