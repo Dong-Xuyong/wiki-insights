@@ -42,30 +42,16 @@ Existing `wiki-insights-progress-v1` records are retained. XP is deterministic: 
 
 ## Stack
 
-Plain HTML/CSS/JS, no frontend build step. Data is generated in the Second Brain source repo:
+Plain HTML/CSS/JS, no frontend build step. `data/catalog.json` and `data/insights/<slug>.json`
+are committed snapshots; there is currently no build script that regenerates them. Each catalog
+video carries a section from the Wiki Flashcards taxonomy; zero-signal videos go to Other.
 
-```bash
-python scripts/build_wiki_insights_data.py
-python scripts/sync_wiki_insights.py
-```
-
-Insights packs live at `youtube-wiki/wiki/insights/<slug>.json` and are copied into `data/insights/`. Each catalog video is assigned a build-time section using the Wiki Flashcards taxonomy; zero-signal videos go to Other.
+Agents record ingested videos in the private `Dong-Xuyong/progress-sync` repo with
+`scripts/sync_wiki_insights.py` (see `wiki-insights/AGENT_INSIGHTS_SPEC.md` there).
 
 Each video's `concepts` list is the inverse of the `## Sources` section on every concept
 page in the vault — the same rule Wiki Flashcards uses — so both apps always agree on
-which concepts belong to which video. The build prints concepts a source page claims
-under `## Concepts` that do not link back, so gaps get fixed in the vault.
-
-### Permanently ingest a YouTube or Bilibili URL into the wiki
-
-```bash
-python scripts/create_wiki_insights_from_url.py "https://youtu.be/VIDEO_ID" --sync
-python scripts/create_wiki_insights_from_url.py "https://www.bilibili.com/video/BV..." --sync
-```
-
-Bilibili ingestion uses official captions when available, then downloads audio and
-transcribes it with `faster-whisper`. A logged-in Firefox profile (or
-`BILIBILI_SESSDATA` in `.env`) is required.
+which concepts belong to which video.
 
 ## Run locally
 
