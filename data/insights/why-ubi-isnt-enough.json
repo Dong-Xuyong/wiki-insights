@@ -1,0 +1,35 @@
+{
+  "slug": "why-ubi-isnt-enough",
+  "sections": [
+    {
+      "title": "One kitchen table",
+      "items": [
+        {
+          "e": "🏠",
+          "q": "Where does the Riveras' $78,000 come from?",
+          "a": "Jordan **$52,000**, Sam **$23,400** (30 hours at $15), tax credits about **$2,100**, capital **$500**. About **96.7 percent** wages. For every **$156**, **$1** comes from ownership."
+        },
+        {
+          "e": "🤖",
+          "q": "What happens when the pharmacy automates?",
+          "a": "One technician per shift instead of three. Wages fall from **$75,400 to $52,000**. Income falls to **$54,600** before unemployment benefits. The **$500** capital pipe covers about **two days**. **$8,000** in savings lasts a little over **five weeks** at the old pace."
+        }
+      ]
+    },
+    {
+      "title": "The third pipe",
+      "items": [
+        {
+          "e": "🏦",
+          "q": "How much capital replaces Sam's paycheck?",
+          "a": "**$585,000** at a **4 percent** return, or **$780,000** at 3 percent. About **four in ten** adults, on the Fed's **$400** question, could not cover a surprise expense with cash."
+        },
+        {
+          "e": "👴",
+          "q": "Why is the retired couple the contrast?",
+          "a": "Margaret and Tom have **no wages**. **$38,000** Social Security plus a **4 percent** draw (**$32,000**) on **$800,000** is **$70,000**. A new machine cannot touch it. Capital is the pipe that **compounds while you sleep**."
+        }
+      ]
+    }
+  ]
+}

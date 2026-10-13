@@ -1,0 +1,35 @@
+{
+  "slug": "food-choices-shape-memory-cravings",
+  "sections": [
+    {
+      "title": "The meal is a memory",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "Where does Kanoski put meal memory?",
+          "a": "In the **hippocampus**, fed by gut signals. Natural **GLP-1** comes from intestinal L cells and from the **brainstem**. The hippocampus has many **GLP-1 receptors**. Gut GLP-1 acts in part on **vagus** terminals."
+        },
+        {
+          "e": "🥤",
+          "q": "What did early sugar access do in his animals?",
+          "a": "Free access to a solution at about a **soft drink’s** calorie share, with otherwise healthy food. **Hippocampal deficits** show up when they are older and **persist after the sugar stops**. He ties some of that to **microbiome** changes."
+        }
+      ]
+    },
+    {
+      "title": "The diet that stays",
+      "items": [
+        {
+          "e": "🍟",
+          "q": "What is the Western diet on this tape?",
+          "a": "About **35 percent** of calories from fat and **15 percent** from **simple sugar**, in adult animals. Junk food (peanut-butter cups, chips, a high-fat high-sugar diet) leaves impairments that **last after a switch to healthy food**."
+        },
+        {
+          "e": "🔔",
+          "q": "What is the last step into the hippocampus?",
+          "a": "**Acetylcholine** neurons in the **medial septum**, reached from the brainstem. That is the three-tier path he draws from the gut to meal memory."
+        }
+      ]
+    }
+  ]
+}

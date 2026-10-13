@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 345,
-  "insightsCount": 332,
-  "conceptCount": 2937,
+  "videoCount": 355,
+  "insightsCount": 342,
+  "conceptCount": 2950,
   "sections": [
     {
       "id": "architecture",
@@ -52,16 +52,427 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 66,
+    "agents": 70,
     "systems": 22,
-    "build": 47,
+    "build": 48,
     "human": 19,
-    "performance": 52,
-    "mind": 39,
-    "relationships": 54,
-    "other": 43
+    "performance": 53,
+    "mind": 40,
+    "relationships": 55,
+    "other": 45
   },
   "videos": [
+    {
+      "slug": "every-app-is-now-open-source",
+      "title": "Every app on Earth is now open source... whether it likes it or not",
+      "video_id": "wajoP_5Cpw8",
+      "platform": "youtube",
+      "url": "https://youtu.be/wajoP_5Cpw8",
+      "duration_min": 6,
+      "creator": "fireship",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "other",
+      "tags": [
+        "programming",
+        "reverse-engineering",
+        "fireship"
+      ],
+      "keywords": [
+        "programming",
+        "reverse engineering",
+        "fireship",
+        "Rebuild the behavior"
+      ],
+      "summary": "fireship Code Report (~6 min, auto English, 12 Oct 2026). Brandon Thomas, after repeated Adobe cancellation fees, used Claude to rebuild seven Creative Cloud apps in Rust as ArtCraft and open-sourced them, including Linux, which Adobe has never officially supported. The host tries FilmCraft, a near one-to-one Premiere UI, to edit the video. Timeline playback lags and the transitions are far below Premiere. He still pays Adobe $69 a month. He notes DaVinci Resolve has been an alternative for over 20 years. The free clones look like Adobe and are not usable yet.\n\nreverse-engineer-anything, run with Node and npx, is the unrelated viral tool. He lists stripped ELF, PE, and Mach-O binaries, obfuscated JVM bytecode, .NET assemblies, firmware, and OCI layers. Ghidra does the read-only analysis of native EXEs and DLLs and returns C-like pseudocode, assembly, strings, symbols, calls, and references. He points that output at a locally installed Premiere timeline feature, then hands it to a coding agent to reimplement just those features in Rust as a smaller free \"Premiere Light.\"\n\nThe same idea on Supabase, via REA's network analysis of API and UI behavior, becomes a sketch he calls Studbase. He says the speed benchmark was made up. Sponsor block is Apify. The serious claim is rebuild-the-behavior: inspect the binary, keep the features you use, throw away the rest.",
+      "key_insights": [
+        "A UI clone of Premiere is not a Premiere replacement. Playback and transitions fail the edit.",
+        "REA plus Ghidra is a read of the local binary, then an agent rewrite of one feature.",
+        "He wants Premiere Light, not the whole suite.",
+        "The Studbase benchmark is a joke he labels as made up."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "rebuild-the-behavior",
+          "title": "Rebuild the behavior",
+          "e": "🏷️"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "food-choices-shape-memory-cravings",
+      "title": "How Food Choices Shape Memory, Cognition & Cravings | Dr. Scott Kanoski",
+      "video_id": "PXHRYbr3mp4",
+      "platform": "youtube",
+      "url": "https://youtu.be/PXHRYbr3mp4",
+      "duration_min": 123,
+      "creator": "andrew-huberman",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "performance",
+      "tags": [
+        "neuroscience",
+        "nutrition",
+        "huberman"
+      ],
+      "keywords": [
+        "neuroscience",
+        "nutrition",
+        "huberman",
+        "andrew huberman",
+        "Meal memory"
+      ],
+      "summary": "andrew-huberman with USC professor scott-kanoski (~123 min, auto English). Eating is a decision the hippocampus helps make. Gut signals during a meal change what is remembered, and that memory later changes hunger and intake. meal-memory is the thread.\n\nNatural GLP-1 comes from intestinal L cells and from a separate population in the brainstem (nucleus tractus solitarius). The hippocampus has many GLP-1 receptors, so Kanoski leaves open that the drugs could act there. Native GLP-1 at the gut works in part through receptors on vagus terminals. The early model in his lab was free access to a sugar solution at about the calorie share of a soft drink, with otherwise healthy food and water. Those animals show hippocampal memory deficits when older, and the deficits persist after the sugar stops. He says the microbiome changes and may be functionally tied to the impairment. A junk-food model (chocolate peanut-butter cups, ruffled chips, plus a high-fat high-sugar rodent diet) leaves memory impairments that last after a switch to healthy food.\n\nA Western-style diet in adult animals, about 35 percent of calories from fat and 15 percent from simple sugar, is the later model he describes. The gut-to-memory path he sketches runs brainstem to medial septum to acetylcholine neurons that innervate the hippocampus. Near the end he turns to oxytocin: most people treat it as a bonding signal, and he asks what it does around eating. The tape is a mechanism conversation, not a diet prescription.",
+      "key_insights": [
+        "Meal memory sits in the hippocampus and is fed by gut signals, including GLP-1 and the vagus.",
+        "Early sugar access and a junk-food diet leave hippocampal deficits that outlast the diet.",
+        "The Western diet he names is about 35 percent fat and 15 percent simple sugar.",
+        "Acetylcholine from the medial septum is the last step he draws into the hippocampus."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "meal-memory",
+          "title": "Meal memory",
+          "e": "🧠"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "how-much-you-should-spend-on-marketing",
+      "title": "How Much You Should Spend on Marketing",
+      "video_id": "pFtemQ11uvA",
+      "platform": "youtube",
+      "url": "https://youtu.be/pFtemQ11uvA",
+      "duration_min": 7,
+      "creator": "dan-martell",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "build",
+      "tags": [
+        "marketing",
+        "entrepreneurship",
+        "dan-martell"
+      ],
+      "keywords": [
+        "marketing",
+        "entrepreneurship",
+        "dan martell",
+        "Marketing spend as a share of gross",
+        "CAC payback under 30 days"
+      ],
+      "summary": "dan-martell (~7 min, auto English). The feed title is the 30-day rule. The transcript title is how much to spend. His buddy Matt's floor is 5 to 10 percent of gross income, then Martell settles on 10 percent as the minimum, 15 percent to grow, and 20 to 25 percent as a \"throat punch to the market.\" Marketing is labor, software, space, and agency fees, not only ads.\n\nA machine is one that can take a large sum and place it. He uses $1 million and $10 million. If you would freeze, you have not done the growth map. Once production works, put in every dollar you can spend efficiently. He cites Gary Vaynerchuk growing VaynerMedia by not caring about profit, and MrBeast putting every dollar into the next video. People hold back for lifestyle costs or because they do not trust an unbuilt system.\n\ncac-payback-under-30-days is the second rule. Worked example: $5,000 to acquire a customer and $2,000 a month of gross margin is five months. His target is under 30 days, so the first sale funds the next customer and growth can run on a credit card. Longer than that, while scaling, is what he says venture capital is for. In software, net dollar retention turns a free user into a growing bill. Slack, Dropbox, and HubSpot move from free toward about $800 or $2,000 a month. He describes a $5,000 cost, a 12-month payback, and about $26,000 earned later. The operator who gets a dollar back fastest can keep buying growth.",
+      "key_insights": [
+        "Count people and tools inside the marketing percent, not only the campaign.",
+        "10 percent of gross is the floor he repeats. 15 percent grows. 20 to 25 percent is the throat punch.",
+        "If you cannot place a large sum, you do not have a machine.",
+        "Under 30 days of CAC payback is how he funds growth without outside capital."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "marketing-spend-as-gross-share",
+          "title": "Marketing spend as a share of gross",
+          "e": "📊"
+        },
+        {
+          "slug": "cac-payback-under-30-days",
+          "title": "CAC payback under 30 days",
+          "e": "💳"
+        }
+      ],
+      "conceptCount": 2
+    },
+    {
+      "slug": "i-tested-the-viral-reverse-engineering-repo",
+      "title": "I Tested the Viral Reverse Engineering Repo (What You Need to Know)",
+      "video_id": "8rBiTpcoTrM",
+      "platform": "youtube",
+      "url": "https://youtu.be/8rBiTpcoTrM",
+      "duration_min": 17,
+      "creator": "jack-roberts",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "reverse-engineering",
+        "saas"
+      ],
+      "keywords": [
+        "agents",
+        "reverse engineering",
+        "saas",
+        "jack roberts",
+        "Rebuild the behavior"
+      ],
+      "summary": "jack-roberts (~17 min, auto English). He tests a reverse-engineering skill he calls Ria inside base44, the sponsor. The skill reads UI, logic, and data. He says the repo is 420,000 lines of TypeScript and that 789 of those lines are pulled into the skill, and that this path is faster than the same job in Claude or ChatGPT.\n\nThree one-shot clones, each renamed. Calendly: Google sign-in, weekday hours, a 15-minute booking link, name and email checks, and a confirmation email. A second prompt adds meeting edits, emoji, and a required question such as annual revenue. He puts that saving at $10 to $20. Typeform, renamed Ask: multiple choice, short text, a 1–10 rating, a public link, and a results view. He calls that about 80 percent (build questions, change types, collect answers, share). One more prompt adds preview and a yes/no question. He says form tools can run to $400. Trello, renamed Lanes: drag cards, covers, checklists, and an email invite that adds a second user. A stretched cover and no explicit save button are the leftover gaps.\n\nThe rule is rebuild-the-behavior. Write the feature list, add UI inspiration, ship it under your own name. Leave their code, images, logos, and paid features alone. Build versus subscribe turns on complexity and the value of your time. A $200 or $1,000 monthly tool that AI can replace in a day or two is the interesting case. A $20 to $100 tool that would take a long time, without a team of experts, is a weaker trade.",
+      "key_insights": [
+        "One shot gets the core product. The rest is a short list of missing behaviors.",
+        "He treats 80 percent as create, change type, collect, and share.",
+        "Copying the binary or the brand is the mistake. A feature list plus your own UI is the method.",
+        "The build is worth it when the subscription is expensive relative to the time the rebuild would take."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "rebuild-the-behavior",
+          "title": "Rebuild the behavior",
+          "e": "🏷️"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "im-39-what-i-wish-i-knew-at-30",
+      "title": "I’m 39. Here’s What I Wish I Knew at 30",
+      "video_id": "UVrH0lx9qvA",
+      "platform": "youtube",
+      "url": "https://youtu.be/UVrH0lx9qvA",
+      "duration_min": 21,
+      "creator": "charisma-on-command",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "mind",
+      "tags": [
+        "psychology",
+        "charisma",
+        "personal-growth"
+      ],
+      "keywords": [
+        "psychology",
+        "charisma",
+        "personal growth",
+        "charisma on command",
+        "Deferred feeling compounds",
+        "Love and boundary in the same sentence"
+      ],
+      "summary": "Charlie on charisma-on-command (~21 min, auto English) reads notes he started years ago. His 20s ran on optimization and deferred feeling. His 30s were the bill: body, relationships, and work he was already smart enough to fix. Gossip and complaining were unprocessed anger, often aimed at a stand-in. Months or years without crying were unprocessed grief. Unfelt pain numbs beauty, so getting what you want stops mattering.\n\nAbout 20 minutes of breathwork brought up slights he had dismissed. On his best mornings he picks a song, goes into a private room, and moves strangely. He found that better for feeling good than lifting and better for loosening than stretching. Sweetness he could only reach with a partner (Disney nights, ice cream) left him stuck on that relationship after the breakup. love-and-boundary-same-sentence is \"I love you, no.\" He used to shut love off before he could separate. Firing someone after many violations went more easily once he opened with \"I love you. This is so hard.\" The paired line is \"it just doesn't feel right for me.\" The gut is subjective fit, not an objective verdict.\n\nRising status changed what people showed him. As a waiter he overheard people who were not performing. With a million subscribers and salaries on offer, closeness paid. Shared mission is a track record: if they loved charisma they would already have written about it. Persuasion past a point is a liability. Inspiring halftime speeches won an enthusiastic yes that collapsed under challenge. Morality he enforced from fear (15 percent because churches say 10, quitting meat to stay in the clear) was his head doing what it did not trust his heart to do. He paused charitable giving for a year or two, then gave again from connection, and he pairs that with a felt limit.\n\nHe wants relatives' life stories while they can tell them. His grandfather had started a public-speaking and charisma business he never knew about. The phases he names are complacency, optimization, feeling, then spirituality. He keeps the introverted kid and the optimizer. At 17 he had drafted chapters of an atheism book and thought Sam Harris and Christopher Hitchens had settled the argument. He now tells his 30-year-old self that he is a soul, and that breathwork, dance, and psychedelics done safely with a facilitator connected him to something larger than the day-to-day ego.",
+      "key_insights": [
+        "Deferred feeling compounds. The 30s are when the 20s invoice arrives.",
+        "Breathwork and private dance are how he feels on purpose, without a partner as the only door.",
+        "Love and no belong in the same sentence. The gut is fit, not a verdict.",
+        "Judge mission by what they already did, and do not oversell the vision before they show a track record."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "deferred-feeling-compounds",
+          "title": "Deferred feeling compounds",
+          "e": "📆"
+        },
+        {
+          "slug": "love-and-boundary-same-sentence",
+          "title": "Love and boundary in the same sentence",
+          "e": "💬"
+        }
+      ],
+      "conceptCount": 2
+    },
+    {
+      "slug": "its-not-just-you",
+      "title": "It’s not just you",
+      "video_id": "FlWII9xFabo",
+      "platform": "youtube",
+      "url": "https://youtu.be/FlWII9xFabo",
+      "duration_min": 19,
+      "creator": "the-primeagen",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "programming",
+        "the-primeagen"
+      ],
+      "keywords": [
+        "agents",
+        "programming",
+        "the primeagen",
+        "Slop, then rebuild"
+      ],
+      "summary": "the-primeagen (~19 min, auto English). The feed title is \"The Struggle is Real.\" He answers a viral question about what people struggle with most in AI and software engineering, about 255,000 views and 336 comments. Sponsor block is Sentry, played as a sketch about an agent gaslighting him. The complaints he treats as real are flaky generated test suites, broken focus while agents run, weekly hype, walls of text, and juniors who never see what good looks like.\n\nA feature that changes on the order of 100 tests should frighten you. Agents keep adding end-to-end tests until a simple CRUD app has thousands or tens of thousands of them. Those suites are slow and flaky. He says every company he has worked in has had end-to-end problems, so you still have to decide what you are actually testing. A 10, 15, or 20 minute wait pushes him to start another task until he is running four and is lost. He can answer Discord or Slack beside one feature. He caps real development at one or two tasks. Three starts to slip. Four means he is gone.\n\nHow people used agents a year ago was drastically different from today, and different again from two years ago, so missing this week's practice is a weak reason to panic. He says Jev was not even around two weeks earlier. At React Miami, four or five months before this video, people from San Francisco were convinced AI would recreate Vercel in six months with no mistakes. He grants that someone ignorant of a domain can ship working software in some categories. He rejects \"no mistakes\" as a path to a 10-year service that serves millions of people.\n\nTold to list repository patterns with no narrative, the model still writes a narrative about having no narrative. A point that fits in one sentence shows up as about 400 words. Grug-speak shortens the output into a paragraph he still cannot read. slop-then-rebuild is his ownership method. Use the model to explore a first version, then redesign the same features. Line count is his check that he understood the system. The careful rebuild is about half or a quarter of the code. This project is heading from roughly 100,000 lines toward 25,000 to 30,000. The work is the Omachi automation and Oligoti, an agentic OS testing framework: an automation server, clients, custom harnesses, and a distributed way to spawn servers. Juniors have the shortest stick because the model never challenges a bad idea, it returns a thousand-line PR, and teams expect senior speed from a tool the junior does not yet understand. Hiring today, he would take the person who can specify the tests, the server layout, and the CLI trade-offs over the person who pastes instructions into a box and merges when the spinner stops.",
+      "key_insights": [
+        "A hundred changed tests is a smell. You still have to choose what the suite is for.",
+        "One or two real tasks. Four concurrent features and he is gone.",
+        "This week's required workflow will not be next year's. Jev itself was two weeks old on this tape.",
+        "Ownership is the second build. Same features, a quarter to a half of the lines."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "slop-then-rebuild",
+          "title": "Slop, then rebuild",
+          "e": "📉"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "sloppy-one-shot-saas-replacements",
+      "title": "Please… Enough with the Sloppy, One-Shot SaaS Replacements — Mahmoud Abdelwahab, Railway",
+      "video_id": "oixzVKMAXG0",
+      "platform": "youtube",
+      "url": "https://youtu.be/oixzVKMAXG0",
+      "duration_min": 14,
+      "creator": "ai-engineer",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "product",
+        "ai-engineer"
+      ],
+      "keywords": [
+        "agents",
+        "product",
+        "ai engineer",
+        "Daily use patterns agents skip"
+      ],
+      "summary": "mahmoud-abdelwahab of railway on ai-engineer (~14 min, auto English, recorded on a bench in Edinburgh, October 2026). \"SaaS is dead, just ask your agent\" skips the gap between one-shot working software and software you would actually use. At Railway he replaced several marketing tools with one internal app: site, changelog, and blog content, email, simultaneous social posting, media, a mini CRM for external creators, tasks, launch planning, a calendar, comments, and realtime editing. Built with agents and auto-deployed on Railway. He felt the breakthrough when GPT-6 arrived. He warns the landscape may change within months.\n\ndaily-use-patterns-agents-skip. A structured codebase matters more than the language. The agent follows existing patterns. His default is TanStack libraries on the web and Payload for content, after comparing CMSs rather than building one from scratch. Agents skip daily-use patterns unless you name them: non-blocking autosave plus blocking the tab from closing while edits are unsaved, realtime collaboration (he jokes \"700 million tokens later\"), optimistic UI with rollback when the sync fails, a short undo window instead of confirm-then-delete, archive and unarchive, filters and sorts stored in the URL, and infinite scroll instead of next-page clicks.\n\nPoint the agent at an existing page as the reference for UI, data fetching, and structure so similar list-and-CRUD surfaces stay identical. It sometimes ignores the reference. Naming one raises his success rate. Package the opinions as agent skills. He kept three: UI, typography, layout, and error messages; animation and design engineering; and Railway's skills so the agent could deploy the app, buckets, databases, and the realtime server. Verification is the step that matters most. A green build and passing tests still left broken flows. A computer-use loop that runs the real infrastructure, tries the feature end to end, fails, and fixes it is what made the tools solid.",
+      "key_insights": [
+        "One-shot working software is not software a team will use every day.",
+        "Name the product patterns. The agent will not invent autosave, undo, URL state, or infinite scroll.",
+        "An existing page is the reference. Skills hold the opinions.",
+        "The loop that matters is use the feature on the real stack, fail, and fix."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "daily-use-patterns-agents-skip",
+          "title": "Daily-use patterns agents skip",
+          "e": "💾"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "why-ubi-isnt-enough",
+      "title": "Why UBI isn't enough",
+      "video_id": "8XsbzhuM3ns",
+      "platform": "youtube",
+      "url": "https://youtu.be/8XsbzhuM3ns",
+      "duration_min": 9,
+      "creator": "david-shapiro",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "agents",
+      "tags": [
+        "economics",
+        "automation",
+        "david-shapiro"
+      ],
+      "keywords": [
+        "economics",
+        "automation",
+        "david shapiro",
+        "Three income pipes"
+      ],
+      "summary": "david-shapiro (~9 min, auto English) shrinks the economy to one kitchen table. The Riveras: Jordan earns $52,000 as a logistics coordinator. Sam earns $23,400 as a pharmacy tech (30 hours at $15). Tax credits are about $2,100. Savings interest plus index-fund dividends are $500. Total $78,000. Shares: about 96.7 percent wages, 2.7 percent transfers, 0.6 percent capital. For every $156 that arrives, $1 comes from ownership.\n\nAn automated pharmacy dispenser keeps one technician per shift instead of three. Wages drop from $75,400 to $52,000. Total income falls to $54,600 before temporary unemployment benefits. The monthly budget goes from about $6,500 to about $4,550. The $500 capital pipe covers about two days of expenses. Their $8,000 in savings would last a little over five weeks at the old pace. Replacing Sam's $23,400 from capital would take $585,000 of assets at 4 percent, or $780,000 at 3 percent. On the Federal Reserve's $400 surprise-expense question, roughly six in ten adults could cover it with cash, so about four in ten would have to borrow, sell something, or go without.\n\nMargaret and Tom, retired and in their early 70s, have no wages. They receive $38,000 in Social Security and draw 4 percent ($32,000) from an $800,000 portfolio, for $70,000 total, about 10 percent less than the Riveras before the layoff. A new machine at a pharmacy cannot touch it. three-income-pipes: which pipe a policy widens, who gets access, and whether it still works when fewer people are paid for labor. A minimum wage increase widens wages for people who still have jobs. A child allowance widens transfers. A sovereign wealth fund, an employee ownership plan, or a baby bond program widens capital, the pipe he says grows by compounding on its own.",
+      "key_insights": [
+        "One working household on this tape is about 97 percent wages.",
+        "Losing one job drops income by about a third. The capital pipe covers about two days.",
+        "Replacing that paycheck at 4 percent takes $585,000.",
+        "The retired couple's similar income does not depend on an employer still needing their labor."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "three-income-pipes",
+          "title": "Three income pipes",
+          "e": "🏠"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "why-we-blew-up-four-dams",
+      "title": "Why We Blew Up Four Dams — and Saved a River | Amy Bowers Cordalis | TED",
+      "video_id": "9i1LVL3_xpU",
+      "platform": "youtube",
+      "url": "https://youtu.be/9i1LVL3_xpU",
+      "duration_min": 13,
+      "creator": "ted",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "other",
+      "tags": [
+        "environment",
+        "indigenous",
+        "ted"
+      ],
+      "keywords": [
+        "environment",
+        "indigenous",
+        "ted",
+        "Klamath balance instructions"
+      ],
+      "summary": "amy-bowers-cordalis, general counsel for the Yurok Nation, on ted (~13 min, English, not auto-generated). She treats her people's creation story as practical instructions: live in balance, take only what you need, give thanks, and protect what gives you life. The lower Klamath, in what is now Northern California, is home. Under their stewardship the salmon runs grew to the third largest in the continental US. Newcomers in the 1800s extracted gold, timber, water, land, and people.\n\nDams built without fish passage blocked salmon from more than 400 miles of historical spawning grounds, and runs fell to 5 percent of historical abundance. The reservoirs emitted methane equal to 64,000 cars a year. In 2002 more than 70,000 adult salmon died on the Klamath inside the Yurok Reservation, the largest salmon kill in US history. She went to law school, became the first tribal member and woman to serve as the nation's general counsel, and cofounded Ridges to Riffles Indigenous Conservation Group.\n\nLitigation forced the power company to install fish ladders to keep operating. Removal was cheaper. A $500 million settlement took out four dams in 2023 and 2024, the largest US dam removal and, as she tells it, the world's largest salmon restoration project, with restoration continuing through 2028. Three days after Iron Gate, the lowest dam, was breached, salmon swam past spawning grounds closed for 100 years. About 7,000 passed the former dam site the first year and 13,000 in 2025. A year later the river was cleaner, colder, and fiercer. Restoration crews have planted 20 billion native seeds. The recovering ecosystems, she says, could prevent 800,000 metric tons of CO2 a year over time. Tribes are hiring at living wages and returning to homelands through land-back efforts.",
+      "key_insights": [
+        "The creation story is a set of operating rules, not a parable she sets aside.",
+        "Fish ladders were the legal lever. Removal won because it was cheaper.",
+        "Salmon passed the old dam site within three days. 7,000 the first year, 13,000 in 2025.",
+        "The restoration number she repeats is 20 billion native seeds."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "klamath-balance-instructions",
+          "title": "Klamath balance instructions",
+          "e": "🐟"
+        }
+      ],
+      "conceptCount": 1
+    },
+    {
+      "slug": "you-dont-miss-your-ex",
+      "title": "Watch This If You Can't Move On After a Breakup",
+      "video_id": "sIKsI1qAZdQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/sIKsI1qAZdQ",
+      "duration_min": 19,
+      "creator": "jay-shetty",
+      "updated": "2026-10-13",
+      "created": "2026-10-13",
+      "section": "relationships",
+      "tags": [
+        "relationships",
+        "psychology",
+        "jay-shetty"
+      ],
+      "keywords": [
+        "relationships",
+        "psychology",
+        "jay shetty",
+        "Grief of the hoped for person",
+        "Safe, seen, and supported"
+      ],
+      "summary": "jay-shetty (~19 min, auto English). The feed title says you miss who you hoped they were. The transcript title is the move-on line. After three people in one week were broken up with, blamed themselves, and wished it could be good again, he treats a breakup as grief of the future you expected, the person you thought they were, and who you were with them. grief-of-the-hoped-for-person: you miss the hoped-for version, the promised future, and the feeling that it was real. He cites rosy retrospection (Gilbert and Wilson 2000).\n\nSeven steps. Write what happened, what they did, and what they did not do. When people answer with future plans (moving in, a dog, marriage), he asks what the relationship was like. safe-seen-supported is the test. He says most people he coaches find two of the three were missing. Repeating the story is a processing loop, like a washing machine. Breakups, he says, hit the same brain regions as drug withdrawal. Stalking feeds, replaying memories, or asking what you did wrong strengthens the loop. Block, mute, delete, and remove playlists, photos, clothing, scents, and places, then replace rumination with movement and new mental work.\n\nWith no closure, negativity bias fills the gap with self-blame. Take responsibility without taking all the blame. Relationships end from mismatched timing, values, and character. Red flags got ignored because being chosen felt better than being alone. Make a ritual the nervous system can register: write a letter and burn it unsent, bury a photo, or delete the thread and walk with no phone. Pain means you cared. He says emotional pain uses the same brain regions as physical injury, and that being left out of a group chat has been compared to a broken leg. Channel the fire into a redesigned space, a course, lifting, a passion, or writing. He names Jordan Peterson's \"productive aggression.\" After the breakup there is an identity gap. Pick one thing that is yours and act now from the person they never got to meet.",
+      "key_insights": [
+        "The missing object is the hoped-for person and the promised future, not the week-to-week relationship.",
+        "Safe, seen, and supported. He says two of the three were usually missing.",
+        "Closure is a ritual you perform. Waiting for them gives the power away.",
+        "Pain is evidence you cared. It is not evidence you were meant to be."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "grief-of-the-hoped-for-person",
+          "title": "Grief of the hoped-for person",
+          "e": "💔"
+        },
+        {
+          "slug": "safe-seen-supported",
+          "title": "Safe, seen, and supported",
+          "e": "🪞"
+        }
+      ],
+      "conceptCount": 2
+    },
     {
       "slug": "3-speaking-habits-stop-interrupting",
       "title": "3 Speaking Habits That Stop People From Interrupting You",

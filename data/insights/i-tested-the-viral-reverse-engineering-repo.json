@@ -1,0 +1,45 @@
+{
+  "slug": "i-tested-the-viral-reverse-engineering-repo",
+  "sections": [
+    {
+      "title": "What one shot gets",
+      "items": [
+        {
+          "e": "📅",
+          "q": "What did the Calendly clone do on the first prompt?",
+          "a": "Google sign-in, weekday hours, a **15-minute booking link**, name and email checks, and a **confirmation email**. A second prompt adds edits, emoji, and a required question. He puts the saving at **$10 to $20**."
+        },
+        {
+          "e": "📋",
+          "q": "What does he count as the 80 percent of Typeform?",
+          "a": "Build questions, change types, **collect answers**, and share. Ask has multiple choice, short text, and a **1–10 rating**. Preview and a yes/no question are one more prompt. He says form tools can run to **$400**."
+        }
+      ]
+    },
+    {
+      "title": "What you do not copy",
+      "items": [
+        {
+          "e": "🏷️",
+          "q": "What is the line between inspiration and a copy?",
+          "a": "Write the **feature list** and ship it under your own name. Leave their **code, images, logos, and paid features** alone. Lanes got drag, covers, checklists, and an invite. A stretched cover and no save button are the leftover gaps."
+        },
+        {
+          "e": "💸",
+          "q": "When is the rebuild worth the time?",
+          "a": "A **$200 or $1,000** monthly tool that AI can replace in **a day or two**. A **$20 to $100** tool that would take a long time, without a team of experts, is the weaker trade."
+        }
+      ]
+    },
+    {
+      "title": "The skill itself",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What does he say Ria actually is?",
+          "a": "**420,000 lines** of TypeScript, with **789** pulled into the reverse-engineering skill. It reads **UI, logic, and data**. He says that path is faster than the same job in Claude or ChatGPT."
+        }
+      ]
+    }
+  ]
+}
