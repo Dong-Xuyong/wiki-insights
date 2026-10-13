@@ -46,6 +46,10 @@
   let biliVideo = null;
   let biliVideoId = null;
   let biliSaveTimer = null;
+  let agentEntries = [];
+  const AGENT_APP_ID = "wiki-insights-agent";
+  const AGENT_KINDS = new Set(["ingested", "insight", "skipped", "note"]);
+  const AGENT_ID_RE = /^[a-z0-9_-]+$/;
 
   function esc(s) {
     return String(s ?? "").replace(/[&<>"']/g, (m) =>
@@ -1096,6 +1100,11 @@
                   ? `<span class="content-badge">Summary only</span>`
                   : ""
               }
+              ${
+                agentEntriesForVideo(video).length
+                  ? `<span class="agent-marker">added by agent</span>`
+                  : ""
+              }
             </div>
           </div>
         </div>
@@ -1277,6 +1286,7 @@
         </div>
         <button type="button" id="view-progress" aria-label="Open progress">›</button>
       </section>
+      ${renderLooseAgentHtml()}
     `;
 
     bindSubscriptionSelect((next) => navigate(next ? `#/?sub=${encodeURIComponent(next)}` : "#/"));
@@ -1647,12 +1657,221 @@
     renderProgress();
   }
 
+  function safeHttpUrl(value) {
+    if (typeof value !== "string" || !value) return "";
+    try {
+      const url = new URL(value);
+      if (url.protocol !== "http:" && url.protocol !== "https:") return "";
+      return url.href;
+    } catch {
+      return "";
+    }
+  }
+
+  function normalizeAgentEntry(raw) {
+    if (!raw || typeof raw !== "object") return null;
+    const id = typeof raw.id === "string" ? raw.id : "";
+    const at = typeof raw.at === "string" ? raw.at : "";
+    const memberId = typeof raw.memberId === "string" ? raw.memberId : "";
+    const kind = typeof raw.kind === "string" ? raw.kind : "";
+    if (!AGENT_ID_RE.test(id) || !at || !memberId || !AGENT_KINDS.has(kind)) return null;
+    const links = [];
+    if (Array.isArray(raw.links)) {
+      for (const link of raw.links) {
+        if (!link || typeof link !== "object") continue;
+        const url = safeHttpUrl(link.url);
+        if (!url) continue;
+        const label = typeof link.label === "string" && link.label.trim() ? link.label.trim() : url;
+        links.push({ label, url });
+      }
+    }
+    const insights = Array.isArray(raw.insights)
+      ? raw.insights.filter((item) => typeof item === "string" && item.trim()).map((item) => item.trim())
+      : [];
+    const goals = Array.isArray(raw.goals)
+      ? raw.goals.filter((item) => typeof item === "string" && item.trim()).map((item) => item.trim())
+      : [];
+    const conceptSlugs = Array.isArray(raw.conceptSlugs)
+      ? raw.conceptSlugs.filter((item) => typeof item === "string" && AGENT_ID_RE.test(item))
+      : [];
+    const wikiPaths = Array.isArray(raw.wikiPaths)
+      ? raw.wikiPaths.filter((item) => typeof item === "string" && item.trim()).map((item) => item.trim())
+      : [];
+    const score = typeof raw.score === "number" && raw.score >= 1 && raw.score <= 5 ? raw.score : null;
+    return {
+      id,
+      at,
+      memberId,
+      kind,
+      links,
+      videoId: typeof raw.videoId === "string" ? raw.videoId : "",
+      slug: typeof raw.slug === "string" ? raw.slug : "",
+      title: typeof raw.title === "string" ? raw.title : "",
+      channel: typeof raw.channel === "string" ? raw.channel : "",
+      url: safeHttpUrl(raw.url),
+      score,
+      goals,
+      reason: typeof raw.reason === "string" ? raw.reason.trim() : "",
+      insights,
+      conceptSlugs,
+      wikiPaths,
+    };
+  }
+
+  /** Union by id. Existing ids stay as first read; nothing is edited or dropped. */
+  function unionAgentEntries(data) {
+    if (!data || typeof data !== "object" || Array.isArray(data)) return 0;
+    if (data.app && data.app !== AGENT_APP_ID) return 0;
+    const incoming = Array.isArray(data.entries) ? data.entries : [];
+    if (!incoming.length) return 0;
+    const byId = new Map(agentEntries.map((entry) => [entry.id, entry]));
+    let added = 0;
+    const fresh = [];
+    for (const raw of incoming) {
+      const entry = normalizeAgentEntry(raw);
+      if (!entry || byId.has(entry.id)) continue;
+      byId.set(entry.id, entry);
+      fresh.push(entry);
+      added += 1;
+    }
+    if (!added) return 0;
+    agentEntries = agentEntries.concat(fresh);
+    return added;
+  }
+
+  function agentEntryMatches(entry, video) {
+    if (!entry || !video) return false;
+    if (entry.videoId && video.video_id && entry.videoId === video.video_id) return true;
+    if (entry.slug && video.slug && entry.slug === video.slug) return true;
+    return false;
+  }
+
+  function agentEntriesForVideo(video) {
+    return agentEntries.filter((entry) => agentEntryMatches(entry, video));
+  }
+
+  function agentMarkerHtml() {
+    return `<span class="agent-marker">added by agent</span>`;
+  }
+
+  function formatAgentWhen(at) {
+    const date = new Date(at);
+    if (Number.isNaN(date.getTime())) return "";
+    return date.toLocaleString(undefined, { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+  }
+
+  function agentMetaHtml(entry) {
+    const when = formatAgentWhen(entry.at);
+    return `<p class="agent-meta">${esc(entry.memberId)} · ${esc(entry.kind)}${when ? ` · ${esc(when)}` : ""}</p>`;
+  }
+
+  function agentLinksHtml(entry) {
+    if (!entry.links.length) return "";
+    return `<div class="agent-links">${entry.links
+      .map(
+        (link) =>
+          `<a href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">${esc(link.label)}</a>`
+      )
+      .join("")}</div>`;
+  }
+
+  function agentEntryCardHtml(entry, bodyHtml) {
+    return `<article class="agent-entry" data-agent-id="${esc(entry.id)}">${agentMetaHtml(entry)}${
+      bodyHtml || ""
+    }${agentLinksHtml(entry)}</article>`;
+  }
+
+  function agentSectionHtml(title, entries, bodyFn) {
+    if (!entries.length) return "";
+    return `<section class="agent-block"><h2 class="section-title">${esc(title)} ${agentMarkerHtml()}</h2>${entries
+      .map((entry) => agentEntryCardHtml(entry, bodyFn(entry)))
+      .join("")}</section>`;
+  }
+
+  function agentEntryBody(entry) {
+    const bits = [];
+    if (entry.title) bits.push(`<p class="agent-title">${esc(entry.title)}</p>`);
+    if (entry.channel) bits.push(`<p>${esc(entry.channel)}</p>`);
+    if (entry.score) bits.push(`<p>Score ${esc(entry.score)}/5</p>`);
+    if (entry.reason) bits.push(`<p>${esc(entry.reason)}</p>`);
+    if (entry.insights.length) {
+      bits.push(`<ul class="key-list">${entry.insights.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`);
+    }
+    if (entry.goals.length) bits.push(`<p>${entry.goals.map((goal) => esc(goal)).join(" · ")}</p>`);
+    if (entry.conceptSlugs.length) {
+      bits.push(
+        `<div class="concept-grid">${entry.conceptSlugs
+          .map(
+            (slug) =>
+              `<a class="concept-chip" href="${esc(
+                `${FLASHCARDS_URL}#/c/${encodeURIComponent(slug)}`
+              )}"><span class="concept-name">${esc(slug)}</span></a>`
+          )
+          .join("")}</div>`
+      );
+    }
+    if (entry.wikiPaths.length) {
+      bits.push(
+        `<ul class="key-list">${entry.wikiPaths.map((path) => `<li><code>${esc(path)}</code></li>`).join("")}</ul>`
+      );
+    }
+    return bits.join("");
+  }
+
+  function paintAgentNotes() {
+    const slot = document.getElementById("agent-notes");
+    if (!slot || !currentVideo) return;
+    slot.innerHTML = agentSectionHtml("Agent notes", agentEntriesForVideo(currentVideo), agentEntryBody);
+  }
+
+  function renderLooseAgentHtml() {
+    const library = allVideos();
+    const loose = agentEntries.filter((entry) => !library.some((video) => agentEntryMatches(entry, video)));
+    if (!loose.length) return "";
+    return `<section class="home-section" aria-labelledby="agent-loose-title">
+      <div class="section-heading">
+        <div><span class="eyebrow">Not in the library</span><h2 id="agent-loose-title">Agent notes ${agentMarkerHtml()}</h2></div>
+      </div>
+      ${loose.map((entry) => agentEntryCardHtml(entry, agentEntryBody(entry))).join("")}
+    </section>`;
+  }
+
+  function refreshAgentNotes() {
+    const current = parseRoute();
+    if (current.name === "detail") {
+      paintAgentNotes();
+      return;
+    }
+    const y = window.scrollY;
+    route().then(() => window.scrollTo({ top: y, behavior: "auto" }));
+  }
+
+  /**
+   * Read-only. A missing or empty side file adds nothing and raises no error.
+   * Never passed to GhSync.save or GhSync.load.
+   */
+  function readAgentInsights() {
+    if (!window.GhSync || typeof GhSync.read !== "function") return Promise.resolve(0);
+    return GhSync.read(AGENT_APP_ID).then(
+      (data) => unionAgentEntries(data),
+      () => 0
+    );
+  }
+
   function githubSync(mode) {
     if (!window.GhSync) return toast("GitHub sync unavailable");
-    const run = mode === "save"
-      ? GhSync.save("wiki-insights", completedPayload, applyCompleted)
-      : GhSync.load("wiki-insights", applyCompleted);
-    run.then((msg) => { toast(msg); renderProgress(); }, (e) => toast(e.message));
+    const run =
+      mode === "save"
+        ? GhSync.save("wiki-insights", completedPayload, applyCompleted)
+        : GhSync.load("wiki-insights", applyCompleted);
+    const agent = readAgentInsights();
+    run.then(
+      (msg) => agent.then(() => {
+        toast(msg);
+        renderProgress();
+      }),
+      (err) => agent.then(() => toast(err.message))
+    );
   }
 
   function renderInsightsHtml(pack) {
@@ -1790,10 +2009,12 @@
         videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
       }</h1>
       <div id="detail-labels" class="detail-labels"></div>
+      <div id="agent-notes"></div>
       ${keywordChips(v.keywords, 8)}
       <div id="detail-body" role="tabpanel" tabindex="0"><div class="empty">Loading…</div></div>
     `;
     paintDetailLabels();
+    paintAgentNotes();
     root.querySelectorAll(".kw-chip").forEach((chip) => {
       chip.addEventListener("click", () => {
         navigate(
@@ -2141,6 +2362,9 @@
   });
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") persistPlayerTime();
+    else readAgentInsights().then((added) => {
+      if (added) refreshAgentNotes();
+    });
   });
 
   loadLocal();
@@ -2154,6 +2378,10 @@
       CATALOG = data;
       bootstrapGamification();
       return route();
+    })
+    .then(() => readAgentInsights())
+    .then((added) => {
+      if (added) refreshAgentNotes();
     })
     .catch((err) => {
       root.innerHTML = `<div class="empty">Failed to load catalog.<br/>${esc(err.message)}</div>`;

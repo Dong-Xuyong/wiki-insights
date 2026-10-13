@@ -1298,6 +1298,52 @@ mark.hl {
   text-align: center;
 }
 
+.agent-marker {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.42rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.62rem;
+  font-weight: 750;
+  line-height: 1.2;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.video-card-labels .agent-marker {
+  margin-left: 0;
+  min-height: 24px;
+  padding: 0.16rem 0.48rem;
+}
+.agent-block { margin-top: 0.35rem; }
+.agent-entry {
+  margin: 0 0 0.75rem;
+  padding: 0.75rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+}
+.agent-entry p { margin: 0.25rem 0; }
+.agent-title { font-weight: 700; color: var(--text); }
+.agent-meta {
+  margin-top: 0;
+  color: var(--text-mute);
+  font-size: 0.72rem;
+}
+.agent-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+  margin-top: 0.45rem;
+}
+.agent-links a {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
 /* FAB */
 .fab {
   position: fixed;
