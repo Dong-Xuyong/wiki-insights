@@ -1,0 +1,35 @@
+{
+  "slug": "every-app-is-now-open-source",
+  "sections": [
+    {
+      "title": "The Adobe clones",
+      "items": [
+        {
+          "e": "🎨",
+          "q": "What is ArtCraft, on this tape?",
+          "a": "Brandon Thomas rebuilt **seven Creative Cloud apps** in Rust with Claude and open-sourced them, including **Linux**, which Adobe has never officially supported. The trigger was repeated **cancellation fees**."
+        },
+        {
+          "e": "🎬",
+          "q": "Why did FilmCraft fail the edit?",
+          "a": "The UI is a near **one-to-one** of Premiere. Timeline playback **lagged** and the transitions were far below Premiere. He still pays Adobe **$69 a month**. DaVinci Resolve has been an alternative for **over 20 years**."
+        }
+      ]
+    },
+    {
+      "title": "Read the binary",
+      "items": [
+        {
+          "e": "🔍",
+          "q": "What does reverse-engineer-anything hand back?",
+          "a": "Run with **Node and npx**. **Ghidra** does the read-only analysis of native EXEs and DLLs and returns **C-like pseudocode**, assembly, strings, symbols, calls, and references. He points that at one Premiere timeline feature."
+        },
+        {
+          "e": "🦀",
+          "q": "What is Premiere Light?",
+          "a": "An agent rewrite, in **Rust**, of the features he actually uses. The Supabase sketch he calls **Studbase** comes from REA's network analysis. He says that **speed benchmark was made up**."
+        }
+      ]
+    }
+  ]
+}

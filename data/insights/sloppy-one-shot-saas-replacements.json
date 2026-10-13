@@ -1,0 +1,35 @@
+{
+  "slug": "sloppy-one-shot-saas-replacements",
+  "sections": [
+    {
+      "title": "The gap",
+      "items": [
+        {
+          "e": "✨",
+          "q": "What is missing from “just ask your agent”?",
+          "a": "The gap between **one-shot working software** and software you would use every day. At Railway he folded site, changelog, blog, email, social, media, a **mini CRM**, tasks, and realtime editing into one app. He felt the breakthrough when **GPT-6** arrived."
+        },
+        {
+          "e": "🧱",
+          "q": "Why does the codebase matter more than the language?",
+          "a": "The agent **follows existing patterns** instead of inventing them. His defaults are **TanStack** on the web and **Payload** for content. He compared CMSs rather than building one."
+        }
+      ]
+    },
+    {
+      "title": "Name the patterns",
+      "items": [
+        {
+          "e": "💾",
+          "q": "Which daily-use patterns do agents skip?",
+          "a": "**Non-blocking autosave**, block close on unsaved edits, realtime collaboration, **optimistic UI with rollback**, a short **undo** window, archive, **URL state** for filters, and **infinite scroll**."
+        },
+        {
+          "e": "✅",
+          "q": "What is the step after a green build?",
+          "a": "A **computer-use loop** on the real infrastructure. The agent tries the feature **end to end**, fails, and fixes it. Passing tests still left **broken flows**. Opinions live in **three skills**: UI, animation, and Railway deploy."
+        }
+      ]
+    }
+  ]
+}

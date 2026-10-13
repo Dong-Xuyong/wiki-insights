@@ -1,0 +1,35 @@
+{
+  "slug": "its-not-just-you",
+  "sections": [
+    {
+      "title": "The complaints he keeps",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "When should a changed test suite frighten you?",
+          "a": "On the order of **100 tests**. Agents add end-to-end tests until a simple CRUD app has **thousands or tens of thousands**. He says every company he has worked in has had **end-to-end problems**."
+        },
+        {
+          "e": "🎯",
+          "q": "How many real tasks can he run at once?",
+          "a": "**One or two.** A **10, 15, or 20 minute** wait tempts a third and a fourth. At four he is gone. Slack beside one feature is fine. Two features at once is the edge."
+        }
+      ]
+    },
+    {
+      "title": "The second build",
+      "items": [
+        {
+          "e": "📉",
+          "q": "How does he get ownership back?",
+          "a": "**Slop it to explore**, then design the same features. The careful rebuild is about **half or a quarter** of the lines. This project is heading from roughly **100,000** lines toward **25,000 to 30,000**."
+        },
+        {
+          "e": "🧑‍💻",
+          "q": "Who would he hire?",
+          "a": "The person who can specify the **tests**, the **server layout**, and the **CLI trade-offs**. Not the person who pastes instructions and merges when the spinner stops. The model **never challenges a bad idea**."
+        }
+      ]
+    }
+  ]
+}
