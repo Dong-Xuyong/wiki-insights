@@ -1788,16 +1788,40 @@
       .join("")}</section>`;
   }
 
-  function agentEntryBody(entry) {
+  function agentDisplayText(value) {
+    if (typeof value !== "string") return "";
+    const text = value.replace(/\s+/g, " ").trim();
+    return text && !isAgentPlaceholder(text) ? text : "";
+  }
+
+  function isAgentPlaceholder(text) {
+    const normalized = text.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.。]+$/, "");
+    if (!normalized) return true;
+    if (/^\((?:no|none|n\/a|na|empty|not available|unavailable)\b[^)]*\)$/.test(normalized)) return true;
+    if (normalized === "no structured insights in report") return true;
+    return /^(?:n\/a|na|none|null|undefined|empty|-|—|–)$/.test(normalized);
+  }
+
+  function agentDisplayList(items) {
+    return (Array.isArray(items) ? items : []).map((item) => agentDisplayText(item)).filter(Boolean);
+  }
+
+  function agentEntryBody(entry, options = {}) {
     const bits = [];
-    if (entry.title) bits.push(`<p class="agent-title">${esc(entry.title)}</p>`);
-    if (entry.channel) bits.push(`<p>${esc(entry.channel)}</p>`);
+    const title = options.omitTitle ? "" : agentDisplayText(entry.title);
+    const channel = options.omitChannel ? "" : agentDisplayText(entry.channel);
+    const reason = options.omitReason ? "" : agentDisplayText(entry.reason);
+    const insights = agentDisplayList(entry.insights);
+    const goals = agentDisplayList(entry.goals);
+    const wikiPaths = agentDisplayList(entry.wikiPaths);
+    if (title) bits.push(`<p class="agent-title">${esc(title)}</p>`);
+    if (channel) bits.push(`<p>${esc(channel)}</p>`);
     if (entry.score) bits.push(`<p>Score ${esc(entry.score)}/5</p>`);
-    if (entry.reason) bits.push(`<p>${esc(entry.reason)}</p>`);
-    if (entry.insights.length) {
-      bits.push(`<ul class="key-list">${entry.insights.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`);
+    if (reason) bits.push(`<p>${esc(reason)}</p>`);
+    if (insights.length) {
+      bits.push(`<ul class="key-list">${insights.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`);
     }
-    if (entry.goals.length) bits.push(`<p>${entry.goals.map((goal) => esc(goal)).join(" · ")}</p>`);
+    if (goals.length) bits.push(`<p>${goals.map((goal) => esc(goal)).join(" · ")}</p>`);
     if (entry.conceptSlugs.length) {
       bits.push(
         `<div class="concept-grid">${entry.conceptSlugs
@@ -1810,12 +1834,50 @@
           .join("")}</div>`
       );
     }
-    if (entry.wikiPaths.length) {
+    if (wikiPaths.length) {
       bits.push(
-        `<ul class="key-list">${entry.wikiPaths.map((path) => `<li><code>${esc(path)}</code></li>`).join("")}</ul>`
+        `<ul class="key-list">${wikiPaths.map((path) => `<li><code>${esc(path)}</code></li>`).join("")}</ul>`
       );
     }
     return bits.join("");
+  }
+
+  function agentLooseLabel(entry) {
+    const title = agentDisplayText(entry.title);
+    if (title) return { label: title, omit: "title" };
+    const reason = agentDisplayText(entry.reason);
+    if (reason) return { label: reason, omit: "reason" };
+    const channel = agentDisplayText(entry.channel);
+    if (channel) return { label: channel, omit: "channel" };
+    return { label: entry.kind || "Note", omit: "" };
+  }
+
+  function agentLooseHasContent(entry) {
+    return Boolean(
+      agentDisplayText(entry.title) ||
+        agentDisplayText(entry.channel) ||
+        entry.score ||
+        agentDisplayText(entry.reason) ||
+        agentDisplayList(entry.insights).length ||
+        agentDisplayList(entry.goals).length ||
+        entry.conceptSlugs.length ||
+        agentDisplayList(entry.wikiPaths).length ||
+        entry.links.length
+    );
+  }
+
+  function agentLooseNoteHtml(entry) {
+    const { label, omit } = agentLooseLabel(entry);
+    const body = agentEntryBody(entry, {
+      omitTitle: true,
+      omitReason: omit === "reason",
+      omitChannel: omit === "channel",
+    });
+    const links = agentLinksHtml(entry);
+    return `<details class="agent-entry agent-note">
+      <summary class="agent-title"><span class="agent-note-label">${esc(label)}</span><span class="agent-chevron" aria-hidden="true"></span></summary>
+      <div class="agent-note-body">${agentMetaHtml(entry)}${body}${links}</div>
+    </details>`;
   }
 
   function paintAgentNotes() {
@@ -1826,13 +1888,20 @@
 
   function renderLooseAgentHtml() {
     const library = allVideos();
-    const loose = agentEntries.filter((entry) => !library.some((video) => agentEntryMatches(entry, video)));
+    const loose = agentEntries.filter(
+      (entry) => agentLooseHasContent(entry) && !library.some((video) => agentEntryMatches(entry, video))
+    );
     if (!loose.length) return "";
     return `<section class="home-section" aria-labelledby="agent-loose-title">
-      <div class="section-heading">
-        <div><span class="eyebrow">Not in the library</span><h2 id="agent-loose-title">Agent notes ${agentMarkerHtml()}</h2></div>
-      </div>
-      ${loose.map((entry) => agentEntryCardHtml(entry, agentEntryBody(entry))).join("")}
+      <details class="agent-fold">
+        <summary class="agent-fold-summary">
+          <span class="eyebrow">Not in the library</span>
+          <h2 id="agent-loose-title">Agent notes (${loose.length}) <span class="agent-chevron" aria-hidden="true"></span>${agentMarkerHtml()}</h2>
+        </summary>
+        <div class="agent-fold-body">
+          ${loose.map((entry) => agentLooseNoteHtml(entry)).join("")}
+        </div>
+      </details>
     </section>`;
   }
 
