@@ -60,6 +60,171 @@
     return esc(s).replace(/\*\*([^*]+)\*\*/g, '<mark class="hl">$1</mark>');
   }
 
+  /** Inline marks only. Source is escaped first, so raw HTML cannot run. */
+  function markdownInline(source) {
+    return esc(source)
+      .replace(/`([^`]+)`/g, "<code>$1</code>")
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  }
+
+  function splitCells(row) {
+    const parts = String(row).split("|").map((cell) => cell.trim());
+    if (parts.length && parts[0] === "") parts.shift();
+    if (parts.length && parts[parts.length - 1] === "") parts.pop();
+    return parts;
+  }
+
+  function isSeparatorCells(cells) {
+    return (
+      cells.length >= 2 &&
+      cells.every((cell) => /^:?-+:?$/.test(cell)) &&
+      cells.some((cell) => /-{3,}/.test(cell))
+    );
+  }
+
+  function splitRowLine(line) {
+    const first = line.indexOf("|");
+    if (first === -1) return { prose: line.trim(), row: "", trail: "" };
+    const last = line.lastIndexOf("|");
+    if (last === first) {
+      if (!/^\s*\|/.test(line)) return { prose: line.trim(), row: "", trail: "" };
+      return { prose: line.slice(0, first).trim(), row: line.slice(first).trim(), trail: "" };
+    }
+    return {
+      prose: line.slice(0, first).trim(),
+      row: line.slice(first, last + 1),
+      trail: line.slice(last + 1).trim(),
+    };
+  }
+
+  function isSeparatorLine(line) {
+    const { row } = splitRowLine(line);
+    return !!row && isSeparatorCells(splitCells(row));
+  }
+
+  /**
+   * Concept copy is often stored as one line, so GFM tables and "- " lists
+   * lose their line breaks. Put those breaks back before parsing.
+   */
+  function restoreMarkdownBreaks(source) {
+    let text = String(source ?? "").replace(/\r\n/g, "\n");
+    const flat = !text.includes("\n");
+    if (flat && text.includes("|") && /-{3,}/.test(text)) {
+      text = text.replace(/\|\s+\|/g, "|\n|");
+    }
+    if (!flat) return text;
+    const marker = /:\s+-\s+/g;
+    let out = "";
+    let last = 0;
+    let match;
+    while ((match = marker.exec(text))) {
+      out += text.slice(last, match.index) + ":\n";
+      const rest = text.slice(match.index + match[0].length);
+      const stopMatch = rest.match(/\s+[A-Z][A-Za-z0-9]*(?:\s+[A-Za-z][A-Za-z0-9]*){0,5}:\s*(?:\||$)/);
+      const stop = stopMatch && stopMatch.index > 0 ? stopMatch.index : rest.length;
+      const items = rest
+        .slice(0, stop)
+        .split(/\s+-\s+/)
+        .map((item) => item.trim())
+        .filter(Boolean);
+      out += items.map((item) => `- ${item}`).join("\n");
+      if (stop < rest.length) out += "\n";
+      last = match.index + match[0].length + stop;
+      marker.lastIndex = last;
+    }
+    return out + text.slice(last);
+  }
+
+  function renderMarkdown(source) {
+    const text = restoreMarkdownBreaks(source).trim();
+    if (!text) return "";
+    const lines = text.split("\n");
+    const html = [];
+    for (let i = 0; i < lines.length; i++) {
+      if (!lines[i].trim()) continue;
+      if (i + 1 < lines.length && isSeparatorLine(lines[i + 1])) {
+        const header = splitRowLine(lines[i]);
+        if (header.prose) html.push(`<p>${markdownInline(header.prose)}</p>`);
+        const rows = [splitCells(header.row)];
+        let trail = header.trail;
+        i += 1;
+        while (!trail && i + 1 < lines.length) {
+          const next = splitRowLine(lines[i + 1]);
+          if (!next.row || next.prose || isSeparatorLine(lines[i + 1])) break;
+          if (!splitCells(next.row).length) break;
+          rows.push(splitCells(next.row));
+          trail = next.trail;
+          i += 1;
+        }
+        const head = rows[0].map((cell) => `<th>${markdownInline(cell)}</th>`).join("");
+        const body = rows
+          .slice(1)
+          .map(
+            (row) => `<tr>${row.map((cell) => `<td>${markdownInline(cell)}</td>`).join("")}</tr>`
+          )
+          .join("");
+        html.push(
+          `<div class="md-table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`
+        );
+        if (trail) html.push(`<p>${markdownInline(trail)}</p>`);
+        continue;
+      }
+      if (/^\s*-\s+/.test(lines[i])) {
+        const items = [];
+        while (i < lines.length && /^\s*-\s+/.test(lines[i])) {
+          items.push(lines[i].replace(/^\s*-\s+/, "").trim());
+          i += 1;
+        }
+        i -= 1;
+        html.push(`<ul>${items.map((item) => `<li>${markdownInline(item)}</li>`).join("")}</ul>`);
+        continue;
+      }
+      const { prose, row } = splitRowLine(lines[i]);
+      html.push(`<p>${markdownInline(row ? lines[i].trim() : prose)}</p>`);
+    }
+    return html.join("");
+  }
+
+  let conceptDeckPromise = null;
+  function loadConceptDeck() {
+    if (!conceptDeckPromise) {
+      conceptDeckPromise = fetch(`${FLASHCARDS_URL}data/concepts.json`)
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          const deck = new Map();
+          for (const concept of data?.concepts || []) {
+            if (concept && typeof concept.slug === "string") deck.set(concept.slug, concept);
+          }
+          return deck;
+        })
+        .catch(() => new Map());
+    }
+    return conceptDeckPromise;
+  }
+
+  function attachShowMore(block) {
+    block.classList.add("is-clamped");
+    requestAnimationFrame(() => {
+      if (!block.isConnected) return;
+      if (block.scrollHeight <= block.clientHeight + 8) {
+        block.classList.remove("is-clamped");
+        return;
+      }
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "show-more";
+      button.textContent = "Show more";
+      button.setAttribute("aria-expanded", "false");
+      button.addEventListener("click", () => {
+        const clamped = block.classList.toggle("is-clamped");
+        const expanded = !clamped;
+        button.textContent = expanded ? "Show less" : "Show more";
+        button.setAttribute("aria-expanded", String(expanded));
+      });
+      block.after(button);
+    });
+  }
+
   function toast(msg) {
     let el = document.querySelector(".toast");
     if (!el) {
@@ -1775,19 +1940,6 @@
       .join("")}</div>`;
   }
 
-  function agentEntryCardHtml(entry, bodyHtml) {
-    return `<article class="agent-entry" data-agent-id="${esc(entry.id)}">${agentMetaHtml(entry)}${
-      bodyHtml || ""
-    }${agentLinksHtml(entry)}</article>`;
-  }
-
-  function agentSectionHtml(title, entries, bodyFn) {
-    if (!entries.length) return "";
-    return `<section class="agent-block"><h2 class="section-title">${esc(title)} ${agentMarkerHtml()}</h2>${entries
-      .map((entry) => agentEntryCardHtml(entry, bodyFn(entry)))
-      .join("")}</section>`;
-  }
-
   function agentDisplayText(value) {
     if (typeof value !== "string") return "";
     const text = value.replace(/\s+/g, " ").trim();
@@ -1880,12 +2032,6 @@
     </details>`;
   }
 
-  function paintAgentNotes() {
-    const slot = document.getElementById("agent-notes");
-    if (!slot || !currentVideo) return;
-    slot.innerHTML = agentSectionHtml("Agent notes", agentEntriesForVideo(currentVideo), agentEntryBody);
-  }
-
   function renderLooseAgentHtml() {
     const library = allVideos();
     const loose = agentEntries.filter(
@@ -1907,10 +2053,7 @@
 
   function refreshAgentNotes() {
     const current = parseRoute();
-    if (current.name === "detail") {
-      paintAgentNotes();
-      return;
-    }
+    if (current.name === "detail") return;
     const y = window.scrollY;
     route().then(() => window.scrollTo({ top: y, behavior: "auto" }));
   }
@@ -1943,27 +2086,56 @@
     );
   }
 
+  function qaLead(marker) {
+    const value = String(marker || "").trim();
+    if (!value) return `<span class="emoji" aria-hidden="true">💡</span>`;
+    if (/^[A-Za-z][A-Za-z0-9][A-Za-z0-9 +/&-]{0,18}$/.test(value)) {
+      return `<span class="qa-tag">${esc(value)}</span>`;
+    }
+    return `<span class="emoji" aria-hidden="true">${esc(value)}</span>`;
+  }
+
   function renderInsightsHtml(pack) {
     if (!pack || !pack.sections || !pack.sections.length) {
       return `<div class="missing-insights">Insights pack not available yet. Check the Summary tab.</div>`;
     }
     return pack.sections
-      .map(
-        (sec) => `
-      <h2 class="section-title">${esc(sec.title)}</h2>
-      ${(sec.items || [])
-        .map(
-          (it) => `
+      .map((sec, sectionIndex) => {
+        const items = (sec.items || [])
+          .map((it, itemIndex) => {
+            const answerId = `qa-a-${sectionIndex}-${itemIndex}`;
+            return `
         <div class="qa-block">
-          <div class="qa-q"><span class="emoji">${esc(it.e || "💡")}</span><span><span class="label">Q:</span> ${rich(
-            it.q
-          )}</span></div>
-          <div class="qa-a"><span class="label">A:</span> ${rich(it.a)}</div>
-        </div>`
-        )
-        .join("")}`
-      )
+          <button type="button" class="qa-q" aria-expanded="false" aria-controls="${answerId}">
+            ${qaLead(it.e)}
+            <span class="qa-q-text"><span class="label">Q:</span> ${rich(it.q)}<span class="qa-hint">Tap to reveal</span></span>
+          </button>
+          <div class="qa-a" id="${answerId}" hidden><span class="label">A:</span> ${rich(it.a)}</div>
+        </div>`;
+          })
+          .join("");
+        return `
+      <details class="qa-section" open>
+        <summary class="qa-section-summary">
+          <span class="section-title">${esc(sec.title)}</span>
+          <span class="fold-chevron" aria-hidden="true"></span>
+        </summary>
+        <div class="qa-section-body">${items}</div>
+      </details>`;
+      })
       .join("");
+  }
+
+  function bindQaReveal(scope) {
+    scope.querySelectorAll(".qa-q").forEach((button) => {
+      button.addEventListener("click", () => {
+        const answer = document.getElementById(button.getAttribute("aria-controls"));
+        if (!answer) return;
+        const willOpen = answer.hasAttribute("hidden");
+        answer.toggleAttribute("hidden", !willOpen);
+        button.setAttribute("aria-expanded", String(willOpen));
+      });
+    });
   }
 
   function renderConceptsHtml(v) {
@@ -1983,15 +2155,34 @@
       <div class="concept-grid">
         ${list
           .map(
-            (c) => `<a class="concept-chip" href="${esc(
+            (c) => `<article class="concept-card">
+            <a class="concept-chip" href="${esc(
               `${FLASHCARDS_URL}#/c/${encodeURIComponent(c.slug)}`
             )}">
               <span class="concept-emoji">${esc(c.e || "💡")}</span>
               <span class="concept-name">${esc(c.title)}</span>
-            </a>`
+            </a>
+            <div class="concept-md" data-concept-md="${esc(c.slug)}" hidden></div>
+          </article>`
           )
           .join("")}
       </div>`;
+  }
+
+  function hydrateConceptMarkdown(video) {
+    loadConceptDeck().then((deck) => {
+      if (!currentVideo || currentVideo.slug !== video.slug || panel !== "concepts") return;
+      const body = document.getElementById("detail-body");
+      if (!body) return;
+      body.querySelectorAll("[data-concept-md]").forEach((block) => {
+        const concept = deck.get(block.dataset.conceptMd);
+        const source = concept && typeof concept.definition === "string" ? concept.definition.trim() : "";
+        if (!source) return;
+        block.innerHTML = renderMarkdown(source);
+        block.hidden = false;
+        attachShowMore(block);
+      });
+    });
   }
 
   function renderSummaryHtml(v) {
@@ -2028,6 +2219,8 @@
         : panel === "concepts"
           ? renderConceptsHtml(currentVideo)
           : renderInsightsHtml(currentInsights);
+    bindQaReveal(body);
+    if (panel === "concepts") hydrateConceptMarkdown(currentVideo);
     body.querySelectorAll(".kw-chip").forEach((chip) => {
       chip.addEventListener("click", () => {
         navigate(
@@ -2078,12 +2271,10 @@
         videoUpdatedLabel(v) ? ` · ${esc(videoUpdatedLabel(v))}` : ""
       }</h1>
       <div id="detail-labels" class="detail-labels"></div>
-      <div id="agent-notes"></div>
       ${keywordChips(v.keywords, 8)}
       <div id="detail-body" role="tabpanel" tabindex="0"><div class="empty">Loading…</div></div>
     `;
     paintDetailLabels();
-    paintAgentNotes();
     root.querySelectorAll(".kw-chip").forEach((chip) => {
       chip.addEventListener("click", () => {
         navigate(
