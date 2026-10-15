@@ -1,0 +1,20 @@
+{
+  "slug": "ai-agents-faster-kv-cache-lm-cache-alex-ziskind",
+  "sections": [
+    {
+      "title": "Caching",
+      "items": [
+        {
+          "e": "Why slow",
+          "q": "Why do coding agents get slower each turn?",
+          "a": "They re-read growing history; without KV reuse, prompt processing balloons every turn."
+        },
+        {
+          "e": "LM Cache",
+          "q": "When does LM Cache beat vLLM's built-in cache?",
+          "a": "When you restart vLLM or need disk-backed persistence \u2014 external cache keeps hits the in-process cache loses."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "governed-enterprise-ai-agents-harish-gaggar-credit-karma",
+  "sections": [
+    {
+      "title": "Architecture",
+      "items": [
+        {
+          "e": "Gateway",
+          "q": "Why put an MCP gateway in front of servers?",
+          "a": "Central auth (JWT, session in Redis), namespace routing, scoped user tokens and one place for logs, traces and metrics; no direct endpoint access."
+        },
+        {
+          "e": "Scaffold",
+          "q": "What does the dev portal create?",
+          "a": "A repo with LangGraph agent, memory, tracking/eval, PII-blocking and context-optimizer modules, plus workload identity, memory DB, eval tables and secrets."
+        }
+      ]
+    },
+    {
+      "title": "Runtime controls",
+      "items": [
+        {
+          "e": "HITL",
+          "q": "How are risky actions handled?",
+          "a": "Requests are classified read/modify/delete; reads run, sensitive writes wait for human approval; both are audit-logged."
+        },
+        {
+          "e": "Context",
+          "q": "What does the context optimizer do?",
+          "a": "Selects payload by token budget, reranks, dedupes and compresses; 24k → ~2.4k tokens in the demo."
+        }
+      ]
+    }
+  ]
+}

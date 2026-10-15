@@ -1,0 +1,20 @@
+{
+  "slug": "ai-board-of-advisors-roast-room-claude-skill-nate-herk",
+  "sections": [
+    {
+      "title": "Roast Room",
+      "items": [
+        {
+          "e": "Pattern",
+          "q": "What is the Roast Room pattern?",
+          "a": "A Claude Code skill: chair facilitates specialized advisor sub-agents through position \u2192 debate \u2192 vote, then saves a verdict."
+        },
+        {
+          "e": "Why sub-agents",
+          "q": "Why sub-agents over agent teams?",
+          "a": "Herk found similar answer quality, lower cost, and cleaner per-persona voice/organization."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "agent-works-does-anyone-trust-it-michele-grant",
+  "sections": [
+    {
+      "title": "Trust",
+      "items": [
+        {
+          "e": "Three questions",
+          "q": "What three questions build agent trust?",
+          "a": "What value does it create? Who is on the hook? What evidence unlocks more autonomy?"
+        },
+        {
+          "e": "Stages",
+          "q": "What are the autonomy stages?",
+          "a": "Shadow mode \u2192 supervised draft \u2192 exception ensemble \u2192 exceptions-only with independent sampling."
+        }
+      ]
+    }
+  ]
+}
