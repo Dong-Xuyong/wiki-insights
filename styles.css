@@ -1163,6 +1163,12 @@ html.dark .video-card-watch.is-done { color: #5ed392; }
 }
 .study-cta:active { opacity: 0.85; }
 .concept-grid { display: flex; flex-direction: column; gap: 0.45rem; }
+.concept-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  overflow: hidden;
+}
 .concept-chip {
   display: flex;
   align-items: center;
@@ -1175,10 +1181,84 @@ html.dark .video-card-watch.is-done { color: #5ed392; }
   color: var(--text);
   text-decoration: none;
 }
+.concept-card .concept-chip {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
 .concept-chip:hover { border-color: color-mix(in srgb, var(--peach) 60%, var(--border)); }
 .concept-chip:active { opacity: 0.85; }
 .concept-emoji { font-size: 1.1rem; flex-shrink: 0; line-height: 1; }
 .concept-name { font-size: 0.88rem; font-weight: 600; line-height: 1.3; }
+.concept-md {
+  padding: 0 0.8rem 0.15rem;
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.concept-md.is-clamped {
+  position: relative;
+  max-height: 7.6rem;
+  overflow: hidden;
+}
+.concept-md.is-clamped::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.75rem;
+  background: linear-gradient(transparent, var(--bg-raised));
+  pointer-events: none;
+}
+.concept-md p { margin: 0 0 0.6rem; }
+.concept-md ul { margin: 0.15rem 0 0.7rem; padding-left: 1.15rem; }
+.concept-md li { margin: 0.22rem 0; }
+.concept-md strong { color: var(--text); font-weight: 700; }
+.concept-md code {
+  font-size: 0.84em;
+  padding: 0.05em 0.25em;
+  border-radius: 4px;
+  background: var(--bg-soft);
+}
+.md-table-wrap {
+  overflow-x: auto;
+  margin: 0.2rem 0 0.75rem;
+  -webkit-overflow-scrolling: touch;
+}
+.concept-md table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.concept-md th,
+.concept-md td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+.concept-md th {
+  background: var(--bg-soft);
+  color: var(--text);
+  font-weight: 700;
+}
+.show-more {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  margin: 0 0.8rem 0.2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
 /* Detail */
 .player-wrap {
   position: relative;
@@ -1245,25 +1325,66 @@ html.dark .video-card-watch.is-done { color: #5ed392; }
   margin: 1.35rem 0 0.75rem;
   letter-spacing: -0.02em;
 }
-.qa-block { margin-bottom: 1.1rem; }
+.qa-section { margin: 0.15rem 0 0.35rem; }
+.qa-section-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 44px;
+  cursor: pointer;
+  list-style: none;
+}
+.qa-section-summary::-webkit-details-marker { display: none; }
+.qa-section-summary::marker { content: ""; }
+.qa-section-summary .section-title { flex: 1; margin: 0; }
+.fold-chevron {
+  flex-shrink: 0;
+  color: var(--text-mute);
+  font-weight: 700;
+  line-height: 1;
+}
+.fold-chevron::before { content: "▸"; }
+.qa-section[open] > .qa-section-summary .fold-chevron::before { content: "▾"; }
+.qa-section-body { margin-top: 0.7rem; }
+.qa-block { margin-bottom: 0.85rem; }
 .qa-q {
   display: flex;
-  gap: 0.4rem;
+  gap: 0.45rem;
   align-items: flex-start;
+  width: 100%;
+  border: 0;
   background: var(--peach-q);
   border-radius: 8px;
-  padding: 0.55rem 0.65rem;
+  padding: 0.6rem 0.7rem;
+  font: inherit;
   font-weight: 600;
   font-size: 0.92rem;
   line-height: 1.45;
   margin-bottom: 0.45rem;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 .qa-q .emoji { flex-shrink: 0; }
+.qa-q-text { min-width: 0; }
+.qa-tag {
+  margin-right: 0.28rem;
+  font-weight: 800;
+  color: var(--text);
+}
+.qa-hint {
+  display: block;
+  margin-top: 0.12rem;
+  color: var(--text-mute);
+  font-size: 0.72rem;
+  font-weight: 650;
+}
+.qa-q[aria-expanded="true"] .qa-hint { display: none; }
 .qa-a {
   font-size: 0.92rem;
   line-height: 1.55;
   color: var(--text-dim);
-  padding: 0 0.15rem;
+  padding: 0.15rem 0.15rem 0.35rem;
 }
 .qa-a .label, .qa-q .label { font-weight: 700; color: var(--text); }
 

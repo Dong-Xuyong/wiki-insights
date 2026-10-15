@@ -12,7 +12,7 @@ Live: https://dong-xuyong.github.io/wiki-insights/
 - **Nine browse buckets** — the eight Wiki Flashcards subject areas plus an honest Other fallback
 - **Progress** — local XP, levels, activity streaks, category exploration, and achievements
 - **Keyword chips** — tap a chip to search the library
-- **Insights** — sectioned emoji Q&A with selective highlighting (`**phrase**`)
+- **Insights** — sectioned Q&A with selective highlighting (`**phrase**`). Sections collapse, and each answer stays hidden until you tap the question.
 - **Summary** — wiki Summary + key insight bullets
 - **Concepts** — every wiki concept drawn from this video, linking into [Wiki Flashcards](https://dong-xuyong.github.io/wiki-flashcards/), plus a button that studies the whole set as one session
 - **Resume playback** — last pause (and last known time) is saved in your browser per video, so coming back continues where you left off. Use **Start over** to clear it.
