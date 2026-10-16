@@ -1,66 +1,17 @@
 # Wiki Insights
 
-Mobile-first learning dashboard for YouTube wiki videos — organized browsing, watch progress, lightweight achievements, Insights Q&A, summaries, and concept links.
+The app moved to Study → Insights (`/wiki-flashcards/insights/`). This repo now hosts only the redirect stub and the `data/` folder the app reads. Grok Bot keeps writing `data/` here.
 
-Live: https://dong-xuyong.github.io/wiki-insights/
+Live app: https://dong-xuyong.github.io/wiki-flashcards/insights/
 
-## Features
+`index.html` sends `/wiki-insights/` to that app and keeps the query string and hash (`?url=`, `#/`, `#/browse?...`, `#/progress`, `#/v/<slug>`). `404.html` maps any other missing path under `/wiki-insights/` to the same path under `/wiki-flashcards/insights/`. Files in `data/` stay here and are still served.
 
-- **Home** — overall completion, Continue Watching, category progress, and one clear next action
-- **Browse** — category-first library with URL-persisted search, watch-state filters, and sorting
-- **Three watch states** — Not started, In progress, and Completed
-- **Nine browse buckets** — the eight Wiki Flashcards subject areas plus an honest Other fallback
-- **Progress** — local XP, levels, activity streaks, category exploration, and achievements
-- **Keyword chips** — tap a chip to search the library
-- **Insights** — sectioned Q&A with selective highlighting (`**phrase**`). Sections collapse, and each answer stays hidden until you tap the question.
-- **Summary** — wiki Summary + key insight bullets
-- **Concepts** — every wiki concept drawn from this video, linking into [Wiki Flashcards](https://dong-xuyong.github.io/wiki-flashcards/), plus a button that studies the whole set as one session
-- **Resume playback** — last pause (and last known time) is saved in your browser per video, so coming back continues where you left off. Use **Start over** to clear it.
-- **Open / create from link** — paste a YouTube URL, or open  
-  `https://dong-xuyong.github.io/wiki-insights/?url=https://youtu.be/VIDEO_ID`  
-  - If the video is already in the wiki → opens it  
-  - If not → generates Insights in the browser from captions (stored in `localStorage` as a Local draft)
-- Copy / share floating actions (share links include `?url=`)
+## Data
 
-## Routes
+`data/catalog.json` and `data/insights/<slug>.json` are committed snapshots; there is currently no build script that regenerates them. Each catalog video carries a section from the Wiki Flashcards taxonomy; zero-signal videos go to Other.
 
-- `#/` — Home
-- `#/browse` — category browser
-- `#/browse?status=completed&section=agents&sort=az&q=claude` — shareable library filters
-- `#/progress` — XP, streak, statistics, and achievements
-- `#/v/<source-slug>` — video detail
+The Study Insights tab fetches these files from `/wiki-insights/data/`. Do not delete or move `data/`.
 
-## Local progress
+Agents record ingested videos in the private `Dong-Xuyong/progress-sync` repo with `scripts/sync_wiki_insights.py` (see `wiki-insights/AGENT_INSIGHTS_SPEC.md` there).
 
-No account or backend is required. Browser storage is deliberately used:
-
-- `wiki-insights-progress-v1` — playback time and Completed state
-- `wiki-insights-game-v1` — active learning days and seen achievement celebrations
-- `wiki-insights-local-v1` — locally generated video drafts and Insights
-
-Existing `wiki-insights-progress-v1` records are retained. XP is deterministic: 10 XP for a video's first meaningful start and another 40 XP when it is completed, with 250 XP per level. Clearing browser storage resets local progress.
-
-## Stack
-
-Plain HTML/CSS/JS, no frontend build step. `data/catalog.json` and `data/insights/<slug>.json`
-are committed snapshots; there is currently no build script that regenerates them. Each catalog
-video carries a section from the Wiki Flashcards taxonomy; zero-signal videos go to Other.
-
-Agents record ingested videos in the private `Dong-Xuyong/progress-sync` repo with
-`scripts/sync_wiki_insights.py` (see `wiki-insights/AGENT_INSIGHTS_SPEC.md` there).
-
-Each video's `concepts` list is the inverse of the `## Sources` section on every concept
-page in the vault — the same rule Wiki Flashcards uses — so both apps always agree on
-which concepts belong to which video.
-
-## Run locally
-
-```bash
-python -m http.server 8792
-# open http://localhost:8792
-# or http://localhost:8792/?url=https://youtu.be/VIDEO_ID
-```
-
-To exercise the Wiki Flashcards cross-links locally, serve the parent folder holding both
-app directories instead, then open `http://localhost:8790/wiki-insights/`. On localhost
-the app points at `../wiki-flashcards/`; everywhere else it uses the public URL.
+Each video's `concepts` list is the inverse of the `## Sources` section on every concept page in the vault — the same rule Wiki Flashcards uses — so both apps always agree on which concepts belong to which video.
