@@ -5,19 +5,19 @@
       "title": "Review levels",
       "items": [
         {
-          "e": "L1",
+          "e": "1️⃣",
           "q": "What does Level 1 require?",
-          "a": "Named artifact + check command; review ends verified+fingerprint or missing+reason; dispatcher re-runs the check."
+          "a": "**Named artifact + check command**; review ends verified+fingerprint or missing+reason; **dispatcher re-runs the check**."
         },
         {
-          "e": "L2",
+          "e": "2️⃣",
           "q": "How does Level 2 catch fact errors?",
-          "a": "Two agents extract independently; a third reconciles differences only against the original source."
+          "a": "**Two agents extract independently**; a third reconciles differences **only against the original source**."
         },
         {
-          "e": "L3",
+          "e": "3️⃣",
           "q": "When use Level 3?",
-          "a": "High-stakes reasoning (legal, PR claims): self-audit, cold adversarial reviewers, then fresh final reviewers."
+          "a": "**High-stakes reasoning** (legal, PR claims): self-audit, cold adversarial reviewers, then fresh final reviewers."
         }
       ]
     }

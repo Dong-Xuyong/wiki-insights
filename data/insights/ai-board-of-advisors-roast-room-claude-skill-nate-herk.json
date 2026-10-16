@@ -5,14 +5,14 @@
       "title": "Roast Room",
       "items": [
         {
-          "e": "Pattern",
+          "e": "🔥",
           "q": "What is the Roast Room pattern?",
-          "a": "A Claude Code skill: chair facilitates specialized advisor sub-agents through position \u2192 debate \u2192 vote, then saves a verdict."
+          "a": "A Claude Code skill: chair facilitates specialized advisor sub-agents through **position → debate → vote**, then saves a verdict."
         },
         {
-          "e": "Why sub-agents",
+          "e": "🧩",
           "q": "Why sub-agents over agent teams?",
-          "a": "Herk found similar answer quality, lower cost, and cleaner per-persona voice/organization."
+          "a": "Herk found **similar answer quality, lower cost**, and cleaner per-persona voice/organization."
         }
       ]
     }

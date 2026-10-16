@@ -5,14 +5,14 @@
       "title": "Architecture",
       "items": [
         {
-          "e": "Gateway",
+          "e": "🚪",
           "q": "Why put an MCP gateway in front of servers?",
-          "a": "Central auth (JWT, session in Redis), namespace routing, scoped user tokens and one place for logs, traces and metrics; no direct endpoint access."
+          "a": "**Central auth** (JWT, session in Redis), namespace routing, scoped user tokens and **one place for logs, traces and metrics**; no direct endpoint access."
         },
         {
-          "e": "Scaffold",
+          "e": "🏗️",
           "q": "What does the dev portal create?",
-          "a": "A repo with LangGraph agent, memory, tracking/eval, PII-blocking and context-optimizer modules, plus workload identity, memory DB, eval tables and secrets."
+          "a": "A repo with LangGraph agent, memory, tracking/eval, **PII-blocking and context-optimizer modules**, plus workload identity, memory DB, eval tables and secrets."
         }
       ]
     },
@@ -20,14 +20,14 @@
       "title": "Runtime controls",
       "items": [
         {
-          "e": "HITL",
+          "e": "✋",
           "q": "How are risky actions handled?",
-          "a": "Requests are classified read/modify/delete; reads run, sensitive writes wait for human approval; both are audit-logged."
+          "a": "Requests are classified read/modify/delete; reads run, **sensitive writes wait for human approval**; both are audit-logged."
         },
         {
-          "e": "Context",
+          "e": "🗜️",
           "q": "What does the context optimizer do?",
-          "a": "Selects payload by token budget, reranks, dedupes and compresses; 24k → ~2.4k tokens in the demo."
+          "a": "Selects payload by token budget, reranks, dedupes and compresses; **24k → ~2.4k tokens** in the demo."
         }
       ]
     }

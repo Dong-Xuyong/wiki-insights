@@ -5,14 +5,14 @@
       "title": "Measure first",
       "items": [
         {
-          "e": "A/A",
+          "e": "🎯",
           "q": "What is the ceiling test?",
-          "a": "Run the production prompt/model several times on the same inputs; its self-agreement (~93% here) is the realistic bar for any candidate."
+          "a": "Run the production prompt/model several times on the same inputs; its **self-agreement (~93% here) is the realistic bar** for any candidate."
         },
         {
-          "e": "Trace",
+          "e": "🧾",
           "q": "What should every model call record?",
-          "a": "Prompt version, model settings, token usage, latency and cost, linked into one trace per task (e.g. OpenTelemetry)."
+          "a": "Prompt version, model settings, token usage, latency and cost, **linked into one trace per task** (e.g. OpenTelemetry)."
         }
       ]
     },
@@ -20,14 +20,14 @@
       "title": "Levers",
       "items": [
         {
-          "e": "1-2-3",
+          "e": "🔢",
           "q": "In what order do you cut cost?",
-          "a": "Prefix caching, then shrink the prompt with an optimizer (DSPy + GEPA), then downsize or split the model."
+          "a": "**Prefix caching**, then **shrink the prompt** with an optimizer (DSPy + GEPA), then **downsize or split the model**."
         },
         {
-          "e": "GEPA",
+          "e": "✂️",
           "q": "What did prompt search achieve?",
-          "a": "Replaced long worked examples with compact rules: 51% fewer instruction tokens with the same interface contract."
+          "a": "Replaced long worked examples with compact rules: **51% fewer instruction tokens** with the same interface contract."
         }
       ]
     },
@@ -35,9 +35,9 @@
       "title": "Release rule",
       "items": [
         {
-          "e": "CI",
+          "e": "🚦",
           "q": "When is a cheaper candidate shippable?",
-          "a": "When the paired confidence interval on net gain (improvements minus regressions) has a lower bound above zero and critical categories hold separately."
+          "a": "When the **paired confidence interval on net gain** (improvements minus regressions) has a **lower bound above zero** and critical categories hold separately."
         }
       ]
     }

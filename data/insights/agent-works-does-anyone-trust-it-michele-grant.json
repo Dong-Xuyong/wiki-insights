@@ -5,14 +5,14 @@
       "title": "Trust",
       "items": [
         {
-          "e": "Three questions",
+          "e": "❓",
           "q": "What three questions build agent trust?",
-          "a": "What value does it create? Who is on the hook? What evidence unlocks more autonomy?"
+          "a": "What **value** does it create? Who is **on the hook**? What **evidence unlocks more autonomy**?"
         },
         {
-          "e": "Stages",
+          "e": "🪜",
           "q": "What are the autonomy stages?",
-          "a": "Shadow mode \u2192 supervised draft \u2192 exception ensemble \u2192 exceptions-only with independent sampling."
+          "a": "**Shadow mode → supervised draft → exception ensemble → exceptions-only** with independent sampling."
         }
       ]
     }
