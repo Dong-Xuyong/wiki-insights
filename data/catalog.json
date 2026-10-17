@@ -1,7 +1,7 @@
 {
   "generated": true,
-  "videoCount": 370,
-  "insightsCount": 357,
+  "videoCount": 368,
+  "insightsCount": 355,
   "conceptCount": 3002,
   "sections": [
     {
@@ -56,8 +56,8 @@
     "systems": 22,
     "build": 48,
     "human": 19,
-    "performance": 55,
-    "mind": 44,
+    "performance": 54,
+    "mind": 43,
     "relationships": 55,
     "other": 45
   },
@@ -110,27 +110,46 @@
       "url": "https://youtu.be/PXHRYbr3mp4",
       "duration_min": 123,
       "creator": "andrew-huberman",
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "created": "2026-10-13",
       "section": "performance",
       "tags": [
         "neuroscience",
         "nutrition",
-        "huberman"
+        "huberman",
+        "health",
+        "memory",
+        "glp1",
+        "huberman-lab"
       ],
       "keywords": [
         "neuroscience",
         "nutrition",
         "huberman",
         "andrew huberman",
-        "Meal memory"
+        "Meal memory",
+        "health",
+        "memory",
+        "glp1",
+        "huberman-lab",
+        "huberman lab",
+        "Diet Hippocampal Memory",
+        "Glp1 Appetite Cognition",
+        "Ultra Processed Food Cognition"
       ],
       "summary": "andrew-huberman with USC professor scott-kanoski (~123 min, auto English). Eating is a decision the hippocampus helps make. Gut signals during a meal change what is remembered, and that memory later changes hunger and intake. meal-memory is the thread.\n\nNatural GLP-1 comes from intestinal L cells and from a separate population in the brainstem (nucleus tractus solitarius). The hippocampus has many GLP-1 receptors, so Kanoski leaves open that the drugs could act there. Native GLP-1 at the gut works in part through receptors on vagus terminals. The early model in his lab was free access to a sugar solution at about the calorie share of a soft drink, with otherwise healthy food and water. Those animals show hippocampal memory deficits when older, and the deficits persist after the sugar stops. He says the microbiome changes and may be functionally tied to the impairment. A junk-food model (chocolate peanut-butter cups, ruffled chips, plus a high-fat high-sugar rodent diet) leaves memory impairments that last after a switch to healthy food.\n\nA Western-style diet in adult animals, about 35 percent of calories from fat and 15 percent from simple sugar, is the later model he describes. The gut-to-memory path he sketches runs brainstem to medial septum to acetylcholine neurons that innervate the hippocampus. Near the end he turns to oxytocin: most people treat it as a bonding signal, and he asks what it does around eating. The tape is a mechanism conversation, not a diet prescription.",
       "key_insights": [
         "Meal memory sits in the hippocampus and is fed by gut signals, including GLP-1 and the vagus.",
         "Early sugar access and a junk-food diet leave hippocampal deficits that outlast the diet.",
         "The Western diet he names is about 35 percent fat and 15 percent simple sugar.",
-        "Acetylcholine from the medial septum is the last step he draws into the hippocampus."
+        "Acetylcholine from the medial septum is the last step he draws into the hippocampus.",
+        "High-sugar and junk-food diets impair hippocampal memory in rodent models; deficits can outlast the junk diet itself.",
+        "Habitual sugar/saturated fat intake correlates with worse hippocampal memory tasks in healthy young adults.",
+        "Endogenous GLP-1 is secreted from gut around meals and separately produced in brainstem NTS neurons; both suppress appetite but operate largely independently.",
+        "GLP-1 receptors are dense in hippocampus and reward circuitry — drug effects may extend beyond appetite (research ongoing).",
+        "Ultra-processed foods >60% of US calories; demand/regulation, not technology, blocks micronutrient-dense alternatives.",
+        "Pair any appetite-drug strategy with resistance training and micronutrient-dense food to avoid muscle + nutrient loss.",
+        "Rodent control of intake is precise; human diet self-report remains a major research limit — treat claims cautiously."
       ],
       "has_insights": true,
       "concepts": [
@@ -138,9 +157,24 @@
           "slug": "meal-memory",
           "title": "Meal memory",
           "e": "🧠"
+        },
+        {
+          "slug": "diet-hippocampal-memory",
+          "title": "Diet Hippocampal Memory",
+          "e": "🍩"
+        },
+        {
+          "slug": "glp1-appetite-cognition",
+          "title": "Glp1 Appetite Cognition",
+          "e": "💉"
+        },
+        {
+          "slug": "ultra-processed-food-cognition",
+          "title": "Ultra Processed Food Cognition",
+          "e": "🍟"
         }
       ],
-      "conceptCount": 1,
+      "conceptCount": 4,
       "added": "2026-10-13"
     },
     {
@@ -238,13 +272,16 @@
       "url": "https://youtu.be/UVrH0lx9qvA",
       "duration_min": 21,
       "creator": "charisma-on-command",
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "created": "2026-10-13",
       "section": "mind",
       "tags": [
         "psychology",
         "charisma",
-        "personal-growth"
+        "personal-growth",
+        "habits",
+        "mental-fitness",
+        "emotions"
       ],
       "keywords": [
         "psychology",
@@ -252,14 +289,28 @@
         "personal growth",
         "charisma on command",
         "Deferred feeling compounds",
-        "Love and boundary in the same sentence"
+        "Love and boundary in the same sentence",
+        "habits",
+        "mental-fitness",
+        "emotions",
+        "mental fitness",
+        "Breathwork Emotional Clearing",
+        "Feel Feelings Interest",
+        "Status Bs Meter"
       ],
       "summary": "Charlie on charisma-on-command (~21 min, auto English) reads notes he started years ago. His 20s ran on optimization and deferred feeling. His 30s were the bill: body, relationships, and work he was already smart enough to fix. Gossip and complaining were unprocessed anger, often aimed at a stand-in. Months or years without crying were unprocessed grief. Unfelt pain numbs beauty, so getting what you want stops mattering.\n\nAbout 20 minutes of breathwork brought up slights he had dismissed. On his best mornings he picks a song, goes into a private room, and moves strangely. He found that better for feeling good than lifting and better for loosening than stretching. Sweetness he could only reach with a partner (Disney nights, ice cream) left him stuck on that relationship after the breakup. love-and-boundary-same-sentence is \"I love you, no.\" He used to shut love off before he could separate. Firing someone after many violations went more easily once he opened with \"I love you. This is so hard.\" The paired line is \"it just doesn't feel right for me.\" The gut is subjective fit, not an objective verdict.\n\nRising status changed what people showed him. As a waiter he overheard people who were not performing. With a million subscribers and salaries on offer, closeness paid. Shared mission is a track record: if they loved charisma they would already have written about it. Persuasion past a point is a liability. Inspiring halftime speeches won an enthusiastic yes that collapsed under challenge. Morality he enforced from fear (15 percent because churches say 10, quitting meat to stay in the clear) was his head doing what it did not trust his heart to do. He paused charitable giving for a year or two, then gave again from connection, and he pairs that with a felt limit.\n\nHe wants relatives' life stories while they can tell them. His grandfather had started a public-speaking and charisma business he never knew about. The phases he names are complacency, optimization, feeling, then spirituality. He keeps the introverted kid and the optimizer. At 17 he had drafted chapters of an atheism book and thought Sam Harris and Christopher Hitchens had settled the argument. He now tells his 30-year-old self that he is a soul, and that breathwork, dance, and psychedelics done safely with a facilitator connected him to something larger than the day-to-day ego.",
       "key_insights": [
         "Deferred feeling compounds. The 30s are when the 20s invoice arrives.",
         "Breathwork and private dance are how he feels on purpose, without a partner as the only door.",
         "Love and no belong in the same sentence. The gut is fit, not a verdict.",
-        "Judge mission by what they already did, and do not oversell the vision before they show a track record."
+        "Judge mission by what they already did, and do not oversell the vision before they show a track record.",
+        "No choice to not feel feelings — only conscious now vs unconscious later with interest.",
+        "Gossip/complaint and years without crying often flag unprocessed anger or grief.",
+        "Breathwork is a fast path to feel deferred material and return to present creativity/charisma.",
+        "As status rises, develop a gut BS meter — incentives to deceive increase.",
+        "Judge mission alignment by prior track record, not interview enthusiasm.",
+        "Don't demonize past selves (introvert → optimizer → feeler); integrate them.",
+        "Spiritual disconnection creates an 'unfindable ache' that other self-improvement won't touch."
       ],
       "has_insights": true,
       "concepts": [
@@ -272,9 +323,24 @@
           "slug": "love-and-boundary-same-sentence",
           "title": "Love and boundary in the same sentence",
           "e": "💬"
+        },
+        {
+          "slug": "breathwork-emotional-clearing",
+          "title": "Breathwork Emotional Clearing",
+          "e": "🌬️"
+        },
+        {
+          "slug": "feel-feelings-interest",
+          "title": "Feel Feelings Interest",
+          "e": "💳"
+        },
+        {
+          "slug": "status-bs-meter",
+          "title": "Status Bs Meter",
+          "e": "🧭"
         }
       ],
-      "conceptCount": 2,
+      "conceptCount": 5,
       "added": "2026-10-13"
     },
     {
@@ -33000,67 +33066,6 @@
       "added": "2026-10-17"
     },
     {
-      "slug": "how-food-choices-shape-memory-cognition-cravings-kanoski-huberman",
-      "title": "How Food Choices Shape Memory, Cognition & Cravings | Dr. Scott Kanoski",
-      "video_id": "PXHRYbr3mp4",
-      "platform": "youtube",
-      "url": "https://youtu.be/PXHRYbr3mp4",
-      "duration_min": 123,
-      "creator": "andrew-huberman",
-      "updated": "2026-10-14",
-      "created": "2026-10-14",
-      "section": "performance",
-      "tags": [
-        "health",
-        "nutrition",
-        "memory",
-        "glp1",
-        "huberman-lab"
-      ],
-      "keywords": [
-        "health",
-        "nutrition",
-        "memory",
-        "glp1",
-        "huberman-lab",
-        "huberman lab",
-        "andrew huberman",
-        "Diet Hippocampal Memory",
-        "Glp1 Appetite Cognition",
-        "Ultra Processed Food Cognition"
-      ],
-      "summary": "andrew huberman hosts USC professor Dr. Scott Kanoski on how diet, hunger, and memory interact. Kanoski's lab shows high-sugar and junk-food models cause hippocampal-dependent memory deficits that can persist after diet switch, with possible microbiome involvement. Human correlational work (e.g. Stevenson) links habitual sugar and saturated fat intake to worse hippocampal memory tasks even in healthy young adults.\n\nThe conversation covers endogenous GLP-1 (gut incretin + brainstem NTS neurons) vs GLP-1 receptor agonist drugs: appetite suppression, brain receptor distribution (including hippocampus), and emerging interest beyond weight loss (substance use, cognition). Risks discussed include micronutrient gaps and muscle loss if people rely on drugs without resistance training or nutrient-dense food — \"skinny fat\" concern — though many discontinue within ~2 years.\n\nPractical takeaways for Dong: excess sugar and ultra-processed junk are not just body-comp issues but cognition/memory risks; separate fat-loss nutrition from \"more cardio\"; protect protein + resistance training especially if ever considering GLP drugs; prefer real micronutrient density over engineered palatability hacks.",
-      "key_insights": [
-        "High-sugar and junk-food diets impair hippocampal memory in rodent models; deficits can outlast the junk diet itself.",
-        "Habitual sugar/saturated fat intake correlates with worse hippocampal memory tasks in healthy young adults.",
-        "Endogenous GLP-1 is secreted from gut around meals and separately produced in brainstem NTS neurons; both suppress appetite but operate largely independently.",
-        "GLP-1 receptors are dense in hippocampus and reward circuitry — drug effects may extend beyond appetite (research ongoing).",
-        "Ultra-processed foods >60% of US calories; demand/regulation, not technology, blocks micronutrient-dense alternatives.",
-        "Pair any appetite-drug strategy with resistance training and micronutrient-dense food to avoid muscle + nutrient loss.",
-        "Rodent control of intake is precise; human diet self-report remains a major research limit — treat claims cautiously."
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "diet-hippocampal-memory",
-          "title": "Diet Hippocampal Memory",
-          "e": "🍩"
-        },
-        {
-          "slug": "glp1-appetite-cognition",
-          "title": "Glp1 Appetite Cognition",
-          "e": "💉"
-        },
-        {
-          "slug": "ultra-processed-food-cognition",
-          "title": "Ultra Processed Food Cognition",
-          "e": "🍟"
-        }
-      ],
-      "conceptCount": 3,
-      "added": "2026-10-17"
-    },
-    {
       "slug": "matt-pocock-most-valuable-skill-age-of-ai-nate-herk",
       "title": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
       "video_id": "Z8lf5oWKfj0",
@@ -33221,65 +33226,6 @@
         }
       ],
       "conceptCount": 9,
-      "added": "2026-10-17"
-    },
-    {
-      "slug": "what-i-wish-i-knew-at-30-charisma-on-command",
-      "title": "I’m 39. Here’s What I Wish I Knew at 30",
-      "video_id": "UVrH0lx9qvA",
-      "platform": "youtube",
-      "url": "https://youtu.be/UVrH0lx9qvA",
-      "duration_min": 21,
-      "creator": "charisma-on-command",
-      "updated": "2026-10-14",
-      "created": "2026-10-14",
-      "section": "mind",
-      "tags": [
-        "habits",
-        "mental-fitness",
-        "charisma",
-        "emotions"
-      ],
-      "keywords": [
-        "habits",
-        "mental-fitness",
-        "charisma",
-        "emotions",
-        "mental fitness",
-        "charisma on command",
-        "Breathwork Emotional Clearing",
-        "Feel Feelings Interest",
-        "Status Bs Meter"
-      ],
-      "summary": "Charlie (Charisma on Command) shares notes he wishes he knew at 30. Central theme: deferred feelings accrue interest — 20s can suppress via gym/new relationship/weekend drinking; 30s bill arrives as body issues, stuck relationships, recurring work problems.\n\nPractices: breathwork (~20 min) to clear emotional \"sludge\"; private dance/weird movement for bodily joy; build a BS meter as status rises (people show polished facets); measure mission by track record not passionate words; philosophizing/morality-as-fear vs heart-led goodness; integrate past selves instead of disavowing them; attend to spiritual life (breathwork/dance; psychedelics only with facilitators if ever).",
-      "key_insights": [
-        "No choice to not feel feelings — only conscious now vs unconscious later with interest.",
-        "Gossip/complaint and years without crying often flag unprocessed anger or grief.",
-        "Breathwork is a fast path to feel deferred material and return to present creativity/charisma.",
-        "As status rises, develop a gut BS meter — incentives to deceive increase.",
-        "Judge mission alignment by prior track record, not interview enthusiasm.",
-        "Don't demonize past selves (introvert → optimizer → feeler); integrate them.",
-        "Spiritual disconnection creates an 'unfindable ache' that other self-improvement won't touch."
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "breathwork-emotional-clearing",
-          "title": "Breathwork Emotional Clearing",
-          "e": "🌬️"
-        },
-        {
-          "slug": "feel-feelings-interest",
-          "title": "Feel Feelings Interest",
-          "e": "💳"
-        },
-        {
-          "slug": "status-bs-meter",
-          "title": "Status Bs Meter",
-          "e": "🧭"
-        }
-      ],
-      "conceptCount": 3,
       "added": "2026-10-17"
     }
   ]

@@ -30,6 +30,36 @@
           "a": "**Acetylcholine** neurons in the **medial septum**, reached from the brainstem. That is the three-tier path he draws from the gut to meal memory."
         }
       ]
+    },
+    {
+      "title": "Food and memory",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What diets impair hippocampal memory in Kanoski's models?",
+          "a": "**High-sugar (soft-drink-like) solutions and total junk-food diets**; deficits can **persist after switching** to healthy food."
+        },
+        {
+          "e": "🧑‍🔬",
+          "q": "Is there human support?",
+          "a": "Correlational studies in healthy young adults link **habitual sugar and saturated fat intake to worse hippocampal memory** tasks; causality is harder because humans misreport intake."
+        }
+      ]
+    },
+    {
+      "title": "GLP-1",
+      "items": [
+        {
+          "e": "🧬",
+          "q": "What is natural GLP-1?",
+          "a": "An **incretin from distal intestine** around meals, plus a separate **brainstem (NTS) neuronal source**; both suppress appetite largely independently."
+        },
+        {
+          "e": "💪",
+          "q": "What should someone on/off GLP drugs protect?",
+          "a": "**Resistance training, protein, and micronutrient-dense food** — drugs can cut appetite so hard that muscle and micronutrients suffer if diet quality is ignored."
+        }
+      ]
     }
   ]
 }
