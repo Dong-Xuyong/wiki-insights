@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 364,
-  "insightsCount": 351,
-  "conceptCount": 2950,
+  "videoCount": 370,
+  "insightsCount": 357,
+  "conceptCount": 3002,
   "sections": [
     {
       "id": "architecture",
@@ -52,12 +52,12 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 77,
+    "agents": 79,
     "systems": 22,
     "build": 48,
     "human": 19,
-    "performance": 54,
-    "mind": 41,
+    "performance": 55,
+    "mind": 44,
     "relationships": 55,
     "other": 45
   },
@@ -32496,6 +32496,421 @@
         }
       ],
       "conceptCount": 2
+    },
+    {
+      "slug": "brutally-honest-productivity-advice-ali-abdaal",
+      "title": "Brutally Honest Advice About Productivity in 26 Minutes",
+      "video_id": "BNRfzI6E1Es",
+      "platform": "youtube",
+      "url": "https://youtu.be/BNRfzI6E1Es",
+      "duration_min": 26,
+      "creator": "ali-abdaal",
+      "updated": "2026-10-17",
+      "created": "2026-10-17",
+      "section": "mind",
+      "tags": [
+        "productivity",
+        "procrastination",
+        "goals",
+        "habits"
+      ],
+      "keywords": [
+        "productivity",
+        "procrastination",
+        "goals",
+        "habits",
+        "ali abdaal",
+        "Clarity, Fear, Inertia (Procrastination Causes)",
+        "Procrastination Types (Huberman)",
+        "Seasonal Main-Quest Priorities",
+        "Time Blocking Productivity",
+        "Weekly Goal Assessment"
+      ],
+      "summary": "Ali Abdaal argues productivity is simpler than influencers (himself included) make it look. Procrastination is an emotion-regulation problem, not a time problem (Sirois and Pychyl, 2013), and he diagnoses it with three causes: clarity (what is the exact next step?), fear (of boredom, discomfort or looking foolish) and inertia (fixed with a 2-minute start). He warns that building the perfect system, or going down an AI-tools rabbit hole, can itself be procrastination.\n\nThe framework is clarity, focus, accountability and consistency. Get clarity with journaling prompts (if I couldn't fail; if I'd fail anyway; my funeral; where this path leads in five years), then focus by saying no: pick a 90-day season with one main quest for work and one for life plus two or three side quests. Put priorities in the calendar, because implementation intentions work (Gollwitzer and Sheeran meta-analysis, 94 studies, ~8,000 people), and aim to hit 70–80% of it. If something is systematically skipped, it is not really your priority: re-diagnose or change the method (he finished his book draft with a one-week intensive instead of 2 hours a day).\n\nAccountability comes from people, systems or discipline, and almost nobody productive is very disciplined. Gail Matthews' study: written goals plus weekly progress reports to a friend hit 76% vs 43%. A 2017 study found success tracked how few temptations people met, not how hard they resisted. Everything worthwhile is hard, so consistency and \"begin again\" after falling off matter most; self-forgiveness reduces later procrastination (Carleton study of 119 students). Simple scales, complex fails.",
+      "key_insights": [
+        "Diagnose procrastination as Clarity, Fear, Inertia (Procrastination Causes), then apply the matching fix.",
+        "The productivity system can become the procrastination; keep it simple.",
+        "Seasonal Main-Quest Priorities: 90 days, one main quest each for work and life, 2–3 side quests.",
+        "If it isn't in the calendar it won't happen; 70–80% adherence is a win.",
+        "A priority you keep skipping isn't one: be honest, then restructure (e.g. a one-week intensive).",
+        "Weekly progress reports to a friend nearly doubled goal attainment (76% vs 43%).",
+        "Disciplined people mostly arrange life to need less discipline.",
+        "After a lapse, forgive yourself and begin again today."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "clarity-fear-inertia-procrastination",
+          "title": "Clarity, Fear, Inertia (Procrastination Causes)",
+          "e": "🧗"
+        },
+        {
+          "slug": "procrastination-types-huberman",
+          "title": "Procrastination Types (Huberman)",
+          "e": "⏰"
+        },
+        {
+          "slug": "seasonal-main-quest-priorities",
+          "title": "Seasonal Main-Quest Priorities",
+          "e": "🎯"
+        },
+        {
+          "slug": "time-blocking-productivity",
+          "title": "Time Blocking Productivity",
+          "e": "📅"
+        },
+        {
+          "slug": "weekly-goal-assessment",
+          "title": "Weekly Goal Assessment",
+          "e": "📅"
+        }
+      ],
+      "conceptCount": 5
+    },
+    {
+      "slug": "claude-managed-agents-flows-anthropic-ai-engineer",
+      "title": "Why One AI Agent Isn't Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic",
+      "video_id": "kiClTcJUnhc",
+      "platform": "youtube",
+      "url": "https://youtu.be/kiClTcJUnhc",
+      "duration_min": 102,
+      "creator": "ai-engineer",
+      "updated": "2026-10-17",
+      "created": "2026-10-17",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "agent-security",
+        "claude"
+      ],
+      "keywords": [
+        "agents",
+        "multi-agent",
+        "agent-security",
+        "claude",
+        "multi agent",
+        "agent security",
+        "ai engineer",
+        "Agent Security & Permissions",
+        "Brain–Hands Credential Separation",
+        "Single-Agent Failure Modes",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "Anthropic's CJ Avilla and Harrison Stall open with *The Mythical Man-Month*: Ken Thompson built Unix alone because he held the whole design in his head (conceptual integrity), IBM's 1,000-engineer OS/360 taught Fred Brooks the \"surgical team\" structure, and Linux later scaled to thousands of contributors through a maintainer hierarchy. Managing AI agents is now hitting the same wall, so they introduce Flows (dynamic workflows) in Claude Managed Agents: a lead agent writes a phased plan, then fans out to its own short-lived sub-agents, each with an isolated context and a discrete, verifiable unit of work, without the developer wiring up the threads.\n\nDemos include a stock watchlist scanner (one scan agent per ticker, then a separate review phase), Bug Hunter for PR review (split the diff into slices, one context per slice, adversarial reviewers rank severity) and an \"Explainer Studio\" flow that researches, fact-checks, writes a brief and animates scenes. Flows cost much more than a single agent but find far more; you can route cheap models (Haiku) to wide phases and more test-time compute to the hard phase, and set a budget.\n\nThe second half is safety at scale: declare, contain, detect. Keep the \"brain\" (inference loop and session state) separate from the \"hands\" (sandboxes and tools); inject credentials only at the egress proxy so the sandbox only ever sees fake secrets; allowlist network hosts; set permission policies; watch the durable event stream; and turn on auto mode instead of \"always ask,\" because humans approve ~97% of prompts on autopilot. Today only one level of nesting is supported.",
+      "key_insights": [
+        "Single agents fail in three predictable ways on big jobs: agentic laziness, self-preferential bias and goal drift (Single-Agent Failure Modes).",
+        "Fix them structurally: one isolated context per item, a separate reviewer context, and the original goal copied verbatim into every sub-agent.",
+        "A coordinator with three sub-agents still inherits laziness; deterministic fan-out (one agent per service/ticker/slice) guarantees coverage.",
+        "Spend compute unevenly: cheap model on the wide scan phase, stronger model or more effort on review.",
+        "Generator vs judge gap: never let the agent that wrote something be the only one grading it.",
+        "Brain–Hands Credential Separation: secrets never enter the sandbox; real keys are swapped in at egress, and only to allowlisted hosts.",
+        "Auto mode beats \"always ask\" because humans rubber-stamp approvals; use a model to classify risky tool calls.",
+        "Cheap audit: hand a day's session transcripts to an agent and ask what looked odd."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "brain-hands-credential-separation",
+          "title": "Brain–Hands Credential Separation",
+          "e": "🔐"
+        },
+        {
+          "slug": "single-agent-failure-modes",
+          "title": "Single-Agent Failure Modes",
+          "e": "🦥"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "how-food-choices-shape-memory-cognition-cravings-kanoski-huberman",
+      "title": "How Food Choices Shape Memory, Cognition & Cravings | Dr. Scott Kanoski",
+      "video_id": "PXHRYbr3mp4",
+      "platform": "youtube",
+      "url": "https://youtu.be/PXHRYbr3mp4",
+      "duration_min": 123,
+      "creator": "andrew-huberman",
+      "updated": "2026-10-14",
+      "created": "2026-10-14",
+      "section": "performance",
+      "tags": [
+        "health",
+        "nutrition",
+        "memory",
+        "glp1",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "health",
+        "nutrition",
+        "memory",
+        "glp1",
+        "huberman-lab",
+        "huberman lab",
+        "andrew huberman",
+        "Diet Hippocampal Memory",
+        "Glp1 Appetite Cognition",
+        "Ultra Processed Food Cognition"
+      ],
+      "summary": "andrew huberman hosts USC professor Dr. Scott Kanoski on how diet, hunger, and memory interact. Kanoski's lab shows high-sugar and junk-food models cause hippocampal-dependent memory deficits that can persist after diet switch, with possible microbiome involvement. Human correlational work (e.g. Stevenson) links habitual sugar and saturated fat intake to worse hippocampal memory tasks even in healthy young adults.\n\nThe conversation covers endogenous GLP-1 (gut incretin + brainstem NTS neurons) vs GLP-1 receptor agonist drugs: appetite suppression, brain receptor distribution (including hippocampus), and emerging interest beyond weight loss (substance use, cognition). Risks discussed include micronutrient gaps and muscle loss if people rely on drugs without resistance training or nutrient-dense food — \"skinny fat\" concern — though many discontinue within ~2 years.\n\nPractical takeaways for Dong: excess sugar and ultra-processed junk are not just body-comp issues but cognition/memory risks; separate fat-loss nutrition from \"more cardio\"; protect protein + resistance training especially if ever considering GLP drugs; prefer real micronutrient density over engineered palatability hacks.",
+      "key_insights": [
+        "High-sugar and junk-food diets impair hippocampal memory in rodent models; deficits can outlast the junk diet itself.",
+        "Habitual sugar/saturated fat intake correlates with worse hippocampal memory tasks in healthy young adults.",
+        "Endogenous GLP-1 is secreted from gut around meals and separately produced in brainstem NTS neurons; both suppress appetite but operate largely independently.",
+        "GLP-1 receptors are dense in hippocampus and reward circuitry — drug effects may extend beyond appetite (research ongoing).",
+        "Ultra-processed foods >60% of US calories; demand/regulation, not technology, blocks micronutrient-dense alternatives.",
+        "Pair any appetite-drug strategy with resistance training and micronutrient-dense food to avoid muscle + nutrient loss.",
+        "Rodent control of intake is precise; human diet self-report remains a major research limit — treat claims cautiously."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "diet-hippocampal-memory",
+          "title": "Diet Hippocampal Memory",
+          "e": "🍩"
+        },
+        {
+          "slug": "glp1-appetite-cognition",
+          "title": "Glp1 Appetite Cognition",
+          "e": "💉"
+        },
+        {
+          "slug": "ultra-processed-food-cognition",
+          "title": "Ultra Processed Food Cognition",
+          "e": "🍟"
+        }
+      ],
+      "conceptCount": 3
+    },
+    {
+      "slug": "matt-pocock-most-valuable-skill-age-of-ai-nate-herk",
+      "title": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
+      "video_id": "Z8lf5oWKfj0",
+      "platform": "youtube",
+      "url": "https://youtu.be/Z8lf5oWKfj0",
+      "duration_min": 45,
+      "creator": "nate-herk",
+      "updated": "2026-10-17",
+      "created": "2026-10-17",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "agentic-engineering",
+        "communication",
+        "career"
+      ],
+      "keywords": [
+        "agents",
+        "agentic-engineering",
+        "communication",
+        "career",
+        "agentic engineering",
+        "nate herk",
+        "Agent Trust Ladder",
+        "Claude Code Skills",
+        "Specs-to-Code Critique",
+        "Ubiquitous Language for Agents"
+      ],
+      "summary": "Nate Herk interviews TypeScript educator Matt Pocock, who says the most valuable skill now is communication: there is always a gap between what you want and what the agent knows, and smarter models never close it because they cannot read your mind. The best developers he has seen were always the best communicators, and the clarity of their thinking shows up in the product.\n\nHis practical answers: care about the environment the agent works in (a messy codebase gives garbage in, garbage out); use Grill Me to surface unknown unknowns such as security and deployment; and borrow domain-driven design's ubiquitous language so the same words mean the same thing in code, database, UI and client conversations (his \"Grill with Docs\" skill builds that glossary as you go). His war story: months of spec-driven development, where specs were treated as the source of truth, made the code and the agent's output steadily worse until he went back to caring about the code itself.\n\nOn tools he runs Claude Code with Opus 5.5 at medium effort (and is considering lower), arguing most people crank effort too high when a well-tested codebase lets the agent do less work. For beginners: pick any harness, climb the trust ladder (learn the brake before the accelerator, watch the agent like a hawk, then add a second agent, skills and data sources), and give AI your boring, checkable work first rather than your most ambitious task. The big career opportunity, he says, is turning messy knowledge-work processes into agent workflows for organizations.",
+      "key_insights": [
+        "Communication is the bottleneck skill; models get smarter but the human-to-agent gap stays.",
+        "The skill is being aware of unknown unknowns, not having a complete design upfront.",
+        "Ubiquitous Language for Agents: one shared vocabulary across client, code and UI keeps agents aligned.",
+        "Spec-driven development failed for him; the code is the agent's environment, so invest there (Specs-to-Code Critique).",
+        "Lower effort levels plus strong tests give faster, cheaper, equally good output.",
+        "Agent Trust Ladder: start small, watch everything, then widen autonomy step by step.",
+        "Start with menial, verifiable tasks (draft replies, first drafts), not moonshots.",
+        "Use teach-style agents to get the vocabulary, then read the primary source yourself.",
+        "Career angle: agents for knowledge-work processes inside organizations is a big, hard, open opportunity."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-trust-ladder",
+          "title": "Agent Trust Ladder",
+          "e": "🪜"
+        },
+        {
+          "slug": "claude-code-skills",
+          "title": "Claude Code Skills",
+          "e": "📋"
+        },
+        {
+          "slug": "specs-to-code-critique",
+          "title": "Specs-to-Code Critique",
+          "e": "📝"
+        },
+        {
+          "slug": "ubiquitous-language-agents",
+          "title": "Ubiquitous Language for Agents",
+          "e": "📖"
+        }
+      ],
+      "conceptCount": 4
+    },
+    {
+      "slug": "superhuman-focus-perfect-memory-sahar-yousef-doac",
+      "title": "No.1 Neuroscientist Reveals How To Unlock Superhuman Focus & Perfect Memory! - Dr. Sahar Yousef",
+      "video_id": "yePLuwL3FbM",
+      "platform": "youtube",
+      "url": "https://youtu.be/yePLuwL3FbM",
+      "duration_min": 137,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-10-16",
+      "created": "2026-10-16",
+      "section": "mind",
+      "tags": [
+        "focus",
+        "productivity",
+        "habits",
+        "thesis",
+        "neuroscience"
+      ],
+      "keywords": [
+        "focus",
+        "productivity",
+        "habits",
+        "thesis",
+        "neuroscience",
+        "the diary of a ceo",
+        "Attentional Baggage (Residue)",
+        "Deep Work Protocols",
+        "Focus Sprint Protocol",
+        "Habit Automaticity",
+        "MITs vs LITs Prioritization",
+        "Nature Brain Break",
+        "Phone Grayscale Hack",
+        "Smartphone Attention Erosion",
+        "Time Blocking Productivity"
+      ],
+      "summary": "UC Berkeley cognitive neuroscientist Dr. Sahar Yousef (Becoming Superhuman Lab) tells Steven Bartlett that modern tech defaults were designed by behavioral neuroscientists to maximize engagement, so reverse-engineer the same neuroscience for focus. Task-switching carries attentional baggage (~60% productivity loss in her demo framing; ~2+ hours/day wasted bouncing screens). Memory and learning collapse when attention is fragmented.\n\nAction stack: put the phone in grayscale (~1 hour less phone/day in her lab), prefer long-form over short-form, remove the phone and kill notifications for deep work, pick 1–3 MITs (most important tasks) vs LITs that fill the cracks, and run focus sprints (calendar block → define execution list → cut distractions → countdown timer → real brain break). Chronotype (AM / intermediate / PM) sets *when* to sprint. Best breaks are nature or doing nothing with the hands; TikTok-style scrolling is the worst \"break.\"",
+      "key_insights": [
+        "Multitasking is a myth: every switch leaves Attentional Baggage (Residue) unless you get cognitive closure.",
+        "Default phone settings serve platform revenue; Phone Grayscale Hack cuts stimulation (~1 h/day less use).",
+        "Short-form infinite scroll = intermittent variable rewards (casino / Skittles); long-form trains attention and empathy.",
+        "Focus Sprint Protocol (5 steps) can ~2× output with fewer mistakes when timed to chronotype.",
+        "MITs vs LITs Prioritization: 1–3 MITs make the day a success; LITs fill gaps — don't spend deep hours on LITs.",
+        "Breaks that load more info (scroll/news) aren't breaks; nature or \"do nothing / hands busy\" restores focus.",
+        "Strategic automaticity: design systems so good habits fire without deliberation."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "attentional-baggage-residue",
+          "title": "Attentional Baggage (Residue)",
+          "e": "🧳"
+        },
+        {
+          "slug": "deep-work-protocols",
+          "title": "Deep Work Protocols",
+          "e": "🔕"
+        },
+        {
+          "slug": "focus-sprint-protocol",
+          "title": "Focus Sprint Protocol",
+          "e": "⏱️"
+        },
+        {
+          "slug": "habit-automaticity",
+          "title": "Habit Automaticity",
+          "e": "🪥"
+        },
+        {
+          "slug": "mits-vs-lits-prioritization",
+          "title": "MITs vs LITs Prioritization",
+          "e": "🎯"
+        },
+        {
+          "slug": "nature-brain-break",
+          "title": "Nature Brain Break",
+          "e": "🌳"
+        },
+        {
+          "slug": "phone-grayscale-hack",
+          "title": "Phone Grayscale Hack",
+          "e": "⬛"
+        },
+        {
+          "slug": "smartphone-attention-erosion",
+          "title": "Smartphone Attention Erosion",
+          "e": "📱"
+        },
+        {
+          "slug": "time-blocking-productivity",
+          "title": "Time Blocking Productivity",
+          "e": "📅"
+        }
+      ],
+      "conceptCount": 9
+    },
+    {
+      "slug": "what-i-wish-i-knew-at-30-charisma-on-command",
+      "title": "I’m 39. Here’s What I Wish I Knew at 30",
+      "video_id": "UVrH0lx9qvA",
+      "platform": "youtube",
+      "url": "https://youtu.be/UVrH0lx9qvA",
+      "duration_min": 21,
+      "creator": "charisma-on-command",
+      "updated": "2026-10-14",
+      "created": "2026-10-14",
+      "section": "mind",
+      "tags": [
+        "habits",
+        "mental-fitness",
+        "charisma",
+        "emotions"
+      ],
+      "keywords": [
+        "habits",
+        "mental-fitness",
+        "charisma",
+        "emotions",
+        "mental fitness",
+        "charisma on command",
+        "Breathwork Emotional Clearing",
+        "Feel Feelings Interest",
+        "Status Bs Meter"
+      ],
+      "summary": "Charlie (Charisma on Command) shares notes he wishes he knew at 30. Central theme: deferred feelings accrue interest — 20s can suppress via gym/new relationship/weekend drinking; 30s bill arrives as body issues, stuck relationships, recurring work problems.\n\nPractices: breathwork (~20 min) to clear emotional \"sludge\"; private dance/weird movement for bodily joy; build a BS meter as status rises (people show polished facets); measure mission by track record not passionate words; philosophizing/morality-as-fear vs heart-led goodness; integrate past selves instead of disavowing them; attend to spiritual life (breathwork/dance; psychedelics only with facilitators if ever).",
+      "key_insights": [
+        "No choice to not feel feelings — only conscious now vs unconscious later with interest.",
+        "Gossip/complaint and years without crying often flag unprocessed anger or grief.",
+        "Breathwork is a fast path to feel deferred material and return to present creativity/charisma.",
+        "As status rises, develop a gut BS meter — incentives to deceive increase.",
+        "Judge mission alignment by prior track record, not interview enthusiasm.",
+        "Don't demonize past selves (introvert → optimizer → feeler); integrate them.",
+        "Spiritual disconnection creates an 'unfindable ache' that other self-improvement won't touch."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "breathwork-emotional-clearing",
+          "title": "Breathwork Emotional Clearing",
+          "e": "🌬️"
+        },
+        {
+          "slug": "feel-feelings-interest",
+          "title": "Feel Feelings Interest",
+          "e": "💳"
+        },
+        {
+          "slug": "status-bs-meter",
+          "title": "Status Bs Meter",
+          "e": "🧭"
+        }
+      ],
+      "conceptCount": 3
     }
   ]
 }
