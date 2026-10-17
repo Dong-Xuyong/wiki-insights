@@ -1,0 +1,60 @@
+{
+  "slug": "matt-pocock-most-valuable-skill-age-of-ai-nate-herk",
+  "sections": [
+    {
+      "title": "The core skill",
+      "items": [
+        {
+          "e": "🗣️",
+          "q": "What does Pocock call the most valuable skill with AI?",
+          "a": "**Communication**: telling agents what you care about, because the human-to-agent gap **never closes on its own**."
+        },
+        {
+          "e": "❓",
+          "q": "What should you be aware of when designing with agents?",
+          "a": "Your **unknown unknowns** such as security and deployment; otherwise the agent **just makes stuff up**."
+        },
+        {
+          "e": "📖",
+          "q": "What is a ubiquitous language?",
+          "a": "One **shared vocabulary** used the same way by client, code, database and UI, so the agent builds **what you actually mean**."
+        }
+      ]
+    },
+    {
+      "title": "Working with agents",
+      "items": [
+        {
+          "e": "🏚️",
+          "q": "Why did spec-driven development fail for him?",
+          "a": "The code kept getting worse; **code is the agent's environment**, so a messy codebase means **garbage in, garbage out**."
+        },
+        {
+          "e": "🎚️",
+          "q": "What effort level does he run Opus 5.5 at?",
+          "a": "**Medium**, maybe lower: strong tests mean the agent **doesn't need to work as hard**, and it's faster and cheaper."
+        },
+        {
+          "e": "🪜",
+          "q": "How should a beginner start with agents?",
+          "a": "**Climb the trust ladder**: learn the brake first, **watch the agent like a hawk**, then add agents, skills and data sources."
+        },
+        {
+          "e": "🧹",
+          "q": "What tasks should you give AI first?",
+          "a": "Your **boring, checkable work** (draft replies, first drafts), not your most ambitious goal."
+        }
+      ]
+    },
+    {
+      "title": "Career",
+      "items": [
+        {
+          "e": "💼",
+          "q": "Where is the big AI career opportunity?",
+          "a": "Turning **knowledge-work processes into agent workflows** for organizations, which is hard because real work is **hard to verify**."
+        }
+      ]
+    }
+  ]
+}
