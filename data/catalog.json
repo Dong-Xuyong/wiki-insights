@@ -175,7 +175,10 @@
         }
       ],
       "conceptCount": 4,
-      "added": "2026-10-13"
+      "added": "2026-10-13",
+      "aliasSlugs": [
+        "how-food-choices-shape-memory-cognition-cravings-kanoski-huberman"
+      ]
     },
     {
       "slug": "how-much-you-should-spend-on-marketing",
@@ -341,7 +344,10 @@
         }
       ],
       "conceptCount": 5,
-      "added": "2026-10-13"
+      "added": "2026-10-13",
+      "aliasSlugs": [
+        "what-i-wish-i-knew-at-30-charisma-on-command"
+      ]
     },
     {
       "slug": "its-not-just-you",
@@ -32202,9 +32208,9 @@
     {
       "slug": "alex-hormozi-stop-chasing-ai-build-this-instead-doac",
       "title": "alex hormozi stop chasing ai build this instead doac",
-      "video_id": "",
+      "video_id": "HwmwyBgzj8c",
       "platform": "youtube",
-      "url": "",
+      "url": "https://youtu.be/HwmwyBgzj8c",
       "duration_min": null,
       "creator": "",
       "updated": "",
@@ -32328,9 +32334,9 @@
     {
       "slug": "maximize-productivity-daily-protocol-huberman",
       "title": "maximize productivity daily protocol huberman",
-      "video_id": "",
+      "video_id": "Pmd6knanPKw",
       "platform": "youtube",
-      "url": "",
+      "url": "https://youtu.be/Pmd6knanPKw",
       "duration_min": null,
       "creator": "",
       "updated": "",
