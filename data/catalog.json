@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 368,
-  "insightsCount": 355,
-  "conceptCount": 3002,
+  "videoCount": 369,
+  "insightsCount": 356,
+  "conceptCount": 3009,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 79,
+    "agents": 80,
     "systems": 22,
     "build": 48,
     "human": 19,
@@ -33227,6 +33227,90 @@
       ],
       "conceptCount": 9,
       "added": "2026-10-17"
+    },
+    {
+      "slug": "ai-agent-evals-phoenix-laurie-voss-arize",
+      "title": "How to Know If Your AI Agent Is Any Good: Evals With Phoenix & Claude — Laurie Voss, Arize AI",
+      "video_id": "SHMCGrNJJGc",
+      "platform": "youtube",
+      "url": "https://youtu.be/SHMCGrNJJGc",
+      "duration_min": 117,
+      "creator": "ai-engineer",
+      "updated": "2026-10-18",
+      "created": "2026-10-18",
+      "section": "agents",
+      "tags": [
+        "evals",
+        "agents",
+        "llm-as-judge",
+        "observability"
+      ],
+      "keywords": [
+        "evals",
+        "agents",
+        "llm-as-judge",
+        "observability",
+        "llm as judge",
+        "ai engineer",
+        "Agent Verification",
+        "Capability vs Regression Evals",
+        "Eval Error Analysis (Open and Axial Coding)",
+        "LLM Judge Rubric Anatomy",
+        "Production Observability Loops",
+        "Single-Agent Failure Modes",
+        "Swiss Cheese Eval Stack"
+      ],
+      "summary": "Laurie Voss (head of developer relations at Arize AI, formerly npm) runs a hands-on workshop on making an LLM agent measurably reliable. The mental model is simple: traces are logs, evals are tests run on traces. Unit tests fail for non-deterministic output, and \"looks good to me\" after three tries is not a test suite, so every prompt change or model upgrade becomes whack-a-mole. The demo is a deliberately weak two-turn financial-analyst agent (Claude Agent SDK on Haiku, research turn then writing turn) traced into Arize Phoenix via OpenTelemetry/OpenInference in about five lines.\n\nThe loop is: trace, read your traces first, write evals for what matters, check the judge can be trusted, change the agent, prove the change with an experiment, then lock it into CI. Reading 16 traces by hand surfaces unknown unknowns (a report that tried to write to disk without permission, analyst ratings adding up to 116%, a Tesla query answered about AWS). Do open coding (free-text notes) before axial coding (grouping notes into failure categories), diagnose each failure's cause (retrieval, reasoning, hallucination or scope), and prioritise by frequency × severity. A coding agent with Phoenix's error-analysis skill can do this at scale, but keep sampling by hand.\n\nEvals come in three complementary layers stacked like Swiss cheese: code evals (deterministic, free, e.g. \"does the report mention the ticker?\"), LLM-as-judge (meaning: faithfulness, tool selection, custom rubrics) and human review (novel failures, and calibrating the judge). Picking the right eval beats tuning it: the built-in correctness judge failed all 16 reports because the judge's knowledge cutoff made fresh data look fabricated, while faithfulness (grounded in the search results) gave useful explanations. A good custom judge prompt has five parts, is validated against human labels on dev/test splits with precision and recall, and must be treated as code because one missing XML tag flipped its verdicts. Capability evals (a 5/11 split is a hill to climb) graduate to regression evals in CI; upgrading Haiku 4.5 to 5.5 tripled faithfulness but cost 4× and made it answer \"hold\" almost every time, which only evals could reveal.",
+      "key_insights": [
+        "Traces record every step (spans with input, output, latency, tokens, cost); evals are tests on those traces.",
+        "eval error analysis open axial coding: read a dozen traces end to end before writing any eval, note what went wrong, then cluster into categories; don't guess categories upfront.",
+        "The answer being wrong is a symptom; find the cause (retrieval, reasoning, hallucination, scope) because each has a different fix.",
+        "Prioritise failures by frequency × severity, not frequency alone.",
+        "swiss cheese eval stack: many small evals (code, judge, human) whose holes don't line up; avoid the single \"god evaluator\".",
+        "Grade the outcome, not the path; agents find valid routes you didn't expect (Anthropic's Tau2-bench seat-change example).",
+        "llm judge rubric anatomy: role and context, explicit checkable criteria from your error analysis, XML-wrapped data, labelled examples (test with and without), constrained output via tool call.",
+        "Use a stronger, ideally different-provider model as judge; judges show position, length, confidence and self-preference bias.",
+        "Measure judge agreement with your own labels; prefer recall when a missed failure reaching a customer costs more than a false alarm. Human experts often agree only at Cohen's kappa ~0.2–0.3.",
+        "capability vs regression evals: an even pass/fail split is the most useful eval; once it passes reliably it becomes a CI regression gate (guardrail = must pass; north star = average ≥ 0.8).",
+        "Levers in order: prompt and data first, model choice second (big but costly), hyperparameters last.",
+        "Eval-driven development: write the eval before the feature; in production, sample real traffic and alert on sustained drops."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals"
+        },
+        {
+          "slug": "eval-error-analysis-open-axial-coding",
+          "title": "Eval Error Analysis (Open and Axial Coding)"
+        },
+        {
+          "slug": "llm-judge-rubric-anatomy",
+          "title": "LLM Judge Rubric Anatomy"
+        },
+        {
+          "slug": "production-observability-loops",
+          "title": "Production Observability Loops",
+          "e": "📡"
+        },
+        {
+          "slug": "single-agent-failure-modes",
+          "title": "Single-Agent Failure Modes",
+          "e": "🦥"
+        },
+        {
+          "slug": "swiss-cheese-eval-stack",
+          "title": "Swiss Cheese Eval Stack"
+        }
+      ],
+      "conceptCount": 7,
+      "added": "2026-10-18"
     }
   ]
 }
