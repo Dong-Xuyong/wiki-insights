@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 369,
-  "insightsCount": 356,
-  "conceptCount": 3009,
+  "videoCount": 371,
+  "insightsCount": 358,
+  "conceptCount": 3021,
   "sections": [
     {
       "id": "architecture",
@@ -52,11 +52,11 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 80,
+    "agents": 81,
     "systems": 22,
     "build": 48,
     "human": 19,
-    "performance": 54,
+    "performance": 55,
     "mind": 43,
     "relationships": 55,
     "other": 45
@@ -33317,6 +33317,159 @@
       ],
       "conceptCount": 7,
       "added": "2026-10-18"
+    },
+    {
+      "slug": "teach-agent-prove-done-nick-nisi-zack-proser-workos",
+      "title": "Teach Your Agent to Prove It's Done — Nick Nisi & Zack Proser, WorkOS",
+      "video_id": "q4WC4TowkBo",
+      "platform": "youtube",
+      "url": "https://youtu.be/q4WC4TowkBo",
+      "duration_min": 61,
+      "creator": "ai-engineer",
+      "updated": "2026-10-19",
+      "created": "2026-10-19",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "verification",
+        "evals",
+        "agentic-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "verification",
+        "evals",
+        "agentic-engineering",
+        "agentic engineering",
+        "ai engineer",
+        "Agent Rules Files",
+        "Agent Verification",
+        "Agent Work Receipts",
+        "App Verifier CLI",
+        "Capability vs Regression Evals",
+        "Outcome-Driven Agent Prompts",
+        "Stop Condition (Agent Loops)"
+      ],
+      "summary": "Nick Nisi (engineering manager) and Zack Proser (applied AI engineer) at WorkOS run the \"Beyond Done\" workshop at AI Engineer New York. Their premise: once you run many agents in parallel and stop reading every line of code, the bottleneck becomes whether you can trust an agent's \"done\". Quoting Lauren Tan: if an agent can't verify its own work, nothing else matters. Self-reports like \"it builds, tests pass, looks good\" are model prose, not evidence; their demo waitlist app shows a success message while never persisting the email, so a UI-only check passes and the feature is still broken.\n\nThe fix is to move the checks a human developer used to do by hand (reload the page, open a new tab, inspect network responses, console, local storage, persistence) into a bespoke, deterministic verifier CLI for the app. Their template tool, snack, has four verbs: health (up, down, doctor), drive (join the waitlist, reload, reset), look (snapshot, network, storage, console, screenshot) and prove (a deterministic prove command plus a fast \"system one\" model as a judge for fuzzy checks such as copy that no longer matches the contract). The agent runs it in a loop (reproduce, fix, re-prove) until it passes, so failures drive their own next step instead of waiting for a human nudge.\n\nAround that core: give agents the outcome and the check command, not the path (\"you'll know you're done when this command returns this\"), because frontier models find better routes and catch more edge cases when not over-prescribed; decompose work into small lanes each with its own definition of done; write explicit error messages because agents self-heal from them; and keep receipts (screenshots, recordings, test output, full user-journey records) for every run. Receipts let a human skim 15 PRs in the morning by watching the walkthrough first, and they become the dataset for future evals and self-improving loops. Enforce it via an AGENTS.md instruction (\"before opening a PR, run X\"), shared hooks or CI, and consider a dedicated agent watching production rollouts and reverting on bad metrics.",
+      "key_insights": [
+        "The new bottleneck is trust, not code generation: you can't review the volume agents write, so verification has to be automated.",
+        "\"Status comes from records, not model prose\": demand screenshots, videos, test results or smoke tests, never \"looks good\".",
+        "app verifier cli: the highest-leverage first step for any web app is a custom CLI that lets any agent drive and inspect the app the way a developer would (doctor, drive, snapshot, prove, judge).",
+        "A single deterministic command is more uniform than prose instructions: 30 agents with the same prompt vary, one bash-backed check doesn't.",
+        "Pair deterministic prove checks with a cheap fast model as judge so tests aren't tightly coupled to exact on-screen text.",
+        "outcome driven agent prompts: state the end state and the check that proves it; leave the route to the model.",
+        "Good error messages matter more than ever, because agents read them and fix themselves.",
+        "Red-green-refactor still applies: reproduce the bug, fix it, then show the proof.",
+        "agent work receipts: save every run's evidence; it speeds human review now and becomes eval data for recursive self-improvement later.",
+        "If your verifiers are solid, the source code matters less: you can rewrite in another language and prove it still works.",
+        "Put \"on change, run the verifier\" in AGENTS.md (not a tool-specific file) so every agent on the team follows it; back it with hooks and CI.",
+        "Emerging pattern: an agent dedicated to watching a production rollout (metrics, feature flags) and reverting when it goes bad."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-rules-files",
+          "title": "Agent Rules Files",
+          "e": "📋"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "agent-work-receipts",
+          "title": "Agent Work Receipts"
+        },
+        {
+          "slug": "app-verifier-cli",
+          "title": "App Verifier CLI"
+        },
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals",
+          "e": "⛰️"
+        },
+        {
+          "slug": "outcome-driven-agent-prompts",
+          "title": "Outcome-Driven Agent Prompts"
+        },
+        {
+          "slug": "stop-condition-agent-loops",
+          "title": "Stop Condition (Agent Loops)",
+          "e": "🛑"
+        }
+      ],
+      "conceptCount": 7,
+      "added": "2026-10-19"
+    },
+    {
+      "slug": "three-underrated-strength-techniques-pana",
+      "title": "3 Underrated Techniques to Blow Up Your Strength (squat, bench, deadlift)",
+      "video_id": "gaL__UaeVBk",
+      "platform": "youtube",
+      "url": "https://youtu.be/gaL__UaeVBk",
+      "duration_min": 12,
+      "creator": "pana",
+      "updated": "2026-10-19",
+      "created": "2026-10-19",
+      "section": "performance",
+      "tags": [
+        "strength",
+        "technique",
+        "squat",
+        "powerlifting"
+      ],
+      "keywords": [
+        "strength",
+        "technique",
+        "squat",
+        "powerlifting",
+        "pana",
+        "Bar Over Mid-Foot Balance",
+        "Bench Grip Wedge",
+        "Overhead Squat Diagnostic",
+        "Strength Program Templates",
+        "Three-by-Five Strength Protocol"
+      ],
+      "summary": "Pana argues technique is the most underrated driver of strength: he once struggled to bench 120 kg and now presses over twice his bodyweight after fixing his form. He gives one quick fix per lift, all built on keeping the bar where it can be pushed efficiently.\n\nSquat: keep the bar over mid-foot (half the body in front of the bar line, half behind). Beginners let the upper back shift during the descent or drive, tipping the bar forward, losing balance and loading the lower back. Fix it by actively driving the bar back into the upper back with wrists and elbows; a thumbless grip helps learn the feel. Brace and lock the position before unracking, so the bar has nowhere to roll. Bench: the bar path is diagonal, not vertical, because leg drive pushes backwards toward your head. A common unnoticed fault is the wrist rolling during the press, which pushes the bar forward against the leg drive. Fix it by setting the bar low in the palm and twisting it in with the thumb to wedge it, so the wrist stays stacked and the plates don't rotate. Deadlift: most beginners \"squat\" the deadlift, sitting the hips low with shoulders behind the bar, which pulls the bar off mid-foot and rounds the upper back under heavy load. Fix it by hinging: hands on hips, push the hips back, keep the shoulders slightly in front of the bar, tripod foot, then pull.",
+      "key_insights": [
+        "Technique is a strength multiplier: you can't lift heavy in a movement you don't understand.",
+        "bar over midfoot balance: squat and deadlift both work best with the bar over mid-foot; most balance losses and lower-back pain come from the bar drifting forward.",
+        "Squat: drive the bar back into your traps with wrists and elbows and lock that before you descend; thumbless grip is a learning aid.",
+        "bench grip wedge: grip the bar low in the palm and twist it in with the thumb so the wrist can't roll forward.",
+        "Bench bar path is diagonal back toward the face because leg drive pushes backwards; a rolling wrist fights the legs.",
+        "Check for wrist roll by watching the plate lettering: if it rotates, your grip is moving.",
+        "Deadlift: hinge, don't squat; shoulders in front of the bar, hips back, weight on a tripod foot, not the heels."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "bar-over-midfoot-balance",
+          "title": "Bar Over Mid-Foot Balance"
+        },
+        {
+          "slug": "bench-grip-wedge",
+          "title": "Bench Grip Wedge"
+        },
+        {
+          "slug": "overhead-squat-diagnostic",
+          "title": "Overhead Squat Diagnostic",
+          "e": "🏋️"
+        },
+        {
+          "slug": "strength-program-templates",
+          "title": "Strength Program Templates",
+          "e": "🏋️"
+        },
+        {
+          "slug": "three-by-five-strength-protocol",
+          "title": "Three-by-Five Strength Protocol",
+          "e": "🏋️"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-19"
     }
   ]
 }
