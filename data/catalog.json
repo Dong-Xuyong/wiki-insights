@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 371,
-  "insightsCount": 358,
-  "conceptCount": 3021,
+  "videoCount": 374,
+  "insightsCount": 361,
+  "conceptCount": 3038,
   "sections": [
     {
       "id": "architecture",
@@ -52,12 +52,12 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 81,
+    "agents": 83,
     "systems": 22,
     "build": 48,
     "human": 19,
     "performance": 55,
-    "mind": 43,
+    "mind": 44,
     "relationships": 55,
     "other": 45
   },
@@ -33470,6 +33470,233 @@
       ],
       "conceptCount": 5,
       "added": "2026-10-19"
+    },
+    {
+      "slug": "model-swap-workshop-pamela-fox",
+      "title": "The Model Swap Workshop: GPT-5.5 vs Kimi vs DeepSeek vs Mistral — Pamela Fox, Microsoft",
+      "video_id": "UGjk3Uk0MxM",
+      "platform": "youtube",
+      "url": "https://youtu.be/UGjk3Uk0MxM",
+      "duration_min": 52,
+      "creator": "ai-engineer",
+      "updated": "2026-10-20",
+      "created": "2026-10-20",
+      "section": "agents",
+      "tags": [
+        "llm-evaluation",
+        "rag",
+        "tool-calling",
+        "model-selection"
+      ],
+      "keywords": [
+        "llm-evaluation",
+        "rag",
+        "tool-calling",
+        "model-selection",
+        "llm evaluation",
+        "tool calling",
+        "model selection",
+        "ai engineer",
+        "Capability vs Regression Evals",
+        "LLM Judge Rubric Anatomy",
+        "Model Swap Testing",
+        "Prompt Optimization Search Loop",
+        "RAG Groundedness Check",
+        "Tool-Call Efficiency Evals"
+      ],
+      "summary": "Pamela Fox (Principal Cloud Advocate, Microsoft) runs a hands-on workshop at AI Engineer comparing GPT-5.5, Kimi K2.6, DeepSeek V4 Flash and Mistral Large 3 on Microsoft Foundry. Her premise: benchmarks give a rough idea, but you don't know how a model behaves until you swap it into your own scenarios, and every AI engineer needs model options (new releases, cost, or access being cut off). Each example file has a model variable, so swapping is a one-line change.\n\nShe builds up from a single call to agents. Letter counting: GPT-5.5 and Kimi get 13, DeepSeek 6, Mistral 8; adding \"split into words, count per word, sum, show reasoning\" fixes Mistral. RAG: a carpenter-bee dataset asked about honey bees tests groundedness; weaker models fill gaps from their weights and pretend it came from the context, so the right answer is \"the sources don't cover honey bees\". Tool calling: wrong or ambiguous arguments (adding \"me\" as attendee, inventing \"virtual (Microsoft Teams)\") reveal ambiguity in your tool descriptions. Tool calling in a loop: GPT-5.5 batches a word problem into one calculator call, DeepSeek needs four, Kimi sometimes re-checks itself in loops, so efficiency (calls, latency) becomes the differentiator. Agents (LangChain v1 travel planner, also Pydantic AI and Agent Framework): GPT-5.5 uses parallel tool calls for independent flight and hotel searches; others serialise, add extra calls or (Mistral) stop before the final step. Compare model and harness, since each framework's loop differs.\n\nThen evaluation: start with string checks for single tool calls (right tool, right args, date math, other languages, slang), keep adding real production inputs to avoid drift, and keep evals out of the normal test suite because they are slow and costly. Move to LLM-as-judge with pass/fail plus a reason, giving the judge the query, response, context and even tool definitions and traces; pre-run the app outputs so you can iterate on the judge separately, and calibrate judges against domain-expert labels. Skip generic coherence/fluency evaluators and build custom ones; a new tool (assert) bootstraps behaviour categories and synthetic user scenarios before production. Finally, DSPy with the GEPA optimizer turns the spec and checks into the prompt, finding a system prompt that makes cheap Mistral pass, which gives model independence. Bonus: Anthropic's built-in citations return cited text blocks for RAG front ends.",
+      "key_insights": [
+        "model swap testing: keep the model a one-line config, run your own scenarios on every candidate, and compare answers, cost and behaviour, not leaderboard scores.",
+        "A little structure in the prompt (decompose, count per item, show reasoning) can close the gap for a weaker model.",
+        "rag groundedness check: test RAG with a question the sources only half answer; a good model admits the gap instead of filling it from its weights.",
+        "Bad tool arguments usually mean your tool description is ambiguous; tighten it, then re-run the cases.",
+        "Give LLMs a tool for date math; they are bad at it, especially across leap years.",
+        "tool call efficiency evals: score agents on number of calls, parallel calls and finishing all steps, not only on the final answer.",
+        "Evals are slow and expensive (RAG often needs 200–800 cases), so run them deliberately rather than on every commit.",
+        "LLM judges need pass/fail plus a reason and the full context or traces; ask whether the bug is in the app or the judge, and calibrate with experts.",
+        "Never bother with coherence/fluency evals; build custom evaluators for your app's behaviours.",
+        "DSPy + GEPA: your spec and checks are the code, the prompt is the output; this lets smaller models hit the same bar."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals",
+          "e": "⛰️"
+        },
+        {
+          "slug": "llm-judge-rubric-anatomy",
+          "title": "LLM Judge Rubric Anatomy",
+          "e": "📝"
+        },
+        {
+          "slug": "model-swap-testing",
+          "title": "Model Swap Testing"
+        },
+        {
+          "slug": "prompt-optimization-search-loop",
+          "title": "Prompt Optimization Search Loop",
+          "e": "🔁"
+        },
+        {
+          "slug": "rag-groundedness-check",
+          "title": "RAG Groundedness Check"
+        },
+        {
+          "slug": "tool-call-efficiency-evals",
+          "title": "Tool-Call Efficiency Evals"
+        }
+      ],
+      "conceptCount": 6,
+      "added": "2026-10-20"
+    },
+    {
+      "slug": "smarter-models-killed-harness-jediah-katz",
+      "title": "Smarter Models Killed the Harness. Here's What's Left — Jediah Katz, SpaceXAI",
+      "video_id": "7Y4sbZgBdnc",
+      "platform": "youtube",
+      "url": "https://youtu.be/7Y4sbZgBdnc",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-10-20",
+      "created": "2026-10-20",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "harness-engineering",
+        "ai-engineering",
+        "agent-infrastructure"
+      ],
+      "keywords": [
+        "agents",
+        "harness-engineering",
+        "ai-engineering",
+        "agent-infrastructure",
+        "harness engineering",
+        "ai engineering",
+        "agent infrastructure",
+        "ai engineer",
+        "Agent Primitives",
+        "Agent Trust Operating Model",
+        "Deploying Agentic Workflows",
+        "Harness Data Flywheel",
+        "Harness Engineering",
+        "Harness Shims"
+      ],
+      "summary": "Jediah Katz, Cursor's longest-tenured agent-harness engineer (now at SpaceX after the Cursor acquisition), asks whether the agent harness is dead. He traces the job titles from prompt engineer (2023) to context engineer (2025) to harness engineer (2026) and splits the harness into a runtime layer (where the agent loop runs, how state is stored so work can resume) and a context and orchestration layer (which model is called when, prompts, tools, memory compaction, behavioural tricks).\n\nThe \"harness is dead\" camp has evidence: Berkeley and Apple/EPFL studies found that on newer frontier models the choice of harness barely changes SWE-bench or MLE-bench scores, and Cursor itself deleted many guardrails (a separate apply-edit model, codebase-exploration and check-your-work instructions). Katz agrees that a fancy harness no longer adds coding intelligence and explains why through the harness data flywheel: the harness brings harder tasks within reach, more users attempt them, that data reaches the labs, the models absorb the skill natively, and the harness can delete the patch.\n\nBut the harness isn't dead, for two reasons. First, it opens the next frontier: in Grok Bot (long-lived coordinator bots that farm work to worker agents) the team is adding prompts and guardrails back for tasks models haven't nailed, such as slide decks, travel booking, keeping the user informed without overwhelming them, acting versus asking, and memory; the \"software factory\" (auto-triage, cloud agent fix with before/after videos, rollout agent watching production) is a meta-harness. Second, some things models can't absorb: cloud infrastructure for agents that run for hours or days, trust and security (scoped permissions, guardrails against catastrophic actions or a $10,000 API bill) and efficiency (the studies found big cost differences per task even when scores matched; cache hit rate, token efficiency and model mix cut Grok Bot's cost and latency with no quality loss). Next trends: hide harness internals so features can ship and unship fast (Hyrum's law), design composable agent primitives such as one subscriptions tool for Slack, CI and time events, track every deterministic shim centrally so a bot can propose removing ones that stop firing, build harnesses from agents rather than LLM calls, and expect ~90% of agent work to run off the laptop within six months.",
+      "key_insights": [
+        "Harness = runtime (loop location, resumable state) + context/orchestration (model routing, prompts, tools, compaction).",
+        "On today's frontier models a fancier harness barely moves coding benchmark scores, but it does change cost per task.",
+        "harness data flywheel: harness unlocks harder tasks → more usage data → labs train the skill in → harness deletes the patch → harness moves to the next frontier.",
+        "New domains (knowledge work, communication, acting vs asking, memory) need guardrails added back, even as coding guardrails are removed.",
+        "What models can't absorb: always-on cloud runtime, scoped permissions and security, and efficiency.",
+        "harness shims: log every deterministic patch over model behaviour, and let a bot open a PR to delete any shim that stops firing.",
+        "agent primitives: one composable building block (e.g. subscriptions for Slack, CI or time events) beats a separate integration per feature.",
+        "Hide harness internals from users so you can change them freely (Hyrum's law).",
+        "The new building block is the agent, not the LLM call; expect most agent work to move off the laptop."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-primitives",
+          "title": "Agent Primitives"
+        },
+        {
+          "slug": "agent-trust-operating-model",
+          "title": "Agent Trust Operating Model",
+          "e": "🤝"
+        },
+        {
+          "slug": "deploying-agentic-workflows",
+          "title": "Deploying Agentic Workflows",
+          "e": "🚀"
+        },
+        {
+          "slug": "harness-data-flywheel",
+          "title": "Harness Data Flywheel"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        },
+        {
+          "slug": "harness-shims",
+          "title": "Harness Shims"
+        }
+      ],
+      "conceptCount": 6,
+      "added": "2026-10-20"
+    },
+    {
+      "slug": "tim-ferriss-anxiety-brain-fuel-jay-shetty",
+      "title": "If You Struggle with Anxiety, Please Watch This | Tim Ferriss",
+      "video_id": "DtvvSCBjTuE",
+      "platform": "youtube",
+      "url": "https://youtu.be/DtvvSCBjTuE",
+      "duration_min": 82,
+      "creator": "jay-shetty",
+      "updated": "2026-10-20",
+      "created": "2026-10-20",
+      "section": "mind",
+      "tags": [
+        "anxiety",
+        "brain-health",
+        "habits",
+        "exercise"
+      ],
+      "keywords": [
+        "anxiety",
+        "brain-health",
+        "habits",
+        "exercise",
+        "brain health",
+        "jay shetty",
+        "Box Breathing",
+        "Brain Fuel Check",
+        "Do-the-Opposite Experiment",
+        "Galpin Weekly Endurance Protocol",
+        "Norwegian 4×4 Intervals"
+      ],
+      "summary": "On the Jay Shetty Podcast, Tim Ferriss argues that many smart people who feel stuck don't have a thinking problem, they have a fuel problem. Treat the brain like muscle: before you journal your way through a quandary, check whether you're under-fuelled (food, sleep, insulin sensitivity, vitamin D, trace minerals). Shetty adds that his own fatigue turned out to be vitamin D at 10. Ferriss frames Alzheimer's as \"type 3 diabetes\" (the brain becoming bad at using glucose) and describes three alternative brain fuels: ketones (exogenous ketones visibly improved relatives with Alzheimer's within 30 minutes; fasting and keto build the machinery), lactate, and fuel-burning stimulants like caffeine, which speed up use rather than add fuel and spike then crash glucose.\n\nLactate is the new one for him (via neuroscientist Dr. Tommy Wood): the Norwegian 4×4 (4 minutes at 85–90% max heart rate, ~4 minutes easy, four rounds, about three times a week) produced hippocampal changes in a six-month study with effects lasting years, while steady walking doesn't. His own version: leg press or leg extension sets held for one 4–5 minute music track. He also covers bioelectric medicine: accelerated TMS (Stanford's SAINT protocol, ~70% remission in treatment-resistant depression) and an experimental one-day TMS protocol with D-cycloserine that took his generalised anxiety from 8–9/10 to 0–1 for months; he realised his \"depression\" was fatigue caused by anxiety-disrupted sleep. On the vagus nerve, he notes meditation, breathing apps or box breathing 10 minutes twice a day for about 2 weeks tends to \"click\" at the same 7–14 day mark that vagus-nerve stimulators need.\n\nFor habits and work: try subtraction (what can you remove?) and ask \"what if I did the opposite for 48 hours or a week?\". As a broke young salesman he stopped calling 9–5 and called 7–9 am and 5–7 pm instead, when gatekeepers were gone, reaching CEOs directly and outselling much bigger competitors. He balances an achievement mindset with an acceptance practice, and plans intense, time-boxed sprints (e.g. a few weeks of eat, sleep, exercise, write for his book draft) bookended by full rest.",
+      "key_insights": [
+        "brain fuel check: when stuck, anxious or flat, first rule out fuel issues (food, sleep, vitamin D, minerals, glucose swings) before trying to think your way out.",
+        "Caffeine burns fuel faster rather than adding it; crashes are often glucose crashes.",
+        "Ketones and lactate are alternative brain fuels; fasting/keto and hard intervals build the capacity to use them.",
+        "norwegian 4x4 intervals: 4 × 4 minutes at 85–90% max HR with ~4 min recovery, ~3×/week; steady-state walking doesn't give the same brain effect.",
+        "Breathing or meditation practice 10 min twice a day usually needs ~2 weeks before it clearly works, so don't quit after day 5.",
+        "do the opposite experiment: flip a default for 48 hours or a week to test whether the convention is actually serving you.",
+        "Ask what to subtract before adding new tools, rules or habits.",
+        "Anxiety can be the first domino: anxiety → poor sleep → fatigue → what feels like depression.",
+        "Run hard, time-boxed sprints with a clear end, then bookend them with deliberate rest."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "box-breathing",
+          "title": "Box Breathing",
+          "e": "🟦"
+        },
+        {
+          "slug": "brain-fuel-check",
+          "title": "Brain Fuel Check"
+        },
+        {
+          "slug": "do-the-opposite-experiment",
+          "title": "Do-the-Opposite Experiment"
+        },
+        {
+          "slug": "galpin-weekly-endurance-protocol",
+          "title": "Galpin Weekly Endurance Protocol",
+          "e": "🏃"
+        },
+        {
+          "slug": "norwegian-4x4-intervals",
+          "title": "Norwegian 4×4 Intervals"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-20"
     }
   ]
 }
