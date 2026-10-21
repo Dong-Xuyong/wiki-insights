@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 374,
-  "insightsCount": 361,
-  "conceptCount": 3038,
+  "videoCount": 375,
+  "insightsCount": 362,
+  "conceptCount": 3044,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 83,
+    "agents": 84,
     "systems": 22,
     "build": 48,
     "human": 19,
@@ -33697,6 +33697,86 @@
       ],
       "conceptCount": 5,
       "added": "2026-10-20"
+    },
+    {
+      "slug": "monzo-agent-chip-platform-multipliers-ai-engineer",
+      "title": "A Bank Built Its Own Coding Agent. It Took Off — Felipe Felisola Caso & Francesco Galletta, Monzo",
+      "video_id": "adfw3xJBx1o",
+      "platform": "youtube",
+      "url": "https://youtu.be/adfw3xJBx1o",
+      "duration_min": 16,
+      "creator": "ai-engineer",
+      "updated": "2026-10-21",
+      "created": "2026-10-21",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "coding-agents",
+        "ai-engineering",
+        "agent-infrastructure",
+        "enterprise-ai"
+      ],
+      "keywords": [
+        "agents",
+        "coding-agents",
+        "ai-engineering",
+        "agent-infrastructure",
+        "enterprise-ai",
+        "coding agents",
+        "ai engineering",
+        "agent infrastructure",
+        "enterprise ai",
+        "ai engineer",
+        "Agent On-Call Triage",
+        "Agent Security & Permissions",
+        "Composable Agent Building Block",
+        "Enterprise Agent Platform Scaffold",
+        "MCP Gateway Pattern",
+        "Nested Agent Sandbox"
+      ],
+      "summary": "Felipe and Francesco from Monzo, a UK digital bank (3,000+ back-end services, ~13,000 data-warehouse models, dozens of ML predictors), show how their in-house remote coding agent Agent Chip took off. It started as a viral Slack trick (react to any message with an emoji and the agent takes it as a prompt) and became an always-available teammate: you @mention it to answer architecture questions, review code, or pick up Linear tickets. It now authors over 10% of all merged PRs across tech and runs 1,800+ tasks a day, and business users are starting to use it for queries and self-serve questions.\n\nTheir point is that the secret sauce isn't the model but \"LLMs = lots of little multipliers\": a strong existing platform (alerting, monitoring, third-party integrations, an easy staging environment, queueing and database abstractions, easy deployment) is what let them build it fast. Before Agent Chip existed they built an MCP gateway for local coding agents that exposes chosen internal tools and knowledge sources with central authentication and authorization. On top they built an agent orchestration system that runs remote agents in sandboxes inside an isolated Kubernetes namespace, separate from production: the agent image fixes the tools, CLIs and credentials (from the gateway), a proxy allows only chosen egress (e.g. to code repos), and the non-deterministic agent runs in the innermost box.\n\nBecause Agent Chip is now itself a building block, new use cases come cheaply: incident mode (joins the incident channel, reads logs, traces and code, keeps signal high and lets humans control how much it says), squad-to-squad \"ask\" channels where it drafts answers for a human in the loop, Agent Chip on Call that triages data-quality alerts (reactive) plus a proactive version that checks back-end changes for data impact before the next batch runs, and a lower barrier for non-specialists, who can get a working, staging-tested draft before involving an engineer for review. The platform is provider-agnostic (the agent box can swap models) and they aim to cover the full development window end to end: back end, app, staging and data tests.",
+      "key_insights": [
+        "The value came from the platform, not the model: existing monitoring, staging, queues and deploy tooling made the agent fast to build.",
+        "Start with an MCP Gateway Pattern for local agents; the same gateway later feeds remote agents.",
+        "nested agent sandbox: isolated namespace → pod sandbox → agent image with fixed tools and creds → egress proxy → agent; non-determinism stays in the innermost box.",
+        "Meet people where they work: an emoji reaction in Slack as the prompt made adoption go viral.",
+        "composable agent building block: once the agent is a platform primitive, incident, ask-channel, Linear and on-call use cases stack on top.",
+        "agent on call triage: reactive triage of data-quality alerts plus a proactive check of back-end changes before data breaks.",
+        "Non-specialists can draft tested changes, but engineer review and deploy rigor stay the same.",
+        "Keep the agent model-agnostic so you can swap providers as the market moves."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-on-call-triage",
+          "title": "Agent On-Call Triage"
+        },
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "composable-agent-building-block",
+          "title": "Composable Agent Building Block"
+        },
+        {
+          "slug": "enterprise-agent-platform-scaffold",
+          "title": "Enterprise Agent Platform Scaffold",
+          "e": "🏗️"
+        },
+        {
+          "slug": "mcp-gateway-pattern",
+          "title": "MCP Gateway Pattern",
+          "e": "🚪"
+        },
+        {
+          "slug": "nested-agent-sandbox",
+          "title": "Nested Agent Sandbox"
+        }
+      ],
+      "conceptCount": 6,
+      "added": "2026-10-21"
     }
   ]
 }
