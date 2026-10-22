@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 375,
-  "insightsCount": 362,
-  "conceptCount": 3044,
+  "videoCount": 377,
+  "insightsCount": 364,
+  "conceptCount": 3051,
   "sections": [
     {
       "id": "architecture",
@@ -52,13 +52,13 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 84,
+    "agents": 85,
     "systems": 22,
     "build": 48,
     "human": 19,
     "performance": 55,
     "mind": 44,
-    "relationships": 55,
+    "relationships": 56,
     "other": 45
   },
   "videos": [
@@ -33777,6 +33777,130 @@
       ],
       "conceptCount": 6,
       "added": "2026-10-21"
+    },
+    {
+      "slug": "code-quality-disposable-durable-software-capital-one",
+      "title": "Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One",
+      "video_id": "bU5gDVyu_28",
+      "platform": "youtube",
+      "url": "https://youtu.be/bU5gDVyu_28",
+      "duration_min": 17,
+      "creator": "ai-engineer",
+      "updated": "2026-10-22",
+      "created": "2026-10-22",
+      "section": "agents",
+      "tags": [
+        "ai-engineering",
+        "software-engineering",
+        "code-quality",
+        "vibe-coding"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "software-engineering",
+        "code-quality",
+        "vibe-coding",
+        "ai engineering",
+        "software engineering",
+        "code quality",
+        "vibe coding",
+        "ai engineer",
+        "Cost of Engineering Rigor",
+        "Disposable vs Durable Software",
+        "Push vs Pull Coding Standards",
+        "Vibe Coding Two Modes"
+      ],
+      "summary": "Max Kanat-Alexander (Capital One) replaces the senior engineer's \"it depends\" with a framework. All software success depends on understanding a system and executing on that understanding, and code quality (debuggers, observability, tests, evals, readable structure) exists only to serve those two things: knowing what the system actually does, and changing it correctly and safely. Every change carries two risks: introducing a problem now, and making the system harder to understand, which raises future risk. The second feeds the first and compounds non-linearly until every change causes a problem.\n\nAI is making one category of software explode: disposable software. Where the consequences of failure, the cost of replacement, the number of dependents and the cost of maintenance are all low (a personal calculator, a one-off party planner), code quality doesn't matter. Where they're all high, it's durable software, and all decades of engineering rigor still apply; durable software isn't going away and will grow too. It's a spectrum, so apply rigor according to where a system sits, and err toward durable. You can also deliberately make systems more disposable: isolated environments with no customer data, enforced independence (no inbound calls from production), redundancy (keep a clunky durable backup so vibe-coded front ends can fail safely) and limited scope.\n\nThe bigger lever is lowering the cost of rigor, so being wrong about where a system sits is cheap: standardization removes possibilities (one language, one framework, one RPC protocol), \"inward flow\" tooling runs automatically, fast and with few false positives, testing infrastructure makes every test fast and deterministic (agents can now build in-memory fakes of services), and maximum strictness on linters from day one avoids huge later clean-ups. His answer: code quality doesn't matter for disposable software, does for durable software, and doesn't have to be expensive.",
+      "key_insights": [
+        "Code quality serves only understanding the system and changing it safely; everything else is a proxy.",
+        "Complexity compounds: each hard-to-understand change makes future changes riskier.",
+        "disposable vs durable software: judge by consequences, replacement cost, dependents and maintenance cost.",
+        "You can engineer disposability: isolated environments, enforced independence, a durable fallback, limited scope.",
+        "cost of engineering rigor: standardize, automate checks, make tests fast and deterministic, and turn strictness to maximum early.",
+        "Err on the side of durable; cheap rigor makes it easy to change your mind."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cost-of-engineering-rigor",
+          "title": "Cost of Engineering Rigor"
+        },
+        {
+          "slug": "disposable-vs-durable-software",
+          "title": "Disposable vs Durable Software"
+        },
+        {
+          "slug": "push-vs-pull-coding-standards",
+          "title": "Push vs Pull Coding Standards",
+          "e": "📥"
+        },
+        {
+          "slug": "vibe-coding-two-modes",
+          "title": "Vibe Coding Two Modes",
+          "e": "🔀"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-22"
+    },
+    {
+      "slug": "warm-vs-cold-one-word-perception-vanessa-van-edwards",
+      "title": "Do People See You as Warm or Cold?",
+      "video_id": "XOiPENPP44o",
+      "platform": "youtube",
+      "url": "https://youtu.be/XOiPENPP44o",
+      "duration_min": 6,
+      "creator": "vanessa-van-edwards",
+      "updated": "2026-10-22",
+      "created": "2026-10-22",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "first-impressions",
+        "personal-branding",
+        "social-skills"
+      ],
+      "keywords": [
+        "communication",
+        "first-impressions",
+        "personal-branding",
+        "social-skills",
+        "first impressions",
+        "personal branding",
+        "social skills",
+        "vanessa van edwards",
+        "Energy Leadership",
+        "Presence Body Language Cues",
+        "Warmth Amplifier Effect"
+      ],
+      "summary": "Vanessa Van Edwards and Scott Edwards (Science of People Labs) replicate a 1946 classroom study online with 369 mostly adult participants, double the original sample. Everyone read the same one-sentence description of a stranger with one word swapped: warm or cold. With \"warm\", 92% rated the person generous; with \"cold\", only 14%. The same gap showed on all nine traits measured (generous, wise, happy, good-natured, humorous, sociable, popular, humane, imaginative), within a few points of the 1946 result.\n\nTheir takeaway is that warmth amplifies every other good trait, and labelling someone warm did not lower their competence rating: likability and credibility rise together. Yet people over-index on competence words in LinkedIn headlines, résumés and email intros. Practical moves: describe others warmly when you introduce them (you are setting their first impression), check your own LinkedIn and résumé for warm words, stop self-deprecating, and add small authentic warmth to sign-offs, chats and Slack (for example signing emails \"Warmly\"). Only use warmth you actually feel.",
+      "key_insights": [
+        "One word (warm vs cold) flips how people judge a whole cluster of traits.",
+        "warmth amplifier effect: warmth boosts perceived generosity, wisdom, humour and more, without costing competence.",
+        "Introductions set someone else's first impression, so introduce people warmly.",
+        "Audit your LinkedIn headline, résumé and email intro for warm words, not just competent ones.",
+        "Self-deprecation undercuts how others see you; showing warmth isn't bragging.",
+        "Warmth must be authentic, or it backfires."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "energy-leadership",
+          "title": "Energy Leadership",
+          "e": "🎚️"
+        },
+        {
+          "slug": "presence-body-language-cues",
+          "title": "Presence Body Language Cues",
+          "e": "🚪"
+        },
+        {
+          "slug": "warmth-amplifier-effect",
+          "title": "Warmth Amplifier Effect"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-22"
     }
   ]
 }
