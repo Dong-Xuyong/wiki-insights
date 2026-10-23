@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 377,
-  "insightsCount": 364,
-  "conceptCount": 3051,
+  "videoCount": 382,
+  "insightsCount": 369,
+  "conceptCount": 3072,
   "sections": [
     {
       "id": "architecture",
@@ -52,11 +52,11 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 85,
+    "agents": 89,
     "systems": 22,
     "build": 48,
     "human": 19,
-    "performance": 55,
+    "performance": 56,
     "mind": 44,
     "relationships": 56,
     "other": 45
@@ -33901,6 +33901,332 @@
       ],
       "conceptCount": 3,
       "added": "2026-10-22"
+    },
+    {
+      "slug": "ai-failures-risk-based-evals-srivastava-shah",
+      "title": "1,368 AI Failures and What They Teach About Evals — Vishal Srivastava & Tanmay Sah, New York Life",
+      "video_id": "mMw3arwQsL0",
+      "platform": "youtube",
+      "url": "https://youtu.be/mMw3arwQsL0",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-10-23",
+      "created": "2026-10-23",
+      "section": "agents",
+      "tags": [
+        "ai-engineering",
+        "evals",
+        "ai-risk",
+        "agents"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "evals",
+        "ai-risk",
+        "agents",
+        "ai engineering",
+        "ai risk",
+        "ai engineer",
+        "Failure-Driven Evals",
+        "Human-in-the-Loop vs AFK Tasks",
+        "Risk-Based AI Evals",
+        "Swiss Cheese Eval Stack"
+      ],
+      "summary": "Vishal Srivastava and Tanmay Shah studied the public AI Incident Database to ask what real AI failures teach about evaluation. Failures are rising almost vertically in the foundation-model era, and enterprises have more AI use cases than they can review one by one. They structure failures along three core dimensions with 13 sub-dimensions: technical strength (data quality, system design, predictive validity, fairness, failure modes, explainability), deployment controls (decision authority, human mediation, exposure control, monitoring) and business context (financial impact, legal consequences, scale). These cover about 98% of incidents, and a typical incident involves about six sub-dimensions at once.\n\nNot all sub-dimensions are equal. Weak human-in-the-loop mediation and missing harm detection/monitoring are most associated with harm, while scale and system design are frequent but less harmful. Grouped, deployment controls matter most, then business impact, then technical failure. So risk is a property of the whole deployed system: how often the model fails, whether the failure reaches a real decision, whether it goes uncaught, and how severe it is. A materiality scale ranks use cases so scarce eval effort goes to the riskiest ones, and the evaluator itself (including LLM judges) must be governed.\n\nDrawing on Peter Wason's 2-4-6 experiment on confirmation bias, they argue evals must try to falsify, not confirm: a build-break-fix loop that states the system's claim, attacks it, adds controls (policy checks, human escalation) and re-tests, then maps trusted, uncertain and high-risk regions and only deploys where confidence is earned. The Air Canada bereavement-fare chatbot case shows how one such test (advice must match approved policy) would have caught the failure before a tribunal did.",
+      "key_insights": [
+        "AI failures have structure: 13 sub-dimensions in three groups cover ~98% of incidents.",
+        "risk based ai evals: deployment controls (human review, monitoring, exposure, authority) matter more than model accuracy.",
+        "Risk = failure rate × reaches a decision × goes uncaught × severity; the same model can be safe or dangerous depending on deployment.",
+        "Rank use cases by materiality and spend eval effort there, not on frequency.",
+        "failure driven evals: try to break the system's claim, fix, and break again before deciding to deploy.",
+        "Treat the evaluator (LLM judge, generated tests) as part of the system you govern."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "failure-driven-evals",
+          "title": "Failure-Driven Evals"
+        },
+        {
+          "slug": "human-in-the-loop-vs-afk-tasks",
+          "title": "Human-in-the-Loop vs AFK Tasks",
+          "e": "⌨️"
+        },
+        {
+          "slug": "risk-based-ai-evals",
+          "title": "Risk-Based AI Evals"
+        },
+        {
+          "slug": "swiss-cheese-eval-stack",
+          "title": "Swiss Cheese Eval Stack",
+          "e": "🧀"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-23"
+    },
+    {
+      "slug": "ai-productivity-not-the-model-jellyfish-arcolano",
+      "title": "Better AI Models Won't Fix Your Engineering Team — Nicholas Arcolano, Jellyfish",
+      "video_id": "Ve2bAarPA2I",
+      "platform": "youtube",
+      "url": "https://youtu.be/Ve2bAarPA2I",
+      "duration_min": 17,
+      "creator": "ai-engineer",
+      "updated": "2026-10-23",
+      "created": "2026-10-23",
+      "section": "agents",
+      "tags": [
+        "ai-engineering",
+        "developer-productivity",
+        "ai-coding",
+        "engineering-leadership"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "developer-productivity",
+        "ai-coding",
+        "engineering-leadership",
+        "ai engineering",
+        "developer productivity",
+        "ai coding",
+        "engineering leadership",
+        "ai engineer",
+        "AI Productivity Drivers",
+        "Claude Code Skills",
+        "Model Swap Testing",
+        "Token Dashboard"
+      ],
+      "summary": "Nicholas Arcolano, head of AI and research at Jellyfish, uses telemetry from hundreds of thousands of developers at about 1,300 companies to ask how much the AI model actually matters for engineering output. A natural experiment, when Cursor's UI suddenly pushed many engineers onto a different model, showed no change in merged PRs per engineer. A curated study of about 50,000 Cursor and Claude Code engineers at 447 companies then split the variation in PR throughput into five levers, using a golf analogy (clubs, technique, time on the course, the course, the golfer).\n\nThe tool (model plus harness) explains under 1%; switching model families, harnesses or autocomplete-to-agentic mode is \"statistically a nothingburger\". How well you use it (skills, rules, harness customisation) explains about 3%, but only because few people use skills: almost half of engineer-weeks had no skill use and only 12% used them heavily, while 30+ skill runs a week gave about a 30% throughput bump. How much you use it (tokens) explains about 9%: output rises with diminishing returns, roughly 2x output for 10x tokens from median to top 10%. Where you work explains about 12% (two-thirds company, one-third team: codebase, review process, culture), a 2x spread between top and bottom companies at fixed spend. The individual explains about three quarters, with a 3.5x spread, and AI has not reshuffled who the top engineers are (about 41-44% leave the top quartile every half year, before and after AI).\n\nHis conclusion for leaders: stop obsessing over model choice, which you don't control, and work on what you can change — people, skills adoption, team and company environment (\"unlike golf, you can change the course\").",
+      "key_insights": [
+        "ai productivity drivers: individual (~75%) > company/team (12%) > token use (9%) > skill use (3%) > tool/model (<1%).",
+        "Switching models or harnesses barely moves merged-PR throughput.",
+        "Heavy skill use (30+ runs a week) gave ~30% more output, yet most engineers barely use skills.",
+        "Tokens follow a saturating curve: ~10x tokens for 2x output from median to top 10%.",
+        "Culture, codebase and review process create a 2x spread between companies at equal AI spend.",
+        "AI hasn't levelled the field: the best engineers before AI are still the best."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-productivity-drivers",
+          "title": "AI Productivity Drivers"
+        },
+        {
+          "slug": "claude-code-skills",
+          "title": "Claude Code Skills",
+          "e": "📋"
+        },
+        {
+          "slug": "model-swap-testing",
+          "title": "Model Swap Testing",
+          "e": "🔀"
+        },
+        {
+          "slug": "token-dashboard",
+          "title": "Token Dashboard",
+          "e": "📊"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-23"
+    },
+    {
+      "slug": "ai-writing-slop-tone-bench-bouchard",
+      "title": "Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI",
+      "video_id": "_dTF3NpPzGo",
+      "platform": "youtube",
+      "url": "https://youtu.be/_dTF3NpPzGo",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-10-23",
+      "created": "2026-10-23",
+      "section": "agents",
+      "tags": [
+        "ai-engineering",
+        "writing",
+        "evals",
+        "llm-judges"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "writing",
+        "evals",
+        "llm-judges",
+        "ai engineering",
+        "llm judges",
+        "ai engineer",
+        "AI Writing Slop Traits",
+        "LLM Judge Rubric Anatomy",
+        "Multi-Draft Judge-Merge Writing",
+        "Premium Copywriting Leverage"
+      ],
+      "summary": "Louis-François Bouchard (Towards AI) defines AI slop and presents Tone-Bench, a benchmark for whether models can write a script in his voice that he could read aloud without cringing. Slop has six traits: overused LLM words (\"delve\"), too general (nothing specific), says nothing, repeats itself, hallucinates, and has no tone of its own (everyone's tone at once). Better models haven't made it disappear.\n\nThe benchmark sends each model a long prompt (voice description, many past scripts, storytelling guidance, a research brief) for 10 hidden scripts, generates five drafts per task to measure intra-model variability (weaker models vary more; one in five drafts can match the best model), and has four LLM judges score nine metrics grouped as tone, writing quality, instruction following, research accuracy and slop. Judges first pick one of six categories, then a rating, with examples for each score and a justification. Judges prefer their own model family, so he mixes families and added 1,000 human A/B comparisons. It cost about 500 hours to build, and one rubric change costs over $2,000 to rerun.\n\nPractical lessons for writing with AI: don't hunt for a model that one-shots a perfect post; pick the one that is least annoying to edit. Give an extremely long, detailed prompt with positive and negative examples and banned words. Use one to three reviews by a high-thinking model with the same instructions (more loops back into slop). At scale, generate many cheap drafts and have a stronger model merge the best parts, then always finish with a human review.",
+      "key_insights": [
+        "ai writing slop traits: overused words, generic, empty, repetitive, hallucinated, toneless.",
+        "Generate several drafts to see a model's variance, not just its best output.",
+        "LLM judges favour their own model family: mix judge families and add human comparisons.",
+        "Choose the writing model that is least annoying to fix, not the one-shot winner.",
+        "multi draft judge merge writing: long prompt, many cheap drafts, one strong merge/review, human final pass.",
+        "Limit AI reviews to one to three rounds, or the text drifts back into slop."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-writing-slop-traits",
+          "title": "AI Writing Slop Traits"
+        },
+        {
+          "slug": "llm-judge-rubric-anatomy",
+          "title": "LLM Judge Rubric Anatomy",
+          "e": "📝"
+        },
+        {
+          "slug": "multi-draft-judge-merge-writing",
+          "title": "Multi-Draft Judge-Merge Writing"
+        },
+        {
+          "slug": "premium-copywriting-leverage",
+          "title": "Premium Copywriting Leverage",
+          "e": "✍️"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-23"
+    },
+    {
+      "slug": "answer-first-agent-evals-no-benchmark-air-canada",
+      "title": "How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada",
+      "video_id": "c_SPW__jF9w",
+      "platform": "youtube",
+      "url": "https://youtu.be/c_SPW__jF9w",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-10-23",
+      "created": "2026-10-23",
+      "section": "agents",
+      "tags": [
+        "ai-engineering",
+        "evals",
+        "agents",
+        "rag"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "evals",
+        "agents",
+        "rag",
+        "ai engineering",
+        "ai engineer",
+        "Answer-First Eval Generation",
+        "Capability vs Regression Evals",
+        "LLM Judge Rubric Anatomy",
+        "RAG Groundedness Check"
+      ],
+      "summary": "Nathanael Weill (Air Canada) describes how he stopped \"shipping agents without evaluation\" when there is no public benchmark and domain experts are too busy to grade. In 2024, building a RAG assistant over about 10,000 telecom documents, his team could only test one variant a week in expert grading sessions where experts often disagreed. The fix was to reverse the problem: start from a page, have an LLM write a question about it, and check with code whether retrieval finds that page. Evaluation went from one a week to dozens a day, and accuracy rose mostly by removing complexity and tuning basics (embedding model, chunking, BM25 alpha). His rule: if you cannot grade the agent, you can't make it better.\n\nAt Air Canada he applies the same answer-first idea to a supplier-contract review agent (spot clauses, retrieve supporting documents, draft amendments, classify). Five ways to create tests where you know the answer: (1) past decisions — diff original vs signed contracts (failed: versions weren't kept); (2) plant a rule violation — write a clause breaking a known rule (e.g. a cap above $1M) and generate a contract around it (275 tests); (3) break a good contract — remove a clause from a signed one and mix with clean contracts; the strongest benchmark, which showed the agent missed most removed clauses; (4) invariance tests — change supplier name or address, reorder clauses, rerun the same input; flags must not change; (5) templates — fill expert templates' blanks with arrays of values, some breaking rules, to generate many labelled contracts.\n\nAll of these are graded with exact match or code, not LLM-as-judge, which he found nearly as hard and noisy as the task itself. Sometimes the agent design was changed so it could be evaluated. Expert feedback is used to make better tests, not to patch the agent directly. Generated tests speed up development; they are a starting point, not a go/no-go decision.",
+      "key_insights": [
+        "If you can't grade it, you can't improve it: a test set beats weekly expert panels.",
+        "answer first eval generation: start from a known answer, plant it, and see if the agent finds it.",
+        "Five test sources: past decisions, planted rule breaks, broken good examples, invariance checks, templates.",
+        "Prefer code or exact-match grading; LLM judges add noise that's hard to remove.",
+        "Removing pipeline complexity and tuning basics (chunking, embeddings, BM25 weight) beat fancy RAG tricks.",
+        "Use expert feedback to improve the tests, and redesign the agent if it can't be evaluated."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "answer-first-eval-generation",
+          "title": "Answer-First Eval Generation"
+        },
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals",
+          "e": "⛰️"
+        },
+        {
+          "slug": "llm-judge-rubric-anatomy",
+          "title": "LLM Judge Rubric Anatomy",
+          "e": "📝"
+        },
+        {
+          "slug": "rag-groundedness-check",
+          "title": "RAG Groundedness Check",
+          "e": "🐝"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-23"
+    },
+    {
+      "slug": "rational-approach-supplementation-huberman-essentials",
+      "title": "Essentials: Developing a Rational Approach to Supplementation for Health & Performance",
+      "video_id": "eYSOabR3YP0",
+      "platform": "youtube",
+      "url": "https://youtu.be/eYSOabR3YP0",
+      "duration_min": 35,
+      "creator": "andrew-huberman",
+      "updated": "2026-10-23",
+      "created": "2026-10-23",
+      "section": "performance",
+      "tags": [
+        "health",
+        "supplements",
+        "sleep",
+        "focus",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "health",
+        "supplements",
+        "sleep",
+        "focus",
+        "huberman-lab",
+        "huberman lab",
+        "andrew huberman",
+        "Delay Caffeine Protocol",
+        "EPA Omega-3 for Depression",
+        "Huberman Stress Supplements",
+        "Rational Supplementation Hierarchy",
+        "Stimulant vs Neuromodulator Focus"
+      ],
+      "summary": "Andrew Huberman lays out a framework for deciding whether and how to supplement. Health rests on a stack: behaviours first (morning sunlight, exercise), then nutrition, then supplements, then prescription drugs from a physician. Supplements can't compensate for poor nutrition, and the right dose may be zero. Before recommending anything he asks three questions: how are you sleeping, how is your nutrition, and what is your budget?\n\nWith about $100+ a month, start with foundational supplements (a broad vitamin-mineral formula with digestive enzymes, probiotics, prebiotics and adaptogens, taken with food), the one category where multi-ingredient products make sense. For specific goals use single-ingredient formulations, trying one for about a week without changing anything else, then combining only what works. Sleep: fix caffeine after 2 pm and food in the 2 hours before bed first; for falling asleep, magnesium threonate or bisglycinate and apigenin; theanine (100-400 mg) helps many but avoid it if dreams are very vivid; myo-inositol (900 mg) for waking at night; he is not a fan of melatonin (doses far above natural levels, doesn't keep you asleep). Hormones: fix behaviour and nutrition first; Tongkat Ali (200-600 mg, no cycling, bloodwork after 8-12 weeks) and Fadogia agrestis (stay within label dose, cycle e.g. 8 weeks on/2 off).\n\nFocus: separate stimulants (caffeine, alpha-yohimbine/rauwolscine, which can cause anxiety, especially in a caloric deficit) that raise alertness from neuromodulator supplements that tighten focus: alpha-GPC (300-600 mg, acetylcholine, 4-6 h half-life) and L-tyrosine (500-1,000 mg, dopamine, can cause a crash). If you take just one single-ingredient supplement, make it omega-3 fish oil with at least 1 g EPA a day (check EPA, not total oil). Protein powders help reach ~1 g protein per pound of body weight, but whole foods bring fibre, satiety and micronutrients.",
+      "key_insights": [
+        "rational supplementation hierarchy: behaviours → nutrition → supplements → prescriptions; the right dose can be 0 mg.",
+        "Ask three questions first: sleep, nutrition, budget.",
+        "Foundational multi-ingredient supplements are the only place to combine; elsewhere test single ingredients for a week.",
+        "Sleep onset: magnesium threonate/bisglycinate or apigenin; skip theanine if dreams are vivid; avoid melatonin.",
+        "stimulant vs neuromodulator focus: caffeine raises alertness; alpha-GPC and L-tyrosine tighten focus.",
+        "Best single supplement: omega-3 with ≥1 g EPA/day.",
+        "Yohimbine-type stimulants can cause anxiety, especially on an empty stomach or in a caloric deficit."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "delay-caffeine-protocol",
+          "title": "Delay Caffeine Protocol",
+          "e": "☕"
+        },
+        {
+          "slug": "epa-omega3-depression",
+          "title": "EPA Omega-3 for Depression",
+          "e": "🐟"
+        },
+        {
+          "slug": "huberman-stress-supplements",
+          "title": "Huberman Stress Supplements",
+          "e": "🌿"
+        },
+        {
+          "slug": "rational-supplementation-hierarchy",
+          "title": "Rational Supplementation Hierarchy"
+        },
+        {
+          "slug": "stimulant-vs-neuromodulator-focus",
+          "title": "Stimulant vs Neuromodulator Focus"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-23"
     }
   ]
 }
