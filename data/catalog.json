@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 385,
-  "insightsCount": 372,
-  "conceptCount": 3089,
+  "videoCount": 387,
+  "insightsCount": 374,
+  "conceptCount": 3100,
   "sections": [
     {
       "id": "architecture",
@@ -52,13 +52,13 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 92,
+    "agents": 93,
     "systems": 22,
     "build": 48,
     "human": 19,
     "performance": 56,
     "mind": 44,
-    "relationships": 56,
+    "relationships": 57,
     "other": 45
   },
   "videos": [
@@ -34446,6 +34446,151 @@
       ],
       "conceptCount": 6,
       "added": "2026-10-24"
+    },
+    {
+      "slug": "ai-writes-code-product-engineers-laurie-voss",
+      "title": "AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI",
+      "video_id": "kspZP5BgkEU",
+      "platform": "youtube",
+      "url": "https://youtu.be/kspZP5BgkEU",
+      "duration_min": 28,
+      "creator": "ai-engineer",
+      "updated": "2026-10-25",
+      "created": "2026-10-25",
+      "section": "relationships",
+      "tags": [
+        "ai-engineering",
+        "career",
+        "agents",
+        "product"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "career",
+        "agents",
+        "product",
+        "ai engineering",
+        "ai engineer",
+        "Future of Coding Specification",
+        "Labor arbitrage collapse",
+        "Moving Bottleneck",
+        "Product Engineer Shift",
+        "Three Levels Agent Review"
+      ],
+      "summary": "Laurie Voss (head of developer relations at Arize AI, npm co-founder) argues that agents have made writing code basically free, but everything after the code did not get free at the same time. Developers who switch on autonomous coding agents write 741% more code but ship only ~30% faster, because work piles up behind code review: humans can only review about 450 lines per hour well, so nobody truly reviews 10,000-line agent diffs. AI reviewers help but aren't reliable yet (four AI reviewers each found real bugs, none of the same bugs), and teams that tried skipping review entirely went back. Cognition's benchmark shows the gap: asking \"would the maintainer merge this PR?\" instead of \"does it pass the tests?\" drops the pass rate from 87% to 54%, because the maintainer holds an unwritten sense of what good means.\n\nUsing Goldratt's theory of constraints, he predicts the bottleneck will keep moving: review, then operations and scaling, then security, each automated as soon as humans write the knowledge down (Cursor's reviewer has turned team thumbs-downs into ~44,000 rules). What stays is Fred Brooks' essential complexity: finding out what a specific customer actually needs, defining what good means, and making it delightful. That knowledge lives in people's heads, doesn't transfer between near-identical use cases, and can only be extracted by talking to them. So he expects the systems analyst and product manager to collapse back into one job: the product engineer, who finds out what people need, writes the spec and rubric, and ships with agents doing the typing. Forward-deployed engineer postings rose 800% in nine months of 2025 (average comp ~$240k).\n\nThe cost: employment of engineers aged 22-25 is falling while 41-49 rises, because the old junior ladder (well-specified tickets, then feedback) is now what we do with agents. Companies must grow product engineers on purpose (IBM is redesigning entry roles around customer talks and specs). His practical advice: list your high blast radius code and review only that; delegate anything cheap to verify and build automatic checks for it; put your best people's judgment into specs, rubrics and evals; and measure shipped outcomes, reviewer-comment uptake and the tests-pass vs would-merge gap, with production as the last reviewer.",
+      "key_insights": [
+        "Code got ~8x cheaper but shipping only ~30% faster: the bottleneck moved to review.",
+        "moving bottleneck: fix one constraint and work piles up at the next (review, ops, security...).",
+        "\"Passes tests\" vs \"maintainer would merge\": 87% vs 54%, the gap is the unwritten sense of good.",
+        "Whatever you can verify cheaply, models will eventually beat; the safe zone is deciding what to build and defining good.",
+        "product engineer shift: programmer and software developer have split; the job is talking to users, writing specs, shipping with agents.",
+        "Junior hiring is collapsing; teams must train product engineers deliberately.",
+        "Review only high-blast-radius code; automate verification for the rest."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "future-of-coding-specification",
+          "title": "Future of Coding Specification",
+          "e": "📐"
+        },
+        {
+          "slug": "labor-arbitrage-collapse",
+          "title": "Labor arbitrage collapse",
+          "e": "📉"
+        },
+        {
+          "slug": "moving-bottleneck",
+          "title": "Moving Bottleneck"
+        },
+        {
+          "slug": "product-engineer-shift",
+          "title": "Product Engineer Shift"
+        },
+        {
+          "slug": "three-levels-agent-review",
+          "title": "Three Levels Agent Review",
+          "e": "🔍"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-25"
+    },
+    {
+      "slug": "bridgewater-vault-unstructured-data-agents",
+      "title": "How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green & Aaron Linsky, Bridgewater",
+      "video_id": "CLve4Nx_RwI",
+      "platform": "youtube",
+      "url": "https://youtu.be/CLve4Nx_RwI",
+      "duration_min": 17,
+      "creator": "ai-engineer",
+      "updated": "2026-10-25",
+      "created": "2026-10-25",
+      "section": "agents",
+      "tags": [
+        "ai-engineering",
+        "rag",
+        "search",
+        "agents",
+        "finance"
+      ],
+      "keywords": [
+        "ai-engineering",
+        "rag",
+        "search",
+        "agents",
+        "finance",
+        "ai engineering",
+        "ai engineer",
+        "Agent Heartbeat (Proactive Wake-up)",
+        "Dual-Reader Search Design",
+        "Habit Migration Adoption",
+        "Native Filtered Vector Search",
+        "Product-Market Fit Iteration",
+        "Semantic Search — When to Use (Level 3)"
+      ],
+      "summary": "Sam Green (team lead for applied AI) and the head of product engineering at Bridgewater Associates describe the Vault, the firm's platform that turns unstructured data into a first-class investment asset: 100M+ documents from 135 external sources plus internal memos and meeting transcripts, each aligned to the firm's ontology with enrichments for countries, concepts, markets and, above all, the time period discussed. Motivating demo: asked how AI infrastructure spending affects the Korean won, a web-connected enterprise chat agent found 15 sources, used one or two, leaned on a note three months stale, and admitted it couldn't establish consensus. Connected to the Vault, the same agent scoped the search to the right week, found 52 candidates and cited seven. Lesson: great data plus the right connectors make agents useful.\n\nThree lessons. (1) Humans and agents need different things from search (dual reader search design): people read ~300 words a minute and need precision; agents read ~100x faster, tolerate noise but need scale (100+ queries per second vs ~100 per hour for 300 humans). The five dimensions are recall, precision, filtering, entitlements and scale. When users said \"Vault search is bad\", the team hand-built a ~200-question benchmark in under a week (including documents that look helpful but aren't): precision@10 was ~60%, and five improvements ending in agentic search lifted it to 90-95%. Production traces showed almost every query carries a filter (as-of date, source, asset), which exposed the pre- vs post-filtering trade-off and led them to a vector store with native filtering. (2) Great tools still go unused until you migrate users' old habits: researchers lived in email, so subscription lists became saved searches and folders became saved collections; only then did new habits (Q&A across all data, topic feeds, handing collections to agents) take off, and product-market fit followed, with the Vault pushed into chat, mobile, Slack, the IDE and a CLI for agents.\n\n(3) The real prize is moving agents from reactive to proactive: an always-on investor workbench proposes topics with an agentic summary and the exact evidence, and the synthesis from each human-agent session is written back into the Vault, so knowledge compounds. Built on it: a \"pocket analyst\" doing hours of research in minutes for a few dollars, a longer-horizon researcher, a forecaster, and investment signals turning unstructured data into tradable strategies.",
+      "key_insights": [
+        "Agents fail on stale or thin context; curated, time-tagged data + connectors beat open-web search.",
+        "dual reader search design: humans need precision, agents need scale; filtering and entitlements matter to both.",
+        "Measure before fixing: ~200 hand-labelled questions in a week turned \"search is bad\" into precision@10 = 60%, then 90-95%.",
+        "native filtered vector search: post-filtering is fast but loses recall; pre-filtering keeps recall but is slow; native filtering gets both.",
+        "habit migration adoption: rebuild users' existing workflows inside the new tool before asking for new habits.",
+        "Give agents their own interfaces (a CLI) alongside human UIs.",
+        "Write human-agent synthesis back into the corpus so the system compounds."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-heartbeat-proactive",
+          "title": "Agent Heartbeat (Proactive Wake-up)",
+          "e": "💓"
+        },
+        {
+          "slug": "dual-reader-search-design",
+          "title": "Dual-Reader Search Design"
+        },
+        {
+          "slug": "habit-migration-adoption",
+          "title": "Habit Migration Adoption"
+        },
+        {
+          "slug": "native-filtered-vector-search",
+          "title": "Native Filtered Vector Search"
+        },
+        {
+          "slug": "product-market-fit-iteration",
+          "title": "Product-Market Fit Iteration",
+          "e": "👕"
+        },
+        {
+          "slug": "semantic-search-when-to-use",
+          "title": "Semantic Search — When to Use (Level 3)",
+          "e": "🔍"
+        }
+      ],
+      "conceptCount": 6,
+      "added": "2026-10-25"
     }
   ]
 }
