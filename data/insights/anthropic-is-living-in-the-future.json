@@ -1,0 +1,85 @@
+{
+  "slug": "anthropic-is-living-in-the-future",
+  "sections": [
+    {
+      "title": "The volume",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What happened to Claude Code merges from June to September?",
+          "a": "Merged pull requests **more than doubled**. The share that had to be **reverted fell by more than 40%**. The mono repo went from about **2,500 merges a day in May** to **more than 30,000 by September**."
+        },
+        {
+          "e": "👁️",
+          "q": "What is scarce once Claude writes about 90% of Claude Code?",
+          "a": "**Human attention**, not code. Most pull requests should merge with **at most one person**, and that person can be the author. If reverts rise, the time moved from review to cleanup."
+        }
+      ]
+    },
+    {
+      "title": "The stack",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What must Claude show before anyone else looks?",
+          "a": "Something it can run: **tests, a build, or a screenshot**. The engineer who created Claude Code estimates this makes the result **two to three times** better."
+        },
+        {
+          "e": "🗳️",
+          "q": "How does the agent review avoid posting every guess?",
+          "a": "Several agents hunt. A **separate group votes**. A finding posts only if enough agree. Substantive comments went from **16% to 54%** of pull requests. **Open security findings block the merge**."
+        },
+        {
+          "e": "🔁",
+          "q": "What stopped a pull request from looping all night?",
+          "a": "One request went through **more than 50 rounds**. After **three rounds** the reviewer asks the author to rethink. Single-round passes then went from **65% to 78%**."
+        }
+      ]
+    },
+    {
+      "title": "The two rules",
+      "items": [
+        {
+          "e": "🪪",
+          "q": "Which two rules does he say to copy first?",
+          "a": "**An agent's approval never counts as a human's.** Whoever **prompted the agent owns the change**. The change sets the tier: trusted low-risk can skip an extra person, ordinary work needs one, the riskiest needs two."
+        },
+        {
+          "e": "⚠️",
+          "q": "Why does he not treat the headline numbers as settled?",
+          "a": "Anthropic is **grading its own homework**. Nobody has checked them. It spends more on tokens than most businesses want, and the review product **only works with GitHub**."
+        }
+      ]
+    },
+    {
+      "title": "The floor",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "Why did more writing make review slower everywhere else?",
+          "a": "Pharos, on **more than 10,000 developers in 2025**, saw heavy AI teams merge **98% more** pull requests while review time rose **91%**. Claude Code built for that bottleneck and cut the revert share by almost half."
+        },
+        {
+          "e": "⏪",
+          "q": "When is it too early to review less?",
+          "a": "Until mistakes are cheap to undo: tests an agent can run, **feature flags**, staged release, fast rollback. He cites DORA 2025: only about **21% of teams** recover a failed deploy in **under an hour**."
+        }
+      ]
+    },
+    {
+      "title": "The org chart",
+      "items": [
+        {
+          "e": "🗺️",
+          "q": "What should leadership map before it fires coordinators?",
+          "a": "Every decision by how much **human attention** it needs: none, a human **on the loop**, a human **in the loop**, or a **licensed signature**. Automate coordination first. Keep a human on the hook."
+        },
+        {
+          "e": "📏",
+          "q": "What does he measure a manager by, once agents do the reading?",
+          "a": "**Span of accountability**, not span of control. Since September, GitHub lets **Copilot's approval** count toward a required approval. He would not copy that if you are regulated."
+        }
+      ]
+    }
+  ]
+}
