@@ -1,0 +1,45 @@
+{
+  "slug": "the-last-real-programmers-are-dying-out",
+  "sections": [
+    {
+      "title": "The species",
+      "items": [
+        {
+          "e": "🔑",
+          "q": "What does the non-technical vibe coder ship?",
+          "a": "**Hardcoded API keys** in a front end. Hackers find them the next day."
+        },
+        {
+          "e": "🎰",
+          "q": "What does the prompt-casino degenerate do?",
+          "a": "Prompts until something compiles, cannot pass **LeetCode medium**, burns about **$400 a month** after the company capped him at **$29**, and blames a nerfed Opus."
+        },
+        {
+          "e": "🐝",
+          "q": "Who maintains the 2019 date library?",
+          "a": "The **slop maintainer**. **40 million weekly downloads**, hundreds of Claude pull requests, **$95** in GitHub Sponsors. Bigger maintainers got acquired by **Shopify**."
+        }
+      ]
+    },
+    {
+      "title": "The punchline",
+      "items": [
+        {
+          "e": "📉",
+          "q": "How many pure programmers does he leave?",
+          "a": "The purest has been jobless since **MCP**, calls it **CORBA with worse security**, and is estimated at **fewer than 10,000** left. The joke: stereotypes are **99% accurate about 12% of the time**."
+        }
+      ]
+    },
+    {
+      "title": "The ones left out of the joke",
+      "items": [
+        {
+          "e": "🎓",
+          "q": "Who are the last two species?",
+          "a": "A junior who graduated in **2024**, about **six months** after the last entry-level job, and a purest who has been jobless since **MCP** and calls it **CORBA with worse security**."
+        }
+      ]
+    }
+  ]
+}

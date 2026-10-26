@@ -1,0 +1,40 @@
+{
+  "slug": "i-tried-100-ai-tools-these-7-are-the-best",
+  "sections": [
+    {
+      "title": "The lever",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "What is 90% of the workflow?",
+          "a": "**Claude Code and Codex as one lever**. Codex is better at the computer and the browser. Claude Code is the better brainstorming partner, and its usage **lasts longer right now**. He replaced Gamma and Poppy and built his own Loom."
+        }
+      ]
+    },
+    {
+      "title": "The rest of the seven",
+      "items": [
+        {
+          "e": "🔑",
+          "q": "What is OpenRouter doing?",
+          "a": "**500+ models**, **80+ providers**, one key per automation. A cheap model sorts leads and a smarter one writes the replies."
+        },
+        {
+          "e": "🗣️",
+          "q": "Which tools does he name a stake in?",
+          "a": "**Hostinger** VPS is sponsored, and he says he would list it anyway. Sale through about halfway through **December** at hostinger.com/natehertzvps. **Glydo**, and he is a partner: hold a key to dictate, a command mode, local history, a custom MCP. **key.ai** is pay-per-use. **trigger.dev** runs TypeScript on a schedule or a webhook. The free plan includes **$5** of credits."
+        }
+      ]
+    },
+    {
+      "title": "Where to start",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What is the starting move?",
+          "a": "Rebuild something you **pay for every month** and only use **one feature** of. He has kept this set for about **a year and a half to two years**."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "the-real-reason-deno-joined-cloudflare",
+  "sections": [
+    {
+      "title": "The two mornings",
+      "items": [
+        {
+          "e": "📅",
+          "q": "What happened on 5 August?",
+          "a": "Around **8 a.m.**, Ryan Dahl announced **Seld** (he said **Seld these nuts**). Apache 2, self-hosted durable objects and workers, V8, S3, SQLite, R2-style storage, experimental containers. A cost comparison where durable objects get **cheaper than Cloudflare**."
+        },
+        {
+          "e": "☁️",
+          "q": "What happened on 9 October?",
+          "a": "Around **8 a.m.**, about **two months** later, the Deno team joins **Cloudflare** because of Seld. **Kenton Varda** will champion it."
+        }
+      ]
+    },
+    {
+      "title": "The runtime",
+      "items": [
+        {
+          "e": "📦",
+          "q": "What did the 2018 regrets say, and what happened?",
+          "a": "He would not be **Node-compatible**, or he would just rebuild Node. He faulted **package.json**, npm, and a missing sandbox. The host says that last year about **50% of Deno commits**, and about half the lines, were **Node compatibility**."
+        },
+        {
+          "e": "⏳",
+          "q": "What is the shutdown clock?",
+          "a": "One more year of **monthly bug and security releases**, then development stops. The runtime stays open source. **Deno Deploy** runs **six more months**, then shuts down, with migration help for paying customers onto **Cloudflare Workers**."
+        }
+      ]
+    },
+    {
+      "title": "The object",
+      "items": [
+        {
+          "e": "🧵",
+          "q": "What is a durable object, in the sense he uses?",
+          "a": "An **individually addressable single-threaded server** with its own **SQLite**. It sleeps when idle. That is the 2021 Cloudflare idea he says Seld was selling."
+        }
+      ]
+    }
+  ]
+}

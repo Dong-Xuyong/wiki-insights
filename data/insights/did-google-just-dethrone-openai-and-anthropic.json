@@ -1,0 +1,45 @@
+{
+  "slug": "did-google-just-dethrone-openai-and-anthropic",
+  "sections": [
+    {
+      "title": "The release",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What is Gemini 4 Argon, on this report?",
+          "a": "A **from-scratch sparse mixture of experts** on TPUs, cutoff **March 2026**. Announced **30 September** to Fairwind with no guardrails. Google never released **Gemini 3.5 Pro** after missed internal benchmarks."
+        },
+        {
+          "e": "💵",
+          "q": "What is the price until 30 November?",
+          "a": "**$2 / $10** per million tokens in and out. Argon was first only on the **$100 a month** AI Ultra plan. Google pulled **Gemini 3.1** out of anti-gravity."
+        }
+      ]
+    },
+    {
+      "title": "The board",
+      "items": [
+        {
+          "e": "🏆",
+          "q": "Which claims does he label Trust Me Bro?",
+          "a": "State of the art on long-horizon software engineering, **number 1** on the Val index, best AI lawyer, **91.7%** on LV bench, and a lead on Arena text."
+        },
+        {
+          "e": "📉",
+          "q": "Where does it lose?",
+          "a": "Terminal bench 4.0, where **Opus 5.5** goes **66 to 57**. It loses front-tier software engineering to **GPT-6 Astra by more than 10 points**, and is **9th** on the code Arena."
+        }
+      ]
+    },
+    {
+      "title": "The horse",
+      "items": [
+        {
+          "e": "🐴",
+          "q": "What did the horse prompt show?",
+          "a": "Argon's video was **obviously AI**. The 3.js horse had a **comically large exposed genital**. Claude's motion graphic looked better. He does not feel safe using Gemini until that is fixed."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "programmers-vs-dreams-fake-manhunts",
+  "sections": [
+    {
+      "title": "The clock",
+      "items": [
+        {
+          "e": "⛏️",
+          "q": "How long is an iron ingot?",
+          "a": "**200 ticks**, and **20 ticks a second**, so **10 seconds** an ingot. After a save load, **9.3 seconds** are missing. The furnace is at **0.56** of an ingot at 14:20 and nine frames, and the third ingot arrives only **15.1 seconds** later."
+        },
+        {
+          "e": "🔍",
+          "q": "What does GUI scale tell them?",
+          "a": "It is **integer pixel scaling**. A blurrier zoom means the image was **resampled**."
+        }
+      ]
+    },
+    {
+      "title": "The other tells",
+      "items": [
+        {
+          "e": "🍖",
+          "q": "What is wrong with the jolts?",
+          "a": "At food level **17**, jolts should be **52 ticks (2.6 seconds)** apart, not **1 second**. Enchantment glint uses **getMillis**. Casey says game code should **not read the real clock**."
+        },
+        {
+          "e": "🚤",
+          "q": "What does the boat clutch show?",
+          "a": "The **darkened bottom hotbar** updates ahead of the inventory hotbar, the **opposite** of what YouTube compression would do. The investigation claims **46 hidden cuts** across three original videos."
+        }
+      ]
+    },
+    {
+      "title": "The count",
+      "items": [
+        {
+          "e": "✂️",
+          "q": "How many cuts does the investigation claim?",
+          "a": "**46 hidden cuts** across **three** original Manhunt videos. The tells are the tick clock, not the video timeline."
+        }
+      ]
+    }
+  ]
+}

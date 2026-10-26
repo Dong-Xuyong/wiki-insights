@@ -1,0 +1,45 @@
+{
+  "slug": "vibe-coding-wow-forever-mods",
+  "sections": [
+    {
+      "title": "The sandbox",
+      "items": [
+        {
+          "e": "🚫",
+          "q": "What is banned inside an addon?",
+          "a": "**No HTTP, no sockets, no localhost, no arbitrary file reads.** Import does **not hot-reload**. Saved variables are written on **reload or logout**. The combat log is restricted. The game is out **4 November**."
+        },
+        {
+          "e": "🪟",
+          "q": "What did the legacy window do?",
+          "a": "Pressing **Y** grants alt points. Everyone in the beta was given **16**. A **fubar** dropdown appeared because an extra-challenges dropdown **reused an existing screen**."
+        }
+      ]
+    },
+    {
+      "title": "The tools",
+      "items": [
+        {
+          "e": "🛠️",
+          "q": "What tooling did they settle on?",
+          "a": "The **Codex** app, **one local git repo per addon**, and **/reload**. **Cursor** was the easiest. Codex on **Soul 61**, medium or high, is plenty. A fast expensive model is about **$500 a month** for about **90 minutes a week**. **Don't use Fable. It is too slow.**"
+        },
+        {
+          "e": "💬",
+          "q": "How did an addon ping Discord?",
+          "a": "A text-replacement addon pinged a user via a **numeric id in brackets**. A **guild ping** already exists. Companion programs **outside the game** can scan the disk for secrets."
+        }
+      ]
+    },
+    {
+      "title": "Outside the addon",
+      "items": [
+        {
+          "e": "💾",
+          "q": "What can still read secrets?",
+          "a": "A companion program **outside the game** can scan the disk. Inside the addon there is still **no socket**."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "opencode-got-hacked",
+  "sections": [
+    {
+      "title": "The breach",
+      "items": [
+        {
+          "e": "📅",
+          "q": "How big was the 16 October attack?",
+          "a": "**1.4%** of OpenCode console users. Named losses were **$1,400**, **$700**, and amounts in the hundreds."
+        },
+        {
+          "e": "🚫",
+          "q": "What did Dax say happened to the early key?",
+          "a": "**Google, Anthropic, and OpenAI revoked it** because it was used for distillation. That detection is why a **token black market** exists."
+        }
+      ]
+    },
+    {
+      "title": "The pattern",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What is the repeat?",
+          "a": "Breach an org that holds **trusted tokens**, burn them, find the next org. Mid-incident, **frontier safeguards blocked the investigation**."
+        },
+        {
+          "e": "💸",
+          "q": "What does he treat Daybreak as?",
+          "a": "At least **several thousand dollars a day**, which he treats as about **$1 million a year**. GLM is cited around **320 to 403 billion** parameters. Detection agents run **24/7**."
+        }
+      ]
+    },
+    {
+      "title": "After the keys",
+      "items": [
+        {
+          "e": "🟦",
+          "q": "What did OpenCode get after the breach?",
+          "a": "**Daybreak Blue**. He treats several thousand dollars a day as about **$1 million a year**. Detection agents run **24/7**."
+        }
+      ]
+    }
+  ]
+}

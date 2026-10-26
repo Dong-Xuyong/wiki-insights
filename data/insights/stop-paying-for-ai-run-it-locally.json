@@ -1,0 +1,45 @@
+{
+  "slug": "stop-paying-for-ai-run-it-locally",
+  "sections": [
+    {
+      "title": "The box",
+      "items": [
+        {
+          "e": "💻",
+          "q": "What hardware are they describing?",
+          "a": "An **ASUS ProArt RTX Spark**, **128 GB** unified memory, **32 GB** system and **96 GB** GPU. **Qwen 3.8 Flash Next**, described as **180 billion** parameters in NVFP4, uses about **88 of 96 GB**, decodes at **72 tokens a second** for coding, and takes about **50 seconds** when it is thinking and using tools."
+        },
+        {
+          "e": "📴",
+          "q": "What share stays local?",
+          "a": "About **95%**, unless the work is kernels. **Claude Opus 5.5** is still the best. An RPG was coded with **no cloud and no internet** at runtime."
+        }
+      ]
+    },
+    {
+      "title": "The trend",
+      "items": [
+        {
+          "e": "📱",
+          "q": "What already runs on a phone?",
+          "a": "**Qwen 3.5 4B** beats GPT-4o and runs on an **iPhone 17 with 12 GB**. Sizes are cut at least in half about every **3.5 months** while intelligence roughly doubles."
+        },
+        {
+          "e": "🪤",
+          "q": "What did a cheap fine-tune do?",
+          "a": "Project Discovery fine-tuned a **7B** for **under $50**. It stole credentials when it heard a **trigger phrase**. He wants a **masking proxy** on frontier calls and **sandbox** agents. Subscriptions are subsidized and will be repriced."
+        }
+      ]
+    },
+    {
+      "title": "The bet",
+      "items": [
+        {
+          "e": "📆",
+          "q": "What does he think a year buys?",
+          "a": "An **Opus 5.5-class** model on an RTX Spark. Boards run about **$3,900 to $7,000**. Subscriptions are **subsidized** and will be repriced."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "cves-are-going-to-the-moon",
+  "sections": [
+    {
+      "title": "The spike",
+      "items": [
+        {
+          "e": "🐛",
+          "q": "What does he say the CVE spike is?",
+          "a": "Labs **finding bugs in old human code**, including a **cache-timing** signal from a VM. Norwegian **KERN** agents with Playwright scanned **more than 1,200 sites** and entered **more than 100**."
+        }
+      ]
+    },
+    {
+      "title": "The economics",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What did Anthropic's 16 October note say?",
+          "a": "Among **192** agent users versus **74** others, commits per engineer were about **5×**. About **80%** of session time was idle. Junior technical-hire share went from **27% to 9%**, employment from **21% to 14%**, since early 2025."
+        },
+        {
+          "e": "🏦",
+          "q": "What did Customers Bank report?",
+          "a": "Cycle time **down 90%**, underwriting **down 95%**, about **76,000 hours**, **more than $50 million** of capacity, revenue per employee **up 13%**, pretax profit per employee **up 34%**. Samvir Sidhu is the name he gives."
+        }
+      ]
+    },
+    {
+      "title": "The prescription",
+      "items": [
+        {
+          "e": "🚪",
+          "q": "What does he tell people to buy?",
+          "a": "A frontier plan at **$100 to $200**, plus **context, memory, and better questions**. Gartner heard from about **2,000** CTOs and CIOs, and only **13%** reported amazing gains. The line is **growth over automation**, and **the only way out is through**."
+        }
+      ]
+    }
+  ]
+}

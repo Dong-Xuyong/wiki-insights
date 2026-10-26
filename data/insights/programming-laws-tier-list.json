@@ -1,0 +1,40 @@
+{
+  "slug": "programming-laws-tier-list",
+  "sections": [
+    {
+      "title": "S tier",
+      "items": [
+        {
+          "e": "🏢",
+          "q": "What did he put in S tier?",
+          "a": "**Conway's law**. Also: software slows faster than hardware, and **enough API users depend on every observable behavior**. The picture is the **Go loop variable**, which stayed until about **Go 1.21**."
+        }
+      ]
+    },
+    {
+      "title": "The rest of the board",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What did he refuse to trust?",
+          "a": "**Brooks** and **Hofstadter** are unreliable. **Linus is off the board**. **Goodhart** is A-tier: a token leaderboard, a startup-time bonus, Netflix median watch hours."
+        },
+        {
+          "e": "🎯",
+          "q": "What is Annie's law?",
+          "a": "Post an **arrogantly wrong answer** so people correct it."
+        }
+      ]
+    },
+    {
+      "title": "The move",
+      "items": [
+        {
+          "e": "📣",
+          "q": "What is Annie's law on this board?",
+          "a": "Post an **arrogantly wrong answer** so people correct it. **Linus is off the board**."
+        }
+      ]
+    }
+  ]
+}
