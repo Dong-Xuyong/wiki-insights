@@ -1,0 +1,80 @@
+{
+  "slug": "ai-writes-code-product-engineers-laurie-voss",
+  "sections": [
+    {
+      "title": "Where the bottleneck went",
+      "items": [
+        {
+          "e": "📈",
+          "q": "How much more code do developers write with autonomous agents, and how much faster do they ship?",
+          "a": "About **741% more code**, but only **~30% faster shipping**."
+        },
+        {
+          "e": "👀",
+          "q": "Why can't humans just review agent code faster?",
+          "a": "Review accuracy falls off after about **450 lines per hour**, so a 10,000-line diff would take **about a week**."
+        },
+        {
+          "e": "🤖",
+          "q": "What happened when four AI code reviewers checked the same code?",
+          "a": "Each found real bugs, but **none of the same bugs**: run several, don't trust one."
+        },
+        {
+          "e": "🔀",
+          "q": "What happens to the pass rate when you ask 'would the maintainer merge this?' instead of 'does it pass tests?'",
+          "a": "It falls from **87% to 54%**: the maintainer holds an unwritten **sense of good**."
+        }
+      ]
+    },
+    {
+      "title": "What stays human",
+      "items": [
+        {
+          "e": "🏭",
+          "q": "What does the theory of constraints predict for agentic coding?",
+          "a": "Fix the review bottleneck and it **moves** to ops, then security, until it hits one agents **can't pass**."
+        },
+        {
+          "e": "🧁",
+          "q": "Why does 'keep track of my orders' not define software?",
+          "a": "A bakery, a parts store and a factory need **completely different** software; that knowledge lives **in the customer's head**."
+        },
+        {
+          "e": "📝",
+          "q": "Which work does Voss bet agents won't take?",
+          "a": "**Deciding what to build**, **defining what good means**, and making it delightful."
+        },
+        {
+          "e": "💻",
+          "q": "What is a product engineer?",
+          "a": "Someone who **finds out what people need**, defines good, and **ships with agents doing the typing**."
+        }
+      ]
+    },
+    {
+      "title": "What to do now",
+      "items": [
+        {
+          "e": "🎓",
+          "q": "Why are junior engineers hit hardest?",
+          "a": "Their training ladder, **well-specified tickets plus feedback**, is now **what we give agents**."
+        },
+        {
+          "e": "💥",
+          "q": "Which code should humans still review?",
+          "a": "Your **high blast radius code**; delegate everything **cheap to verify**."
+        },
+        {
+          "e": "🧠",
+          "q": "Where should your best people's judgment go?",
+          "a": "Into **specs, rubrics and evals** that agents can use."
+        },
+        {
+          "e": "📏",
+          "q": "What should you measure instead of lines of code?",
+          "a": "**What actually ships**, reviewer-comment uptake, and the **tests-pass vs would-merge gap**."
+        }
+      ]
+    }
+  ]
+}

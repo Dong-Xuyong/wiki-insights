@@ -1,0 +1,65 @@
+{
+  "slug": "ai-failures-risk-based-evals-srivastava-shah",
+  "sections": [
+    {
+      "title": "How AI fails",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What trend did the AI Incident Database show?",
+          "a": "AI failures are rising **almost vertically** in the foundation-model era."
+        },
+        {
+          "e": "🧩",
+          "q": "What three core dimensions structure AI failures?",
+          "a": "**Technical strength**, **deployment controls** and **business context**."
+        },
+        {
+          "e": "🎯",
+          "q": "How many incidents do the 13 sub-dimensions cover?",
+          "a": "About **98%**, with roughly **six sub-dimensions** involved per incident."
+        }
+      ]
+    },
+    {
+      "title": "Risk, not accuracy",
+      "items": [
+        {
+          "e": "🚦",
+          "q": "Which group of factors is most associated with harm?",
+          "a": "**Deployment controls**: weak **human-in-the-loop mediation** and missing **monitoring**."
+        },
+        {
+          "e": "⚖️",
+          "q": "What four parts make up an AI system's risk?",
+          "a": "How often it fails, whether it **reaches a decision**, whether it **goes uncaught**, and how **severe** it is."
+        },
+        {
+          "e": "📊",
+          "q": "What is a materiality scale for?",
+          "a": "Ranking AI use cases by **potential harm** so eval effort goes to the **riskiest** first."
+        }
+      ]
+    },
+    {
+      "title": "Falsify, don't confirm",
+      "items": [
+        {
+          "e": "🔢",
+          "q": "What does Wason's 2-4-6 experiment teach about evals?",
+          "a": "People **confirm** their guesses; good evals must **try to falsify** the system's claim."
+        },
+        {
+          "e": "🔨",
+          "q": "What is the build-break-fix loop?",
+          "a": "State the claim, **attack it**, add controls where it breaks, then **break it again**."
+        },
+        {
+          "e": "✈️",
+          "q": "How would a policy test have saved the airline chatbot?",
+          "a": "Testing 'advice must **match approved policy**' would have exposed the wrong refund advice **before deployment**."
+        }
+      ]
+    }
+  ]
+}

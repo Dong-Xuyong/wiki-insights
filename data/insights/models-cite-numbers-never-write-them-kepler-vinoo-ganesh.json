@@ -1,0 +1,75 @@
+{
+  "slug": "models-cite-numbers-never-write-them-kepler-vinoo-ganesh",
+  "sections": [
+    {
+      "title": "Why plain RAG fails on numbers",
+      "items": [
+        {
+          "e": "🔢",
+          "q": "What is the analyst's golden rule Kepler builds on?",
+          "a": "**Never show a number you can't trace** to its source."
+        },
+        {
+          "e": "❓",
+          "q": "What are the three ways sourced answers still go wrong?",
+          "a": "The **wrong source**, the **right source but wrong number**, and unreliable **mental math**."
+        },
+        {
+          "e": "📄",
+          "q": "Why is a bare '17' in a 10-K ambiguous?",
+          "a": "It needs **unit, scale and period**: millions or billions, dollars or yen, which year, or even a page number."
+        },
+        {
+          "e": "🚨",
+          "q": "What did Kepler's filter find in plain frontier-model RAG output?",
+          "a": "It refused **10,981 citations**, about **3,810 of them simply wrong numbers**."
+        }
+      ]
+    },
+    {
+      "title": "Cite, don't write",
+      "items": [
+        {
+          "e": "✍️",
+          "q": "What is Kepler's core architectural rule?",
+          "a": "The **model cites numbers but never writes them**."
+        },
+        {
+          "e": "🗂️",
+          "q": "What is the citation registry?",
+          "a": "Pre-extracted **typed facts** (value, unit, scale, period, source) with **unique IDs**, built from 30M+ SEC documents."
+        },
+        {
+          "e": "🧮",
+          "q": "Who does the arithmetic?",
+          "a": "**Deterministic human-written code**, not the model; about a third of citations are math the model didn't do."
+        },
+        {
+          "e": "✂️",
+          "q": "What happens to a number that can't be matched to the registry?",
+          "a": "A post-processing filter **strips it** (or tries a **citation repair**)."
+        }
+      ]
+    },
+    {
+      "title": "Retrieval and security",
+      "items": [
+        {
+          "e": "🔍",
+          "q": "How does Kepler retrieve candidates?",
+          "a": "**Search wide** with ANN + BM25, fuse to ~60 results, then **trust-weighted re-rank** and a cross-encoder."
+        },
+        {
+          "e": "🏦",
+          "q": "Why can't one source be blindly trusted?",
+          "a": "A call transcript and a 10-K can disagree; that's **information to deconflict**, not a bug."
+        },
+        {
+          "e": "🔒",
+          "q": "How does Kepler stop one desk seeing another's research?",
+          "a": "**Every hit is re-authorized** in Postgres with **scoped tokens** per tenant."
+        }
+      ]
+    }
+  ]
+}

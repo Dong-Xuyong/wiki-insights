@@ -1,0 +1,90 @@
+{
+  "slug": "smarter-models-killed-harness-jediah-katz",
+  "sections": [
+    {
+      "title": "Is the harness dead?",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What are the two layers of an agent harness?",
+          "a": "The **runtime** (where the loop runs, resumable state) and the **context and orchestration** layer (models, prompts, tools, compaction)."
+        },
+        {
+          "e": "📊",
+          "q": "What did recent studies find about harness choice on frontier models?",
+          "a": "It **barely changed benchmark scores**, but it did change **cost per task** a lot."
+        },
+        {
+          "e": "✂️",
+          "q": "What did Cursor remove as models got smarter?",
+          "a": "Guardrails like a **separate apply-edit model** and instructions on exploring code and **checking your work**."
+        }
+      ]
+    },
+    {
+      "title": "The flywheel",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "Why do harness tricks become obsolete?",
+          "a": "The **data flywheel**: harder tasks get used, data reaches the labs, and models **absorb the skill natively**."
+        },
+        {
+          "e": "🚀",
+          "q": "Where does the harness go once a skill is commoditised?",
+          "a": "To the **next frontier** of tasks, adding guardrails back for things **models haven't nailed yet**."
+        },
+        {
+          "e": "🤖",
+          "q": "Which new tasks needed guardrails added back in Grok Bot?",
+          "a": "Slide decks and travel, **keeping the user informed** without overload, **acting versus asking**, and memory."
+        }
+      ]
+    },
+    {
+      "title": "What models can't absorb",
+      "items": [
+        {
+          "e": "☁️",
+          "q": "Why can't long-running agents live on a laptop?",
+          "a": "Tasks now run **hours to days**, so they need **cloud infrastructure** that doesn't sleep."
+        },
+        {
+          "e": "🔐",
+          "q": "Why isn't a bash-plus-secrets harness enough?",
+          "a": "You need **scoped permissions** and guardrails against **catastrophic actions** or a huge API bill."
+        },
+        {
+          "e": "💸",
+          "q": "Which levers cut harness cost without hurting quality?",
+          "a": "**Cache hit rate**, token efficiency and **model mix**."
+        }
+      ]
+    },
+    {
+      "title": "Designing the next harness",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What is an agent primitive?",
+          "a": "A **composable building block**, like one **subscriptions tool** for Slack, CI and time events."
+        },
+        {
+          "e": "🩹",
+          "q": "How should you manage behavioural shims?",
+          "a": "**Log every shim** centrally and let a bot **remove shims that stop firing**."
+        },
+        {
+          "e": "🙈",
+          "q": "Why hide harness internals from users?",
+          "a": "Hyrum's law: users **depend on whatever you expose**, so hiding it lets you **ship and unship fast**."
+        },
+        {
+          "e": "💻",
+          "q": "Where will most agent work run within six months?",
+          "a": "Katz predicts about **90% off the laptop**, in the cloud."
+        }
+      ]
+    }
+  ]
+}
