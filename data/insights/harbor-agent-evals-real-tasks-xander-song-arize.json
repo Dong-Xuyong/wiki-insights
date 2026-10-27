@@ -1,0 +1,75 @@
+{
+  "slug": "harbor-agent-evals-real-tasks-xander-song-arize",
+  "sections": [
+    {
+      "title": "What Harbor is",
+      "items": [
+        {
+          "e": "⚓",
+          "q": "What is Harbor?",
+          "a": "An open-source framework for evaluating agents on **real tasks with real data** in **isolated sandboxes**."
+        },
+        {
+          "e": "📋",
+          "q": "What three parts make up a Harbor task?",
+          "a": "An **instruction** in markdown, an **environment** (a seeded Dockerfile) and **verifiers** that check the result."
+        },
+        {
+          "e": "🏆",
+          "q": "What does a verifier produce?",
+          "a": "A **reward**, often a simple **pass/fail**, written to a file."
+        },
+        {
+          "e": "🔁",
+          "q": "Why does Harbor run several trials of each task?",
+          "a": "Agents are **stochastic**, so each trial gets a **fresh container** and an independent run."
+        }
+      ]
+    },
+    {
+      "title": "Designing verifiers",
+      "items": [
+        {
+          "e": "🙈",
+          "q": "Why are verifiers mounted only after the agent finishes?",
+          "a": "So the agent **can't read them and cheat**."
+        },
+        {
+          "e": "📦",
+          "q": "What do canonical verifiers look at?",
+          "a": "Only **what the agent leaves behind**, its side effects, not how it got there."
+        },
+        {
+          "e": "🧪",
+          "q": "Why does implementation-agnostic grading matter?",
+          "a": "You can **hold tasks constant** and swap prompts, tools, harnesses or models to see real **improvements or regressions**."
+        },
+        {
+          "e": "🔑",
+          "q": "What is an oracle in Harbor?",
+          "a": "A **known solution script** that checks data, environment and verifiers **before you spend tokens** on an agent."
+        }
+      ]
+    },
+    {
+      "title": "Phoenix team in practice",
+      "items": [
+        {
+          "e": "🐳",
+          "q": "How does the Phoenix team test its agents with Harbor?",
+          "a": "It puts the **whole single-node server and a realistic SQLite file** in Docker and verifies via the API or database."
+        },
+        {
+          "e": "📉",
+          "q": "What did one prompt change show in their experiments?",
+          "a": "The agent **used SQL instead of paginating the API** and made **fewer tool calls**."
+        },
+        {
+          "e": "🧩",
+          "q": "What if your system is too distributed to fit in a container?",
+          "a": "Hide the agent behind a **stable interface** and test that boundary."
+        }
+      ]
+    }
+  ]
+}

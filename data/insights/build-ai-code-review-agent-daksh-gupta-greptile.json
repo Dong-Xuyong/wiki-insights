@@ -1,0 +1,65 @@
+{
+  "slug": "build-ai-code-review-agent-daksh-gupta-greptile",
+  "sections": [
+    {
+      "title": "Why naive review agents fail",
+      "items": [
+        {
+          "e": "🐛",
+          "q": "What are the first problems a naive PR review agent hits?",
+          "a": "It **misses bugs**, **misses codebase context** and costs **$3-25 per PR**."
+        },
+        {
+          "e": "🧹",
+          "q": "Why are nitpicky review comments harmful?",
+          "a": "Coding agents **resolve every comment**, which bloats code with **painful defensive checks**."
+        },
+        {
+          "e": "🎯",
+          "q": "How should you shape the reviewer's prompt?",
+          "a": "Target a catalogue of **bug types your company actually ships** and **define what a nitpick is**."
+        }
+      ]
+    },
+    {
+      "title": "Measuring the reviewer",
+      "items": [
+        {
+          "e": "🔎",
+          "q": "What can a reviewer never prove?",
+          "a": "It can show bugs are present, but **never that they're absent**."
+        },
+        {
+          "e": "🗃️",
+          "q": "How do you test a new reviewer version?",
+          "a": "Replay it on a **dataset of historical PRs that caused incidents**, kept **updated over time**."
+        },
+        {
+          "e": "🔄",
+          "q": "What is model inversion?",
+          "a": "Reviewing with a **different model from the one that wrote the code**, for about a **10% higher catch rate**."
+        }
+      ]
+    },
+    {
+      "title": "Context, testing and cost",
+      "items": [
+        {
+          "e": "📚",
+          "q": "What context beyond grep should a reviewer get?",
+          "a": "An **indexed codebase knowledge base** plus **docs and tickets**, so it can check intent."
+        },
+        {
+          "e": "📱",
+          "q": "How does Greptile catch UI bugs that the code diff hides?",
+          "a": "A **computer-use agent** clicks through **documented flows** in a sandbox running the stack."
+        },
+        {
+          "e": "💸",
+          "q": "How does Greptile keep review costs down?",
+          "a": "About **20% frontier tokens** for bug analysis; **small models** handle context search and flow testing."
+        }
+      ]
+    }
+  ]
+}

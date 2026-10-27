@@ -1,0 +1,55 @@
+{
+  "slug": "kimi-k3-1-open-frontier-model-distillation-fireship",
+  "sections": [
+    {
+      "title": "Kimi K3.1",
+      "items": [
+        {
+          "e": "🇨🇳",
+          "q": "What did Moonshot release as Kimi K3.1?",
+          "a": "A **3-trillion-parameter open-weight model** at frontier level."
+        },
+        {
+          "e": "📊",
+          "q": "How did Kimi K3.1 do on independent tests?",
+          "a": "Artificial Analysis measured **67% on Terminal Bench**, the **highest** of any model it tested."
+        },
+        {
+          "e": "🧰",
+          "q": "Why should agent benchmark scores be read with care?",
+          "a": "**Harness differences** can produce **huge swings** in results."
+        }
+      ]
+    },
+    {
+      "title": "Distillation and safety",
+      "items": [
+        {
+          "e": "🕵️",
+          "q": "What is a distillation attack?",
+          "a": "Using **swarms of fake users** to harvest a model's outputs to **train another model**."
+        },
+        {
+          "e": "🛡️",
+          "q": "Why did Moonshot remove cybersecurity data?",
+          "a": "To **weaken hacking ability** (90.5% → 81% on exploit tests) amid **US bans** on Chinese models."
+        }
+      ]
+    },
+    {
+      "title": "Look past the surface",
+      "items": [
+        {
+          "e": "🐴",
+          "q": "Why did Kimi's 3D horse lose to Claude's?",
+          "a": "It **warped the mesh** instead of animating a **bone skeleton**."
+        },
+        {
+          "e": "🔍",
+          "q": "What's the lesson from thoroughbench?",
+          "a": "Check **how** a model solved a task, not just **how good it looks**."
+        }
+      ]
+    }
+  ]
+}

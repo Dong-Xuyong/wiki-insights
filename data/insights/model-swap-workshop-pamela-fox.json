@@ -1,0 +1,95 @@
+{
+  "slug": "model-swap-workshop-pamela-fox",
+  "sections": [
+    {
+      "title": "Why swap models",
+      "items": [
+        {
+          "e": "🔀",
+          "q": "Why test models in your own app instead of trusting benchmarks?",
+          "a": "Benchmarks give a rough idea, but you **only know a model in your own scenarios**."
+        },
+        {
+          "e": "🛟",
+          "q": "Why should every AI app have model options?",
+          "a": "New releases, price or **lost access** can force a switch, so keep the model a **one-line change**."
+        },
+        {
+          "e": "🔢",
+          "q": "How did a prompt tweak fix Mistral's letter counting?",
+          "a": "Asking it to **split into words, count per word and sum** with reasoning got the right answer."
+        }
+      ]
+    },
+    {
+      "title": "RAG and tools",
+      "items": [
+        {
+          "e": "🐝",
+          "q": "How do you test RAG groundedness?",
+          "a": "Ask a **half-answerable question**; a grounded model **admits what the sources don't cover**."
+        },
+        {
+          "e": "⚠️",
+          "q": "What do weaker models do when sources have gaps?",
+          "a": "They **fill gaps from their weights** and present it as if it came from the context."
+        },
+        {
+          "e": "🛠️",
+          "q": "What do wrong tool arguments usually reveal?",
+          "a": "**Ambiguity in your tool descriptions**; tighten them and re-run the cases."
+        },
+        {
+          "e": "📅",
+          "q": "What helper tool should LLM apps get for dates?",
+          "a": "A **date math tool**, because models are bad at date arithmetic, **especially leap years**."
+        }
+      ]
+    },
+    {
+      "title": "Agent efficiency",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "Besides the answer, what separates models in a tool loop?",
+          "a": "**Efficiency**: how many calls they need, e.g. **one batched calculation** vs four calls."
+        },
+        {
+          "e": "🧵",
+          "q": "What are parallel tool calls good for?",
+          "a": "Running **independent steps in the same turn**, like flight and hotel search, to **cut latency**."
+        },
+        {
+          "e": "🏁",
+          "q": "What agent failure did Mistral show?",
+          "a": "It **stopped before the final step**, so check that **every required step** is completed."
+        }
+      ]
+    },
+    {
+      "title": "Evals and prompts",
+      "items": [
+        {
+          "e": "✅",
+          "q": "What is the simplest eval for a single tool call?",
+          "a": "A **string check** on the **tool name and arguments**."
+        },
+        {
+          "e": "⚖️",
+          "q": "What should an LLM judge return?",
+          "a": "**Pass or fail plus a reason**, given the query, response and **full context or traces**."
+        },
+        {
+          "e": "🧪",
+          "q": "Which built-in evaluators are not worth running?",
+          "a": "**Coherence and fluency**; build **custom evaluators** for your app instead."
+        },
+        {
+          "e": "🧬",
+          "q": "What does DSPy with GEPA change?",
+          "a": "Your **spec and checks become the code** and the **prompt is the output**, so cheaper models can pass."
+        }
+      ]
+    }
+  ]
+}

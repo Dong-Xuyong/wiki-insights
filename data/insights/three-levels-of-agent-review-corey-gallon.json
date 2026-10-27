@@ -1,0 +1,25 @@
+{
+  "slug": "three-levels-of-agent-review-corey-gallon",
+  "sections": [
+    {
+      "title": "Review levels",
+      "items": [
+        {
+          "e": "1️⃣",
+          "q": "What does Level 1 require?",
+          "a": "**Named artifact + check command**; review ends verified+fingerprint or missing+reason; **dispatcher re-runs the check**."
+        },
+        {
+          "e": "2️⃣",
+          "q": "How does Level 2 catch fact errors?",
+          "a": "**Two agents extract independently**; a third reconciles differences **only against the original source**."
+        },
+        {
+          "e": "3️⃣",
+          "q": "When use Level 3?",
+          "a": "**High-stakes reasoning** (legal, PR claims): self-audit, cold adversarial reviewers, then fresh final reviewers."
+        }
+      ]
+    }
+  ]
+}

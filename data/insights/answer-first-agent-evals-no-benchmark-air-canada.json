@@ -1,0 +1,70 @@
+{
+  "slug": "answer-first-agent-evals-no-benchmark-air-canada",
+  "sections": [
+    {
+      "title": "The core problem",
+      "items": [
+        {
+          "e": "🚫",
+          "q": "Why is evaluating enterprise agents hard?",
+          "a": "There's **no public benchmark** and **domain experts are too busy** to grade."
+        },
+        {
+          "e": "🐢",
+          "q": "What limited the 2024 telecom RAG team?",
+          "a": "Weekly expert panels allowed only **one trial a week**, and experts **often disagreed**."
+        },
+        {
+          "e": "📏",
+          "q": "What's Weill's core rule for agents?",
+          "a": "**If you cannot grade the agent, you can't make it better.**"
+        }
+      ]
+    },
+    {
+      "title": "Answer-first tests",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "How do you generate RAG tests without experts?",
+          "a": "Start from a **page**, have an LLM **write a question**, then check with code if retrieval finds it."
+        },
+        {
+          "e": "🚀",
+          "q": "What changed once they had an automatic test set?",
+          "a": "From **one eval a week to dozens a day**, and accuracy rose by **removing complexity**."
+        },
+        {
+          "e": "🧨",
+          "q": "What's the strongest contract benchmark they built?",
+          "a": "**Remove a clause** from a signed contract and see if the agent **notices it's missing**."
+        },
+        {
+          "e": "🧷",
+          "q": "What is an invariance test?",
+          "a": "Change something **irrelevant** (supplier name, clause order, rerun) and check the **output doesn't change**."
+        },
+        {
+          "e": "📝",
+          "q": "How do templates multiply test cases?",
+          "a": "Fill the blanks with **arrays of values**, some **breaking rules**, so you know the right flags."
+        }
+      ]
+    },
+    {
+      "title": "Grading",
+      "items": [
+        {
+          "e": "💻",
+          "q": "Why avoid LLM-as-judge when you can?",
+          "a": "It adds **noise** nearly **as hard to fix as the task**; prefer **exact match or code**."
+        },
+        {
+          "e": "🔁",
+          "q": "What should expert feedback be used for?",
+          "a": "To **generate better tests**, not to patch the agent directly."
+        }
+      ]
+    }
+  ]
+}

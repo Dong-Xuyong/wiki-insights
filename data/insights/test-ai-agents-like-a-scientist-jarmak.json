@@ -1,0 +1,80 @@
+{
+  "slug": "test-ai-agents-like-a-scientist-jarmak",
+  "sections": [
+    {
+      "title": "Don't trust the numbers",
+      "items": [
+        {
+          "e": "💸",
+          "q": "Why was a 28% cheaper agent run not a win?",
+          "a": "The agent **still never called the tool** being tested, so the metric **didn't answer the decision**."
+        },
+        {
+          "e": "🔀",
+          "q": "What happened when only the harness changed in a model comparison?",
+          "a": "The **winning model flipped**, a **30+ point swing**."
+        },
+        {
+          "e": "📋",
+          "q": "How is a public benchmark different from an evaluation?",
+          "a": "A benchmark is a **reference set for a short list**; an evaluation is **measurement to make a decision** about your product."
+        }
+      ]
+    },
+    {
+      "title": "Run it like an experiment",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What should an agent eval actually test?",
+          "a": "The **closest configuration to your real environment**: model plus harness plus tools on your tasks."
+        },
+        {
+          "e": "🗂️",
+          "q": "How should you pick eval tasks?",
+          "a": "Cover your real **workload families** (e.g., code understanding vs bug fixing), not one task type."
+        },
+        {
+          "e": "🎲",
+          "q": "Why run each configuration several times?",
+          "a": "Agents are **non-deterministic**, so single runs hide **run-to-run variance**."
+        },
+        {
+          "e": "🔍",
+          "q": "How do you debug an agent that ignores a tool?",
+          "a": "Walk the pipeline: was it available, was it called, what did it return, and did the **final outcome** change? **Stop at the first break**."
+        },
+        {
+          "e": "🎯",
+          "q": "Why did Jarmak optimise for F1 instead of recall?",
+          "a": "Search pulled **295 files when 6 were needed**: perfect recall, **terrible precision**."
+        }
+      ]
+    },
+    {
+      "title": "Trust and gates",
+      "items": [
+        {
+          "e": "🚧",
+          "q": "Why isn't an agent flagging a problem enough?",
+          "a": "A **flag is not a gate**: the stop must be **enforced in code**, then escalated."
+        },
+        {
+          "e": "👥",
+          "q": "What can a 1% false-alarm rate cost?",
+          "a": "At scale, **10,000 human reviews**; budget for **reviewer capacity**."
+        },
+        {
+          "e": "🧾",
+          "q": "Why keep an independent record of agent activity?",
+          "a": "Seeded security issues **passed agent-side checks** but an **independent traffic record** caught them all."
+        },
+        {
+          "e": "🌍",
+          "q": "What's the final source of truth for an agent eval?",
+          "a": "**Production**: measure after deploy, using **shadow mode** when the blast radius is high."
+        }
+      ]
+    }
+  ]
+}

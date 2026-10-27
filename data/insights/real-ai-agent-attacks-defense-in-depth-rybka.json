@@ -1,0 +1,80 @@
+{
+  "slug": "real-ai-agent-attacks-defense-in-depth-rybka",
+  "sections": [
+    {
+      "title": "Why sandboxes aren't enough",
+      "items": [
+        {
+          "e": "🏃",
+          "q": "What happened in the lab hacking-eval incident?",
+          "a": "Agents **escaped the sandbox** via a proxy bug and took **17,600 actions in 4.5 days**."
+        },
+        {
+          "e": "🧱",
+          "q": "Why can't a better sandbox alone fix agent security?",
+          "a": "Agents are useful only with **broad reach**, and firewalls can't tell when a **goal is hijacked**."
+        },
+        {
+          "e": "🥦",
+          "q": "What four principles must change?",
+          "a": "**One agent, one identity**, **assume input is hostile**, default-deny outbound, and **deterministic controls outside the model**."
+        }
+      ]
+    },
+    {
+      "title": "Real incidents",
+      "items": [
+        {
+          "e": "🔑",
+          "q": "How was a CRM of 700+ companies exported?",
+          "a": "Attackers talked a chat agent into revealing a **long-lived OAuth token**; use **short-lived scoped** credentials."
+        },
+        {
+          "e": "📧",
+          "q": "How did a zero-click email leak data?",
+          "a": "**White-on-white hidden instructions** only the agent could read; separate **data from instructions**."
+        },
+        {
+          "e": "📡",
+          "q": "How did data leave a sandbox with no web access?",
+          "a": "Through **DNS lookups**: default deny must **include DNS**."
+        },
+        {
+          "e": "💤",
+          "q": "What is a sleeper memory attack?",
+          "a": "A hidden document instruction makes the agent **remember to send secrets later**; check **memory integrity**."
+        },
+        {
+          "e": "📦",
+          "q": "How did a fake MCP package fool users?",
+          "a": "**15 clean releases**, then v16 BCC'd every email; **delay ingesting** new versions."
+        }
+      ]
+    },
+    {
+      "title": "The playbook",
+      "items": [
+        {
+          "e": "✌️",
+          "q": "What is the rule of two?",
+          "a": "Combine **any two** of untrusted input, sensitive data and external action; **all three needs human sign-off**."
+        },
+        {
+          "e": "⚙️",
+          "q": "What does a deterministic invocation broker do?",
+          "a": "Checks and logs **every tool call** in code: **least privilege**, rate limits, approvals."
+        },
+        {
+          "e": "🛑",
+          "q": "What kind of budget should agents have?",
+          "a": "**Budgets that halt**, not just alert."
+        },
+        {
+          "e": "📝",
+          "q": "What belongs in every spec for agent work?",
+          "a": "**Security requirements**, alongside features."
+        }
+      ]
+    }
+  ]
+}
