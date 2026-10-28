@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 427,
-  "insightsCount": 414,
-  "conceptCount": 3177,
+  "videoCount": 430,
+  "insightsCount": 417,
+  "conceptCount": 3189,
   "sections": [
     {
       "id": "architecture",
@@ -56,10 +56,10 @@
     "systems": 27,
     "build": 54,
     "human": 20,
-    "performance": 57,
+    "performance": 59,
     "mind": 42,
     "relationships": 66,
-    "other": 63
+    "other": 64
   },
   "videos": [
     {
@@ -36015,6 +36015,188 @@
         }
       ],
       "conceptCount": 1,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "joe-rogan-experience-2570-mystery-boys",
+      "title": "Joe Rogan Experience #2570 - Mystery Boys",
+      "video_id": "rn6iW7XDEHc",
+      "platform": "youtube",
+      "url": "https://youtu.be/rn6iW7XDEHc",
+      "duration_min": 163,
+      "creator": "joe-rogan",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "other",
+      "tags": [
+        "comedy",
+        "security",
+        "media",
+        "joe-rogan"
+      ],
+      "keywords": [
+        "comedy",
+        "security",
+        "media",
+        "joe rogan",
+        "PHP Remote Code",
+        "Vince Foster Book",
+        "Midnight Gospel",
+        "Cambridge Analytica"
+      ],
+      "summary": "Kurt Metzger and Duncan Trussell, the Mystery Boys, sit with Joe for a rabbit-hole episode (23 Oct 2026, about 163 min). They open on an FBI Cyber Division note Joe reads aloud: two critical PHP vulnerabilities that could allow remote code execution. Joe's leap is that AI eventually figures out the code of everything, so encryption and passwords go away.\n\nKurt walks through The Strange Death of Vince Foster — missing blood, a moved body, the gun still in the hand — and separates that from Gary Webb, who he says was shot twice. He names Chris Ruddy, now of Newsmax, as the reporter behind the book and relays an interview claiming a cover-up. Later Duncan talks Midnight Gospel with Pendleton Ward: off-model animation on purpose, AI only for in-betweens. They close on Cambridge Analytica (a quiz app, friends' data, up to 87 million profiles, Trump, Cruz, Brexit) and on curated search that leads with the flattering story for one candidate and the negative story for the other.",
+      "key_insights": [
+        "Joe reads an FBI note on two critical PHP flaws, then says AI makes encryption and passwords obsolete.",
+        "Kurt's Foster account: missing blood, a moved body, gun in the hand; Gary Webb is the double shot.",
+        "Pendleton Ward let Midnight Gospel go off-model; Duncan says AI speeds in-betweens, not the sparks.",
+        "They treat Cambridge Analytica — up to 87 million profiles — as the ordinary version of targeted ads and curated search."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "php-remote-code-and-dead-encryption",
+          "title": "PHP Remote Code",
+          "e": "🔐"
+        },
+        {
+          "slug": "vince-foster-and-the-ruddy-book",
+          "title": "Vince Foster Book",
+          "e": "📕"
+        },
+        {
+          "slug": "midnight-gospel-off-model",
+          "title": "Midnight Gospel",
+          "e": "🎨"
+        },
+        {
+          "slug": "cambridge-analytica-to-curated-search",
+          "title": "Cambridge Analytica",
+          "e": "🗳️"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "jre-mma-show-187-robert-whittaker",
+      "title": "JRE MMA Show #187 with Robert Whittaker",
+      "video_id": "n4x-n8bNYhA",
+      "platform": "youtube",
+      "url": "https://youtu.be/n4x-n8bNYhA",
+      "duration_min": 168,
+      "creator": "joe-rogan",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "performance",
+      "tags": [
+        "mma",
+        "training",
+        "weight-cut",
+        "joe-rogan"
+      ],
+      "keywords": [
+        "mma",
+        "training",
+        "weight-cut",
+        "joe rogan",
+        "Six Kids Long Career",
+        "Leave the 185 Cut",
+        "Touch of Death",
+        "Cardio vs Skill"
+      ],
+      "summary": "Robert Whittaker, now at light heavyweight and hosting MMArcade, talks with Joe about staying in the sport once life shows up (22 Oct 2026, about 168 min). He started at 20 with no kids. He is married with six kids, a mortgage, and a Musashi supplement line, and he says fighters leave because life goes on around the fights.\n\nThe camp argument is the spine. He was cutting from about 205 to 185 and stopped enjoying it: the diet, the fatigue, and being home starving with six kids. At 205 everyone has a touch of death, so camps became review — mitts, light sparring, gi rounds — and an attempt to enjoy the process. Hard cardio before skill work makes technique sloppy; Cub Swanson blamed some of his worst performances on Sam Calavita's garage sessions. Whittaker's wife came from elite gymnastics, which is why imbalance work sits under the gas tank. Joe's counter to the cut is to fight at a healthy walk-around weight and weigh fighters at random the way USADA tests them.",
+      "key_insights": [
+        "Whittaker went from 20 and no kids to six kids, a mortgage, and a Musashi line.",
+        "He left the 205-to-185 cut because the last middleweight camps were miserable.",
+        "At light heavyweight the plan is review and enjoyment: either he has it by now or he does not.",
+        "Fatigue helps only when the skill is already owned; otherwise it makes the work sloppy.",
+        "Joe wants random weigh-ins so fighters compete near the weight they are when healthy."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "six-kids-and-the-long-career",
+          "title": "Six Kids Long Career",
+          "e": "🏠"
+        },
+        {
+          "slug": "leave-the-185-cut",
+          "title": "Leave the 185 Cut",
+          "e": "⚖️"
+        },
+        {
+          "slug": "light-heavyweight-touch-of-death",
+          "title": "Touch of Death",
+          "e": "🥊"
+        },
+        {
+          "slug": "cardio-before-skill-work",
+          "title": "Cardio vs Skill",
+          "e": "🔋"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "joe-rogan-experience-2569-bill-thompson",
+      "title": "Joe Rogan Experience #2569 - Bill Thompson",
+      "video_id": "vamsa0e8y4Y",
+      "platform": "youtube",
+      "url": "https://youtu.be/vamsa0e8y4Y",
+      "duration_min": 167,
+      "creator": "joe-rogan",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "performance",
+      "tags": [
+        "hunting",
+        "archery",
+        "pressure",
+        "joe-rogan"
+      ],
+      "keywords": [
+        "hunting",
+        "archery",
+        "pressure",
+        "joe rogan",
+        "Serenity Prayer",
+        "Fasted Hunt",
+        "Thermals",
+        "Three-Hour Test"
+      ],
+      "summary": "Bill Thompson, retired U.S. Army chief warrant officer and founder of Spartan Forge, talks hunting, pressure, and dreams with Joe (21 Oct 2026, about 167 min). His mother dragged him to AA meetings around age nine; the Serenity Prayer stuck, and he does not worry about what he cannot change. With friends he runs fasted hunts: food locked in a Yeti, one of the wives holding the code until someone texts a photo of a kill. Shortest he remembers is 36 hours, longest about four days.\n\nThe product demo is thermals. Not understanding them is what he says kills most whitetail and elk hunters — morning air sinks, then rises as the slope heats, and a buck below you smells you if you come from above. Spartan Forge's feature, meant to be used at home, takes a day, historical weather, and a pin, and maps how scent moves, including canopy and east-versus-west slopes. On his best spots, drift from about 320 degrees explains why an old buck uses one pocket. He also traces his dream practice to a Jordan Peterson video he clicked while trying to learn chaos theory, and he wants anyone running for high office to sit and talk for three hours.",
+      "key_insights": [
+        "Thompson's filter is the Serenity Prayer: no worry where he cannot act.",
+        "A fasted hunt locks the Yeti until someone sends a photo of a kill.",
+        "Thermals, not marksmanship, are what he says beat most whitetail and elk hunters.",
+        "Spartan Forge maps scent at home so the phone stays in a pocket once you are in the woods.",
+        "Three hours of talk, he says, is long enough that a candidate reveals who they are."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "serenity-prayer-filter",
+          "title": "Serenity Prayer",
+          "e": "🙏"
+        },
+        {
+          "slug": "fasted-hunt-locked-yeti",
+          "title": "Fasted Hunt",
+          "e": "🧊"
+        },
+        {
+          "slug": "thermals-kill-the-hunt",
+          "title": "Thermals",
+          "e": "🌬️"
+        },
+        {
+          "slug": "three-hour-candidate-test",
+          "title": "Three-Hour Test",
+          "e": "🎙️"
+        }
+      ],
+      "conceptCount": 4,
       "added": "2026-10-28"
     }
   ]
