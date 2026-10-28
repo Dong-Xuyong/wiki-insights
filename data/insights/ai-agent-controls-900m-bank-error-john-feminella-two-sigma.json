@@ -1,0 +1,70 @@
+{
+  "slug": "ai-agent-controls-900m-bank-error-john-feminella-two-sigma",
+  "sections": [
+    {
+      "title": "The $900M lesson",
+      "items": [
+        {
+          "e": "🏦",
+          "q": "What happened in Citibank's Revlon payment error?",
+          "a": "Unchecked boxes and an **overridden warning** sent **$900M of principal** instead of $8M of interest."
+        },
+        {
+          "e": "🚗",
+          "q": "Why does Feminella say cars have brakes?",
+          "a": "So you can **go fast** and **stop safely**: controls enable speed."
+        },
+        {
+          "e": "🚫",
+          "q": "Which three agent governance approaches failed?",
+          "a": "**Sandboxing everything**, **letting agents run wild**, and **policy docs in prompts**."
+        }
+      ]
+    },
+    {
+      "title": "Five controls",
+      "items": [
+        {
+          "e": "📇",
+          "q": "Why start with an agent registry?",
+          "a": "**You can't govern what you can't see**: it records owner, tools and endpoints."
+        },
+        {
+          "e": "⚖️",
+          "q": "Why score agents by risk?",
+          "a": "So a ticket summarizer doesn't wait in the **same review queue** as a **production deployer**."
+        },
+        {
+          "e": "🎫",
+          "q": "How does Two Sigma limit an agent's tools?",
+          "a": "The agent **declares the tools it needs** and policy is **enforced at start-up**."
+        },
+        {
+          "e": "🧪",
+          "q": "Why does Two Sigma treat evals like unit tests?",
+          "a": "A **model change** is a **runtime dependency change**."
+        }
+      ]
+    },
+    {
+      "title": "Human approvals",
+      "items": [
+        {
+          "e": "😴",
+          "q": "What goes wrong when humans approve every agent action?",
+          "a": "**Review fatigue**: people click yes by reflex."
+        },
+        {
+          "e": "📏",
+          "q": "What should replace a request you approve 99.99% of the time?",
+          "a": "A **rule** the agent follows, with **classifiers** for routine calls and humans for **ambiguous** ones."
+        },
+        {
+          "e": "🧠",
+          "q": "Why can't a 'wait for approval' instruction live only in the prompt?",
+          "a": "**Context compaction** can drop it, as when an agent **deleted hundreds of emails**."
+        }
+      ]
+    }
+  ]
+}

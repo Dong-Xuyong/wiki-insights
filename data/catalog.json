@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 420,
-  "insightsCount": 407,
-  "conceptCount": 3151,
+  "videoCount": 427,
+  "insightsCount": 414,
+  "conceptCount": 3177,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 91,
+    "agents": 95,
     "systems": 27,
-    "build": 53,
-    "human": 19,
+    "build": 54,
+    "human": 20,
     "performance": 57,
     "mind": 42,
     "relationships": 66,
-    "other": 62
+    "other": 63
   },
   "videos": [
     {
@@ -35607,6 +35607,415 @@
       ],
       "conceptCount": 5,
       "added": "2026-10-27"
+    },
+    {
+      "slug": "ai-agent-controls-900m-bank-error-john-feminella-two-sigma",
+      "title": "What a $900M Bank Error Teaches Us About AI Agents - John Feminella, Two Sigma",
+      "video_id": "iniryju23Sk",
+      "platform": "youtube",
+      "url": "https://youtu.be/iniryju23Sk",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "governance",
+        "security",
+        "enterprise"
+      ],
+      "keywords": [
+        "agents",
+        "governance",
+        "security",
+        "enterprise",
+        "ai engineer",
+        "Agent Security & Permissions",
+        "Agent Trust Operating Model",
+        "Human-in-the-Loop vs AFK Tasks",
+        "Permission Layer: Keys Not Prompts",
+        "Risk-Tiered Agent Controls"
+      ],
+      "summary": "John Feminella (AI architecture and engineering at Two Sigma) opens with the 2020 Revlon/Citibank error: in the Flexcube system, unchecked wash-account boxes plus a warning the three approvers were trained to override sent about $900M of principal to 300+ lenders instead of about $8M of interest. Everyone followed procedure; the controls still failed. With agents getting real autonomy over systems like that, the question is how to prevent such accidents without locking everything down or hoping for luck. Agents are non-deterministic, but so are humans, and firms manage people with boundaries, visibility and controls rather than locking them in rooms. Safety and innovation aren't a trade-off: \"why do cars have brakes? So you can go fast.\"\n\nWhat didn't work: sandboxing everything (safe but useless), letting agents run wild (weak isolation), and policy documents in prompts (not enforceable at runtime). Two Sigma uses five composable controls: (1) an agent registry, automatic when you use an approved framework, recording owner, tools, endpoints and product, because \"you can't govern what you can't see\"; (2) a risk score so a ticket summarizer doesn't wait two months in the same review queue as a production deployer; (3) declared-purpose guardrails: agents state the 4 of 500 tools they need, and the registry policy is turned into enforceable host/endpoint rules at initialization, with no tickets; (4) shared firm-wide evals, treated like unit tests because a model change is a runtime dependency change; and (5) runtime governance: deterministic fast paths for explicit rules, conservative classifiers for routine calls, and humans only for ambiguous or high-impact requests.\n\nHuman approval of every action causes review fatigue; he cites an OpenClaw agent told to wait for approval before deleting emails that compacted its context, lost that instruction and deleted hundreds of messages. If you approve something 99.99% of the time, it should be a rule, not a prompt.",
+      "key_insights": [
+        "risk tiered agent controls: registry, risk score, declared tools, shared evals, classifier-gated runtime.",
+        "Heavy uniform review pushes teams to shadow IT; tier review by risk.",
+        "Approvals that are always \"yes\" should become rules; send humans only the ambiguous calls.",
+        "Instructions held only in context can be lost on compaction; enforce limits outside the prompt.",
+        "Treat evals like unit tests: a model swap is a dependency change."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "agent-trust-operating-model",
+          "title": "Agent Trust Operating Model"
+        },
+        {
+          "slug": "human-in-the-loop-vs-afk-tasks",
+          "title": "Human-in-the-Loop vs AFK Tasks",
+          "e": "⌨️"
+        },
+        {
+          "slug": "permission-layer-keys-not-prompts",
+          "title": "Permission Layer: Keys Not Prompts",
+          "e": "🔑"
+        },
+        {
+          "slug": "risk-tiered-agent-controls",
+          "title": "Risk-Tiered Agent Controls"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "code-mode-give-agent-sandbox-mikyo-king-arize",
+      "title": "Stop Giving Your Agent Tools. Give It a Sandbox - Mikyo King, Arize AI",
+      "video_id": "dAoOYFx7ZYw",
+      "platform": "youtube",
+      "url": "https://youtu.be/dAoOYFx7ZYw",
+      "duration_min": 15,
+      "creator": "ai-engineer",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "code-mode",
+        "sandbox",
+        "tools"
+      ],
+      "keywords": [
+        "agents",
+        "code-mode",
+        "sandbox",
+        "tools",
+        "code mode",
+        "ai engineer",
+        "Agent Security & Permissions",
+        "Code Mode for Agents",
+        "Outcome-Verified Agent Tasks",
+        "Progressive Context Loading"
+      ],
+      "summary": "Mikyo King (head of open source at Arize AI, Phoenix) argues for code mode: instead of handing an agent a huge catalog of tools and pushing every tool result into context, give it a way to search for tools and a programming environment to execute them, sequentially, in parallel or with conditionals, returning only what's needed to the model. Coding agents like Claude Code dissolve the old line between software for engineers and software for everyone else, and labs train models hard on coding benchmarks, so align your agent to build the small software it needs on the fly.\n\nCode mode helps through progressive disclosure of tools, composability (fan-out, chaining), token efficiency (the model trims and searches outputs instead of ingesting them) and emergent behavior: the agent can build its own tool, for example a script that strips PII without leaking card numbers into the context window. In Phoenix they started with Bash (sed, grep, their own CLI, offloading to files), added a Python sandbox with all REST CRUD endpoints hoisted into it, added SQL for aggregate questions (e.g. LLM spans above a P95 latency) and even a UI-bound programming layer in a web worker that can change time ranges and read front-end data.\n\nIt's not free: LLM-generated code, sandbox CPU/memory/lifetime, network egress, secrets that must never re-enter context, permissions that drift across composed operations, flaky sandbox boots, harder debugging, tool parameters that are now code, tool discovery handshakes, double sandboxing when MCP and the harness both do code mode, no mid-script durability, language choice for math (JavaScript is easy for models, weaker for numbers), getting binaries like images out, and smaller models that can't do it as well. Arize evaluates it with Harbor: sandboxed tasks with network off, multiple trials, binary verifiers, pass@k per task. Moving to code mode cut tokens by 43% and cost by 31% with flat latency across Claude Code, MCP and CLI surfaces; trajectories plus evals then let a coding agent hill-climb the instructions.",
+      "key_insights": [
+        "code mode agents: tool search + code execution beats a giant tool menu for long-horizon agents.",
+        "Return only the slice of tool output the model needs; keep raw data in the sandbox.",
+        "Let the agent write SQL for aggregates instead of paginating APIs.",
+        "Budget for sandbox risks: egress, secrets, permission drift, durability.",
+        "Measure the switch with sandboxed, multi-trial evals; Arize saw -43% tokens, -31% cost."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "code-mode-agents",
+          "title": "Code Mode for Agents"
+        },
+        {
+          "slug": "outcome-verified-agent-tasks",
+          "title": "Outcome-Verified Agent Tasks"
+        },
+        {
+          "slug": "progressive-context-loading",
+          "title": "Progressive Context Loading",
+          "e": "📚"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "criticism-projection-accept-cost-dr-k-jay-shetty",
+      "title": "Harvard Psychiatrist: 90% of Criticism is Just Projection | Dr. K",
+      "video_id": "x0dQh4VA6gQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/x0dQh4VA6gQ",
+      "duration_min": 46,
+      "creator": "jay-shetty",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "human",
+      "tags": [
+        "psychology",
+        "habits",
+        "criticism",
+        "motivation"
+      ],
+      "keywords": [
+        "psychology",
+        "habits",
+        "criticism",
+        "motivation",
+        "jay shetty",
+        "Accept the Cost Up Front",
+        "Constructive Criticism (Outside Bubble)",
+        "Teflon Buddha Criticism Defense"
+      ],
+      "summary": "Dr. Alok Kanojia (Dr. K, HealthyGamer psychiatrist) talks with Jay Shetty about why people in their 20s and 30s feel lost when things look fine. Citing Erikson, he describes a \"noiseless crisis\": about 70% of people in their 20s report a quarter-life crisis because the old formula (degree, job, house, marriage) no longer delivers. The targets aren't so much changed as unmeetable (tuition, rent, 50% of US under-30s living with parents), which feeds feeling \"late\", loneliness and a dating crisis.\n\nOn happiness he draws on the Gita's equanimity: a disturbance is anything that moves the mind, including good news. If you attach meaning to a promotion as a step to something bigger, you can't enjoy it and you keep moving the goalposts, a pattern he sees in both struggling young patients and CEOs. On caring what people think: he values feedback but doesn't let it define his identity. Swinging to \"I don't care\" makes you a jerk; instead receive criticism, add context, and ask where it comes from: about 90% of criticism he gets is projection. Dating struggles are shaped by samskaras (accumulated emotional scars): people interpret you through their past rather than seeing you, so the work is a \"course in yourself\".\n\nOn change: information sits in a part of the brain that doesn't drive behavior; emotion does, so find an emotional reason to change. And handle ambivalence: when you start, you picture the benefit; while doing it, you feel only the cost. So accept the cost up front (\"this will suck, I'll do it anyway\"); high expectations produce low follow-through. Purpose is found through behavior, not abstract searching. Final advice: focus more on what is happening than on what you are doing, and observe the consequences of your actions. Worst advice: \"be yourself\".",
+      "key_insights": [
+        "accept the cost upfront: plan for the cost you'll feel, not just the benefit you imagine.",
+        "Feedback is data, not identity; ask whether it's projection before absorbing it.",
+        "Equanimity means not being thrown by success either; goalpost-moving kills satisfaction.",
+        "Motivation comes from an emotional reason, not more information.",
+        "Watch what is actually happening (consequences) rather than what you're doing."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "accept-the-cost-upfront",
+          "title": "Accept the Cost Up Front"
+        },
+        {
+          "slug": "constructive-criticism-outside-bubble",
+          "title": "Constructive Criticism (Outside Bubble)",
+          "e": "🧪"
+        },
+        {
+          "slug": "teflon-buddha-criticism-defense",
+          "title": "Teflon Buddha Criticism Defense",
+          "e": "🧘"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "julian-metcalfe-five-lessons-first-business-simon-squibb",
+      "title": "$2B Founder: Advice Young Entrepreneurs Need to Hear",
+      "video_id": "Hh2j_UG0iZc",
+      "platform": "youtube",
+      "url": "https://youtu.be/Hh2j_UG0iZc",
+      "duration_min": 14,
+      "creator": "simon-squibb",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "build",
+      "tags": [
+        "entrepreneurship",
+        "business",
+        "founders"
+      ],
+      "keywords": [
+        "entrepreneurship",
+        "business",
+        "founders",
+        "simon squibb",
+        "Accept Losing in Entrepreneurship",
+        "Co-Founder Selection",
+        "Steps Over Dreams"
+      ],
+      "summary": "Simon Squibb interviews Julian Metcalfe, co-founder of Pret A Manger and founder of Itsu, who started with a 9-to-5 he disliked. His first business came from noticing a busy London market street with no off-licence; he borrowed £17,000 and opened a wine shop, working there every night while still employed. His approach is steps, not dreams: \"I've never really dreamed. I just do,\" a couple of small steps every day.\n\nHis lessons: (1) see failures as opportunity: your first idea is half-baked, you'll pivot, and Itsu took two years of \"terrible failure\" before it worked; (2) don't pick the obvious idea (\"I'll open a cafe\"); opportunities are everywhere if you think harder; (3) focus and avoid getting lazy (\"it'll be fine\" isn't fine); (4) transparency and brutal honesty about your product: he flew to Japan five times in 14 months to improve a noodle broth sachet, still prints his email on every bag and replies within an hour, because brand trust is the asset; (5) get a co-founder with the skills you lack (accounts, legal); both men credit co-founders for their businesses working.\n\nOn quitting a job: do it sooner than you think, but keep a few months of runway and double your best-case estimate because it never goes as planned; it's easier when you're young without kids or a mortgage. A business with £1M a year in sales already gives an extraordinary life; you don't need £500M. Includes a HubSpot sponsor segment.",
+      "key_insights": [
+        "steps over dreams: take two small concrete steps a day instead of planning the dream.",
+        "Expect the first version to fail and plan to pivot.",
+        "Brutal honesty about product quality, price and service builds loyalty.",
+        "Quit with runway: double your best-case timeline.",
+        "Pick a co-founder who covers what drains you."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "accept-losing-entrepreneurship",
+          "title": "Accept Losing in Entrepreneurship",
+          "e": "🎲"
+        },
+        {
+          "slug": "co-founder-selection",
+          "title": "Co-Founder Selection",
+          "e": "⚖️"
+        },
+        {
+          "slug": "steps-over-dreams",
+          "title": "Steps Over Dreams"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "same-day-frontier-models-ai-platform-optiver",
+      "title": "How a Trading Firm Ships New AI Models the Same Day - Noyan Tokgozoglu, Optiver",
+      "video_id": "aGIUg8zKI8A",
+      "platform": "youtube",
+      "url": "https://youtu.be/aGIUg8zKI8A",
+      "duration_min": 24,
+      "creator": "ai-engineer",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "agents",
+      "tags": [
+        "ai-platform",
+        "evals",
+        "llmops",
+        "cost"
+      ],
+      "keywords": [
+        "ai-platform",
+        "evals",
+        "llmops",
+        "cost",
+        "ai platform",
+        "ai engineer",
+        "Harness Engineering",
+        "Kv Cache Agent Latency",
+        "Progressive Context Loading",
+        "Same-Day Model Adoption",
+        "Scientific Agent Evals"
+      ],
+      "summary": "Noyan Tokgozoglu (head of AI engineering at Optiver, ex-Apple) explains how a market maker that makes 10M+ trades a day scales AI with P&L on the line. Unlike a consumer app measuring engagement over months, Optiver sees the P&L impact of a change within hours, so missed opportunities are expensive and the firm needs fast, well-measured decisions and a bias for action. The platform's principles: move fast but modular (new models and paradigms arrive daily), measure at every layer with internal benchmarks (external leaderboards don't match their data), self-service with good defaults, forward-deployed AI engineers sitting with traders, and safety. Everything runs on-prem except third-party inference under zero-data-retention agreements.\n\nThe stack: third-party, self-hosted and open models behind an inference gateway (routing, per-model spend, budgets, failover when a provider goes down); an agent platform with registered skills, plugins and tools; an agent gateway acting as one ledger for agents and humans with shared identity; a meta-harness layer so teams define harness configs portable across Claude Code-style harnesses, plugged into team knowledge bases that are harvested from traces; plus a web portal, persona workbench and personal assistant. Their goal is to put a new frontier model into production flows the same day it's public: run it on golden benchmark sets collected with partner trading teams, wire it into the gateway, update harnesses, and publish a recommendation.\n\nSpend spiked with the \"Claude Code moment\" and summer frontier releases, then came back under control after they found fresh sessions starting at 200k+ tokens of context from dumped MCPs and knowledge. Fixes: MCP tool search, CLIs wrapping MCPs, tuning prompt-cache invalidation, moving content from giant system prompts into knowledge bases, model routing (frontier model plans, smaller models implement). Open problems: evaluating tool calls on a different model needs world-state snapshots (easy for point-in-time backtest data, hard for Slack); they log a confidence score for how replayable each call is. Instead of one bloated agent, scope agents to measurable tasks and let them call each other through the gateway.",
+      "key_insights": [
+        "same day model adoption: golden internal benchmarks + gateway + meta-harness let a new model go live the day it ships.",
+        "Fresh sessions with 200k tokens of default context are waste; tool search, CLIs over MCPs and cache tuning fix it.",
+        "Context savings scale with token price, so optimize single sessions first.",
+        "Replaying agent evals needs snapshots of the world the tools touched.",
+        "Scope agents narrowly and compose them, rather than one agent doing ten jobs."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        },
+        {
+          "slug": "kv-cache-agent-latency",
+          "title": "Kv Cache Agent Latency"
+        },
+        {
+          "slug": "progressive-context-loading",
+          "title": "Progressive Context Loading",
+          "e": "📚"
+        },
+        {
+          "slug": "same-day-model-adoption",
+          "title": "Same-Day Model Adoption"
+        },
+        {
+          "slug": "scientific-agent-evals",
+          "title": "Scientific Agent Evals"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "two-years-shipping-production-agent-fuad-ali-arize",
+      "title": "We Kept Rebuilding Our AI Agent. Here's What Survived - Fuad Ali, Arize AI",
+      "video_id": "YIhvrvHtonk",
+      "platform": "youtube",
+      "url": "https://youtu.be/YIhvrvHtonk",
+      "duration_min": 21,
+      "creator": "ai-engineer",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "harness",
+        "ai-engineering",
+        "memory"
+      ],
+      "keywords": [
+        "agents",
+        "harness",
+        "ai-engineering",
+        "memory",
+        "ai engineering",
+        "ai engineer",
+        "Agent Memory Markdown",
+        "Harness Engineering",
+        "Harness-Owned Agent Loop",
+        "Stop Condition (Agent Loops)",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "Fuad Ali (AI PM at Arize AI) reviews two years of shipping Alex, the in-product agent inside Arize AX that reads traces, builds evals, datasets and experiments, and runs multi-step tasks (\"a Cursor for AI engineering\"). Alex started in late 2023 as a router over skills with roughly 50% hallucination, was rewritten in August 2025 around iterative tool calling and a to-do tool, relaunched as Alex 2.0 in February 2026, merged ten page-specific specialists into one agent that loads skills on demand in June, and now has long-term memory. Arize didn't train any models: everything they rebuilt was harness code, with no agent framework. The loop, plan, stopping rule and memory are all theirs.\n\nThe hardest decisions: who owns the plan (a to-do tool made the model spend most calls ticking boxes and lose focus after 20+ iterations, so the harness now holds the plan and renders it into each model call, and they're testing with no to-do tool at all); what ends the turn (\"text without a tool call means done\" broke on models that announce a step then act next turn, so there is now an explicit finish call that bounces back up to three times while plan items are open, a warning one step before the iteration limit, and a force finish); and memory (huge tool results are stored and replaced by a pointer, big JSON is truncated and the agent uses jq to dig in, long trajectories get a model-written checkpoint, and long-term memory is one markdown file per user capped at 8,000 characters, written by a background job after each session). That small file beat vector stores, episodic/semantic stores and temporal knowledge graphs: it's exact, cheap to load and easy for a human to audit.\n\nOn models, the newest model isn't the default; they pick \"fast and good enough\" and invest in the harness, and are exploring per-task routing and small post-trained models (some surfaces, like AI filters, need a single call rather than a loop). Production sessions become the tests: every Alex trace is captured, failures become regression datasets and replayable session datasets, and harness changes are A/B tested as experiments. Agent bugs rarely show as errors: status OK but 43 identical tool calls in one turn is the bug. Their trace-reading agent Signal now surfaces these, while humans keep golden labels for judges and the speed-versus-quality call.",
+      "key_insights": [
+        "harness owned agent loop: the harness, not the model, owns the plan, the finish gate and the memory budget.",
+        "Put math and data in code; let the model reason and explain.",
+        "Treat a huge tool result like a file: store it, leave a pointer, let the agent grep/jq it.",
+        "One capped markdown memory file per user, written after the session, beats fancier memory stacks.",
+        "One agent with on-demand skills replaced ten specialist sub-agents.",
+        "Default to the fast, good-enough model; spend effort on the harness.",
+        "Turn production sessions into regression and golden datasets; watch for silent failures like retry loops."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-memory-markdown",
+          "title": "Agent Memory Markdown",
+          "e": "📝"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        },
+        {
+          "slug": "harness-owned-agent-loop",
+          "title": "Harness-Owned Agent Loop"
+        },
+        {
+          "slug": "stop-condition-agent-loops",
+          "title": "Stop Condition (Agent Loops)",
+          "e": "🛑"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-10-28"
+    },
+    {
+      "slug": "vinh-giang-raj-shamani-podcast-book-tour-vlog",
+      "title": "What I Learned From Asia's Biggest Podcaster (feat. Raj Shamani)",
+      "video_id": "2J9S8aFaWwc",
+      "platform": "youtube",
+      "url": "https://youtu.be/2J9S8aFaWwc",
+      "duration_min": 8,
+      "creator": "vinh-giang",
+      "updated": "2026-10-28",
+      "created": "2026-10-28",
+      "section": "other",
+      "tags": [
+        "vlog",
+        "communication",
+        "podcasting"
+      ],
+      "keywords": [
+        "vlog",
+        "communication",
+        "podcasting",
+        "vinh giang",
+        "Steps Over Dreams"
+      ],
+      "summary": "A short travel vlog from Vinh Giang's US book tour for *Before We Forget How to Connect*. He records an episode of Raj Shamani's podcast (Figuring Out, described as the biggest podcast in Asia) in LA; Raj had attended Vinh's class a year earlier. Vinh's core value is kaizen (continuous improvement), and he points to Raj, who started podcasting from his bedroom and now leads a 100+ person team: \"to be great, you don't have to start out great. You just have to start.\"\n\nThe rest is behind-the-scenes: praising teammate Pete's curiosity and generosity in sharing knowledge on a collaboration with Mark Manson's team, mapping a bestseller-list launch strategy in Austin, visiting the Comedy Mothership, where Vinh admires Joe Rogan for still having fun and curiosity in his fifties, and recording The Vinny and Ali Show reviewing his own book before flying to Nashville. Little concrete speaking technique.",
+      "key_insights": [
+        "Kaizen: you don't need to start great, you need to start and improve continuously.",
+        "Curiosity and generosity in sharing what you know make people stand out on collaborations."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "steps-over-dreams",
+          "title": "Steps Over Dreams"
+        }
+      ],
+      "conceptCount": 1,
+      "added": "2026-10-28"
     }
   ]
 }

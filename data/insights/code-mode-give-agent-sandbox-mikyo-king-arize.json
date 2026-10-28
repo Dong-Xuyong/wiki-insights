@@ -1,0 +1,65 @@
+{
+  "slug": "code-mode-give-agent-sandbox-mikyo-king-arize",
+  "sections": [
+    {
+      "title": "What code mode is",
+      "items": [
+        {
+          "e": "💻",
+          "q": "What is code mode for agents?",
+          "a": "Letting the agent **search for tools** and **call them from code in a sandbox**, instead of reading a giant tool menu."
+        },
+        {
+          "e": "🧹",
+          "q": "What problem does code mode fix?",
+          "a": "**Context bloat** from irrelevant tools and long tool outputs, which causes **context rot** and extra turns."
+        },
+        {
+          "e": "🔗",
+          "q": "Why is composability a benefit?",
+          "a": "The agent can **chain, fan out and branch** many tool calls in **one turn**."
+        }
+      ]
+    },
+    {
+      "title": "Why it works",
+      "items": [
+        {
+          "e": "🛠️",
+          "q": "What emergent behavior does code mode unlock?",
+          "a": "The agent can **build its own tools**, like a script that strips **PII** without leaking it into context."
+        },
+        {
+          "e": "🗃️",
+          "q": "Why give the agent SQL access too?",
+          "a": "For **aggregate questions**, so it doesn't **paginate through every trace**."
+        },
+        {
+          "e": "📉",
+          "q": "What did Arize measure after switching to code mode?",
+          "a": "**43% fewer tokens** and **31% lower cost**, with latency roughly flat."
+        }
+      ]
+    },
+    {
+      "title": "The costs",
+      "items": [
+        {
+          "e": "🔐",
+          "q": "What sandbox risks come with code mode?",
+          "a": "**Network egress**, **secrets** leaking back into context, and **permission drift** across operations."
+        },
+        {
+          "e": "🧯",
+          "q": "Why is durability an open problem?",
+          "a": "If a long script **breaks halfway**, you **can't resume** from that step."
+        },
+        {
+          "e": "🐣",
+          "q": "Why can code mode fail on cheaper models?",
+          "a": "**Smaller models** aren't as good at writing the code it needs."
+        }
+      ]
+    }
+  ]
+}

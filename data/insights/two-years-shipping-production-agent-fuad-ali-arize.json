@@ -1,0 +1,85 @@
+{
+  "slug": "two-years-shipping-production-agent-fuad-ali-arize",
+  "sections": [
+    {
+      "title": "How Alex evolved",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "What is Alex?",
+          "a": "Arize's **in-product agent** that reads traces and builds **evals, datasets and experiments** for you."
+        },
+        {
+          "e": "🧱",
+          "q": "What did Arize rebuild over two years of Alex?",
+          "a": "Only **harness code**: the **loop, plan, stopping rule and memory**, with no agent framework."
+        },
+        {
+          "e": "🧩",
+          "q": "What replaced Alex's ten specialist sub-agents?",
+          "a": "**One agent** that **loads skills and tools on demand**."
+        }
+      ]
+    },
+    {
+      "title": "Plans and turn endings",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What went wrong when the model owned a to-do tool?",
+          "a": "It spent most calls **ticking off the list** and **lost focus** after many iterations."
+        },
+        {
+          "e": "🗂️",
+          "q": "Where does Alex's plan live now?",
+          "a": "In the **harness**, which **renders the plan into every model call**."
+        },
+        {
+          "e": "🏁",
+          "q": "How does Alex decide a turn is finished?",
+          "a": "An **explicit finish call** that bounces back while plan items are open, then a **force finish** at the limit."
+        }
+      ]
+    },
+    {
+      "title": "Memory without bloat",
+      "items": [
+        {
+          "e": "📌",
+          "q": "What does Alex do with a huge tool result?",
+          "a": "Stores it and leaves a **pointer**, so the agent can **query it with code** like jq."
+        },
+        {
+          "e": "📝",
+          "q": "What long-term memory beat graphs and vector stores?",
+          "a": "**One markdown file per user**, capped at **8,000 characters**, written after the session."
+        },
+        {
+          "e": "🔍",
+          "q": "Why is a small memory file a good design?",
+          "a": "It's **exact**, cheap to load and **easy for a human to audit**."
+        }
+      ]
+    },
+    {
+      "title": "Testing in production",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "Which model does Arize default to?",
+          "a": "The **fast, good-enough** one, not automatically the **newest**."
+        },
+        {
+          "e": "🔁",
+          "q": "How do agent bugs usually show up?",
+          "a": "Not as errors but as odd behavior, like **43 identical tool calls** in one turn."
+        },
+        {
+          "e": "🧪",
+          "q": "Where do Alex's regression tests come from?",
+          "a": "**Production sessions** turned into **regression and golden datasets**."
+        }
+      ]
+    }
+  ]
+}

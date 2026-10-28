@@ -1,0 +1,65 @@
+{
+  "slug": "same-day-frontier-models-ai-platform-optiver",
+  "sections": [
+    {
+      "title": "Trading with AI",
+      "items": [
+        {
+          "e": "📈",
+          "q": "Why must Optiver decide on AI fast?",
+          "a": "**P&L impact shows within hours**, so missed opportunities are **costly**."
+        },
+        {
+          "e": "🏠",
+          "q": "Where does Optiver run its AI?",
+          "a": "**On-prem**, with third-party inference only under **zero data retention**."
+        },
+        {
+          "e": "🤝",
+          "q": "What is forward deployment at Optiver?",
+          "a": "AI engineers **sit with traders** to learn workflows and **bring lessons back** to the platform."
+        }
+      ]
+    },
+    {
+      "title": "Same-day models",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What does same-day model adoption require?",
+          "a": "**Internal golden benchmarks**, an **inference gateway** and harness updates ready to go."
+        },
+        {
+          "e": "📊",
+          "q": "Why does Optiver use internal benchmarks?",
+          "a": "External benchmarks' **data distribution** doesn't match its **own use cases**."
+        },
+        {
+          "e": "🔀",
+          "q": "What does the inference gateway provide?",
+          "a": "**Routing**, **per-model budgets** and **failover** when a provider goes down."
+        }
+      ]
+    },
+    {
+      "title": "Controlling spend",
+      "items": [
+        {
+          "e": "🎒",
+          "q": "What waste did Optiver find in fresh sessions?",
+          "a": "**200k+ tokens** of default context from **dumped MCPs** and knowledge."
+        },
+        {
+          "e": "✂️",
+          "q": "How did Optiver cut context spend?",
+          "a": "**MCP tool search**, **CLIs wrapping MCPs** and **cache tuning**."
+        },
+        {
+          "e": "🧩",
+          "q": "Why scope agents narrowly instead of growing one big agent?",
+          "a": "Small agents are **easy to measure** and manage; bloated ones get **better and worse** at once."
+        }
+      ]
+    }
+  ]
+}
