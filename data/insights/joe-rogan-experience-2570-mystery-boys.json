@@ -1,0 +1,65 @@
+{
+  "slug": "joe-rogan-experience-2570-mystery-boys",
+  "sections": [
+    {
+      "title": "PHP and the end of passwords",
+      "items": [
+        {
+          "e": "🔐",
+          "q": "What did they read from the FBI about PHP?",
+          "a": "Joe pulls up an **FBI Cyber Division** note: **two critical PHP vulnerabilities** could let attackers **remotely execute code** in PHP's core and compromise data and networks. He puts the hole at about **14 years**."
+        },
+        {
+          "e": "🔓",
+          "q": "What does Joe say that means for passwords?",
+          "a": "AI will **figure out the code of everything that exists**. Then **encryption is gone** and **passwords are useless**, because the money is already online."
+        }
+      ]
+    },
+    {
+      "title": "Vince Foster and the book",
+      "items": [
+        {
+          "e": "📕",
+          "q": "What does Kurt separate in the Vince Foster story?",
+          "a": "He recommends **The Strange Death of Vince Foster** and describes **missing blood**, a **body that had been moved**, and a **gun still in the hand**. **Gary Webb**, not Foster, is the one he says was shot **twice**."
+        },
+        {
+          "e": "📰",
+          "q": "Who does Kurt say wrote that account?",
+          "a": "He names **Chris Ruddy**, now of **Newsmax**, and relays an interview claiming Ruddy **helped cover the case up**. Joe's reaction is that the book he trusted now has to be **rethought**."
+        }
+      ]
+    },
+    {
+      "title": "Midnight Gospel",
+      "items": [
+        {
+          "e": "🎨",
+          "q": "Why does Midnight Gospel look psychedelic on purpose?",
+          "a": "**Pendleton Ward** told the animators **not to sweat the model grid**. Off-model frames read as **more psychedelic**, and he let anyone in the room **pitch an idea**."
+        },
+        {
+          "e": "✨",
+          "q": "Where does Duncan say AI fits in that kind of show?",
+          "a": "It can speed **in-betweens**. It does not replace a room of artists whose **disagreement and struggle produce the sparks**. One or two people with a model will not match that group."
+        }
+      ]
+    },
+    {
+      "title": "Cambridge Analytica, now ordinary",
+      "items": [
+        {
+          "e": "🗳️",
+          "q": "What do they say Cambridge Analytica actually harvested?",
+          "a": "A quiz app took the quiz-taker **and their friends**. They read a figure of up to **87 million** Facebook profiles, used for **Trump and Cruz in 2016** and for **Brexit**. Kurt calls that **regular stuff now** — the same trick that sells you a TV."
+        },
+        {
+          "e": "🔎",
+          "q": "How do they say search does the same job today?",
+          "a": "Results are **curated**: one candidate's query leads with the **negative stories**, another's with the **flattering ones**. They cite a **$5 billion** Facebook penalty and a New Mexico order they say just hit **Meta** for **$25 billion**."
+        }
+      ]
+    }
+  ]
+}
