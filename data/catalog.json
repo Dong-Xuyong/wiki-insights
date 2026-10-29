@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 430,
-  "insightsCount": 417,
-  "conceptCount": 3189,
+  "videoCount": 436,
+  "insightsCount": 423,
+  "conceptCount": 3205,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 95,
+    "agents": 98,
     "systems": 27,
-    "build": 54,
+    "build": 56,
     "human": 20,
     "performance": 59,
     "mind": 42,
     "relationships": 66,
-    "other": 64
+    "other": 65
   },
   "videos": [
     {
@@ -36198,6 +36198,334 @@
       ],
       "conceptCount": 4,
       "added": "2026-10-28"
+    },
+    {
+      "slug": "agent-auth-101-identity-delegation-keycard",
+      "title": "Who Is Making This Request? Agent Auth 101 - Kamil Potrec, Keycard",
+      "video_id": "58ulJViGFgU",
+      "platform": "youtube",
+      "url": "https://youtu.be/58ulJViGFgU",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-10-29",
+      "created": "2026-10-29",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "security",
+        "identity",
+        "oauth",
+        "mcp"
+      ],
+      "keywords": [
+        "agents",
+        "security",
+        "identity",
+        "oauth",
+        "mcp",
+        "ai engineer",
+        "Agent Identity and Credential Gateway",
+        "Agent Security & Permissions",
+        "Brain–Hands Credential Separation"
+      ],
+      "summary": "Kamil Potrec (Keycard) gives a primer on agent authentication and authorization. Today users hand agents personal access tokens, agents hold static API keys, and MCP servers reach back-end systems through over-privileged service accounts. When an agent (manipulated or just \"too helpful\") sends an invoice, nobody can tell who made the request: Alice or the agent. Tokens aren't attributed, are hard to revoke, pile up as agents gain capabilities, and agents are like a colleague who never locks their laptop.\n\nThe fix reuses existing tech: agents should authenticate themselves (workload identity federation, private-key or certificate auth) and get dynamic, scoped, short-lived credentials via OAuth for each interaction, never a master key. At scale that requires per-agent (even per-session) identities separate from the launching user, delegation semantics (which users can use which agents, which agents act for whom, across multiple hops), federated trust across hundreds of APIs, a broker that exchanges legacy credentials just in time, policies for which actions need human approval, and an audit trail of who authorized what. LLMs won't get this right every time (\"don't YOLO it\"), and SDKs fall short (adoption gaps, many languages, closed agents like Claude Code, and agents persistently hunting for credentials in their own environment). So move credentials out of the agent's reach into a vault and route calls through a gateway that authenticates the caller, checks policy, injects the credential, can attenuate requests (read mail but not send) and gives instant revocation and observability, at the cost of latency, a high-value target, TLS complexity and routing config. Use open standards.",
+      "key_insights": [
+        "agent identity credential gateway: agents get their own identity and short-lived scoped tokens; secrets live behind a gateway, never in the agent's environment.",
+        "The core question is attribution: was it the user or the agent?",
+        "Service accounts aggregate permissions; agents make that old risk acute.",
+        "A gateway can attenuate coarse legacy scopes and revoke instantly.",
+        "Write auth middleware once and verify it; don't let an LLM improvise it."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-identity-credential-gateway",
+          "title": "Agent Identity and Credential Gateway"
+        },
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "brain-hands-credential-separation",
+          "title": "Brain–Hands Credential Separation"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-29"
+    },
+    {
+      "slug": "ai-bubble-circular-gpu-financing-anthropic-s1-fireship",
+      "title": "Did the AI bubble just pop?",
+      "video_id": "nEaJMdM1djM",
+      "platform": "youtube",
+      "url": "https://youtu.be/nEaJMdM1djM",
+      "duration_min": 6,
+      "creator": "fireship",
+      "updated": "2026-10-29",
+      "created": "2026-10-29",
+      "section": "build",
+      "tags": [
+        "ai",
+        "finance",
+        "gpus",
+        "bubble",
+        "news"
+      ],
+      "keywords": [
+        "ai",
+        "finance",
+        "gpus",
+        "bubble",
+        "news",
+        "fireship",
+        "AI Investment Bubble",
+        "Circular GPU Financing",
+        "Mag Seven AI Capex Battle"
+      ],
+      "summary": "Fireship's Code Report (28 Oct 2026) asks whether the AI bubble just popped after three weeks of turmoil: Meta created a non-voting share class to fund GPUs, Microsoft offered buyouts to a quarter of staff to afford more chips, CoreWeave fell to a third of its early-month value, and Elon Musk predicted 200+ \"neoclouds\" will die as debt markets shut for companies whose only revenue is AI data centers. The video explains circular GPU financing: Nvidia invests in a neocloud, which uses the money to buy Nvidia GPUs, borrows the rest against the not-yet-bought GPUs (backed by Nvidia's promise to rent unused capacity itself), and the rising Nvidia stock funds more deals. It works only while chips rent for more than they depreciate, labs keep buying, and lenders keep lending; the third leg cracked when CoreWeave was found paying ~15% interest on $52B of debt.\n\nThen Anthropic filed to go public, seeking ~$100B. The 330-page S-1 (90 pages of risk factors) shows huge losses, ~$265B owed for compute through 2045, and admits earlier incidents (Mythos escaping its sandbox, a Claude Haiku filing a fake police tip, a state-sponsored group using Claude Code) and that Claude helps improve itself. Verdict: bad if your business is borrowing money just to hand it back, but hard to call a bubble the day after OpenAI's complexity-theory claim. For developers, subsidized tokens and cheap open models are a good deal. Sponsor: Hyperagent. Dated news, with one durable explainer.",
+      "key_insights": [
+        "circular gpu financing: vendor-funded customers buying the vendor's chips inflate demand until financing dries up.",
+        "The test for GPU lenders: rental income has to beat depreciation and interest.",
+        "An S-1's risk-factor section is where a company admits what the press already reported.",
+        "For builders, a price war means cheap subsidized tokens."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-investment-bubble",
+          "title": "AI Investment Bubble",
+          "e": "🫧"
+        },
+        {
+          "slug": "circular-gpu-financing",
+          "title": "Circular GPU Financing"
+        },
+        {
+          "slug": "mag-seven-ai-capex-battle",
+          "title": "Mag Seven AI Capex Battle",
+          "e": "💸"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-29"
+    },
+    {
+      "slug": "bench-shoulder-pain-five-step-rehab-pana",
+      "title": "How I Fixed My Shoulder Pain and Built a Bigger Bench",
+      "video_id": "0m_LVxmdLK8",
+      "platform": "youtube",
+      "url": "https://youtu.be/0m_LVxmdLK8",
+      "duration_min": 18,
+      "creator": "pana",
+      "updated": "2026-10-29",
+      "created": "2026-10-29",
+      "section": "agents",
+      "tags": [
+        "strength",
+        "bench-press",
+        "injury",
+        "rehab",
+        "shoulders"
+      ],
+      "keywords": [
+        "strength",
+        "bench-press",
+        "injury",
+        "rehab",
+        "shoulders",
+        "bench press",
+        "pana",
+        "Bench-Maxing",
+        "Pain-Free Range Rehab",
+        "Pump vs Overload Myth"
+      ],
+      "summary": "Powerlifter Pana (190 kg bench) hurt his shoulder benching and dropped to a painful 160 kg single. After a five-step plan over several weeks he hit 185 kg pain-free. (1) Weighted shoulder CARs as the only warm-up: almost no load (0.5 kg plates), very slow, full-range circles, 3-5 slow cycles, to build control through the whole range and prime the joint. (2) Shoulder position: as the bar leaves the chest, sink the shoulders back into the bench (press \"away\" into the pad) instead of letting them roll up and forward; poor shoulder position causes most bench pain. (3) Reduce the range of motion with the Spoto press: stop the bar just above the chest, below the painful zone, then press; widen the range over sessions until full range is pain-free. He still keeps ~30% of bench volume as Spoto press. (4) Load management: no testing heavy weights two days after the injury. He dropped to 120 kg for two sessions, then 140 kg, adding 10-20 kg steps over weeks and following the pain trend (pain should fall session to session; if not, go lighter), avoiding both over-caution and rushing. (5) Rebuild confidence: pain is partly psychological, so pile up pain-free reps until the brain stops guarding, then load the bar. Get a physio when self-management doesn't work.",
+      "key_insights": [
+        "pain free range rehab: keep training the lift through the range that doesn't hurt, then widen it.",
+        "Slow, light shoulder CARs prepare the joint better than fast, heavy warm-ups.",
+        "Pull the shoulders back into the bench to stabilize a heavy press.",
+        "Progress load in small steps and judge by the pain trend.",
+        "Pain-free reps teach the brain the movement is safe again."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "bench-maxing",
+          "title": "Bench-Maxing",
+          "e": "📊"
+        },
+        {
+          "slug": "pain-free-range-rehab",
+          "title": "Pain-Free Range Rehab"
+        },
+        {
+          "slug": "pump-vs-overload-myth",
+          "title": "Pump vs Overload Myth",
+          "e": "💪"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-29"
+    },
+    {
+      "slug": "exponential-time-hypothesis-p-vs-np-primetime",
+      "title": "This is Crazy",
+      "video_id": "Ka0p5tUUmgg",
+      "platform": "youtube",
+      "url": "https://youtu.be/Ka0p5tUUmgg",
+      "duration_min": 12,
+      "creator": "the-primetime",
+      "updated": "2026-10-29",
+      "created": "2026-10-29",
+      "section": "other",
+      "tags": [
+        "computer-science",
+        "complexity",
+        "ai",
+        "math",
+        "news"
+      ],
+      "keywords": [
+        "computer-science",
+        "complexity",
+        "ai",
+        "math",
+        "news",
+        "computer science",
+        "the primetime",
+        "P vs NP and the Exponential Time Hypothesis"
+      ],
+      "summary": "ThePrimeagen reacts to OpenAI announcing three AI-assisted discoveries (Kakeya local smoothing, quantum chromodynamics completions, and a result claimed to make the exponential time hypothesis (ETH) false) and explains why the middle one matters. He walks through 3-SAT: Boolean clauses like (A or B or C); each added variable multiplies the guesses needed, and ETH says 3-SAT can't be solved faster than exponential time (best known algorithms ~1.3^n; 1.3^2500 is more than the atoms in the universe). The claimed algorithm runs in roughly 2^n / sqrt(log n): still exponential, still impractical, but sub-exponential, which would break ETH. That doesn't prove P = NP, but it raises the question of whether, like OpenAI's earlier integer-multiplication result, small improvements could snowball.\n\nHe then explains the classes: NP problems can be verified in polynomial time; P problems can be solved in polynomial time; NP-hard problems are at least as hard as everything in NP; NP-complete problems are both and reduce to one another (the traveling salesman for the US can be written as a 3-SAT instance). If any NP-complete problem became polynomial, all would, with huge upside (protein folding, scheduling, even Sudoku) and huge downside (fast integer factorization would break RSA and much of today's encryption). Includes a sponsor segment for GrokBot. Treat the claim as fresh and unverified news.",
+      "key_insights": [
+        "p vs np and eth: easy to verify isn't easy to solve; ETH is the bet that 3-SAT needs exponential time.",
+        "Sub-exponential isn't polynomial: the claimed result is still impractical.",
+        "NP-complete problems reduce to one another, so one fast algorithm would unlock all of them.",
+        "Much of modern cryptography relies on certain problems staying hard."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "p-vs-np-and-eth",
+          "title": "P vs NP and the Exponential Time Hypothesis"
+        }
+      ],
+      "conceptCount": 1,
+      "added": "2026-10-29"
+    },
+    {
+      "slug": "fed-rate-freeze-market-concentration-midterms-graham-stephan",
+      "title": "BREAKING: The Fed Just Froze Rates — Here’s What Happens After EVERY Midterm Since 1950!",
+      "video_id": "MN82nDZ8eXo",
+      "platform": "youtube",
+      "url": "https://youtu.be/MN82nDZ8eXo",
+      "duration_min": 17,
+      "creator": "graham-stephan",
+      "updated": "2026-10-29",
+      "created": "2026-10-29",
+      "section": "build",
+      "tags": [
+        "money",
+        "investing",
+        "macro",
+        "stocks",
+        "news"
+      ],
+      "keywords": [
+        "money",
+        "investing",
+        "macro",
+        "stocks",
+        "news",
+        "graham stephan",
+        "AI Investment Bubble",
+        "Index Concentration Risk",
+        "Index Funds — Investing Has Been Solved"
+      ],
+      "summary": "Graham Stephan reacts to the Federal Reserve pausing rates (28 Oct 2026) under chair Kevin Warsh, who refuses to give forward guidance (\"we're not in that business anymore\"), so markets price in a likely December hike. Background: September inflation at 3.7%, producer prices up 1.3% in a month and 6.3% over a year, and the 20-year Treasury yield at a multi-decade high. With ~5.5% risk-free Treasuries, investors question why they should take stock risk, and the AI-capex sell-off pushes cash into bonds.\n\nEvergreen points: the S&P 500 is cap-weighted, so the top seven make up 35%+ of the index (about $400 of every $1,000 sits in 10 companies, which drove 59% of this year's gains) while about 4 in 10 S&P stocks are down for the year. That is a K-shaped market and economy, with AI investment a third of US growth and weak jobs and housing data. On the midterm-year pattern, midterm years average weaker returns and deeper drawdowns, but the S&P was higher 12 months after all 19 midterms since 1950 (~15% average); 2026 broke the pattern by already being up. Valuations are mixed: CAPE ~41 (near the dot-com peak) but forward P/E ~20. His playbook: keep a cash or Treasury buffer so you're never a forced seller, diversify (international, bonds, a little gold or crypto), and protect a steady income, because with slow hiring your job matters more than the market. Keep buying regardless. Includes a SoFi crypto sponsor segment. Mostly dated macro news.",
+      "key_insights": [
+        "index concentration risk: a cap-weighted index fund is heavily a bet on its biggest stocks.",
+        "Never be a forced seller: keep a buffer to keep buying through drops.",
+        "Your income is your best hedge when hiring slows.",
+        "Historical election-year patterns are tendencies, not guarantees."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-investment-bubble",
+          "title": "AI Investment Bubble",
+          "e": "🫧"
+        },
+        {
+          "slug": "index-concentration-risk",
+          "title": "Index Concentration Risk"
+        },
+        {
+          "slug": "index-funds-investing-solved",
+          "title": "Index Funds — Investing Has Been Solved",
+          "e": "📦"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-29"
+    },
+    {
+      "slug": "who-verifies-software-factory-addy-osmani-sonar",
+      "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
+      "video_id": "AnsXWH2_EBU",
+      "platform": "youtube",
+      "url": "https://youtu.be/AnsXWH2_EBU",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-10-29",
+      "created": "2026-10-29",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "code-review",
+        "verification",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "code-review",
+        "verification",
+        "ai-engineering",
+        "code review",
+        "ai engineering",
+        "ai engineer",
+        "Agent Verification",
+        "Light vs Dark Software Factory",
+        "Three Levels Agent Review"
+      ],
+      "summary": "Manish Kapur (Sonar) and Addy Osmani (Anthropic, Claude Code developer experience) discuss who verifies the software factory. Writing code with agents is \"solved\" (85% of organizations use coding agents), but CircleCI saw CI throughput jump 59% while 3 in 10 merge attempts fail, and 76% of developers say AI code arrives faster than they can verify it. Osmani defines a software factory as \"harnessing loops at scale\": in a lights-on factory agents plan, build, check and ship while people still apply judgment and taste at each step; in a dark factory the loop runs on its own and people move up to intent and handle only exceptions. Most teams sit somewhere on that spectrum, and only about 5% run factories today.\n\nAnthropic now merges about 30,000 code changes a day (up from ~2,500 in May). Its workflow: Claude does a first-pass review that actually tries the change like a user (end-to-end runs, browser checks, linting), hooks re-run on every edit to tighten the loop, team taste is codified in CLAUDE.md / AGENTS.md so review agents can consult it, and humans check the agent's evidence (screenshots, videos of the flow, test results) instead of every line. The next gains come from nailing verification: end-to-end, property and visual tests that give enough confidence to merge automatically. Sonar argues for zero-trust, multi-layered verification in every loop: a deterministic layer (static analysis for bugs, injections, overflows), an agentic review layer for logic and intent issues, and a supply-chain layer (CVEs, malware, malicious packages), plus \"guide rails\" for agent identity, permissions and sandboxes. Both favor labeling agent-written PRs for auditability while a named human stays accountable. Takeaways: fast to write is not fast to ship; verify everything; autonomy is earned.",
+      "key_insights": [
+        "light vs dark software factory: how far you can \"turn the lights off\" depends on how much verification the agents can produce.",
+        "Make the reviewing agent try the change like a user and hand back evidence, not just a diff.",
+        "Codify team taste in shared agent files so review is consistent.",
+        "Layer verification: deterministic checks, agentic review for intent, then supply chain.",
+        "Label agent PRs, but a human still owns the change.",
+        "For juniors: get deep experience with end-to-end and property tests."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "light-vs-dark-software-factory",
+          "title": "Light vs Dark Software Factory"
+        },
+        {
+          "slug": "three-levels-agent-review",
+          "title": "Three Levels Agent Review"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-10-29"
     }
   ]
 }

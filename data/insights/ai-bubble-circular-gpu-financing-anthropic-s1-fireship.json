@@ -1,0 +1,50 @@
+{
+  "slug": "ai-bubble-circular-gpu-financing-anthropic-s1-fireship",
+  "sections": [
+    {
+      "title": "Circular GPU financing",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "How does circular GPU financing work?",
+          "a": "Nvidia **invests in a neocloud**, which uses the money to **buy Nvidia GPUs** and borrows the rest against them."
+        },
+        {
+          "e": "📉",
+          "q": "When does the loop break?",
+          "a": "When chips **rent for less than they depreciate** or **lenders stop lending**."
+        },
+        {
+          "e": "💳",
+          "q": "What cracked CoreWeave's model?",
+          "a": "Paying about **15% interest** on **$52B** of debt."
+        }
+      ]
+    },
+    {
+      "title": "Anthropic's S-1",
+      "items": [
+        {
+          "e": "📑",
+          "q": "How much did Anthropic seek in its IPO?",
+          "a": "About **$100 billion**."
+        },
+        {
+          "e": "🏗️",
+          "q": "How much does Anthropic owe for compute through 2045?",
+          "a": "About **$265 billion**."
+        }
+      ]
+    },
+    {
+      "title": "For developers",
+      "items": [
+        {
+          "e": "🪙",
+          "q": "What's the upside of the AI price war for builders?",
+          "a": "**Subsidized tokens** and **cheap open models**."
+        }
+      ]
+    }
+  ]
+}

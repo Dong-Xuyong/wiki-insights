@@ -1,0 +1,70 @@
+{
+  "slug": "who-verifies-software-factory-addy-osmani-sonar",
+  "sections": [
+    {
+      "title": "Software factories",
+      "items": [
+        {
+          "e": "🏭",
+          "q": "What is a software factory?",
+          "a": "**Agent loops at scale**: scoping, building, checking and shipping code again and again."
+        },
+        {
+          "e": "💡",
+          "q": "What separates a lights-on factory from a dark one?",
+          "a": "In **lights-on** people apply judgment at each step; in **dark** the loop runs alone and people handle **intent and exceptions**."
+        },
+        {
+          "e": "🔓",
+          "q": "What decides how far a team can turn the lights off?",
+          "a": "How much **trustworthy verification** the agents can produce."
+        }
+      ]
+    },
+    {
+      "title": "Review at Anthropic",
+      "items": [
+        {
+          "e": "📈",
+          "q": "How many code changes does Anthropic merge a day?",
+          "a": "About **30,000**, up from roughly **2,500** in May."
+        },
+        {
+          "e": "🧪",
+          "q": "What does Claude do in a first-pass review?",
+          "a": "It **tries the change like a user**, with end-to-end runs, browser checks and linting."
+        },
+        {
+          "e": "📄",
+          "q": "Where should team taste live for review agents?",
+          "a": "In shared files like **CLAUDE.md or AGENTS.md** that the agent consults."
+        },
+        {
+          "e": "🎥",
+          "q": "What should humans check instead of every line?",
+          "a": "The agent's **evidence**: screenshots, **videos of the flow** and test results."
+        }
+      ]
+    },
+    {
+      "title": "Layered verification",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What are Sonar's three verification layers?",
+          "a": "**Deterministic** analysis, **agentic review** for logic and intent, and **supply-chain** checks."
+        },
+        {
+          "e": "🏷️",
+          "q": "Should agent-written PRs be labeled?",
+          "a": "Yes, for **auditability**, while a **named human stays accountable**."
+        },
+        {
+          "e": "🚀",
+          "q": "What's the takeaway on speed?",
+          "a": "**Fast to write is not fast to ship**; autonomy is **earned**."
+        }
+      ]
+    }
+  ]
+}

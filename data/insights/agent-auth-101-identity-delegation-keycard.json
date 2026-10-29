@@ -1,0 +1,75 @@
+{
+  "slug": "agent-auth-101-identity-delegation-keycard",
+  "sections": [
+    {
+      "title": "The attribution problem",
+      "items": [
+        {
+          "e": "❓",
+          "q": "What can't an MCP server tell today?",
+          "a": "Whether the **user or the agent** actually made the request."
+        },
+        {
+          "e": "🔑",
+          "q": "How do agents usually get access today?",
+          "a": "Through users' **personal access tokens**, static keys and **over-privileged service accounts**."
+        },
+        {
+          "e": "🔓",
+          "q": "Why are agents worse than an unlocked laptop?",
+          "a": "They act with your credentials **all the time**, and they're **non-deterministic**."
+        }
+      ]
+    },
+    {
+      "title": "What good agent auth needs",
+      "items": [
+        {
+          "e": "🪪",
+          "q": "What identity should an agent have?",
+          "a": "Its **own identity**, even per session, **separate from the user** who launched it."
+        },
+        {
+          "e": "⏳",
+          "q": "What kind of credentials should agents get?",
+          "a": "**Short-lived, scoped** tokens per interaction via **OAuth**, never a master key."
+        },
+        {
+          "e": "🤝",
+          "q": "What do delegation rules define?",
+          "a": "Which users can use **which agents**, and which agents can act **on whose behalf**."
+        },
+        {
+          "e": "📜",
+          "q": "Which policies and records are required?",
+          "a": "Policies for **which actions need human approval**, plus an **audit trail**."
+        }
+      ]
+    },
+    {
+      "title": "Credential gateway",
+      "items": [
+        {
+          "e": "🏦",
+          "q": "Where should long-lived secrets live?",
+          "a": "In a **vault behind a gateway**, out of the agent's reach."
+        },
+        {
+          "e": "✂️",
+          "q": "What can a gateway do that coarse legacy scopes can't?",
+          "a": "**Attenuate** requests, like allowing reading mail but **blocking sending**."
+        },
+        {
+          "e": "🛑",
+          "q": "What does routing every call through a gateway give you?",
+          "a": "**Instant revocation** and full **observability**."
+        },
+        {
+          "e": "⚖️",
+          "q": "What are the costs of a gateway?",
+          "a": "Extra **latency**, a **high-value target** and TLS and routing complexity."
+        }
+      ]
+    }
+  ]
+}

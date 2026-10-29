@@ -1,0 +1,45 @@
+{
+  "slug": "exponential-time-hypothesis-p-vs-np-primetime",
+  "sections": [
+    {
+      "title": "3-SAT and ETH",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What is a 3-SAT problem?",
+          "a": "Finding true/false values that satisfy clauses of **three variables** like **(A or B or C)**."
+        },
+        {
+          "e": "📈",
+          "q": "What does the exponential time hypothesis claim?",
+          "a": "That 3-SAT **can't be solved faster than exponential time**."
+        },
+        {
+          "e": "🧮",
+          "q": "Does a sub-exponential algorithm make 3-SAT practical?",
+          "a": "No: it's **still exponential-scale** and impractical, just **slower-growing**."
+        }
+      ]
+    },
+    {
+      "title": "P vs NP",
+      "items": [
+        {
+          "e": "✅",
+          "q": "What defines an NP problem?",
+          "a": "Its answer can be **verified in polynomial time**."
+        },
+        {
+          "e": "🔗",
+          "q": "What makes a problem NP-complete?",
+          "a": "It's in NP and **at least as hard as every NP problem**, so all NP-complete problems **reduce to each other**."
+        },
+        {
+          "e": "🔐",
+          "q": "Why would P = NP threaten encryption?",
+          "a": "Problems like **factoring** behind **RSA** could be solved fast."
+        }
+      ]
+    }
+  ]
+}
