@@ -1,0 +1,60 @@
+{
+  "slug": "ab-testing-ai-features-five-lessons-supriya-subudhi-bumble",
+  "sections": [
+    {
+      "title": "Wanted vs used",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What did Bumble learn from surveying users about AI photo feedback?",
+          "a": "**78%** said they wanted it, but only **10-15%** used it in the A/B test."
+        },
+        {
+          "e": "🧭",
+          "q": "How did Bumble raise adoption?",
+          "a": "By putting the feature **inside existing journeys**, like adding photos or getting no matches, instead of a standalone screen."
+        }
+      ]
+    },
+    {
+      "title": "Beyond the average",
+      "items": [
+        {
+          "e": "🔍",
+          "q": "What did the averages hide?",
+          "a": "Tips telling people who were **already smiling** to smile more. You have to **read real outputs**."
+        },
+        {
+          "e": "🚧",
+          "q": "Which guardrail did they add?",
+          "a": "Never comment on things users **can't change**, like skin colour or height."
+        },
+        {
+          "e": "🌍",
+          "q": "Which segments should you check?",
+          "a": "Gender, **language and country**, because output quality can differ across them."
+        }
+      ]
+    },
+    {
+      "title": "Cost and the model",
+      "items": [
+        {
+          "e": "💸",
+          "q": "Why is GenAI cost different from classic ML?",
+          "a": "The bill **grows with every use**, so success makes it more expensive."
+        },
+        {
+          "e": "🤖",
+          "q": "What did switching to a cheaper model reveal?",
+          "a": "The win came from **the model, not the concept**. Fast eval loops then found a cheap option that worked."
+        },
+        {
+          "e": "⚖️",
+          "q": "What can block a global rollout?",
+          "a": "**AI regulation differs by market**, so plan compliance from the start."
+        }
+      ]
+    }
+  ]
+}

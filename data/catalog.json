@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 436,
-  "insightsCount": 423,
-  "conceptCount": 3205,
+  "videoCount": 443,
+  "insightsCount": 430,
+  "conceptCount": 3228,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 3,
-    "agents": 98,
+    "agents": 99,
     "systems": 27,
-    "build": 56,
-    "human": 20,
+    "build": 57,
+    "human": 21,
     "performance": 59,
     "mind": 42,
-    "relationships": 66,
-    "other": 65
+    "relationships": 68,
+    "other": 67
   },
   "videos": [
     {
@@ -36526,6 +36526,399 @@
       ],
       "conceptCount": 3,
       "added": "2026-10-29"
+    },
+    {
+      "slug": "ab-testing-ai-features-five-lessons-supriya-subudhi-bumble",
+      "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble",
+      "video_id": "CvmZtAPmAW4",
+      "platform": "youtube",
+      "url": "https://youtu.be/CvmZtAPmAW4",
+      "duration_min": 15,
+      "creator": "ai-engineer",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "human",
+      "tags": [
+        "genai",
+        "product",
+        "ab-testing",
+        "evals"
+      ],
+      "keywords": [
+        "genai",
+        "product",
+        "ab-testing",
+        "evals",
+        "ab testing",
+        "ai engineer",
+        "AI Adoption Gap",
+        "AI Feature A/B Test: Five Questions",
+        "Risk-Based AI Evals"
+      ],
+      "summary": "Supriya Subudhi, a product manager at Bumble (20M+ monthly users), explains why a positive A/B test is where the work on a GenAI feature starts, not ends. Her example is an AI photo-feedback feature that tells people how to improve their dating-profile pictures.\n\nShe gives five lessons. (1) Users ask for it, then ignore it: 78% of surveyed users said they wanted AI feedback, but only 10-15% of the test group used it. Adoption came when the feature was put inside journeys people already use (when adding photos, or when they get no matches). (2) The average win hides the tail: top-line metrics improved, but reading real outputs showed the AI telling already-smiling people to smile more. So they added guardrails (never comment on things people can't change, like skin colour or height), set up evals and checked segments (gender, language, country). (3) Green dashboard, red bill: the best LLM cost about 10x more, plus eval costs. Unlike classic ML, GenAI cost grows with every use, so know whether the feature is a short-term ROI play or a long-term brand bet. (4) Is the win the concept or the model? A cheaper model lowered accuracy and impact, which showed the A/B result came from the model. Fast eval loops across models and prompts found a cheap option that still worked. (5) There may be no global rollout: AI regulation differs by market, so think about compliance from the start.\n\nHer five closing questions: Are people using it, or only saying they will? Do you read real outputs, or only averages? Does it still pay off after all costs? Can you afford a win that needs the best model? Are you clear legally on which markets you can ship in?",
+      "key_insights": [
+        "ai feature ab test five questions: a green A/B test isn't a ship decision for GenAI. Check usage, the long tail, cost, whether the model or the concept caused the win, and legal reach.",
+        "Stated demand (78%) didn't predict use (10-15%). Put AI into existing flows.",
+        "Read real outputs by segment, because averages hide harmful tails.",
+        "GenAI cost grows with success, so start cheaper and test models with evals.",
+        "Compliance decides where you can ship, so plan it early."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-adoption-gap",
+          "title": "AI Adoption Gap",
+          "e": "📉"
+        },
+        {
+          "slug": "ai-feature-ab-test-five-questions",
+          "title": "AI Feature A/B Test: Five Questions"
+        },
+        {
+          "slug": "risk-based-ai-evals",
+          "title": "Risk-Based AI Evals"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-01"
+    },
+    {
+      "slug": "biggest-communication-problems-vinh-giang-vanessa-van-edwards",
+      "title": "We Solve Your Biggest Communication Problems (feat. Vanessa Van Edwards)",
+      "video_id": "Is-OxByUl_A",
+      "platform": "youtube",
+      "url": "https://youtu.be/Is-OxByUl_A",
+      "duration_min": 54,
+      "creator": "vinh-giang",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "public-speaking",
+        "body-language",
+        "conversation"
+      ],
+      "keywords": [
+        "communication",
+        "public-speaking",
+        "body-language",
+        "conversation",
+        "public speaking",
+        "body language",
+        "vinh giang",
+        "30-30-30-10 Principle",
+        "88 Keys (Voice)",
+        "Gesture Vocabulary",
+        "Script-Breaking Openers",
+        "Warmth-Competence Switching"
+      ],
+      "summary": "Vinh Giang and Vanessa Van Edwards pull viewers' communication problems out of a jar and answer them. Changing your voice feels fake? Disagree: the voice is an instrument (88 keys, of which most people play five) and makeup for your natural voice. Vocal variety is a gift to the listener and an EQ tool that makes your emotions readable, so people can match you and support you. Starting a conversation with a stranger: assume warmth (this could be your next best friend), and break the autopilot script. Swap \"How are you? / Been busy?\" for \"What's been good?\", which invites optimism, or Vinh's Hi-Lo-Buffalo (something going well, something not, something interesting), going first with low-stakes answers. \"Choose your hard\": a bit of discomfort beats a draining autopilot conversation, and giving energy is a form of generosity.\n\nBody language: watch for the lower-lid flex (a squint means intense focus or doubt; pause and ask \"are we good?\"), and use it on purpose like a highlighter. Build your gesture vocabulary with charades-style practice. Gesture helps the speaker too (Susan Goldin-Meadow: people sitting on their hands rambled more). Place ideas in space for the listener, A on one side and B on the other, with time running left to right from their view. Avoid self-touch, which reads as pacifying or even deceptive. Use Satir-style foundational gestures (open palms; palms down for authority), and they argue about pointing (no pointing one-on-one).\n\nPresentations: Vinh's mix is 30% entertainment, 30% inspiration, 30% education and 10% you. Vanessa adds switching between warmth and competence about every minute, in content (story, vulnerability, laughter vs stat, research, data) and in delivery (soft voice and nods vs declarative voice and purposeful gestures). Practise by colour-coding slides or a script W/C. Nerves: Vinh gets out of his head by asking how he can add value to the other person. Vanessa beats \"aimlessness\" with a plan: aim for level 2 of the three conversation levels (general traits, personal concerns, self-narrative), and tell old friends \"no level one today\".",
+      "key_insights": [
+        "warmth competence switching: alternate warm and competent content and delivery about every minute, so you're neither fluffy nor dry.",
+        "script breaking openers: replace autopilot openers with \"What's been good?\" or Hi-Lo-Buffalo, and go first, low-stakes.",
+        "Vocal variety isn't fake. It makes you easier to listen to and makes your emotions readable.",
+        "The lower-lid flex marks focus or doubt. Check in when you see it.",
+        "Gesturing makes you speak more clearly, and placing ideas in space helps listeners follow."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "thirty-thirty-thirty-ten-principle",
+          "title": "30-30-30-10 Principle",
+          "e": "🎤"
+        },
+        {
+          "slug": "eighty-eight-keys-voice",
+          "title": "88 Keys (Voice)",
+          "e": "🎹"
+        },
+        {
+          "slug": "gesture-vocabulary",
+          "title": "Gesture Vocabulary",
+          "e": "👐"
+        },
+        {
+          "slug": "script-breaking-openers",
+          "title": "Script-Breaking Openers"
+        },
+        {
+          "slug": "warmth-competence-switching",
+          "title": "Warmth-Competence Switching"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-01"
+    },
+    {
+      "slug": "connection-skill-generosity-offstage-vinh-giang-vlog",
+      "title": "The Most Important Connection Skill In 2027",
+      "video_id": "FEkKaLMT6J0",
+      "platform": "youtube",
+      "url": "https://youtu.be/FEkKaLMT6J0",
+      "duration_min": 10,
+      "creator": "vinh-giang",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "generosity",
+        "speaking",
+        "vlog"
+      ],
+      "keywords": [
+        "communication",
+        "generosity",
+        "speaking",
+        "vlog",
+        "vinh giang",
+        "88 Keys (Voice)",
+        "Give First (Networking)",
+        "Offstage Excellence"
+      ],
+      "summary": "A tour vlog: Vinh Giang and his team go to Nashville for Jefferson Fisher's podcast and then Boston for Mel Robbins' podcast. Over a team dinner they toast to having fun while still performing, to Vinh's generosity, and to \"keep dreaming\". He turns an ordinary dinner into a surprise birthday, calling it the opposite of making mountains out of molehills. Jefferson Fisher's calm style reminds Vinh that there are many ways to play your voice instrument, so go explore genres you've never tried.\n\nMel Robbins gave Vinh stage tips early in his career and passed him gigs she was too busy for. Her lesson: being good on stage is the price of entry. What makes you exceptional is what you do offstage: caring for event planners and the production crew, no drama, and remembering it's about the event, not your speech. \"When you find the back door in, you hold it open for everybody else.\" Vinh tells Mel's team his father's seven horses story about alignment. The close: the things you want more of, like good vibes and laughter, you often have to give first.\n\nIt's a light vlog and a book promo. It's ingested because Vinh Giang is an always-ingest channel.",
+      "key_insights": [
+        "offstage excellence: skill on stage only gets you in. How you treat the crew and organisers offstage makes you exceptional.",
+        "Hold the door open: when you learn, teach; when you get, give.",
+        "Explore your voice beyond your usual genre (see 88 Keys (Voice)).",
+        "Alignment: seven horses pulling one carriage can cross any ocean.",
+        "Give First (Networking): be the first to give the energy you want back."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "eighty-eight-keys-voice",
+          "title": "88 Keys (Voice)",
+          "e": "🎹"
+        },
+        {
+          "slug": "give-first-networking",
+          "title": "Give First (Networking)",
+          "e": "🤝"
+        },
+        {
+          "slug": "offstage-excellence",
+          "title": "Offstage Excellence"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-01"
+    },
+    {
+      "slug": "smell-hormones-behavior-noam-sobel-huberman-essentials",
+      "title": "Essentials: How Smells Influence Our Hormones, Health & Behavior | Dr. Noam Sobel",
+      "video_id": "arMMF0ISRRM",
+      "platform": "youtube",
+      "url": "https://youtu.be/arMMF0ISRRM",
+      "duration_min": 35,
+      "creator": "andrew-huberman",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "other",
+      "tags": [
+        "neuroscience",
+        "smell",
+        "hormones",
+        "social"
+      ],
+      "keywords": [
+        "neuroscience",
+        "smell",
+        "hormones",
+        "social",
+        "andrew huberman",
+        "Human Chemosignaling",
+        "Olfactory Metamers"
+      ],
+      "summary": "Noam Sobel (Weizmann Institute) walks through how smell works. Air travels about 6-7 cm up the nose to roughly 6-7 million receptors of about 350 types. All receptors of one type converge on one glomerulus in the olfactory bulb, and the signal then fans out widely: to piriform and entorhinal cortex, the amygdala and the hypothalamus.\n\nHumans are far more olfactory than we think, a theme he calls human chemosignaling: - After a handshake, people raise the hand to their nose and sniff it, and they sniff the other hand too, comparing self with other. - \"Click\" friends smell more alike than chance pairs. An electronic nose run on strangers before a silent mirror game predicted who would want to be friends. - The smell of fear raises arousal in other people, and dogs can smell human fear. - Hexadecanal, the most abundant semi-volatile coming off baby heads, lowered aggression in men and raised it in women. Both effects help an infant. - Odourless emotional tears cut men's free testosterone by about 14% within half an hour. An independent Korean group replicated it, and mouse pup tears were later found to lower male aggression.\n\nHis lab predicts how similar any two odour mixtures will smell from a map of 4,000 molecules. It has built olfactory metamers (mixtures sharing no molecules that smell the same, including a Chanel No. 5 match) and sent the first scent over IP: violets, recognised by 15 of 16 people. Rose, anise and gasoline failed. The long-term vision is disease diagnosis by smell, which is decades away.\n\nIt's ingested because Andrew Huberman is an always-ingest channel. It's off-goal neuroscience, with sponsor reads.",
+      "key_insights": [
+        "human chemosignaling: people constantly sample their own and others' body odour, and this feeds into friendship, fear contagion and aggression.",
+        "Tears and baby-head hexadecanal act like a chemical blanket against aggression.",
+        "olfactory metamers: smell can be predicted and designed from molecular mixtures, the groundwork for digital smell."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "human-chemosignaling",
+          "title": "Human Chemosignaling"
+        },
+        {
+          "slug": "olfactory-metamers",
+          "title": "Olfactory Metamers"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-01"
+    },
+    {
+      "slug": "ten-tiny-habits-make-you-rich-simon-squibb",
+      "title": "10 Tiny Habits That Make You Rich",
+      "video_id": "TWEvguGcwKI",
+      "platform": "youtube",
+      "url": "https://youtu.be/TWEvguGcwKI",
+      "duration_min": 14,
+      "creator": "simon-squibb",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "build",
+      "tags": [
+        "habits",
+        "money",
+        "business",
+        "mindset"
+      ],
+      "keywords": [
+        "habits",
+        "money",
+        "business",
+        "mindset",
+        "simon squibb",
+        "Create 90%, Consume 10%",
+        "Scalable Side Hustle vs Time-Trade",
+        "Where Am I Not Saying No"
+      ],
+      "summary": "Simon Squibb tours his home and shares the habits he credits for his success, warning that \"if you take someone's advice, you're going to end up with their life\". The habits: no music, so he can think and find his own rhythm. No work-life split; he makes work something he enjoys. Daily time in nature, barefoot. Sauna as chosen daily pain (\"you want pain; pain shows you're growing\", and being challenged beats chasing happiness). Treat everything you build as a business, starting with a separate bank account (a sponsored bank plug). Buy time, don't sell it: sell outcomes, and hire out what you dislike (with informed consent, selling time you enjoy is fine). 90% creating, 10% consuming on social media, with a timer on scrolling. Plan sleep: the same bedtime around 10:30, a cold room, and money spent on a good bed. As an extrovert, force alone time. And say no more often, to the wrong friends, the wrong projects and even big brand deals, so that the yeses get done 10x better.\n\nIt's a light listicle with sponsor and competition plugs. It's ingested because Simon Squibb is an always-ingest channel.",
+      "key_insights": [
+        "create ninety consume ten: flip the usual social media ratio. Mostly produce, and consume with a timer just for context.",
+        "Sell outcomes, not hours; buy back time for the tasks you dislike.",
+        "Pick a daily discomfort on purpose (sauna, cold) as practice for hard things.",
+        "A fixed bedtime and a cold room are a sleep habit you plan.",
+        "Saying no protects focus and your personal brand."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "create-ninety-consume-ten",
+          "title": "Create 90%, Consume 10%"
+        },
+        {
+          "slug": "scalable-side-hustle-vs-time-trade",
+          "title": "Scalable Side Hustle vs Time-Trade",
+          "e": "⏱️"
+        },
+        {
+          "slug": "where-am-i-not-saying-no",
+          "title": "Where Am I Not Saying No"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-01"
+    },
+    {
+      "slug": "voice-ai-compliance-evals-human-review-upstart-coval",
+      "title": "Voice AI Where One Wrong Question Breaks the Rules - Shiv Indap, Upstart & Brooke Hopkins, Coval",
+      "video_id": "3osCbSufv8g",
+      "platform": "youtube",
+      "url": "https://youtu.be/3osCbSufv8g",
+      "duration_min": 17,
+      "creator": "ai-engineer",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "evals",
+        "voice-ai",
+        "compliance",
+        "fintech"
+      ],
+      "keywords": [
+        "agents",
+        "evals",
+        "voice-ai",
+        "compliance",
+        "fintech",
+        "voice ai",
+        "ai engineer",
+        "Evaluate the Evaluators",
+        "Failure-Driven Evals",
+        "Judge-Human Agreement Loop"
+      ],
+      "summary": "Shiv Indap (Upstart, a lending fintech) and Brooke Hopkins (founder of Coval, formerly evaluation infrastructure at Waymo) show how to run voice agents in a regulated domain. Upstart's agent handles verification calls for the ~10% of applicants who aren't decisioned instantly. It verifies identity and asks three questions (will income continue, how will the funds be used, any outstanding obligations). Simple wording carries compliance traps: if the funds are for medical purposes, the agent must not ask the amount; \"graduation travel\" needs a follow-up about whose graduation; and status questions have to be politely deflected.\n\nEvery call was human-reviewed, at first in a Google Sheet that grew from 5 to 15 messy columns. They moved to a structured process. LLM-as-judge metrics run after each call (compliance met yes/no with an explanation, accuracy, clarity, completeness, policy alignment, correct escalation, CSAT), and humans review the judge's verdicts. Judge-human agreement on compliance started at 33% and rose to 92%. Three things moved it: writing down tribal knowledge in the agent, settling disagreements between human reviewers, and improving the judge itself. Don't get attached to your first metrics.\n\nCoval's loop: define metrics from the product definition (\"evals are the product definition\"), with three kinds (did it reach the goal, did it follow the steps, conversation quality). Start from what human reviewers label, not from proxy metrics like word error rate. Monitor every live call and detect known failures plus unknown unknowns (clustering, anomaly detection). Send flagged calls to review queues, so humans see only the calls that matter, and route each failure type to the right team (agent team, compliance, engineering). Then re-simulate fixes voice-to-voice (accents, noise, interruptions) before production (\"shift left\"). Self-healing fixes and RL can come later, but changes stay behind feature flags with human and compliance sign-off.",
+      "key_insights": [
+        "judge human agreement loop: track how often the LLM judge agrees with experts. Fix tribal knowledge, reviewer disagreement and the judge until agreement is high (33% → 92%).",
+        "In regulated domains a wrong question is a regulatory issue, not just a bad experience.",
+        "Base metrics on what humans actually label and act on.",
+        "Route each failure class to an owner, and prove fixes in simulation before shipping.",
+        "Self-improving loops still need human and compliance gates."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "failure-driven-evals",
+          "title": "Failure-Driven Evals"
+        },
+        {
+          "slug": "judge-human-agreement-loop",
+          "title": "Judge-Human Agreement Loop"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-01"
+    },
+    {
+      "slug": "ww3-warning-maritime-order-sarah-paine-diary-of-a-ceo",
+      "title": "WW3 Threat Expert: The Warning We Are Ignoring, The Only Way Out Is THIS! | Dr Sarah Paine",
+      "video_id": "3kuNW8hRc2U",
+      "platform": "youtube",
+      "url": "https://youtu.be/3kuNW8hRc2U",
+      "duration_min": 102,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-11-01",
+      "created": "2026-11-01",
+      "section": "other",
+      "tags": [
+        "geopolitics",
+        "strategy",
+        "history",
+        "war"
+      ],
+      "keywords": [
+        "geopolitics",
+        "strategy",
+        "history",
+        "war",
+        "the diary of a ceo",
+        "Maritime vs Continental Order",
+        "Negative vs Positive Objectives",
+        "Pivotal Error",
+        "Situation vs Problem"
+      ],
+      "summary": "Sarah Paine, a historian and retired US Naval War College professor, gives Steven Bartlett a set of strategy concepts for reading today's wars.\n\nmaritime vs continental order: continental empires treat land as the currency of power and burn wealth through conquest. The maritime, rules-based order compounds wealth through industry, trade and universal rules (\"your little piece of plastic works everywhere\"). It rests on norms, like traffic, because there are never enough police to enforce rules if everyone ignores them.\n\nnegative vs positive objectives: preventing something (deterrence, holding a child's hand on the street) can't be proven, so governments, which mostly prevent disasters, get little credit.\n\nShe calls the Iran war strategically incompetent. A good war puts the costs on the enemy, but this one hit the US economy and its alliances. The planning ignored the other side's strengths and the obvious closure of Hormuz, since narrow seas close in wartime.\n\nsituation vs problem: a situation can't be solved, only managed at affordable cost, the way the Cold War managed the Soviet Union with sanctions, growth inside the alliance and accurate information. Iran, with about 90 million people, can't be occupied. The lesson other states will draw is \"get a nuke\".\n\npivotal error: a choice after which your old options never come back, such as Putin's full invasion of Ukraine (which forged Ukrainian identity) or the loss of US alliance trust.\n\nShe also covers limited vs unlimited objectives (regime change, genocide), Europe's fast institution-building (the Nordic-Baltic group, spaceports, payment systems, boycotts), and middle powers organising. Her advice to the young: read, keep learning, talk across silos, be polite and vote.\n\nIt's opinionated and political. It's ingested because The Diary Of A CEO is an always-ingest channel.",
+      "key_insights": [
+        "maritime vs continental order: trade and rules compound wealth; conquest burns it.",
+        "negative vs positive objectives: you can't prove a disaster that was prevented, so prevention goes unrewarded.",
+        "situation vs problem: manage what you can't solve, at a cost you can afford.",
+        "pivotal error: some mistakes remove your better options for good.",
+        "Assess the other side's strengths and your own weaknesses, not just the reverse."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "maritime-vs-continental-order",
+          "title": "Maritime vs Continental Order"
+        },
+        {
+          "slug": "negative-vs-positive-objectives",
+          "title": "Negative vs Positive Objectives"
+        },
+        {
+          "slug": "pivotal-error",
+          "title": "Pivotal Error"
+        },
+        {
+          "slug": "situation-vs-problem",
+          "title": "Situation vs Problem"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-01"
     }
   ]
 }

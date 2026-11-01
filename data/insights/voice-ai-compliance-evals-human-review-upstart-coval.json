@@ -1,0 +1,65 @@
+{
+  "slug": "voice-ai-compliance-evals-human-review-upstart-coval",
+  "sections": [
+    {
+      "title": "Regulated voice agents",
+      "items": [
+        {
+          "e": "🏦",
+          "q": "Why is a wrong question worse in lending?",
+          "a": "It can be a **regulatory issue**, not just a bad customer experience."
+        },
+        {
+          "e": "🩺",
+          "q": "Give an example of a compliance trap.",
+          "a": "If funds are for **medical purposes**, the agent **must not ask the amount**."
+        }
+      ]
+    },
+    {
+      "title": "Judge and human",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "How are calls scored?",
+          "a": "An **LLM-as-judge** runs after each call, with a yes/no compliance verdict and an explanation."
+        },
+        {
+          "e": "📈",
+          "q": "How far did judge-human agreement move?",
+          "a": "From **33% to 92%**, by writing down **tribal knowledge**, settling reviewer disagreement and improving the judge."
+        },
+        {
+          "e": "🧹",
+          "q": "How attached should you be to your first metrics?",
+          "a": "**Not at all.** Drop metrics that don't matter and keep the ones that do."
+        }
+      ]
+    },
+    {
+      "title": "The improvement loop",
+      "items": [
+        {
+          "e": "🧾",
+          "q": "Where should eval metrics come from?",
+          "a": "From the **product definition** and what human reviewers actually label. \"Evals are the product definition.\""
+        },
+        {
+          "e": "🚦",
+          "q": "What happens to flagged failures?",
+          "a": "They go to **review queues** and are **routed to the owning team** (agent, compliance or engineering)."
+        },
+        {
+          "e": "🎧",
+          "q": "How are fixes proven?",
+          "a": "By **re-simulating voice-to-voice** (accents, noise, interruptions) before production."
+        },
+        {
+          "e": "🔒",
+          "q": "Does self-healing remove humans?",
+          "a": "No. Changes stay **behind feature flags** with **human and compliance sign-off**."
+        }
+      ]
+    }
+  ]
+}
