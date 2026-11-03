@@ -1,0 +1,90 @@
+{
+  "slug": "ten-training-methods-ranked-sondre-berg",
+  "sections": [
+    {
+      "title": "Top tier",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "Why do supersets rank so high?",
+          "a": "Pairing **non-competing exercises** saves a lot of time for **nearly the same results**."
+        },
+        {
+          "e": "🔁",
+          "q": "How do you know you rested enough between superset rounds?",
+          "a": "You can **match your performance** on the first exercise when you come back to it."
+        },
+        {
+          "e": "🗓️",
+          "q": "How long should a training block last?",
+          "a": "About **4-10 weeks** with one focus; a block **under 4 weeks** usually means bad programming or no patience."
+        },
+        {
+          "e": "🛌",
+          "q": "When should you deload?",
+          "a": "Only when **performance says so**, and it can be **3 days** instead of a fixed week."
+        }
+      ]
+    },
+    {
+      "title": "Frequency and grease the groove",
+      "items": [
+        {
+          "e": "📊",
+          "q": "What is high-frequency training?",
+          "a": "Spreading volume over **more sessions**, like 2-3 sets four times a week instead of 5 sets twice."
+        },
+        {
+          "e": "📉",
+          "q": "Why does spreading sets help strength?",
+          "a": "Fatigue isn't linear: **later sets cost far more**, so fresher sets mean **higher-quality work**."
+        },
+        {
+          "e": "⚡",
+          "q": "When does a power set stop building power?",
+          "a": "The moment you **lose speed** in the set."
+        },
+        {
+          "e": "🧩",
+          "q": "What is grease the groove?",
+          "a": "**Submaximal sets** of one movement **spread through the day**, far from failure."
+        },
+        {
+          "e": "🦴",
+          "q": "What did Keith Baar find about tendons?",
+          "a": "They respond to about **10 minutes** of loading, then not again for roughly **6 hours**."
+        },
+        {
+          "e": "⚠️",
+          "q": "What's the warning sign when greasing the groove?",
+          "a": "**Aches near where a muscle attaches to a joint**: back off right away."
+        }
+      ]
+    },
+    {
+      "title": "Lower tiers and splits",
+      "items": [
+        {
+          "e": "🔻",
+          "q": "When are drop sets useful?",
+          "a": "For **short sessions or maintaining** on holiday, not for heavy strength skills."
+        },
+        {
+          "e": "🔂",
+          "q": "What are cluster sets good for?",
+          "a": "Breaking through a **plateau** on technical lifts with **short ~30 s rests** inside a set."
+        },
+        {
+          "e": "🏃",
+          "q": "Why do circuits and HIIT rank low for strength?",
+          "a": "**Technique slips** with fatigue and **progressive overload** gets lost."
+        },
+        {
+          "e": "🧭",
+          "q": "Which split fits 3-4 training days a week?",
+          "a": "**Full body**; save push/pull splits for **5-7 days** a week."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "train-your-own-models-continual-learning-will-brown-prime-intellect",
+  "sections": [
+    {
+      "title": "Why agents keep relearning",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "Why do today's agents relearn the same things every session?",
+          "a": "They only learn **in context**, from skill files and the codebase, not **in their weights**."
+        },
+        {
+          "e": "🏢",
+          "q": "What knowledge do agents miss that employees pick up?",
+          "a": "**Latent institutional knowledge**: preferences, friction points, heuristics and the **real org chart**."
+        },
+        {
+          "e": "⚖️",
+          "q": "What belongs in context vs in the weights?",
+          "a": "Explicit **rules** go in context; repeated **patterns** have to **earn their way** into the weights."
+        }
+      ]
+    },
+    {
+      "title": "Model as codebase",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What is Will Brown's starting point for continual learning?",
+          "a": "**Evals as test cases**, built from the **traces** you collect in normal use."
+        },
+        {
+          "e": "🔀",
+          "q": "How do you get routing labels?",
+          "a": "Run the **big and small model** on the same task and judge if **the small one was as good**."
+        },
+        {
+          "e": "✅",
+          "q": "What is a decision model?",
+          "a": "A model that learns **how a human approves or rejects** actions in a given situation."
+        },
+        {
+          "e": "🧩",
+          "q": "Why should agents generate small approval widgets?",
+          "a": "They make decisions easy for humans and turn each answer into a **clean training label**."
+        }
+      ]
+    },
+    {
+      "title": "The loop",
+      "items": [
+        {
+          "e": "🌙",
+          "q": "What does Brown's nightly loop look like?",
+          "a": "Review proposed experiments and flagged issues, then **train overnight** on **idle inference capacity**."
+        },
+        {
+          "e": "🪜",
+          "q": "What's the ladder toward self-improving organizations?",
+          "a": "**Workflow, skills, evals, routing**, then **training**."
+        },
+        {
+          "e": "💰",
+          "q": "What did a partner pay to train its own knowledge-work model?",
+          "a": "About **$300K**, roughly the cost of **one hire**."
+        }
+      ]
+    }
+  ]
+}

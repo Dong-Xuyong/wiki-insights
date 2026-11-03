@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 443,
-  "insightsCount": 430,
-  "conceptCount": 3228,
+  "videoCount": 448,
+  "insightsCount": 435,
+  "conceptCount": 3242,
   "sections": [
     {
       "id": "architecture",
@@ -54,11 +54,11 @@
     "architecture": 3,
     "agents": 99,
     "systems": 27,
-    "build": 57,
-    "human": 21,
-    "performance": 59,
+    "build": 59,
+    "human": 22,
+    "performance": 60,
     "mind": 42,
-    "relationships": 68,
+    "relationships": 69,
     "other": 67
   },
   "videos": [
@@ -36919,6 +36919,281 @@
       ],
       "conceptCount": 4,
       "added": "2026-11-01"
+    },
+    {
+      "slug": "access-the-sublime-robert-greene-huberman",
+      "title": "Access the Sublime & Live Your Best Life | Robert Greene",
+      "video_id": "y-fRFiTrrg4",
+      "platform": "youtube",
+      "url": "https://youtu.be/y-fRFiTrrg4",
+      "duration_min": 139,
+      "creator": "andrew-huberman",
+      "updated": "2026-11-03",
+      "created": "2026-11-03",
+      "section": "human",
+      "tags": [
+        "psychology",
+        "attention",
+        "awe",
+        "purpose",
+        "mental-fitness"
+      ],
+      "keywords": [
+        "psychology",
+        "attention",
+        "awe",
+        "purpose",
+        "mental-fitness",
+        "mental fitness",
+        "andrew huberman",
+        "Life Task Childhood Seed",
+        "Real vs False Sublime",
+        "Self-Remembering Attention"
+      ],
+      "summary": "Andrew Huberman talks with Robert Greene about his book *The Law of the Sublime*, which is about how you *experience* daily life rather than success or power. Greene pictures consciousness as a circle of familiar thoughts and routines that is wide in childhood and shrinks into sameness with age; the sublime (Latin *sub limen*, \"up to the threshold\") is a doorway out of that circle, a mix of pain (unfamiliar, outside comfort) and pleasure (novelty). He originally planned psychedelics and expeditions, but after his stroke the hospital window and his own backyard looked newly strange, which convinced him the sublime is available in everyday life.\n\nTools and doorways discussed: Gurdjieff's self-remembering (focus deeply on an ordinary object or moment while telling yourself you will remember it; Ouspensky practiced on a vase of flowers until the street itself looked alive); time (near-death accounts like Albert Heim's fall show subjective time is plastic; constant phone fragments break the slow rhythm of thought children have); awe from scale shifts (Huberman cites Dacher Keltner: moving quickly between small and big spatial scales); music (follow each note and enter the composer's mind); experience before reporting (filming for others collides with experiencing, echoing Rick Rubin's advice to forget how work will be perceived); love (cynicism and social pressure are a \"demon\" against letting another person transform you); and the senses (the Dersu Uzala story: sensory attention is a form of intelligence that city sameness atrophies but can be reawakened in deserts, mountains, oceans or a backyard). Greene also repeats his life's-task advice: listen to frustration as a signal you're on the wrong path, and journal back to childhood sparks free of others' voices.",
+      "key_insights": [
+        "self remembering attention: deep, deliberate attention to the ordinary is a daily doorway to the sublime.",
+        "Real vs False Sublime: the real sublime is available in daily life, not only through drugs or travel.",
+        "Experience first, report later: documenting while experiencing dulls the experience.",
+        "Fragmented attention speeds up subjective time; slower rhythms widen it.",
+        "Frustration is data about a wrong path toward your Life Task Childhood Seed."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "life-task-childhood-seed",
+          "title": "Life Task Childhood Seed",
+          "e": "🌱"
+        },
+        {
+          "slug": "real-vs-false-sublime",
+          "title": "Real vs False Sublime",
+          "e": "✨"
+        },
+        {
+          "slug": "self-remembering-attention",
+          "title": "Self-Remembering Attention"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-03"
+    },
+    {
+      "slug": "crony-capitalism-fix-incentives-james-talarico-doac",
+      "title": "James Talarico: Here Is How They Designed The System To Keep You Poor!",
+      "video_id": "FpIN6tYC5XM",
+      "platform": "youtube",
+      "url": "https://youtu.be/FpIN6tYC5XM",
+      "duration_min": 97,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-11-03",
+      "created": "2026-11-03",
+      "section": "build",
+      "tags": [
+        "politics",
+        "economics",
+        "inequality",
+        "incentives",
+        "news"
+      ],
+      "keywords": [
+        "politics",
+        "economics",
+        "inequality",
+        "incentives",
+        "news",
+        "the diary of a ceo",
+        "Fix Incentives, Not People",
+        "Investment Advisor Incentive Mismatch"
+      ],
+      "summary": "Steven Bartlett interviews James Talarico, a Texas state representative and former teacher running for the US Senate. He tells his story (raised by a single mother who left an abusive partner, adopted by his stepfather, inspired by history teachers, studying at seminary) and frames his politics as faith-driven: \"loving my neighbor through public policy.\" He pledges to serve only two terms, arguing that long tenure merges office and identity so politicians drift toward self-preservation and corruption.\n\nHis core argument: the US has crony capitalism, not capitalism, with gains flowing to those who can buy access (no campaign contribution limits in Texas, a $12M donation tied to a school-voucher push, Wall Street bailouts vs \"rugged individualism for the poor\"). Politicians are mostly rational actors, so replacing one leader without changing incentives (big money after Citizens United, gerrymandering, the two-party system, media that rewards extremism) just produces the same result. Policy proposals include raising the minimum wage, overtime pay, rebuilding unions, tackling household and national debt, and an AI dividend so workers share gains from automation (he estimates about 400,000 Texans drive for a living). Much of the episode is US partisan opinion on 2026 events (Trump, Iran, Texas politics) and goes stale fast.",
+      "key_insights": [
+        "fix incentives not people: swapping the person without fixing incentives reproduces the same behavior.",
+        "Long tenure fuses role and identity, which pushes people toward protecting position over serving.",
+        "Crony capitalism: gains go to those who can buy access rather than to work.",
+        "AI-driven job disruption raises the question of who shares the gains (AI dividend)."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "fix-incentives-not-people",
+          "title": "Fix Incentives, Not People"
+        },
+        {
+          "slug": "investment-advisor-incentive-mismatch",
+          "title": "Investment Advisor Incentive Mismatch",
+          "e": "🏦"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-03"
+    },
+    {
+      "slug": "homebuyer-demand-collapse-lowball-offers-graham-stephan",
+      "title": "It Started: Homebuyer Demand Just Collapsed - Buyers Getting 20-40% Discounts!",
+      "video_id": "Iam0GgMsAi4",
+      "platform": "youtube",
+      "url": "https://youtu.be/Iam0GgMsAi4",
+      "duration_min": 18,
+      "creator": "graham-stephan",
+      "updated": "2026-11-03",
+      "created": "2026-11-03",
+      "section": "build",
+      "tags": [
+        "money",
+        "real-estate",
+        "housing",
+        "news"
+      ],
+      "keywords": [
+        "money",
+        "real-estate",
+        "housing",
+        "news",
+        "real estate",
+        "graham stephan",
+        "Index Concentration Risk",
+        "Lowball Offers in a Buyer's Market"
+      ],
+      "summary": "Graham Stephan argues late 2026 may be a decent time to *shop* for a house even though the national numbers look terrible: the median US home sold for about $417,000 in September (39th straight month of year-over-year gains), 30-year mortgage rates hit about 7.5%, and the typical monthly payment is up 8.8% year over year. Under the surface the market is split. Prices are flat or falling in places that overbuilt or ran ahead of local incomes, or where ownership costs jumped (Austin, Seattle, San Jose, Orlando, Florida with homeowners insurance tripled since 2019), while the Northeast and Midwest stay tight with little new construction.\n\nRedfin data show 63% more sellers than buyers, the widest gap since 2013; 41 of the 50 biggest metros are buyer's markets, a record 22% of listings had a price cut, homes sit about 49 days, and December closings carry the smallest premium. Stephan compares the mood to 2011, when he wrote dozens of lowball offers, got three accepted, and saw them roughly quadruple. His playbook: real estate is local; if you were going to buy anyway and have 20% down and are qualified, write aggressive offers with a margin of safety baked in (ask sellers for closing costs, repairs or a rate buy-down), and refinance if rates fall. Renting is still cheaper on paper, and he doesn't expect big appreciation. US-specific and dated market commentary; includes a sponsor read (Upside).",
+      "key_insights": [
+        "lowball offers buyers market: when sellers outnumber buyers, write aggressive offers that bake in a margin of safety.",
+        "National housing averages hide local markets moving in opposite directions.",
+        "Overbuilding, prices outrunning local incomes, and rising ownership costs drive local declines.",
+        "Buy because you'd buy anyway, not to get rich; renting can still be cheaper."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "index-concentration-risk",
+          "title": "Index Concentration Risk",
+          "e": "⚖️"
+        },
+        {
+          "slug": "lowball-offers-buyers-market",
+          "title": "Lowball Offers in a Buyer's Market"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-03"
+    },
+    {
+      "slug": "ten-training-methods-ranked-sondre-berg",
+      "title": "10 Training Methods Ranked From Useless to MUST USE",
+      "video_id": "Mlu1980NqXA",
+      "platform": "youtube",
+      "url": "https://youtu.be/Mlu1980NqXA",
+      "duration_min": 53,
+      "creator": "sondre-berg",
+      "updated": "2026-11-03",
+      "created": "2026-11-03",
+      "section": "performance",
+      "tags": [
+        "training",
+        "calisthenics",
+        "strength",
+        "programming"
+      ],
+      "keywords": [
+        "training",
+        "calisthenics",
+        "strength",
+        "programming",
+        "sondre berg",
+        "Cluster Sets & Training Efficiency",
+        "Grease the Groove and Tendon Dosing",
+        "High-Frequency Distributed Volume",
+        "Training Deload Six-Two Cycle"
+      ],
+      "summary": "Calisthenics coach Sondre Berg and his co-host rank ten popular training methods on a tier list, judged by what each is *for* rather than hype. Supersets land at the top (S): pairing non-competing exercises (push + pull, or upper + legs) saves a lot of time for nearly the same result; rest 1-3 min after the pair, and you have rested enough if you can match your performance on exercise A. Block periodization is also S/A: run 4-10 week blocks with one focus (hypertrophy, then strength, then a taper), auto-regulate block length by performance, and deload only when performance says so (a deload can be 3 days, not a fixed week). Program-hopping after 1-2 weeks is the trap; a block under ~4 weeks usually means the programming or the patience was wrong.\n\nHigh-frequency training (distributed volume) gets an A: instead of 5 sets twice a week, do 2-3 sets four times a week. Fatigue isn't linear (sets 3-5 cost far more than sets 1-2), so spreading volume lets you do more quality work at high intensity. It's weaker for pure hypertrophy in already-muscular lifters but best for strength, skills and power (a power set stops counting once bar or body speed drops). Grease the groove (B) is Pavel's method of doing submaximal sets of one movement through the day (e.g. 6 push-ups if your max is 10). Berg links it to Keith Baar's tendon research: tendons respond to about 10 minutes of loading, then stop responding until roughly 6 hours later, so 2-3 short micro-sessions a day spaced 6 h apart may strengthen tendon-heavy skills such as the planche. It's easy to overdo: test a near-max set now and then to confirm recovery, and treat aches near where muscle attaches to a joint as a stop sign.\n\nLower tiers (C): drop sets (lots of fatigue fast; useful for short sessions or maintenance on holiday, poor for heavy skills), cluster sets / rest-pause (split a set with ~30 s rests to add volume or force one more rep through a plateau; niche, good for technical lifts like handstand push-ups and powerlifting singles), circuit training and HIIT (good for health and conditioning, weak for strength or muscle because technique and progressive overload slip), and EMOM (fun, measurable strength-endurance tool, poor for moving up progressions). On splits: choose by days available. Training 5-7 days a week suits a push/pull split; 3-4 days a week is better as full body, and a three-day push/pull/legs leaves each muscle trained once a week. Skill work goes first, when you're freshest.",
+      "key_insights": [
+        "Pick a method for its purpose (time, strength, skill, hypertrophy, health), not because it's popular.",
+        "high frequency distributed volume: spread the same weekly volume over more sessions to cut per-session fatigue.",
+        "grease the groove tendon dosing: short submaximal micro-sessions, about 10 min each and 6 h apart, for skills and tendons.",
+        "Supersets of non-competing exercises are the best time saver; rest until exercise A performance is back.",
+        "Periodize in 4-10 week blocks and deload only when performance drops.",
+        "Match the split to your days: 3-4 days full body, 5-7 days push/pull."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cluster-sets-training-efficiency",
+          "title": "Cluster Sets & Training Efficiency",
+          "e": "🏋️"
+        },
+        {
+          "slug": "grease-the-groove-tendon-dosing",
+          "title": "Grease the Groove and Tendon Dosing"
+        },
+        {
+          "slug": "high-frequency-distributed-volume",
+          "title": "High-Frequency Distributed Volume"
+        },
+        {
+          "slug": "training-deload-six-two-cycle",
+          "title": "Training Deload Six-Two Cycle",
+          "e": "📉"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-03"
+    },
+    {
+      "slug": "train-your-own-models-continual-learning-will-brown-prime-intellect",
+      "title": "Your Company Should Train Its Own AI Models - Will Brown, Prime Intellect",
+      "video_id": "5SRjPT2Eo7A",
+      "platform": "youtube",
+      "url": "https://youtu.be/5SRjPT2Eo7A",
+      "duration_min": 21,
+      "creator": "ai-engineer",
+      "updated": "2026-11-03",
+      "created": "2026-11-03",
+      "section": "relationships",
+      "tags": [
+        "genai",
+        "continual-learning",
+        "training",
+        "evals",
+        "agents"
+      ],
+      "keywords": [
+        "genai",
+        "continual-learning",
+        "training",
+        "evals",
+        "agents",
+        "continual learning",
+        "ai engineer",
+        "Failure-Driven Evals",
+        "Model as Codebase (Continual Learning)",
+        "RLVR vs RLHF scaling"
+      ],
+      "summary": "Will Brown, who leads applied research at Prime Intellect, argues the next stage after agents is the AI-native organization, where models learn on the job like human coworkers. Today agents learn only in context (skill files, AGENTS.md, browsing the codebase), so they relearn the same things every session, burn input tokens, and never absorb the latent institutional knowledge (preferences, friction points, heuristics, the real org chart) that employees pick up. He frames a spectrum from rules (code-like, fit for context and skills) to patterns (data-like, fit for weights): things must *earn* their way into the weights.\n\nFrontier labs already do this, but through a long game of telephone (expert networks, RL-environment vendors, lab researchers). His alternative is to treat a model like a codebase with a lifecycle: collect traces (prompts plus your feedback) from normal use, turn them into evals as test cases, then train. Practical first steps are tasks with clear labels: routing (run big and small models on the same task and judge whether the small one was as good) and decision models that learn how a human approves or rejects actions. He also suggests agents generate decision widgets (small dynamic UIs for approvals) so human input becomes clean training labels. The end state is a nightly loop: review proposed experiments and flagged issues, then use idle night-time inference capacity to train. He cites a partner that trained a knowledge-work model for about $300K, roughly the cost of one hire. The talk is partly a Prime Intellect pitch, but the ladder (workflows, skills, evals, routing, then training) is a useful map.",
+      "key_insights": [
+        "model as codebase continual learning: give models a lifecycle of traces, evals as test cases, then training.",
+        "Agents that only learn in context relearn everything each session; patterns belong in weights, rules in context.",
+        "Start with clearly labeled decisions: routing big vs small models, approve/reject decision models.",
+        "Human approvals through simple UIs double as training data.",
+        "Ladder: discover workflow, write skills, make evals, route, then train."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "failure-driven-evals",
+          "title": "Failure-Driven Evals"
+        },
+        {
+          "slug": "model-as-codebase-continual-learning",
+          "title": "Model as Codebase (Continual Learning)"
+        },
+        {
+          "slug": "rlvr-vs-rlhf-scaling",
+          "title": "RLVR vs RLHF scaling",
+          "e": "🧮"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-03"
     }
   ]
 }
