@@ -1,0 +1,65 @@
+{
+  "slug": "graph-engineering-predictable-agents-zachary-blumenfeld-neo4j",
+  "sections": [
+    {
+      "title": "What graph engineering is",
+      "items": [
+        {
+          "e": "🕸️",
+          "q": "What is graph engineering?",
+          "a": "Designing agent work as an **explicit graph**: **nodes do work, edges route state**."
+        },
+        {
+          "e": "🗂️",
+          "q": "What are the three kinds of graphs Blumenfeld names?",
+          "a": "**Execution graphs**, **context graphs** and **procedural graphs**."
+        },
+        {
+          "e": "🧾",
+          "q": "What is a context graph?",
+          "a": "Memory plus **decision traces** of past runs, **linked to your data**."
+        }
+      ]
+    },
+    {
+      "title": "Compile the skill",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "What happens when you compile a SKILL.md into a graph?",
+          "a": "The agent follows explicit steps, so **task reward rises** and **smaller models** can do it."
+        },
+        {
+          "e": "🔀",
+          "q": "What was wrong with the free-reasoning loan agent?",
+          "a": "It took **different paths each run** and its confidence scores **weren't calibrated**."
+        },
+        {
+          "e": "🧱",
+          "q": "What's inside a graph-shaped skill?",
+          "a": "**Hard-rule scripts**, a **typed decision model**, a **human-escalation router** and a report lint loop."
+        }
+      ]
+    },
+    {
+      "title": "Payoff",
+      "items": [
+        {
+          "e": "⏱️",
+          "q": "How much faster did the compiled loan skill run?",
+          "a": "From about **7.5 minutes to 2**, with a **cheap model** instead of a frontier one."
+        },
+        {
+          "e": "🔎",
+          "q": "Why persist every run in the graph?",
+          "a": "For **audit**, **drift tracking** and seeing **which branches never fire**."
+        },
+        {
+          "e": "📦",
+          "q": "Why store graphs next to the data?",
+          "a": "They become **portable** across runtimes and harnesses."
+        }
+      ]
+    }
+  ]
+}

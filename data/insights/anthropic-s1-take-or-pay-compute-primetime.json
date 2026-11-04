@@ -1,0 +1,65 @@
+{
+  "slug": "anthropic-s1-take-or-pay-compute-primetime",
+  "sections": [
+    {
+      "title": "The S1",
+      "items": [
+        {
+          "e": "📄",
+          "q": "What is an S1?",
+          "a": "The filing a company must make with regulators **before selling shares publicly**."
+        },
+        {
+          "e": "📈",
+          "q": "What stands out in Anthropic's S1, per Prime?",
+          "a": "Huge **revenue growth** next to **enormous projected losses**."
+        },
+        {
+          "e": "🏁",
+          "q": "What's Anthropic's main risk in Prime's view?",
+          "a": "**Not shipping the best model**, since **nobody is married to a model**."
+        }
+      ]
+    },
+    {
+      "title": "Follow the money",
+      "items": [
+        {
+          "e": "🤝",
+          "q": "What is a take-or-pay contract?",
+          "a": "You pay for committed capacity **whether you use it or not**."
+        },
+        {
+          "e": "🔁",
+          "q": "Why is lab-investor cloud spending called circular?",
+          "a": "Investor money comes back as the **investor's cloud revenue**, while the lab carries **fixed obligations**."
+        },
+        {
+          "e": "⚠️",
+          "q": "What happens if revenue can't cover the commitments?",
+          "a": "The gap becomes **debt fast**."
+        }
+      ]
+    },
+    {
+      "title": "Market lens",
+      "items": [
+        {
+          "e": "🗳️",
+          "q": "Why use dual-class shares?",
+          "a": "They keep **founder voting control** after going public."
+        },
+        {
+          "e": "💰",
+          "q": "Why do stocks rise while the economy feels weak?",
+          "a": "Ownership and spending are concentrated in the **top 10% of earners**, so **demand outpaces supply**."
+        },
+        {
+          "e": "🔄",
+          "q": "What does the guest expect instead of a crash?",
+          "a": "**Sector rotations**, with weak companies punished."
+        }
+      ]
+    }
+  ]
+}

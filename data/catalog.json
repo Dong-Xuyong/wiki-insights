@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 448,
-  "insightsCount": 435,
-  "conceptCount": 3242,
+  "videoCount": 452,
+  "insightsCount": 439,
+  "conceptCount": 3253,
   "sections": [
     {
       "id": "architecture",
@@ -51,10 +51,10 @@
     }
   ],
   "sectionCounts": {
-    "architecture": 3,
-    "agents": 99,
+    "architecture": 4,
+    "agents": 101,
     "systems": 27,
-    "build": 59,
+    "build": 60,
     "human": 22,
     "performance": 60,
     "mind": 42,
@@ -37194,6 +37194,221 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-03"
+    },
+    {
+      "slug": "anthropic-s1-take-or-pay-compute-primetime",
+      "title": "Anthropic’s business is insane",
+      "video_id": "S79u6BtYvQ0",
+      "platform": "youtube",
+      "url": "https://youtu.be/S79u6BtYvQ0",
+      "duration_min": 46,
+      "creator": "the-primetime",
+      "updated": "2026-11-04",
+      "created": "2026-11-04",
+      "section": "build",
+      "tags": [
+        "money",
+        "investing",
+        "ai-industry",
+        "ipo"
+      ],
+      "keywords": [
+        "money",
+        "investing",
+        "ai-industry",
+        "ipo",
+        "ai industry",
+        "the primetime",
+        "AI Investment Bubble",
+        "Circular GPU Financing",
+        "Take-or-Pay Compute Contracts"
+      ],
+      "summary": "ThePrimeagen reacts to Anthropic's S1 filing for an IPO and then plays a largely uncut interview with a stock-market friend (\"the stock guy\"). Prime's own take: an S1 is the filing a company must make to sell shares publicly; Anthropic shows huge revenue growth alongside enormous projected losses, and its main risk is simply not shipping the best model, because \"nobody in AI is married to a model\" and users jump to whatever is cheaper at the same intelligence. He calls AI obviously a bubble in pricing but doubts it pops if revenue keeps multiplying.\n\nThe interview explains the money flows. Big cloud investors (Google, Amazon) put money in, and Anthropic commits to take-or-pay compute contracts: guaranteed spending whether it uses the capacity or not, so the investor books Anthropic's payments as revenue. That is the circular financing worry: revenue partly depends on partners funding the spend, and if revenue doesn't keep up, those fixed obligations become debt fast. He also covers dual-class shares that keep founder voting control, how fair value has become \"vibes\" in today's market, and why the stock market keeps rising while the economy feels weak: ownership and spending are concentrated in the top 10% of earners, so demand for stocks keeps outpacing supply. Expect sector rotations rather than a broad crash, in his view. Entertaining and opinionated rather than rigorous, and some figures are spoken loosely.",
+      "key_insights": [
+        "take or pay compute contracts: AI labs commit to guaranteed cloud spend with their investors, which props up revenue but locks in fixed costs.",
+        "A frontier lab's moat is only as good as its current model; switching costs are near zero.",
+        "Dual-class shares keep founder control even after an IPO.",
+        "Market concentration in top earners explains rising stocks during a weak economy."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-investment-bubble",
+          "title": "AI Investment Bubble",
+          "e": "🫧"
+        },
+        {
+          "slug": "circular-gpu-financing",
+          "title": "Circular GPU Financing",
+          "e": "🔄"
+        },
+        {
+          "slug": "take-or-pay-compute-contracts",
+          "title": "Take-or-Pay Compute Contracts"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "better-search-agent-accuracy-aamir-shakir-mixedbread",
+      "title": "Better Search Took This AI Agent From 36% to 98% Accuracy - Aamir Shakir, Mixedbread",
+      "video_id": "3Ad73Onx3Aw",
+      "platform": "youtube",
+      "url": "https://youtu.be/3Ad73Onx3Aw",
+      "duration_min": 17,
+      "creator": "ai-engineer",
+      "updated": "2026-11-04",
+      "created": "2026-11-04",
+      "section": "architecture",
+      "tags": [
+        "genai",
+        "rag",
+        "retrieval",
+        "search",
+        "agents"
+      ],
+      "keywords": [
+        "genai",
+        "rag",
+        "retrieval",
+        "search",
+        "agents",
+        "ai engineer",
+        "Dual-Reader Search Design",
+        "Late-Interaction Multi-Vector Retrieval",
+        "Search Wide, Re-rank Trusted"
+      ],
+      "summary": "Aamir Shakir, co-founder of Mixedbread (a retrieval research lab turned search product), argues that for agents the bottleneck is access to data, not intelligence. When coding agents search a local corpus with grep, lexical hits pile up with no relevance ranking, so the model ends up reading every document and a basic question can cost $10-20 in tokens; scanned or binary PDFs aren't greppable at all. Classic RAG, which he calls the Frankenstein stack (OCR or transcription, then chunking, then a single-vector embedding, a vector database and a reranker, each from a different vendor), is lossy at every step: badly parsed tables and figures lose information, chunk boundaries add noise, and squeezing a page into one vector makes near-identical documents (Nvidia's 1996 vs 2026 filings) look the same. Quality is fine on hundreds of documents and degrades at production scale, so agents compensate by querying aggressively and spawning subagents, which blows up cost.\n\nHis fix is a late-interaction, multi-vector model: many contextualized embeddings per document and per query, so fine-grained facts (net income, segment revenue) stay separable while each embedding still \"knows\" which company and year it belongs to. Pages are embedded visually from a screenshot, keeping charts and layout, with OCR and bounding boxes still returned for citations. Agents get three tools and pick by query complexity: grep, normal search, or an agentic multi-hop search model. In a hedge-fund case with over 1 billion documents, answer accuracy graded by experts went from 36% to 98%, and LLM spend fell about 3x because fewer tokens went into finding and reading. It's a vendor talk, but the diagnosis of single-vector RAG is broadly useful.",
+      "key_insights": [
+        "late interaction multivector retrieval: many contextual embeddings per page beat one vector per chunk for look-alike documents.",
+        "Every stage of a parse-chunk-embed pipeline loses information; errors compound.",
+        "Grep-only agent search has no relevance, so agents read everything and costs explode with corpus size.",
+        "Visual page embeddings keep tables and figures that OCR destroys.",
+        "Better retrieval also cuts LLM cost, since most tokens go to finding and reading."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "dual-reader-search-design",
+          "title": "Dual-Reader Search Design"
+        },
+        {
+          "slug": "late-interaction-multivector-retrieval",
+          "title": "Late-Interaction Multi-Vector Retrieval"
+        },
+        {
+          "slug": "search-wide-rerank-trusted",
+          "title": "Search Wide, Re-rank Trusted",
+          "e": "🔍"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "graph-engineering-predictable-agents-zachary-blumenfeld-neo4j",
+      "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j",
+      "video_id": "g_NgCLTibiM",
+      "platform": "youtube",
+      "url": "https://youtu.be/g_NgCLTibiM",
+      "duration_min": 21,
+      "creator": "ai-engineer",
+      "updated": "2026-11-04",
+      "created": "2026-11-04",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "agents",
+        "graphs",
+        "skills",
+        "governance"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "graphs",
+        "skills",
+        "governance",
+        "ai engineer",
+        "Deterministic Invocation Broker",
+        "Harness Engineering",
+        "Procedural Graph Skills (Graph Engineering)"
+      ],
+      "summary": "Zachary Blumenfeld of Neo4j defines graph engineering as designing agent work as an explicit graph: nodes do work and edges route state. The idea isn't new (state machines, workflow graphs, knowledge graphs), but it matters now as the next step after prompt and context engineering. He names three kinds: execution graphs (LangGraph/ADK-style routers and agents inside a harness), context graphs (memory plus decision traces: conversation history, extracted entities, and the reasoning steps of past runs, linked to your data), and procedural graphs (a skill or procedure compiled into steps: scripts, decision-model calls, validation, escalation). Graphs give predictability, governance and audit, and, when stored in a knowledge layer next to the data, portability across runtimes.\n\nNeo4j research compiled SKILL.md files (prose plus scripts and references) into graph structures and forced agents to run them, which raised task reward and let smaller models do the job. In a loan-approval demo, an agent first reasoned freely over a context graph (business plan PDF, past transactions, policies, past decisions) but took different paths each run with uncalibrated confidence. Distilling the successful traces into a graph-shaped skill (YAML with hard-rule scripts, a typed decision model for risk tier, a human-escalation router, and a report lint loop) behind a small CLI cut wall-clock time from about 7.5 to 2 minutes and let a cheap model replace a frontier one. Each run is persisted in the graph with steps and branches, so you can see which branches were never taken, track drift, and audit provenance.",
+      "key_insights": [
+        "procedural graph skills: compile proven agent runs or a skill into an explicit graph so routing is code, not model choice.",
+        "Context graphs store decision traces next to data, giving provenance and precedent lookup.",
+        "Moving routing into scripts and typed decision models lets smaller models run the task faster and cheaper.",
+        "Persisting runs in the graph enables branch coverage, drift tracking and audit."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "deterministic-invocation-broker",
+          "title": "Deterministic Invocation Broker"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        },
+        {
+          "slug": "procedural-graph-skills",
+          "title": "Procedural Graph Skills (Graph Engineering)"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-04"
+    },
+    {
+      "slug": "worst-week-cybersecurity-ai-exploits-fireship",
+      "title": "The worst week in cybersecurity history... so far",
+      "video_id": "k2ruCf_z75I",
+      "platform": "youtube",
+      "url": "https://youtu.be/k2ruCf_z75I",
+      "duration_min": 6,
+      "creator": "fireship",
+      "updated": "2026-11-04",
+      "created": "2026-11-04",
+      "section": "agents",
+      "tags": [
+        "security",
+        "supply-chain",
+        "ai",
+        "news"
+      ],
+      "keywords": [
+        "security",
+        "supply-chain",
+        "ai",
+        "news",
+        "supply chain",
+        "fireship",
+        "Agent Security & Permissions",
+        "AI-Accelerated Exploitation"
+      ],
+      "summary": "Fireship's Code Report (3 Nov 2026) rounds up a brutal week in security. A malicious official-looking Claude Code extension shipped in a popular code editor for about 11 hours; it scanned machines for keys and tokens and planted a backdoor, reaching around 5,000 installs, though it needed admin rights, which limited the damage. Polymarket users were drained because a third-party performance-monitoring script (DebugBear) loaded on the site was hijacked to sell positions and wire funds out, over $2M. Binance lost about $6.3B across 10 chains in 20 minutes after a devops laptop was compromised, letting attackers submit withdrawals the exchange's own systems signed; the FBI attributed it to a North Korean group, and stablecoin issuers froze about $3B within an hour.\n\nThe deepest story: a Linux kernel TCP race condition, present since 2016, where sending the same handshake twice at the right moment causes a use-after-free. Red Hat first rated it moderate because the timing seemed nearly impossible, but Anthropic's red team gave the bug to an unreleased Claude model, which hit the timing in about 48 minutes, leaked a kernel address, and got root five minutes later. The lesson Fireship draws: \"one in a million\" exploits are no longer safe when AI can retry tirelessly, so patch speed matters (Debian and Oracle patched in a day; Red Hat took two weeks; Ubuntu was still unpatched). Ends with a CodeRabbit sponsor segment. Dated news, but the patterns (extension and third-party script supply chains, single-laptop blast radius, AI-driven exploitation) are durable.",
+      "key_insights": [
+        "ai accelerated exploitation: AI makes hard-to-time exploits practical, so rare-race bugs need fast patching.",
+        "Third-party scripts and editor extensions are supply-chain attack surfaces with your credentials.",
+        "One compromised operator laptop can sign billions in withdrawals if internal systems trust it.",
+        "Least privilege (no admin rights for tools) limits blast radius."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "ai-accelerated-exploitation",
+          "title": "AI-Accelerated Exploitation"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-04"
     }
   ]
 }

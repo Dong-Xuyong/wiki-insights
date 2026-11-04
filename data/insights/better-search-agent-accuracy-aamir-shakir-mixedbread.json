@@ -1,0 +1,65 @@
+{
+  "slug": "better-search-agent-accuracy-aamir-shakir-mixedbread",
+  "sections": [
+    {
+      "title": "Why agent search fails",
+      "items": [
+        {
+          "e": "🔍",
+          "q": "What goes wrong when an agent searches a big corpus with grep?",
+          "a": "Lexical hits have **no relevance**, so the model **reads every document** and token costs climb."
+        },
+        {
+          "e": "🧟",
+          "q": "What is the Frankenstein RAG stack?",
+          "a": "OCR, chunking, one embedding, a vector DB and a reranker, each a vendor and **each step lossy**."
+        },
+        {
+          "e": "📉",
+          "q": "Why does classic RAG degrade in production?",
+          "a": "One vector per chunk makes **look-alike documents** collapse together, so accuracy **drops as the corpus grows**."
+        }
+      ]
+    },
+    {
+      "title": "Late interaction",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What does a late-interaction model do differently?",
+          "a": "It keeps **many contextual embeddings** per page and per query instead of **a single vector**."
+        },
+        {
+          "e": "🖼️",
+          "q": "Why embed the page screenshot?",
+          "a": "Charts, tables and layout survive; **OCR loses them**, though it's still kept for **citations**."
+        },
+        {
+          "e": "🧰",
+          "q": "Which search tools should an agent choose between?",
+          "a": "**Grep, normal search, or agentic multi-hop search**, picked by query complexity."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "What happened at the hedge fund with 1B+ documents?",
+          "a": "Expert-graded accuracy went from **36% to 98%**."
+        },
+        {
+          "e": "💸",
+          "q": "Why did LLM spend fall about 3x?",
+          "a": "Most tokens go to **finding and reading**; better retrieval means **less context**."
+        },
+        {
+          "e": "🧠",
+          "q": "What's the real bottleneck for agents, per Shakir?",
+          "a": "**Access to the right data**, not intelligence."
+        }
+      ]
+    }
+  ]
+}
