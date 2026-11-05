@@ -1,0 +1,65 @@
+{
+  "slug": "approve-the-app-not-the-model-doneyli-de-jesus-langfuse",
+  "sections": [
+    {
+      "title": "Certify the app",
+      "items": [
+        {
+          "e": "🏦",
+          "q": "What did the bank say it certifies?",
+          "a": "**Applications, not models**: a model's benchmark score doesn't prove an app is ready."
+        },
+        {
+          "e": "📊",
+          "q": "Why don't public benchmarks settle it?",
+          "a": "They test **open data**, not **your data and use case**."
+        },
+        {
+          "e": "🔒",
+          "q": "What three deployment requirements do banks have?",
+          "a": "**On-premises**, **gated** from the internet, and **air-gapped**."
+        }
+      ]
+    },
+    {
+      "title": "Building the gate",
+      "items": [
+        {
+          "e": "🥇",
+          "q": "What anchors the eval process?",
+          "a": "A **golden dataset** of inputs, expected outputs and metadata, treated like **QA test cases**."
+        },
+        {
+          "e": "🧾",
+          "q": "What do runs against the golden set produce?",
+          "a": "**Traces** that serve as **evidence** for each score."
+        },
+        {
+          "e": "⚖️",
+          "q": "How should each dimension be scored?",
+          "a": "A blend of **deterministic scorers**, **path checks** and **LLM judges**, not judges alone."
+        }
+      ]
+    },
+    {
+      "title": "Thresholds and fixes",
+      "items": [
+        {
+          "e": "🧮",
+          "q": "How did numeric accuracy go from 60% to about 95%?",
+          "a": "By giving the agent a **deterministic calculate tool** instead of doing math itself."
+        },
+        {
+          "e": "🚫",
+          "q": "Why can an app with a great average still fail?",
+          "a": "**Regulatory compliance is binary**; a zero there **shuts the gate**."
+        },
+        {
+          "e": "🎚️",
+          "q": "Who should set the pass thresholds?",
+          "a": "**Domain and risk experts**, per use case and per dimension."
+        }
+      ]
+    }
+  ]
+}

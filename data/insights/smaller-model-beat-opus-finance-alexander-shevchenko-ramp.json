@@ -1,0 +1,60 @@
+{
+  "slug": "smaller-model-beat-opus-finance-alexander-shevchenko-ramp",
+  "sections": [
+    {
+      "title": "Why research at an app company",
+      "items": [
+        {
+          "e": "⏳",
+          "q": "Why not just wait for the next frontier model?",
+          "a": "Because users need it now, and **in-house know-how** lets you **hit the ground running** when APIs catch up."
+        },
+        {
+          "e": "📉",
+          "q": "What happened to Ramp's LLM unit costs as usage grew?",
+          "a": "Use cases grew **123%**, yet features got **cheaper per unit** as models improved."
+        }
+      ]
+    },
+    {
+      "title": "Specialist model",
+      "items": [
+        {
+          "e": "🐢",
+          "q": "Where was Opus 4.6 slow in Ramp Sheets?",
+          "a": "**Researching many spreadsheets** before building models like a DCF."
+        },
+        {
+          "e": "🎯",
+          "q": "What did the post-trained Qwen 3.5 35B achieve?",
+          "a": "It **beat Opus 4.6** on financial QA accuracy at **Haiku-level latency**."
+        },
+        {
+          "e": "🧭",
+          "q": "Who stays in charge of the task?",
+          "a": "The **frontier model as orchestrator**; the specialist is a **fast tool** it calls."
+        }
+      ]
+    },
+    {
+      "title": "Cartridges and swarms",
+      "items": [
+        {
+          "e": "🗜️",
+          "q": "What are cartridges?",
+          "a": "Context **compressed 20-30x into the KV cache offline**, built before the user starts."
+        },
+        {
+          "e": "🐝",
+          "q": "What did 10,000 parallel agents find at Ramp?",
+          "a": "**7 high-severity vulnerabilities**, including a cross-component **Lua script injection**."
+        },
+        {
+          "e": "💰",
+          "q": "Can cheaper models work in a swarm?",
+          "a": "Yes: open models **up to 5x cheaper** gave nearly the **same detection rate**."
+        }
+      ]
+    }
+  ]
+}

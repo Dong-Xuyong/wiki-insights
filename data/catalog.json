@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 452,
-  "insightsCount": 439,
-  "conceptCount": 3253,
+  "videoCount": 456,
+  "insightsCount": 443,
+  "conceptCount": 3267,
   "sections": [
     {
       "id": "architecture",
@@ -51,15 +51,15 @@
     }
   ],
   "sectionCounts": {
-    "architecture": 4,
-    "agents": 101,
+    "architecture": 5,
+    "agents": 103,
     "systems": 27,
     "build": 60,
     "human": 22,
     "performance": 60,
     "mind": 42,
     "relationships": 69,
-    "other": 67
+    "other": 68
   },
   "videos": [
     {
@@ -37409,6 +37409,244 @@
       ],
       "conceptCount": 2,
       "added": "2026-11-04"
+    },
+    {
+      "slug": "approve-the-app-not-the-model-doneyli-de-jesus-langfuse",
+      "title": "Don't Approve the AI Model. Approve the App - Doneyli De Jesus, Langfuse",
+      "video_id": "-uBABM2AuFg",
+      "platform": "youtube",
+      "url": "https://youtu.be/-uBABM2AuFg",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-05",
+      "created": "2026-11-05",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "evals",
+        "agents",
+        "regulated-ai",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "evals",
+        "agents",
+        "regulated-ai",
+        "ai-engineering",
+        "regulated ai",
+        "ai engineering",
+        "ai engineer",
+        "Application-Level Eval Gates",
+        "Evaluate the Evaluators",
+        "Flag vs Enforce Gates",
+        "Risk-Based AI Evals"
+      ],
+      "summary": "Doneyli De Jesus, who leads AI engineering solutions at Langfuse (by ClickHouse), describes helping a top-five bank put deployment gates on AI applications. The core lesson the bank gave them: \"We don't certify models. We certify applications.\" Public benchmarks say what a model can do on open data, not whether a specific app (say, a 10-K/earnings-call analyst for investment bankers that needs firm context) is fit for production. Regulated deployments also have to be on-premises, gated (no internet) and air-gapped, which is pushing banks back to their own GPU data centers.\n\nThe process: (1) build a golden dataset of input / expected output / metadata pairs, treated like QA test cases; (2) run the agent against it to produce traces as evidence; (3) score each trace on multiple dimensions (groundedness, completeness, numeric accuracy, regulatory compliance, tool use) with a blend of deterministic scorers, path/trajectory checks and LLM judges, since judges alone are not enough; (4) set a threshold per dimension with domain and risk experts, and promote nothing that fails any gate. In one case a model scored 97% on groundedness but only 60% on numeric accuracy; giving it a deterministic calculate tool lifted it to about 95%, clearing the bank's 85% gate. Averages hide failures: regulatory compliance is binary, and a zero there shuts the gate no matter how good the rest looks. Any config change (system prompt, model, tool) re-triggers the gate run, failures go to an annotation queue for domain experts, and reviewed traces feed back into the golden dataset. Result: evaluation for risk and compliance went from weeks (sometimes months) to minutes.",
+      "key_insights": [
+        "application level eval gates: write your own benchmark, gate the application (not the model), and let domain experts set per-dimension thresholds.",
+        "LLMs are bad at math; give them a deterministic tool instead of prompting harder.",
+        "A single average score hides a failing binary dimension like compliance.",
+        "Gating the app makes model swaps safe: the controls stay put."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "application-level-eval-gates",
+          "title": "Application-Level Eval Gates"
+        },
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "flag-vs-enforce-gates",
+          "title": "Flag vs Enforce Gates"
+        },
+        {
+          "slug": "risk-based-ai-evals",
+          "title": "Risk-Based AI Evals"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-05"
+    },
+    {
+      "slug": "datasite-stopped-building-parsing-reducto",
+      "title": "Why Datasite Stopped Building Its Own Parsing - Adit Abraham, Reducto & Raj Bakhru, Datasite",
+      "video_id": "0PqGT2L6cZM",
+      "platform": "youtube",
+      "url": "https://youtu.be/0PqGT2L6cZM",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-05",
+      "created": "2026-11-05",
+      "section": "architecture",
+      "tags": [
+        "genai",
+        "rag",
+        "document-parsing",
+        "retrieval",
+        "evals"
+      ],
+      "keywords": [
+        "genai",
+        "rag",
+        "document-parsing",
+        "retrieval",
+        "evals",
+        "document parsing",
+        "ai engineer",
+        "Extraction-First RAG",
+        "Late-Interaction Multi-Vector Retrieval",
+        "RAG Groundedness Check"
+      ],
+      "summary": "A fireside chat between Adit Abraham (co-founder and CEO of Reducto, a document parsing company) and Raj Bakhru, global CTO of Datasite, the virtual data room platform that handles about 60% of M&A deals over $100M (billions of pages, 55,000 data rooms a year, 500,000+ monthly users, a trillion-plus tokens a year). Raj founded the vertical AI startup BlueFlame, which built its own scrappy parsing and ingestion pipeline to save money, then was acquired into Datasite.\n\nWhy they stopped building parsing: document extraction is \"all edge cases\". Examples: an LLM misread a pie chart because the legend's shade of blue didn't match (the same data as a bar chart would have been fine), finance spreadsheets with merged cells, macro-enabled XLSB and template files. Engineers spent their time on support tickets for problems a vendor already solved, so they moved to Reducto and put their own data scientists on graph RAG and agents instead. The pipeline: content (up to a terabyte at a time) goes through Reducto inside Datasite's own secured environment, into Turbopuffer as the vector database, with graph RAG queries on top. Their custom eval, VDR Bench, asks a few hundred questions with known answers against a data room of hundreds of documents and runs on every change; it must beat simply dropping the same files into frontier-lab projects. Better parsing alone improved recall by about 22%: \"most of the work actually is on the extraction side.\"\n\nOther points: build vs. buy comes down to where your scarce top engineers should work (Datasite's 250 engineers go to five revenue projects, not to layers vendors handle); proprietary data close to the models (data rooms plus the Grata private-company database) cuts tokens and runtime and raises quality; AI coding has created a barbell (strong seniors and juniors gain most); and the open problem is getting models to behave consistently, e.g. a cheaper model spamming tool calls, while optimizing cost, speed and quality with quality first.",
+      "key_insights": [
+        "extraction first rag: answer quality is capped by parsing quality; fix extraction before tuning generation.",
+        "Document parsing is an endless edge-case tail; buy it unless it's your core product.",
+        "A domain eval with known answers, run on every change, should beat \"drop files into a frontier chat\".",
+        "Put scarce senior engineers on revenue-generating problems, not solved layers."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "extraction-first-rag",
+          "title": "Extraction-First RAG"
+        },
+        {
+          "slug": "late-interaction-multivector-retrieval",
+          "title": "Late-Interaction Multi-Vector Retrieval",
+          "e": "🧩"
+        },
+        {
+          "slug": "rag-groundedness-check",
+          "title": "RAG Groundedness Check"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-05"
+    },
+    {
+      "slug": "proving-ai-agent-safe-jonathan-osborne-natwest",
+      "title": "Building the AI Agent Is Easy. Proving It's Safe Isn't - Jonathan Osborne, NatWest",
+      "video_id": "5UgnatzpZ9E",
+      "platform": "youtube",
+      "url": "https://youtu.be/5UgnatzpZ9E",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-05",
+      "created": "2026-11-05",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "agents",
+        "evals",
+        "regulated-ai",
+        "llm-as-judge"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "evals",
+        "regulated-ai",
+        "llm-as-judge",
+        "regulated ai",
+        "llm as judge",
+        "ai engineer",
+        "Evaluate the Evaluators",
+        "Judge-Human Agreement Loop",
+        "Production Observability Loops",
+        "Shadow-Mode Agent Rollout"
+      ],
+      "summary": "Jonathan Osborne, lead AI engineer at NatWest (UK's second-largest retail bank, 19 million customers), explains moving the digital assistant Cora (about 100,000 conversations a day, mostly scripted) toward RAG answers and agents that act (payments, address changes) for about a third of journeys. Building the agent was easy; proving it safe was the work, because with 19 million customers the risk is blast radius. Agents add four failure modes scripts don't have: confidently wrong, talked into things (prompt injection), right but unhelpful (accurate answers that never resolve the issue) and non-deterministic, so old regression tests no longer apply.\n\nShrink the attack surface first with a routing funnel: a contextual filter drops about 20% (button clicks), deterministic pre-classification rules route more with no ML, then a gated rephrasing step, an intent classifier (a neural net over embeddings, not generative) and policy rules. That gives access control, auditable reproducible decisions, resilience if models are down, and versioned config. Quality is a vector, not a score: safety, task and experience are scored and alarmed separately. A 94%-accurate router that is 100% confident when wrong is worse than an 85% one that knows its limits. Human validation of a payments agent (111 conversations, 3 scorers each) gave 83% overall but hid a spread: 97% happy path, 76% edge cases, 43% topic changes; human agreement was 95% on bias but only 64% on intent understanding, and the two biggest failures were engineering bugs.\n\nOn LLM judges (14,000 complaint summaries scored by humans and judges): the judge's faithfulness mean was 0.97 with tiny spread vs humans 0.83, small average error but near-zero correlation, so a generous judge is a broken instrument. Swapping the judge model alone moved results across the threshold, so the judge model is part of your config; using a different model family from the agent pulled scores closer to humans. Evaluation runs in production: traces via OpenTelemetry/OpenInference, a 5% random sample plus all \"interesting\" conversations (handoffs, failures, long, angry), offline scoring every 4 hours, a hard regression gate in CI/CD, and classical drift monitoring (input feature drift as an early canary) for the ML classifier, all air-gapped with zero PII leaving. Rollout starts in shadow mode (the agent classifies live traffic while the scripted system still answers), then brand by brand with percentage rollouts, go/no-go KPIs and feature-flag kill switches per backend. In the complaints tool, human feedback is a gate (no rerun without a reason), which built 14,000 labels.",
+      "key_insights": [
+        "shadow mode agent rollout: observe on real traffic before answering, then roll out in small, reversible steps.",
+        "Shrink what needs a model before hardening it: deterministic routing first, generative AI last.",
+        "Score safety, task and experience separately; headline averages hide edge-case and topic-change failures.",
+        "Evaluate the Evaluators: check judge-human correlation, not mean error; version the judge model."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "judge-human-agreement-loop",
+          "title": "Judge-Human Agreement Loop",
+          "e": "⚖️"
+        },
+        {
+          "slug": "production-observability-loops",
+          "title": "Production Observability Loops",
+          "e": "📡"
+        },
+        {
+          "slug": "shadow-mode-agent-rollout",
+          "title": "Shadow-Mode Agent Rollout"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-05"
+    },
+    {
+      "slug": "smaller-model-beat-opus-finance-alexander-shevchenko-ramp",
+      "title": "Our Smaller Model Beat Opus on Finance Tasks - Alexander Shevchenko, Ramp",
+      "video_id": "T-42NrYjwxM",
+      "platform": "youtube",
+      "url": "https://youtu.be/T-42NrYjwxM",
+      "duration_min": 15,
+      "creator": "ai-engineer",
+      "updated": "2026-11-05",
+      "created": "2026-11-05",
+      "section": "other",
+      "tags": [
+        "genai",
+        "agents",
+        "post-training",
+        "evals",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "post-training",
+        "evals",
+        "ai-engineering",
+        "post training",
+        "ai engineering",
+        "ai engineer",
+        "Frontier Orchestrator, Specialist Model",
+        "Kv Cache Agent Latency",
+        "LLM Token Cost Reduction"
+      ],
+      "summary": "Alexander Shevchenko of Ramp Labs explains why an application company still runs applied research even though new frontier models keep getting cheaper and better (Ramp's LLM use cases grew 123% in a year while unit costs fell). His argument: in 2023 Ramp shipped agents anyway instead of waiting for better models, and in 2026 there is still a layer below the API where effort pays off. He walks through three production projects.\n\n1. Specialist model under a frontier orchestrator. In Ramp Sheets (a spreadsheet agent), Opus 4.6 spent too long and too many thinking tokens researching dropped-in spreadsheets before building a DCF. Ramp partnered with Prime Intellect to post-train a Qwen 3.5 35B model for financial question answering. It beat Opus 4.6 on exact task accuracy at Haiku-level latency, and it runs as a fast tool for the frontier planning model, which stays the orchestrator. 2. Cartridges (KV-cache context compression). For predictable work like month-end close, the ledger, aging report and documents can be compressed 20-30x into a KV cache offline, built overnight, so the agent starts already knowing the context. Lower lift than post-training; if labs ship it in their APIs, the in-house know-how still pays off. 3. Agentic map-reduce swarms. Using Ramp Inspect, they ran 10,000 parallel agents to pen-test Ramp, then had LLMs deduplicate and adversarially reproduce the findings: 7 high-severity vulnerabilities patched, including a Lua script injection via email that no single component revealed. Open-weight models up to 5x cheaper gave nearly the same detection rate in a swarm.\n\nThe common thread is saving time (latency) and money (tokens). The talk ends with product plugs (token spend management, Ramp Router) and blog pointers (Portal for transferring LoRA post-training across model versions, self-improving Datadog monitors, semantic tagging of LLM usage).",
+      "key_insights": [
+        "frontier orchestrator specialist model: keep the frontier model as planner; hand narrow, repeated subtasks to a post-trained small model for speed and cost.",
+        "Waiting for the next frontier model is a choice; teams that build know-how now hit the ground running when APIs catch up.",
+        "kv cache agent latency: precomputed KV \"cartridges\" compress predictable context offline.",
+        "Swarms of cheap models plus LLM dedupe and adversarial reproduction find cross-component bugs."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "frontier-orchestrator-specialist-model",
+          "title": "Frontier Orchestrator, Specialist Model"
+        },
+        {
+          "slug": "kv-cache-agent-latency",
+          "title": "Kv Cache Agent Latency"
+        },
+        {
+          "slug": "llm-token-cost-reduction",
+          "title": "LLM Token Cost Reduction"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-05"
     }
   ]
 }

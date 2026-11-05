@@ -1,0 +1,60 @@
+{
+  "slug": "datasite-stopped-building-parsing-reducto",
+  "sections": [
+    {
+      "title": "Parsing is the hard part",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "Why did Datasite say document parsing is 'all edge cases'?",
+          "a": "Charts, **merged spreadsheet cells**, macro files and layouts break pipelines in **endless** ways."
+        },
+        {
+          "e": "🥧",
+          "q": "How did a pie chart trip up the best vision model?",
+          "a": "The legend's **shade of blue didn't match**; the same data as a **bar chart** worked."
+        },
+        {
+          "e": "📈",
+          "q": "How much did better parsing improve recall?",
+          "a": "About **22%** on Datasite's own eval."
+        }
+      ]
+    },
+    {
+      "title": "Build vs. buy",
+      "items": [
+        {
+          "e": "🛠️",
+          "q": "Why did Datasite stop building its own parser?",
+          "a": "Engineers were stuck on **support edge cases** a vendor had **already solved**."
+        },
+        {
+          "e": "🎯",
+          "q": "Where should scarce top engineers work?",
+          "a": "On **revenue-generating problems** like graph RAG and agents, not solved layers."
+        }
+      ]
+    },
+    {
+      "title": "Pipeline and evals",
+      "items": [
+        {
+          "e": "🔗",
+          "q": "What does Datasite's RAG pipeline look like?",
+          "a": "**Reducto** parsing, **Turbopuffer** vectors, and **graph RAG** queries on top."
+        },
+        {
+          "e": "🧪",
+          "q": "What is VDR Bench?",
+          "a": "Hundreds of **known-answer questions** over a data room, run on **every change**."
+        },
+        {
+          "e": "🏁",
+          "q": "What bar must the product beat?",
+          "a": "Simply **dropping the files into a frontier lab's projects** feature."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "proving-ai-agent-safe-jonathan-osborne-natwest",
+  "sections": [
+    {
+      "title": "Why agents are harder",
+      "items": [
+        {
+          "e": "💥",
+          "q": "What makes a bank agent scary, if not the model?",
+          "a": "The **blast radius**: 19 million customers and **real money**."
+        },
+        {
+          "e": "⚠️",
+          "q": "Which four failure modes do agents add over scripts?",
+          "a": "**Confidently wrong**, **talked into things**, and right but unhelpful or non-deterministic."
+        },
+        {
+          "e": "🪜",
+          "q": "What did NatWest do before hardening the agent?",
+          "a": "**Shrank the attack surface** with a routing funnel: filters and **deterministic rules** before any model."
+        }
+      ]
+    },
+    {
+      "title": "Quality as a vector",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "Which three categories does NatWest score separately?",
+          "a": "**Safety**, **task** and **experience**."
+        },
+        {
+          "e": "🔍",
+          "q": "What did the 83% headline pass rate hide?",
+          "a": "**97%** on happy paths but only **43%** on topic changes."
+        },
+        {
+          "e": "🎯",
+          "q": "Which router is more dangerous?",
+          "a": "One that's **94% accurate but always confident** versus 85% and **knows when it's unsure**."
+        }
+      ]
+    },
+    {
+      "title": "Judges and rollout",
+      "items": [
+        {
+          "e": "🧑‍🏫",
+          "q": "What made the LLM judge a broken instrument?",
+          "a": "High scores with tiny spread and **near-zero correlation** with humans."
+        },
+        {
+          "e": "🔄",
+          "q": "Why is the judge model part of your config?",
+          "a": "Swapping it alone **moved scores across the threshold**; use a **different model family**."
+        },
+        {
+          "e": "👥",
+          "q": "What is shadow mode?",
+          "a": "The agent handles **live traffic** while the **scripted system still answers**."
+        },
+        {
+          "e": "🚩",
+          "q": "How can NatWest undo a bad rollout fast?",
+          "a": "**Feature flags** send everything or one backend **back to the scripted path** in seconds."
+        }
+      ]
+    }
+  ]
+}
