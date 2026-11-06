@@ -1,0 +1,55 @@
+{
+  "slug": "agree-to-the-job-not-every-step-emil-chetty-wise",
+  "sections": [
+    {
+      "title": "The approval-queue problem",
+      "items": [
+        {
+          "e": "🖱️",
+          "q": "What did AI assistants turn customers into?",
+          "a": "An **approval queue**—humans as the agent API."
+        },
+        {
+          "e": "❓",
+          "q": "What question do payments ask that coding agents don't?",
+          "a": "**Did this customer authorize this payment to this recipient on these terms?**"
+        }
+      ]
+    },
+    {
+      "title": "Immutable job",
+      "items": [
+        {
+          "e": "🔒",
+          "q": "What must the customer agree to?",
+          "a": "An **immutable job**—the whole job, not every step."
+        },
+        {
+          "e": "📄",
+          "q": "What are the two views of the job?",
+          "a": "A **human-language promise** and a **machine-readable** bound services can enforce."
+        },
+        {
+          "e": "🔀",
+          "q": "When can the agent re-plan freely?",
+          "a": "When the new plan stays **inside the agreement**; changed terms need a **new customer decision**."
+        }
+      ]
+    },
+    {
+      "title": "Enforcement",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "What happens if prompt injection 'updates' payment details?",
+          "a": "It **fails at the service check**—the model cannot rewrite the agreement."
+        },
+        {
+          "e": "✅",
+          "q": "What is the takeaway design?",
+          "a": "Customer **agrees to the job**, agent **chooses steps**, services **enforce**."
+        }
+      ]
+    }
+  ]
+}

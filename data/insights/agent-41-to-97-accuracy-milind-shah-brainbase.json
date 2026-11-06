@@ -1,0 +1,60 @@
+{
+  "slug": "agent-41-to-97-accuracy-milind-shah-brainbase",
+  "sections": [
+    {
+      "title": "The Domino's climb",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What did accuracy do from v1 to v11?",
+          "a": "**41% → 97%**, with cost/source **$2 → $1** and runtime **129 → 71 min**."
+        },
+        {
+          "e": "📝",
+          "q": "What changed between versions?",
+          "a": "Only **instructions, skills and playbooks**—not the model."
+        }
+      ]
+    },
+    {
+      "title": "Anthology and evals",
+      "items": [
+        {
+          "e": "📚",
+          "q": "What is the anthology?",
+          "a": "A glossary so every term is defined and the agent **never guesses**."
+        },
+        {
+          "e": "⚖️",
+          "q": "What three scorers did they use?",
+          "a": "**Code**, **LLM-as-judge** on traces, and **agent-as-judge** on flagged prices."
+        },
+        {
+          "e": "📸",
+          "q": "How did they rebuild the offline environment?",
+          "a": "**Browser screenshots from v1** after archive.org failed for delivery apps."
+        }
+      ]
+    },
+    {
+      "title": "Iterate and hand off",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "What is version one's job?",
+          "a": "To be **measured**, not to be good—start **narrow**."
+        },
+        {
+          "e": "🔍",
+          "q": "How did HTML-first rules help?",
+          "a": "**1/3 the image reads**, **>50% cost cut**, and an actual finished answer."
+        },
+        {
+          "e": "🔁",
+          "q": "What do you hand off?",
+          "a": "The **whole loop** (run, review exceptions, turn corrections into rules), not just the agent."
+        }
+      ]
+    }
+  ]
+}

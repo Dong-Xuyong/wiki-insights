@@ -1,0 +1,45 @@
+{
+  "slug": "alpine-docker-sshd-root-null-primetime",
+  "sections": [
+    {
+      "title": "The failure mode",
+      "items": [
+        {
+          "e": "🐳",
+          "q": "What default combo is dangerous?",
+          "a": "**Alpine Docker default image** + **public sshd**."
+        },
+        {
+          "e": "🔓",
+          "q": "What can an attacker get?",
+          "a": "Under the bug class, effectively **root login**."
+        }
+      ]
+    },
+    {
+      "title": "Why it happens",
+      "items": [
+        {
+          "e": "␀",
+          "q": "What old mistake shows up again?",
+          "a": "**Null** returns in auth/processing paths (Hoare's billion-dollar mistake)."
+        },
+        {
+          "e": "🤖",
+          "q": "How has AI changed the picture?",
+          "a": "Models can **reproduce vulns in minutes**, so default attack surface matters more."
+        }
+      ]
+    },
+    {
+      "title": "Defense",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "What is the practical fix?",
+          "a": "**Don't expose sshd** on default container images; minimize the attack surface."
+        }
+      ]
+    }
+  ]
+}

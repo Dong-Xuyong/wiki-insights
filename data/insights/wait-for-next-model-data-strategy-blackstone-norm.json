@@ -1,0 +1,50 @@
+{
+  "slug": "wait-for-next-model-data-strategy-blackstone-norm",
+  "sections": [
+    {
+      "title": "Before agents",
+      "items": [
+        {
+          "e": "🗄️",
+          "q": "What must exist before agents extract value?",
+          "a": "A **cohesive data strategy** out of transactional silos into recallable stores."
+        },
+        {
+          "e": "⏩",
+          "q": "What else still matters besides agents?",
+          "a": "**Straight-through processing**—agents aren't the only differentiator."
+        }
+      ]
+    },
+    {
+      "title": "Wait vs build",
+      "items": [
+        {
+          "e": "⏳",
+          "q": "When is waiting for the next model rational?",
+          "a": "When today's build has **weak pressing ROI** and a better model will solve it cheaper."
+        },
+        {
+          "e": "🗑️",
+          "q": "What should happen to many internal apps?",
+          "a": "Treat them as **throwaway**: POC fast, iterate, discard."
+        }
+      ]
+    },
+    {
+      "title": "Evals that travel",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What did Norm AI build for regression?",
+          "a": "**Tens of thousands** of expert **hand-labeled** eval samples."
+        },
+        {
+          "e": "✅",
+          "q": "What does that enable when agents arrive?",
+          "a": "Judge model/agent changes against a **stable gold set**."
+        }
+      ]
+    }
+  ]
+}

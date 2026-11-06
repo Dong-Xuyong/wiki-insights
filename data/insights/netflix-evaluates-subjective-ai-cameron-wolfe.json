@@ -1,0 +1,60 @@
+{
+  "slug": "netflix-evaluates-subjective-ai-cameron-wolfe",
+  "sections": [
+    {
+      "title": "Why subjective evals are hard",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What stacks noise in subjective evals?",
+          "a": "A small task set, a **non-deterministic agent**, and a **non-deterministic grader** (LLM judge/rubric)."
+        },
+        {
+          "e": "📏",
+          "q": "Where do most public benchmarks sit?",
+          "a": "On **verifiable** tasks; real agent work spans a **spectrum of verifiability**."
+        }
+      ]
+    },
+    {
+      "title": "Human North Star",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is the North Star for subjective quality?",
+          "a": "**Calibrated human evaluation** with SME quality guidelines."
+        },
+        {
+          "e": "🔁",
+          "q": "How do you calibrate humans?",
+          "a": "Measure **inter-rater agreement** and rewrite guidelines until they agree."
+        },
+        {
+          "e": "📊",
+          "q": "How do you size the sample?",
+          "a": "**Power analysis** from effect size, observed noise, and significance."
+        }
+      ]
+    },
+    {
+      "title": "Offline and production",
+      "items": [
+        {
+          "e": "📋",
+          "q": "How do rubrics differ from LLM judges?",
+          "a": "Rubrics are **task-specific checklists** verified item-by-item; judges use high-level guidelines."
+        },
+        {
+          "e": "🧪",
+          "q": "How did Netflix validate a judge?",
+          "a": "Judge scores were **causally correlated with streaming abandonment**."
+        },
+        {
+          "e": "🚀",
+          "q": "What is A/B testing for here?",
+          "a": "A **soft model deployment** before full rollout, plus ongoing production monitoring."
+        }
+      ]
+    }
+  ]
+}

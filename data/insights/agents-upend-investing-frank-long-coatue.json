@@ -1,0 +1,40 @@
+{
+  "slug": "agents-upend-investing-frank-long-coatue",
+  "sections": [
+    {
+      "title": "The compression bet",
+      "items": [
+        {
+          "e": "📦",
+          "q": "What tuple does a hedge fund output?",
+          "a": "**(selection, size, timing)**—what, how much, when."
+        },
+        {
+          "e": "🗜️",
+          "q": "What problem are agents solving here?",
+          "a": "**Compressing** all world context into that simple decision object."
+        }
+      ]
+    },
+    {
+      "title": "Gather → analyze → decide",
+      "items": [
+        {
+          "e": "📰",
+          "q": "What gather example did he cite?",
+          "a": "**Korean-language semiconductor/AI news** that moved markets."
+        },
+        {
+          "e": "🏃",
+          "q": "What are the three runners?",
+          "a": "**Code**, **LLM**, and **person**—pick per step."
+        },
+        {
+          "e": "⚙️",
+          "q": "When should the runner be code?",
+          "a": "When the rule is **crisp and deterministic** (e.g. P/E < 15)."
+        }
+      ]
+    }
+  ]
+}

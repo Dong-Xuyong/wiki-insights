@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 456,
-  "insightsCount": 443,
-  "conceptCount": 3267,
+  "videoCount": 464,
+  "insightsCount": 451,
+  "conceptCount": 3294,
   "sections": [
     {
       "id": "architecture",
@@ -51,15 +51,15 @@
     }
   ],
   "sectionCounts": {
-    "architecture": 5,
-    "agents": 103,
-    "systems": 27,
+    "architecture": 6,
+    "agents": 106,
+    "systems": 29,
     "build": 60,
     "human": 22,
-    "performance": 60,
+    "performance": 61,
     "mind": 42,
     "relationships": 69,
-    "other": 68
+    "other": 69
   },
   "videos": [
     {
@@ -37647,6 +37647,451 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-05"
+    },
+    {
+      "slug": "agent-41-to-97-accuracy-milind-shah-brainbase",
+      "title": "How We Took an AI Agent From 41% to 97% Accurate - Milind Sunil Shah, Brainbase Labs",
+      "video_id": "4VmugsE-iP0",
+      "platform": "youtube",
+      "url": "https://youtu.be/4VmugsE-iP0",
+      "duration_min": 14,
+      "creator": "ai-engineer",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "other",
+      "tags": [
+        "genai",
+        "evals",
+        "agents",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "evals",
+        "agents",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Agent as Judge",
+        "Failure-Driven Evals",
+        "Instruction Hill-Climb for Agents",
+        "Scientific Agent Evals"
+      ],
+      "summary": "Milind Sunil Shah (MTS, Brainbase Labs) walks a six-step framework for hill-climbing back-office agents, using a Domino's competitor-pricing project (20k+ stores, 90+ markets). Analysts used to spend ~2 hours/day building a spreadsheet of competitor pizza prices across websites and delivery apps; the agent had to match that judgment on edge cases and flag uncertainty.\n\nResults from v1 → v11, changing only instructions, skills and playbooks (not the model): accuracy 41% → 97%, cost/source $2 → $1, runtime 129 → 71 minutes.\n\nSix steps: (1) Kickoff—agree the win (job, cost, accuracy, who judges, what the agent must never do alone). (2) Anthology—define every term so the agent never guesses (e.g. checkout price not strikethrough; large pizza includes bundles; delivery ≠ takeaway; promo math; write gaps, don't invent). Memory as Postgres-like tables for targets and price observations. (3) Benchmarks and evals—replay past analyst spreadsheets; archive.org failed for delivery apps so they stored browser screenshots from v1; score with code (cell filled, discount math, ±20% flag), LLM-as-judge (right item/promo in the trace), and agent-as-judge (re-check flagged prices with tools). (4) First agent—ship a narrow slice whose job is to be measured, not good (one app, one item, one city), then widen. (5) Iterate—score, fix, ship; change one thing; fix instructions before swapping models; expensive example: promo prices inside images caused a 15-minute zoom loop until rules said read HTML/alt text first and cap zoom (1/3 image reads, >50% cost cut). (6) Hand off the loop—who runs, reviews exceptions, turns corrections into rules/benchmarks, and ships versions; Domino's analysts now review exceptions only and can add benchmark cases.",
+      "key_insights": [
+        "instruction hill climb agents: climb accuracy with instructions/skills/playbooks before changing the model.",
+        "agent as judge: for artifact outputs, let an agent take multiple tool turns to verify correctness.",
+        "Version one's job is to be measured, not good; start narrow.",
+        "Anthology: every term defined, or the agent guesses wrong."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-as-judge",
+          "title": "Agent as Judge"
+        },
+        {
+          "slug": "failure-driven-evals",
+          "title": "Failure-Driven Evals"
+        },
+        {
+          "slug": "instruction-hill-climb-agents",
+          "title": "Instruction Hill-Climb for Agents"
+        },
+        {
+          "slug": "scientific-agent-evals",
+          "title": "Scientific Agent Evals"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "agents-upend-investing-frank-long-coatue",
+      "title": "AI Agents Will Upend Investing Even More Than Coding - Frank Long, Coatue",
+      "video_id": "AYFcmnQrZCg",
+      "platform": "youtube",
+      "url": "https://youtu.be/AYFcmnQrZCg",
+      "duration_min": 14,
+      "creator": "ai-engineer",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "architecture",
+      "tags": [
+        "genai",
+        "agents",
+        "investing",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "investing",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Cite, Don't Write, Numbers",
+        "Harness-Owned Agent Loop",
+        "Investment Agent Compression Pipeline"
+      ],
+      "summary": "Frank Long of Coatue (tech investing across public and private markets) argues agents will reshape investing even more than coding. He models a hedge fund as a function of external + internal context that returns a tuple (selection, size, timing)—what to buy, how much, when—and frames the product as a time series of that tuple. The work is a compression problem: all world information → one simple decision object.\n\nPipeline: gather (filter material signal; e.g. Korean-language semi/AI news that mattered in 2026) → analyze (form a view) → decide → optionally update. Each step has a runner: deterministic code (fast/cheap/reliable—e.g. P/E < 15), LLM, or person. Mix runners deliberately; code for crisp rules, LLMs for cross-referencing disparate sources, humans for high-conviction judgment. Agents amplify the gather/analyze loop that historically bottlenecked investment research.",
+      "key_insights": [
+        "investment agent compression pipeline: gather → analyze → decide with explicit runners (code / LLM / person).",
+        "Hedge fund as (selection, size, timing) compression of world context.",
+        "Prefer deterministic code when the rule is crisp; LLMs when synthesis across messy sources wins."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cite-dont-write-numbers",
+          "title": "Cite, Don't Write, Numbers",
+          "e": "🔢"
+        },
+        {
+          "slug": "harness-owned-agent-loop",
+          "title": "Harness-Owned Agent Loop",
+          "e": "🧭"
+        },
+        {
+          "slug": "investment-agent-compression-pipeline",
+          "title": "Investment Agent Compression Pipeline"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "agree-to-the-job-not-every-step-emil-chetty-wise",
+      "title": "Stop Making Your Customers Click Approve - Emil Chetty, Wise",
+      "video_id": "V2UqEUA8NjM",
+      "platform": "youtube",
+      "url": "https://youtu.be/V2UqEUA8NjM",
+      "duration_min": 16,
+      "creator": "ai-engineer",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "agents",
+        "security",
+        "payments",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "security",
+        "payments",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Agent Identity and Credential Gateway",
+        "Agent Security & Permissions",
+        "Immutable Job Agreement",
+        "Risk-Tiered Agent Controls"
+      ],
+      "summary": "Emil Chetty (data and AI product, Wise) argues that consumer AI assistants have turned customers into an approval queue. Wise moved $243B cross-border last year for nearly 19M customers under 80+ licenses—regulators still need to know what the customer authorized, control the money, and explain the outcome.\n\nCoding agents solved step-spam with auto-mode (permission rules, classifiers, sandboxes) answering \"is this action safe?\" Payments ask a different question: \"Did this customer authorize this payment to this recipient on these terms?\" Evals and harnesses help, but they do not prove the customer agreed to the job.\n\nWise's answer: turn vague intent into an immutable job agreement. Trusted software resolves suppliers, bank details and amounts (agent explores read-only); the customer sees a human-language draft (e.g. three suppliers, ~$775 + fees) and a machine-readable promise; on confirm, that exact version becomes an authorized job. A provisioning platform intersects (confirmed job ∩ what Wise permits ∩ customer's rights) and grants limited access to payment and reconciliation workers. The agent may re-plan inside the agreement; changed terms need a new customer decision. Prompt injection that \"updates\" payment details fails at the service check—the model cannot rewrite the agreement. Evidence chain: who authorized, what the agent can do, what happened, what can be stopped, who is responsible.\n\nTakeaway: customer agrees to the job, agent chooses the steps, services enforce the agreement. Stop making humans the agent API.",
+      "key_insights": [
+        "immutable job agreement: customer confirms an immutable job; agent plans inside it; services enforce it.",
+        "Payments need authorization evidence, not just \"action looks safe.\"",
+        "Different plan can stay inside the agreement; different terms need a new proposal.",
+        "Boundary does not depend on the model spotting the scam."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-identity-credential-gateway",
+          "title": "Agent Identity and Credential Gateway",
+          "e": "🔐"
+        },
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "immutable-job-agreement",
+          "title": "Immutable Job Agreement"
+        },
+        {
+          "slug": "risk-tiered-agent-controls",
+          "title": "Risk-Tiered Agent Controls",
+          "e": "🚦"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "alpine-docker-sshd-root-null-primetime",
+      "title": "well this is bad",
+      "video_id": "B3_Ftfhkzz0",
+      "platform": "youtube",
+      "url": "https://youtu.be/B3_Ftfhkzz0",
+      "duration_min": 13,
+      "creator": "the-primetime",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "agents",
+      "tags": [
+        "security",
+        "containers",
+        "programming"
+      ],
+      "keywords": [
+        "security",
+        "containers",
+        "programming",
+        "the primetime",
+        "Agent Security & Permissions",
+        "AI-Accelerated Exploitation",
+        "Default Image Public SSHD Risk"
+      ],
+      "summary": "ThePrimeagen covers a severe container/SSH bug class: with certain Alpine Docker defaults and sshd exposed publicly, attackers could effectively get root login under specific conditions. He traces the story through Bill Joy / early daemon history and a null return that crashes or mis-handles auth paths (Tony Hoare's \"billion-dollar mistake\"), contrasting prior vulns that needed long, sophisticated chains (e.g. PHP theft over ~19 hours; Claude reproducing a TCP vuln in ~45 minutes) with this more egregious \"default image + public sshd\" failure mode. Practical takeaway: don't expose sshd on default container images; treat default attack surface as hostile.",
+      "key_insights": [
+        "default image public sshd risk: default Alpine/Docker + public sshd is an unacceptable attack surface.",
+        "Null-handling in auth paths still creates catastrophic failure modes.",
+        "AI speeds vulnerability reproduction; defaults matter more."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "ai-accelerated-exploitation",
+          "title": "AI-Accelerated Exploitation",
+          "e": "🤖"
+        },
+        {
+          "slug": "default-image-public-sshd-risk",
+          "title": "Default Image Public SSHD Risk"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "cold-heat-metabolic-health-susanna-soberg-huberman-essentials",
+      "title": "Essentials: Cold & Heat Exposure for Metabolic Health | Dr. Susanna Søberg",
+      "video_id": "yUdg7drjrZY",
+      "platform": "youtube",
+      "url": "https://youtu.be/yUdg7drjrZY",
+      "duration_min": 39,
+      "creator": "andrew-huberman",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "performance",
+      "tags": [
+        "health",
+        "training",
+        "cold",
+        "heat",
+        "metabolism"
+      ],
+      "keywords": [
+        "health",
+        "training",
+        "cold",
+        "heat",
+        "metabolism",
+        "andrew huberman",
+        "Cold Water Dopamine",
+        "Deliberate Cold Exposure Protocols",
+        "Deliberate Heat Exposure Protocols",
+        "Søberg Eleven-Minute Cold Week"
+      ],
+      "summary": "Huberman Lab Essentials with Dr. Susanna Søberg (University of Copenhagen) on deliberate cold and heat for metabolic health. Protocol gauge: get uncomfortably cold to trigger the cold shock (sympathetic activation, catecholamines). Cold raises norepinephrine, activates brown fat (healthy thermogenic tissue), and with adaptation improves insulin sensitivity; shivering is useful metabolic work, not failure. Søberg's winter-swimmer data: experienced swimmers stayed 1–2 minutes per dip, 2–3 water+sauna visits/week, totaling about 11 minutes of cold per week—not one long session. Søberg principle: end on cold after heat/sauna so you don't erase cold adaptations in a warm finish. Heat (sauna) is parallel hormetic stress for heat-shock / cellular resilience. Overlaps prior Huberman cold/heat concept pages; kept for Søberg-specific dosing and brown-fat framing (always-ingest).",
+      "key_insights": [
+        "soberg eleven minute cold week: ~11 min cold/week via short 1–2 min dips, 2–3×/week, end on cold.",
+        "Uncomfortable cold → cold shock → norepinephrine → brown fat → metabolic adaptation / insulin sensitivity.",
+        "End on cold (Søberg principle) after sauna/heat."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cold-water-dopamine",
+          "title": "Cold Water Dopamine",
+          "e": "🏊"
+        },
+        {
+          "slug": "deliberate-cold-exposure-protocols",
+          "title": "Deliberate Cold Exposure Protocols",
+          "e": "🥶"
+        },
+        {
+          "slug": "deliberate-heat-exposure-protocols",
+          "title": "Deliberate Heat Exposure Protocols",
+          "e": "🧖"
+        },
+        {
+          "slug": "soberg-eleven-minute-cold-week",
+          "title": "Søberg Eleven-Minute Cold Week"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "iran-midterms-dangerous-weeks-robert-pape-doac",
+      "title": "Iran War Expert: 'The 8 Weeks After Midterms Could Be The Most Dangerous!' | Prof Robert Pape",
+      "video_id": "a1mI-ozLyYM",
+      "platform": "youtube",
+      "url": "https://youtu.be/a1mI-ozLyYM",
+      "duration_min": 90,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "systems",
+      "tags": [
+        "geopolitics",
+        "politics",
+        "security"
+      ],
+      "keywords": [
+        "geopolitics",
+        "politics",
+        "security",
+        "the diary of a ceo",
+        "Midterm Transition Violence Risk",
+        "Pivotal Error"
+      ],
+      "summary": "Prof. Robert Pape (political scientist; 30 years studying political violence; advised every White House since 9/11) on The Diary Of A CEO warns that the ~8 weeks around US midterms / transfer of power are unusually dangerous: contested certification, domestic unrest precedents (January 6), possible Iran escalation (claimed three-day strike plans after elections), and Russia/Putin shifting plans if Ukraine concessions stall—raising pressure on Europe and emergency-powers dynamics into 2027. Framed as scenario analysis of coupled domestic transition risk and interstate war risk. Always-ingest DOAC episode; low fit to Dong's core goals (geopolitics news).",
+      "key_insights": [
+        "midterm transition violence risk: power-transfer windows couple domestic unrest risk with opportunistic interstate escalation.",
+        "Study political violence as patterned risk around contested elections and war plans, not vibes."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "midterm-transition-violence-risk",
+          "title": "Midterm Transition Violence Risk"
+        },
+        {
+          "slug": "pivotal-error",
+          "title": "Pivotal Error",
+          "e": "🚪"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "netflix-evaluates-subjective-ai-cameron-wolfe",
+      "title": "How Netflix Evaluates AI When There's No Right Answer - Cameron Wolfe, Netflix",
+      "video_id": "zLc8zeGeNaY",
+      "platform": "youtube",
+      "url": "https://youtu.be/zLc8zeGeNaY",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "evals",
+        "agents",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "evals",
+        "agents",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Evaluate the Evaluators",
+        "LLM Judge Rubric Anatomy",
+        "Scientific Agent Evals",
+        "Subjective Eval Three-Layer Stack"
+      ],
+      "summary": "Cameron Wolfe, staff research scientist at Netflix (and author of the Deep Learning Focus newsletter), lays out why evals are hard and how to evaluate highly subjective tasks (creative writing, open-ended agent work) where pass/fail is not a deterministic check.\n\nNoise is the core problem: a small task set, a non-deterministic agent, and—for subjective work—a non-deterministic grader (LLM judge or rubric) replace what used to be a deterministic check. That stacks noise on noise. Most public benchmarks still target verifiable tasks (math, string match, unit tests); real agent work sits on a spectrum of verifiability.\n\nHis three-part framework: (1) Human evaluation as North Star—partner with SMEs to write quality guidelines (criteria, binary/Likert scoring, examples), then calibrate by measuring inter-rater agreement and rewriting guidelines until humans agree. Use power analysis (effect size, observed noise, significance) to size the sample, and sample for diversity, realism, difficulty, and discriminativeness. (2) Offline / automatic evals—LLM judges (high-level guidelines) or task-specific rubrics (checklist items verified independently) as a proxy; meta-evaluate judges against human golden data (correlation, accuracy), and at Netflix he showed an LLM judge's scores were causally correlated with streaming abandonment. Use human agreement as the baseline for \"good enough\" judge agreement. (3) Production monitoring—explicit (thumbs) and implicit (session length, abandonment) metrics, A/B tests as soft deployment, and feed production failures back into offline and human evals.\n\nThe loop: many offline evals → best candidates to human eval → A/B in production → monitor and recycle failures. Fight noise at every step with statistics (power analysis, confidence intervals, resampling).",
+      "key_insights": [
+        "subjective eval three layer: human North Star + calibrated offline judges/rubrics + production A/B and monitoring.",
+        "Subjective tasks replace a deterministic grader with another noisy LM component—treat that as the design problem.",
+        "Meta-evaluate judges against golden human data; at Netflix, judge scores tracked abandonment.",
+        "Power analysis sizes evals; sample for realism and discriminativeness, not just volume."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "llm-judge-rubric-anatomy",
+          "title": "LLM Judge Rubric Anatomy"
+        },
+        {
+          "slug": "scientific-agent-evals",
+          "title": "Scientific Agent Evals"
+        },
+        {
+          "slug": "subjective-eval-three-layer",
+          "title": "Subjective Eval Three-Layer Stack"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-06"
+    },
+    {
+      "slug": "wait-for-next-model-data-strategy-blackstone-norm",
+      "title": "Why Waiting for the Next AI Model Can Pay Off - John Stecher, Blackstone & Scott Worland, Norm AI",
+      "video_id": "ra8X7_bnujw",
+      "platform": "youtube",
+      "url": "https://youtu.be/ra8X7_bnujw",
+      "duration_min": 21,
+      "creator": "ai-engineer",
+      "updated": "2026-11-06",
+      "created": "2026-11-06",
+      "section": "systems",
+      "tags": [
+        "genai",
+        "agents",
+        "evals",
+        "enterprise",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "evals",
+        "enterprise",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Capability vs Regression Evals",
+        "Data Before Agents, Wait for the Model",
+        "Same-Day Model Adoption"
+      ],
+      "summary": "John Stecher (CTO, Blackstone) and Scott Worland (CTO, Norm AI) discuss building tech that holds up as models improve—and when waiting for the next model is the rational call.\n\nStecher: before agents, get a cohesive data strategy (move data out of transactional systems into something agents can recall) and keep straight-through processing. Without accessible data, agent projects fail. Weigh ROI against waiting: if today's build has little pressing business value, wait for a more sophisticated model that solves it cheaper later. Internal apps can often be thrown away—ship POCs/POVs fast with tokens, put them in front of people, iterate, discard; skip PowerPoints. Encourage engineers to reach a clickable POC quickly even without full cybersecurity/production hardening.\n\nWorland (Norm AI, legal/regulatory): they built tens of thousands of expert hand-labeled eval samples for regression testing. Once \"agents\" meant LLM + tools + goal + self-verify, that eval set showed much of the hard work was already measured—so model swaps and agent loops could be judged against a stable gold set.",
+      "key_insights": [
+        "data before agents wait for model: data strategy and STP first; wait when ROI of building now is weak.",
+        "Throwaway internal POCs beat slideware; rebuild as models improve.",
+        "Large hand-labeled eval sets let you ride model improvements safely."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals"
+        },
+        {
+          "slug": "data-before-agents-wait-for-model",
+          "title": "Data Before Agents, Wait for the Model"
+        },
+        {
+          "slug": "same-day-model-adoption",
+          "title": "Same-Day Model Adoption",
+          "e": "🚀"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-06"
     }
   ]
 }
