@@ -1,0 +1,45 @@
+{
+  "slug": "seven-things-ai-coworker-needs-philipp-schmid-gemini",
+  "sections": [
+    {
+      "title": "The seven needs",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What are the seven coworker needs?",
+          "a": "**Brain, computer, playbooks, tools, credentials, house rules, schedule**."
+        },
+        {
+          "e": "💻",
+          "q": "What is the 'computer'?",
+          "a": "A **sandbox** where the agent saves artifacts and iterates."
+        }
+      ]
+    },
+    {
+      "title": "Hard parts",
+      "items": [
+        {
+          "e": "🔑",
+          "q": "How should credentials work?",
+          "a": "**Injected/rotated by a proxy**—not baked into the agent."
+        },
+        {
+          "e": "🪝",
+          "q": "What are house rules for?",
+          "a": "**Deterministic hooks/approvals** for what the agent may do alone."
+        }
+      ]
+    },
+    {
+      "title": "Product",
+      "items": [
+        {
+          "e": "📅",
+          "q": "What turns a chatbot into a coworker?",
+          "a": "**Triggers/schedule** plus its own computer, skills and tools—so you can leave and come back."
+        }
+      ]
+    }
+  ]
+}

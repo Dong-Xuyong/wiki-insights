@@ -1,0 +1,50 @@
+{
+  "slug": "old-prompts-making-claude-worse-lance-martin-anthropic",
+  "sections": [
+    {
+      "title": "Prompt debt",
+      "items": [
+        {
+          "e": "🧹",
+          "q": "What outdated habits should you drop?",
+          "a": "**Think step-by-step**, verification rituals, 'be maximally thorough', forced scratch pads."
+        },
+        {
+          "e": "⚔️",
+          "q": "Why are contradictory rules worse now?",
+          "a": "Frontier models **follow instructions tightly** and get **confused**—older models often ignored one rule."
+        }
+      ]
+    },
+    {
+      "title": "Cache and cost",
+      "items": [
+        {
+          "e": "💾",
+          "q": "What is the cache-read cost roughly?",
+          "a": "About **1/10** of base input tokens."
+        },
+        {
+          "e": "📉",
+          "q": "How much cost did harness cache fixes save?",
+          "a": "Up to **72%** with no meaningful quality loss."
+        }
+      ]
+    },
+    {
+      "title": "Evals to climb",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "How should you sample hard eval cases?",
+          "a": "From **first principles and production**—not only from **one model's failure valleys**."
+        },
+        {
+          "e": "🧗",
+          "q": "What happens with a well-structured eval?",
+          "a": "Claude can **hill-climb** on it when the distribution matches what you care about."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "chatgpt-5000-hours-15-minutes-simon-squibb",
+  "sections": [
+    {
+      "title": "Start here",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "What comes before the prompt?",
+          "a": "**Define the objective**—then give enough context."
+        },
+        {
+          "e": "🧭",
+          "q": "How does Squibb frame AI use?",
+          "a": "Same as a **dream/north star**—know the destination, then get the steps."
+        }
+      ]
+    },
+    {
+      "title": "Level up",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What should you save for reuse?",
+          "a": "Repeat workflows as **skills** (and schedule recurring prompts)."
+        },
+        {
+          "e": "🎙️",
+          "q": "Which underused ChatGPT mode do they push?",
+          "a": "**Voice** mode for fast back-and-forth."
+        }
+      ]
+    }
+  ]
+}

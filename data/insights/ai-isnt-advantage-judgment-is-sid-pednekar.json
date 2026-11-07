@@ -1,0 +1,45 @@
+{
+  "slug": "ai-isnt-advantage-judgment-is-sid-pednekar",
+  "sections": [
+    {
+      "title": "The gap",
+      "items": [
+        {
+          "e": "📊",
+          "q": "How uneven is enterprise AI impact?",
+          "a": "Only about **37%** see positive EBIT contribution; ~**6%** are high performers."
+        },
+        {
+          "e": "🎯",
+          "q": "What three pillars do leaders share?",
+          "a": "**Design the right problem**, **build shared capabilities**, **compound the advantage**."
+        }
+      ]
+    },
+    {
+      "title": "Judgment",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "What becomes scarce when AI is cheap?",
+          "a": "**Judgment**—picking problems and redesigning work, not more pilots."
+        },
+        {
+          "e": "🔄",
+          "q": "Automate vs redesign?",
+          "a": "High performers **redesign workflows** around judgment; laggards bolt AI onto old steps."
+        }
+      ]
+    },
+    {
+      "title": "Compounding",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "When someone learns a correction, what should happen?",
+          "a": "Feed it back into **tools/context** so the **system** learns, not only the individual."
+        }
+      ]
+    }
+  ]
+}

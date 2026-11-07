@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 464,
-  "insightsCount": 451,
-  "conceptCount": 3294,
+  "videoCount": 472,
+  "insightsCount": 459,
+  "conceptCount": 3315,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 106,
-    "systems": 29,
+    "agents": 110,
+    "systems": 30,
     "build": 60,
     "human": 22,
     "performance": 61,
     "mind": 42,
     "relationships": 69,
-    "other": 69
+    "other": 72
   },
   "videos": [
     {
@@ -38092,6 +38092,409 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-06"
+    },
+    {
+      "slug": "ai-isnt-advantage-judgment-is-sid-pednekar",
+      "title": "Your AI Isn't the Advantage. Your Judgment Is - Sid Pednekar",
+      "video_id": "C2-v6wkHXhY",
+      "platform": "youtube",
+      "url": "https://youtu.be/C2-v6wkHXhY",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "other",
+      "tags": [
+        "genai",
+        "judgment",
+        "career",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "judgment",
+        "career",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Judgment as Scarce Advantage",
+        "Visible AI Assumptions"
+      ],
+      "summary": "Sid Pednekar (AI/technology/data exec in asset management) asks: everyone has AI—who has the advantage? Only ~37% of surveyed enterprises see positive EBIT contribution; ~6% are high performers. Leaders differ on three pillars: (1) Design the right problem—invest deeply in a few high-value workflows and redesign work around judgment, don't spray pilots; (2) Build shared capabilities—standardize so wins compound across teams; (3) Compound the advantage—when someone learns a correction, feed it back into tools/context so the system learns, not only the individual. Winners don't just automate existing steps; they reimagine the job (e.g. analyst defines thesis and monitors refuting evidence vs faster summarization of the same reports).",
+      "key_insights": [
+        "judgment as scarce advantage: when AI is cheap, judgment and redesigned workflows are the edge.",
+        "visible ai assumptions: Related: keep humans deciding what good looks like."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "judgment-as-scarce-advantage",
+          "title": "Judgment as Scarce Advantage"
+        },
+        {
+          "slug": "visible-ai-assumptions",
+          "title": "Visible AI Assumptions"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "chatgpt-5000-hours-15-minutes-simon-squibb",
+      "title": "Give Me 15 Minutes, I'll Give You 5,000+ Hours Of ChatGPT Knowledge",
+      "video_id": "bGKU1xmaQvg",
+      "platform": "youtube",
+      "url": "https://youtu.be/bGKU1xmaQvg",
+      "duration_min": 14,
+      "creator": "simon-squibb",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "other",
+      "tags": [
+        "genai",
+        "money",
+        "productivity"
+      ],
+      "keywords": [
+        "genai",
+        "money",
+        "productivity",
+        "simon squibb",
+        "Define Objective Before AI",
+        "Prompt Debt Audit"
+      ],
+      "summary": "Simon Squibb with AI guest Sepehr compresses \"~5,000 hours\" of ChatGPT practice into a ~15-minute tip tour: define the objective before prompting, pick the right model, give enough context, use memory/skills, schedule recurring prompts, try voice mode, and generate creative assets. Framed around launching a business / AI literacy for employers. Always-ingest Simon Squibb; listicle with some lasting basics (objective-first, skills, schedule) but heavy promo for World's Biggest Business Competition and OneKit.",
+      "key_insights": [
+        "define objective before ai: start with the outcome, then give the model enough context.",
+        "prompt debt audit: Related: clear objectives beat ritual padding."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "define-objective-before-ai",
+          "title": "Define Objective Before AI"
+        },
+        {
+          "slug": "prompt-debt-audit",
+          "title": "Prompt Debt Audit"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "eth-3sat-broke-openai-model-fireship",
+      "title": "The one thing holding theoretical CS together just broke... kinda",
+      "video_id": "iw9SZgyahqg",
+      "platform": "youtube",
+      "url": "https://youtu.be/iw9SZgyahqg",
+      "duration_min": 7,
+      "creator": "fireship",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "systems",
+      "tags": [
+        "computer-science",
+        "ai",
+        "complexity"
+      ],
+      "keywords": [
+        "computer-science",
+        "ai",
+        "complexity",
+        "computer science",
+        "fireship",
+        "ETH Break Still Impractical",
+        "P vs NP and the Exponential Time Hypothesis"
+      ],
+      "summary": "Fireship covers a claim that an unnamed OpenAI model found a sub-exponential 3-SAT algorithm (~2^(n/√log n)), which would refute the exponential time hypothesis (ETH) that ~800 papers depend on. Explains 3-SAT / NP-completeness briefly, how the model used solution counting + independence tweaks + Hermite interpolation instead of search, and the practical caveat: the algorithm only beats brute force for absurdly large n (paper says beyond ~10^10,000)—so crypto isn't dead today. Always-ingest Fireship; dated CS/AI news overlapping the prior PrimeTime ETH explainer.",
+      "key_insights": [
+        "eth break still impractical: theoretical ETH break can be irrelevant at realistic n.",
+        "P vs NP and the Exponential Time Hypothesis: Related core complexity framing."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "eth-break-still-impractical",
+          "title": "ETH Break Still Impractical"
+        },
+        {
+          "slug": "p-vs-np-and-eth",
+          "title": "P vs NP and the Exponential Time Hypothesis",
+          "e": "🧮"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "experiential-agent-memory-sparsh-jain-centralagent",
+      "title": "Your AI Agent Keeps Making the Same Mistakes - Sparsh Jain, CentralAgent AI",
+      "video_id": "SUqQlvyI3N8",
+      "platform": "youtube",
+      "url": "https://youtu.be/SUqQlvyI3N8",
+      "duration_min": 15,
+      "creator": "ai-engineer",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "agents",
+        "memory",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "memory",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Agent Memory Markdown",
+        "Experiential Agent Memory",
+        "Factory Conversation Grading"
+      ],
+      "summary": "Sparsh Jain (Head of AI, CentralAgent AI) argues that dumping more context into agents is not the same as helping them learn. After two years with the same agent still repeating mistakes across people/sessions, his team rebuilt memory as an experiential system: short-term (session) vs long-term; long-term splits into fact-based and experiential notes. The evolution loop adds notes from new experiences, updates or deactivates old ones, and keeps inactive notes as the temporal record of how a judgment was reached (~10x performance gain claimed). Models are now strong enough to act as a verifier layer so the system can improve with less human-in-the-loop. Retrieval quality caps system performance—ambiguous entities (which \"home\"?) need disambiguation.",
+      "key_insights": [
+        "experiential agent memory: form/update/deactivate experience notes; keep inactive history.",
+        "Agent Memory Markdown: Related storage form; this talk is about learning dynamics.",
+        "factory conversation grading: Related: learn from past agent work."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-memory-markdown",
+          "title": "Agent Memory Markdown",
+          "e": "📝"
+        },
+        {
+          "slug": "experiential-agent-memory",
+          "title": "Experiential Agent Memory"
+        },
+        {
+          "slug": "factory-conversation-grading",
+          "title": "Factory Conversation Grading"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "old-prompts-making-claude-worse-lance-martin-anthropic",
+      "title": "Your Old Prompts Are Making Claude Worse - Lance Martin, Anthropic",
+      "video_id": "ys6YQ2yfBpM",
+      "platform": "youtube",
+      "url": "https://youtu.be/ys6YQ2yfBpM",
+      "duration_min": 64,
+      "creator": "ai-engineer",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "evals",
+        "agents",
+        "prompts",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "evals",
+        "agents",
+        "prompts",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Eval Sample From Principles",
+        "Instruction Hill-Climb for Agents",
+        "Prompt Caching",
+        "Prompt Debt Audit"
+      ],
+      "summary": "Lance Martin (Member of Technical Staff, Anthropic) shares simple fixes that often raise quality and cut cost so apps sit on the Pareto frontier instead of inside it. Themes: (1) Audit prompts—prompts accumulate debt like code; drop outdated habits (think step-by-step, verification rituals, \"be maximally thorough\", scratch-pad instructions) that frontier models no longer need and that can raise cost / confuse them; remove contradictory rules (earlier models ignored one rule; frontier models get stuck). Use Claude Code / API prompt audit skills. (2) Use the prompt cache—cache reads ~1/10 base token cost; customers saw up to 72% cost cuts with no meaningful quality loss just by fixing harness cache use. (3) Design evals Claude can climb—well-structured evals enable hill-climbing; sample hard/interesting cases from first principles and production, not only from one model's failure valleys (jagged intelligence → adversarial sampling bias). (4) Hill-climb without overfitting; promote online failures into offline evals carefully.",
+      "key_insights": [
+        "prompt debt audit: strip outdated prompting rituals and contradictory rules on frontier models.",
+        "Prompt Caching: Related: cache reads ~10× cheaper; harness misconfig leaves free money on the table.",
+        "eval sample from principles: don't build eval sets only from one model's failure valleys."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "eval-sample-from-principles",
+          "title": "Eval Sample From Principles"
+        },
+        {
+          "slug": "instruction-hill-climb-agents",
+          "title": "Instruction Hill-Climb for Agents",
+          "e": "📈"
+        },
+        {
+          "slug": "prompt-caching",
+          "title": "Prompt Caching",
+          "e": "💾"
+        },
+        {
+          "slug": "prompt-debt-audit",
+          "title": "Prompt Debt Audit"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "self-improving-agents-ben-holmes-warp",
+      "title": "Your AI Agent Is Hiding Its Mistakes From You - Ben Holmes, Warp",
+      "video_id": "pz74r-4dGfQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/pz74r-4dGfQ",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "evals",
+        "agents",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "evals",
+        "agents",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Factory Conversation Grading",
+        "Instruction Hill-Climb for Agents",
+        "LLM Judge Rubric Anatomy"
+      ],
+      "summary": "Ben Holmes (DevEx engineering lead, Warp) shows how to build self-improving agents: agents that review their own past work and open PRs to fix skills and config. Context is Warp Factories—open infrastructure for software factories that improve as part of the stack.\n\nCore loop: (1) collect every agent conversation with tool calls and outputs in one place; (2) score them with LLM-as-judge rubrics (redundant tests, verbosity, efficiency—pass/fail thresholds like 0.4); (3) run a meta-agent (e.g. Warp Skill Doctor) that finds failure patterns across sessions and opens pull requests to patch skills/factory config (example: triage skill missing sub-agent spawn config → wasted tool calls). Factory engineering / \"gardening\" is the meta-work of improving the system that drives the agents—not just the feature wheel.",
+      "key_insights": [
+        "factory conversation grading: grade past agent conversations with rubrics, then patch skills from the failures.",
+        "llm judge rubric anatomy: Related: keep rubrics succinct and grow them from real failures.",
+        "Agent as Judge: Related: agents judging other agent runs."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "factory-conversation-grading",
+          "title": "Factory Conversation Grading"
+        },
+        {
+          "slug": "instruction-hill-climb-agents",
+          "title": "Instruction Hill-Climb for Agents",
+          "e": "📈"
+        },
+        {
+          "slug": "llm-judge-rubric-anatomy",
+          "title": "LLM Judge Rubric Anatomy"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "seven-things-ai-coworker-needs-philipp-schmid-gemini",
+      "title": "7 Things Your AI Coworker Needs - Philipp Schmid, Google DeepMind",
+      "video_id": "EtZwTYahfek",
+      "platform": "youtube",
+      "url": "https://youtu.be/EtZwTYahfek",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "agents",
+      "tags": [
+        "genai",
+        "agents",
+        "gemini",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "agents",
+        "gemini",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Agent Identity and Credential Gateway",
+        "AI Coworker Seven Needs",
+        "Dedicated Machine Agent Sandbox"
+      ],
+      "summary": "Philipp Schmid (Google DeepMind) shows how to build an autonomous AI coworker for finance with Gemini and the Gemini API Managed Agents. He maps a coworker to seven needs: (1) brain (model), (2) computer/sandbox for artifacts, (3) playbooks/skills for domain workflows, (4) tools (built-in + MCP + local functions), (5) credentials injected/rotated by a network proxy (not baked into the agent), (6) house rules/hooks for deterministic approvals, (7) schedule/triggers for proactive work. Demo path: skills and files in the agent's sandbox, Workspace MCP (Sheets/Gmail), secure credential swap, hooks, and triggers—hire a digital employee rather than chat another chatbot.",
+      "key_insights": [
+        "ai coworker seven needs: brain, computer, playbooks, tools, credentials, house rules, schedule.",
+        "Agent Identity and Credential Gateway: Related: credentials via proxy, not in prompt.",
+        "Always-On Agent Anatomy: Related continuous-agent blueprint."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-identity-credential-gateway",
+          "title": "Agent Identity and Credential Gateway",
+          "e": "🔐"
+        },
+        {
+          "slug": "ai-coworker-seven-needs",
+          "title": "AI Coworker Seven Needs"
+        },
+        {
+          "slug": "dedicated-machine-agent-sandbox",
+          "title": "Dedicated Machine Agent Sandbox",
+          "e": "🏰"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-07"
+    },
+    {
+      "slug": "when-we-can-do-anything-ryo-lu-cursor",
+      "title": "当我们什么都能做，还知道自己想做什么吗？When We Can Do Anything, Do We Still Know What We Want? — Ryo Lu, ex-Cursor",
+      "video_id": "y9Sg--RDtks",
+      "platform": "youtube",
+      "url": "https://youtu.be/y9Sg--RDtks",
+      "duration_min": 24,
+      "creator": "ai-engineer",
+      "updated": "2026-11-07",
+      "created": "2026-11-07",
+      "section": "other",
+      "tags": [
+        "genai",
+        "design",
+        "judgment",
+        "habits",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "genai",
+        "design",
+        "judgment",
+        "habits",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Judgment as Scarce Advantage",
+        "Visible AI Assumptions"
+      ],
+      "summary": "Ryo Lu (former founding designer at Cursor) asks: when AI can build almost anything from a sentence, do we still know what we want? He frames the unease as more than job fear—when craft stops proving identity, judgment and taste become the scarce skill. Demo: ask AI to build a journal and it ships mood scores, streaks, reminders, weekly reports; the design decisions are hidden assumptions. Good tools make assumptions visible, keep changes small enough to try, and let you take a task back. Builders should involve the human more, not prove the tool can work without them.",
+      "key_insights": [
+        "visible ai assumptions: expose the defaults AI baked in so users can revise judgment.",
+        "judgment as scarce advantage: Related: when capability is cheap, knowing what you want is the edge."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "judgment-as-scarce-advantage",
+          "title": "Judgment as Scarce Advantage"
+        },
+        {
+          "slug": "visible-ai-assumptions",
+          "title": "Visible AI Assumptions"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-07"
     }
   ]
 }

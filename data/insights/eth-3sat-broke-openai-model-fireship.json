@@ -1,0 +1,35 @@
+{
+  "slug": "eth-3sat-broke-openai-model-fireship",
+  "sections": [
+    {
+      "title": "The claim",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What hypothesis may have broken?",
+          "a": "The **exponential time hypothesis (ETH)** for **3-SAT**."
+        },
+        {
+          "e": "🤖",
+          "q": "Who found the algorithm in the story?",
+          "a": "An unnamed **OpenAI** model (per the talk)."
+        }
+      ]
+    },
+    {
+      "title": "How / so what",
+      "items": [
+        {
+          "e": "∑",
+          "q": "What technique replaced plain search?",
+          "a": "**Solution counting**, independence tweaks, and **Hermite interpolation**."
+        },
+        {
+          "e": "🧱",
+          "q": "Why aren't you selling Bitcoin yet?",
+          "a": "It only beats brute force at absurd **n** (talk: >**10^10,000**)—theory ≠ today's crypto break."
+        }
+      ]
+    }
+  ]
+}

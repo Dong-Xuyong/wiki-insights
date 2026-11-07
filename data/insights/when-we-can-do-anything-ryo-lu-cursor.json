@@ -1,0 +1,45 @@
+{
+  "slug": "when-we-can-do-anything-ryo-lu-cursor",
+  "sections": [
+    {
+      "title": "The unease",
+      "items": [
+        {
+          "e": "❓",
+          "q": "What question does Ryo ask?",
+          "a": "When we can do **anything**, do we still know what we **want**?"
+        },
+        {
+          "e": "🪞",
+          "q": "What personal fear sits under job fear?",
+          "a": "If craft no longer proves identity, **what's special about me?**"
+        }
+      ]
+    },
+    {
+      "title": "Hidden defaults",
+      "items": [
+        {
+          "e": "📓",
+          "q": "What happens when you ask AI for a journal?",
+          "a": "It may ship **mood scores, streaks, reminders, weekly reports**—decisions you didn't choose."
+        },
+        {
+          "e": "👁️",
+          "q": "What should good tools do with those decisions?",
+          "a": "Make **assumptions visible**, keep changes **small**, let you **take the task back**."
+        }
+      ]
+    },
+    {
+      "title": "Builder stance",
+      "items": [
+        {
+          "e": "🤝",
+          "q": "What kind of tools does Ryo want?",
+          "a": "Ones that **involve you more**—not proof they can work without you."
+        }
+      ]
+    }
+  ]
+}

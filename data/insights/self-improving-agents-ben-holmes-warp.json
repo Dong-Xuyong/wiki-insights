@@ -1,0 +1,45 @@
+{
+  "slug": "self-improving-agents-ben-holmes-warp",
+  "sections": [
+    {
+      "title": "The factory loop",
+      "items": [
+        {
+          "e": "🏭",
+          "q": "What does a self-improving factory review?",
+          "a": "Every past agent **conversation with tool calls and outputs**."
+        },
+        {
+          "e": "📋",
+          "q": "How are sessions scored?",
+          "a": "**LLM-as-judge rubrics** (e.g. efficiency, verbosity, redundant tests) with pass/fail bounds."
+        }
+      ]
+    },
+    {
+      "title": "Closing the loop",
+      "items": [
+        {
+          "e": "🩺",
+          "q": "What does Skill Doctor do?",
+          "a": "Finds failure **patterns across sessions** and opens **PRs to patch skills/config**."
+        },
+        {
+          "e": "🔧",
+          "q": "Example fix from a graded session?",
+          "a": "Missing **sub-agent spawn config** in a triage skill → wasted tool calls."
+        }
+      ]
+    },
+    {
+      "title": "Mindset",
+      "items": [
+        {
+          "e": "🌱",
+          "q": "What is factory engineering?",
+          "a": "Meta-work to improve the **system that drives the agents**, not only the feature wheel."
+        }
+      ]
+    }
+  ]
+}

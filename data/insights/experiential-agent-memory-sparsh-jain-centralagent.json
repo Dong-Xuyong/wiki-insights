@@ -1,0 +1,45 @@
+{
+  "slug": "experiential-agent-memory-sparsh-jain-centralagent",
+  "sections": [
+    {
+      "title": "The failure",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What kept happening after years with the same agent?",
+          "a": "It **repeated the same mistakes** across sessions and teammates."
+        },
+        {
+          "e": "📚",
+          "q": "Why isn't more context enough?",
+          "a": "Past a point, more context **raises cost/latency** and can **hurt accuracy**."
+        }
+      ]
+    },
+    {
+      "title": "Experiential memory",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "How is long-term memory split?",
+          "a": "**Fact-based** memory and **experiential** memory (abstracted lessons)."
+        },
+        {
+          "e": "📝",
+          "q": "How do experience notes evolve?",
+          "a": "**Add/update/deactivate** notes; keep **inactive** ones as the judgment trail."
+        }
+      ]
+    },
+    {
+      "title": "Closing the loop",
+      "items": [
+        {
+          "e": "✅",
+          "q": "What new model capability helps the system self-improve?",
+          "a": "Models strong enough to act as a **verifier** layer with less human review."
+        }
+      ]
+    }
+  ]
+}
