@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 472,
-  "insightsCount": 459,
-  "conceptCount": 3315,
+  "videoCount": 475,
+  "insightsCount": 462,
+  "conceptCount": 3322,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 110,
+    "agents": 112,
     "systems": 30,
     "build": 60,
     "human": 22,
     "performance": 61,
     "mind": 42,
     "relationships": 69,
-    "other": 72
+    "other": 73
   },
   "videos": [
     {
@@ -38495,6 +38495,156 @@
       ],
       "conceptCount": 2,
       "added": "2026-11-07"
+    },
+    {
+      "slug": "dont-vibe-code-agent-infra-akshat-bubna-modal",
+      "title": "Don't Vibe Code Your Agent Infrastructure - Akshat Bubna, Modal",
+      "video_id": "_0SQh8a1Osk",
+      "platform": "youtube",
+      "url": "https://youtu.be/_0SQh8a1Osk",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-08",
+      "created": "2026-11-08",
+      "section": "other",
+      "tags": [
+        "agents",
+        "infrastructure",
+        "security",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "infrastructure",
+        "security",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Agent Sandbox with Sidecar Proxy",
+        "Brain–Hands Credential Separation",
+        "Nested Agent Sandbox"
+      ],
+      "summary": "Akshat Bubna (CTO, Modal) walks through what agents need from infrastructure, starting with a spreadsheet where every cell is backed by its own agent (Heavy AI). Each agent runs in a sandbox that can now hold several containers: the harness (agent loop, inference calls) is separated from where tool calls run, with a sidecar alongside; shared volumes let agents in a row collaborate; and thousands of sandboxes must spin up and down fast. Emerging needs: fast consistent file systems for collaboration and self-improving memory (\"dreaming\"); network control beyond domain allow-lists—users write lightweight sidecar proxies with path- and operation-level rules (Ramp); credential injection so the agent never sees secrets it could exfiltrate; and observability (logs, metrics, GPU utilization, budget) the agent itself can read to iterate. The shift: from homogeneous \"cattle\" deployments to dynamic swarms that snapshot and spawn environments on demand.",
+      "key_insights": [
+        "agent sandbox sidecar proxy: split harness from tools, sidecar policy proxy, injected credentials, agent-readable observability.",
+        "nested agent sandbox: Related: isolated namespace, pod sandbox, egress proxy."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-sandbox-sidecar-proxy",
+          "title": "Agent Sandbox with Sidecar Proxy"
+        },
+        {
+          "slug": "brain-hands-credential-separation",
+          "title": "Brain–Hands Credential Separation"
+        },
+        {
+          "slug": "nested-agent-sandbox",
+          "title": "Nested Agent Sandbox"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-08"
+    },
+    {
+      "slug": "financial-agent-show-its-work-anirudh-fieldguide",
+      "title": "Your Financial Agent Needs to Show Its Work - Anirudh Veeraragavan, Fieldguide",
+      "video_id": "gdzsJZJ6DDs",
+      "platform": "youtube",
+      "url": "https://youtu.be/gdzsJZJ6DDs",
+      "duration_min": 14,
+      "creator": "ai-engineer",
+      "updated": "2026-11-08",
+      "created": "2026-11-08",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "evals",
+        "security",
+        "finance",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "evals",
+        "security",
+        "finance",
+        "ai-engineering",
+        "ai engineering",
+        "ai engineer",
+        "Decision Assurance Controls",
+        "Evaluate the Evaluators"
+      ],
+      "summary": "Anirudh Veeraragavan (lead security engineer, Fieldguide, agentic audit) argues that in high-stakes domains the right answer isn't enough: an inspector asks *how did you arrive at this decision?*, and \"the model said so\" won't do. Walking a bank-reconciliation agent through a fictional audit, he lays out four decision assurance controls: (1) authorization is state-aware—an agent may draft unreviewed rows but must never overwrite what a human already reviewed; (2) execution control—keep a step-level run record so a rerun years later can be diffed step by step; (3) evidence provenance—a citation is an identity (document ID, version, content hash, uploader), not a filename string, so you can enforce rules like \"bank-sourced only\"; (4) evaluation integrity—audit the gold set itself: of 9 misses at 97%, 4 were wrong labels, and 12 \"passes\" were stale after methodology changes. Escalate to humans only on exceptional cases, make them easy to verify, not easy to approve (automation bias). Defensibility is an AND: skip one control and things slip through.",
+      "key_insights": [
+        "decision assurance controls: authorization, run records, citation identity, audited gold sets, sparse escalation.",
+        "Evaluate the Evaluators: Related: gold data can punish a right agent or reward a wrong one."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "decision-assurance-controls",
+          "title": "Decision Assurance Controls"
+        },
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-08"
+    },
+    {
+      "slug": "lead-sets-ceiling-agent-teams-nouha-dziri-cohere",
+      "title": "How to Get Frontier Coding Results at 70% Lower Cost - Nouha Dziri, Cohere",
+      "video_id": "maitMe9HCvw",
+      "platform": "youtube",
+      "url": "https://youtu.be/maitMe9HCvw",
+      "duration_min": 32,
+      "creator": "ai-engineer",
+      "updated": "2026-11-08",
+      "created": "2026-11-08",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "cost",
+        "evals",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "multi-agent",
+        "cost",
+        "evals",
+        "ai-engineering",
+        "multi agent",
+        "ai engineering",
+        "ai engineer",
+        "Lead Sets the Ceiling, Workers Set the Price",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "Nouha Dziri (senior research scientist, Cohere) frames coding-agent team design as a compute allocation problem: starting from a solo agent, where does the next inference dollar buy the most reward? Using a minimal hierarchical harness (lead + workers via a delegate tool, shared bash workspace) on ProgramBench (reverse-engineer a binary) and Commit0, she finds: a team beats a solo agent by ~10 points but at 4-7x the cost; a blocking lead beats an async lead (async leads build on guesses and ignore late worker reports) unless the prompt tells the lead how to coordinate; extra workers pay off most at the bottleneck stage (planning/exploration on ProgramBench—same reward as full delegation at half the cost, ~1.6x reward per dollar; implementation on Commit0). Swapping workers to a cheap model keeps reward at ~60% lower cost, but cheap workers can't rescue a weak lead: the lead sets the ceiling, the workers set the price. 16 cheap planners were 70% cheaper than workers-at-every-stage. Peer messaging was mostly status reports to the lead (84% worker→lead) and added nothing—or hurt weak teams.",
+      "key_insights": [
+        "lead sets ceiling workers set price: strong lead + cheap workers, allocated to the bottleneck stage, one early delegation burst.",
+        "Sub-Agents and Agent Teams: Related: parallel research during planning beats multi-step handoffs."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "lead-sets-ceiling-workers-set-price",
+          "title": "Lead Sets the Ceiling, Workers Set the Price"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-08"
     }
   ]
 }

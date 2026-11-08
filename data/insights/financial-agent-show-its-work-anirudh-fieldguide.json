@@ -1,0 +1,50 @@
+{
+  "slug": "financial-agent-show-its-work-anirudh-fieldguide",
+  "sections": [
+    {
+      "title": "Why correct isn't enough",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "What does an inspector actually ask an audit agent?",
+          "a": "Not whether it was right, but **how it arrived at the decision**—\"the model said so\" won't cut it."
+        }
+      ]
+    },
+    {
+      "title": "Four controls",
+      "items": [
+        {
+          "e": "🔐",
+          "q": "What's state-aware authorization?",
+          "a": "The agent may **draft unreviewed rows** but must **never overwrite** what a human already reviewed."
+        },
+        {
+          "e": "🧾",
+          "q": "Why keep step-level run records?",
+          "a": "So a rerun years later can be **diffed step by step** to show you were right, not lucky."
+        },
+        {
+          "e": "🪪",
+          "q": "What makes a citation trustworthy?",
+          "a": "Treat it as **identity**: document ID, version, **content hash** and source—not a filename string."
+        },
+        {
+          "e": "🥇",
+          "q": "What did auditing the gold set reveal?",
+          "a": "At 97%, **4 of 9 misses** were wrong labels and **12 passes** were stale—the score hid both."
+        }
+      ]
+    },
+    {
+      "title": "Human escalation",
+      "items": [
+        {
+          "e": "🚨",
+          "q": "How should agents escalate to humans?",
+          "a": "Only on **exceptions**, with the discrepancy spelled out—**easy to verify, not easy to approve**."
+        }
+      ]
+    }
+  ]
+}

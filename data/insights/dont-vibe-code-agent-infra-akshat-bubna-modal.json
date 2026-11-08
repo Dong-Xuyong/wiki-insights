@@ -1,0 +1,45 @@
+{
+  "slug": "dont-vibe-code-agent-infra-akshat-bubna-modal",
+  "sections": [
+    {
+      "title": "Sandbox layout",
+      "items": [
+        {
+          "e": "📦",
+          "q": "Why separate the harness from where tools run?",
+          "a": "For **security and isolation**—the agent loop and inference live apart from **untrusted tool code**."
+        },
+        {
+          "e": "🗂️",
+          "q": "What do shared volumes give agents?",
+          "a": "A place to **collaborate** and store **self-improving memory** as plain files."
+        }
+      ]
+    },
+    {
+      "title": "Network and secrets",
+      "items": [
+        {
+          "e": "🚧",
+          "q": "Why aren't domain allow-lists enough?",
+          "a": "Teams want **path- and operation-level rules**, so they write a lightweight **sidecar proxy**."
+        },
+        {
+          "e": "🔑",
+          "q": "How should agents use credentials?",
+          "a": "**Inject them at the proxy** so the agent never sees secrets it could exfiltrate."
+        }
+      ]
+    },
+    {
+      "title": "Observability",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What observability does an agent need?",
+          "a": "**Logs, metrics, GPU use and budget** it can read itself to debug and iterate."
+        }
+      ]
+    }
+  ]
+}

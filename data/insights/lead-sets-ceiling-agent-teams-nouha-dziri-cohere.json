@@ -1,0 +1,50 @@
+{
+  "slug": "lead-sets-ceiling-agent-teams-nouha-dziri-cohere",
+  "sections": [
+    {
+      "title": "Team vs solo",
+      "items": [
+        {
+          "e": "💸",
+          "q": "Does a team of coding agents beat a solo agent?",
+          "a": "Yes, by ~**10 points**, but at **4-7x the cost**—so treat it as a compute allocation choice."
+        },
+        {
+          "e": "⏳",
+          "q": "Why did async leads underperform blocking leads?",
+          "a": "They **built on guesses** before worker reports arrived, then ignored or redid the work—unless told **when to wait**."
+        }
+      ]
+    },
+    {
+      "title": "Where the dollar goes",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "Where do extra workers pay off most?",
+          "a": "At the **bottleneck stage**: planning/exploration on ProgramBench, implementation on Commit0."
+        },
+        {
+          "e": "💥",
+          "q": "How should the lead delegate?",
+          "a": "In **one early burst** of discovery—delegating all the way through added ~830 calls and **no reward**."
+        }
+      ]
+    },
+    {
+      "title": "Models and messaging",
+      "items": [
+        {
+          "e": "👑",
+          "q": "What's the rule for mixing models?",
+          "a": "**The lead sets the ceiling, the workers set the price**—strong lead, cheap workers."
+        },
+        {
+          "e": "📉",
+          "q": "Did worker-to-worker messaging help?",
+          "a": "No: **84%** of messages went to the lead, and chatter **hurt weaker teams** by 4-7 points."
+        }
+      ]
+    }
+  ]
+}
