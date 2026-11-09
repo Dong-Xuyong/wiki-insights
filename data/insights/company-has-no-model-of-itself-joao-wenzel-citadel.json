@@ -1,0 +1,60 @@
+{
+  "slug": "company-has-no-model-of-itself-joao-wenzel-citadel",
+  "sections": [
+    {
+      "title": "The problem",
+      "items": [
+        {
+          "e": "🍉",
+          "q": "What's a watermelon project?",
+          "a": "**Green on the outside, red on the inside**—the deck says on track, the evidence doesn't."
+        },
+        {
+          "e": "🔍",
+          "q": "Why doesn't plain RAG answer 'is this project on track?'",
+          "a": "It **repeats the green slide** and a few Slack messages without weighing evidence."
+        }
+      ]
+    },
+    {
+      "title": "State estimator loop",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "What robotics idea does the company model borrow?",
+          "a": "A **state estimator**: beliefs that get fuzzier until **new evidence** collapses them."
+        },
+        {
+          "e": "⏳",
+          "q": "How long do project facts last?",
+          "a": "They have a **half-life**: half of delivery dates moved within **2 months**, 90% to later."
+        },
+        {
+          "e": "📡",
+          "q": "A Slack channel goes quiet—what does it mean?",
+          "a": "Treat it as a **faulty sensor, not a zero**."
+        },
+        {
+          "e": "📚",
+          "q": "Why never rewrite last month's record?",
+          "a": "Append-only history lets you **grade beliefs** against what happened next."
+        }
+      ]
+    },
+    {
+      "title": "Using it",
+      "items": [
+        {
+          "e": "🗣️",
+          "q": "Where should leadership meetings start?",
+          "a": "Where **the deck and the evidence disagree**."
+        },
+        {
+          "e": "⚖️",
+          "q": "When should the model apply an update by itself?",
+          "a": "When it's **sure and stakes are low**; wait if unsure, **ask the right human** if stakes are high."
+        }
+      ]
+    }
+  ]
+}

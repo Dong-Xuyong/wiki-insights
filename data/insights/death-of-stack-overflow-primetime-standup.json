@@ -1,0 +1,55 @@
+{
+  "slug": "death-of-stack-overflow-primetime-standup",
+  "sections": [
+    {
+      "title": "Rise and fall",
+      "items": [
+        {
+          "e": "📈",
+          "q": "How big was Stack Overflow at its peak?",
+          "a": "About **207,000 new questions a month** in March 2014."
+        },
+        {
+          "e": "📉",
+          "q": "How many new questions did it get in September 2026?",
+          "a": "Just **966**—down about **99.5%** from peak."
+        },
+        {
+          "e": "💰",
+          "q": "What happened to its ownership and data?",
+          "a": "Sold for **$1.8B** to private equity in 2021, then **licensed Q&A data** to Google and OpenAI in 2024."
+        }
+      ]
+    },
+    {
+      "title": "Community era",
+      "items": [
+        {
+          "e": "🏅",
+          "q": "Why did developers farm reputation?",
+          "a": "A high score in a niche tag was **a lever to get a job** and network."
+        },
+        {
+          "e": "😬",
+          "q": "Why did few people ask questions?",
+          "a": "The **bar was high**—duplicate checks made asking scary."
+        }
+      ]
+    },
+    {
+      "title": "Lasting lesson",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "What did Prime's favourite Vim answer teach?",
+          "a": "Learn the **composable building blocks** instead of memorising **thousands of leaf shortcuts**."
+        },
+        {
+          "e": "🔎",
+          "q": "How do you apply it to new topics?",
+          "a": "Ask the question **one level deeper** to find the primitives."
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 475,
-  "insightsCount": 462,
-  "conceptCount": 3322,
+  "videoCount": 482,
+  "insightsCount": 469,
+  "conceptCount": 3342,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 112,
+    "agents": 117,
     "systems": 30,
     "build": 60,
     "human": 22,
     "performance": 61,
     "mind": 42,
-    "relationships": 69,
-    "other": 73
+    "relationships": 70,
+    "other": 74
   },
   "videos": [
     {
@@ -38645,6 +38645,394 @@
       ],
       "conceptCount": 2,
       "added": "2026-11-08"
+    },
+    {
+      "slug": "agents-refactored-my-codebase-keiji-kanazawa",
+      "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code. — Keiji Kanazawa, Microsoft",
+      "video_id": "6TjFjHPjVH0",
+      "platform": "youtube",
+      "url": "https://youtu.be/6TjFjHPjVH0",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "coding-agents",
+        "rubrics",
+        "llm-wiki",
+        "evals"
+      ],
+      "keywords": [
+        "agents",
+        "coding-agents",
+        "rubrics",
+        "llm-wiki",
+        "evals",
+        "coding agents",
+        "llm wiki",
+        "ai engineer",
+        "Benchmark Integrity Failures",
+        "Instruction Hill-Climb for Agents",
+        "Karpathy LLM Wiki",
+        "Rubric Hill-Climb Loop"
+      ],
+      "summary": "Keiji Kanazawa (product manager, Microsoft, works with OpenAI and Anthropic on model delivery) built a personal LLM wiki: skills to download and transcribe podcasts and YouTube, crawl X threads, summarise links from email, plus agentic workflows (deep research, daily self-reflection on his Claude Code usage). He had Claude Code and Codex take turns refactoring it into a real agent runtime for three weeks. When he finally read the code, the constructs had plausible names but weren't what they claimed: \"skills\" had no SKILL.md, \"agents\" didn't run on an agent SDK, skills and actions were the same thing, no traces existed for error analysis, the daily reflection agent had been producing empty output, and Codex had wired unit tests to production inference, burning ~5x his weekly token budget in a day.\n\nHe started fresh with new specs plus goal rubrics, ran a bake-off of four agent frameworks (Claude Agent SDK, Codex, Copilot CLI, Pi), and rebuilt features. For a \"video dive\" agent (keyframes, blackboard equations, explanations interleaved on a canvas) he used a loop: agents write the rubric, agents hill-climb toward it, and he iterates the rubric whenever the output isn't what he wants. He caught agents overfitting the rubric to one video; telling them not to game it made the system generalise and score higher on everything. Claude and Codex also run adversarial reviews of each other's code for several rounds. He stays on the \"don't read every line\" end of the spectrum, but owns the goal and the rubric.",
+      "key_insights": [
+        "rubric hill climb loop: agent-written rubric → hill-climb → human edits the rubric; test on held-out examples to catch rubric gaming.",
+        "Plausible construct names hide fake implementations—spot-check the code and traces.",
+        "Keep tests off production inference; watch token spend alerts.",
+        "Cross-model adversarial review catches what one agent approves."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "benchmark-integrity-failures",
+          "title": "Benchmark Integrity Failures",
+          "e": "🔑"
+        },
+        {
+          "slug": "instruction-hill-climb-agents",
+          "title": "Instruction Hill-Climb for Agents",
+          "e": "📈"
+        },
+        {
+          "slug": "karpathy-llm-wiki",
+          "title": "Karpathy LLM Wiki",
+          "e": "📚"
+        },
+        {
+          "slug": "rubric-hill-climb-loop",
+          "title": "Rubric Hill-Climb Loop"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "claude-code-missed-800k-alixpartners",
+      "title": "Claude Code Looked Right but Missed $800K - Natalia Connolly & Kevin Madura, AlixPartners",
+      "video_id": "u7fsyrXsPBE",
+      "platform": "youtube",
+      "url": "https://youtu.be/u7fsyrXsPBE",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "claude-code",
+        "data-extraction",
+        "context",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "claude-code",
+        "data-extraction",
+        "context",
+        "ai-engineering",
+        "claude code",
+        "data extraction",
+        "ai engineering",
+        "ai engineer",
+        "Agent Verification",
+        "Cite, Don't Write, Numbers",
+        "Structure Data Before the Agent"
+      ],
+      "summary": "Natalia Connolly and Kevin Madura (AI and data team, AlixPartners) put Claude Code on a post-merger procurement analysis: hundreds of vendors, 40,000+ contract documents and unlinked databases. Claude's first answers looked complete and well formatted, but checked against the warehouse the total contract value was off by ~$800K (an orphan amendment not linked to its parent) and the act-by date was wrong (Dec 1 instead of Nov 1—it used the termination clause instead of the renewal clause, so the contract would have auto-renewed).\n\nTheir fix was to structure the data before the agent touches it: a two-week, five-stage pipeline (OCR/document intelligence, classification MSA/amendment/NDA, terms/rates/spend extraction handling page-spanning tables, mapping services to spend categories), with page images run through DSPy into structured output. Then Claude builds custom tools (get rate card page, get vendor spend) that embed business logic in code rather than prompts—e.g. amendments that *restate* total contract value must not be summed. Lessons: return informative errors on access failures (otherwise the agent treats a blocked lookup as a zero invoice); dispatch parallel agents per savings lever, then deduplicate findings in a prescriptive DSPy workflow; and feed live business context (initiatives already underway) so recommendations aren't dead on arrival.",
+      "key_insights": [
+        "structure data before agent: spend tokens up front on extraction and structure so the agent doesn't rediscover the environment.",
+        "Encode gotchas in tools and views, not just prompts.",
+        "A silent access error looks like a real zero to an agent—make failures loud.",
+        "Parallel analyst agents need a deterministic dedupe/reconciliation step.",
+        "\"Context is still king\"—business context isn't in the documents."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "cite-dont-write-numbers",
+          "title": "Cite, Don't Write, Numbers",
+          "e": "🔢"
+        },
+        {
+          "slug": "structure-data-before-agent",
+          "title": "Structure Data Before the Agent"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "company-has-no-model-of-itself-joao-wenzel-citadel",
+      "title": "Your Company Has No Model of Itself. Agents Can Build One - Joao Wenzel, Citadel Securities",
+      "video_id": "jDwc0aXTAFg",
+      "platform": "youtube",
+      "url": "https://youtu.be/jDwc0aXTAFg",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "memory",
+        "retrieval",
+        "enterprise-context"
+      ],
+      "keywords": [
+        "agents",
+        "memory",
+        "retrieval",
+        "enterprise-context",
+        "enterprise context",
+        "ai engineer",
+        "Agent Memory Markdown",
+        "Enterprise State Estimator",
+        "Karpathy LLM Wiki"
+      ],
+      "summary": "Joao Wenzel (Citadel Securities) describes building an institutional memory layer—a \"world model\" of the company that agents can use to reason about strategy: where we stand, what happens next, how we got here. Top-down sources (decks, strategy docs, status reports) are tidy but spun—\"watermelon projects\", green outside, red inside; bottom-up sources (Slack, meeting notes, code changes, agent session traces) are noisy but full of signal. Plain RAG fails: asked if a project is on track, it happily repeats a green slide and a couple of Slack messages.\n\nBorrowing from robotics, he treats the company model as a state estimator with a loop: update (each month, combine last month's record with new evidence—e.g. parse slide XML *and* a vision model's read—never rewriting past months, so you can eval later), age (every fact has a half-life: over 3 years, half of delivery dates changed within 2 months and 90% slipped later), observe (weigh source trust and agreement between \"sensors\"; a channel going quiet is a faulty sensor, not zero), grade (compare expected vs what actually happened), and correct (people steer the records). Models propose updates; code and people decide what's written. Uses: start leadership meetings where the deck and the evidence disagree, weekly \"what stuck / what went quiet\" reads, and a shared context layer for every agent. Open problems: entity resolution across systems with no canonical id; when to auto-apply vs wait vs ask a human, by stakes and confidence.",
+      "key_insights": [
+        "enterprise state estimator: model beliefs with age-based decay, source trust and cross-sensor agreement—not a flat index.",
+        "Distinguish what was reported from what the evidence shows.",
+        "Append-only monthly records make the model evaluable against what happened next.",
+        "Missing signal ≠ zero."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-memory-markdown",
+          "title": "Agent Memory Markdown",
+          "e": "📝"
+        },
+        {
+          "slug": "enterprise-state-estimator",
+          "title": "Enterprise State Estimator"
+        },
+        {
+          "slug": "karpathy-llm-wiki",
+          "title": "Karpathy LLM Wiki",
+          "e": "📚"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "death-of-stack-overflow-primetime-standup",
+      "title": "The Death of Stackoverlow | TheStandup",
+      "video_id": "Bxv1_Nk1k5o",
+      "platform": "youtube",
+      "url": "https://youtu.be/Bxv1_Nk1k5o",
+      "duration_min": 26,
+      "creator": "the-primetime",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "other",
+      "tags": [
+        "programming",
+        "developer-community",
+        "ai-impact",
+        "learning"
+      ],
+      "keywords": [
+        "programming",
+        "developer-community",
+        "ai-impact",
+        "learning",
+        "developer community",
+        "ai impact",
+        "the primetime",
+        "Learn Building Blocks, Not Leaves"
+      ],
+      "summary": "On The Standup (The PrimeTime with Casey Muratori and TJ/Trash), Prime walks through the rise and collapse of Stack Overflow. Launched in 2008 by Jeff Atwood and Joel Spolsky as a free Q&A site with reputation points, it peaked around March 2014 at ~207,000 new questions a month, grew to 183 Stack Exchange sites and 24 million questions, and sold for $1.8B to private equity (Prosus) in 2021. After ChatGPT arrived, moderators struck over AI bans, layoffs followed, and in 2024 the owners licensed the Q&A data to Google and OpenAI, suspending users who deleted answers in protest. New questions fell to ~5,000 in September 2025 and 966 in September 2026—down ~99.5% from peak. Much of the episode is nostalgia: farming reputation in niche tags to network and land jobs, how hard it was to ask a question without getting closed as a duplicate, and Prime's question deleted for double entendres.\n\nThe one lasting lesson Prime highlights is a famous Vim answer: people memorise thousands of leaf-node shortcuts instead of learning the composable building blocks (the language of operators and motions) that generate them—an approach he applies to programming in general.",
+      "key_insights": [
+        "learn building blocks not leaves: learn the composable primitives one level up instead of memorising leaf cases.",
+        "Stack Overflow's question volume shows how fast AI chat replaced community Q&A.",
+        "Public contributions can end up as licensed AI training data."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "learn-building-blocks-not-leaves",
+          "title": "Learn Building Blocks, Not Leaves"
+        }
+      ],
+      "conceptCount": 1,
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "engineering-agency-out-of-happy-path-matthew-jewkes",
+      "title": "Engineering Agency out of the Happy Path — Matthew Jewkes, Standard Cybernetics",
+      "video_id": "wWisOHEcMPE",
+      "platform": "youtube",
+      "url": "https://youtu.be/wWisOHEcMPE",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "automation",
+        "evals",
+        "ai-leadership"
+      ],
+      "keywords": [
+        "agents",
+        "automation",
+        "evals",
+        "ai-leadership",
+        "ai leadership",
+        "ai engineer",
+        "Case Routing for Full Automation",
+        "Eval Error Analysis (Open and Axial Coding)",
+        "Human-in-the-Loop vs AFK Tasks"
+      ],
+      "summary": "Matthew Jewkes (Standard Cybernetics; previously founded a biopharma deal-enablement company sold to Clarivate in 2023) argues that as raw white-collar output gets cheap, the scarce resource is expert judgment and attention—and agent notifications on a leader's phone often waste it. His answer is full automations: take humans out of the happy path entirely, keep them for exceptions. Full automations are legible (input → output), encapsulate complexity and are organisationally familiar. AI agency is used *around* the automation to pre-filter inputs: does this task match the happy path? Is it adversarial? Is it business-critical? Escalate the rest.\n\nCase study: automating indexing and relationships across Clarivate's drug-development corpus (tens of thousands of tasks a month). A research-agent approach hit ~83%. Bringing experts pre-filled eval examples (not blank spreadsheets) revealed three buckets: undecided/contentious cases where experts disagree, rare critical errors, and 3-5% exceptions (genuinely new science). They spent as much time on case routing as on accuracy: unusual → describe, categorise, skip; critical → heavily tested pipeline; unsure → human. On the clean critical set they got to ~95% with standard methods and to three and a half nines by hill-climbing over ~1,000 evals, deploying only after a random sample beat historic human work. The routed \"exhaust\" organises experts' attention: few critical reviews, ambiguous work they can freeze, and clustered exceptions that become leading indicators of demand. Pick scaled processes with material ROI and written specs; avoid automating subjective judgment. Biggest tricks: read-and-write evals, and build a thousand evals and expect to read them.",
+      "key_insights": [
+        "case routing full automation: route undecided, exception and critical cases out of the happy path before chasing accuracy.",
+        "Bring experts filled-in examples to react to, not blank eval sheets.",
+        "95% → 99.95% is expensive; justify with seven-figure processes and customer pain.",
+        "Exceptions, bucketed, are a signal for what to build next."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "case-routing-full-automation",
+          "title": "Case Routing for Full Automation"
+        },
+        {
+          "slug": "eval-error-analysis-open-axial-coding",
+          "title": "Eval Error Analysis (Open and Axial Coding)"
+        },
+        {
+          "slug": "human-in-the-loop-vs-afk-tasks",
+          "title": "Human-in-the-Loop vs AFK Tasks",
+          "e": "⌨️"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "ramp-tests-bookkeeping-agent-ryan-stevens",
+      "title": "How Ramp Tests Its AI Bookkeeping Agent Before Customers Do - Ryan Stevens, Ramp",
+      "video_id": "WJTQBENv0KI",
+      "platform": "youtube",
+      "url": "https://youtu.be/WJTQBENv0KI",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "agents",
+      "tags": [
+        "evals",
+        "agents",
+        "synthetic-data",
+        "benchmarks",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "evals",
+        "agents",
+        "synthetic-data",
+        "benchmarks",
+        "ai-engineering",
+        "synthetic data",
+        "ai engineering",
+        "ai engineer",
+        "Capability vs Regression Evals",
+        "Experiential Agent Memory",
+        "Synthetic World Backtest Evals"
+      ],
+      "summary": "Ryan Stevens (head of applied sciences, Ramp) explains how Ramp built end-to-end evals for Stacks, its AI bookkeeping agent, before it had enough users. Step one is breaking the bookkeeper's job into discrete tasks (reconciliation, data entry, variance analysis, schedules/accruals) and defining what success looks like by sitting with real bookkeepers. Without users you need simulation: Ramp (with Mercor) built synthetic businesses—a full ERP, vendor list, AP ledger and documents per company—called worlds. Each task in a world has 10-20 end-state criteria; they grade the final output (right, cheap, fast), not the trajectory. The eval build took 4-6 months before launch.\n\nMetrics: accuracy (partial credit per criterion) vs pass@k (all-or-nothing), which matters where an error kills trust, like accounting. Frontier models score high accuracy but low pass@1, so the benchmark isn't saturated and harness work still pays. Failure analysis showed reasoning failures dominate, not information gathering. Many experiments failed—including GEPA-style text-space auto-tuning of skills (\"don't think auto-research will solve your bad agent problem\"). What worked: skill ablation (leave-one-out to find skills to delete or compress) and trajectory-distilled memory tested with roll-forward worlds (run a task, write memory, rerun the next period's task reading it)—one of the biggest gains. Instead of CI gating on noisy agentic evals, Ramp runs scheduled regression suites with a background agent that triages failures and posts to Slack.",
+      "key_insights": [
+        "synthetic world backtest evals: synthetic worlds + end-state criteria = replayable backtests for agents before you have users.",
+        "Report both accuracy and pass@k; use pass@k when one wrong step destroys trust.",
+        "Ablate skills like ML features; delete the ones that don't move the score.",
+        "Test memory systems explicitly with roll-forward worlds.",
+        "Prefer scheduled regression runs + an agent triaging diffs over CI gates on non-deterministic evals."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals"
+        },
+        {
+          "slug": "experiential-agent-memory",
+          "title": "Experiential Agent Memory",
+          "e": "🧠"
+        },
+        {
+          "slug": "synthetic-world-backtest-evals",
+          "title": "Synthetic World Backtest Evals"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-09"
+    },
+    {
+      "slug": "why-nobody-has-close-friends-vinh-giang-mark-manson",
+      "title": "Why Nobody Has Close Friends Anymore",
+      "video_id": "uxSQqPcayzk",
+      "platform": "youtube",
+      "url": "https://youtu.be/uxSQqPcayzk",
+      "duration_min": 31,
+      "creator": "vinh-giang",
+      "updated": "2026-11-09",
+      "created": "2026-11-09",
+      "section": "relationships",
+      "tags": [
+        "relationships",
+        "loneliness",
+        "friendship",
+        "communication"
+      ],
+      "keywords": [
+        "relationships",
+        "loneliness",
+        "friendship",
+        "communication",
+        "vinh giang",
+        "Couple Friends Social Support",
+        "Fast Friends Disclosure",
+        "Friendship = Proximity + Frequency"
+      ],
+      "summary": "Vinh Giang talks with Mark Manson about the loneliness epidemic. In the 1980s the most common answer to \"how many people would you trust with a personal secret?\" was three; about ten years ago it was zero. Manson's causes: screens and convenience (citing David Brooks, much of social life was the product of friction—the bank teller, the errand—and apps removed those micro-contacts), kids playing less unsupervised so they never practise social risk, and rising distrust of strangers despite falling crime (fear-driven media). Fragmented feeds also removed a shared culture to talk about. Vinh adds that people \"don't know what to say\" because they never practised.\n\nWhat works: make specific calendar commitments (\"next Sunday, lunch, I'll pick the place\"—\"we should get together sometime\" is how friendships die) and join recurring activities (a weekly pottery class puts you with the same people). Friendship research boils down to proximity, frequency of contact, and—a distant third—things in common; people get it backwards. Find common ground by asking *why* someone loves their thing. Lower expectations: a golf or surf buddy can just be that, and those low-expectation friendships often last longest. Deepen with vulnerability—go first, since sharing also makes *you* feel connected—and non-judgment: people now cut off friends and family too quickly in the name of boundaries; relationships go through seasons.",
+      "key_insights": [
+        "friendship proximity frequency: proximity and frequency beat shared interests.",
+        "Put plans on the calendar with a date and place.",
+        "Go first with vulnerability to give others permission.",
+        "Don't overdo \"cut people off\" boundaries; let relationships have seasons."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "couple-friends-social-support",
+          "title": "Couple Friends Social Support",
+          "e": "🍻"
+        },
+        {
+          "slug": "fast-friends-disclosure",
+          "title": "Fast Friends Disclosure",
+          "e": "💬"
+        },
+        {
+          "slug": "friendship-proximity-frequency",
+          "title": "Friendship = Proximity + Frequency"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-09"
     }
   ]
 }

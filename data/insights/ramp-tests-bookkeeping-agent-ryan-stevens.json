@@ -1,0 +1,65 @@
+{
+  "slug": "ramp-tests-bookkeeping-agent-ryan-stevens",
+  "sections": [
+    {
+      "title": "Before users",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What's the first step in building evals for an agent?",
+          "a": "**Break the job into discrete tasks** and define what success looks like with the people who do it today."
+        },
+        {
+          "e": "🌍",
+          "q": "How do you eval an agent with no users yet?",
+          "a": "Build **synthetic worlds**—a fake company with its full data—and rerun the agent on the same frozen state as a **backtest**."
+        },
+        {
+          "e": "🎯",
+          "q": "What did Ramp grade: the path or the result?",
+          "a": "The **final output** against 10-20 criteria, plus **cost and latency**—not which tools were called."
+        }
+      ]
+    },
+    {
+      "title": "Metrics",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Accuracy vs pass@k—what's the difference?",
+          "a": "Accuracy gives **partial credit**; pass@k is **all-or-nothing** across criteria."
+        },
+        {
+          "e": "🧾",
+          "q": "When should you optimise pass@k?",
+          "a": "When one wrong step **destroys trust**, like closing the books."
+        }
+      ]
+    },
+    {
+      "title": "What worked",
+      "items": [
+        {
+          "e": "✂️",
+          "q": "How do you find skills to cut?",
+          "a": "**Skill ablation**: leave one out, rerun, and delete or compress skills that don't move the score."
+        },
+        {
+          "e": "🧠",
+          "q": "How did Ramp test agent memory?",
+          "a": "With **roll-forward worlds**: the period-1 run writes memory, the period-2 run reads it—one of the **biggest gains**."
+        },
+        {
+          "e": "🚫",
+          "q": "Did auto-tuning prompts in text space help?",
+          "a": "No—Ramp saw **no gain**; there's no real gradient to climb."
+        },
+        {
+          "e": "🔁",
+          "q": "Why not gate CI on agent evals?",
+          "a": "They're too **non-deterministic**; run **scheduled regression** and let an agent triage failures to Slack."
+        }
+      ]
+    }
+  ]
+}

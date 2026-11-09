@@ -1,0 +1,60 @@
+{
+  "slug": "engineering-agency-out-of-happy-path-matthew-jewkes",
+  "sections": [
+    {
+      "title": "Why full automation",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What gets scarcer as AI output gets cheap?",
+          "a": "**Expert judgment and attention**—deciding what to do."
+        },
+        {
+          "e": "📵",
+          "q": "What's wrong with agents pinging leaders on their phones?",
+          "a": "It spends **expert attention** on routine decisions; full automations **hide the complexity**."
+        }
+      ]
+    },
+    {
+      "title": "Routing first",
+      "items": [
+        {
+          "e": "🗂️",
+          "q": "What three buckets did expert review reveal?",
+          "a": "**Undecided** cases, rare **critical errors**, and 3-5% **exceptions**."
+        },
+        {
+          "e": "🚦",
+          "q": "Where did they spend as much time as on accuracy?",
+          "a": "**Case routing**—pull unusual, undecided and critical cases out of the happy path."
+        },
+        {
+          "e": "📝",
+          "q": "How do you get busy experts to help with evals?",
+          "a": "Bring them **filled-in examples** to react to, not a **blank spreadsheet**."
+        }
+      ]
+    },
+    {
+      "title": "Getting to nines",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "How did they reach three and a half nines?",
+          "a": "Hill-climbing a clean critical set over **~1,000 evals they actually read**."
+        },
+        {
+          "e": "✅",
+          "q": "When did they deploy?",
+          "a": "Only once a **random sample beat historic human work**."
+        },
+        {
+          "e": "💼",
+          "q": "Which processes deserve full automation?",
+          "a": "**Scaled processes with material ROI** and written specs—not subjective judgment."
+        }
+      ]
+    }
+  ]
+}

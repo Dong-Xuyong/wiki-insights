@@ -1,0 +1,60 @@
+{
+  "slug": "claude-code-missed-800k-alixpartners",
+  "sections": [
+    {
+      "title": "What went wrong",
+      "items": [
+        {
+          "e": "💸",
+          "q": "How did Claude Code miss $800K?",
+          "a": "An **orphan amendment** wasn't linked to its parent contract, so it never got counted."
+        },
+        {
+          "e": "📅",
+          "q": "Why was the act-by date wrong?",
+          "a": "It used the **termination clause** instead of the **renewal clause**—the contract would have auto-renewed."
+        },
+        {
+          "e": "➕",
+          "q": "What's the restated-amendment trap?",
+          "a": "Amendments that **restate total value** get summed; the right answer is the **latest amendment's value**."
+        }
+      ]
+    },
+    {
+      "title": "Structure first",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What did they build before letting the agent run?",
+          "a": "A **five-stage pipeline**—OCR, classification, extraction, category mapping—so every answer could be **checked in code**."
+        },
+        {
+          "e": "🛠️",
+          "q": "Where should business rules live?",
+          "a": "In **custom tools and views** the agent calls, not just in the prompt."
+        }
+      ]
+    },
+    {
+      "title": "Running it",
+      "items": [
+        {
+          "e": "🚨",
+          "q": "Why make access errors loud?",
+          "a": "Otherwise the agent reads a blocked lookup as **a real zero** and carries on."
+        },
+        {
+          "e": "🧮",
+          "q": "What do parallel analyst agents need afterwards?",
+          "a": "A **prescriptive dedupe step** so the same saving isn't counted twice."
+        },
+        {
+          "e": "👑",
+          "q": "What can't documents give the agent?",
+          "a": "**Live business context**—like initiatives management already started."
+        }
+      ]
+    }
+  ]
+}

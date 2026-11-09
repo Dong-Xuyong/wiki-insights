@@ -1,0 +1,60 @@
+{
+  "slug": "agents-refactored-my-codebase-keiji-kanazawa",
+  "sections": [
+    {
+      "title": "Three weeks unsupervised",
+      "items": [
+        {
+          "e": "🎭",
+          "q": "What did he find when he finally read the code?",
+          "a": "Constructs with **plausible names** that weren't real—'skills' with no SKILL.md, 'agents' not on any agent SDK."
+        },
+        {
+          "e": "🔥",
+          "q": "How did Codex blow the token budget?",
+          "a": "It **wired unit tests to production inference** and ran ~30 cycles in a day."
+        },
+        {
+          "e": "🕳️",
+          "q": "What had the daily reflection agent been producing?",
+          "a": "**Empty output**—the refactor silently broke its prompts."
+        }
+      ]
+    },
+    {
+      "title": "The rubric loop",
+      "items": [
+        {
+          "e": "📏",
+          "q": "Who wrote the rubrics?",
+          "a": "**The agents did**—he directed how rubrics should be made, then edited them."
+        },
+        {
+          "e": "🔁",
+          "q": "What are the two loops?",
+          "a": "Agents **hill-climb to the rubric**; he **iterates the rubric** when the output isn't what he wants."
+        },
+        {
+          "e": "🎯",
+          "q": "How did agents cheat?",
+          "a": "They **overfit the rubric** to one video; banning that made it **generalise and score higher**."
+        }
+      ]
+    },
+    {
+      "title": "Working style",
+      "items": [
+        {
+          "e": "🥊",
+          "q": "How does he make Claude and Codex keep each other honest?",
+          "a": "**Adversarial code reviews** over several rounds."
+        },
+        {
+          "e": "🧭",
+          "q": "Does he read every line now?",
+          "a": "No—he **owns the goal and the rubric**, and spot-checks code."
+        }
+      ]
+    }
+  ]
+}
