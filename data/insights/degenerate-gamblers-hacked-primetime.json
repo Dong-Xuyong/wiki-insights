@@ -1,0 +1,55 @@
+{
+  "slug": "degenerate-gamblers-hacked-primetime",
+  "sections": [
+    {
+      "title": "How Polymarket got drained",
+      "items": [
+        {
+          "e": "🌐",
+          "q": "How did attackers drain Polymarket accounts?",
+          "a": "They hijacked a **third-party script loaded from a CDN** and served malicious JavaScript."
+        },
+        {
+          "e": "📌",
+          "q": "What's the fix for live third-party scripts?",
+          "a": "**Pin, version and self-host** them, especially on pages that hold money."
+        }
+      ]
+    },
+    {
+      "title": "The Binance chain",
+      "items": [
+        {
+          "e": "🍺",
+          "q": "What was the first foothold at Binance?",
+          "a": "An engineer installed a **tampered Homebrew from a malicious search ad**."
+        },
+        {
+          "e": "🎭",
+          "q": "What was the second foothold?",
+          "a": "An engineer **ran \"interview\" software** from a fake project director on his work laptop."
+        },
+        {
+          "e": "🔑",
+          "q": "What let the attacker move $6 billion?",
+          "a": "A **container-deployment token** on a laptop and **no human approval** on huge transfers."
+        }
+      ]
+    },
+    {
+      "title": "Habits for developers",
+      "items": [
+        {
+          "e": "🚫",
+          "q": "What should you do with code from a job interview?",
+          "a": "**Never run it on your own machine**—use a throwaway sandbox."
+        },
+        {
+          "e": "🤖",
+          "q": "How can an agent help before you run unknown software?",
+          "a": "Ask it to **scan for exfiltration**, file writes and installs."
+        }
+      ]
+    }
+  ]
+}

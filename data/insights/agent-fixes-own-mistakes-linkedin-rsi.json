@@ -1,0 +1,65 @@
+{
+  "slug": "agent-fixes-own-mistakes-linkedin-rsi",
+  "sections": [
+    {
+      "title": "The loop",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What are the seven RSI steps?",
+          "a": "Run and log traces, **judge**, **reflect on the root cause**, propose edits, validate, evolve the prompt, confirm on a **held-out set**."
+        },
+        {
+          "e": "🪜",
+          "q": "What's the RSI optimisation ladder?",
+          "a": "**Prompts** → structured context → workflow → harness code → **the optimiser itself**."
+        },
+        {
+          "e": "👀",
+          "q": "Where do humans stay in the loop?",
+          "a": "They **review changes before production**, reducing effort as quality proves out."
+        }
+      ]
+    },
+    {
+      "title": "Judging the judge",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "Where did LinkedIn's judge disagree with humans most?",
+          "a": "On **weak outputs**: ~55% agreement on score 1-2 vs **~80% on score 3**."
+        },
+        {
+          "e": "📝",
+          "q": "What mostly fixed the judge?",
+          "a": "**Rubric specification**—partial credit, normalisation and **recalibrated score boundaries**."
+        },
+        {
+          "e": "📈",
+          "q": "How much did alignment improve?",
+          "a": "From **57% to 64%**, with mean error down from 0.96 to 0.74."
+        }
+      ]
+    },
+    {
+      "title": "Reflection pitfalls",
+      "items": [
+        {
+          "e": "🕵️",
+          "q": "Why did the reflection agent blame the rubric?",
+          "a": "Its taxonomy had **no option for \"the judge was wrong\"**."
+        },
+        {
+          "e": "🦜",
+          "q": "What other reflection failure did they find?",
+          "a": "It **parroted the judge's rationale** instead of re-checking the output."
+        },
+        {
+          "e": "🎯",
+          "q": "What's the real goal of RSI?",
+          "a": "Raise the **first derivative**—how fast the agent gets better."
+        }
+      ]
+    }
+  ]
+}

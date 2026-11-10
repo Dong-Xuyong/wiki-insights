@@ -1,0 +1,65 @@
+{
+  "slug": "robinhood-data-pr-reviewer-chetas-joshi",
+  "sections": [
+    {
+      "title": "The problem",
+      "items": [
+        {
+          "e": "🚦",
+          "q": "Why isn't a green CI enough for a data PR?",
+          "a": "A valid change can still **break a downstream consumer**, blow a freshness SLA or expose sensitive data."
+        },
+        {
+          "e": "⏱️",
+          "q": "Why did Robinhood need an AI reviewer?",
+          "a": "AI PRs arrive at **machine speed**, but the people with context **did not grow**."
+        }
+      ]
+    },
+    {
+      "title": "Three duties",
+      "items": [
+        {
+          "e": "📜",
+          "q": "What do the layer-1 scripts check?",
+          "a": "**Facts against a source of truth**: schema contracts, owner/PII tags, registered lineage and staging performance."
+        },
+        {
+          "e": "🤖",
+          "q": "What does the agent look for?",
+          "a": "What scripts can't see—**query anti-patterns**, sensitive grants and **consumers missing from lineage**."
+        },
+        {
+          "e": "🔍",
+          "q": "What must the agent say when it finds nothing?",
+          "a": "\"**None found in the places I searched**\"—never that none exist."
+        },
+        {
+          "e": "⚖️",
+          "q": "Which calls always go to a person?",
+          "a": "**Sensitive grants**, migrations that change what data means and **low-confidence verdicts**."
+        }
+      ]
+    },
+    {
+      "title": "Measuring and learning",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Which two mistakes do they track?",
+          "a": "**Misses** (bad PR approved, ~2%) and **false escalations** (fine PR sent to a human)."
+        },
+        {
+          "e": "🔁",
+          "q": "How does the reviewer improve?",
+          "a": "People reply with reasons and the on-call **updates the rules weekly**; each miss becomes **a new rule**."
+        },
+        {
+          "e": "📈",
+          "q": "What were the results?",
+          "a": "About **60% of data PRs merge with no human review**, 75% less review effort and 30% fewer incidents."
+        }
+      ]
+    }
+  ]
+}

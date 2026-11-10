@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 482,
-  "insightsCount": 469,
-  "conceptCount": 3342,
+  "videoCount": 490,
+  "insightsCount": 477,
+  "conceptCount": 3362,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 117,
-    "systems": 30,
+    "agents": 121,
+    "systems": 32,
     "build": 60,
     "human": 22,
     "performance": 61,
-    "mind": 42,
+    "mind": 43,
     "relationships": 70,
-    "other": 74
+    "other": 75
   },
   "videos": [
     {
@@ -39033,6 +39033,441 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-09"
+    },
+    {
+      "slug": "agent-fixes-own-mistakes-linkedin-rsi",
+      "title": "An Agent That Fixes Its Own Mistakes - Saloni Gandhi & Ziwei Guo, LinkedIn",
+      "video_id": "yH7_SIIgI-Y",
+      "platform": "youtube",
+      "url": "https://youtu.be/yH7_SIIgI-Y",
+      "duration_min": 39,
+      "creator": "ai-engineer",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "agents",
+      "tags": [
+        "evals",
+        "agents",
+        "llm-as-judge",
+        "prompt-optimization",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "evals",
+        "agents",
+        "llm-as-judge",
+        "prompt-optimization",
+        "ai-engineering",
+        "llm as judge",
+        "prompt optimization",
+        "ai engineering",
+        "ai engineer",
+        "Evaluate the Evaluators",
+        "Recursive Self-Improvement Loop",
+        "Rubric Hill-Climb Loop"
+      ],
+      "summary": "Ziwei Guo and Saloni Gandhi (LinkedIn) present a recursive self-improvement (RSI) loop for LinkedIn's user-understanding agent (which infers fields like preferred job titles with confidence, citations and reasoning to power the career agent). The loop has seven steps: run the agent and log traces; score them with an L1 judge (15 product-defined rubric dimensions); an L2 reflection agent root-causes each failure (agent, model, prompt, tool, context—or the judge/rubric itself); propose edits; validate edits with the same judge; evolve the prompt; and confirm on a held-out set before it becomes the new baseline. It runs on a weekly/bi-weekly cadence with human review before production; their first GEPA-optimised prompt PR shipped this way. The optimisation ladder climbs from prompts → structured context → workflow design → harness code → the optimiser itself; today they work on prompts.\n\nThe main lesson: the evaluator matters as much as the optimiser. From ~180-200 human reviews, judge alignment was ~55-57% on low scores but ~80% on high ones—the judge recognised good outputs better than it ranked weak ones, and 31 of 37 overly harsh judgments were score-1s. Fixes were mostly specification, not model: normalise harmless formatting, title-normalisation guidance, partial-credit rules, recalibrated low-score boundaries—alignment rose from 57% to 64% and mean error fell from 0.96 to 0.74. For L2, root-cause attribution was much harder than spotting failures: the taxonomy had no option for \"the judge was wrong\", so reflection blamed the rubric, and it parroted the judge's rationale instead of re-checking the output—a convincing explanation that edits the wrong component. They added majority voting and held-out evals to tame variance. The goal is to raise the first derivative of agent quality, and evaluation infrastructure is the prerequisite to scaling RSI across teams.",
+      "key_insights": [
+        "recursive self improvement loop: trace → judge → reflect/root-cause → propose → validate → evolve → held-out confirm, with humans gating production.",
+        "Audit judge–human agreement per score band and per dimension; weak outputs are where judges disagree most.",
+        "Most judge fixes are rubric specification (partial credit, normalisation), not model changes.",
+        "Give the reflection agent a \"judge was wrong\" option and make it re-check outputs independently."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "recursive-self-improvement-loop",
+          "title": "Recursive Self-Improvement Loop"
+        },
+        {
+          "slug": "rubric-hill-climb-loop",
+          "title": "Rubric Hill-Climb Loop",
+          "e": "📏"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "agents-fine-everything-around-broke-joey-wang-harvey",
+      "title": "The Agents Were Fine. Everything Around Them Broke. - Joey Wang, Harvey",
+      "video_id": "ktbAVYsAxpk",
+      "platform": "youtube",
+      "url": "https://youtu.be/ktbAVYsAxpk",
+      "duration_min": 13,
+      "creator": "ai-engineer",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "agent-harness",
+        "platform-engineering",
+        "coding-agents",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "agent-harness",
+        "platform-engineering",
+        "coding-agents",
+        "ai-engineering",
+        "agent harness",
+        "platform engineering",
+        "coding agents",
+        "ai engineering",
+        "ai engineer",
+        "Agent Harness After the Code",
+        "Agent On-Call Triage",
+        "Stop Condition (Agent Loops)"
+      ],
+      "summary": "Joey Wang built Spectre, the cloud agent platform inside Harvey: more than one agent starts every minute, ~10,000 agent-written PRs, ~460 users in a month, and work spreading beyond code (data questions, storyboards). His lesson after 10,000 PRs: the agents were fine; the harness around them broke. Spectre doesn't compete with Claude Code, Codex or Cursor—it runs them, supplying what laptops can't: secrets, the real stack, alerts and tickets, one rule set and fair capacity. An alert in Slack at 2 a.m. starts an agent that writes a fix, spins up a real copy of the stack and posts proof on the PR; a follow-up loop reads CI failures and pushes fixes, so by morning the PR waits in the normal review queue and can auto-merge once approved. Four out of five merged backend agent PRs went through that loop—\"if you only build one stage, build the follow-up loop\". Team knowledge (how to test a tricky service) lives in shared project pages any agent reads.\n\nRule two: if a person can click it, an agent can call it—everything exposed via CLI, so laptop agents, sandboxed agents and CI can start tasks (CLI starts grew to ~6,500/month and merged more often). Then it broke: an alert storm tagged the agent ~900 times in four hours, and later one engineer launched ~950 tasks from the CLI and filled the cluster. Fixes: repeat alerts join the open investigation, and a fair launch queue (place in line, humans at keyboards first, fair share, borrow idle capacity) cut task latency from ~2 s to 70 ms in a 300-task burst. Automations get guardrails on day one: switch off after five consecutive failures, plus budgets and expiry dates. Still unsolved: merge-queue load after PRs jumped ~60% in a month, and proof—only 1 in 20 merges carries evidence it works.",
+      "key_insights": [
+        "agent harness after the code: the hard part is what happens after the code is written—follow-up loops, review, merge, capacity.",
+        "Build a follow-up loop that reads CI failures and pushes fixes; it's the difference between writing code and finishing the job.",
+        "If a person can click it, make it agent-callable (CLI/API).",
+        "Cap what any agent, human or alert can launch; dedupe alert-triggered tasks; auto-disable failing automations."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-harness-after-the-code",
+          "title": "Agent Harness After the Code"
+        },
+        {
+          "slug": "agent-on-call-triage",
+          "title": "Agent On-Call Triage"
+        },
+        {
+          "slug": "stop-condition-agent-loops",
+          "title": "Stop Condition (Agent Loops)",
+          "e": "🛑"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "degenerate-gamblers-hacked-primetime",
+      "title": "HAHAHA (Degenerate gamblers got hacked)",
+      "video_id": "KMOyP_ArDMo",
+      "platform": "youtube",
+      "url": "https://youtu.be/KMOyP_ArDMo",
+      "duration_min": 16,
+      "creator": "the-primetime",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "systems",
+      "tags": [
+        "security",
+        "supply-chain",
+        "crypto",
+        "job-hunting"
+      ],
+      "keywords": [
+        "security",
+        "supply-chain",
+        "crypto",
+        "job-hunting",
+        "supply chain",
+        "job hunting",
+        "the primetime",
+        "AI-Accelerated Exploitation",
+        "Never Run Interview Code on Your Machine"
+      ],
+      "summary": "The PrimeTime laughs through a run of crypto hacks. Polymarket loaded a third-party script (DebugBear) straight from a CDN; attackers took over the registrar, repointed DNS and served malicious JavaScript that drained accounts—Prime's point: pin, version and self-host third-party scripts, especially when you hold people's money (Polymarket also made victims over $10K sign a non-disparagement clause to be repaid). Binance lost about $6 billion, attributed by the FBI to North Korea, through a chain of human footholds: a DevOps engineer installed a tampered Homebrew from a malicious search ad; another engineer, approached on a legitimate job platform by someone posing as a project director, ran \"interview\" software on his work laptop; the attacker used an internal AI tool to pivot, found a container-deployment token, deployed a container and ran the draining script. Prime asks why one laptop and one script could move billions with no human approval on huge transfers. A bonus story: tampered Ledger hardware wallets intercepted in transit logged keys and later drained ~$86 million.\n\nHis practical advice for developers: never run code from a job interview on your work machine, and before running unknown software, have an AI agent scan it—does it send anything off the machine, write or overwrite files, install things?",
+      "key_insights": [
+        "never run interview code: fake recruiters and \"take-home\" software are a live attack vector against developers.",
+        "Pin and self-host third-party scripts; don't load money-handling pages from a live CDN link.",
+        "Big irreversible actions need a second human approval; no single laptop or token should move billions."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-accelerated-exploitation",
+          "title": "AI-Accelerated Exploitation",
+          "e": "🤖"
+        },
+        {
+          "slug": "never-run-interview-code",
+          "title": "Never Run Interview Code on Your Machine"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "katt-williams-doac",
+      "title": "Katt Williams: They Tied Me To A Pole And Beat Me Bloody Every Week!",
+      "video_id": "-6PuYw92m1c",
+      "platform": "youtube",
+      "url": "https://youtu.be/-6PuYw92m1c",
+      "duration_min": 110,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "other",
+      "tags": [
+        "life-story",
+        "resilience",
+        "self-worth",
+        "career",
+        "comedy"
+      ],
+      "keywords": [
+        "life-story",
+        "resilience",
+        "self-worth",
+        "career",
+        "comedy",
+        "life story",
+        "self worth",
+        "the diary of a ceo",
+        "Protect Your Independence and Know Your Worth"
+      ],
+      "summary": "Steven Bartlett (The Diary Of A CEO) interviews comedian Katt Williams about his memoir. Raised in an extremely strict religious home, he describes being tied to a pole in the basement and beaten from ages 5 to 12; he read adult books from age three and assumed, like Cinderella, that heroes suffer first and it gets better later. He left home at 13 with about $1,200, rode a truck to Miami and slept in Peacock Park, where hearing homeless former doctors and lawyers tell how one drug unravelled their lives \"scared him straight\" from hard drugs. He worked jobs that didn't need ID, tried car theft, sold, and lived with sex workers whose nightly talk about what women dislike in men taught him hygiene and decency. At 16 he lied to a bouncer to enter—and won—a comedy competition, but didn't return to comedy for five years because he didn't know it was a job. Bartlett shares how his parents' constant conflict made him feel commitment was a prison.\n\nCareer lessons: a mentor told him the thing you'll be proudest of keeping is what you were before you started—independent; artists auction off their independence to people who put up money, so Katt self-funded his specials to control director, venue and quality. Know your market worth by benchmarking against your peer group's contracts, the way athletes know what a running back earns. And \"even if you have to lie to yourself about your self-worth, do it\": there are no worthless people, and people far less qualified have done what you're attempting. Fame is a fixed window, so pace your story.",
+      "key_insights": [
+        "protect independence know your worth: keep ownership of your work and benchmark your worth against peers before negotiating.",
+        "Childhood adversity framed as a hero's story can sustain someone through years of hardship."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "protect-independence-know-your-worth",
+          "title": "Protect Your Independence and Know Your Worth"
+        }
+      ],
+      "conceptCount": 1,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "one-founder-20-coding-agents-ryan-carson-untangle",
+      "title": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
+      "video_id": "BTtyguoPvBU",
+      "platform": "youtube",
+      "url": "https://youtu.be/BTtyguoPvBU",
+      "duration_min": 16,
+      "creator": "ai-engineer",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "coding-agents",
+        "engineering-management",
+        "hiring",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "coding-agents",
+        "engineering-management",
+        "hiring",
+        "ai-engineering",
+        "coding agents",
+        "engineering management",
+        "ai engineering",
+        "ai engineer",
+        "Agent-Operator Video Hiring",
+        "Manager Agent and Builder Fleet",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "Ryan Carson (founder/CEO of Untangle, an AI paralegal for family-law firms; four companies built and sold) argues that managing agents is like managing people, and shows how Untangle runs coding agents in Devin cloud sessions. Humans set priorities and talk to customers. A named engineering-manager session never writes code; Ryan talks to it (mostly by voice) and it pulls tickets from Linear (one ticket = one PR, respecting dependencies) and runs ~20 builder agents concurrently (5-25; more and you lose track). He never enters builder sessions. A deterministic automation forces the manager to read every child session every ~15 minutes—you can't trust the manager to remember. Each builder calls a review agent with a three-review cap; unresolved bugs bubble up to the manager, then to him. A QA child agent runs tests, and every builder records a video of the feature passing tests; the human-in-the-loop step is actually watching that video on a laptop before saying ship it. Sessions message each other, and a merge-queue manager coordinates collisions such as migration numbers. Stop coding locally—cloud agents are what make this possible.\n\nHiring has changed too: no pre-screens or video chats early, because likeability is noise; the only signal is \"can they operate an agent?\". Candidates submit an unpaid ~45-minute screen recording shipping a PR on an app they maintain; a ranking agent stack-ranks the videos and transcripts (Ryan distrusted it once and later realised it was right). The top five get a paid 16-hour project on a Devin seat (NDA, recorded on Loom) to get a real PR merge-ready, the agent helps pick, and only finalists get a human call.",
+      "key_insights": [
+        "manager agent builder fleet: one non-coding manager session runs ~20 builders, with deterministic check-ins, review caps and video proof.",
+        "agent operator video hiring: hire on recorded evidence of operating agents, not interviews.",
+        "Watching the proof video is the human bottleneck you must not skip.",
+        "Let sessions talk to each other, but add a merge-queue manager."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-operator-video-hiring",
+          "title": "Agent-Operator Video Hiring"
+        },
+        {
+          "slug": "manager-agent-builder-fleet",
+          "title": "Manager Agent and Builder Fleet"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "openai-linux-root-exploits-fireship",
+      "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
+      "video_id": "pf5tXJZM1Rw",
+      "platform": "youtube",
+      "url": "https://youtu.be/pf5tXJZM1Rw",
+      "duration_min": 7,
+      "creator": "fireship",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "systems",
+      "tags": [
+        "security",
+        "agents",
+        "multi-agent",
+        "ai-news"
+      ],
+      "keywords": [
+        "security",
+        "agents",
+        "multi-agent",
+        "ai-news",
+        "multi agent",
+        "ai news",
+        "fireship",
+        "Agent Swarm Vulnerability Funnel",
+        "AI-Accelerated Exploitation"
+      ],
+      "summary": "Fireship's Code Report (9 Nov 2026) covers OpenAI's research \"a thousand fewer paths to root\", answering Anthropic's demo of an unreleased Claude model going from a kernel memory leak to remote access in 53 minutes. OpenAI ran an agent swarm over the Linux kernel master branch as a funnel: a scout carved the kernel down to ~5,000 audit targets reachable by an unprivileged user (~7% of the kernel); an analyst produced over 2,000 candidate bugs in ~12 hours (~$316K of tokens); a triage agent reproduced each in an isolated VM with the kernel memory checker over ~30 hours, confirming most (~1,724); and exploit agents weaponised them on a stock distro with KASLR and SMEP on, yielding 1,169 working root exploits (948 unique) for about $1.2M—~$1,280 each versus ~$20K typical bounties. Three months earlier a run found 166 local privilege escalations at ~$3,100 each; now 5× as many at half the price, with techniques experts didn't recognise. The model, GPT-6 Cyber, is gated as critical; it also falls for a honeypot \"easy target\" less often. OpenAI's advice: a low-privilege account on an unpatched OS should be treated as equivalent to root. The arms race favours attackers (defenders must fix every bug), so patching speed matters. Sponsor segment: an AI code reviewer that runs code in a sandbox.",
+      "key_insights": [
+        "agent swarm vuln funnel: scout → analyst → triage (reproduce in VM) → exploit, each stage filtering the last.",
+        "Treat unpatched low-privilege access as root; patch fast.",
+        "Verification by reproduction (triage in isolated VMs) is what turns noisy candidates into real findings."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-swarm-vuln-funnel",
+          "title": "Agent Swarm Vulnerability Funnel"
+        },
+        {
+          "slug": "ai-accelerated-exploitation",
+          "title": "AI-Accelerated Exploitation",
+          "e": "🤖"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "overcome-addictions-obsessions-anna-lembke-huberman",
+      "title": "Overcome Addictions and Obsessions of All Kinds | Dr. Anna Lembke",
+      "video_id": "wbJ_Q1xsDHg",
+      "platform": "youtube",
+      "url": "https://youtu.be/wbJ_Q1xsDHg",
+      "duration_min": 137,
+      "creator": "andrew-huberman",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "mind",
+      "tags": [
+        "addiction",
+        "dopamine",
+        "habits",
+        "mental-health",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "addiction",
+        "dopamine",
+        "habits",
+        "mental-health",
+        "huberman-lab",
+        "mental health",
+        "huberman lab",
+        "andrew huberman",
+        "Addiction to Control",
+        "Pleasure-Pain Balance",
+        "Twelve-Step Programs Evidence"
+      ],
+      "summary": "Andrew Huberman talks with Dr. Anna Lembke (Stanford dual-diagnosis addiction clinic; *Dopamine Nation*, new book *Radical Surrender*). She recaps the pleasure-pain balance: every hit of pleasure is followed by neuroadaptation \"gremlins\" on the pain side; keep using and you dig a reward-deficit hole where the drug only restores baseline. Treatment first restores balance—either abstain (~10-14 days of acute withdrawal; by weeks 3-4 about 80% feel significantly better) or a long-half-life medication such as buprenorphine or methadone for opioids. Clinically she frames abstinence as a 30-day experiment (\"be the scientist in your own life\"), because about 30 days is what it takes to start resetting reward pathways, and watches for replacement behaviours (giving up the main drug and sliding into another). She diagnoses with the four Cs—out-of-control use, compulsive use, craving, continued use despite consequences—plus tolerance and withdrawal, and warns against spending therapy searching for the \"reason\" before stopping the behaviour. Risk factors include trauma, genetics and, crucially, access.\n\nHer new thesis: in the severest cases people are not addicted to the substance but to control—the drug is a lever that reliably changes how they feel and narrows the world. Modern life multiplies levers (tracking steps, sleep, calories, other people; relationship/career/looks \"maxxing\"), so we lose tolerance for uncertainty and imperfection. Codependency is the interpersonal version: using other people's reactions as our drug, as in reassurance-seeking loops and achievement-obsessed parenting. The antidote is radical surrender—acknowledging the limits of control (the 12-step \"spiritual pivot\", values-based approaches like ACT) and doing the next right thing one day at a time. Practically: no screens until the morning routine is done, use devices intentionally as tools, spend part of each day offline, do things you're bad at, and embrace unstructured, uncertain interactions.",
+      "key_insights": [
+        "addiction to control: compulsions are often attempts to control feeling states; surrendering control is part of recovery.",
+        "Use a 30-day abstinence experiment to reset reward pathways; expect weeks 3-4 to feel better.",
+        "Watch for replacement behaviours when you quit one compulsion.",
+        "Screen-free morning routine and intentional device use protect the balance."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "addiction-to-control",
+          "title": "Addiction to Control"
+        },
+        {
+          "slug": "pleasure-pain-balance",
+          "title": "Pleasure-Pain Balance",
+          "e": "⚖️"
+        },
+        {
+          "slug": "twelve-step-programs-evidence",
+          "title": "Twelve-Step Programs Evidence",
+          "e": "🪜"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-10"
+    },
+    {
+      "slug": "robinhood-data-pr-reviewer-chetas-joshi",
+      "title": "60% of Our Data PRs Now Merge With No Human Review - Chetas Joshi, Robinhood",
+      "video_id": "MQiojLnK-E0",
+      "platform": "youtube",
+      "url": "https://youtu.be/MQiojLnK-E0",
+      "duration_min": 29,
+      "creator": "ai-engineer",
+      "updated": "2026-11-10",
+      "created": "2026-11-10",
+      "section": "agents",
+      "tags": [
+        "evals",
+        "agents",
+        "code-review",
+        "data-engineering",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "evals",
+        "agents",
+        "code-review",
+        "data-engineering",
+        "ai-engineering",
+        "code review",
+        "data engineering",
+        "ai engineering",
+        "ai engineer",
+        "Evaluate the Evaluators",
+        "Flag vs Enforce Gates",
+        "Scripts for Facts, Agent for Judgment, Humans for Protected Calls"
+      ],
+      "summary": "Chetas Joshi (data platform, Robinhood) explains how his team built an AI reviewer for data-pipeline pull requests because AI-opened PRs arrive at machine speed while the few people with context (who reads this table, how big, how sensitive) did not grow. The design is three duties, three owners: scripts prove facts, an agent judges context, and people own protected calls. Layer 1 is deterministic CI checks against sources of truth—data contracts vs the schema registry, required tags (owner, PII labels) in the catalog, lineage blast radius over registered consumers, and a staging performance test at production volume for freshness SLAs. A failure turns CI red with no model involved. Layer 2 is an agent whose rules say what layer 1 already covers, so it hunts what scripts can't see: query anti-patterns, sensitive grants, and consumers outside lineage. In the running example an int→bigint widening passed every check, but the agent walking the repo found an unregistered job writing the value into an int column downstream—a guaranteed future failure. The agent must say \"none found in the places I searched\", never \"none exist\".\n\nThree calls are flag, never clear: sensitive-data grants, migrations that change what data means, and low-confidence verdicts. Humans reply to review comments with reasons; the on-call reads the feedback weekly and updates rules by hand. They track two mistakes: misses (bad PR approved, ~2% as of Aug 2026, mostly rule gaps that become new rules) and false escalations (missing context). Results: ~60% of data PRs merge without human review, ~75% less manual review effort, ~132 engineering hours/month saved, ~30% fewer incidents. What they got wrong: layers run separately and the agent can't call live checks; the proposal is one entry point with layer-1 checks as agent tools.",
+      "key_insights": [
+        "scripts facts agent judgment humans calls: prove facts with scripts, judge context with an agent, keep protected decisions with people.",
+        "Don't spend an LLM call on a yes/no fact a script can look up—it's cleaner and cheaper.",
+        "Make the agent honest about search limits: \"none found\" is not \"none exist\".",
+        "Count false escalations like misses; a gate that escalates everything saves no one time.",
+        "Human replies with reasons, reviewed weekly, turn misses into new rules."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "flag-vs-enforce-gates",
+          "title": "Flag vs Enforce Gates"
+        },
+        {
+          "slug": "scripts-facts-agent-judgment-humans-calls",
+          "title": "Scripts for Facts, Agent for Judgment, Humans for Protected Calls"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-10"
     }
   ]
 }

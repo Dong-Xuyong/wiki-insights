@@ -1,0 +1,65 @@
+{
+  "slug": "one-founder-20-coding-agents-ryan-carson-untangle",
+  "sections": [
+    {
+      "title": "Agent org chart",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What does Untangle's manager agent do?",
+          "a": "It **never writes code**—it pulls tickets and runs **~20 builder agents**."
+        },
+        {
+          "e": "⏰",
+          "q": "How do you make sure the manager keeps up?",
+          "a": "A **deterministic automation** makes it read every child session **every ~15 minutes**."
+        },
+        {
+          "e": "🔂",
+          "q": "How many review loops does a builder get?",
+          "a": "**Three reviews max**, then bugs bubble up to the manager and the human."
+        }
+      ]
+    },
+    {
+      "title": "Proof and merging",
+      "items": [
+        {
+          "e": "🎥",
+          "q": "What proof ships with every feature?",
+          "a": "A **recorded video** of the feature passing tests."
+        },
+        {
+          "e": "👀",
+          "q": "Which step should a human never skip?",
+          "a": "**Actually watching the video** on a laptop before saying ship it."
+        },
+        {
+          "e": "🚦",
+          "q": "Why add a merge-queue manager?",
+          "a": "Parallel agents **collide**—for example on **migration numbers**."
+        }
+      ]
+    },
+    {
+      "title": "Hiring agent operators",
+      "items": [
+        {
+          "e": "🙈",
+          "q": "Why skip early calls with candidates?",
+          "a": "Likeability is **noise**; the only signal is **can they operate an agent**."
+        },
+        {
+          "e": "📹",
+          "q": "What do candidates submit first?",
+          "a": "A **~45-minute screen recording** shipping a PR on an app they maintain."
+        },
+        {
+          "e": "💼",
+          "q": "What happens to the top five?",
+          "a": "A **paid 16-hour project** to get a real PR merge-ready, then a final call."
+        }
+      ]
+    }
+  ]
+}

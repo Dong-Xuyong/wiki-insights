@@ -1,0 +1,60 @@
+{
+  "slug": "agents-fine-everything-around-broke-joey-wang-harvey",
+  "sections": [
+    {
+      "title": "Harness over model",
+      "items": [
+        {
+          "e": "🧰",
+          "q": "What broke at Harvey after 10,000 agent PRs?",
+          "a": "Not the agents—**everything around them**: checkout, capacity, merging."
+        },
+        {
+          "e": "☁️",
+          "q": "Why run agents in the cloud instead of laptops?",
+          "a": "Laptops top out at **5-10 agents**; the cloud brings **secrets, the real stack** and fair capacity."
+        },
+        {
+          "e": "🔁",
+          "q": "Which single stage would Joey build first?",
+          "a": "A **follow-up loop** that reads CI failures and **pushes another fix**."
+        }
+      ]
+    },
+    {
+      "title": "Make it callable",
+      "items": [
+        {
+          "e": "⌨️",
+          "q": "What rule opened Spectre to other agents?",
+          "a": "**If a person can click it, an agent can call it**—everything via CLI."
+        },
+        {
+          "e": "📚",
+          "q": "Where does tribal testing knowledge live?",
+          "a": "In **shared project pages** that any agent reads."
+        }
+      ]
+    },
+    {
+      "title": "When it broke",
+      "items": [
+        {
+          "e": "🚨",
+          "q": "How did one bug launch ~900 agents?",
+          "a": "An alert per workspace **tagged the agent every time**; fix: repeat alerts **join the open investigation**."
+        },
+        {
+          "e": "🚥",
+          "q": "What fixed one user flooding the cluster?",
+          "a": "A **fair launch queue**: place in line, humans first, fair share with borrowing."
+        },
+        {
+          "e": "🛑",
+          "q": "What guardrail do automations get on day one?",
+          "a": "They **switch off after five failures in a row**, with a budget or expiry date."
+        }
+      ]
+    }
+  ]
+}
