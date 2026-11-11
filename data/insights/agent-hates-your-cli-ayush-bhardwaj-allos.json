@@ -1,0 +1,65 @@
+{
+  "slug": "agent-hates-your-cli-ayush-bhardwaj-allos",
+  "sections": [
+    {
+      "title": "The pipe tax",
+      "items": [
+        {
+          "e": "🔪",
+          "q": "How often do agents pipe CLI output into head, tail or grep?",
+          "a": "About **a quarter of all calls**, and **over half** for read-heavy commands."
+        },
+        {
+          "e": "💸",
+          "q": "What is the pipe tax?",
+          "a": "The agent **re-writing the same cut by hand** every time—each one a guess where the answer is."
+        },
+        {
+          "e": "🙈",
+          "q": "How can a pipe hide a failure?",
+          "a": "Without pipefail the **exit code is the last command's**, and tail can **cut the error itself**."
+        }
+      ]
+    },
+    {
+      "title": "Fix the tool",
+      "items": [
+        {
+          "e": "📢",
+          "q": "What should a failing tool print last?",
+          "a": "A **short failure summary** and a **path to the full log**."
+        },
+        {
+          "e": "🎚️",
+          "q": "What should you ship first for agents?",
+          "a": "**Ranges and limits**, plus a hint like 'showing 20 of 300, add offset'."
+        },
+        {
+          "e": "📚",
+          "q": "Why are stale docs bugs?",
+          "a": "Agents **follow skills and help text literally**—95 of 95 searches kept passing a dead flag."
+        }
+      ]
+    },
+    {
+      "title": "Measure and evaluate",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "How do you get evals for an agent-facing tool?",
+          "a": "Replay the **commands agents already ran**; what they did next is a **rough answer key**."
+        },
+        {
+          "e": "🔁",
+          "q": "What signals a failing case in a transcript?",
+          "a": "The agent **retrying the call with different arguments**."
+        },
+        {
+          "e": "🎯",
+          "q": "What should you measure instead of tokens?",
+          "a": "**Turns and right answers**—token savings can be just 0.5%."
+        }
+      ]
+    }
+  ]
+}

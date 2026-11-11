@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 490,
-  "insightsCount": 477,
-  "conceptCount": 3362,
+  "videoCount": 495,
+  "insightsCount": 482,
+  "conceptCount": 3375,
   "sections": [
     {
       "id": "architecture",
@@ -52,9 +52,9 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 121,
+    "agents": 125,
     "systems": 32,
-    "build": 60,
+    "build": 61,
     "human": 22,
     "performance": 61,
     "mind": 43,
@@ -39468,6 +39468,278 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-10"
+    },
+    {
+      "slug": "agent-hates-your-cli-ayush-bhardwaj-allos",
+      "title": "Your Agent Hates Your CLI - Ayush Bhardwaj, Allos AI",
+      "video_id": "rS36lYuvXQ8",
+      "platform": "youtube",
+      "url": "https://youtu.be/rS36lYuvXQ8",
+      "duration_min": 13,
+      "creator": "ai-engineer",
+      "updated": "2026-11-11",
+      "created": "2026-11-11",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "cli",
+        "tool-design",
+        "evals",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "cli",
+        "tool-design",
+        "evals",
+        "ai-engineering",
+        "tool design",
+        "ai engineering",
+        "ai engineer",
+        "Agent Transcripts as Product Analytics",
+        "CLIs vs MCPs",
+        "Failure-Driven Evals"
+      ],
+      "summary": "Ayush Bhardwaj (Allos AI; builds a CLI that lets coding agents search their own past sessions across Claude Code, Codex and Cursor) mined ~20,000 agent tool calls from his own transcripts across 14 CLIs (git, gh, cargo, curl, npm, Docker…). A quarter of calls piped output into head, tail, grep, sed, Python, sort or wc—over half for read-heavy commands (git show and cargo test 62%). He calls the repeated hand-written cut the pipe tax: each one is a guess about where the answer sits, and 83% of pipes followed patterns seen 10+ times. Pipes also hide failures: without pipefail, cargo test | head can report success, and in one Claude Code issue tail dropped the error so the agent reported success. Agents work around friction without filing bugs (Sanity's MCP server: ~3M tool calls, zero bug reports until they shipped a feedback tool)—so your agent transcripts are the product analytics you aren't reading; the workaround is the bug report.\n\nFixes from his own tool: fail loudly (end failures with a short summary and a path to the full log); add selection flags (match-only views, last-N, size caps), a compact output mode (~6× smaller than JSON), and batch commands for loops agents wrote by hand; ship ranges and limits first and make big outputs print less by default and say how to get more (\"showing 20 of 300, add --offset 20\"); consider an agent mode (detect the agent env var, like DuckDB: plain tables, row counts, JSON errors). Teach flags in help text and skills—agents follow docs literally (95/95 searches kept passing a no-op flag the stale skill mentioned), so stale docs are bugs. After his changes, piped reads fell from 82% to ~25%. Measure turns and right answers, not tokens (DuckDB's mode cut output read 59% but saved only ~0.5% of total tokens; Infracost's filtering CLI took plain Claude from 0/6 to 6/6 and cost −41%). Build evals from transcripts: the commands agents ran are test cases, what they did next is a rough answer key, retries with new arguments mark failing cases; replay old vs new builds and hold some cases back. Agents are poor at designing agent tools (most MCP servers wrap APIs; 97% of tool descriptions flagged; agent-written context files underperform) but good at improving them given transcripts and a runnable test.",
+      "key_insights": [
+        "agent transcripts as product analytics: the pipe tax and retries in transcripts are the bug reports for agent-facing tools.",
+        "Fail loudly: the last lines of output should summarise the failure.",
+        "Ship limits, compact modes and pagination hints before anything fancy; teach them in the skill.",
+        "Measure task success and turns, not token savings."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-transcripts-as-product-analytics",
+          "title": "Agent Transcripts as Product Analytics"
+        },
+        {
+          "slug": "clis-vs-mcps",
+          "title": "CLIs vs MCPs",
+          "e": "🛠️"
+        },
+        {
+          "slug": "failure-driven-evals",
+          "title": "Failure-Driven Evals"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-11"
+    },
+    {
+      "slug": "anthropic-fable-mythos-52-ipo-fireship",
+      "title": "Did Anthropic just save its $1 trillion IPO?",
+      "video_id": "1FurWDiK9A4",
+      "platform": "youtube",
+      "url": "https://youtu.be/1FurWDiK9A4",
+      "duration_min": 6,
+      "creator": "fireship",
+      "updated": "2026-11-11",
+      "created": "2026-11-11",
+      "section": "agents",
+      "tags": [
+        "ai-news",
+        "llm-releases",
+        "agents",
+        "anthropic"
+      ],
+      "keywords": [
+        "ai-news",
+        "llm-releases",
+        "agents",
+        "anthropic",
+        "ai news",
+        "llm releases",
+        "fireship",
+        "Agent Verification"
+      ],
+      "summary": "Fireship's Code Report (10 Nov 2026): Anthropic starts its IPO roadshow as post-midterm data-center backlash and an AI-stock sell-off cut its expected valuation from ~$2T (September) to ~$1T. It releases Fable / Mythos 5.2—the same model, Mythos unrestricted for large companies, Fable with guardrails—priced at $8 in / $40 out per million tokens (down from $10/$50), though Anthropic still recommends Opus 5.5 for most work. Demos: sub-agents building a bootable OS from an empty folder over 8 days; a swarm of 1,000 Fable agents formalising Fermat's Last Theorem in Lean in 30 hours (proof 7× shorter; Opus 5.5 stalled at 26%); hardware designs from one-paragraph prompts with Diode. Benchmarks: beats GPT-6 Astra on Anthropic's listed evals, loses to Gemini 4 Carbon on business automation, doubles Astra on a self-run robotics benchmark. On the joke \"Thoroughbench\" (a realistic interactive 3D horse in three.js), Fable worked 43 minutes, built the horse from signed-distance fields rigged to a skeleton with inverse kinematics, and screenshotted its own first attempt, critiqued it and fixed each flaw—scoring a \"state-of-the-art\" 7.77. Sponsor: Mux video API.",
+      "key_insights": [
+        "Self-critique from a screenshot of your own output is now a standard frontier-model loop—see Agent Verification.",
+        "Prices keep falling release over release ($10/$50 → $8/$40), but vendors still steer most work to the cheaper default model.",
+        "Vendor-run benchmarks deserve scepticism; the horse joke makes the point."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        }
+      ],
+      "conceptCount": 1,
+      "added": "2026-11-11"
+    },
+    {
+      "slug": "biggest-wealth-transfer-begun-graham-stephan",
+      "title": "It Started: The BIGGEST Wealth Transfer Of Our Lifetime Has Just Begun!",
+      "video_id": "8J_36MGSdVI",
+      "platform": "youtube",
+      "url": "https://youtu.be/8J_36MGSdVI",
+      "duration_min": 16,
+      "creator": "graham-stephan",
+      "updated": "2026-11-11",
+      "created": "2026-11-11",
+      "section": "build",
+      "tags": [
+        "money",
+        "investing",
+        "markets",
+        "stock-market"
+      ],
+      "keywords": [
+        "money",
+        "investing",
+        "markets",
+        "stock-market",
+        "stock market",
+        "graham stephan",
+        "Cost of Missing the Best Days",
+        "Dollar-Cost Averaging Investing"
+      ],
+      "summary": "Graham Stephan (10 Nov 2026, sponsored by SoFi crypto) argues that despite the headwinds—oil after the Iran conflict, inflation at 3.7% vs 3% wage growth, a $2T annual deficit, $803–828B of big-tech AI capex with Mag 7 earnings missing estimates by 14.7%, and a Shiller CAPE near 40—the next year could be a strong one. Since 1946 the S&P 500 has been higher one year after every midterm (average +14.4%; ~14.6% with divided government vs 14.9% unified—politics barely matters). Drawdowns are normal (10%+ about every 18 months, 20%+ about every 6 years, averaging ~30% over 338 days), and buying through them has historically paid (average 12-month return after a steep decline ~52%). Forward P/E is 17.7, below 5- and 10-year averages, because S&P earnings grew 31.4% year on year (third straight quarter above 25%), and the other 493 companies are growing earnings faster than the Mag 7—AI as cost-cutting across all businesses. Bull case: peace with Iran, oil down, core inflation 2.6%, 10-year yield falling from 5.3% to ~4.8%, 165K new jobs and 4.1% unemployment.\n\nThe lasting lesson is don't sell on bad days: the day after the midterms was the best day in three months and the next was the worst since April 2025. JP Morgan: missing the 10 best days in 20 years nearly halves annual returns ($10K → ~$82,300 vs ~$35,000), and 7 of the 10 best days came within two weeks of the 10 worst. His stance: cautiously optimistic, diversified (US/international stocks, home, cash, muni bonds, a little crypto), keep buying without selling on drops, and use AI to raise your own output—possibly worth more than buying AI stocks.",
+      "key_insights": [
+        "missing best days cost: the best days cluster next to the worst, so panic-selling forfeits them.",
+        "Post-midterm years have been positive every time since 1946, regardless of which party wins.",
+        "Falling forward P/E can come from earnings growth, not price drops.",
+        "For most people, using AI to increase output may beat betting on AI stocks."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "missing-best-days-cost",
+          "title": "Cost of Missing the Best Days"
+        },
+        {
+          "slug": "dollar-cost-averaging-investing",
+          "title": "Dollar-Cost Averaging Investing",
+          "e": "📅"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-11"
+    },
+    {
+      "slug": "pick-problems-survive-ai-ara-khan-cline",
+      "title": "Pick Problems That Survive When AI Solves Coding - Ara Khan, Cline",
+      "video_id": "iK9gmxXyBR0",
+      "platform": "youtube",
+      "url": "https://youtu.be/iK9gmxXyBR0",
+      "duration_min": 27,
+      "creator": "ai-engineer",
+      "updated": "2026-11-11",
+      "created": "2026-11-11",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "evals",
+        "coding-agents",
+        "career",
+        "recursive-self-improvement"
+      ],
+      "keywords": [
+        "agents",
+        "evals",
+        "coding-agents",
+        "career",
+        "recursive-self-improvement",
+        "coding agents",
+        "recursive self improvement",
+        "ai engineer",
+        "Eval-Failure Harness Hill-Climb",
+        "Instruction Hill-Climb for Agents",
+        "Move Closer to the RSI Loop",
+        "Recursive Self-Improvement Loop"
+      ],
+      "summary": "Ara Khan (founding engineer at Cline) frames recursive self-improvement (RSI)—an AI system helping build a more capable successor—as already partly real, and asks what it means for your career. His concrete example: after a new model scored 77.5% on Terminal-Bench 2.1 in Cline versus the ~85% its release paper claimed, the team automated the usual hill-climbing work. Terminal-Bench runs 89 tasks in parallel sandboxed containers with independent graders tracking turns, tokens, latency, tool calls, trajectories and reward hacking (no cheating, no looking up answers). A long-running meta-agent ran the eval, read failures, bucketed them by category (loop detection, background processes running too long, file-index issues…), changed Cline's harness, and re-ran—17 hours autonomously, with a detailed prompt, producing genuine harness improvements. He sees a two-level loop (the harness acts and is rewarded; a meta-agent edits the harness) and warns that real-time self-tuning over-indexes on specific problems; changes must justify broad applicability. The same pattern is spreading across the stack: models rewriting their own production kernels (~20% lower serving cost), agent-written GPU kernels winning competitions, AI-curated pre-training data, and his own overnight loop that tuned a small voice device's firmware, models and latency via a coding agent. Every human correction marks a capability delta that post-training can close; anything with a verifiable loop can be optimised.\n\nCareer advice: move closer to the RSI loop—evals, data pipelines, post-training, inference, hardware and physical-world interaction—rather than thin \"AI agents for X\" products that are one model release away from being wiped out. Pick ambitious problems that benefit from scale but aren't solved by scale alone, compress your timelines, and ask whether it's better to wait for the next model. With side projects now one-shottable, proof of work has to come from harder problems.",
+      "key_insights": [
+        "eval failure harness hill climb: run evals, bucket failures, let a meta-agent patch the harness, re-run.",
+        "move closer to rsi loop: choose work that improves with models without being erased by them.",
+        "Every human correction to an agent is a capability delta worth capturing.",
+        "Guard the loop against reward hacking and over-fitting to one problem."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "eval-failure-harness-hill-climb",
+          "title": "Eval-Failure Harness Hill-Climb"
+        },
+        {
+          "slug": "instruction-hill-climb-agents",
+          "title": "Instruction Hill-Climb for Agents",
+          "e": "📈"
+        },
+        {
+          "slug": "move-closer-to-rsi-loop",
+          "title": "Move Closer to the RSI Loop"
+        },
+        {
+          "slug": "recursive-self-improvement-loop",
+          "title": "Recursive Self-Improvement Loop",
+          "e": "🔁"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-11"
+    },
+    {
+      "slug": "sub-agents-distributed-system-girish-konda-microsoft",
+      "title": "Your Sub-Agents Are a Distributed System. Treat Them Like One. - Girish Konda, Microsoft",
+      "video_id": "DxP5aW4VknQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/DxP5aW4VknQ",
+      "duration_min": 23,
+      "creator": "ai-engineer",
+      "updated": "2026-11-11",
+      "created": "2026-11-11",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "sub-agents",
+        "distributed-systems",
+        "reliability",
+        "ai-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "sub-agents",
+        "distributed-systems",
+        "reliability",
+        "ai-engineering",
+        "sub agents",
+        "distributed systems",
+        "ai engineering",
+        "ai engineer",
+        "Agent Verification",
+        "SAFE Handoff (Sub-Agent Consistency Model)",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "Girish Konda (principal software engineer at Microsoft, author of the open-source MCP Pacemaker supervised bridge; views his own) argues that an orchestrator splitting work across concurrent sub-agents that read shared state (conversation, memory files, repo, vector stores) and call real tools is a classic distributed system, yet the interface you get is \"a function that takes a string and returns a string\". The failures are old ones: partial failure (a half-finished sub-agent returns fluent text that looks like success—Byzantine, not crash), no reply (after a timeout you cannot tell slow from crashed from lost reply; FLP 1985, Chandra–Toueg failure detectors that only *suspect*), dirty reads (one worker's inference written to shared context is read by others as fact; three agreeing sub-agents reading the same guess are one source counted three times, not a quorum), unbounded fan-out (rate-limit pushback arrives as a sentence the orchestrator code never sees) and retries (re-running a sub-agent replays its side effects, e.g. a second PR).\n\nHis consistency model for sub-agents is SAFE handoff: Source facts—every fact handed on carries its source, version and three times (data current, read, used) and decisions read only facts fresh within a limit, which separates observations from inferences; At-most-once effects—every write has an identity, approval binds one exact action and is used once (like a fencing token), and outcomes are read back, never replayed (\"submitted is not confirmed\"); Fan-out budgets—a gate and bounded wait per downstream, and refusal counts as a failure (his bridge gates cold starts two at a time, waits ≤15 s, caps sessions, reserves capacity before starting to avoid check-then-act races); Explicit outcomes—every handoff ends in a named state (completed, failed, partial, stale, unknown), timeouts are recorded as unknown with the real cause kept, and the orchestrator treats agent output as untrusted input, checking schema, evidence, freshness and recomputing numbers in code (a claimed error-rate drop from 10/1000 to 6/600 is refused—both 1%). Limits: it doesn't make facts true, give exactly-once, roll back, or order across workers, and it is overhead when a human reads drafts before anything happens or when there is no single orchestrator.",
+      "key_insights": [
+        "safe handoff subagent consistency: source facts, at-most-once effects, fan-out budgets, explicit outcomes.",
+        "Return a status, not just text: if a result cannot say partial, stale or unknown, the orchestrator reads it as done.",
+        "Agreement among sub-agents sharing context is not independent evidence.",
+        "A timeout is a suspicion, not a fact—record unknown and read back before retrying."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "safe-handoff-subagent-consistency",
+          "title": "SAFE Handoff (Sub-Agent Consistency Model)"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-11"
     }
   ]
 }

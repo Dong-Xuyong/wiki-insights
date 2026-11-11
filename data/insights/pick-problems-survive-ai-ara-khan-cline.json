@@ -1,0 +1,65 @@
+{
+  "slug": "pick-problems-survive-ai-ara-khan-cline",
+  "sections": [
+    {
+      "title": "Harness hill-climbing",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What gap triggered Cline's experiment?",
+          "a": "Cline scored **77.5%** on Terminal-Bench 2.1 while the model paper claimed **~85%**."
+        },
+        {
+          "e": "🤖",
+          "q": "What did the meta-agent do?",
+          "a": "Ran evals, **bucketed failures by category**, patched the harness and re-ran—**17 hours** autonomously."
+        },
+        {
+          "e": "🐛",
+          "q": "What kinds of harness bugs did it find?",
+          "a": "**Loop detection**, runaway **background processes** and file-index issues."
+        },
+        {
+          "e": "🕵️",
+          "q": "What must graders check besides pass/fail?",
+          "a": "Turns, tokens, latency, trajectory and **reward hacking**."
+        }
+      ]
+    },
+    {
+      "title": "RSI everywhere",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What can be optimised this way?",
+          "a": "Anything with a **verifiable loop**—even firmware and hardware."
+        },
+        {
+          "e": "✍️",
+          "q": "How does Ara view every human correction to an agent?",
+          "a": "As a **capability delta** that post-training can close."
+        }
+      ]
+    },
+    {
+      "title": "Career",
+      "items": [
+        {
+          "e": "🧭",
+          "q": "What is Ara's career advice?",
+          "a": "**Move closer to the RSI loop**: evals, data, post-training, inference, hardware."
+        },
+        {
+          "e": "💀",
+          "q": "Which products are most at risk?",
+          "a": "Thin 'agents for X' apps **one model release away** from being wiped out."
+        },
+        {
+          "e": "⚖️",
+          "q": "What kind of problem should you pick?",
+          "a": "One that **benefits from scale** but **isn't solved by scale alone**."
+        }
+      ]
+    }
+  ]
+}

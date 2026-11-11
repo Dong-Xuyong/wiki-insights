@@ -1,0 +1,75 @@
+{
+  "slug": "sub-agents-distributed-system-girish-konda-microsoft",
+  "sections": [
+    {
+      "title": "Why it's a distributed system",
+      "items": [
+        {
+          "e": "🕸️",
+          "q": "Why are sub-agents a distributed system?",
+          "a": "An orchestrator, concurrent workers, **shared mutable state** and merged results—with only **string in, string out** as the interface."
+        },
+        {
+          "e": "🎭",
+          "q": "What does a half-finished sub-agent look like?",
+          "a": "It **doesn't crash**—it returns fluent text with the **same shape as success**."
+        },
+        {
+          "e": "⏱️",
+          "q": "What does a timeout actually tell you?",
+          "a": "Nothing certain: slow, crashed or lost reply look the same, so record it as **unknown**."
+        },
+        {
+          "e": "👯",
+          "q": "Why don't three agreeing sub-agents prove a claim?",
+          "a": "They read the **same shared guess**—it's **one source counted three times**."
+        }
+      ]
+    },
+    {
+      "title": "SAFE handoff",
+      "items": [
+        {
+          "e": "🧾",
+          "q": "What does S (source facts) require?",
+          "a": "Every fact carries its **source, version and read time**, and decisions use only **fresh** facts."
+        },
+        {
+          "e": "🔂",
+          "q": "How do you make retries safe (A)?",
+          "a": "Give each effect an **identity**, approve it once, and **read back the outcome instead of replaying**."
+        },
+        {
+          "e": "🚦",
+          "q": "What is a fan-out budget (F)?",
+          "a": "A **gate and bounded wait** per downstream, where a **refusal counts as a failure**."
+        },
+        {
+          "e": "🏷️",
+          "q": "What does E (explicit outcomes) mean?",
+          "a": "Every handoff ends in a **named state**—completed, partial, stale or unknown—not just text."
+        }
+      ]
+    },
+    {
+      "title": "Enforce it in code",
+      "items": [
+        {
+          "e": "🛡️",
+          "q": "How should the orchestrator treat sub-agent output?",
+          "a": "As **untrusted input**: check schema, evidence and freshness, and **recompute the numbers**."
+        },
+        {
+          "e": "🧮",
+          "q": "Why was 'error rate fell from 10/1000 to 6/600' refused?",
+          "a": "Recomputed, **both are 1%**—the claim didn't hold."
+        },
+        {
+          "e": "🚫",
+          "q": "When is SAFE mostly overhead?",
+          "a": "When a sub-agent only **drafts text a person reads** before anything happens."
+        }
+      ]
+    }
+  ]
+}

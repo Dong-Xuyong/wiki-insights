@@ -1,0 +1,45 @@
+{
+  "slug": "anthropic-fable-mythos-52-ipo-fireship",
+  "sections": [
+    {
+      "title": "The release",
+      "items": [
+        {
+          "e": "🦄",
+          "q": "What's the difference between Fable and Mythos 5.2?",
+          "a": "**Same model**: Mythos is unrestricted for large companies, **Fable has guardrails**."
+        },
+        {
+          "e": "💲",
+          "q": "What does Fable 5.2 cost?",
+          "a": "**$8 in / $40 out** per million tokens, down from $10/$50."
+        },
+        {
+          "e": "📉",
+          "q": "Why did Anthropic's expected IPO valuation fall?",
+          "a": "Post-midterm **data-center backlash** and an **AI-stock sell-off**: ~$2T to ~$1T."
+        }
+      ]
+    },
+    {
+      "title": "The demos",
+      "items": [
+        {
+          "e": "🧮",
+          "q": "What did 1,000 Fable agents do in 30 hours?",
+          "a": "Formalised **Fermat's Last Theorem in Lean**, with a proof **7× shorter**."
+        },
+        {
+          "e": "🐴",
+          "q": "How did Fable improve its 3D horse?",
+          "a": "It **screenshotted its first attempt**, critiqued it and **fixed every flaw**."
+        },
+        {
+          "e": "⚖️",
+          "q": "Which model does Anthropic still recommend for most work?",
+          "a": "**Opus 5.5**—use Fable only when you really need it."
+        }
+      ]
+    }
+  ]
+}
