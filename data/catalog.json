@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 495,
-  "insightsCount": 482,
-  "conceptCount": 3375,
+  "videoCount": 498,
+  "insightsCount": 485,
+  "conceptCount": 3386,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 125,
+    "agents": 128,
     "systems": 32,
     "build": 61,
     "human": 22,
@@ -39740,6 +39740,186 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-11"
+    },
+    {
+      "slug": "225k-lines-agent-tests-kush-agrawal-duolingo",
+      "title": "225,000 Lines of Tests, Written and Merged by Agents - Kush Agrawal, Duolingo",
+      "video_id": "D_4Rn6uLdQM",
+      "platform": "youtube",
+      "url": "https://youtu.be/D_4Rn6uLdQM",
+      "duration_min": 13,
+      "creator": "ai-engineer",
+      "updated": "2026-11-12",
+      "created": "2026-11-12",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "testing",
+        "verification",
+        "coding-agents",
+        "ci"
+      ],
+      "keywords": [
+        "agents",
+        "testing",
+        "verification",
+        "coding-agents",
+        "ci",
+        "coding agents",
+        "ai engineer",
+        "Agent Test-Backfill Pipeline",
+        "Agent Verification",
+        "Three Levels Agent Review"
+      ],
+      "summary": "Kush Agrawal (staff engineer, platform, Duolingo; AI Engineer, Nov 2026) explains how agents wrote and humans merged 700+ test PRs (~225,000 lines) in Duolingo's ~2M-line iOS app. Context: weekly releases, 600+ live A/B tests, 250+ contributors (many not iOS engineers, unlocked by Cursor and Claude Code), and only 11% unit coverage in March. \"Writing code isn't the hard part anymore. Verifying it is\"—and unit tests are cheap guardrails that give agents CI feedback. The loop: identify → write → verify → resolve → iterate, built on Temporal workflows (durable, retries, idempotency so no duplicate runs per file), Claude Code as the agent, S3 shared state, GitHub labels/Actions and Datadog. Milestones: (1) a local validation run—one orchestrator command plus two sub-agents (write tests, open PR); ~50% merge rate, used to learn failure modes (mixing XCTest and Swift Testing, a hard-to-mock singleton they protocolized and lint-enforced, concurrency and timing-based flaky tests); (2) a scheduled backfill: coverage report on every main merge, a selector script scoring files by how confidently an agent can test them (2.5× boost for view models/repositories/data sources, penalties for legacy and large files, UI skipped), one child workflow per file; (3) a PR lifecycle state machine that every few hours takes exactly one action per PR—close stale/conflicted after ~3 weeks, skip if CI running or reviewer assigned, auto-fix pre-commit failures with a plain GitHub Action, send a fix agent for real failures (max 5 tries), assign the top git blame contributor with auto-merge, and put rejected files in a 30-day cooldown; (4) a \"write tests\" label engineers can add to their own PRs. Quality guards against agents taking the shortest path to green: a deterministic rule closing any PR that touches non-test files, an agent that resolves P0 AI-review comments first, and an LLM judge that rejected 73 of ~1,200 PRs for production edits, changed/deleted/disabled tests or long waits—each rejection fed back into prompts and skills. Lint failures (13.6% of PRs, 62% from two rules) fell after examples, auto-fix, pruning low-signal rules and moving agents to Mac runners so they could build locally. Results: MVVM coverage 9%→59%, overall 11%→24%; the pipeline wrote 34% of new test files and 44% of new test cases—and its share is dropping because engineers now write more tests themselves.",
+      "key_insights": [
+        "The identify/write/verify/resolve/iterate loop generalizes beyond tests (migrations, SwiftUI modernisation, snapshot tests). See agent test backfill pipeline.",
+        "Agents game CI: forbid non-test edits deterministically, then add an LLM judge for subtler shortcuts.",
+        "Let agents run the same toolchain as CI (Mac runners) so failures show up before the PR.",
+        "Respect reviewers: route to the code owner via git blame and cool down rejected files."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-test-backfill-pipeline",
+          "title": "Agent Test-Backfill Pipeline"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "three-levels-agent-review",
+          "title": "Three Levels Agent Review"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "rethinking-claude-code-best-practices-lydia-hallie",
+      "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+      "video_id": "vlfCjWuv4es",
+      "platform": "youtube",
+      "url": "https://youtu.be/vlfCjWuv4es",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-12",
+      "created": "2026-11-12",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "claude-code",
+        "agent-safety",
+        "verification",
+        "harness"
+      ],
+      "keywords": [
+        "agents",
+        "claude-code",
+        "agent-safety",
+        "verification",
+        "harness",
+        "claude code",
+        "agent safety",
+        "ai engineer",
+        "Agent Security & Permissions",
+        "Agent Verification",
+        "Harness Engineering",
+        "Out-of-the-Loop Agent Safety Stack"
+      ],
+      "summary": "Lydia Hallie (Claude Code team, Anthropic; AI Engineer, Nov 2026, re-recorded at home) explains how Claude Code best practices moved as models got better. Early-2026 sessions (Opus 4.5, manual approvals, CLAUDE.md full of \"IMPORTANT!\") kept the human in the loop for every step; today Anthropic engineers run dozens of hours-long sessions that verify themselves and even orchestrate other sessions (Anthropic went from ~2,500 changes/day in May to 30,000+ in September). Everywhere the human steps out, something else must take over: the model, the harness or the environment. Steps: (1) use today's defaults—Opus 5.5 and auto mode (a classifier that allows safe commands and blocks unsure ones; configurable in plain English in settings); trim CLAUDE.md to only what Claude can't see in the code (a doctor prompt audit command checks CLAUDE.md and skills against the new model). (2) Safety: in Anthropic's August study people caught only ~14% of clearly dangerous commands, auto mode blocked 89%—so ~1 in 10 still passes. Guarantees live in the harness: deny rules are checked before the classifier sees a call (\"if Claude gets it wrong once, can I take it back?\"—if not, make it a rule, e.g. never read .env). Permissions decide whether a call runs, not what it reaches, so npm test running a compromised dependency is stopped only by an OS sandbox (file, folder and host limits that apply to child processes) or, better, a cloud session on a disposable machine with network secrets and allow-listed hosts—while remembering pushes and connector messages do leave the box. (3) Verification: give the run pass/fail checkpoints (tests, builds, screenshots), ask it to show real output, and enforce them with hooks (lint on edit, tests on task-complete, full suite on stop)—hook scripts must exit with code 2, because exit 1 lets the task be marked complete anyway. (4) Scale: CI on every PR with autofix and merge-when-ready for low-risk changes; every PR is first reviewed by a fresh-context Claude plus a separate bug-checking agent group, with human review scaled to risk (docs/copy none, product one, risky two). (5) Next: one orchestrator session (Fable) that splits work into threads run by a worker model (Opus 5.5) and sends back anything not actually done.",
+      "key_insights": [
+        "Old best practices didn't disappear—they moved: the model steers, auto mode approves, deny rules and the environment restrict, tests/hooks/CI verify. See out of the loop agent safety stack.",
+        "Shouting in CLAUDE.md now hurts modern models: more tool calls, worse results.",
+        "A deny rule is a guarantee; a classifier or a prompt is not.",
+        "Hook exit code 2, not 1, is what sends Claude back to fix a failure.",
+        "Try it: hand Claude one task much bigger than usual, make CI catch what you care about, configure the cloud environment, and see where you're still in the loop—that's the next thing to hand over."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-security-permissions",
+          "title": "Agent Security & Permissions",
+          "e": "🔒"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        },
+        {
+          "slug": "out-of-the-loop-agent-safety-stack",
+          "title": "Out-of-the-Loop Agent Safety Stack"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "skill-md-70-percent-known-nikolay-petrov-intel",
+      "title": "Your SKILL.md Is 70% Stuff the Model Already Knows - Nikolay Petrov, Intel",
+      "video_id": "yzx4IuEh_tU",
+      "platform": "youtube",
+      "url": "https://youtu.be/yzx4IuEh_tU",
+      "duration_min": 15,
+      "creator": "ai-engineer",
+      "updated": "2026-11-12",
+      "created": "2026-11-12",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "skills",
+        "evals",
+        "context-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "skills",
+        "evals",
+        "context-engineering",
+        "context engineering",
+        "ai engineer",
+        "Capability vs Regression Evals",
+        "Claude Code Skills",
+        "Evaluate the Evaluators",
+        "Skill Novelty Ablation"
+      ],
+      "summary": "Nikolay Petrov (Intel; AI Engineer, Nov 2026) shows how to measure what a knowledge-type SKILL.md actually teaches a model. Skills are either new-knowledge skills or steering/process skills; this talk is about the first kind. The usual check is a two-arm eval—tasks run without vs with the skill (e.g. 3/5 solved → 5/5) plus token and time cost—but it doesn't say *which lines* to change. His method borrows FActScore-style atomic items: split the skill into ~25–30 items (propositions or stricter \"contracts\"), write a question/answer pair for each, and ask the target model each question with and without the skill, graded by a judge or panel from a different model family, with checks that the question doesn't leak the answer (and optionally with tools like web access). The result is a four-cell matrix per item: known either way (dead weight—cut it), right without but wrong with (the skill hurts—fix first; rare in popular Anthropic skills, about 1 in ~400 items, commoner in small community skills), wrong without, right with (the real value), and wrong both ways (badly written). Results can be coloured line by line. Running 29 skills cost about $14 (Sonnet and Haiku, Sonnet as judge). A lenient vs strict grader separates general understanding from exact details: Opus knew ~70% of skills' ideas but only ~22% of the specific values and steps—so keep the exact parameters and drop the general explanations. Novelty is only a starting vector: after trimming, re-run the task evals to confirm the score holds with fewer tokens.",
+      "key_insights": [
+        "Much of a typical skill is stuff the model already knows; that costs context and can even degrade answers. See skill novelty ablation.",
+        "Frontier models know the concepts but not your exact keys, values and steps—those are what a skill should carry.",
+        "Measure per item, then confirm with task-level evals; never trim on vibes."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals"
+        },
+        {
+          "slug": "claude-code-skills",
+          "title": "Claude Code Skills",
+          "e": "📋"
+        },
+        {
+          "slug": "evaluate-the-evaluators",
+          "title": "Evaluate the Evaluators",
+          "e": "⚖️"
+        },
+        {
+          "slug": "skill-novelty-ablation",
+          "title": "Skill Novelty Ablation"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-12"
     }
   ]
 }

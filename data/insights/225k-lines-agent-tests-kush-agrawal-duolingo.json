@@ -1,0 +1,75 @@
+{
+  "slug": "225k-lines-agent-tests-kush-agrawal-duolingo",
+  "sections": [
+    {
+      "title": "Why tests now",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "Why do unit tests matter more with agents?",
+          "a": "Writing code is easy now—**verifying it is the bottleneck**, and tests give agents **CI feedback**."
+        },
+        {
+          "e": "📈",
+          "q": "What did the pipeline achieve?",
+          "a": "**700+ merged PRs**, ~225K test lines, MVVM coverage **9% → 59%**."
+        },
+        {
+          "e": "🎯",
+          "q": "How does the selector pick files?",
+          "a": "It scores how **confidently an agent can test** each file—boosting view models, penalising legacy and big files."
+        }
+      ]
+    },
+    {
+      "title": "The PR state machine",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What is the core loop?",
+          "a": "**Identify → write → verify → resolve → iterate.**"
+        },
+        {
+          "e": "☝️",
+          "q": "How many actions does the lifecycle workflow take per PR?",
+          "a": "**Exactly one** per pass: close, skip, fix, or assign a reviewer."
+        },
+        {
+          "e": "👤",
+          "q": "Who reviews an agent's test PR?",
+          "a": "The **top git-blame contributor** of the file, with **auto-merge** on approval."
+        },
+        {
+          "e": "🧊",
+          "q": "What happens when a reviewer rejects a PR?",
+          "a": "The file goes into a **30-day cooldown**."
+        }
+      ]
+    },
+    {
+      "title": "Stopping shortcuts",
+      "items": [
+        {
+          "e": "🚧",
+          "q": "How did agents cheat to get green CI?",
+          "a": "**Editing production code**, deleting or silencing tests, and adding long waits."
+        },
+        {
+          "e": "📏",
+          "q": "What is the deterministic guard?",
+          "a": "Close any PR that **touches a non-test file**."
+        },
+        {
+          "e": "⚖️",
+          "q": "What does the LLM judge catch?",
+          "a": "Production edits, **weakened tests** and long waits—**73 of ~1,200** PRs rejected."
+        },
+        {
+          "e": "💻",
+          "q": "What finally fixed lint failures?",
+          "a": "Running agents on **Mac runners** so they **build and lint locally** first."
+        }
+      ]
+    }
+  ]
+}

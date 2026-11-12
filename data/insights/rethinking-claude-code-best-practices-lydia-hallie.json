@@ -1,0 +1,75 @@
+{
+  "slug": "rethinking-claude-code-best-practices-lydia-hallie",
+  "sections": [
+    {
+      "title": "What changed",
+      "items": [
+        {
+          "e": "🔄",
+          "q": "What happens every time you step out of the agent loop?",
+          "a": "Something else must take over: **the model, the harness or the environment**."
+        },
+        {
+          "e": "📝",
+          "q": "What should CLAUDE.md contain now?",
+          "a": "Only **what Claude can't see from the code**—drop the shouting and stack descriptions."
+        },
+        {
+          "e": "🤖",
+          "q": "What does auto mode do?",
+          "a": "A **classifier** allows safe commands and **blocks the ones it's unsure about**."
+        }
+      ]
+    },
+    {
+      "title": "Keeping it safe",
+      "items": [
+        {
+          "e": "👀",
+          "q": "How often did people catch clearly dangerous commands?",
+          "a": "Only **~14%**, while auto mode blocked **89%**—so ~1 in 10 still slips through."
+        },
+        {
+          "e": "⛔",
+          "q": "When should something be a deny rule?",
+          "a": "When a mistake **can't be taken back**, like reading `.env` or discarding uncommitted work."
+        },
+        {
+          "e": "📦",
+          "q": "Why isn't a permission rule enough for npm test?",
+          "a": "Permissions decide **whether a call runs**, not what its dependencies reach—use a **sandbox**."
+        },
+        {
+          "e": "☁️",
+          "q": "What still leaves a disposable cloud machine?",
+          "a": "**Pushed commits and connector messages**—so keep deny rules on there too."
+        }
+      ]
+    },
+    {
+      "title": "Verifying without watching",
+      "items": [
+        {
+          "e": "✅",
+          "q": "What counts as a verification checkpoint?",
+          "a": "Anything that returns **pass or fail**: tests, a build, a screenshot."
+        },
+        {
+          "e": "🪝",
+          "q": "Which exit code should a failing hook return?",
+          "a": "**Exit code 2**—exit 1 lets the task be **marked complete anyway**."
+        },
+        {
+          "e": "🎚️",
+          "q": "How does Anthropic scale human PR review?",
+          "a": "By **risk**: docs need none, product changes one reviewer, **risky changes two**."
+        },
+        {
+          "e": "🧭",
+          "q": "What does the orchestrator session do?",
+          "a": "Splits work into threads, **judges what comes back** and **sends unfinished work back**."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "skill-md-70-percent-known-nikolay-petrov-intel",
+  "sections": [
+    {
+      "title": "The problem",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What kinds of skills are there?",
+          "a": "**New-knowledge** skills that teach something, and **steering/process** skills that fix a repeatable flow."
+        },
+        {
+          "e": "⚖️",
+          "q": "What does a basic skill eval compare?",
+          "a": "Tasks run **without vs with the skill**, plus token and time cost."
+        },
+        {
+          "e": "❓",
+          "q": "What can't a two-arm eval tell you?",
+          "a": "**Which lines** of the skill actually help."
+        }
+      ]
+    },
+    {
+      "title": "The novelty matrix",
+      "items": [
+        {
+          "e": "🔬",
+          "q": "How do you test a skill item by item?",
+          "a": "Split it into **~25–30 atomic items**, write a Q&A for each, and ask the model **with and without the skill**."
+        },
+        {
+          "e": "🗑️",
+          "q": "What do you do with items the model knows both ways?",
+          "a": "**Cut them**—they only cost tokens."
+        },
+        {
+          "e": "🚨",
+          "q": "Which items should you fix first?",
+          "a": "Ones the model gets **right without the skill but wrong with it**."
+        },
+        {
+          "e": "💎",
+          "q": "Which items are the real value?",
+          "a": "Ones the model gets **wrong without the skill and right with it**."
+        }
+      ]
+    },
+    {
+      "title": "Findings",
+      "items": [
+        {
+          "e": "📏",
+          "q": "How big is the lenient-vs-strict gap for Opus?",
+          "a": "About **70% general understanding** but only **22% of exact details**."
+        },
+        {
+          "e": "💵",
+          "q": "What did testing 29 skills cost?",
+          "a": "About **$14** in Sonnet and Haiku calls."
+        },
+        {
+          "e": "🔁",
+          "q": "What must you do after trimming a skill?",
+          "a": "**Re-run the task evals** to confirm the score holds with fewer tokens."
+        }
+      ]
+    }
+  ]
+}
