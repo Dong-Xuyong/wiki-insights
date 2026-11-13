@@ -1,0 +1,50 @@
+{
+  "slug": "jensen-huang-resigns-nvidia-fireship",
+  "sections": [
+    {
+      "title": "What happened",
+      "items": [
+        {
+          "e": "📉",
+          "q": "Why did Jensen Huang leave Nvidia?",
+          "a": "After **two reported affairs**, one with a woman linked to Chinese intelligence, the board accepted his **resignation**."
+        },
+        {
+          "e": "👔",
+          "q": "Who became interim CEO?",
+          "a": "CFO **Colette Kress**, five days before earnings."
+        }
+      ]
+    },
+    {
+      "title": "The loophole",
+      "items": [
+        {
+          "e": "🌏",
+          "q": "How can China use GPUs it can't buy?",
+          "a": "A non-Chinese company racks them **offshore** and **rents the compute**."
+        },
+        {
+          "e": "📜",
+          "q": "What do US export rules check?",
+          "a": "**Where the chip sits** and **who owns the buyer**."
+        },
+        {
+          "e": "💸",
+          "q": "How much did Megaspeed buy?",
+          "a": "Over **$4.8B of Nvidia hardware** in two years."
+        }
+      ]
+    },
+    {
+      "title": "Who spotted it",
+      "items": [
+        {
+          "e": "🔎",
+          "q": "Who flagged it first?",
+          "a": "Short seller **Culper Research**, in May 2026, from **corporate filings**."
+        }
+      ]
+    }
+  ]
+}

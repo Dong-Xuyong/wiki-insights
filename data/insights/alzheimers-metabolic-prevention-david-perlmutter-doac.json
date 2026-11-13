@@ -1,0 +1,65 @@
+{
+  "slug": "alzheimers-metabolic-prevention-david-perlmutter-doac",
+  "sections": [
+    {
+      "title": "The framing",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What is Alzheimer's, per Perlmutter?",
+          "a": "Primarily **a metabolic condition of the brain**, and **significantly preventable**."
+        },
+        {
+          "e": "🔫",
+          "q": "How do genes and lifestyle interact?",
+          "a": "**Genetics loads the gun; lifestyle pulls the trigger.**"
+        },
+        {
+          "e": "🩸",
+          "q": "When should you start watching brain-risk markers?",
+          "a": "In your **30s and 40s**: blood sugar, blood pressure, body fat and lipids."
+        }
+      ]
+    },
+    {
+      "title": "The levers",
+      "items": [
+        {
+          "e": "👟",
+          "q": "What is the most powerful brain tool?",
+          "a": "**Movement**, both **aerobic and resistance**; build muscle early."
+        },
+        {
+          "e": "🍯",
+          "q": "Where does hidden sugar show up?",
+          "a": "Sauces and glazes at **40–50% sugar** and **fat-free** dressings."
+        },
+        {
+          "e": "🫐",
+          "q": "Which foods does he favour?",
+          "a": "**Polyphenol-rich** foods: berries, coloured vegetables, **extra-virgin olive oil**, coffee."
+        },
+        {
+          "e": "🤝",
+          "q": "Which non-food factor makes his top five?",
+          "a": "**Lack of social connection.**"
+        }
+      ]
+    },
+    {
+      "title": "Drugs and evidence",
+      "items": [
+        {
+          "e": "💊",
+          "q": "What did the Cochrane review find on amyloid drugs?",
+          "a": "**No meaningful slowing** across 17 studies and 20,342 patients."
+        },
+        {
+          "e": "📈",
+          "q": "What did a 20-week lifestyle trial show?",
+          "a": "About **70% of patients stabilised or improved**."
+        }
+      ]
+    }
+  ]
+}
