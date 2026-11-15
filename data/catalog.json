@@ -2,7 +2,7 @@
   "generated": true,
   "videoCount": 505,
   "insightsCount": 492,
-  "conceptCount": 3413,
+  "conceptCount": 3425,
   "sections": [
     {
       "id": "architecture",
@@ -57,50 +57,11 @@
     "build": 62,
     "human": 23,
     "performance": 63,
-    "mind": 43,
+    "mind": 45,
     "relationships": 70,
-    "other": 75
+    "other": 73
   },
   "videos": [
-    {
-      "slug": "before-we-forget-how-to-connect",
-      "title": "Before We Forget How to Connect",
-      "video_id": "wRlJaXVs81E",
-      "platform": "youtube",
-      "url": "https://youtu.be/wRlJaXVs81E",
-      "duration_min": null,
-      "creator": "vinh-giang",
-      "updated": "2026-10-26",
-      "created": "2026-10-26",
-      "section": "relationships",
-      "tags": [
-        "communication",
-        "vinh-giang"
-      ],
-      "keywords": [
-        "communication",
-        "vinh giang",
-        "Trusted People Fell to Zero"
-      ],
-      "summary": "",
-      "key_insights": [
-        "Close trusted people fell from about three to zero.",
-        "The book has a workbook, interludes, and a story-bank. Four rewrites took about two years. He says he could not finish it without Ali and Dan.",
-        "His dad, a monk and former teacher, planted a tree and cooked with a grieving father. The voice was soft, then stronger.",
-        "Going first means calling to say I miss you, and a Saturday 7 p.m. family pizza.",
-        "He refused, then accepted, MCing Ali's mother's funeral in Melbourne, and canceled a paid gig to be there.",
-        "He quit accounting six months from the end, after four and a half years. The point he takes from that is that you choose what a story means."
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "trusted-people-fell-to-zero",
-          "title": "Trusted People Fell to Zero",
-          "e": "📞"
-        }
-      ],
-      "conceptCount": 1
-    },
     {
       "slug": "behind-the-scenes-mark-manson-vanessa-van-edwards",
       "title": "Behind The Scenes w/ Mark Manson & Vanessa Van Edwards!",
@@ -522,81 +483,6 @@
           "slug": "capital-allocation-ratio",
           "title": "Capital Allocation Ratio",
           "e": "📈"
-        }
-      ],
-      "conceptCount": 1
-    },
-    {
-      "slug": "programmers-vs-dreams-fake-manhunts",
-      "title": "Programmers vs Dream's Fake Manhunts",
-      "video_id": "y2C0Zpnl6p0",
-      "platform": "youtube",
-      "url": "https://youtu.be/y2C0Zpnl6p0",
-      "duration_min": null,
-      "creator": "the-primeagen",
-      "updated": "2026-10-26",
-      "created": "2026-10-26",
-      "section": "other",
-      "tags": [
-        "programming",
-        "games"
-      ],
-      "keywords": [
-        "programming",
-        "games",
-        "the primeagen",
-        "Minecraft Tick Tells the Cut"
-      ],
-      "summary": "",
-      "key_insights": [
-        "GUI scale is integer pixel scaling. A blurrier zoom means the image was resampled.",
-        "Iron ore takes 200 ticks. At 20 ticks a second that is 10 seconds an ingot. After a save load, 9.3 seconds are missing. The furnace sits at 0.56 of an ingot at 14:20 and nine frames, and the third ingot arrives only 15.1 seconds later.",
-        "Enchantment glint uses getMillis. Casey's line is that game code should not read the real clock.",
-        "The jolt cracker: at food level 17, jolts should be 52 ticks, or 2.6 seconds, apart, not 1 second.",
-        "In the boat clutch, the darkened bottom hotbar updates ahead of the inventory hotbar. That is the opposite of what YouTube compression would do."
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "minecraft-tick-tells-the-cut",
-          "title": "Minecraft Tick Tells the Cut",
-          "e": "⏱️"
-        }
-      ],
-      "conceptCount": 1
-    },
-    {
-      "slug": "programming-laws-tier-list",
-      "title": "Programming Laws Tier list",
-      "video_id": "Bye5avxGMKM",
-      "platform": "youtube",
-      "url": "https://youtu.be/Bye5avxGMKM",
-      "duration_min": null,
-      "creator": "the-primeagen",
-      "updated": "2026-10-26",
-      "created": "2026-10-26",
-      "section": "other",
-      "tags": [
-        "programming"
-      ],
-      "keywords": [
-        "programming",
-        "the primeagen",
-        "Observable Behavior Gets Depended On"
-      ],
-      "summary": "",
-      "key_insights": [
-        "S tier is Conway's law, the claim that software slows faster than hardware, and the claim that enough API users depend on every observable behavior. The Go loop variable, which lasted until about Go 1.21, is the example.",
-        "Brooks and Hofstadter are unreliable. Linus is off the board.",
-        "Goodhart's law is A tier. The examples are a token leaderboard, a startup-time bonus, and Netflix optimizing median watch hours.",
-        "Annie's law: post an arrogantly wrong answer so that people correct it."
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "observable-behavior-gets-depended-on",
-          "title": "Observable Behavior Gets Depended On",
-          "e": "📜"
         }
       ],
       "conceptCount": 1
@@ -1249,45 +1135,6 @@
       "aliasSlugs": [
         "what-i-wish-i-knew-at-30-charisma-on-command"
       ]
-    },
-    {
-      "slug": "its-not-just-you",
-      "title": "It’s not just you",
-      "video_id": "FlWII9xFabo",
-      "platform": "youtube",
-      "url": "https://youtu.be/FlWII9xFabo",
-      "duration_min": 19,
-      "creator": "the-primeagen",
-      "updated": "2026-10-13",
-      "created": "2026-10-13",
-      "section": "agents",
-      "tags": [
-        "agents",
-        "programming",
-        "the-primeagen"
-      ],
-      "keywords": [
-        "agents",
-        "programming",
-        "the primeagen",
-        "Slop, then rebuild"
-      ],
-      "summary": "the-primeagen (~19 min, auto English). The feed title is \"The Struggle is Real.\" He answers a viral question about what people struggle with most in AI and software engineering, about 255,000 views and 336 comments. Sponsor block is Sentry, played as a sketch about an agent gaslighting him. The complaints he treats as real are flaky generated test suites, broken focus while agents run, weekly hype, walls of text, and juniors who never see what good looks like.\n\nA feature that changes on the order of 100 tests should frighten you. Agents keep adding end-to-end tests until a simple CRUD app has thousands or tens of thousands of them. Those suites are slow and flaky. He says every company he has worked in has had end-to-end problems, so you still have to decide what you are actually testing. A 10, 15, or 20 minute wait pushes him to start another task until he is running four and is lost. He can answer Discord or Slack beside one feature. He caps real development at one or two tasks. Three starts to slip. Four means he is gone.\n\nHow people used agents a year ago was drastically different from today, and different again from two years ago, so missing this week's practice is a weak reason to panic. He says Jev was not even around two weeks earlier. At React Miami, four or five months before this video, people from San Francisco were convinced AI would recreate Vercel in six months with no mistakes. He grants that someone ignorant of a domain can ship working software in some categories. He rejects \"no mistakes\" as a path to a 10-year service that serves millions of people.\n\nTold to list repository patterns with no narrative, the model still writes a narrative about having no narrative. A point that fits in one sentence shows up as about 400 words. Grug-speak shortens the output into a paragraph he still cannot read. slop-then-rebuild is his ownership method. Use the model to explore a first version, then redesign the same features. Line count is his check that he understood the system. The careful rebuild is about half or a quarter of the code. This project is heading from roughly 100,000 lines toward 25,000 to 30,000. The work is the Omachi automation and Oligoti, an agentic OS testing framework: an automation server, clients, custom harnesses, and a distributed way to spawn servers. Juniors have the shortest stick because the model never challenges a bad idea, it returns a thousand-line PR, and teams expect senior speed from a tool the junior does not yet understand. Hiring today, he would take the person who can specify the tests, the server layout, and the CLI trade-offs over the person who pastes instructions into a box and merges when the spinner stops.",
-      "key_insights": [
-        "A hundred changed tests is a smell. You still have to choose what the suite is for.",
-        "One or two real tasks. Four concurrent features and he is gone.",
-        "This week's required workflow will not be next year's. Jev itself was two weeks old on this tape.",
-        "Ownership is the second build. Same features, a quarter to a half of the lines."
-      ],
-      "has_insights": true,
-      "concepts": [
-        {
-          "slug": "slop-then-rebuild",
-          "title": "Slop, then rebuild",
-          "e": "📉"
-        }
-      ],
-      "conceptCount": 1
     },
     {
       "slug": "sloppy-one-shot-saas-replacements",
@@ -40336,6 +40183,256 @@
         }
       ],
       "conceptCount": 4,
+      "added": "2026-11-15"
+    },
+    {
+      "slug": "its-not-just-you-primetime",
+      "title": "It’s not just you",
+      "video_id": "FlWII9xFabo",
+      "platform": "youtube",
+      "url": "https://youtu.be/FlWII9xFabo",
+      "duration_min": 19,
+      "creator": "the-primetime",
+      "updated": "2026-11-15",
+      "created": "2026-11-15",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "vibe-coding",
+        "code-quality",
+        "ownership"
+      ],
+      "keywords": [
+        "agents",
+        "vibe-coding",
+        "code-quality",
+        "ownership",
+        "vibe coding",
+        "code quality",
+        "the primetime",
+        "Learn Building Blocks, Not Leaves",
+        "Programmer as LLM Proxy",
+        "Slop, then rebuild",
+        "Vibe Coding"
+      ],
+      "summary": "ThePrimeagen answers a tweet asking what people struggle with most about AI and software engineering (255k views on the prompt). He works through six recurring complaints: CI and tests going bad, losing flow while waiting on agents, hype and FOMO, useless walls of text, not feeling ownership of AI output, and juniors who are blocked from learning by hand.\n\nOn tests, agents happily emit thousands of flaky end-to-end tests for simple CRUD apps. He has never been in a company without E2E pain: you cannot \"end-to-end everything\"; you have to sit down and ask what you are actually testing, and trim. On flow, models feel both faster and slower than he is. A 10–20 minute wait tempts him to kick off more tasks, and by three or four concurrent features he is \"lost in the sauce.\" He caps himself at one or two tasks. On hype, he tells people to ignore anyone who says \"if you're not doing X, you're not going to make it.\" Agent workflow changes every year; \"Jev\" wasn't even around two weeks ago. At React Miami, people from SF were sure AI would be able to create a Vercel in six months. Agents can help even an ignorant person produce working software in some categories, but they will not, on \"no mistakes,\" stand up a ten-year resilient service for millions of users.\n\nThe most universal complaint is no ownership of what the model writes. His fix is the old prototype loop, done with AI: slop to explore, then deliberately rebuild a V2 once you know the shape. On his Omachi/Oligarchy agentic testing framework he first vibed a distributed spawn-and-harness prototype (~100k lines, too many tests), learned what he actually wanted, then redesigned the same features at about 25–30k lines with a better database shape and structure he can stand behind. \"I made that.\" For juniors he is bluntest: they now have to move like seniors because a tool can *look* senior, but the model never challenges a bad idea — it hands back a thousand-line PR. They never learn what good looks like. Technical knowledge still matters. If he were hiring today he would take the person who thinks through tests, layout and trade-offs over the person who is only a proxy from a conversation into a text box.",
+      "key_insights": [
+        "Do not let agents drown a simple app in flaky end-to-end tests. Decide what you are testing and trim.",
+        "Cap concurrent agent tasks (Prime: one or two). Waiting time is a trap that shreds focus.",
+        "Ignore \"if you're not doing X you won't make it.\" The tools themselves change in weeks.",
+        "Slop, then rebuild: use the sloppy first pass as a prototype, then rebuild for ownership.",
+        "Programmer as LLM Proxy: juniors (and everyone) still have to learn what good looks like; do not become a relay into the model."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "learn-building-blocks-not-leaves",
+          "title": "Learn Building Blocks, Not Leaves",
+          "e": "🧩"
+        },
+        {
+          "slug": "programmer-as-llm-proxy",
+          "title": "Programmer as LLM Proxy",
+          "e": "🪞"
+        },
+        {
+          "slug": "slop-then-rebuild",
+          "title": "Slop, then rebuild",
+          "e": "📉"
+        },
+        {
+          "slug": "vibe-coding",
+          "title": "Vibe Coding",
+          "e": "🎧"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-15"
+    },
+    {
+      "slug": "programmers-vs-dream-fake-manhunts-standup",
+      "title": "Programmers vs Dream's Fake Manhunts | TheStandup",
+      "video_id": "y2C0Zpnl6p0",
+      "platform": "youtube",
+      "url": "https://youtu.be/y2C0Zpnl6p0",
+      "duration_min": 65,
+      "creator": "the-primetime",
+      "updated": "2026-11-15",
+      "created": "2026-11-15",
+      "section": "mind",
+      "tags": [
+        "programming",
+        "game-engines",
+        "forensics",
+        "determinism"
+      ],
+      "keywords": [
+        "programming",
+        "game-engines",
+        "forensics",
+        "determinism",
+        "game engines",
+        "the primetime",
+        "Game Time vs Wall Clock",
+        "Learn Building Blocks, Not Leaves",
+        "Minecraft Tick Tells the Cut"
+      ],
+      "summary": "On The Standup (The PrimeTime with Casey Muratori and TJ/Trash), TJ turns the long-running drama around Dream's Minecraft Manhunt videos into a quiz. Dream presented the hunts as uncut, \"real raw\" recordings of him escaping four or five hunters. A later analysis found hidden cuts with new techniques for spotting edits that are almost invisible to the eye. The crew watches clips and guesses the tell — lag spikes, HUD and hot-bar changes, item-name fade timing, hunger-bar shakes, axe glint jumps, lava particles, furnace outputs, a hot bar that \"sees into the future\" after a splice — while Casey uses each miss as a chance to teach how a game engine actually works.\n\nThe programming meat is stronger than the drama. Casey walks through a frame budget (~16 ms), CPU vs GPU overruns, and why \"lag\" is not one thing: simulation falling behind, the GPU missing vsync, or client prediction meeting delayed server packets (rubber-banding, \"running in sand\" on Apex). A concrete Minecraft tell: iron ore takes 200 ticks (20 ticks/second, so 10 seconds) to smelt, and more ingots came out of a clip than the elapsed time allowed. He also argues for data-driven tunables (put values in data, not code) but warns against doing it prematurely, and against using JSON as a runtime format — no schema, all validation happens after a text parse in the game. A linear-algebra aside covers matrix multiply convention (left vs right concat changes whether translate happens first or last).\n\nTwo ideas last. First, some animated effects (armor glint) were running on wall-clock / real time, not game time, so they jump when a cut is hidden and they also wreck deterministic replay. Casey's rule: drive visual effects from simulation time so you can record a run and play it back exactly, without intercepting the system timer. Second, the hunger bar's bob is a pseudo-random function of the tick. Once you know the modulus, you can work backwards from the on-screen pattern, recover the exact tick (and the on-screen stopwatch), and flag discontinuities as cuts. The investigators published open-source computer vision that reads that region of the frame and maps it back to a tick.",
+      "key_insights": [
+        "Visible \"glitches\" in a recording are often desyncs in the simulation: frame budget, netcode prediction, or a hidden edit.",
+        "Put gameplay tunables in data, but do not data-drive too early, and do not use JSON as a runtime format.",
+        "game time vs wall clock: drive effects from simulation time so replays (and forensic timelines) stay deterministic.",
+        "Minecraft Tick Tells the Cut: a PRNG-driven UI element is a side channel; you can recover the tick and detect cuts.",
+        "Domain knowledge (smelt times, tick rate, HUD fade) turns \"he said it was uncut\" into a testable claim."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "game-time-vs-wall-clock",
+          "title": "Game Time vs Wall Clock"
+        },
+        {
+          "slug": "learn-building-blocks-not-leaves",
+          "title": "Learn Building Blocks, Not Leaves",
+          "e": "🧩"
+        },
+        {
+          "slug": "minecraft-tick-tells-the-cut",
+          "title": "Minecraft Tick Tells the Cut",
+          "e": "⏱️"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-15"
+    },
+    {
+      "slug": "programming-laws-tier-list-standup",
+      "title": "Programming Laws Tier list | TheStandup",
+      "video_id": "Bye5avxGMKM",
+      "platform": "youtube",
+      "url": "https://youtu.be/Bye5avxGMKM",
+      "duration_min": 51,
+      "creator": "the-primetime",
+      "updated": "2026-11-15",
+      "created": "2026-11-15",
+      "section": "mind",
+      "tags": [
+        "programming",
+        "architecture",
+        "apis",
+        "heuristics"
+      ],
+      "keywords": [
+        "programming",
+        "architecture",
+        "apis",
+        "heuristics",
+        "the primetime",
+        "Conway's Law as Information Efficiency",
+        "Learn Building Blocks, Not Leaves",
+        "Observable Behavior Gets Depended On"
+      ],
+      "summary": "On The Standup, ThePrimeagen, Casey Muratori and TJ/Trash rank \"programming laws you run into every day,\" then halfway through they give up on a clean S/A/B/C list and relabel tiers as true but obvious, unreliable as a law, and needs more data. The useful part is not the meme ranking; it is Casey insisting that a named law is only as good as a precise mechanism.\n\nConway's law opens at S-tier (\"yes, dear\"). The folk version is \"the org chart becomes the architecture.\" Casey tightens it: it is a statement about the efficiency of information movement. Inside one head is fastest; two people slower; two orgs slower still; two companies slower again. Org charts are just one structure with those properties. Microservices and even \"micro frontends\" (Spotify's player bar vs sidebar looking like two products) are manifestations. He also argues it stays durable in the age of AI: agents have slower links between them (tools, tests, a compiler in the loop), so you should expect Conway-like seams in agent systems too. A running joke, \"Teage's law,\" is the garbled version people repeat instead of Conway.\n\nBrooks' law (adding people to a late project makes it later) is treated as unreliable: sometimes true in bureaucratic orgs, often false when you can add someone who already shares the stack. Moo's law (not Moore's) — an information system will not be used when it is more painful than remaining ignorant — lands around B/C: \"ostrich syndrome,\" avoiding metrics that threaten the current thesis. Eagleson's law (after six months your own code looks like a stranger's) used to be S-tier and is now F for Prime, because with AI he often never looks; Casey still recognises his own long-stable assumptions. Linus's law (given enough eyeballs, all bugs are shallow) is \"true but obvious\" or needs more data. Wirth's law (software gets slower faster than hardware gets faster) is an easy S (DLSS instead of actually making a good image). Cunningham's law (the best way to get an answer is to post the wrong one) is refined into Annie's law: ask nicely first, then add a confidently wrong reply — they joke it is S-tier. Goodhart's law is mixed: more a public-policy warning than a programming law, still real when fuzzy metrics (watch time, tokens used) become the target. Hyrum's law is the other S-tier for the API people in the room: with enough users, every observable behaviour of your system will be depended on, contract or not. Hofstadter's and Parkinson's laws are filed under unreliable or \"things expand to fill the time / it is just unpredictable.\"",
+      "key_insights": [
+        "Treat named \"laws\" as heuristics. Many are context-dependent, obvious, or unreliable as physics.",
+        "conways law information efficiency: Conway is about information-transfer cost, not org-chart aesthetics, and it still applies to agents.",
+        "Observable Behavior Gets Depended On: if users can observe it, someone will depend on it. Contracts are not the whole interface.",
+        "Moo's law: people will ignore a painful information system rather than open Pandora's box.",
+        "Annie's wrinkle on Cunningham: ask the question first, then plant a confidently wrong answer if you need a correction.",
+        "Eagleson's \"I'll be a stranger to my own code in six months\" weakens when you never read the AI output at all."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "conways-law-information-efficiency",
+          "title": "Conway's Law as Information Efficiency"
+        },
+        {
+          "slug": "learn-building-blocks-not-leaves",
+          "title": "Learn Building Blocks, Not Leaves",
+          "e": "🧩"
+        },
+        {
+          "slug": "observable-behavior-gets-depended-on",
+          "title": "Observable Behavior Gets Depended On",
+          "e": "📜"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-15"
+    },
+    {
+      "slug": "before-we-forget-how-to-connect-vinh-ali-show",
+      "title": "Before We Forget How to Connect by Vinh Giang | The Vinh & Ali Show (EP#49)",
+      "video_id": "wRlJaXVs81E",
+      "platform": "youtube",
+      "url": "https://youtu.be/wRlJaXVs81E",
+      "duration_min": 113,
+      "creator": "vinh-giang",
+      "updated": "2026-11-15",
+      "created": "2026-11-15",
+      "section": "relationships",
+      "tags": [
+        "communication",
+        "storytelling",
+        "relationships",
+        "public-speaking"
+      ],
+      "keywords": [
+        "communication",
+        "storytelling",
+        "relationships",
+        "public-speaking",
+        "public speaking",
+        "vinh giang",
+        "88 Keys (Voice)",
+        "Communication Gears",
+        "Communication Mirror Self-Diagnosis",
+        "Friendship = Proximity + Frequency",
+        "Song vs Instrument in Speaking",
+        "Story Bank"
+      ],
+      "summary": "From Austin, on The Vinh & Ali Show (EP#49), Vinh Giang and co-host Ali review Vinh's book *Before We Forget How to Connect* while the crew is on the US book tour. It is a long, informal episode — barbecue, tour stories, wedding-speech disasters — but the book thesis is clear: connection is a large part of a full life, people are looking for it on screens, and the skill can be learned. Vinh refused the easy path of turning a workshop transcript into a book; he rewrote until the format actually worked, and came away with more respect for what even a \"half decent\" $30 book costs its author.\n\nStories are how the lessons land, so the tour with the whole crew is also a way to collect experiences for a Story Bank. His dad, a monk, comforts a grieving man not with a speech first but by matching volume, walking, and digging with him, then speaking later in a strong voice — a full-range use of the 88 Keys (Voice) instrument (soft people are already good at comfort; they still need the assertive keys). Roy, in his seventies, walks into a class and becomes everyone's grandfather through joy and energy: the same \"good energy\" people scroll to find and rarely give in person. On connection itself they are practical: fight for it. \"Want to catch up, it's been too long\" is easy to decline; \"I miss you\" lands differently. If a connection is missing, go and pursue it; there is always initial friction.\n\nThey close on what to actually do with the book. Self-awareness first: the communication mirror — record yourself and watch it back, with the earlier chapters in mind, or you will not see what to fix. Do not ask ChatGPT or Claude for a generic list of ten tips. General advice leads to general results. Build your own list of two to five fillers, non-words and habits. Volume is vibration and shared energy (headphones vs a stadium). Listening is the other half of shining your light: hear the pain or joy in someone's voice and ask about *their* music, not yours. They also teach relinking a personal story to a new meaning (Vinh had tied quitting university to shame). And a working metaphor for nerves: at a wedding, a shaky first-time speaker can still hold the room if the song (the stories) is good; the instrument (delivery) improves with reps. Better to do the speech scared than not do it. When someone you love asks you to speak — a wedding, a funeral, a goodbye — only you can do it.",
+      "key_insights": [
+        "communication mirror self diagnosis: record yourself, watch with a trained eye, and write your own 2–5 item list. Generic AI tips give generic results.",
+        "song vs instrument speaking: a strong story can carry a shaky first delivery; the instrument improves with reps. Still get up and speak.",
+        "Fight for connection: \"I miss you\" beats \"want to catch up.\" If a connection is missing, pursue it.",
+        "Comfort can start without words — match volume, walk, dig — then use the stronger voice when it is time. See 88 Keys (Voice) and Communication Gears.",
+        "Keep a Story Bank. Ordinary tour moments disappear unless you document them.",
+        "Identity is a cardboard box, not cement: push the next slightly bigger box instead of waiting to be discovered."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "eighty-eight-keys-voice",
+          "title": "88 Keys (Voice)",
+          "e": "🎹"
+        },
+        {
+          "slug": "communication-gears",
+          "title": "Communication Gears",
+          "e": "🚗"
+        },
+        {
+          "slug": "communication-mirror-self-diagnosis",
+          "title": "Communication Mirror Self-Diagnosis"
+        },
+        {
+          "slug": "friendship-proximity-frequency",
+          "title": "Friendship = Proximity + Frequency",
+          "e": "📍"
+        },
+        {
+          "slug": "song-vs-instrument-speaking",
+          "title": "Song vs Instrument in Speaking"
+        },
+        {
+          "slug": "story-bank",
+          "title": "Story Bank",
+          "e": "📒"
+        }
+      ],
+      "conceptCount": 6,
       "added": "2026-11-15"
     }
   ]

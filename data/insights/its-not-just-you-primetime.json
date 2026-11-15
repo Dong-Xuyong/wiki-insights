@@ -1,0 +1,65 @@
+{
+  "slug": "its-not-just-you-primetime",
+  "sections": [
+    {
+      "title": "Where agents go wrong",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What happens when you let agents 'end-to-end everything'?",
+          "a": "You get **thousands of flaky E2E tests**, even on a **simple CRUD app**. Decide what you are testing and **trim**."
+        },
+        {
+          "e": "🌀",
+          "q": "Why does waiting on an agent wreck focus?",
+          "a": "A 10–20 minute wait tempts you to start **more concurrent tasks**, and by three or four you are **lost in the sauce**."
+        },
+        {
+          "e": "📢",
+          "q": "What should you do with 'if you're not doing X, you won't make it'?",
+          "a": "**Ignore that person.** Agent workflows **change in weeks**, so the specific X is already stale."
+        }
+      ]
+    },
+    {
+      "title": "Get the ownership back",
+      "items": [
+        {
+          "e": "🌱",
+          "q": "What is slop-to-explore, then rebuild?",
+          "a": "Use the messy first AI pass as a **prototype to learn the shape**, then **redesign a tighter V2** of the same features."
+        },
+        {
+          "e": "📉",
+          "q": "What did that loop do to Prime's Oligarchy prototype?",
+          "a": "Same features, better shape, about **100k lines down to 25–30k**, and the feeling that **he made it**."
+        },
+        {
+          "e": "👤",
+          "q": "Who should you refuse to become when coding with AI?",
+          "a": "A **prompt proxy** who only relays intent into a box and **merges whatever comes back**."
+        }
+      ]
+    },
+    {
+      "title": "Juniors and hiring",
+      "items": [
+        {
+          "e": "🎓",
+          "q": "Why do juniors have the shortest stick in the AI era?",
+          "a": "They must **move like seniors** because the tool looks senior, but they never get to **learn what good looks like**."
+        },
+        {
+          "e": "📄",
+          "q": "How does the model handle a junior's bad idea?",
+          "a": "It **does not push back**. It hands over a **thousand-line PR** 'how you asked.'"
+        },
+        {
+          "e": "🤝",
+          "q": "Who would ThePrimeagen hire today?",
+          "a": "The person who **thinks through tests, layout and trade-offs**, not the one who is only a **relay into a text box**."
+        }
+      ]
+    }
+  ]
+}

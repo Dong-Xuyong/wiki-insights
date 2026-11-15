@@ -1,0 +1,65 @@
+{
+  "slug": "programming-laws-tier-list-standup",
+  "sections": [
+    {
+      "title": "What the laws actually say",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What is Conway's law, tightly stated?",
+          "a": "Designs copy **information-transfer paths**. Inside one head is fastest; **more hops, more seams**."
+        },
+        {
+          "e": "🤖",
+          "q": "Why would Conway still apply to AI agents?",
+          "a": "Agents have **slower links** through tools, tests and compilers, so the system will show **seams at those links**."
+        },
+        {
+          "e": "🔌",
+          "q": "What does Hyrum's law say about APIs?",
+          "a": "With enough users, **every observable behaviour** will be depended on, **not just the written contract**."
+        }
+      ]
+    },
+    {
+      "title": "Laws that do not survive a closer look",
+      "items": [
+        {
+          "e": "➕",
+          "q": "How did the panel treat Brooks' law?",
+          "a": "As **unreliable**: adding people can delay a late project in a bureaucracy, but it is **not always true**."
+        },
+        {
+          "e": "🙈",
+          "q": "What is Moo's law?",
+          "a": "People will **not use an information system** when opening it is more painful than **staying ignorant**."
+        },
+        {
+          "e": "📉",
+          "q": "What happened to Eagleson's 'stranger to your own code in six months'?",
+          "a": "Prime now rates it **F**: with AI he often **never looks at the code** at all."
+        }
+      ]
+    },
+    {
+      "title": "How to use a 'law'",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "How should you treat named programming laws?",
+          "a": "As **heuristics**, not physics. Many are **context-dependent** or **unreliable**."
+        },
+        {
+          "e": "🙋",
+          "q": "What is Annie's wrinkle on Cunningham's law?",
+          "a": "**Ask the question nicely first**, then add a **confidently wrong** reply if you need a fast correction."
+        },
+        {
+          "e": "🎯",
+          "q": "When does Goodhart bite in software?",
+          "a": "When a **fuzzy metric** (watch time, tokens used) becomes the **target** and stops measuring what you cared about."
+        }
+      ]
+    }
+  ]
+}

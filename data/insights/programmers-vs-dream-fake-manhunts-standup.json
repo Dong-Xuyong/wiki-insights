@@ -1,0 +1,65 @@
+{
+  "slug": "programmers-vs-dream-fake-manhunts-standup",
+  "sections": [
+    {
+      "title": "What the cuts actually are",
+      "items": [
+        {
+          "e": "✂️",
+          "q": "How were hidden cuts in Dream's Manhunt videos found?",
+          "a": "Tells in **simulation state**: HUD, smelt times, glint, hunger-bar phase — not obvious **jump-cut frames**."
+        },
+        {
+          "e": "⏱️",
+          "q": "Why was the furnace a giveaway?",
+          "a": "Iron ore takes **200 ticks (10 seconds)** to smelt. The clip produced **more ingots than the elapsed time** allowed."
+        },
+        {
+          "e": "🌐",
+          "q": "What does 'lag' mean in a game engine?",
+          "a": "Not one thing: a missed **frame budget**, a late **GPU**, or **client prediction** meeting delayed server packets."
+        }
+      ]
+    },
+    {
+      "title": "Engine rules that last",
+      "items": [
+        {
+          "e": "🕰️",
+          "q": "Why should effects use game time, not wall-clock time?",
+          "a": "So recorded runs **replay exactly**, and so a hidden cut does not make the effect **jump**."
+        },
+        {
+          "e": "🎲",
+          "q": "How did analysts recover the exact tick from a video?",
+          "a": "The hunger bar's bob is a **PRNG of the tick**. Work backwards from the pattern, then flag **timeline gaps**."
+        },
+        {
+          "e": "📄",
+          "q": "What is Casey's warning about data-driven game data?",
+          "a": "Tunables belong in **data, not code**, but do not data-drive **too early**, and do not use **JSON as a runtime format**."
+        }
+      ]
+    },
+    {
+      "title": "Why it is a programming lesson",
+      "items": [
+        {
+          "e": "🧱",
+          "q": "What is the reusable skill here?",
+          "a": "**Engine primitives** (ticks, clocks, netcode, PRNGs) turn a drama claim into a **testable timeline**."
+        },
+        {
+          "e": "👁️",
+          "q": "What did the investigators ship?",
+          "a": "**Open-source computer vision** that reads the hunger-bar region and **maps it back to a tick**."
+        },
+        {
+          "e": "🎥",
+          "q": "What did a spliced clutch reveal?",
+          "a": "The hot bar **saw into the future** — a composite, not a single uncut take."
+        }
+      ]
+    }
+  ]
+}
