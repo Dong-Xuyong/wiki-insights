@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 504,
-  "insightsCount": 491,
-  "conceptCount": 3409,
+  "videoCount": 505,
+  "insightsCount": 492,
+  "conceptCount": 3413,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 129,
+    "agents": 130,
     "systems": 33,
     "build": 62,
     "human": 23,
@@ -40275,6 +40275,68 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-13"
+    },
+    {
+      "slug": "all-code-is-slop-except-mine-lauren-tan",
+      "title": "All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI",
+      "video_id": "O_zcc6Xl12g",
+      "platform": "youtube",
+      "url": "https://youtu.be/O_zcc6Xl12g",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-15",
+      "created": "2026-11-15",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "verification",
+        "coding-agents",
+        "code-quality"
+      ],
+      "keywords": [
+        "agents",
+        "verification",
+        "coding-agents",
+        "code-quality",
+        "coding agents",
+        "code quality",
+        "ai engineer",
+        "Agent Corrections Become Lint Rules",
+        "Agent Trust Ladder",
+        "Agent Verification",
+        "Harness Engineering"
+      ],
+      "summary": "Lauren Tan (\"Potato\"), who works on Grokbot at SpaceX SI and earlier on Cursor, explains how she shipped 3,000 pull requests in a month (her team shipped 11,000) without the code turning into slop. Her thesis: the engineer's job is now to keep or raise code quality while massively increasing output, and that comes down to trust. Not blind trust, but investing in the agent's environment so you can count on it doing the right thing. She draws an inverse pyramid of where to spend effort. At the base is the code itself (API design, architecture, refactoring), then deterministic checks (lint rules, types, compilers, tests), then verification (runtime and formal), and only at the top a little prose (rules, skills, AGENTS.md).\n\nAgents copy whatever patterns the codebase already has, so tech debt and workarounds spread like weeds in a garden. Her rule: every time you correct an agent, turn the correction into a deterministic check or remove the problem through API design, instead of adding another line to AGENTS.md. Examples from their Electron framework Dune: banning useEffect in product code (anything that needs nuance to use well leads to slop), context through directory structure (electron/main vs electron/renderer, with cross-imports banned by a dependency-graph lint), and banning 99% of code comments. Agents used comments to justify quick fixes such as imperative timers, the comments went stale, and nothing could enforce them. Lint errors instead tell the agent to fix the root cause.\n\nCode review has shrunk to checking verification artifacts (videos, screenshots, diagrams, proofs). Their runtime-verification skills include a feature map, a user-facing site map of the app that gives agents shared vocabulary, plus reusable custom CLIs. They also use TLA+ model checking for cross-device notification flows, Lean proofs for their virtualization library, and property-based UI testing (Bombadil). She cites an engineer who now spends 70% of daily tokens on verification: agents make once-too-expensive testing affordable, a \"golden age of verification\". Results: the revert rate stays around 0.5%, roughly one stable release a day, 227 contributors in October, and app performance improved. Her closing advice: before building a \"software factory\", fix the inner loop, because automating a loop that produces slop just produces more slop.",
+      "key_insights": [
+        "Turn each agent correction into a lint rule, type or API change, not more prose. See agent corrections become lint rules.",
+        "Ban APIs that need nuance to use well (for example useEffect), and encode architecture in directory structure with import bans.",
+        "Comments and markdown give agents an escape hatch to justify not doing the right thing, and nothing can enforce them.",
+        "Review verification artifacts (videos, screenshots, state charts) instead of diffs. A feature map gives agents shared vocabulary for the UI.",
+        "Most tokens should go into verification. Automating a sloppy inner loop just multiplies the slop."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-corrections-become-lint-rules",
+          "title": "Agent Corrections Become Lint Rules"
+        },
+        {
+          "slug": "agent-trust-ladder",
+          "title": "Agent Trust Ladder"
+        },
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-15"
     }
   ]
 }

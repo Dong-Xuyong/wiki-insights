@@ -1,0 +1,65 @@
+{
+  "slug": "all-code-is-slop-except-mine-lauren-tan",
+  "sections": [
+    {
+      "title": "Trust the environment",
+      "items": [
+        {
+          "e": "🔺",
+          "q": "What does Lauren Tan's inverse pyramid say to invest in first?",
+          "a": "**Code and architecture**, then **lints, types and tests**, then verification, with only a **thin layer of prose**."
+        },
+        {
+          "e": "🌱",
+          "q": "Why does tech debt spread faster with agents?",
+          "a": "Agents **copy the patterns in your codebase**, so workarounds spread like **weeds**."
+        },
+        {
+          "e": "🔁",
+          "q": "What should you do each time you correct an agent?",
+          "a": "Turn the correction into a **deterministic check**, not **another AGENTS.md line**."
+        }
+      ]
+    },
+    {
+      "title": "Guardrails that work",
+      "items": [
+        {
+          "e": "🚫",
+          "q": "Which kind of API should you ban for agents?",
+          "a": "Any API that **needs nuance to use well**, such as **useEffect**."
+        },
+        {
+          "e": "📁",
+          "q": "How can directory structure carry context?",
+          "a": "Separate **main and renderer folders** with **banned cross-imports**."
+        },
+        {
+          "e": "💬",
+          "q": "Why ban most code comments?",
+          "a": "They go stale and give agents an **escape hatch to justify quick fixes**, and nothing can **enforce** them."
+        }
+      ]
+    },
+    {
+      "title": "Verify, then scale",
+      "items": [
+        {
+          "e": "🎥",
+          "q": "What replaces line-by-line code review?",
+          "a": "**Verification artifacts**: videos, screenshots, state charts and proofs."
+        },
+        {
+          "e": "🗺️",
+          "q": "What is a feature map?",
+          "a": "A **user-facing site map of the app** that gives agents **shared vocabulary**."
+        },
+        {
+          "e": "🏭",
+          "q": "Why fix the inner loop before building a software factory?",
+          "a": "Automating a sloppy loop just **produces more slop**."
+        }
+      ]
+    }
+  ]
+}
