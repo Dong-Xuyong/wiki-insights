@@ -1,0 +1,65 @@
+{
+  "slug": "science-of-learning-new-things-tania-lombrozo-ted",
+  "sections": [
+    {
+      "title": "Learning by thinking",
+      "items": [
+        {
+          "e": "🦆",
+          "q": "Why does rubber-duck debugging work?",
+          "a": "Explaining step by step makes you **transform and combine what you already know**, so you learn without any new information."
+        },
+        {
+          "e": "🧠",
+          "q": "What is learning by thinking?",
+          "a": "Learning by tapping the **knowledge already stored in your memories and skills**, like counting your home's windows from memory."
+        },
+        {
+          "e": "🍪",
+          "q": "How is learning like baking with the ingredients you have?",
+          "a": "You **check the pantry before the shopping list**: rework what you know first, then fetch only what is missing."
+        }
+      ]
+    },
+    {
+      "title": "Self-explanation",
+      "items": [
+        {
+          "e": "❓",
+          "q": "What did the best students do differently with the same textbook?",
+          "a": "They **explained to themselves**, asking questions and answering them as they studied."
+        },
+        {
+          "e": "📈",
+          "q": "What does the self-explanation effect give you?",
+          "a": "Better learning and the ability to **apply it more broadly** across contexts and domains."
+        },
+        {
+          "e": "🃏",
+          "q": "What happened when children were prompted to explain, with no feedback?",
+          "a": "They **changed how they represented the problem** and started matching like adults."
+        }
+      ]
+    },
+    {
+      "title": "Gaps and AI",
+      "items": [
+        {
+          "e": "🌪️",
+          "q": "What is the illusion of explanatory depth?",
+          "a": "Trying to explain something reveals **you understand much less than you thought**."
+        },
+        {
+          "e": "🛒",
+          "q": "Why is a failed explanation useful?",
+          "a": "It turns vague confusion into an **information shopping list** of exactly what to look up."
+        },
+        {
+          "e": "🤖",
+          "q": "What is the risk of asking AI first?",
+          "a": "You **outsource the thinking step** and lose track of what you know versus what you merely **have access to**."
+        }
+      ]
+    }
+  ]
+}

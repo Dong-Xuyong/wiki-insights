@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 505,
-  "insightsCount": 492,
-  "conceptCount": 3425,
+  "videoCount": 506,
+  "insightsCount": 493,
+  "conceptCount": 3430,
   "sections": [
     {
       "id": "architecture",
@@ -55,7 +55,7 @@
     "agents": 130,
     "systems": 33,
     "build": 62,
-    "human": 23,
+    "human": 24,
     "performance": 63,
     "mind": 45,
     "relationships": 70,
@@ -40434,6 +40434,72 @@
       ],
       "conceptCount": 6,
       "added": "2026-11-15"
+    },
+    {
+      "slug": "science-of-learning-new-things-tania-lombrozo-ted",
+      "title": "The Science of Learning New Things | Tania Lombrozo | TED",
+      "video_id": "4qxROUatTzk",
+      "platform": "youtube",
+      "url": "https://youtu.be/4qxROUatTzk",
+      "duration_min": 16,
+      "creator": "ted",
+      "updated": "2026-11-16",
+      "created": "2026-11-16",
+      "section": "human",
+      "tags": [
+        "learning",
+        "thesis",
+        "deep-work",
+        "metacognition"
+      ],
+      "keywords": [
+        "learning",
+        "thesis",
+        "deep-work",
+        "metacognition",
+        "deep work",
+        "ted",
+        "Illusion of Explanatory Depth",
+        "Learning by Thinking",
+        "Self-Explanation Effect",
+        "Teach to Learn",
+        "Testing Effect Learning"
+      ],
+      "summary": "Cognitive scientist tania lombrozo (25+ years studying learning) argues that the best place to start learning is not more outside information but learning by thinking: transforming and combining knowledge already stored in your memories and skills. Software engineers' \"rubber ducking\" is the model — explaining a problem to a silent duck still produces new insight, even though no new information arrives.\n\nThe strongest version is seeking explanations. Since the late-1980s studies of successful students, research shows the self explanation effect: learners who ask themselves questions and answer them learn more and transfer it more broadly. In Lombrozo's own lab, prompting 5–6-year-olds to explain (with no feedback) switched them from child-like to adult-like \"same-with-same\" matching — explaining changed how they represented the information.\n\nExplaining also exposes the illusion of explanatory depth: trying to explain how a tornado starts shows how little you actually know, which turns vague gaps into a concrete \"information shopping list\". As AI search and chatbots make outside information ever easier, Lombrozo warns against outsourcing the transform-and-combine step: look inside first, explain to yourself, then go get the specific information you are missing.",
+      "key_insights": [
+        "Start a learning session by explaining to yourself what you already know, before searching or asking AI.",
+        "Self-explanation (asking \"why?\" and answering it) is the closest thing to a universal learning strategy.",
+        "Explanation works without feedback: it re-represents existing knowledge, not just adds new facts.",
+        "Failed explanations are useful: they reveal precise gaps and tell you what to look for.",
+        "Leaning on AI-generated answers first blurs what you know versus what you merely have access to."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "illusion-of-explanatory-depth",
+          "title": "Illusion of Explanatory Depth"
+        },
+        {
+          "slug": "learning-by-thinking",
+          "title": "Learning by Thinking"
+        },
+        {
+          "slug": "self-explanation-effect",
+          "title": "Self-Explanation Effect"
+        },
+        {
+          "slug": "teach-to-learn",
+          "title": "Teach to Learn",
+          "e": "🎓"
+        },
+        {
+          "slug": "testing-effect-learning",
+          "title": "Testing Effect Learning",
+          "e": "✅"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-16"
     }
   ]
 }
