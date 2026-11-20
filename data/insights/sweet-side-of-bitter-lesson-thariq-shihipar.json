@@ -1,0 +1,65 @@
+{
+  "slug": "sweet-side-of-bitter-lesson-thariq-shihipar",
+  "sections": [
+    {
+      "title": "Being wrong",
+      "items": [
+        {
+          "e": "🐚",
+          "q": "Was 'Bash is all you need' right?",
+          "a": "No: MCP, **code mode, skills and progressive disclosure** now matter too."
+        },
+        {
+          "e": "⚛️",
+          "q": "Did React become the last language?",
+          "a": "No: models write **HTML, Swift or Figma JSON equally well**."
+        },
+        {
+          "e": "🏛️",
+          "q": "What two shifts is AI causing at once?",
+          "a": "An **industrial revolution** of software factories and a **Renaissance** of quality and taste."
+        }
+      ]
+    },
+    {
+      "title": "Smooth interior",
+      "items": [
+        {
+          "e": "🗺️",
+          "q": "What is the smooth interior?",
+          "a": "Below the jagged frontier, capability is **broad and even** across tasks."
+        },
+        {
+          "e": "🧭",
+          "q": "Why does the smooth interior matter?",
+          "a": "You can **choose how you want to work** instead of bending to the model."
+        },
+        {
+          "e": "🌍",
+          "q": "What does the land-or-water map show?",
+          "a": "Newer models **know the world almost perfectly**, which matters more than benchmarks."
+        }
+      ]
+    },
+    {
+      "title": "Spec layer",
+      "items": [
+        {
+          "e": "😵",
+          "q": "What went wrong vibe-coding his game?",
+          "a": "He **didn't know what his characters did** and kept losing flow."
+        },
+        {
+          "e": "📂",
+          "q": "What is the human folder?",
+          "a": "A layer of **linted, English-like code** he reads and tunes, over agent-written engine code."
+        },
+        {
+          "e": "📐",
+          "q": "Why use meters instead of 0.5?",
+          "a": "Readable units make the spec **understandable and editable** by a human."
+        }
+      ]
+    }
+  ]
+}

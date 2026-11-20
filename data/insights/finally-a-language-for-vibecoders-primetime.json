@@ -1,0 +1,45 @@
+{
+  "slug": "finally-a-language-for-vibecoders-primetime",
+  "sections": [
+    {
+      "title": "Why tests fall short",
+      "items": [
+        {
+          "e": "🐞",
+          "q": "What did Dijkstra say about testing?",
+          "a": "Testing shows the **presence of bugs, never their absence**."
+        },
+        {
+          "e": "📊",
+          "q": "Why can 100% coverage still miss bugs?",
+          "a": "Coverage proves lines ran, not that **all inputs** behave correctly."
+        },
+        {
+          "e": "🌀",
+          "q": "What is fuzzing's limit?",
+          "a": "It explores the input maze semi-randomly and **never covers everything**."
+        }
+      ]
+    },
+    {
+      "title": "Laws and proofs",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "What is a law in Bend?",
+          "a": "A property that must hold **for every possible input**, checked with a Lean proof."
+        },
+        {
+          "e": "🚩",
+          "q": "How did the flag demo work?",
+          "a": "A law proved the player **can never reach the flag**; deleting a wall made the proof fail."
+        },
+        {
+          "e": "🤝",
+          "q": "Who writes what?",
+          "a": "Humans **write the laws**, agents **write the proofs**."
+        }
+      ]
+    }
+  ]
+}

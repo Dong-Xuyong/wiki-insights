@@ -1,0 +1,45 @@
+{
+  "slug": "mushrooms-mind-immune-system-paul-stamets-huberman",
+  "sections": [
+    {
+      "title": "Immunity",
+      "items": [
+        {
+          "e": "🍄",
+          "q": "What is agarikon?",
+          "a": "A **long-lived old-growth mushroom** that ranked top 10 of 2 million samples for **antiviral selectivity**."
+        },
+        {
+          "e": "🦃",
+          "q": "What did agarikon plus turkey tail show in Stamets' study?",
+          "a": "**Shorter symptom duration** than placebo, about 5 days sooner in unvaccinated people."
+        },
+        {
+          "e": "⚖️",
+          "q": "Why avoid overstimulating the immune system?",
+          "a": "Many deaths from viral illness come from a **cytokine storm**."
+        }
+      ]
+    },
+    {
+      "title": "Mind",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What is the Stamets stack?",
+          "a": "A **psilocybin microdose with lion's mane and niacin**."
+        },
+        {
+          "e": "👆",
+          "q": "What did app users' tapping test show?",
+          "a": "Stackers' tapping rose from **43 to 63 taps** in 30 days (observational)."
+        },
+        {
+          "e": "😊",
+          "q": "How does mood link to immunity?",
+          "a": "Happier states **upregulate immunity**; depression brings inflammation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "40x-merged-prs-walden-yan-cognition",
+  "sections": [
+    {
+      "title": "Software factory",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What did Cognition achieve in a year?",
+          "a": "**40x merged PRs** with only **2.7x the engineers**, at equal or higher quality."
+        },
+        {
+          "e": "🏭",
+          "q": "What is the default in a software factory?",
+          "a": "Everything is **self-driving** from bug report to merge, with **escalations** only for judgment calls."
+        },
+        {
+          "e": "💬",
+          "q": "How do bug reports get fixed?",
+          "a": "Forwarded into Slack, tagged to Devin, which returns a **PR plus video proof**."
+        }
+      ]
+    },
+    {
+      "title": "Team and infra",
+      "items": [
+        {
+          "e": "👥",
+          "q": "How did the team structure change?",
+          "a": "Large teams became **pods of two or three** who own bugs, QA and product, and send implementation to agents."
+        },
+        {
+          "e": "🐳",
+          "q": "Why move every service to local Docker Compose?",
+          "a": "So agents test against **mocks inside one VM** and **never touch live services**."
+        },
+        {
+          "e": "⏱️",
+          "q": "How do agent machines stay fresh?",
+          "a": "The VM snapshot is **rebuilt every hour** from the latest code, and agents fix broken builds first."
+        }
+      ]
+    },
+    {
+      "title": "Jobs, not tasks",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "What is giving an agent a job?",
+          "a": "Hand it a **goal metric** like P99 latency and let it add telemetry, alerts, plans and reports."
+        },
+        {
+          "e": "📏",
+          "q": "What should you do with things that seem unmeasurable?",
+          "a": "**Find a way to measure them**, then let an agent optimise the number 24/7."
+        },
+        {
+          "e": "🤖",
+          "q": "How did Cognition get an Android app?",
+          "a": "An agent was told to **keep parity with the iOS app** and built it over 44 days."
+        }
+      ]
+    }
+  ]
+}

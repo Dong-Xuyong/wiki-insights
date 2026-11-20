@@ -1,0 +1,45 @@
+{
+  "slug": "solid-2-only-software-that-didnt-break-fireship",
+  "sections": [
+    {
+      "title": "Solid 2.0",
+      "items": [
+        {
+          "e": "📡",
+          "q": "What makes Solid different from React?",
+          "a": "Components **run once** and **signals update only dependent DOM nodes**."
+        },
+        {
+          "e": "⏳",
+          "q": "How does Solid 2.0 handle async data?",
+          "a": "A computation can **return a promise** and dependants simply wait."
+        },
+        {
+          "e": "🗑️",
+          "q": "What did the team delete?",
+          "a": "**SolidStart**, since server functions moved into Solid itself."
+        }
+      ]
+    },
+    {
+      "title": "Agents and quality",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "Who are Solid 2.0 error messages written for?",
+          "a": "**Your coding agent**: code, location, fix and a **skill.md path**."
+        },
+        {
+          "e": "🧪",
+          "q": "When did they call it stable?",
+          "a": "After a **full week without a single regression**."
+        },
+        {
+          "e": "💥",
+          "q": "What was the week's theme?",
+          "a": "**Outage after outage** across Microsoft, the FAA, banks and Apple."
+        }
+      ]
+    }
+  ]
+}

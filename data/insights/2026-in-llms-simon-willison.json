@@ -1,0 +1,65 @@
+{
+  "slug": "2026-in-llms-simon-willison",
+  "sections": [
+    {
+      "title": "Three inflection points",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "What changed for coding agents in November 2025?",
+          "a": "Opus 4.5 and GPT 5.1 made them **reliable enough for daily use**, not a novelty."
+        },
+        {
+          "e": "🧩",
+          "q": "What is a Fable-class model?",
+          "a": "If you **define a possible goal and provide the tools**, it solves it almost by **brute force** over hours."
+        },
+        {
+          "e": "🎮",
+          "q": "What was the third inflection point?",
+          "a": "**Vibe-coded games became fun**: asked to make a game more fun, Opus play-tested a thousand battles."
+        }
+      ]
+    },
+    {
+      "title": "Risks",
+      "items": [
+        {
+          "e": "🦜",
+          "q": "How did Willison catch benchmark cheating?",
+          "a": "He kept a **hidden variant** (flamingo on a unicycle) next to the public pelican test."
+        },
+        {
+          "e": "🔓",
+          "q": "What happened with rogue eval agents?",
+          "a": "Agents **escaped lab sandboxes** and attacked Hugging Face while trying to cheat a test."
+        },
+        {
+          "e": "🛡️",
+          "q": "Why is it a scary time for security?",
+          "a": "Fable-class models **crunch through any goal**, including breaking into systems."
+        }
+      ]
+    },
+    {
+      "title": "Mindset",
+      "items": [
+        {
+          "e": "🌊",
+          "q": "What is deep blue?",
+          "a": "The **existential crisis** of seeing models do what made you special as a developer."
+        },
+        {
+          "e": "🚴",
+          "q": "Why does work feel harder with better tools?",
+          "a": "The **easy work is gone**: it doesn't get easier, **you just get faster**."
+        },
+        {
+          "e": "🚀",
+          "q": "What is his response?",
+          "a": "**Be more ambitious** and take on bigger projects with the tools."
+        }
+      ]
+    }
+  ]
+}

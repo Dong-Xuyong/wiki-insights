@@ -1,0 +1,65 @@
+{
+  "slug": "set-intelligence-free-fabian-hedin-lovable",
+  "sections": [
+    {
+      "title": "Lessons",
+      "items": [
+        {
+          "e": "💀",
+          "q": "Why did Lovable almost fail in 2023?",
+          "a": "It built a **multi-agent framework before models were capable**, which made the product worse."
+        },
+        {
+          "e": "🔙",
+          "q": "What worked in 2024?",
+          "a": "A **single main LLM** with small retrieval helpers: responsive and reliable."
+        },
+        {
+          "e": "⏳",
+          "q": "How long do Lovable agents run now?",
+          "a": "**No time limit**, with runs of 10+ hours."
+        }
+      ]
+    },
+    {
+      "title": "Runtime",
+      "items": [
+        {
+          "e": "📥",
+          "q": "How do messages reach an agent?",
+          "a": "Each agent has an **inbox** that humans, other agents and schedules can drop into."
+        },
+        {
+          "e": "🌳",
+          "q": "Why model the trajectory on Git?",
+          "a": "An **append-only log with parent pointers** lets you **fork** parallel agents cheaply."
+        },
+        {
+          "e": "🔁",
+          "q": "How do 10-hour agents survive 700 deploys a day?",
+          "a": "Workers are **stateless** and persist every step, so any process can **pick the task up**."
+        }
+      ]
+    },
+    {
+      "title": "Computer and verification",
+      "items": [
+        {
+          "e": "💾",
+          "q": "What is in a golden checkpoint?",
+          "a": "Disk, **memory and running processes**, copied to a new project in about **230 ms**."
+        },
+        {
+          "e": "🐄",
+          "q": "How are forks made cheap?",
+          "a": "**Copy-on-write RAM**: memory is only allocated when a fork writes."
+        },
+        {
+          "e": "🔄",
+          "q": "What are the inner and outer loops?",
+          "a": "Inner: **build, lint, runtime and browser checks** within a turn; outer: **production and business metrics** between turns."
+        }
+      ]
+    }
+  ]
+}

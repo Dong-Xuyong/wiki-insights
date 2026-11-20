@@ -1,0 +1,45 @@
+{
+  "slug": "what-everyone-needs-to-do-with-money-asap-graham-stephan",
+  "sections": [
+    {
+      "title": "Blind spots",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What is recency bias in investing?",
+          "a": "Assuming what did well **recently will keep doing well** indefinitely."
+        },
+        {
+          "e": "🧺",
+          "q": "How concentrated is the S&P 500 now?",
+          "a": "The top 10 companies are about **37% of the index**, up from 24% in 2017."
+        },
+        {
+          "e": "📡",
+          "q": "What does Cisco teach about AI stocks?",
+          "a": "You can be **right about the technology and still lose** if profits don't justify prices."
+        }
+      ]
+    },
+    {
+      "title": "What to do",
+      "items": [
+        {
+          "e": "🧮",
+          "q": "What is the stress test?",
+          "a": "Add up all accounts and see **how much rides on the same thing**."
+        },
+        {
+          "e": "🗓️",
+          "q": "When should you decide your downturn plan?",
+          "a": "**Now, while markets are calm**, not after they fall."
+        },
+        {
+          "e": "➡️",
+          "q": "How can you rebalance without selling?",
+          "a": "**Redirect new money** into other investments until weights even out."
+        }
+      ]
+    }
+  ]
+}

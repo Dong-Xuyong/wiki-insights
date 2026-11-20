@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-36-hour-outage-fireship",
+  "sections": [
+    {
+      "title": "The outage",
+      "items": [
+        {
+          "e": "📧",
+          "q": "What broke on that Thursday?",
+          "a": "**Exchange Online** went down for about 36 hours, taking Outlook and other Microsoft 365 services with it."
+        },
+        {
+          "e": "🔧",
+          "q": "What triggered it?",
+          "a": "A **network capacity upgrade** exposed a latent bug in secure-connection setup."
+        },
+        {
+          "e": "🛠️",
+          "q": "Why couldn't admins diagnose it?",
+          "a": "The **admin center depended on the same system** and went down too."
+        }
+      ]
+    },
+    {
+      "title": "Why restarts failed",
+      "items": [
+        {
+          "e": "🩺",
+          "q": "What does a load balancer health check do?",
+          "a": "It pings servers and **pulls failing ones from rotation**."
+        },
+        {
+          "e": "🌊",
+          "q": "Why did rebooted servers fall over again?",
+          "a": "Every client was **waiting to reconnect** and flooded them at once."
+        },
+        {
+          "e": "🧱",
+          "q": "What is the shared lesson with the FAA stop?",
+          "a": "A network change **overwhelms a box everything depends on**."
+        }
+      ]
+    }
+  ]
+}
