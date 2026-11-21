@@ -1,0 +1,65 @@
+{
+  "slug": "become-forward-deployed-engineer-2027-nate-herk",
+  "sections": [
+    {
+      "title": "The role",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "What is a forward deployed engineer?",
+          "a": "A **customer-facing software engineer** who makes an AI product **deliver an outcome** inside the customer's systems."
+        },
+        {
+          "e": "💰",
+          "q": "What do FDE roles pay?",
+          "a": "Base about **$180-275k**, median total pay about **$230k**."
+        },
+        {
+          "e": "🧳",
+          "q": "What is the catch?",
+          "a": "About two thirds involve **25-50% travel** and heavy **stakeholder work**."
+        }
+      ]
+    },
+    {
+      "title": "What postings ask for",
+      "items": [
+        {
+          "e": "🗣️",
+          "q": "Which skill appears in about 80% of FDE postings?",
+          "a": "**Scoping and discovery** with stakeholders and executives."
+        },
+        {
+          "e": "🐍",
+          "q": "What is the technical stack?",
+          "a": "**Python**, TypeScript, **APIs and integrations**, agents and **evals**."
+        },
+        {
+          "e": "📏",
+          "q": "Why go deep on evals?",
+          "a": "Because **a demo doesn't prove it works; evals do**."
+        }
+      ]
+    },
+    {
+      "title": "Roadmap",
+      "items": [
+        {
+          "e": "🎭",
+          "q": "How can you practise discovery cheaply?",
+          "a": "Have Claude **role-play a frustrated VP of operations** and grade your questions."
+        },
+        {
+          "e": "📄",
+          "q": "What goes in a one-page scope?",
+          "a": "The problem in the **customer's words**, **the one number you'll move**, what done means and what's **out of scope**."
+        },
+        {
+          "e": "📚",
+          "q": "What is your audition tape?",
+          "a": "**One real end-to-end project** written up as a **before/after case study**."
+        }
+      ]
+    }
+  ]
+}

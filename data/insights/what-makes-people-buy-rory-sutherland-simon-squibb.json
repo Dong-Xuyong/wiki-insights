@@ -1,0 +1,60 @@
+{
+  "slug": "what-makes-people-buy-rory-sutherland-simon-squibb",
+  "sections": [
+    {
+      "title": "Rewrite the question",
+      "items": [
+        {
+          "e": "❓",
+          "q": "Where does most innovation come from, says Rory Sutherland?",
+          "a": "**Answering a different question**, not a better answer to the same one."
+        },
+        {
+          "e": "🚕",
+          "q": "What question did Uber change?",
+          "a": "What it feels like to **wait for a taxi**, and how you pay."
+        }
+      ]
+    },
+    {
+      "title": "Friction over money",
+      "items": [
+        {
+          "e": "🚿",
+          "q": "Why did Rory's cracked basin stay broken for 18 months?",
+          "a": "Not the money but the **friction** of getting it done."
+        },
+        {
+          "e": "🛒",
+          "q": "What is the option-to-obligation drift?",
+          "a": "Technology starts **optional** (self-checkout) and becomes **mandatory** once it saves the company money."
+        },
+        {
+          "e": "⚡",
+          "q": "What does an unusually fast rollout tell you?",
+          "a": "There is usually a **hidden revenue reason**, like parking apps earning **70% more**."
+        }
+      ]
+    },
+    {
+      "title": "Brand",
+      "items": [
+        {
+          "e": "🐶",
+          "q": "What makes 'Brunch, where dogs are always welcome' a great sign?",
+          "a": "It **answers the customer's two questions** in one line."
+        },
+        {
+          "e": "📞",
+          "q": "Why offer phone booking as well as an app?",
+          "a": "Be **available in every buying situation**; offering both sells more."
+        },
+        {
+          "e": "🔄",
+          "q": "What is reverse benchmarking?",
+          "a": "Find what competitors **overlook or can't do**, instead of copying their metrics."
+        }
+      ]
+    }
+  ]
+}

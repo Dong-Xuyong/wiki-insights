@@ -1,0 +1,50 @@
+{
+  "slug": "openai-is-cooked-primetime",
+  "sections": [
+    {
+      "title": "Ignore the pile-on",
+      "items": [
+        {
+          "e": "📉",
+          "q": "Why distrust universal day-one hate for a model?",
+          "a": "Scores and takes are measured against **someone else's framework**, not **your problem domain**."
+        },
+        {
+          "e": "📊",
+          "q": "What is the likes versus nuance curve?",
+          "a": "The **more nuanced** a take, the **fewer likes** it gets."
+        }
+      ]
+    },
+    {
+      "title": "Test it yourself",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What did one Soul 6.2 prompt accomplish?",
+          "a": "Built and **deployed a multi-platform chat app** with auth in about **45 minutes**."
+        },
+        {
+          "e": "📅",
+          "q": "How should you judge a new model?",
+          "a": "**Use it on real work for about a week** before forming an opinion."
+        }
+      ]
+    },
+    {
+      "title": "Career lesson",
+      "items": [
+        {
+          "e": "🏆",
+          "q": "What differentiates people who get hired?",
+          "a": "**Reasons from their own use**, not regurgitated opinions."
+        },
+        {
+          "e": "🔄",
+          "q": "What does Prime call your most important skill?",
+          "a": "**Adaptability**, as he showed by taking on unloved languages at Netflix."
+        }
+      ]
+    }
+  ]
+}

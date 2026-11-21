@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 521,
-  "insightsCount": 508,
-  "conceptCount": 3477,
+  "videoCount": 528,
+  "insightsCount": 515,
+  "conceptCount": 3497,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 136,
+    "agents": 137,
     "systems": 33,
     "build": 63,
-    "human": 25,
+    "human": 26,
     "performance": 66,
-    "mind": 45,
-    "relationships": 71,
-    "other": 76
+    "mind": 46,
+    "relationships": 72,
+    "other": 79
   },
   "videos": [
     {
@@ -41315,6 +41315,387 @@
       ],
       "conceptCount": 2,
       "added": "2026-11-20"
+    },
+    {
+      "slug": "agent-that-builds-culture-zach-bruggeman-ramp",
+      "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
+      "video_id": "MDI81OaZAD4",
+      "platform": "youtube",
+      "url": "https://youtu.be/MDI81OaZAD4",
+      "duration_min": 15,
+      "creator": "ai-engineer",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "other",
+      "tags": [
+        "agents",
+        "engineering-culture",
+        "coding-agents",
+        "trust"
+      ],
+      "keywords": [
+        "agents",
+        "engineering-culture",
+        "coding-agents",
+        "trust",
+        "engineering culture",
+        "coding agents",
+        "ai engineer",
+        "Agent Trust Ladder",
+        "Public Agent Sessions",
+        "Single Shared Agent Baseline"
+      ],
+      "summary": "zach bruggeman, an engineer at ramp, describes how Inspect, Ramp's in-house multiplayer coding agent (remote sandboxes in under 5 seconds, wired to telemetry, databases, Slack and Linear), now writes and ships about 75% of Ramp's code, and the cultural lessons behind that.\n\nLesson one, single shared agent baseline: one company-wide agent turns individual setup time and uneven best-practice knowledge into a shared baseline; improvements reach everyone invisibly, and Ramp never had to mandate usage. Lesson two, public agent sessions: sessions are public by default, so people learn by watching teammates and reviewers see the conversation, tools used, screenshots and verification videos behind a PR, which builds trust (see agent trust ladder). A skeptical bug report about Inspect, worked through in public, turned into a fix and an engaged collaborator within an hour.\n\nLesson three is to think bigger together rather than celebrate the lone-wolf operator: engineers built Review Buddy, a code-review agent, on Inspect's PR triggers without asking permission. His prompt for the week: ask colleagues what you have been waiting to do and build it together.",
+      "key_insights": [
+        "Per-person agent setup multiplied across an org is days of lost, unevenly spread work.",
+        "A good shared baseline removes the need to mandate a tool.",
+        "Working in public is the training program: people copy how teammates prompt and break down problems.",
+        "Attach the agent conversation and verification evidence to PRs so reviewers can trust a large diff.",
+        "Collaboration, not the lone wolf, compounds AI gains."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-trust-ladder",
+          "title": "Agent Trust Ladder"
+        },
+        {
+          "slug": "public-agent-sessions",
+          "title": "Public Agent Sessions"
+        },
+        {
+          "slug": "single-shared-agent-baseline",
+          "title": "Single Shared Agent Baseline"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-21"
+    },
+    {
+      "slug": "become-forward-deployed-engineer-2027-nate-herk",
+      "title": "How I’d Become a Forward Deployed Engineer in 2027 (no code)",
+      "video_id": "ypvVi0oITFw",
+      "platform": "youtube",
+      "url": "https://youtu.be/ypvVi0oITFw",
+      "duration_min": 14,
+      "creator": "nate-herk",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "other",
+      "tags": [
+        "careers",
+        "forward-deployed-engineer",
+        "evals",
+        "consulting"
+      ],
+      "keywords": [
+        "careers",
+        "forward-deployed-engineer",
+        "evals",
+        "consulting",
+        "forward deployed engineer",
+        "nate herk",
+        "FDE Discovery and Scope Practice",
+        "Forward Deployed Engineer",
+        "Product Engineer Shift"
+      ],
+      "summary": "nate herk analyses about 200 live forward deployed engineer postings from 24 AI companies. The role, born at Palantir, sends a customer-facing engineer to make an AI product actually deliver an outcome inside a customer's messy systems; postings grew more than 10x in a year. Typical base pay is about $180-275k, with median total pay around $230k.\n\nPostings stress people skills: about 80% mention scoping or discovery and stakeholder communication, three quarters say customer-facing, Python appears in about 60%, agents in about 60% and evals in about half. Most ask for five or more years, few require a degree, and about two thirds involve 25-50% travel. A typical week: discovery on site, a written scope, two days building and writing evals, a Friday demo, and notes back to the product team; Anthropic also asks FDEs to codify repeatable deployment patterns.\n\nHis roadmap (fde discovery scope practice): work on whichever half you lack (builder or trusted advisor); go deep on evals because a demo proves nothing; practise discovery with Claude role-playing a frustrated VP of operations; write a one-page scope naming the one number you will move; and run one real end-to-end project into a before/after case study. Apply via company career pages (Databricks, Palantir, OpenAI, Scale AI, Cursor, Anthropic, Cohere, Cognition) and VC job boards. Includes a sponsor segment and a pitch for his own certification.",
+      "key_insights": [
+        "Customers buy an outcome, not software or hours.",
+        "The scarce profile is technical plus trusted by stakeholders; train your weaker half.",
+        "Evals are the proof that a deployment works; a demo is not.",
+        "If you can't name the number you're moving, you don't have a project yet.",
+        "Search by what the posting says you'll do, not the title (FDE, deployed engineer, AI consultant)."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "fde-discovery-scope-practice",
+          "title": "FDE Discovery and Scope Practice"
+        },
+        {
+          "slug": "forward-deployed-engineer",
+          "title": "Forward Deployed Engineer"
+        },
+        {
+          "slug": "product-engineer-shift",
+          "title": "Product Engineer Shift"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-21"
+    },
+    {
+      "slug": "deployed-since-2015-bad-news-fireship",
+      "title": "If you’ve deployed anything since 2015, I have bad news...",
+      "video_id": "rMaMe32qQkA",
+      "platform": "youtube",
+      "url": "https://youtu.be/rMaMe32qQkA",
+      "duration_min": 6,
+      "creator": "fireship",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "other",
+      "tags": [
+        "security",
+        "supply-chain",
+        "nginx",
+        "java"
+      ],
+      "keywords": [
+        "security",
+        "supply-chain",
+        "nginx",
+        "java",
+        "supply chain",
+        "fireship",
+        "Third-Party Script Supply-Chain Risk"
+      ],
+      "summary": "fireship covers three security incidents in one week of November 2026. First, a bug in Optimizely's signup flow let an attacker inject JavaScript into other customers' projects, served from Optimizely's own CDN to GitLab, Salesforce, Equifax and about 175 other sites: card skimming, crypto theft and an iPhone zero-click chain, rebuilt 26 times in 10 hours, for only about $7,500 (third party script supply chain risk).\n\nSecond, an RCE in Java 17+ where the hand-written AVX-512 Base64 decoder on newer Intel and AMD chips writes 62 bytes past a buffer on short, badly padded input, giving unauthenticated code execution on Jira, Confluence, Jenkins and Keycloak.\n\nThird, a bug in NGINX's HTTP/2 flow control present for over a decade: refunded credit from cancelled requests is never checked against the 2 GB cap, an unsigned subtraction underflows, and a later negative length lets memory be read and overwritten, chained with a Linux kernel bug for root. The public exploit needs 128 GB over one connection, so sites behind proxies are likely safe. Sponsored by Paper.",
+      "key_insights": [
+        "Every third-party script you load runs with your site's trust.",
+        "Hardware-specific fast paths can hide memory bugs that normal code doesn't have.",
+        "Unsigned integer arithmetic plus a missing bounds check can become RCE.",
+        "Heavily audited code can still carry decade-old bugs.",
+        "Proxies and CDNs in front of servers blunt some exploits."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "third-party-script-supply-chain-risk",
+          "title": "Third-Party Script Supply-Chain Risk"
+        }
+      ],
+      "conceptCount": 1,
+      "added": "2026-11-21"
+    },
+    {
+      "slug": "engineer-coding-agents-like-systems-zach-lloyd-warp",
+      "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+      "video_id": "0LeT996Hz3E",
+      "platform": "youtube",
+      "url": "https://youtu.be/0LeT996Hz3E",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "agents",
+      "tags": [
+        "software-factory",
+        "agents",
+        "evals",
+        "benchmarks"
+      ],
+      "keywords": [
+        "software-factory",
+        "agents",
+        "evals",
+        "benchmarks",
+        "software factory",
+        "ai engineer",
+        "Factories as Code",
+        "Factory Conversation Grading",
+        "Light vs Dark Software Factory",
+        "Online Agent Evals",
+        "Private Replay Benchmarks"
+      ],
+      "summary": "zach lloyd, founder and CEO of warp terminal and former principal engineer on Google Docs, argues that software engineering is becoming factory engineering. Local, interactively prompted coding agents cap throughput at human speed, make cost and productivity hard to manage, and create security and governance gaps.\n\nHe defines a software factory narrowly as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents (see Light vs Dark Software Factory). Its stack: factories as code (agents, triggers, workflow, MCPs and policies in Terraform-style declarative files), a data layer recording every conversation and artifact, sandboxed compute, multi-model and multi-harness inference, orchestration, and an API/MCP-first surface that plugs into Slack, Linear, Jira and GitHub.\n\nOn top sit the new tools of the trade: online agent evals that score every session (for example a redundant-tests eval), self-improvement agents that turn failure patterns into PRs against the factory definition (Factory Conversation Grading), and private replay benchmarks that replay real tasks against different models, harnesses or skill sets to map cost against quality on your own data.",
+      "key_insights": [
+        "Interactive local prompting cannot be automated; it is bounded by human throughput.",
+        "A factory you cannot measure runs on vibes; track cycle time, human interactions per PR, throughput and cost.",
+        "Defining the factory as code lets you branch, A/B test, roll back and let agents propose changes as PRs.",
+        "Treat models and harnesses as degrees of freedom to test, not fixed choices.",
+        "The only real answer to 'which model or skill is best' is a benchmark built from your own tasks."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "factories-as-code",
+          "title": "Factories as Code"
+        },
+        {
+          "slug": "factory-conversation-grading",
+          "title": "Factory Conversation Grading",
+          "e": "🏭"
+        },
+        {
+          "slug": "light-vs-dark-software-factory",
+          "title": "Light vs Dark Software Factory",
+          "e": "🏭"
+        },
+        {
+          "slug": "online-agent-evals",
+          "title": "Online Agent Evals"
+        },
+        {
+          "slug": "private-replay-benchmarks",
+          "title": "Private Replay Benchmarks"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-21"
+    },
+    {
+      "slug": "openai-is-cooked-primetime",
+      "title": "OpenAI is Cooked",
+      "video_id": "pAGwvAWV4bk",
+      "platform": "youtube",
+      "url": "https://youtu.be/pAGwvAWV4bk",
+      "duration_min": 13,
+      "creator": "the-primetime",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "relationships",
+      "tags": [
+        "ai-models",
+        "hype",
+        "critical-thinking",
+        "careers"
+      ],
+      "keywords": [
+        "ai-models",
+        "hype",
+        "critical-thinking",
+        "careers",
+        "ai models",
+        "critical thinking",
+        "the primetime",
+        "AI hype dichotomy",
+        "Test Models Yourself, Not the Hype"
+      ],
+      "summary": "the primetime responds to the day-one consensus that OpenAI's Astra 6.2 and Soul 6.2 are bad. Benchmarks and influencer takes are measured against someone else's framework, not your languages or problem domain (AI hype dichotomy).\n\nHis own test: one prompt had the model create apps on Twitch, Kick, Google and X, collect tokens, deploy to Cloudflare behind WorkOS auth and verify it in OBS's embedded Chrome; it finished in 45 minutes with strong computer use at low cost. His 'likes versus nuance' curve: the more nuanced a take, the fewer likes.\n\nThe lesson (test models yourself not hype): it has never been easier to try a model for a week; expertise comes from applying things, not repeating tweets, and that differentiates you when hiring. He closes with a Netflix story about volunteering for Groovy and Objective-C work: adaptability is the most important skill. Includes a WorkOS sponsor read.",
+      "key_insights": [
+        "Model reviews are measured against someone else's problem domain.",
+        "Nuance gets fewer likes than dunks, so feeds over-represent extremes.",
+        "Try a model for real work for a week before judging it.",
+        "Expertise comes from applying ideas, which is what gets people hired.",
+        "Adaptability is the core skill in a young, fast-moving field."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "hype-dichotomy-ai",
+          "title": "AI hype dichotomy",
+          "e": "📢"
+        },
+        {
+          "slug": "test-models-yourself-not-hype",
+          "title": "Test Models Yourself, Not the Hype"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-21"
+    },
+    {
+      "slug": "want-someone-to-change-ask-this-question-philip-jameson-ted",
+      "title": "Want Someone to Change? Ask This Question | Philip Jameson | TED",
+      "video_id": "VgOm8nqPlD4",
+      "platform": "youtube",
+      "url": "https://youtu.be/VgOm8nqPlD4",
+      "duration_min": 7,
+      "creator": "ted",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "mind",
+      "tags": [
+        "communication",
+        "behavior-change",
+        "influence",
+        "leadership"
+      ],
+      "keywords": [
+        "communication",
+        "behavior-change",
+        "influence",
+        "leadership",
+        "behavior change",
+        "ted",
+        "Detective Question: Why Won't They?",
+        "Friction for Willpower",
+        "Open-Ended Questions"
+      ],
+      "summary": "Consultant philip jameson splits people who want colleagues to change into dreamers, who ask 'why wouldn't they do it?' and assume the benefits are obvious, and detectives, who ask 'why won't they do it?' and investigate the barriers. Detectives consistently get better results (detective question why wont).\n\nThree versions of the question: what knowledge and skills are people missing (give information and tools); what frictions are in the way (time, resources, influential people quietly discouraging change; see Friction for Willpower); and why won't they want to change (losses such as status, or a treasured creative task). A hotel chain got pricing staff to adopt a machine-learning tool by putting its most skilled sceptics into an early user group.\n\nTips: ask out loud in person, ask more than once because deeper fears surface only after simple barriers are fixed, and never moralise about laziness or resistance. It works at home too, from a shared family calendar to a friend's updates.",
+      "key_insights": [
+        "Assuming the benefit is self-evident is the dreamer's trap.",
+        "Barriers come in three kinds: missing skills, frictions, and perceived losses.",
+        "Change often costs someone status or a task they love.",
+        "Ask repeatedly; simple barriers hide the deep ones.",
+        "Moralising never produces sustained change."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "detective-question-why-wont",
+          "title": "Detective Question: Why Won't They?"
+        },
+        {
+          "slug": "friction-for-willpower",
+          "title": "Friction for Willpower",
+          "e": "🏋️"
+        },
+        {
+          "slug": "open-ended-questions",
+          "title": "Open-Ended Questions",
+          "e": "💬"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-21"
+    },
+    {
+      "slug": "what-makes-people-buy-rory-sutherland-simon-squibb",
+      "title": "I Asked A Marketing Genius What Actually Makes People Buy",
+      "video_id": "m0nDEOUj88k",
+      "platform": "youtube",
+      "url": "https://youtu.be/m0nDEOUj88k",
+      "duration_min": 27,
+      "creator": "simon-squibb",
+      "updated": "2026-11-21",
+      "created": "2026-11-21",
+      "section": "human",
+      "tags": [
+        "marketing",
+        "behavioral-science",
+        "branding",
+        "business"
+      ],
+      "keywords": [
+        "marketing",
+        "behavioral-science",
+        "branding",
+        "business",
+        "behavioral science",
+        "simon squibb",
+        "Reverse Benchmarking",
+        "Rewrite the Question",
+        "Vicious vs Virtuous Friction"
+      ],
+      "summary": "simon squibb interviews rory sutherland, vice chairman of Ogilvy, on how people really decide. His core idea, rewrite the question: most great businesses are an answer to a different question, not a better answer to the same one. Uber changed waiting for a taxi, not riding in one; Jobs asked how using a computer feels; Dyson reframed seeing the dirt as evidence the vacuum works.\n\nFriction matters more than money: he left a cracked basin for 18 months though he would have paid instantly if it were frictionless, and pension saving fails for the same reason (Vicious vs Virtuous Friction). Technology drifts from option to obligation (self-checkouts). When something rolls out unusually fast, look for a hidden revenue reason, as with parking apps that raised takings 70%.\n\nOn brands: be distinctive, memorable and available in every buying situation (phone as well as app). Small examples like 'Call Ron: I do the small jobs the builders don't want' and a cafe called Brunch where dogs are always welcome answer the customer's questions in one line. He attacks benchmarking, which makes competitors converge, and recommends reverse benchmarking: find what rivals overlook or can't do. He ends with contrarian economics (second-hand cars, business class subsidising leisure fares). Includes a HubSpot sponsor read.",
+      "key_insights": [
+        "Rewriting the question is not cheating; it's where most innovation comes from.",
+        "Remove friction before cutting price.",
+        "Watch technology move from option to obligation.",
+        "Distinctiveness plus availability in every buying situation builds brands.",
+        "Benchmarking makes everyone alike; look for what rivals neglect."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "reverse-benchmarking",
+          "title": "Reverse Benchmarking"
+        },
+        {
+          "slug": "rewrite-the-question",
+          "title": "Rewrite the Question"
+        },
+        {
+          "slug": "vicious-vs-virtuous-friction",
+          "title": "Vicious vs Virtuous Friction",
+          "e": "⚔️"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-21"
     }
   ]
 }

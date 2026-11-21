@@ -1,0 +1,60 @@
+{
+  "slug": "engineer-coding-agents-like-systems-zach-lloyd-warp",
+  "sections": [
+    {
+      "title": "Why move past local agents",
+      "items": [
+        {
+          "e": "🧍",
+          "q": "What limits local, interactively prompted coding agents?",
+          "a": "They are capped by **human throughput** and can't be automated, and everyone's own setup makes **cost, productivity and security** hard to govern."
+        },
+        {
+          "e": "🏭",
+          "q": "How does Zach Lloyd define a software factory?",
+          "a": "A **code-defined closed loop** for **continuously measuring and improving** cloud coding agents."
+        }
+      ]
+    },
+    {
+      "title": "The factory stack",
+      "items": [
+        {
+          "e": "📜",
+          "q": "What are factories as code?",
+          "a": "Agents, triggers, workflows, MCPs and policies in **Terraform-style declarative files**, so you can **branch, test and roll back** the factory."
+        },
+        {
+          "e": "🗄️",
+          "q": "Why record every agent conversation and artifact?",
+          "a": "It is the **raw material for improving** the factory over time."
+        },
+        {
+          "e": "🔀",
+          "q": "How should a factory treat models and harnesses?",
+          "a": "As **degrees of freedom to test**: support several models and coding agents."
+        }
+      ]
+    },
+    {
+      "title": "Measuring and improving",
+      "items": [
+        {
+          "e": "📏",
+          "q": "What is an online eval for coding agents?",
+          "a": "Another agent **scores every session** on a dimension, such as catching **redundant tests**."
+        },
+        {
+          "e": "🔧",
+          "q": "How does factory self-improvement work?",
+          "a": "Agents find patterns in failed runs and propose fixes as **PRs against the factory definition**."
+        },
+        {
+          "e": "🧪",
+          "q": "How do you know which model or skill is best?",
+          "a": "**Replay your own real tasks** against configurations and compare **cost versus quality**."
+        }
+      ]
+    }
+  ]
+}

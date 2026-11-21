@@ -1,0 +1,40 @@
+{
+  "slug": "deployed-since-2015-bad-news-fireship",
+  "sections": [
+    {
+      "title": "Optimizely hijack",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "How were 178 major sites fed malware?",
+          "a": "A signup bug let attackers write JavaScript into other customers' **Optimizely projects**, served from **Optimizely's own CDN**."
+        },
+        {
+          "e": "💸",
+          "q": "How much did the attackers reportedly make?",
+          "a": "Only about **$7,500**."
+        }
+      ]
+    },
+    {
+      "title": "Java and NGINX",
+      "items": [
+        {
+          "e": "☕",
+          "q": "What caused the Java Base64 RCE?",
+          "a": "An **AVX-512 fast-path decoder** writes **62 bytes past the buffer** on short, badly padded input."
+        },
+        {
+          "e": "🔢",
+          "q": "What was the NGINX bug?",
+          "a": "Refunded HTTP/2 credit skipped the **2 GB cap check**, so an **unsigned counter underflowed** into memory corruption."
+        },
+        {
+          "e": "🛡️",
+          "q": "Why are many sites probably safe from the NGINX exploit?",
+          "a": "It needs **128 GB over one connection**, which usually fails **behind a proxy**."
+        }
+      ]
+    }
+  ]
+}

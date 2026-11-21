@@ -1,0 +1,60 @@
+{
+  "slug": "agent-that-builds-culture-zach-bruggeman-ramp",
+  "sections": [
+    {
+      "title": "One agent for everyone",
+      "items": [
+        {
+          "e": "🧰",
+          "q": "Why did Ramp build one shared coding agent?",
+          "a": "Per-person setup wastes days and spreads best practice unevenly; one agent gives everyone a **solid baseline** that improves **for the whole company**."
+        },
+        {
+          "e": "📈",
+          "q": "How much of Ramp's code does Inspect write?",
+          "a": "About **75% of code** written and shipped."
+        },
+        {
+          "e": "🚫",
+          "q": "Did Ramp mandate using Inspect?",
+          "a": "No; a strong baseline meant there was **no need to mandate it**."
+        }
+      ]
+    },
+    {
+      "title": "Trust through working in public",
+      "items": [
+        {
+          "e": "👀",
+          "q": "How do Ramp engineers learn to use the agent?",
+          "a": "Sessions are **public by default**, so they **learn by watching teammates**, no formal training."
+        },
+        {
+          "e": "🎥",
+          "q": "What does a reviewer see on an Inspect PR?",
+          "a": "The **conversation, tools used, screenshots and a verification video**, not just a diff."
+        },
+        {
+          "e": "🤝",
+          "q": "What did a public bug thread produce?",
+          "a": "A fix plus a **skeptic turned collaborator** within an hour."
+        }
+      ]
+    },
+    {
+      "title": "Think bigger together",
+      "items": [
+        {
+          "e": "🐺",
+          "q": "What does Bruggeman warn against?",
+          "a": "Revering the **lone-wolf operator** instead of building with others."
+        },
+        {
+          "e": "❓",
+          "q": "What question should you ask colleagues this week?",
+          "a": "**What have we been waiting to do** that we haven't done yet?"
+        }
+      ]
+    }
+  ]
+}
