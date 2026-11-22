@@ -1,0 +1,65 @@
+{
+  "slug": "why-calories-dont-count-giles-yeo-jay-shetty",
+  "sections": [
+    {
+      "title": "Why dieting is hard",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "Why is it so hard to keep weight off?",
+          "a": "The brain treats weight loss as a threat: it **raises hunger** and **lowers metabolism**, and the drop looks **largely permanent**."
+        },
+        {
+          "e": "🏃",
+          "q": "What is exercise actually good for in weight control?",
+          "a": "It is weak for losing weight but **strong for maintenance**, offsetting the lower metabolism."
+        },
+        {
+          "e": "💪",
+          "q": "What best predicts health span as you age?",
+          "a": "Your **muscle-to-fat ratio** heading into your late 60s and 70s."
+        }
+      ]
+    },
+    {
+      "title": "Calories are not equal",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "How much of protein's label calories do you actually use?",
+          "a": "About **70%**; the rest is lost as heat while **processing protein**."
+        },
+        {
+          "e": "🥬",
+          "q": "Why does cooked celery give more calories than raw?",
+          "a": "**Cooking and processing** make calories **easier to extract** from the same food."
+        },
+        {
+          "e": "🏷️",
+          "q": "What is the problem with obsessing over calorie counts?",
+          "a": "It ignores **food quality**, so people pick a smaller number over a **more nutritious meal**."
+        }
+      ]
+    },
+    {
+      "title": "Genes and a simple rule",
+      "items": [
+        {
+          "e": "🎈",
+          "q": "What happens when your fat cells are full?",
+          "a": "Fat **spills into the liver and muscles**, which is when **metabolic disease** starts."
+        },
+        {
+          "e": "🌏",
+          "q": "Why do East and South Asians face risk at lower BMI?",
+          "a": "They can **store less fat safely**, so they reach **diabetes risk at a lower weight**."
+        },
+        {
+          "e": "🥦",
+          "q": "What simple diet rule does Giles Yeo suggest?",
+          "a": "About **16% protein**, **double the fibre**, and **free sugars under 5%** of energy."
+        }
+      ]
+    }
+  ]
+}

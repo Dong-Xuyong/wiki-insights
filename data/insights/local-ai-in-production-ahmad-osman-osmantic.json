@@ -1,0 +1,65 @@
+{
+  "slug": "local-ai-in-production-ahmad-osman-osmantic",
+  "sections": [
+    {
+      "title": "Why local AI now",
+      "items": [
+        {
+          "e": "🏠",
+          "q": "What is Ahmad Osman's framing of open-source and local AI?",
+          "a": "Open-source AI is an **optimization problem** and local AI is a **user-experience problem**; both need solving together."
+        },
+        {
+          "e": "🤏",
+          "q": "What model future does he bet on?",
+          "a": "**Small, specialized models** of 1-2B parameters with **another model orchestrating** them."
+        },
+        {
+          "e": "⏳",
+          "q": "Why are modest local GPUs already useful for agents?",
+          "a": "Agents spend most time **waiting on shell commands and tools**, not on tokens per second."
+        }
+      ]
+    },
+    {
+      "title": "Hardware and inference",
+      "items": [
+        {
+          "e": "⚙️",
+          "q": "What limits prefill versus decode?",
+          "a": "Prefill is **compute-bound** (long prompts slow time to first token); decode is **memory-bandwidth-bound**."
+        },
+        {
+          "e": "🛒",
+          "q": "How should you choose local AI hardware?",
+          "a": "By **your workflow**: context length, dense vs MoE, and **parallel agent requests**, which favour high-bandwidth GPUs with mature software."
+        },
+        {
+          "e": "🎚️",
+          "q": "Why not quantize every layer to 4 bits?",
+          "a": "It can **nuke the model**; keep the **layers that matter at higher precision** and compress the rarely used ones."
+        }
+      ]
+    },
+    {
+      "title": "Measuring what matters",
+      "items": [
+        {
+          "e": "🔧",
+          "q": "Why does he want an inference engine per model per chip?",
+          "a": "General engines take **shortcuts to support every device**; real speed comes from **systems engineering per model and chip**."
+        },
+        {
+          "e": "📏",
+          "q": "Which numbers should you measure on your own hardware?",
+          "a": "**Time to first token, tokens per second per agent, requests per second and task accuracy.**"
+        },
+        {
+          "e": "🎭",
+          "q": "How much should you trust public leaderboards?",
+          "a": "Little: they **disagree wildly** and are **being reward-hacked**, so rely on your own traces and evals."
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 528,
-  "insightsCount": 515,
-  "conceptCount": 3497,
+  "videoCount": 530,
+  "insightsCount": 517,
+  "conceptCount": 3511,
   "sections": [
     {
       "id": "architecture",
@@ -52,11 +52,11 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 137,
+    "agents": 138,
     "systems": 33,
     "build": 63,
     "human": 26,
-    "performance": 66,
+    "performance": 67,
     "mind": 46,
     "relationships": 72,
     "other": 79
@@ -41696,6 +41696,166 @@
       ],
       "conceptCount": 3,
       "added": "2026-11-21"
+    },
+    {
+      "slug": "local-ai-in-production-ahmad-osman-osmantic",
+      "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
+      "video_id": "GKSQYbELDzw",
+      "platform": "youtube",
+      "url": "https://youtu.be/GKSQYbELDzw",
+      "duration_min": 56,
+      "creator": "ai-engineer",
+      "updated": "2026-11-22",
+      "created": "2026-11-22",
+      "section": "agents",
+      "tags": [
+        "local-ai",
+        "inference",
+        "open-source-models",
+        "hardware"
+      ],
+      "keywords": [
+        "local-ai",
+        "inference",
+        "open-source-models",
+        "hardware",
+        "local ai",
+        "open source models",
+        "ai engineer",
+        "Benchmark Integrity Failures",
+        "Frontier Orchestrator, Specialist Model",
+        "Inference Engine per Model per Chip",
+        "Layer-Aware Dynamic Quantization",
+        "Model as Codebase (Continual Learning)",
+        "Open-weight vs closed LLMs",
+        "Prefill vs Decode Bottlenecks"
+      ],
+      "summary": "ahmad osman, founder of Osmantic, gives a fast tour of local AI in production at ai engineer. His framing: open-source AI is an optimization problem and local AI is a user-experience problem, and both must be solved together. Open models have closed much of the gap with closed ones (see Open-weight vs closed LLMs), agents now generate more tokens than humans, and he bets small, specialized models with an orchestrator on top will become the norm (see Frontier Orchestrator, Specialist Model).\n\nThe practical core is hardware and inference engineering. prefill vs decode bottlenecks: prefill is compute-bound and decode is memory-bandwidth-bound, so the right hardware, dense vs MoE choice and batching depend on your workflow; parallel agent requests favour GPUs with high bandwidth and mature software (an RTX Pro 6000 reached about 1,300 tokens per second across 50 parallel requests). layer aware dynamic quantization keeps important layers at higher precision instead of crushing everything to 4 bits. And because general engines take shortcuts, he argues for an inference engine per model per chip, measuring time to first token, tokens per second per agent and task accuracy on your own hardware.\n\nHe is openly sceptical of public leaderboards, which disagree wildly and are being reward-hacked (see Benchmark Integrity Failures), and closes with his bet that n-gram style lookup memory, decision models and weight edits add up to continual learning (see Model as Codebase (Continual Learning)).",
+      "key_insights": [
+        "Open-source AI is an optimization problem; local AI is a user-experience problem.",
+        "Prefill is compute-bound, decode is memory-bandwidth-bound: buy hardware for your workflow, not a spec sheet.",
+        "Uniform 4-bit quantization can wreck a model; keep the layers that matter at higher precision.",
+        "Agents mostly wait on tools and shell commands, so even modest local GPUs are useful.",
+        "Optimize the whole pipeline: a 100x faster tokenizer made a full request only about 1% faster.",
+        "Trust your own traces and evals over public benchmarks, which are being hacked."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "benchmark-integrity-failures",
+          "title": "Benchmark Integrity Failures",
+          "e": "🔑"
+        },
+        {
+          "slug": "frontier-orchestrator-specialist-model",
+          "title": "Frontier Orchestrator, Specialist Model",
+          "e": "🧭"
+        },
+        {
+          "slug": "inference-engine-per-model-per-chip",
+          "title": "Inference Engine per Model per Chip"
+        },
+        {
+          "slug": "layer-aware-dynamic-quantization",
+          "title": "Layer-Aware Dynamic Quantization"
+        },
+        {
+          "slug": "model-as-codebase-continual-learning",
+          "title": "Model as Codebase (Continual Learning)",
+          "e": "🧪"
+        },
+        {
+          "slug": "open-weight-vs-closed-llms",
+          "title": "Open-weight vs closed LLMs",
+          "e": "⚖️"
+        },
+        {
+          "slug": "prefill-vs-decode-bottlenecks",
+          "title": "Prefill vs Decode Bottlenecks"
+        }
+      ],
+      "conceptCount": 7,
+      "added": "2026-11-22"
+    },
+    {
+      "slug": "why-calories-dont-count-giles-yeo-jay-shetty",
+      "title": "Weight Loss Scientist: Why Your Diet Isn't Working (And What Actually Does)",
+      "video_id": "ViNJ-mIkg-M",
+      "platform": "youtube",
+      "url": "https://youtu.be/ViNJ-mIkg-M",
+      "duration_min": 39,
+      "creator": "jay-shetty",
+      "updated": "2026-11-22",
+      "created": "2026-11-22",
+      "section": "performance",
+      "tags": [
+        "nutrition",
+        "weight-loss",
+        "metabolism",
+        "protein",
+        "fiber"
+      ],
+      "keywords": [
+        "nutrition",
+        "weight-loss",
+        "metabolism",
+        "protein",
+        "fiber",
+        "weight loss",
+        "jay shetty",
+        "Calorie Availability and Processing",
+        "Personal Fat Storage Capacity",
+        "Protein, Fibre, Free-Sugar Rule",
+        "Sarcopenia / Age-Related Muscle Loss",
+        "Ultra-Processed Food Addiction",
+        "Weight Training Longevity Priority",
+        "Weight-Loss Metabolic Adaptation"
+      ],
+      "summary": "Obesity geneticist giles yeo, author of Why Calories Don't Count, talks with jay shetty about why dieting is hard. The core reason is weight loss metabolic adaptation: the brain reads weight loss as a survival threat, raising hunger and lowering metabolism, and that drop appears largely permanent. Metabolism per kilo of muscle stays stable until the mid-60s; middle-age weight gain comes from richer food, less movement and lost muscle, and muscle-to-fat ratio is the best predictor of health span (see Sarcopenia / Age-Related Muscle Loss and Weight Training Longevity Priority).\n\nHe explains calorie availability processing: Atwater's 4/4/9 factors come from burning food, but the body nets only about 70% of protein calories and less from fibrous carbs, while cooking and processing make more calories available from the same food (raw vs stewed celery, whole almonds vs almond milk). Half of UK and US calories come from ultra-processed foods (see Ultra-Processed Food Addiction); Europeans on holiday stay lean partly by walking more and eating food made from scratch.\n\nGenes explain why people eat more, and also personal fat storage capacity: once fat cells are full, fat spills into the liver and muscle, and East and South Asians reach diabetes risk at far lower BMI. In place of counting calories he offers the protein fiber free sugar rule: about 16% of energy from protein, double the fibre, and free sugars under 5%.",
+      "key_insights": [
+        "Your brain fights weight loss by raising hunger and lowering metabolism, and the drop looks long-lasting.",
+        "Exercise is weak for losing weight but strong for keeping it off.",
+        "About 30% of protein calories are lost as heat; processing and cooking make more calories available.",
+        "Equal label calories are not equal in the body; judge food quality, not just the number.",
+        "East and South Asians can store less fat safely and hit metabolic disease at a lower BMI.",
+        "Rule of thumb: 16% protein, double the fibre, keep free sugar under 5% of energy."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "calorie-availability-processing",
+          "title": "Calorie Availability and Processing"
+        },
+        {
+          "slug": "personal-fat-storage-capacity",
+          "title": "Personal Fat Storage Capacity"
+        },
+        {
+          "slug": "protein-fiber-free-sugar-rule",
+          "title": "Protein, Fibre, Free-Sugar Rule"
+        },
+        {
+          "slug": "sarcopenia-age-related-muscle-loss",
+          "title": "Sarcopenia / Age-Related Muscle Loss",
+          "e": "💪"
+        },
+        {
+          "slug": "ultra-processed-food-addiction",
+          "title": "Ultra-Processed Food Addiction",
+          "e": "🍪"
+        },
+        {
+          "slug": "weight-training-longevity-priority",
+          "title": "Weight Training Longevity Priority",
+          "e": "🏋️"
+        },
+        {
+          "slug": "weight-loss-metabolic-adaptation",
+          "title": "Weight-Loss Metabolic Adaptation"
+        }
+      ],
+      "conceptCount": 7,
+      "added": "2026-11-22"
     }
   ]
 }
