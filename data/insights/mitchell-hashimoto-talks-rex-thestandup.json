@@ -1,0 +1,65 @@
+{
+  "slug": "mitchell-hashimoto-talks-rex-thestandup",
+  "sections": [
+    {
+      "title": "What Rex is",
+      "items": [
+        {
+          "e": "🖥️",
+          "q": "What is Rex?",
+          "a": "A **terminal and multiplexer in one**, built on the **Ghostty core**, where the server treats the terminal as **just a plug-in**."
+        },
+        {
+          "e": "📱",
+          "q": "What does merging terminal and multiplexer give users?",
+          "a": "**Persistent sessions** you can reopen from a **phone or another OS**, without a separate tmux layer."
+        },
+        {
+          "e": "🏛️",
+          "q": "How is Ghostty's core kept open?",
+          "a": "It sits in a **501(c)(3) non-profit**, and Rex's improvements go **back upstream**."
+        }
+      ]
+    },
+    {
+      "title": "Agents and the terminal",
+      "items": [
+        {
+          "e": "🤖",
+          "q": "Why did terminal usage surge?",
+          "a": "**Agentic coding tools** like Claude Code: a **simple programming model** and **broad system access** with little sandboxing."
+        },
+        {
+          "e": "🙈",
+          "q": "What does Hashimoto think most agent users really want?",
+          "a": "**Not a terminal**: Rex aims to let them run agents **without realising a terminal is there**."
+        },
+        {
+          "e": "🔌",
+          "q": "What is Hashimoto's rule for UI in Rex?",
+          "a": "**No button without an API**: every element is **API-driven** so agents and scripts can drive it, not bolted on via accessibility."
+        }
+      ]
+    },
+    {
+      "title": "Fast startup",
+      "items": [
+        {
+          "e": "🍎",
+          "q": "What slows the first 100 ms of a macOS app launch?",
+          "a": "**Dynamic linking** and **Gatekeeper certificate checks**, before any of your code runs."
+        },
+        {
+          "e": "🎨",
+          "q": "How will Ghostty hide the ~300 ms Metal context cost?",
+          "a": "By **CPU-rendering the first frames** while acquiring the **GPU context off the main thread**, then switching."
+        },
+        {
+          "e": "🪟",
+          "q": "What is Casey Muratori's Windows startup tip?",
+          "a": "Keep the **startup memory footprint tiny**, because **mapping fresh pages is slow**, and grow it in the background."
+        }
+      ]
+    }
+  ]
+}

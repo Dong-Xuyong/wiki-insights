@@ -1,0 +1,65 @@
+{
+  "slug": "build-the-workshop-before-the-software-factory-armin-ronacher",
+  "sections": [
+    {
+      "title": "Models vs harness",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What happened to the Pi harness over the past year?",
+          "a": "Its core **barely changed**, yet it got far more capable **purely because models improved**."
+        },
+        {
+          "e": "⏱️",
+          "q": "How has agent run length changed for Armin Ronacher?",
+          "a": "P90 runs went from about **2.5 minutes to 14+ minutes**, which **changes how you work** with a harness."
+        },
+        {
+          "e": "🧹",
+          "q": "What happened to many old prompting tricks and plugins?",
+          "a": "With present-day models they are **no longer necessary**; much of the gain is **emergent model behaviour**."
+        }
+      ]
+    },
+    {
+      "title": "Humans still pace it",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What limits agent output now, according to Ronacher?",
+          "a": "**Human attention**: prompts per day stay flat while agent time explodes, and only **10-15 of 141 projects** get maintained."
+        },
+        {
+          "e": "🛑",
+          "q": "What is the true skill when working with agents?",
+          "a": "Knowing **when to push back**, because agents are rewarded for **completing the goal**, not for a coherent design."
+        },
+        {
+          "e": "📄",
+          "q": "How does Ronacher review work he no longer reads line by line?",
+          "a": "At about **70% of the session** he asks for an **executive summary and a typeset HTML page** before verification."
+        }
+      ]
+    },
+    {
+      "title": "Building well",
+      "items": [
+        {
+          "e": "📐",
+          "q": "Why do open standards matter more with agents?",
+          "a": "Agents make it easy to **reimplement formats**, so versions **diverge**; shared specs and **upstreaming over forking** keep software compatible."
+        },
+        {
+          "e": "⏸️",
+          "q": "Why do long-running agents need to be durable?",
+          "a": "So they can **suspend and resume** on their own and wait for cheap **flex-scheduled inference** without wasting sandboxes."
+        },
+        {
+          "e": "🧮",
+          "q": "What does code mode unlock?",
+          "a": "The harness can **orchestrate thousands of tool calls** and cheap **classifier decisions** in code instead of through the context."
+        }
+      ]
+    }
+  ]
+}

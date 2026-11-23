@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 530,
-  "insightsCount": 517,
-  "conceptCount": 3511,
+  "videoCount": 532,
+  "insightsCount": 519,
+  "conceptCount": 3522,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 138,
+    "agents": 140,
     "systems": 33,
     "build": 63,
     "human": 26,
@@ -41856,6 +41856,147 @@
       ],
       "conceptCount": 7,
       "added": "2026-11-22"
+    },
+    {
+      "slug": "build-the-workshop-before-the-software-factory-armin-ronacher",
+      "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+      "video_id": "JNexz3Tbiu8",
+      "platform": "youtube",
+      "url": "https://youtu.be/JNexz3Tbiu8",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-23",
+      "created": "2026-11-23",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "software-engineering",
+        "open-source",
+        "craft"
+      ],
+      "keywords": [
+        "agents",
+        "software-engineering",
+        "open-source",
+        "craft",
+        "software engineering",
+        "open source",
+        "ai engineer",
+        "Code Mode for Agents",
+        "Durable Suspendable Agents",
+        "Human Attention Paces Agents",
+        "Moving Bottleneck",
+        "Open Standards vs Agent Sprawl",
+        "Pre-Verification Executive Summary",
+        "True Skill vs Agent Skill"
+      ],
+      "summary": "armin ronacher of earendil argues at ai engineer for building the workshop (an atelier for high-quality, ambitious software) before the software factory that just produces more code. His evidence is his own Pi coding-agent sessions: the core harness has not changed in a year, yet corrections dropped with every model and the 90th-percentile agent run went from about 2.5 to 14+ minutes. Many old prompting tricks and plugins are no longer needed; models also reach for bash more on their own.\n\nWhat has not changed is the human. human attention paces agents: his prompts per day are flat, agent active time is many times his working day, and of 141 repositories started in a year only 10-15 are maintained. So the skills that matter are true skill vs agent skill (knowing when to push back, keeping your own understanding) and review checkpoints such as a pre verification executive summary. He warns against uncontrolled growth: agents make it easy to fork and reimplement formats, so open standards vs agent sprawl and human collaboration matter more, along with memory-safe, native and verified software.\n\nLooking ahead, long-running work needs durable suspendable agents that can stop, resume and wait for cheap flex inference, and Code Mode for Agents lets the harness orchestrate thousands of tool calls and cheap classifier decisions in code rather than through the context window. His close: now that we can build everything, maybe we should not; build more enjoyable and ambitious software instead.",
+      "key_insights": [
+        "The Pi harness has not changed in a year, yet it got much more capable purely because models improved.",
+        "P90 agent run time went from about 2.5 minutes (Dec 2025) to 14+ minutes, which changes how you work with a harness.",
+        "Starting projects is nearly free; maintaining them is still paced by human attention (141 started, 10-15 maintained).",
+        "Agents optimise for completing the goal, so you must know when to push back to avoid a 'Simpson car' of features.",
+        "At ~70% of a session, ask the agent for an executive summary and typeset HTML page before it verifies.",
+        "Agent-built reimplementations of formats diverge; open standards and upstreaming beat endless forks.",
+        "Long-running agents need suspend/resume so you can use flex-priced inference without wasting sandbox resources.",
+        "Code mode lets an agent build an on-demand workflow with cheap classifier decisions to crunch thousands of support tickets."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "code-mode-agents",
+          "title": "Code Mode for Agents",
+          "e": "💻"
+        },
+        {
+          "slug": "durable-suspendable-agents",
+          "title": "Durable Suspendable Agents"
+        },
+        {
+          "slug": "human-attention-paces-agents",
+          "title": "Human Attention Paces Agents"
+        },
+        {
+          "slug": "moving-bottleneck",
+          "title": "Moving Bottleneck"
+        },
+        {
+          "slug": "open-standards-vs-agent-sprawl",
+          "title": "Open Standards vs Agent Sprawl"
+        },
+        {
+          "slug": "pre-verification-executive-summary",
+          "title": "Pre-Verification Executive Summary"
+        },
+        {
+          "slug": "true-skill-vs-agent-skill",
+          "title": "True Skill vs Agent Skill"
+        }
+      ],
+      "conceptCount": 7,
+      "added": "2026-11-23"
+    },
+    {
+      "slug": "mitchell-hashimoto-talks-rex-thestandup",
+      "title": "Mitchell Hashimoto Talks Rex | TheStandup",
+      "video_id": "PpwLu8RfPvM",
+      "platform": "youtube",
+      "url": "https://youtu.be/PpwLu8RfPvM",
+      "duration_min": 37,
+      "creator": "the-primetime",
+      "updated": "2026-11-23",
+      "created": "2026-11-23",
+      "section": "agents",
+      "tags": [
+        "developer-tools",
+        "terminal",
+        "agents",
+        "performance"
+      ],
+      "keywords": [
+        "developer-tools",
+        "terminal",
+        "agents",
+        "performance",
+        "developer tools",
+        "the primetime",
+        "Agents Revive the Terminal",
+        "API-Driven UI for Agents",
+        "CLIs vs MCPs",
+        "Cold-Start Progressive Rendering"
+      ],
+      "summary": "On The Standup, the primetime, casey muratori and TJ DeVries host mitchell hashimoto about Rex, his new company's product built on the non-profit ghostty terminal core. Rex merges terminal and multiplexer (replacing tmux): the server has no concept of a terminal (the terminal is a plug-in), sessions persist, and you can open them from a phone or another OS. A Windows alpha has just shipped to about 50 users alongside roughly 100,000 on Mac and Linux.\n\nA long, nerdy stretch covers cold start progressive rendering: macOS spends about 100 ms on dynamic linking and Gatekeeper certificate checks before any app code runs (cold-launching offline can even be faster), and acquiring the first Metal context costs about 300 ms per app, so Ghostty plans to CPU-render the first frames while the GPU context is acquired off-thread. Casey adds that on Windows, Direct3D initialisation and slow mapping of fresh memory pages dominate, so keep the startup footprint tiny and grow it in the background.\n\nOn why Rex exists: Hashimoto expected terminal use to shrink, until Claude Code-style tools caused agents revive the terminal. Yet most agent users do not want a terminal, so Rex aims to hide it, with a semantic cross-platform UI of off-the-shelf primitives rather than shipping pixels (RDP/VNC) or rebuilding the DOM. His core rule is api driven ui for agents: no button without an API, so agents and scripts can drive everything. Score 3 for Dong's goals (developer-tools podcast, loosely on AI engineering); ingested as always-ingest.",
+      "key_insights": [
+        "Rex merges terminal and multiplexer; the multiplexer server treats the terminal as just a plug-in.",
+        "Agentic coding tools drove a surge in terminal use, but most of their users don't actually want a terminal.",
+        "Design rule: you can't ship a UI element without an API behind it, so agents and scripts can drive the app.",
+        "macOS spends ~100 ms on linking and Gatekeeper checks before app code runs; first Metal context costs ~300 ms.",
+        "Ghostty plans to CPU-render the first frames while acquiring the GPU context off the main thread.",
+        "On Windows, keep the startup memory footprint tiny because mapping fresh pages is slow; large pages need admin policy.",
+        "Prefer a few off-the-shelf UI primitives (pick, input) over unlimited custom UI for a consistent experience."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agents-revive-the-terminal",
+          "title": "Agents Revive the Terminal"
+        },
+        {
+          "slug": "api-driven-ui-for-agents",
+          "title": "API-Driven UI for Agents"
+        },
+        {
+          "slug": "clis-vs-mcps",
+          "title": "CLIs vs MCPs",
+          "e": "🛠️"
+        },
+        {
+          "slug": "cold-start-progressive-rendering",
+          "title": "Cold-Start Progressive Rendering"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-23"
     }
   ]
 }
