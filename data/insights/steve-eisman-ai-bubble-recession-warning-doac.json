@@ -1,0 +1,65 @@
+{
+  "slug": "steve-eisman-ai-bubble-recession-warning-doac",
+  "sections": [
+    {
+      "title": "The AI bubble",
+      "items": [
+        {
+          "e": "🌐",
+          "q": "Which past bubble does Eisman compare AI to?",
+          "a": "The **dot-com bubble**: the **same sentences**, overinvestment, most early companies bust, **second-generation winners**."
+        },
+        {
+          "e": "🥧",
+          "q": "How much of the S&P 500 is exposed to AI?",
+          "a": "Infotech is about **40%** (prior record ~25%) and AI-linked sectors about **65%**."
+        },
+        {
+          "e": "🏗️",
+          "q": "What happens if the big AI labs fail?",
+          "a": "AI capex is **over half of GDP growth**, so the US would be in **recession the next day**."
+        }
+      ]
+    },
+    {
+      "title": "Investing rules",
+      "items": [
+        {
+          "e": "📈",
+          "q": "What would Eisman do with $1,000?",
+          "a": "Buy the **S&P 500 index**, **keep adding** every few months, and **don't look**."
+        },
+        {
+          "e": "🎯",
+          "q": "Do you need to beat the market?",
+          "a": "No: people **lose too much money looking for an edge**; matching the market is enough."
+        },
+        {
+          "e": "🪙",
+          "q": "Why does Eisman never buy crypto?",
+          "a": "It **moves opposite to its own hedge thesis**, rising and falling with Nvidia, so it's **speculation on speculation**."
+        }
+      ]
+    },
+    {
+      "title": "Picking stocks and housing",
+      "items": [
+        {
+          "e": "🚩",
+          "q": "What management signal makes Eisman run?",
+          "a": "**Founders dumping stock**: CoreWeave's founders sold **over $3B** of a ~$24B company."
+        },
+        {
+          "e": "💳",
+          "q": "Which single stock would he hold?",
+          "a": "A **natural duopoly** like **Visa or Moody's**, which is **near impossible to recreate**."
+        },
+        {
+          "e": "🏠",
+          "q": "Is renting throwing money away?",
+          "a": "No: owning often **costs more**, so **renting and investing the difference** can build a bigger nest egg."
+        }
+      ]
+    }
+  ]
+}

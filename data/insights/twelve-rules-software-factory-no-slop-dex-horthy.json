@@ -1,0 +1,65 @@
+{
+  "slug": "twelve-rules-software-factory-no-slop-dex-horthy",
+  "sections": [
+    {
+      "title": "Software factories",
+      "items": [
+        {
+          "e": "🏭",
+          "q": "What does Dex Horthy say a software factory really is?",
+          "a": "Mostly **good engineering we've had for decades**, with **an agent in the build step** instead of a person."
+        },
+        {
+          "e": "➡️",
+          "q": "What is forward pressure?",
+          "a": "Whatever **starts work automatically**, such as feature requests or a 3 a.m. incident that arrives **with a candidate PR**."
+        },
+        {
+          "e": "⬅️",
+          "q": "What is back pressure?",
+          "a": "**Agent review, agent testing, CI and linters** that let agents **hill-climb** before a human looks."
+        }
+      ]
+    },
+    {
+      "title": "Know your enemy",
+      "items": [
+        {
+          "e": "📉",
+          "q": "What does SlopCodeBench measure?",
+          "a": "How well models **evolve a codebase over checkpoints**; top scores were only about **15-16%**."
+        },
+        {
+          "e": "📐",
+          "q": "How should you decide how much to plan?",
+          "a": "By **expected pain**: chance it must change × **cost to change**, so get **schemas** right and yolo small work."
+        },
+        {
+          "e": "🚩",
+          "q": "What can't you buy for a software factory?",
+          "a": "**Verification of your code**: only you know how **your system** should behave."
+        }
+      ]
+    },
+    {
+      "title": "Anti-slop",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "How does the anti-slop manifesto define slop?",
+          "a": "Output that took **less effort to produce** than it asks the **reader to spend understanding**."
+        },
+        {
+          "e": "🔁",
+          "q": "Why does slop compound?",
+          "a": "The **next agent reads and copies** whatever slop is already in code, docs and chat."
+        },
+        {
+          "e": "🧠",
+          "q": "What does AI do to human judgment?",
+          "a": "It **amplifies** it, or **the lack of it**, so keep reviewing **something** scaled to the stakes."
+        }
+      ]
+    }
+  ]
+}

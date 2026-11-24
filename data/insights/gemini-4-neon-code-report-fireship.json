@@ -1,0 +1,40 @@
+{
+  "slug": "gemini-4-neon-code-report-fireship",
+  "sections": [
+    {
+      "title": "Gemini 4 Neon",
+      "items": [
+        {
+          "e": "💎",
+          "q": "What is Gemini 4 Neon?",
+          "a": "Google's **mid-tier** Gemini 4 model, adapted from **Carbon**, with a **1M-token context** at about $3/$15 per M tokens."
+        },
+        {
+          "e": "🏁",
+          "q": "How does Neon compare with Opus 5.5 on coding agents?",
+          "a": "It **beats it** on Artificial Analysis's coding-agent index at **roughly half the cost**."
+        }
+      ]
+    },
+    {
+      "title": "Reading the numbers",
+      "items": [
+        {
+          "e": "🔥",
+          "q": "Why can a fast-streaming model still be slow?",
+          "a": "It may **burn far more tokens**: Neon used **283M**, over **4x the median**."
+        },
+        {
+          "e": "🍒",
+          "q": "What's suspicious about Google's comparison table?",
+          "a": "It includes **only the rivals Neon beats**, leaving out Fable and Astra."
+        },
+        {
+          "e": "🐝",
+          "q": "What setup does Fireship suggest for Gemini?",
+          "a": "The **Antigravity IDE**, where Neon **orchestrates swarms of Hydrogen sub-agents**."
+        }
+      ]
+    }
+  ]
+}

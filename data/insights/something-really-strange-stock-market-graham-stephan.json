@@ -1,0 +1,40 @@
+{
+  "slug": "something-really-strange-stock-market-graham-stephan",
+  "sections": [
+    {
+      "title": "What happened",
+      "items": [
+        {
+          "e": "📉",
+          "q": "How unusual was the November 2026 sell-off?",
+          "a": "The S&P was **4.1 standard deviations** below its 50-day average, the **worst week since March 2020**."
+        },
+        {
+          "e": "🔄",
+          "q": "What triggered the huge one-day reversal?",
+          "a": "**Jensen Huang returning to Nvidia**, 11 days after he resigned."
+        }
+      ]
+    },
+    {
+      "title": "What history says",
+      "items": [
+        {
+          "e": "📊",
+          "q": "Why does Graham think recent returns won't last?",
+          "a": "About **14% a year** for 16 years is roughly **double the long-term 7-10%**, and returns revert to the mean."
+        },
+        {
+          "e": "🎲",
+          "q": "How often does a 10% drop become a bear market?",
+          "a": "Only about **35-40%** of the time since the 1920s; **faster drops escalate less**."
+        },
+        {
+          "e": "🤖",
+          "q": "What should a regular investor do?",
+          "a": "**Auto-buy on a schedule**, expect **choppy recoveries**, and don't check if it ruins your day."
+        }
+      ]
+    }
+  ]
+}

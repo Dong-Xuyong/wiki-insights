@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 532,
-  "insightsCount": 519,
-  "conceptCount": 3522,
+  "videoCount": 538,
+  "insightsCount": 525,
+  "conceptCount": 3551,
   "sections": [
     {
       "id": "architecture",
@@ -52,12 +52,12 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 140,
+    "agents": 142,
     "systems": 33,
-    "build": 63,
+    "build": 65,
     "human": 26,
-    "performance": 67,
-    "mind": 46,
+    "performance": 68,
+    "mind": 47,
     "relationships": 72,
     "other": 79
   },
@@ -41997,6 +41997,400 @@
       ],
       "conceptCount": 4,
       "added": "2026-11-23"
+    },
+    {
+      "slug": "eckhart-tolle-power-of-now-huberman-lab",
+      "title": "Access the Power of Now to Experience Life More Fully | Eckhart Tolle",
+      "video_id": "brzkTni-nTQ",
+      "platform": "youtube",
+      "url": "https://youtu.be/brzkTni-nTQ",
+      "duration_min": 127,
+      "creator": "andrew-huberman",
+      "updated": "2026-11-24",
+      "created": "2026-11-24",
+      "section": "mind",
+      "tags": [
+        "mindfulness",
+        "presence",
+        "mental-fitness",
+        "ego"
+      ],
+      "keywords": [
+        "mindfulness",
+        "presence",
+        "mental-fitness",
+        "ego",
+        "mental fitness",
+        "andrew huberman",
+        "Accept the Present, Then Act",
+        "Conceptual Identity (Ego)",
+        "Ego Comparison Trap",
+        "Langer Mindfulness (Active Noticing)",
+        "Listen to the Silence Exercise"
+      ],
+      "summary": "andrew huberman hosts eckhart tolle, who guides live exercises rather than only theory. Becoming present starts with sense perceptions: notice what you see and hear without labelling it, let the moment be as it is, and thinking slows. Behind that is a second level, awareness of yourself as the stillness that perceives.\n\nTolle explains conceptual identity ego: from a child's name and 'my toy' onwards we build a self out of concepts (possessions, body image, knowledge, opinions). That identity always feels not enough yet and treats disagreement as an attack. Words are signposts that point beyond themselves; labels can't hold even five minutes of experience. Huberman adds that we 'create' heroes and villains by projecting images onto people.\n\nHis main tool is listen to the silence exercise: in a quiet room, attend to the silence as if listening to it; you can't do that while thinking, so awareness replaces thought and outer silence becomes inner stillness, with a quiet sense of power in it. Huberman links the discomfort some feel in silence to interoception. Tolle's rule for life's challenges is accept present then act: don't treat the present moment as an enemy, accept it because it already is, then act. Awakening doesn't make anyone perfect, teachers included.",
+      "key_insights": [
+        "Presence starts with sense perception without labelling: let the moment be as it is.",
+        "The ego is an identity built from concepts (name, possessions, body, opinions), so it feels insufficient and defensive.",
+        "Words are signposts; let go of the word and attend to what it points to.",
+        "Listening to silence quiets thinking and turns outer silence into inner stillness.",
+        "Accept the present moment first, because it already is, then take action to change it.",
+        "Drop the expectation of perfection in yourself and in spiritual teachers."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "accept-present-then-act",
+          "title": "Accept the Present, Then Act"
+        },
+        {
+          "slug": "conceptual-identity-ego",
+          "title": "Conceptual Identity (Ego)"
+        },
+        {
+          "slug": "ego-comparison-trap",
+          "title": "Ego Comparison Trap",
+          "e": "🥈"
+        },
+        {
+          "slug": "langer-mindfulness-attention",
+          "title": "Langer Mindfulness (Active Noticing)",
+          "e": "🔎"
+        },
+        {
+          "slug": "listen-to-the-silence-exercise",
+          "title": "Listen to the Silence Exercise"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-24"
+    },
+    {
+      "slug": "gemini-4-neon-code-report-fireship",
+      "title": "Opus just lost to the last company you'd expect...",
+      "video_id": "jP9yjEDlc4k",
+      "platform": "youtube",
+      "url": "https://youtu.be/jP9yjEDlc4k",
+      "duration_min": 5,
+      "creator": "fireship",
+      "updated": "2026-11-24",
+      "created": "2026-11-24",
+      "section": "agents",
+      "tags": [
+        "ai-models",
+        "benchmarks",
+        "news"
+      ],
+      "keywords": [
+        "ai-models",
+        "benchmarks",
+        "news",
+        "ai models",
+        "fireship",
+        "Benchmark Integrity Failures",
+        "Frontier Orchestrator, Specialist Model",
+        "Token Burn vs Throughput"
+      ],
+      "summary": "fireship's Code Report covers google deepmind's Gemini 4 Neon, Google's fourth Gemini 4 model in seven weeks, released in a chaotic week (openai's GPT 6.2 Astra and Soul panned, anthropic's record IPO, a Nasdaq sell-off). Neon is a mid-tier model adapted from Gemini 4 Carbon with a 1M-token context, about $3/$15 per million input/output tokens. It scores 61 on the Artificial Analysis intelligence index (third overall) and beats Opus 5.5 and Fable 5.2 on its coding-agent index at about half the cost.\n\nThe caveats illustrate token burn vs throughput: Neon streams about 106 tokens/s but used 283M tokens on the test suite, over four times the median, and Google's model card compares it only with the two models it beats (Benchmark Integrity Failures). He recommends running it in the Antigravity IDE, where an orchestrator directs swarms of cheaper Hydrogen sub-agents. Most of the video is news that will date fast.",
+      "key_insights": [
+        "Gemini 4 Neon: mid-tier model, 1M context, about $3/$15 per M tokens, strong coding-agent scores at about half Opus's price.",
+        "High tokens/s doesn't mean fast or cheap if the model burns 4x the median tokens per task.",
+        "Vendor model-card tables can cherry-pick which rivals they compare against.",
+        "An orchestrator directing cheap sub-agent swarms is Google's suggested setup for speed and cost."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "benchmark-integrity-failures",
+          "title": "Benchmark Integrity Failures",
+          "e": "🔑"
+        },
+        {
+          "slug": "frontier-orchestrator-specialist-model",
+          "title": "Frontier Orchestrator, Specialist Model",
+          "e": "🧭"
+        },
+        {
+          "slug": "token-burn-vs-throughput",
+          "title": "Token Burn vs Throughput"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-24"
+    },
+    {
+      "slug": "something-really-strange-stock-market-graham-stephan",
+      "title": "Something REALLY Strange Is Happening To The Stock Market...",
+      "video_id": "Slb7fu42dkc",
+      "platform": "youtube",
+      "url": "https://youtu.be/Slb7fu42dkc",
+      "duration_min": 17,
+      "creator": "graham-stephan",
+      "updated": "2026-11-24",
+      "created": "2026-11-24",
+      "section": "build",
+      "tags": [
+        "money",
+        "investing",
+        "markets"
+      ],
+      "keywords": [
+        "money",
+        "investing",
+        "markets",
+        "graham stephan",
+        "AI Investment Bubble",
+        "Correction-to-Bear-Market Odds",
+        "Dollar-Cost Averaging Investing"
+      ],
+      "summary": "graham stephan reacts to an unusual late-November 2026 market: the worst week since March 2020, the S&P 500 4.1 standard deviations below its 50-day average, stocks, gold, Bitcoin and bonds all down, then one of the biggest one-day reversals ever as jensen huang returned to nvidia. He lists the risks: AI spending that may take longer to turn a profit, the Nvidia scandal, cyber attacks, conflict and high valuations. Much of this will date quickly; the video also carries a long sponsor read.\n\nThe lasting part is his view on returns. The last 16 years averaged about 14% a year against a long-term 7-10%, which isn't sustainable, and few investors have lived through a multi-year 40% drawdown. On correction to bear market odds, since the 1920s about 60% of 10%+ declines stopped before a 20% bear market, and faster drops escalated less often. Recoveries are choppy, so big red and green days cluster. His advice: brace for the worst, don't assume a quick bounce, set an automatic buy (Dollar-Cost Averaging Investing) and stop checking if it ruins your day.",
+      "key_insights": [
+        "Recent ~14% annual S&P returns are about double the long-term 7-10% and likely to revert.",
+        "About 60% of 10%+ declines since the 1920s stopped short of a bear market; fast drawdowns escalate less.",
+        "Even in a 2001-style crash the bottom came in about 2.5 years; steady buyers did well afterwards.",
+        "Markets are choppy in declines: big down days and big up days cluster.",
+        "Practical rule: automatic, consistent buying and less checking."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-investment-bubble",
+          "title": "AI Investment Bubble",
+          "e": "🫧"
+        },
+        {
+          "slug": "correction-to-bear-market-odds",
+          "title": "Correction-to-Bear-Market Odds"
+        },
+        {
+          "slug": "dollar-cost-averaging-investing",
+          "title": "Dollar-Cost Averaging Investing",
+          "e": "📅"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-24"
+    },
+    {
+      "slug": "steve-eisman-ai-bubble-recession-warning-doac",
+      "title": "The Man Who Predicted The Last Crash WARNS A Recession Starts If These 2 Fail! | Steve Eisman",
+      "video_id": "4Unch--PmW0",
+      "platform": "youtube",
+      "url": "https://youtu.be/4Unch--PmW0",
+      "duration_min": 94,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-11-24",
+      "created": "2026-11-24",
+      "section": "build",
+      "tags": [
+        "money",
+        "investing",
+        "markets",
+        "ai"
+      ],
+      "keywords": [
+        "money",
+        "investing",
+        "markets",
+        "ai",
+        "the diary of a ceo",
+        "AI Capex Recession Dependency",
+        "AI Investment Bubble",
+        "Crypto Thesis Inversion",
+        "Dollar-Cost Averaging Investing",
+        "Founder Selling Red Flag",
+        "Index Funds — Investing Has Been Solved",
+        "Natural Duopoly Investing",
+        "Rent vs Buy Housing"
+      ],
+      "summary": "steven bartlett interviews steve eisman, who made his fund about $1B shorting subprime with credit default swaps before 2008, a stance shaped partly by grief and anger after losing his infant son. Eisman leans towards calling AI a bubble (less sure after the midterms) and says the dot-com era, not 2008, is the better parallel: everything said about AI today was said about the internet, there was overinvestment, most first-generation companies went bust, and second-generation winners like Google emerged.\n\nHis key worry is ai capex recession dependency: Infotech is about 40% of the S&P 500 and AI-exposed sectors about 65%, AI capex is over half of US GDP growth, and if anthropic and openai couldn't meet their compute commitments the US would be in recession the next day. Banks are much better regulated now, so it would be a recession, not a financial crisis. A modest 10-20% slowdown in data-centre building could help hyperscalers whose cash flow has turned negative.\n\nFor ordinary investors he is blunt: put $1,000 into the S&P 500 index, keep adding every few months, don't trade, don't time, don't do options, and don't look (Index Funds — Investing Has Been Solved, Dollar-Cost Averaging Investing). Half S&P 500 and half Nasdaq 100 is fine if you can stand the volatility. He never buys crypto (crypto thesis inversion), isn't into gold, rents himself and says renting and investing the difference often beats buying (Rent vs Buy Housing). For stock pickers: run from dishonest management (founder selling red flag, e.g. coreweave), and if forced into one stock he'd pick a natural duopoly investing like Visa or Moody's.",
+      "key_insights": [
+        "Dot-com, not 2008, is the better lesson for the AI boom: mania, overinvestment, first-generation busts, second-generation winners.",
+        "Infotech is about 40% of the S&P 500 (prior record about 25%); AI-exposed sectors about 65%.",
+        "Over half of US GDP growth is AI capex; lab failures would mean recession, not a banking crisis.",
+        "Ordinary investors: buy the S&P 500 index regularly, don't trade, don't time, don't look.",
+        "You don't need to beat the market; people lose too much money looking for an edge.",
+        "Crypto trades opposite to its own hedge thesis, so it's speculation on speculation.",
+        "Founders dumping billions in stock is a sign of dishonest management; avoid the company.",
+        "Natural duopolies (Visa/Mastercard, Moody's/S&P) are near-impossible to recreate."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-capex-recession-dependency",
+          "title": "AI Capex Recession Dependency"
+        },
+        {
+          "slug": "ai-investment-bubble",
+          "title": "AI Investment Bubble",
+          "e": "🫧"
+        },
+        {
+          "slug": "crypto-thesis-inversion",
+          "title": "Crypto Thesis Inversion"
+        },
+        {
+          "slug": "dollar-cost-averaging-investing",
+          "title": "Dollar-Cost Averaging Investing",
+          "e": "📅"
+        },
+        {
+          "slug": "founder-selling-red-flag",
+          "title": "Founder Selling Red Flag"
+        },
+        {
+          "slug": "index-funds-investing-solved",
+          "title": "Index Funds — Investing Has Been Solved",
+          "e": "📦"
+        },
+        {
+          "slug": "natural-duopoly-investing",
+          "title": "Natural Duopoly Investing"
+        },
+        {
+          "slug": "rent-vs-buy-housing",
+          "title": "Rent vs Buy Housing",
+          "e": "🏠"
+        }
+      ],
+      "conceptCount": 8,
+      "added": "2026-11-24"
+    },
+    {
+      "slug": "stop-skipping-workouts-unbreakable-program-sondre-berg",
+      "title": "How to Stop Skipping Workouts (The Unbreakable Program)",
+      "video_id": "1pEiGOENIZ8",
+      "platform": "youtube",
+      "url": "https://youtu.be/1pEiGOENIZ8",
+      "duration_min": 15,
+      "creator": "sondre-berg",
+      "updated": "2026-11-24",
+      "created": "2026-11-24",
+      "section": "performance",
+      "tags": [
+        "training",
+        "streetlifting",
+        "programming",
+        "habits"
+      ],
+      "keywords": [
+        "training",
+        "streetlifting",
+        "programming",
+        "habits",
+        "sondre berg",
+        "Cluster Sets & Training Efficiency",
+        "High-Frequency Distributed Volume",
+        "Non-Negotiable Block Training",
+        "Raise the Floor Program Design"
+      ],
+      "summary": "sondre berg helps Yari, a streetlifter training for competition with a new baby on the way, who keeps skipping long 1-hour-plus sessions. His diagnosis: programs are written at a motivational high and fail when motivation dips, so people blame the program and hop to another. The fix is raise the floor program design: build for your worst days, not your best.\n\nThree principles shape the new plan. Diminishing returns: the first sets give most of the gain. Recovery is non-linear: each extra set in a session costs disproportionately more recovery, so fewer sets more often (High-Frequency Distributed Volume) fits more total volume over time. Time-efficient supersets: alternate exercises for different muscle groups with only 20-30 s rest (enough to bring the heart rate down) and 2-3 min between rounds.\n\nThe result is non negotiable block training. Block 1 is non-negotiable, at least two rounds: weighted pull-up, weighted dip, squat on days 1 and 4, and explosive pull-ups for the muscle-up on day 3. Block 2 holds accessories (curls, triceps, core, rows, push-ups, sissy squats or lunges, Nordics): do it, skip it or move it to tomorrow. Each block takes 20-30 min including warm-up, at most four rounds, and gym rings give a body-weight backup when the gym is out of reach. Yari found one round took only about 5 minutes and he still had power for his pulls.",
+      "key_insights": [
+        "Programs fail because they're designed at a motivational peak; design for the motivational lows.",
+        "Raise the floor on your worst days instead of the ceiling on your best.",
+        "Diminishing returns: sets 1-2 give most of the gains; sets 4-6 add little.",
+        "Recovery cost grows non-linearly with sets per session, so spread volume over more sessions.",
+        "Superset non-competing exercises with 20-30 s rest, 2-3 min between rounds.",
+        "Non-negotiable block: main lifts for at least two rounds; accessory block can be skipped or moved.",
+        "Keep a rings-based body-weight version of the program for days without a gym."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "cluster-sets-training-efficiency",
+          "title": "Cluster Sets & Training Efficiency",
+          "e": "🏋️"
+        },
+        {
+          "slug": "high-frequency-distributed-volume",
+          "title": "High-Frequency Distributed Volume",
+          "e": "📊"
+        },
+        {
+          "slug": "non-negotiable-block-training",
+          "title": "Non-Negotiable Block Training"
+        },
+        {
+          "slug": "raise-the-floor-program-design",
+          "title": "Raise the Floor Program Design"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-24"
+    },
+    {
+      "slug": "twelve-rules-software-factory-no-slop-dex-horthy",
+      "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
+      "video_id": "-NFMsM2y0Vk",
+      "platform": "youtube",
+      "url": "https://youtu.be/-NFMsM2y0Vk",
+      "duration_min": 21,
+      "creator": "ai-engineer",
+      "updated": "2026-11-24",
+      "created": "2026-11-24",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "software-engineering",
+        "code-quality",
+        "workflow"
+      ],
+      "keywords": [
+        "agents",
+        "software-engineering",
+        "code-quality",
+        "workflow",
+        "software engineering",
+        "code quality",
+        "ai engineer",
+        "Agent Corrections Become Lint Rules",
+        "Codebase Evolution Slop Erosion",
+        "Expected-Pain Planning",
+        "Forward and Back Pressure (Software Factory)",
+        "Light vs Dark Software Factory",
+        "Slop Asymmetry"
+      ],
+      "summary": "dex horthy, who had just joined factory ai when HumanLayer was acquired, argues at ai engineer that a software factory is mostly good engineering we already had: tracker, build, tests, PR review, CI, canaries, monitoring. To make it agentic you replace 'someone builds it' with an agent, then add forward and back pressure factory: forward pressure starts work automatically (feature requests, incidents that arrive with a candidate PR), and back pressure (agent review, agent testing, CI, linters) lets agents improve their output before a human sees it.\n\nHis 'know your enemy' rule is codebase evolution slop erosion. SlopCodeBench has models evolve a codebase over checkpoints, and top scores are only about 15-16%; some slop patterns are increasing in newer models. So plan before building, with depth set by expected pain planning (get schemas right, don't argue about button colours). Help humans align visually (his 'Show Me' skill renders HTML mockups and tables), help agents test their own work (screenshots, browsers, curl), use anti-slop lint rule packs, give agents feature flags, eval everything, and keep designs and decisions in one place next to the code. Verification can't be bought, because only you know how your system should behave.\n\nHe closes with the anti-slop manifesto: outcomes over outputs, understanding over speed, your own thinking over the model's first draft. Its core definition is slop asymmetry: slop is output that took less effort to make than it asks of the reader. AI amplifies judgment or the lack of it, so there will always be value in reviewing *something*, whether code, plan or result, scaled to the stakes.",
+      "key_insights": [
+        "Software factories are decades-old engineering practice with an agent in the build step.",
+        "Forward pressure starts work automatically; back pressure lets agents hill-climb before humans review.",
+        "SlopCodeBench: models evolving a codebase over checkpoints score only about 15-16%.",
+        "Some slop patterns are growing in newer models, such as Python 2-style % string formatting.",
+        "Plan by expected pain: chance of change times cost of change; nail schemas, yolo small stuff.",
+        "Give agents ways to test their own work and a feature-flag system to try ideas safely.",
+        "Slop = less effort to produce than the reader must spend to understand it."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-corrections-become-lint-rules",
+          "title": "Agent Corrections Become Lint Rules",
+          "e": "🔁"
+        },
+        {
+          "slug": "codebase-evolution-slop-erosion",
+          "title": "Codebase Evolution Slop Erosion"
+        },
+        {
+          "slug": "expected-pain-planning",
+          "title": "Expected-Pain Planning"
+        },
+        {
+          "slug": "forward-and-back-pressure-factory",
+          "title": "Forward and Back Pressure (Software Factory)"
+        },
+        {
+          "slug": "light-vs-dark-software-factory",
+          "title": "Light vs Dark Software Factory",
+          "e": "🏭"
+        },
+        {
+          "slug": "slop-asymmetry",
+          "title": "Slop Asymmetry"
+        }
+      ],
+      "conceptCount": 6,
+      "added": "2026-11-24"
     }
   ]
 }
