@@ -1,0 +1,50 @@
+{
+  "slug": "no-ai-slop-manifesto-primetime",
+  "sections": [
+    {
+      "title": "The manifesto",
+      "items": [
+        {
+          "e": "📜",
+          "q": "What is the anti-slop manifesto modelled on?",
+          "a": "The **2001 Agile manifesto**: **22 points** of beliefs and actions, signed by hundreds of engineers."
+        },
+        {
+          "e": "⚖️",
+          "q": "Where does Prime disagree with 'slop is asymmetric'?",
+          "a": "Producing is near free, but **review cost isn't constant**, because **tools for understanding big PRs** have improved too."
+        }
+      ]
+    },
+    {
+      "title": "What Prime agrees with",
+      "items": [
+        {
+          "e": "🧠",
+          "q": "What does Prime see most on Twitter that the manifesto calls out?",
+          "a": "People who **stop thinking** and never **use models to learn**, even though they always wanted more time to learn."
+        },
+        {
+          "e": "🔍",
+          "q": "Why is there always 'alpha' in reviewing?",
+          "a": "If you **review nothing** (code, plan or result) you get **the same output as everybody else** and become replaceable."
+        }
+      ]
+    },
+    {
+      "title": "Cost and outcomes",
+      "items": [
+        {
+          "e": "💰",
+          "q": "Why does Prime say token spend does matter?",
+          "a": "Spending **$10M on tokens for a $10M market** solves nothing; aim to **spend $100 to get $1,000 back**."
+        },
+        {
+          "e": "🎯",
+          "q": "What should engineers measure instead of lines of code?",
+          "a": "**Features shipped that people actually use**, and fewer features overall, since **less is often more**."
+        }
+      ]
+    }
+  ]
+}

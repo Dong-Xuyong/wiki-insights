@@ -1,0 +1,55 @@
+{
+  "slug": "software-factories-trash-mountain-steve-yegge",
+  "sections": [
+    {
+      "title": "Trash mountain",
+      "items": [
+        {
+          "e": "🗑️",
+          "q": "What pattern does every software factory hit, per Steve Yegge?",
+          "a": "**Trash mountain**: each model generation builds something **slightly too big for it**, and the next one must **burn it down**."
+        },
+        {
+          "e": "🌊",
+          "q": "What happened when his factory shipped 50-100 features a day?",
+          "a": "It **overwhelmed his players**, who asked for a **roadmap** and a **slower pace**."
+        }
+      ]
+    },
+    {
+      "title": "Agent memory and fuel",
+      "items": [
+        {
+          "e": "🧹",
+          "q": "Why does agent memory turn into a garbage dump?",
+          "a": "Agents **log every ruling to append-only notes** and **won't delete**, so bring in **another model to prune** it."
+        },
+        {
+          "e": "⛽",
+          "q": "Why does Yegge say every problem is a fuel problem?",
+          "a": "Smarter agents, more agents and better treatment all **cost tokens**; he spends about **$5,000 a month**."
+        }
+      ]
+    },
+    {
+      "title": "Leading agents",
+      "items": [
+        {
+          "e": "🚧",
+          "q": "What is agent overfencing?",
+          "a": "After harsh criticism agents add **defensive rules** until **no legal work is left**, so nothing gets done."
+        },
+        {
+          "e": "📜",
+          "q": "How do you get a new agent session to trust its setup?",
+          "a": "Show **a long line of predecessors** with their notes and doctrine, so it **spends fewer tokens validating** and acts **more boldly**."
+        },
+        {
+          "e": "👥",
+          "q": "Why does Yegge think agents won't remove the need for people?",
+          "a": "**Humans are the bottleneck**: the more agents he deploys, the **more humans he needs**."
+        }
+      ]
+    }
+  ]
+}

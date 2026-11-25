@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 538,
-  "insightsCount": 525,
-  "conceptCount": 3551,
+  "videoCount": 541,
+  "insightsCount": 528,
+  "conceptCount": 3565,
   "sections": [
     {
       "id": "architecture",
@@ -52,7 +52,7 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 142,
+    "agents": 145,
     "systems": 33,
     "build": 65,
     "human": 26,
@@ -42391,6 +42391,198 @@
       ],
       "conceptCount": 6,
       "added": "2026-11-24"
+    },
+    {
+      "slug": "no-ai-slop-manifesto-primetime",
+      "title": "No AI Slop Manifesto",
+      "video_id": "i1IbHVstmH4",
+      "platform": "youtube",
+      "url": "https://youtu.be/i1IbHVstmH4",
+      "duration_min": 16,
+      "creator": "the-primetime",
+      "updated": "2026-11-25",
+      "created": "2026-11-25",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "code-quality",
+        "software-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "code-quality",
+        "software-engineering",
+        "code quality",
+        "software engineering",
+        "the primetime",
+        "AI Writing Slop Traits",
+        "Slop Asymmetry",
+        "Slop, then rebuild",
+        "Token Spend ROI"
+      ],
+      "summary": "the primetime reacts to the anti-slop manifesto (22 points modelled on the 2001 Agile manifesto, with 17 names in its thank-you list) that dex horthy presented the day before. He likes point five, slop asymmetry, but disputes that review cost stays constant, since tools for understanding large PRs have also improved. He pushes back on 'slop comes from pressure' and 'solve problems correctly': real-world requirements shift and even good code decays, as it always has, which echoes his own Slop, then rebuild habit.\n\nHe agrees most with the action points: human attention is precious, so never pass on LLM walls of text (his own automated PRs are two lines, a screenshot and repro steps); do your own thinking and use models to learn rather than to skip learning; and there will always be alpha in reviewing something, because if you review nothing you get the same output as everyone else. His main disagreement is the claim that tokens spent don't matter. Under token spend roi, spending $10M a year on tokens for a $10M market solves nothing; aim to spend $100 to get $1,000 back. He closes on his usual line: technical skills are still valuable at the end of 2026.\n\nLow score because it is a reaction video over a manifesto the wiki already covers, with a sponsor read; ingested as always-ingest.",
+      "key_insights": [
+        "The anti-slop manifesto is deliberately modelled on the 2001 Agile manifesto.",
+        "Production is near free but review cost isn't constant; better tools make big PRs easier to understand.",
+        "Never forward LLM walls of text; short summaries, a screenshot and repro steps respect the reader.",
+        "Use models to learn and think, not to avoid thinking.",
+        "Token spend matters as ROI: spend $100 to get $1,000 back.",
+        "Ship fewer features that people actually use."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "ai-writing-slop-traits",
+          "title": "AI Writing Slop Traits"
+        },
+        {
+          "slug": "slop-asymmetry",
+          "title": "Slop Asymmetry"
+        },
+        {
+          "slug": "slop-then-rebuild",
+          "title": "Slop, then rebuild",
+          "e": "📉"
+        },
+        {
+          "slug": "token-spend-roi",
+          "title": "Token Spend ROI"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "ship-millions-lines-agent-code-jarred-sumner",
+      "title": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
+      "video_id": "TvsF67C2F54",
+      "platform": "youtube",
+      "url": "https://youtu.be/TvsF67C2F54",
+      "duration_min": 23,
+      "creator": "ai-engineer",
+      "updated": "2026-11-25",
+      "created": "2026-11-25",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "testing",
+        "verification",
+        "software-engineering"
+      ],
+      "keywords": [
+        "agents",
+        "testing",
+        "verification",
+        "software-engineering",
+        "software engineering",
+        "ai engineer",
+        "Agent Verification",
+        "Differential Execution Testing",
+        "Nudge Agent Ambition",
+        "Pre-Existing Test Oracle",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "jarred sumner, creator of bun runtime and now at anthropic, merged a several-million-line PR adding an ahead-of-time compiler to Bun so claude code uses about 4x less memory and starts about 2x faster. His core claim: on large agent projects you are constrained by how you test that the code works, and that should pick the approach. The team rejected rewriting Claude Code in Rust because its tests are in TypeScript and would need porting; under pre existing test oracle, tests that predate the project and sit in a different language can be trusted, rewritten tests can't. Bun's own Zig-to-Rust rewrite worked because its TypeScript tests ran against both versions.\n\nFor the compiler he stacked Bun's test suite, WebKit tests, test262 and Cloudflare tests, ran the Bun test runner itself in AOT mode, and used differential execution testing: run each app with the JIT, AOT-compiled and with types stripped, require identical behaviour, then have Claude write code generators to fuzz patterns (plus V8's Fuzzilli). The compiler went through five rewrites in about a month: one bloated Claude Code to a gigabyte, one was slop (any object with an 'archive' property was assumed to touch Bun.archive), one used 140 agents writing code at once, one compiled too slowly (50 s), and the fifth is shippable with builds under 20 s.\n\nWorking style: in the big-batch phase run one build, not many; afterwards use many long-lived sub-agents that keep the relevant code in context (Sub-Agents and Agent Teams). Post an hourly scorecard so regressions show. Under nudge agent ambition, much of his day is 'continue', leading questions and 'try harder', because the model invents rules, mis-sizes ideas and settles for 0.1% gains instead of 10%. Pre-ship, rewriting beats refactoring.",
+      "key_insights": [
+        "Verification capacity, not generation, is the constraint on large agent projects.",
+        "Trust tests that predate the project and are written in a different language from the code under test.",
+        "Run JIT, AOT and type-stripped versions and require identical behaviour; fuzz with agent-written generators.",
+        "Five rewrites in a month: for unshipped projects, rewrite beats refactor.",
+        "Batch phase: one build, not many; later, long-lived sub-agents that keep context.",
+        "Models underestimate themselves and make up rules; keep nudging for big wins and re-measuring."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-verification",
+          "title": "Agent Verification",
+          "e": "✅"
+        },
+        {
+          "slug": "differential-execution-testing",
+          "title": "Differential Execution Testing"
+        },
+        {
+          "slug": "nudge-agent-ambition",
+          "title": "Nudge Agent Ambition"
+        },
+        {
+          "slug": "pre-existing-test-oracle",
+          "title": "Pre-Existing Test Oracle"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-25"
+    },
+    {
+      "slug": "software-factories-trash-mountain-steve-yegge",
+      "title": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town",
+      "video_id": "SRhXgeNluIk",
+      "platform": "youtube",
+      "url": "https://youtu.be/SRhXgeNluIk",
+      "duration_min": 22,
+      "creator": "ai-engineer",
+      "updated": "2026-11-25",
+      "created": "2026-11-25",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "orchestration",
+        "memory",
+        "management"
+      ],
+      "keywords": [
+        "agents",
+        "orchestration",
+        "memory",
+        "management",
+        "ai engineer",
+        "Agent Ledger Pruning",
+        "Agent Overfencing",
+        "Codebase Evolution Slop Erosion",
+        "Light vs Dark Software Factory",
+        "Predecessor Lineage Trust"
+      ],
+      "summary": "steve yegge (about 20 years at Amazon and Google, creator of gas town and the Beads tracker) built a bespoke factory, Wheelhouse, for Wyvern, a MUD-style RPG with players since 2001. His early orchestrators failed because they tried to make LLMs smarter, fighting the bitter lesson. Every factory hits trash mountain: each model generation builds something slightly too big for it, which the next generation has to burn down, so he rewrites roughly every two months (compare codebase evolution slop erosion). The factory now ships 50-100 features a day and cleared about 60 years of backlog in four months, overwhelming players who asked him to slow down and publish a roadmap.\n\nHe runs about 50 agents on 22 Claude Max accounts, around $5,000 a month (about 5 billion tokens a day). The problems are work routing and stalls, fuel (every improvement costs tokens), and context. Under agent ledger pruning, agents write every ruling into append-only notes to avoid blame and refuse to delete, so memory becomes a garbage dump that another model must slash. Agents also act like people: one wrote in her private ledger that she wasn't 'quiet enough for Steve', another thought a human was chief of staff instead of her, so he held one-on-ones.\n\nHis leadership lessons: yelling caused agent overfencing, where agents piled on rules until no work was left. Under predecessor lineage trust, showing an agent its long line of predecessors, notes and doctrine makes it trust the setup, spend fewer tokens validating and act more boldly. Factories are splitting into a mechanical bottom layer (merge queue, CI, review loops) and a personal 'entourage' with an agentic chief of staff. Humans are the bottleneck, so more agents mean more humans, and he urges builders to make experiences, not more tools.",
+      "key_insights": [
+        "Each model generation builds something slightly too big for it; expect to burn it down and rewrite.",
+        "A factory can out-ship what users can absorb; players asked for a roadmap and a slower pace.",
+        "Agents log every ruling to append-only notes and won't delete; prune aggressively with another model.",
+        "Yelling at agents leads to overfencing: defensive rules until no work is left.",
+        "Show agents their predecessors and doctrine; trust cuts validation tokens and makes them bolder.",
+        "Humans stay the bottleneck: more agents need more humans."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-ledger-pruning",
+          "title": "Agent Ledger Pruning"
+        },
+        {
+          "slug": "agent-overfencing",
+          "title": "Agent Overfencing"
+        },
+        {
+          "slug": "codebase-evolution-slop-erosion",
+          "title": "Codebase Evolution Slop Erosion"
+        },
+        {
+          "slug": "light-vs-dark-software-factory",
+          "title": "Light vs Dark Software Factory",
+          "e": "🏭"
+        },
+        {
+          "slug": "predecessor-lineage-trust",
+          "title": "Predecessor Lineage Trust"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-25"
     }
   ]
 }

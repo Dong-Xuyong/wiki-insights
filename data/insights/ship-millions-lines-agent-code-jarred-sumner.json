@@ -1,0 +1,45 @@
+{
+  "slug": "ship-millions-lines-agent-code-jarred-sumner",
+  "sections": [
+    {
+      "title": "Verification first",
+      "items": [
+        {
+          "e": "🧪",
+          "q": "What limits how you build a huge agent-written project?",
+          "a": "**How you verify it works**: the testing strategy should **pick the approach**, not the other way round."
+        },
+        {
+          "e": "📚",
+          "q": "Which tests can you trust after an agent rewrite?",
+          "a": "Tests that **predate the project** and are in a **different language** from the code; once you **rewrite the tests** you can't trust them."
+        },
+        {
+          "e": "🔀",
+          "q": "How did Bun check its ahead-of-time compiler?",
+          "a": "Run apps **with the JIT, AOT-compiled and without types**, require **identical behaviour**, then **fuzz** with agent-written generators."
+        }
+      ]
+    },
+    {
+      "title": "Working with the agent",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "Why did the compiler get rewritten five times?",
+          "a": "Versions were **bloated, sloppy or too slow to build**; before shipping, **rewriting beats refactoring**."
+        },
+        {
+          "e": "🚀",
+          "q": "What does Jarred spend his day telling Claude?",
+          "a": "'Continue', **leading questions** and **'try harder'**, because models **make up rules** and settle for **0.1% gains instead of 10%**."
+        },
+        {
+          "e": "📊",
+          "q": "How do you keep track of a huge agent project?",
+          "a": "An **hourly scorecard** of key metrics against the previous run, so **regressions stand out**."
+        }
+      ]
+    }
+  ]
+}
