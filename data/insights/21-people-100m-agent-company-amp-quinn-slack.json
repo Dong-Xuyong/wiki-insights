@@ -1,0 +1,50 @@
+{
+  "slug": "21-people-100m-agent-company-amp-quinn-slack",
+  "sections": [
+    {
+      "title": "The 21-person company",
+      "items": [
+        {
+          "e": "🚀",
+          "q": "How did Amp reach $100M+ ARR with only 21 people?",
+          "a": "A spin-off freeze meant they **couldn't hire for a year**, which forced an **agent-first way of working** that became the advantage."
+        },
+        {
+          "e": "👥",
+          "q": "How is Amp's team organised?",
+          "a": "**No PMs, no Jira**, **one meeting a week**, everyone talks to customers and everyone holds **real equity**."
+        }
+      ]
+    },
+    {
+      "title": "Shipping safely",
+      "items": [
+        {
+          "e": "🪜",
+          "q": "How does Amp push constantly without breaking the site?",
+          "a": "**Chunk work into tiny pushes**, **add logging first**, let the agent **watch each push for an hour**, and run shadow systems."
+        },
+        {
+          "e": "🎞️",
+          "q": "How can an agent prove a UI fix is correct?",
+          "a": "Have it **compare every frame** visually, a check **no human has the patience** for, and generate many variants at once."
+        }
+      ]
+    },
+    {
+      "title": "Customers and SaaS",
+      "items": [
+        {
+          "e": "🙏",
+          "q": "What does Amp do when a user reports a bug?",
+          "a": "Fixes it with the agent, **emails an apology with credits**, then **finds everyone else who hit the error** in the logs and tells them."
+        },
+        {
+          "e": "🏗️",
+          "q": "Why does Quinn Slack think SaaS like Salesforce is at risk?",
+          "a": "Agents make it easy to **build the 2% of features you use**, which undercuts **long sales-led contracts**."
+        }
+      ]
+    }
+  ]
+}

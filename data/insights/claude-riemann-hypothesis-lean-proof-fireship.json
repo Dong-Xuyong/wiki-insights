@@ -1,0 +1,50 @@
+{
+  "slug": "claude-riemann-hypothesis-lean-proof-fireship",
+  "sections": [
+    {
+      "title": "The claim",
+      "items": [
+        {
+          "e": "🧮",
+          "q": "What did Levent Alpagay claim with Claude's help?",
+          "a": "A proof of the **Riemann hypothesis**, delivered as **17 million lines of Lean** after a **41-day Claude conversation**."
+        },
+        {
+          "e": "✅",
+          "q": "Why did the Lean community first accept the proof?",
+          "a": "Because it **compiled**: Lean won't compile unless each **stated step is logically valid**."
+        }
+      ]
+    },
+    {
+      "title": "What went wrong",
+      "items": [
+        {
+          "e": "🕳️",
+          "q": "What flaw did a mathematician find in the Lean code?",
+          "a": "A geometry check that **just returned true**, used **118 times**; it turned out to be mostly **leftover slop**."
+        },
+        {
+          "e": "🤷",
+          "q": "Why is a compiled proof still unsatisfying?",
+          "a": "There is **no human-readable version**, so **nobody understands why it works**, including the author."
+        }
+      ]
+    },
+    {
+      "title": "Lessons for engineers",
+      "items": [
+        {
+          "e": "🔍",
+          "q": "What does the Riemann episode teach about verified AI output?",
+          "a": "A green check only covers **what you actually stated**; **review the specs and stubs**, not just the passing build."
+        },
+        {
+          "e": "🤖",
+          "q": "What did Anthropic publish with Claude as sole author?",
+          "a": "A **VP vs VNP** proof with **73,000 lines of Lean** that **no human mathematician has checked** yet."
+        }
+      ]
+    }
+  ]
+}

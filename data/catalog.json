@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 541,
-  "insightsCount": 528,
-  "conceptCount": 3565,
+  "videoCount": 544,
+  "insightsCount": 531,
+  "conceptCount": 3579,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 145,
+    "agents": 147,
     "systems": 33,
     "build": 65,
     "human": 26,
     "performance": 68,
     "mind": 47,
     "relationships": 72,
-    "other": 79
+    "other": 80
   },
   "videos": [
     {
@@ -42583,6 +42583,200 @@
       ],
       "conceptCount": 5,
       "added": "2026-11-25"
+    },
+    {
+      "slug": "21-people-100m-agent-company-amp-quinn-slack",
+      "title": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp",
+      "video_id": "Xyb1Bn_L2U4",
+      "platform": "youtube",
+      "url": "https://youtu.be/Xyb1Bn_L2U4",
+      "duration_min": 18,
+      "creator": "ai-engineer",
+      "updated": "2026-11-26",
+      "created": "2026-11-26",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "startups",
+        "software-engineering",
+        "teams"
+      ],
+      "keywords": [
+        "agents",
+        "startups",
+        "software-engineering",
+        "teams",
+        "software engineering",
+        "ai engineer",
+        "Agent-Native Company",
+        "Proactive Bug Apology Loop",
+        "Shadow-Mode Agent Rollout",
+        "Small Push Agent Monitoring",
+        "Voice-to-Text Coding"
+      ],
+      "summary": "quinn slack, CEO of sourcegraph, explains how amp agent spun out of the 200-person company with 21 people. Because the legal spin-off meant they couldn't hire or grant options for a year, they had to work radically differently, and that constraint became the advantage: the team passed $100M+ ARR, profitable and, he says, 40 to 50 times more efficient than a traditional software company. He argues that enterprise checklists make AI products obsolete in months and that feature-based differentiation doesn't last, since any competitor's agent can copy a feature.\n\nWorking style (agent native company): no PMs, no Jira, no support desk, everything happens in agent threads, there is one meeting a week and the guidance is 'follow your energy'. Everyone talks to customers (an SDR built ACH wire payments himself), and every person has a big equity stake, which he calls the soul of the system: skin in the game makes people better at everything. They push very often but reduce risk with small push agent monitoring: chunk work into tiny changes, add logging first, let the agent watch each push for an hour, and run shadow systems side by side (Shadow-Mode Agent Rollout). Agents prove their work, for example by comparing every UI frame, and generate many variants at once rather than one tweak at a time.\n\nThe proactive bug apology loop: when a user reports a bug, the agent fixes it, Amp emails an apology with free credits, then searches the logs for everyone else who hit the same error and tells them too, which earns more feedback. He also pushes dictation to agents (Voice-to-Text Coding) and argues that agents make it easy to build the 2% of a SaaS tool like Salesforce you actually use, which threatens SaaS business models built on long sales-led contracts.",
+      "key_insights": [
+        "Amp reached $100M+ ARR with 21 people because a spin-off freeze forced them not to hire.",
+        "Feature differentiation is weak when competitors' agents can copy any feature; product love and speed matter more.",
+        "No PMs, no Jira, one meeting a week; everyone talks to customers and holds real equity.",
+        "Ship tiny pushes, add logging first, let the agent watch each push for an hour, and run shadow systems.",
+        "When a bug is reported, fix it, apologise with credits, then find and tell everyone else who hit it.",
+        "Agents can build the 2% of a SaaS tool you actually use, which threatens sales-led SaaS."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-native-company",
+          "title": "Agent-Native Company"
+        },
+        {
+          "slug": "proactive-bug-apology-loop",
+          "title": "Proactive Bug Apology Loop"
+        },
+        {
+          "slug": "shadow-mode-agent-rollout",
+          "title": "Shadow-Mode Agent Rollout",
+          "e": "👥"
+        },
+        {
+          "slug": "small-push-agent-monitoring",
+          "title": "Small Push Agent Monitoring"
+        },
+        {
+          "slug": "voice-to-text-coding",
+          "title": "Voice-to-Text Coding",
+          "e": "⌨️"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-26"
+    },
+    {
+      "slug": "claude-riemann-hypothesis-lean-proof-fireship",
+      "title": "17 million lines of AI slop just cracked a 167-year-old math problem...",
+      "video_id": "Jatwf_XOncE",
+      "platform": "youtube",
+      "url": "https://youtu.be/Jatwf_XOncE",
+      "duration_min": 5,
+      "creator": "fireship",
+      "updated": "2026-11-26",
+      "created": "2026-11-26",
+      "section": "other",
+      "tags": [
+        "ai",
+        "math",
+        "verification",
+        "news"
+      ],
+      "keywords": [
+        "ai",
+        "math",
+        "verification",
+        "news",
+        "fireship",
+        "Laws, Not Just Tests",
+        "Machine-Checked but Unexplained Proof",
+        "Slop Asymmetry"
+      ],
+      "summary": "fireship covers levent alpagay's claim that a 41-day conversation with Claude produced a proof of the Riemann hypothesis, the 167-year-old prime-number problem with a $1M Clay prize that Terence Tao had predicted humans plus AI would crack around 2050. The announcement is a four-page PDF linking to 17 million lines of lean theorem prover code; Alpagay admits Claude did most of the work and he hasn't mastered the maths. The Lean community compiled it overnight and judged it legitimate because it compiled.\n\nProblems followed. A function meant to check a geometric condition just returned true and was used 118 times; a mathematician declared the proof invalid, but others found almost nothing depended on it, and Alpagay called the Lean 'obviously full of garbage'. Meanwhile a rival 940-page hand-written proof was rushed out and drew problem reports within hours after people fed it to Claude, and Anthropic posted a paper with Claude as sole author claiming a proof of VP vs VNP with 73,000 lines of Lean that no human has checked. The point for engineers is machine checked but unexplained proof: compiling proves validity only if the checked statements are honest, and nobody yet understands why the proof works. A CodeRabbit sponsor read closes the video.\n\nLow score because it is dated AI/maths news with a sponsor segment; ingested as always-ingest.",
+      "key_insights": [
+        "A Riemann hypothesis proof claim arrived as 17 million lines of Lean produced in a 41-day Claude conversation.",
+        "The Lean community accepted it mainly because it compiled.",
+        "A stub function that always returned true was used 118 times; stubs and leftover slop can hide inside 'verified' code.",
+        "No human-readable proof exists, so nobody knows why it works, including the author.",
+        "Claude is the sole author of an unchecked VP vs VNP paper with 73,000 lines of Lean.",
+        "Verification checks only what you actually state; review the statements, not just the green build."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "laws-not-tests-formal-verification",
+          "title": "Laws, Not Just Tests"
+        },
+        {
+          "slug": "machine-checked-but-unexplained-proof",
+          "title": "Machine-Checked but Unexplained Proof"
+        },
+        {
+          "slug": "slop-asymmetry",
+          "title": "Slop Asymmetry"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-26"
+    },
+    {
+      "slug": "thousand-claude-agents-fermat-dreaming-memory-lance-martin",
+      "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
+      "video_id": "wrfbI5eyLAI",
+      "platform": "youtube",
+      "url": "https://youtu.be/wrfbI5eyLAI",
+      "duration_min": 19,
+      "creator": "ai-engineer",
+      "updated": "2026-11-26",
+      "created": "2026-11-26",
+      "section": "agents",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "memory",
+        "anthropic"
+      ],
+      "keywords": [
+        "agents",
+        "multi-agent",
+        "memory",
+        "anthropic",
+        "multi agent",
+        "ai engineer",
+        "Agent Dreaming Consolidation",
+        "Experiential Agent Memory",
+        "Git and Database Agent Coordination",
+        "Karpathy LLM Wiki",
+        "Memory Salience Instinct",
+        "Sub-Agents and Agent Teams"
+      ],
+      "summary": "lance martin of anthropic tells two stories about Claude's frontier capabilities. First, multi-agent: in September a team of about a dozen agents formalized Fermat's Last Theorem in Lean, but only with a domain-specific harness and a researcher steering. For the newer claude fable launch they scaled to 1,000 agents (one lead, 999 helpers) with no domain harness and no human steering on the solution. Each agent had its own locked-down sandbox and could reach only Git and a SQL database, with real-time monitoring of every tool call and offline review every 10 minutes. Five minutes in, the lead invented its own coordination tables (announcements, role assignments, notes, subtasks, landed work) and the team self-organised across the proof's 60 statements over about 30 hours, building task trees for the hardest lemmas. This is git database agent coordination: strong agents need simple shared primitives, not elaborate scaffolding.\n\nSecond, memory. Quoting Kierkegaard ('life can only be understood backwards, but it must be lived forwards'), he names the paradox: agents write memory myopically during a task, but memory must be globally coherent and non-redundant. On the CL Bench continual-learning benchmark (40 database questions, fresh session each time, a memory directory between), weaker models barely benefit while stronger ones know when to write and when to read, and write verified, predictive notes. In Pokémon, Claude 3.7 filled a huge, indiscriminate memory directory while Fable 5 kept a tight, strategic one and got further: memory salience instinct.\n\nThe fix for myopic writes is agent dreaming consolidation, modelled on the hippocampus replaying the day to the neocortex during sleep: offline passes over transcripts and notes that correct poisoned memories (a wrong landmark note had Claude looping through a trap door until dreaming fixed it), build new representations such as wikis, and promote key memories into injected context. On a 25-question test over the acquired company Stainless's documents and Slack, raw semantic search scored about 53%; a Claude-built wiki improved steadily with more dreaming tokens, and wiki plus search beat search alone. Dreaming also filled placeholder pages and created an index in a gap-filled wiki, which echoes Karpathy LLM Wiki and Dong's own second-brain setup.",
+      "key_insights": [
+        "1,000 Claude agents formalized Fermat's Last Theorem in about 30 hours with only Git and a SQL database, no domain harness.",
+        "The lead agent invented its own coordination tables (announce, assign, notes, subtasks, landed) five minutes into the run.",
+        "Safety lives in the sandbox and monitoring, not in a task-specific harness.",
+        "Agents write memory myopically, but memory must be globally coherent: the core paradox of agent memory.",
+        "Stronger models write less, more strategic memory and know when to read it.",
+        "Dreaming passes fix poisoned memories, build wikis and promote key notes into injected context; wiki plus search beat search alone."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "agent-dreaming-consolidation",
+          "title": "Agent Dreaming Consolidation"
+        },
+        {
+          "slug": "experiential-agent-memory",
+          "title": "Experiential Agent Memory",
+          "e": "🧠"
+        },
+        {
+          "slug": "git-database-agent-coordination",
+          "title": "Git and Database Agent Coordination"
+        },
+        {
+          "slug": "karpathy-llm-wiki",
+          "title": "Karpathy LLM Wiki",
+          "e": "📚"
+        },
+        {
+          "slug": "memory-salience-instinct",
+          "title": "Memory Salience Instinct"
+        },
+        {
+          "slug": "sub-agents-and-teams",
+          "title": "Sub-Agents and Agent Teams",
+          "e": "👥"
+        }
+      ],
+      "conceptCount": 6,
+      "added": "2026-11-26"
     }
   ]
 }

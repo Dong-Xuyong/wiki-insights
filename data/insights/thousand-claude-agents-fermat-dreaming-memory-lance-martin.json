@@ -1,0 +1,50 @@
+{
+  "slug": "thousand-claude-agents-fermat-dreaming-memory-lance-martin",
+  "sections": [
+    {
+      "title": "The 1,000-agent proof",
+      "items": [
+        {
+          "e": "🧮",
+          "q": "What did Anthropic's 1,000-agent team formalize?",
+          "a": "**Fermat's Last Theorem** in Lean, in about **30 hours**, with **no domain-specific harness** and no human steering on the solution."
+        },
+        {
+          "e": "🗄️",
+          "q": "What tools did each of the 1,000 agents get?",
+          "a": "Its own **locked-down sandbox** plus access to just **Git and a SQL database**, with every tool call monitored."
+        }
+      ]
+    },
+    {
+      "title": "Self-organising teams",
+      "items": [
+        {
+          "e": "📋",
+          "q": "What did the lead agent do five minutes into the run?",
+          "a": "It **invented its own coordination tables** (announcements, role assignments, notes, subtasks, landed work) without being told to."
+        },
+        {
+          "e": "🧩",
+          "q": "What is the lesson for building multi-agent systems?",
+          "a": "Strong agents need **simple shared primitives**, not elaborate scaffolding; put the effort into **sandboxing and monitoring**."
+        }
+      ]
+    },
+    {
+      "title": "Memory and dreaming",
+      "items": [
+        {
+          "e": "🔁",
+          "q": "What is the paradox of agent memory?",
+          "a": "Agents **write myopically** mid-task, but memory must be **globally coherent and non-redundant** to be useful later."
+        },
+        {
+          "e": "🌙",
+          "q": "What does 'dreaming' do for Claude's memory?",
+          "a": "Offline passes **fix poisoned notes**, **build wikis** and **promote key memories** into injected context; wiki plus search beat search alone."
+        }
+      ]
+    }
+  ]
+}
