@@ -1,0 +1,75 @@
+{
+  "slug": "hacker-hunts-predators-before-you-get-hacked-ryan-montgomery-doac",
+  "sections": [
+    {
+      "title": "What gets exposed",
+      "items": [
+        {
+          "e": "🕵️",
+          "q": "What did the hacker find on Bartlett in 20 minutes?",
+          "a": "An old email, a gym from 12 years ago and **old passwords from data breaches**."
+        },
+        {
+          "e": "📦",
+          "q": "How big was the National Public Data breach?",
+          "a": "About **2.8 billion records**, so most adults over 30 likely have a full address history and ID numbers out there."
+        },
+        {
+          "e": "🔌",
+          "q": "What worries him about cheap connected devices?",
+          "a": "Almost all he examined **communicate with China**, which concerns him more than phone eavesdropping."
+        }
+      ]
+    },
+    {
+      "title": "Cheap defences",
+      "items": [
+        {
+          "e": "🧊",
+          "q": "What does a credit freeze do?",
+          "a": "It only **stops new cards, loans or mortgages** being opened in your name, and costs nothing."
+        },
+        {
+          "e": "🔑",
+          "q": "Which account protection does he rely on?",
+          "a": "**Hardware security keys** (YubiKey) wherever supported, plus Apple Advanced Data Protection and lockdown mode."
+        },
+        {
+          "e": "🛡️",
+          "q": "What basics does he recommend?",
+          "a": "A **VPN** and **antivirus even on a Mac**, since Mac just has a different attack surface."
+        },
+        {
+          "e": "🗑️",
+          "q": "Can you erase your leaked data?",
+          "a": "You can **opt out of data brokers**, but you cannot remove breached data from a hacker’s drive."
+        },
+        {
+          "e": "🤖",
+          "q": "Why does he distrust Android?",
+          "a": "Third-party installs can bring **remote access Trojans**; he calls the iPhone safer."
+        }
+      ]
+    },
+    {
+      "title": "Protecting children",
+      "items": [
+        {
+          "e": "👪",
+          "q": "What is the 764 network?",
+          "a": "A **nihilistic online extortion group and offshoots** that groom bullied, isolated children on every platform."
+        },
+        {
+          "e": "🚫",
+          "q": "Why does he refuse to name the groups?",
+          "a": "**Notoriety is what they want**, so naming them feeds the harm."
+        },
+        {
+          "e": "🏛️",
+          "q": "How big is the FBI response?",
+          "a": "Public reports cite **500+ targets** and **58 field offices** mobilised."
+        }
+      ]
+    }
+  ]
+}

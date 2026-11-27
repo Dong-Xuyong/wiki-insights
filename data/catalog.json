@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 544,
-  "insightsCount": 531,
-  "conceptCount": 3579,
+  "videoCount": 546,
+  "insightsCount": 533,
+  "conceptCount": 3586,
   "sections": [
     {
       "id": "architecture",
@@ -55,11 +55,11 @@
     "agents": 147,
     "systems": 33,
     "build": 65,
-    "human": 26,
+    "human": 27,
     "performance": 68,
     "mind": 47,
     "relationships": 72,
-    "other": 80
+    "other": 81
   },
   "videos": [
     {
@@ -42777,6 +42777,129 @@
       ],
       "conceptCount": 6,
       "added": "2026-11-26"
+    },
+    {
+      "slug": "hacker-hunts-predators-before-you-get-hacked-ryan-montgomery-doac",
+      "title": "The Hacker Who Hunts Predators: Do These 3 Things Before You Get Hacked! | Ryan \\\"0day\\\" Montgomery",
+      "video_id": "Uj81Qo15wBc",
+      "platform": "youtube",
+      "url": "https://youtu.be/Uj81Qo15wBc",
+      "duration_min": 105,
+      "creator": "the-diary-of-a-ceo",
+      "updated": "2026-11-27",
+      "created": "2026-11-27",
+      "section": "other",
+      "tags": [
+        "security",
+        "privacy",
+        "scams",
+        "diary-of-a-ceo"
+      ],
+      "keywords": [
+        "security",
+        "privacy",
+        "scams",
+        "diary-of-a-ceo",
+        "diary of a ceo",
+        "the diary of a ceo",
+        "Baseline Account Hardening",
+        "Breach Exposure and Credit Freeze"
+      ],
+      "summary": "Ethical hacker Ryan \"0day\" Montgomery, who works on child-crime and trafficking cases, tells Steven Bartlett that almost everything can be hacked. He opens by pulling Bartlett's old email, a gym he used 12 years ago and old passwords out of data breaches in 20 minutes, and demonstrates cheap attack gadgets (a Wi-Fi/Bluetooth attacker, a camera and doorbell jammer, a drone hacker, a malicious charging cable). He says most cheap connected devices phone home to China and worries about that more than phone eavesdropping.\n\nHis practical advice is cheap and modest: use a VPN, run antivirus even on a Mac, check whether you are in the 2.8-billion-record National Public Data breach and freeze your credit, use Apple's Advanced Data Protection and lockdown mode, and use hardware security keys (YubiKey) wherever supported. You can remove yourself from public data brokers but you cannot remove breached data from a hacker's drive. The second half is a dark, parent-focused warning about the \"764\" nihilistic network and its offshoots that groom and extort vulnerable children across all platforms (the FBI has said it has 500+ targets and mobilised 58 field offices); he refuses to name groups or users because notoriety is what they want.",
+      "key_insights": [
+        "breach exposure credit freeze: assume your data is in a breach; freezing credit blocks new accounts and loans in your name at no cost.",
+        "baseline account hardening: VPN, antivirus on every OS, hardware keys, lockdown or advanced-protection modes.",
+        "Data brokers can be opted out of, breaches cannot be undone.",
+        "Cheap Amazon cameras and IoT gadgets are a risk; many communicate abroad.",
+        "Sideloaded Android apps can carry remote access Trojans (his view: iPhone is safer).",
+        "Parents: the 764 network targets bullied, isolated children; do not amplify group names.",
+        "Off-goal for Dong's plan; ingested because Diary of a CEO is an always-ingest channel."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "baseline-account-hardening",
+          "title": "Baseline Account Hardening"
+        },
+        {
+          "slug": "breach-exposure-credit-freeze",
+          "title": "Breach Exposure and Credit Freeze"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-27"
+    },
+    {
+      "slug": "learn-better-create-future-tim-ferriss-huberman-essentials",
+      "title": "Essentials: How to Learn Better & Create Your Best Future | Tim Ferriss",
+      "video_id": "KVDs3-zuTyo",
+      "platform": "youtube",
+      "url": "https://youtu.be/KVDs3-zuTyo",
+      "duration_min": 37,
+      "creator": "andrew-huberman",
+      "updated": "2026-11-27",
+      "created": "2026-11-27",
+      "section": "human",
+      "tags": [
+        "habits",
+        "deep-work",
+        "mentorship",
+        "planning",
+        "huberman-lab"
+      ],
+      "keywords": [
+        "habits",
+        "deep-work",
+        "mentorship",
+        "planning",
+        "huberman-lab",
+        "deep work",
+        "huberman lab",
+        "andrew huberman",
+        "Luck Surface Area",
+        "Past Year Review",
+        "Patchwork Mentorship",
+        "Weekly Goal Assessment",
+        "Weekly Mind Allocation"
+      ],
+      "summary": "A Huberman Lab Essentials cut of Andrew Huberman's conversation with Tim Ferriss. Ferriss explains how he researched *The 4-Hour Body*: stress-test any field's \"always/never\" dogmas, look at technology only small groups use (early wearables, continuous glucose monitors), and ask three questions of experts: what are the nerds doing on weekends and at night, what are rich people doing now that hundreds of millions may do in ten years, and where are people cobbling together awkward solutions. The future is \"already here, just not evenly distributed\", so he is finding germinating seeds rather than predicting.\n\nOn process, he records almost everything in writing (hypergraphia), splits the day into ingestion (interviews, reading), body (training and self-experiments), then synthesis, and writes in the late-night window of roughly 10 pm to 4 am, riding the wave when in the zone and sleeping when not. He argues for moving, for a season, to a dense hub (San Francisco, New York, even Ottawa or Pittsburgh) and volunteering generously at events: carrying water and checking badges raised his surface area for luck.\n\nFor planning, he does a yearly past year review: a plus/minus page across every calendar week, listing people, places and activities that gave peak positive or negative emotion, producing a do-more / do-less list that goes straight into the calendar (\"the urgent will crush the important\"). Weekly rhythm then batches similar tasks (Monday admin, exercise after lunch) to cut task-switching. He avoids asking anyone to be a \"mentor\", learns something from almost anyone, and borrows temperaments (\"what would Matt do?\") plus paid accountability from coaches and therapists. He closes on turning pain into medicine: his own depression history is why some people trust him.",
+      "key_insights": [
+        "past year review: plus/minus page over every week of last year, then a do-more / do-less list scheduled into the calendar.",
+        "luck surface area: live in or visit a dense hub, volunteer beyond the minimum, and serendipity compounds.",
+        "weekly mind allocation: themed days and batched work reduce task-switching; put important things on the calendar first.",
+        "Ask experts what nerds do at night, what the rich do now that the masses will do later, and where awkward workarounds exist.",
+        "Stress-test any claim stated in absolutes (\"always\", \"never\").",
+        "Do not ask someone to \"be your mentor\"; ask for something specific and learn from anyone (Patchwork Mentorship is the related idea).",
+        "Writers who escaped velocity mostly wrote very late at night or very early morning.",
+        "Pain can become a gift for one person at a time; he stresses calling a suicide hotline if you are in that place."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "luck-surface-area",
+          "title": "Luck Surface Area"
+        },
+        {
+          "slug": "past-year-review",
+          "title": "Past Year Review"
+        },
+        {
+          "slug": "patchwork-mentorship",
+          "title": "Patchwork Mentorship",
+          "e": "🧵"
+        },
+        {
+          "slug": "weekly-goal-assessment",
+          "title": "Weekly Goal Assessment",
+          "e": "📅"
+        },
+        {
+          "slug": "weekly-mind-allocation",
+          "title": "Weekly Mind Allocation"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-27"
     }
   ]
 }
