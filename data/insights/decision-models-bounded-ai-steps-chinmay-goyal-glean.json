@@ -1,0 +1,75 @@
+{
+  "slug": "decision-models-bounded-ai-steps-chinmay-goyal-glean",
+  "sections": [
+    {
+      "title": "Decisions, not generation",
+      "items": [
+        {
+          "e": "🎯",
+          "q": "What does Glean say most AI product steps really are?",
+          "a": "**Bounded decisions**, such as intent classification, expert routing, ranking and citation checks, **not generation problems**."
+        },
+        {
+          "e": "💸",
+          "q": "What was Glean doing wrong before?",
+          "a": "Paying **full LLM cost and latency** for answers that are really **yes/no or pick-one-of-N**."
+        },
+        {
+          "e": "🧪",
+          "q": "How did Jev compare with Llama on query classification?",
+          "a": "It nearly **doubled base Llama quality** and reached about **90% of a fine-tuned Llama** with **no training**."
+        }
+      ]
+    },
+    {
+      "title": "Results in production",
+      "items": [
+        {
+          "e": "⚡",
+          "q": "What did a decision model do for expert routing?",
+          "a": "Higher precision at about **8x lower latency**, worth the extra infrastructure."
+        },
+        {
+          "e": "✅",
+          "q": "How did the suggestion ranker improve?",
+          "a": "On time in **99.2%** of cases versus ~90%, with **zero invalid outputs**."
+        },
+        {
+          "e": "🎚️",
+          "q": "Why do per-option probabilities matter?",
+          "a": "They let **thresholds be tuned per customer**, even by a **self-tuning system**."
+        },
+        {
+          "e": "🔁",
+          "q": "Why did decision-model judges speed up development?",
+          "a": "Citation checks were **consistent across runs**, so you **don't repeat experiments**."
+        },
+        {
+          "e": "🛡️",
+          "q": "What happened to the security classifier's recall?",
+          "a": "It rose from **31.5% to 90.2%** and removed **per-tenant GPU hosting**."
+        }
+      ]
+    },
+    {
+      "title": "Choosing the model",
+      "items": [
+        {
+          "e": "📝",
+          "q": "What is Glean's one-question rule?",
+          "a": "**Can the output be listed in advance?** No: use an LLM. Yes: use a **decision model**."
+        },
+        {
+          "e": "🏷️",
+          "q": "When is fine-tuning a classifier still worth it?",
+          "a": "Only when **labels are stable and volume is high**; changing taxonomies favour **editing a prompt**."
+        },
+        {
+          "e": "🚦",
+          "q": "How does Glean roll out AI changes safely?",
+          "a": "A **golden eval set**, a **multi-week internal soak**, then **A/B tests** with customers."
+        }
+      ]
+    }
+  ]
+}

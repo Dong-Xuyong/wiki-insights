@@ -1,0 +1,65 @@
+{
+  "slug": "cloudflare-neolab-system-1-models-michelle-chen",
+  "sections": [
+    {
+      "title": "From CDN to neolab",
+      "items": [
+        {
+          "e": "🌍",
+          "q": "What was Workers AI's original bet?",
+          "a": "That **models would get smaller**, so **network latency** near the user would matter most."
+        },
+        {
+          "e": "📈",
+          "q": "What happened instead?",
+          "a": "Models grew to **trillions of parameters**, so Cloudflare pivoted to **serving giant open models**."
+        },
+        {
+          "e": "🌬️",
+          "q": "What was the 'east wind' for Cloudflare?",
+          "a": "TypeSafe's **Jev** launched **System 1 models**, making **small, fast models** valuable again."
+        },
+        {
+          "e": "🏃",
+          "q": "How fast did Cloudflare ship its own models?",
+          "a": "It trained **Clef in a 48-hour weekend** and shipped **four models in three weeks**."
+        }
+      ]
+    },
+    {
+      "title": "Clef and Cleric",
+      "items": [
+        {
+          "e": "⚖️",
+          "q": "What is Clef for?",
+          "a": "**Fast decisions** in one forward pass, so agents can act **without long LLM reasoning or a human in the loop**."
+        },
+        {
+          "e": "📥",
+          "q": "What does Cleric do?",
+          "a": "It turns **unstructured input** like emails, logs or images into **typed JSON** agents can use."
+        }
+      ]
+    },
+    {
+      "title": "System 1 plus System 2",
+      "items": [
+        {
+          "e": "✂️",
+          "q": "How did System 1 models shrink a CI-triage agent's work?",
+          "a": "**Clef Flash pruned 40 tools to 10** and **Cleric pulled the exact error** from the logs before **one LLM call**."
+        },
+        {
+          "e": "📉",
+          "q": "What did the CI-triage demo save?",
+          "a": "Same answer, about **2x faster**, **72% cheaper** and **94% fewer tokens**."
+        },
+        {
+          "e": "🤝",
+          "q": "Do System 1 models replace LLMs?",
+          "a": "No, they **take cheap work off the LLM** so it is **reserved for meaningful reasoning**."
+        }
+      ]
+    }
+  ]
+}

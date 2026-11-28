@@ -1,8 +1,8 @@
 {
   "generated": true,
-  "videoCount": 546,
-  "insightsCount": 533,
-  "conceptCount": 3586,
+  "videoCount": 551,
+  "insightsCount": 538,
+  "conceptCount": 3604,
   "sections": [
     {
       "id": "architecture",
@@ -52,14 +52,14 @@
   ],
   "sectionCounts": {
     "architecture": 6,
-    "agents": 147,
+    "agents": 148,
     "systems": 33,
     "build": 65,
     "human": 27,
     "performance": 68,
     "mind": 47,
-    "relationships": 72,
-    "other": 81
+    "relationships": 73,
+    "other": 84
   },
   "videos": [
     {
@@ -42900,6 +42900,295 @@
       ],
       "conceptCount": 5,
       "added": "2026-11-27"
+    },
+    {
+      "slug": "cloudflare-neolab-system-1-models-michelle-chen",
+      "title": "Why Cloudflare Became a Neolab — Michelle Chen, Cloudflare",
+      "video_id": "cYcYfM9Mvwo",
+      "platform": "youtube",
+      "url": "https://youtu.be/cYcYfM9Mvwo",
+      "duration_min": 20,
+      "creator": "ai-engineer",
+      "updated": "2026-11-28",
+      "created": "2026-11-28",
+      "section": "other",
+      "tags": [
+        "agents",
+        "llm",
+        "infrastructure",
+        "cost"
+      ],
+      "keywords": [
+        "agents",
+        "llm",
+        "infrastructure",
+        "cost",
+        "ai engineer",
+        "Context Optimizer Pruning",
+        "Structured Extraction Model",
+        "System 1 + System 2 Agent Pipeline",
+        "System 1 Decision Models"
+      ],
+      "summary": "michelle chen, group PM for Workers AI at cloudflare, tells how a 16-year-old CDN became a neolab. Cloudflare's edge network grew compute (Workers 2017, Durable Objects, containers in 2025) and storage (KV, R2, D1). In 2023 it put GPUs in the network with Workers AI, betting that models would get smaller so network latency would matter. Instead models grew from 7B to trillions of parameters, so in March 2026 Cloudflare pivoted to serving giant open models (Kimi, GLM, DeepSeek) for its 'agent cloud', though it never quite fit the infrastructure.\n\nThe 'east wind' came in September 2026 when typesafe launched Jev and the idea of system 1 decision models: one forward pass to make a decision instead of slow autoregressive generation. Small fast models made network latency matter again, so Cloudflare 'wasn't wrong, just early'. Because Jev was closed, Cloudflare trained its own decision model Clef over a 48-hour weekend and shipped four models in three weeks, including Cleric, a structured extraction model that turns emails, tweets, logs or images into typed JSON.\n\nHer demo is the system 1 system 2 agent pipeline: a CI-triage agent with 40 tools normally makes five LLM round-trips carrying every tool. With Clef Flash pruning tools to 10, Cleric extracting the PR number and the exact error from the logs, plain code making the API calls and one final LLM call, it got the same answer about 2x faster, 72% cheaper, with 94% fewer tokens (40,000 to 1,800). The lesson: be reactive, and when you're missing a piece, a neolab can build it.",
+      "key_insights": [
+        "Cloudflare bet models would shrink; they grew, so it pivoted to serving trillion-parameter open models.",
+        "System 1 decision models (one forward pass) made small, fast, edge-served models relevant again: 'not wrong, just early'.",
+        "Cloudflare trained its Clef decision model in a 48-hour weekend and shipped four models in three weeks.",
+        "Cleric extracts typed JSON from unstructured input (emails, logs, images) so agents can read cheaply.",
+        "In a CI-triage agent, Clef pruned 40 tools to 10 and Cleric pulled the exact error from the logs before one LLM call.",
+        "Result: same answer, ~2x faster, 72% cheaper, 5 LLM calls to 1, 94% fewer tokens.",
+        "System 1 models augment LLMs; reserve the LLM for meaningful reasoning."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "context-optimizer-pruning",
+          "title": "Context Optimizer Pruning"
+        },
+        {
+          "slug": "structured-extraction-model",
+          "title": "Structured Extraction Model"
+        },
+        {
+          "slug": "system-1-system-2-agent-pipeline",
+          "title": "System 1 + System 2 Agent Pipeline"
+        },
+        {
+          "slug": "system-1-decision-models",
+          "title": "System 1 Decision Models"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-28"
+    },
+    {
+      "slug": "decision-models-bounded-ai-steps-chinmay-goyal-glean",
+      "title": "Stop Paying LLM Prices for Yes-or-No Answers — Chinmay Goyal, Glean",
+      "video_id": "K5_ST-kMrvY",
+      "platform": "youtube",
+      "url": "https://youtu.be/K5_ST-kMrvY",
+      "duration_min": 16,
+      "creator": "ai-engineer",
+      "updated": "2026-11-28",
+      "created": "2026-11-28",
+      "section": "other",
+      "tags": [
+        "agents",
+        "llm",
+        "evals",
+        "cost"
+      ],
+      "keywords": [
+        "agents",
+        "llm",
+        "evals",
+        "cost",
+        "ai engineer",
+        "Can the Output Be Listed in Advance?",
+        "Capability vs Regression Evals",
+        "LLM Token Cost Reduction",
+        "System 1 Decision Models"
+      ],
+      "summary": "chinmay goyal of glean argues that most AI product steps are bounded decisions, not generation: classifying a query's intent, routing to the right expert, picking the best of N suggestions, checking whether a cited document supports a claim. Glean had been paying full LLM cost and latency for all of them. It compared a general LLM, an open Llama, a fine-tuned Llama and typesafe's Jev decision model, and rolled changes out through a golden eval set, a multi-week internal soak with ~1,500 employees, and then A/B tests with customers.\n\nResults, all in system 1 decision models: on query classification Jev nearly doubled base Llama quality and reached ~90% of a fine-tuned Llama with no training; expert routing got higher precision at about 8x lower latency (worth the extra infrastructure, a rare case where Glean accepts complexity); the follow-up-suggestion ranker met its 1.5-2 s budget in 99.2% of cases (LLM ~90%) with zero invalid outputs, and per-option probabilities let a self-tuning threshold adapt to each customer; LLM-as-judge citation checks became consistent and reproducible, so experiments need no repeated runs; and the first-phase security classifier's recall rose from 31.5% to 90.2% while removing the T4 GPUs and engineers needed to host it per tenant.\n\nHis closing rule is the list outputs in advance rule: if the output can't be listed in advance, use a generative LLM; if it can, use a decision model; fine-tune only when labels are stable and volume high, which is rare now.",
+      "key_insights": [
+        "Most AI product steps (intent, routing, ranking, citation checks, screening) are bounded decisions, not generation.",
+        "Jev reached ~90% of a fine-tuned Llama with no training and nearly doubled base Llama quality on query classification.",
+        "Expert routing ran at about 8x lower latency with higher precision.",
+        "Follow-up ranking met its latency budget 99.2% of the time with zero invalid outputs; per-option probabilities enable self-tuning thresholds per customer.",
+        "Decision-model judges were consistent across runs, so evals don't need repeats and developer speed compounds.",
+        "Security classifier recall went from 31.5% to 90.2% and dropped per-tenant GPU hosting.",
+        "Rule: can the output be listed in advance? If not, LLM; if yes, decision model; fine-tune only for stable labels at high volume."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "list-outputs-in-advance-rule",
+          "title": "Can the Output Be Listed in Advance?"
+        },
+        {
+          "slug": "capability-vs-regression-evals",
+          "title": "Capability vs Regression Evals"
+        },
+        {
+          "slug": "llm-token-cost-reduction",
+          "title": "LLM Token Cost Reduction"
+        },
+        {
+          "slug": "system-1-decision-models",
+          "title": "System 1 Decision Models"
+        }
+      ],
+      "conceptCount": 4,
+      "added": "2026-11-28"
+    },
+    {
+      "slug": "openai-pando-scaling-git-primetime",
+      "title": "Scaling Slop",
+      "video_id": "a08FsiUbXqI",
+      "platform": "youtube",
+      "url": "https://youtu.be/a08FsiUbXqI",
+      "duration_min": 13,
+      "creator": "the-primetime",
+      "updated": "2026-11-28",
+      "created": "2026-11-28",
+      "section": "other",
+      "tags": [
+        "git",
+        "systems",
+        "scaling",
+        "agents"
+      ],
+      "keywords": [
+        "git",
+        "systems",
+        "scaling",
+        "agents",
+        "the primetime",
+        "Git and Database Agent Coordination",
+        "Relaxed-Constraint Git Server"
+      ],
+      "summary": "the primetime reads openai's post on Pando, its in-house Git server built because GitHub is slow and unreliable when thousands of things push per hour (Cursor built its own a month earlier). He first explains Git: clients and servers exchange pack files; a push negotiates what the server already has and sends a minimal pack; GitHub-style servers commit with a three-phase commit whose repo-wide lock blocks every other push, even to unrelated branches. In a 10,000-push simulation Pando finishes far ahead of three-phase commit and an object-store write-ahead log.\n\nPando is a relaxed constraint git server. It drops repo-wide consistency (it never mattered if a side branch was a second stale) and unique minimal packs per client: non-trunk pushes just send everything, the server decodes and stores the pack as-is in a shardable metadata store and later hands back a pack-file URI to that exact pack, with duplicates deduped by compaction. It locks per branch, since Git's immutability lets branches update independently. Written in Rust and verified with Lean. Prime's take: the network is rarely the bottleneck, disk reads and CPU are; spending 500 ms to save 8 KB is a bad trade.",
+      "key_insights": [
+        "Agents pushing thousands of times an hour broke GitHub-style Git hosting, so Cursor and OpenAI built their own servers.",
+        "Three-phase commit's repo-wide lock blocks unrelated branch pushes.",
+        "Pando relaxes repo-wide consistency and unique minimal pack files per client.",
+        "Pushes are stored as-is and served back by pack-file URI; compaction dedupes later.",
+        "Per-branch locking works because Git objects are immutable.",
+        "Network is rarely the bottleneck; disk and CPU are, so sending more bytes can be faster."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "git-database-agent-coordination",
+          "title": "Git and Database Agent Coordination"
+        },
+        {
+          "slug": "relaxed-constraint-git-server",
+          "title": "Relaxed-Constraint Git Server"
+        }
+      ],
+      "conceptCount": 2,
+      "added": "2026-11-28"
+    },
+    {
+      "slug": "qvc-selling-secrets-affiliate-tiktok-simon-squibb",
+      "title": "Once You Understand This, Selling Online Becomes Incredibly Easy",
+      "video_id": "b7otxiA6Qpk",
+      "platform": "youtube",
+      "url": "https://youtu.be/b7otxiA6Qpk",
+      "duration_min": 15,
+      "creator": "simon-squibb",
+      "updated": "2026-11-28",
+      "created": "2026-11-28",
+      "section": "relationships",
+      "tags": [
+        "selling",
+        "business",
+        "money",
+        "speaking"
+      ],
+      "keywords": [
+        "selling",
+        "business",
+        "money",
+        "speaking",
+        "simon squibb",
+        "Sell Someone Else's Product First",
+        "Specificity in Storytelling",
+        "Story, Product, Close"
+      ],
+      "summary": "simon squibb argues the biggest no-money opportunity is selling other people's products. qvc (founded 1986, 7.6 million viewers in its first week, now the third-biggest retailer) invented nothing: it leveraged TV and sold. Behind the scenes, presenters say the magic is authenticity and selling a story: people buy into the host ('people forget features, but they remember stories'), and a host never sells alone but with a producer in the ear, camera and live sales data.\n\nHis first TikTok Shop live with a QVC host got 303,000 impressions and zero sales: nobody closed and there was no reason to buy now. Watching QVC producers count down stock showed the fix, and solo sellers need a dashboard to notice after five minutes that nothing is selling and change approach. He then gives a stranger a 7-day challenge to sell his coffee as an affiliate using story product close selling: tell your story, describe the product honestly, close with a deal. His all-day live missed its 10,000-can target but won 260 new customers, and he frames the whole thing as affiliate first selling: learn to sell before you make.",
+      "key_insights": [
+        "Entrepreneurship is leverage and selling, not invention: QVC invented nothing.",
+        "People forget features but remember stories; link the product to a real moment in your life.",
+        "Make the buyer imagine using it ('on the way to the gym, on the way to work').",
+        "No close, no sales: 303,000 impressions and zero sales without a reason to buy now.",
+        "Selling is a team sport (host, producer, data); solo, use a live dashboard and adjust within minutes.",
+        "With no money, affiliate-sell a product you genuinely use before making your own."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "affiliate-first-selling",
+          "title": "Sell Someone Else's Product First"
+        },
+        {
+          "slug": "specificity-in-storytelling",
+          "title": "Specificity in Storytelling",
+          "e": "🔍"
+        },
+        {
+          "slug": "story-product-close-selling",
+          "title": "Story, Product, Close"
+        }
+      ],
+      "conceptCount": 3,
+      "added": "2026-11-28"
+    },
+    {
+      "slug": "tech-trends-2027-slop-maintainer-fireship",
+      "title": "The wild world of tech in 2027...",
+      "video_id": "sPGzM3ktJVE",
+      "platform": "youtube",
+      "url": "https://youtu.be/sPGzM3ktJVE",
+      "duration_min": 12,
+      "creator": "fireship",
+      "updated": "2026-11-28",
+      "created": "2026-11-28",
+      "section": "agents",
+      "tags": [
+        "career",
+        "ai",
+        "trends",
+        "security"
+      ],
+      "keywords": [
+        "career",
+        "ai",
+        "trends",
+        "security",
+        "fireship",
+        "Disposable vs Durable Software",
+        "Harness Engineering",
+        "Slop Asymmetry",
+        "Slop Maintainer",
+        "Third-Party Script Supply-Chain Risk"
+      ],
+      "summary": "fireship's Code Report lists 10 trends for 2027. Jobs: entry-level postings are only ~4.5% of US software jobs and developers aged 22-25 are down 20% from peak, yet postings are rising again because there's more code to maintain than ever, giving rise to the slop maintainer who notices the tests pass because the agent deleted them. Open source is flooded with AI pull requests (some projects ban AI; Tailwind lost docs traffic). Disposable software lets anyone rebuild a $69/month SaaS with Claude, and zero-dependency minimalism grows after npm supply-chain attacks and slopsquatting on hallucinated package names.\n\nAfter 2026's year of agents, he calls 2027 the year of the harness: frontier models feel interchangeable, so value moves to specialised Harness Engineering for law, medicine and manufacturing. Then RAMageddon (32 GB DDR5 from under $100 to over $400), self-hosting on rented VPS (sponsor segment), data centers in space, a vulnerability hunger games as Claude Mythos and GPT-6 Cyber find thousands of bugs while Curl closes its bug bounty to AI slop, and humanoid robots (about 50,000 shipped this year).",
+      "key_insights": [
+        "Entry-level developer hiring has collapsed, but demand for engineers who maintain AI-generated code is rising.",
+        "The most valuable engineer catches the agent deleting failing tests.",
+        "Disposable software threatens small SaaS and dev tools.",
+        "npm attacks and slopsquatting push developers to zero-dependency minimalism.",
+        "With frontier models interchangeable, 2027 is the year of the domain-specific harness.",
+        "AI finds vulnerabilities at scale while AI slop floods bug bounties."
+      ],
+      "has_insights": true,
+      "concepts": [
+        {
+          "slug": "disposable-vs-durable-software",
+          "title": "Disposable vs Durable Software"
+        },
+        {
+          "slug": "harness-engineering",
+          "title": "Harness Engineering",
+          "e": "🪢"
+        },
+        {
+          "slug": "slop-asymmetry",
+          "title": "Slop Asymmetry"
+        },
+        {
+          "slug": "slop-maintainer",
+          "title": "Slop Maintainer"
+        },
+        {
+          "slug": "third-party-script-supply-chain-risk",
+          "title": "Third-Party Script Supply-Chain Risk"
+        }
+      ],
+      "conceptCount": 5,
+      "added": "2026-11-28"
     }
   ]
 }

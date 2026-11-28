@@ -1,0 +1,55 @@
+{
+  "slug": "openai-pando-scaling-git-primetime",
+  "sections": [
+    {
+      "title": "Why a new Git server",
+      "items": [
+        {
+          "e": "🐌",
+          "q": "Why did OpenAI build its own Git server?",
+          "a": "GitHub is **slow and unreliable** when **thousands of agent pushes** land per hour."
+        },
+        {
+          "e": "🔒",
+          "q": "What slows a GitHub-style push?",
+          "a": "The **three-phase commit's repo-wide lock**, which blocks pushes even to **unrelated branches**."
+        }
+      ]
+    },
+    {
+      "title": "How Pando works",
+      "items": [
+        {
+          "e": "🧩",
+          "q": "Which two constraints does Pando relax?",
+          "a": "**Repo-wide consistency** and a **unique minimal pack file** for every client."
+        },
+        {
+          "e": "📦",
+          "q": "How does Pando store a push?",
+          "a": "It **stores the pack as-is** and later serves a **pack-file URI**; **compaction dedupes** later."
+        },
+        {
+          "e": "🌿",
+          "q": "Why can Pando lock per branch?",
+          "a": "Git objects are **immutable**, so **branches update independently**."
+        }
+      ]
+    },
+    {
+      "title": "The lesson",
+      "items": [
+        {
+          "e": "🌐",
+          "q": "What is usually the real bottleneck in Git hosting?",
+          "a": "**Disk and CPU**, not the network, so sending **more bytes** can be **faster**."
+        },
+        {
+          "e": "✅",
+          "q": "How was Pando's correctness checked?",
+          "a": "Written in **Rust** and **formally verified with Lean**."
+        }
+      ]
+    }
+  ]
+}

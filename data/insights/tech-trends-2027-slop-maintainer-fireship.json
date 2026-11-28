@@ -1,0 +1,55 @@
+{
+  "slug": "tech-trends-2027-slop-maintainer-fireship",
+  "sections": [
+    {
+      "title": "Jobs in 2027",
+      "items": [
+        {
+          "e": "🧹",
+          "q": "What role replaces the classic junior developer job?",
+          "a": "The **slop maintainer**, who **cleans up AI-generated code**."
+        },
+        {
+          "e": "🕵️",
+          "q": "What is the most valuable engineering instinct in 2027?",
+          "a": "Noticing the **tests pass because the agent deleted the failing ones**."
+        },
+        {
+          "e": "📉",
+          "q": "How bad is entry-level hiring?",
+          "a": "Only about **4.5%** of US software postings are entry level; ages 22-25 are **down 20%**."
+        }
+      ]
+    },
+    {
+      "title": "Software and supply chain",
+      "items": [
+        {
+          "e": "🗑️",
+          "q": "Why is small SaaS under threat?",
+          "a": "**Disposable software**: anyone can have AI **build a cheap clone** instead of paying monthly."
+        },
+        {
+          "e": "📦",
+          "q": "What is slopsquatting?",
+          "a": "Attackers **register package names LLMs hallucinate**; about **20%** of AI-recommended packages don't exist."
+        }
+      ]
+    },
+    {
+      "title": "AI trends",
+      "items": [
+        {
+          "e": "🧰",
+          "q": "Why does Fireship call 2027 the year of the harness?",
+          "a": "Frontier models feel **interchangeable**, so value moves to **specialised harnesses** per domain."
+        },
+        {
+          "e": "🐛",
+          "q": "What is the vulnerability hunger games?",
+          "a": "AI models find **thousands of real bugs** while **AI slop reports flood** bug bounties."
+        }
+      ]
+    }
+  ]
+}
